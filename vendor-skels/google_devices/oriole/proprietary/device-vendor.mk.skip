@@ -22,7 +22,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     ro.build.expect.baseband=g5123b-143112-241107-B-12620021 \
     ro.build.expect.bootloader=slider-15.1-12292109 \
-    ro.vendor.build.svn=92 \
+    ro.vendor.build.svn=94 \
     ro.surface_flinger.game_default_frame_rate_override=60 \
     vendor.battery_mitigation.aidl.enable=true \
     persist.vendor.ril.use_radio_hal=1.6 \
@@ -34,7 +34,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     media.mediadrmservice.enable=true \
     ro.vendor.dolby.dax.version=DAX3_G_3.7.3.0_r1
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/oriole/oriole:15/AP4A.250105.002/12701944:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/oriole/oriole:15/AP4A.250205.002/12821496:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

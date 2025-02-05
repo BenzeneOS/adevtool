@@ -26,7 +26,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     ro.build.expect.baseband=g5300i-240919-241106-B-12612898 \
     ro.build.expect.bootloader=ripcurrent-15.1-12474670 \
-    ro.vendor.build.svn=45 \
+    ro.vendor.build.svn=47 \
     ro.surface_flinger.game_default_frame_rate_override=60 \
     drm.service.enabled=true \
     media.mediadrmservice.enable=true \
@@ -39,7 +39,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.fingerprint.ta.name=g7.app \
     ro.vendor.dolby.dax.version=DAX3_G_3.7.3.0_r1
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/husky/husky:15/AP4A.250105.002/12701944:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/husky/husky:15/AP4A.250205.002/12821496:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \
