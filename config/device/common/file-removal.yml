@@ -250,6 +250,7 @@ filters:
       # "Cross-Device Services", com.google.ambient.streaming, used for integration with ChromeOS
       - product/priv-app/AmbientStreaming/
       - product/priv-app/AndroidAutoStubPrebuilt/
+      - product/priv-app/AndroidGlassesCoreStub/
       - product/priv-app/AndroidMediaShell/
       # com.verizon.services
       - product/priv-app/AppDirectedSMSService/
@@ -271,6 +272,7 @@ filters:
       # com.android.sdm.plugins.dcmo, "Carrier OMA Device Management"
       - product/priv-app/DCMO/
       - product/priv-app/DMService/
+      - product/priv-app/PrebuiltDeskClockGoogle
       - product/priv-app/DeviceConnectivityServicePrebuilt/
       # "Private Compute Services", https://play.google.com/store/apps/details?id=com.google.android.as.oss
       - product/priv-app/DeviceIntelligenceNetworkPrebuilt

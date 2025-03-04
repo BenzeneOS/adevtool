@@ -65,6 +65,7 @@ filters:
       - android:bool/config_adaptive_sleep_available
       - android:bool/config_assistLongPressHomeEnabledDefault
       - android:bool/config_assistTouchGestureEnabledDefault
+      - android:bool/config_biometricFrrNotificationEnabled
       - android:bool/config_bugReportHandlerEnabled
       - android:bool/config_defaultRingtonePickerEnabled
       - android:bool/config_enableFusedLocationOverlay
@@ -74,11 +75,15 @@ filters:
       - android:bool/config_enableNetworkLocationOverlay
       - android:bool/config_enablePrimaryLocationTimeZoneProvider
       - android:bool/config_enableSecondaryLocationTimeZoneProvider
+      - android:bool/config_glanceableHubEnabled
       - android:bool/config_pinnerCameraApp
       - android:bool/config_pinnerHomeApp
       - android:bool/config_profcollectReportUploaderEnabled
       - android:bool/config_repairModeSupported
       - android:bool/config_safe_media_volume_enabled
+      - android:bool/config_satellite_allow_check_message_in_not_connected
+      - android:bool/config_satellite_allow_tn_scanning_during_satellite_session
+      - android:bool/config_satellite_should_notify_availability
       - android:bool/config_sendPackageName
       - android:bool/config_showGesturalNavigationHints
       - android:bool/config_smart_battery_available
@@ -86,6 +91,7 @@ filters:
       - android:bool/config_volumeAdjustmentForRemoteGroupSessions
       - android:bool/config_volumeHushGestureEnabled
       - android:drawable/ic_safety_protection
+      - android:integer-array/config_verizon_satellite_enabled_tagids
       - android:integer/config_defaultNightMode
       - android:integer/config_keyChordPowerVolumeUp
       - android:integer/config_longPressOnPowerBehavior
@@ -125,6 +131,9 @@ filters:
       - android:string-array/config_priorityOnlyDndExemptPackages
       - android:string-array/config_priorityOnlyDndExemptPackages
       - android:string-array/config_profcollectOnCameraOpenedSkipPackages # com.google.android.as
+      - android:string-array/config_rawContactsEligibleDefaultAccountTypes # com.google
+      - android:string-array/config_setRawContactsDefaultAccountKnownSigners
+      - android:string-array/config_trustedAccessibilityServices
       # first appeared in Pixel Fold 14 QPR1 image
       - android:string-array/default_wallpaper_component_per_device_color
       # set to Google Camera
@@ -199,6 +208,7 @@ filters:
       # com.google.android.gms
       - android:string/config_defaultWallet
       - android:string/config_defaultWallpaperEffectsGenerationService
+      - android:string/config_defaultWearableSensingService # com.google.android.glasses.core/com.google.android.projection.core.secure.TrustedAmbientSensingService
       - android:string/config_defaultWellbeingPackage
       - android:string/config_deviceConfiguratorPackageName
       - android:string/config_devicePolicyManagement
@@ -223,8 +233,11 @@ filters:
       - android:string/config_recentsComponentName
       - android:string/config_retailDemoPackage
       - android:string/config_retailDemoPackageSignature
+      - android:string/config_satellite_carrier_roaming_esos_provisioned_class # com.google.android.apps.stargate.registration.RegistrationReceiver_Receiver
+      - android:string/config_satellite_carrier_roaming_non_emergency_session_class # com.google.android.apps.stargate.sessionmanager.SessionManagerReceiver_Receiver
       - android:string/config_satellite_demo_mode_sos_intent_action # com.google.android.apps.stargate.ACTION_ESOS_DEMO
       - android:string/config_satellite_emergency_handover_intent_action
+      - android:string/config_satellite_nidd_apn_name
       - android:string/config_satellite_service_package
       - android:string/config_satellite_test_with_esp_replies_intent_action # com.google.android.apps.stargate.ACTION_ESOS_QUESTIONNAIRE_TEST_WITH_ESP_REPLIES
       - android:string/config_secondaryHomePackage
@@ -262,6 +275,7 @@ filters:
       - android:string/harmful_app_warning_title
       - android:string/identity_check_settings_action # com.google.android.gms.personalsafety.settings.IDENTITY_CHECK_SWITCH
       - android:string/identity_check_settings_package_name # com.google.android.gms
+      - android:string/satellite_access_config_file
       - android:string/widget_default_class_name
       - android:string/widget_default_package_name
       - com.android.networkstack/NetworkStackConfig:bool/config_dhcp_client_hostname
