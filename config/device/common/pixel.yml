@@ -8,8 +8,7 @@ device:
   system_fs_type: ext4
   kernel_repo_url: https://android.googlesource.com/kernel/gs
   has_cellular: true
-
-  build_id: AP4A.250205.002
+  build_id: BP1A.250305.019
 
 platform:
   sepolicy_dirs:
