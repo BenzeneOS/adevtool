@@ -411,3 +411,49 @@ comet BP21.241018.009:
   factory: 35753d3ac58a6b470c9da0aaf37f2b5ace27ccca994fbb0e507fb08f763592af https://dl.google.com/developers/android/baklava/images/factory/comet_beta-bp21.241018.009-factory-35753d3a.zip
   ota: 917c1e56d1112f404016336e63980c29fa34f9d8e1ed124fc01f8237dea1d91f https://dl.google.com/developers/android/baklava/images/ota/comet_beta-ota-bp21.241018.009-917c1e56.zip
 
+# 15 QPR2 Beta 3 | January 21, 2025 | January 2025 SPL
+oriole BP11.241210.004:
+  factory: 57395d1f7f37667f460d889239b8bcd09d4b5ba79e29c48211ccc38a196e6272 https://dl.google.com/developers/android/vic/images/factory/oriole_beta-bp11.241210.004-factory-57395d1f.zip
+  ota: 149380398b0d09800bfa77aec7de061c03a3adf445f1f9b5a198bdaa6759a9a4 https://dl.google.com/developers/android/vic/images/ota/oriole_beta-ota-bp11.241210.004-14938039.zip
+raven BP11.241210.004:
+  factory: 333cee7949ed5abb5e7dc8f03a09789036651bd5f2d9f223114e10caf6d0f1f6 https://dl.google.com/developers/android/vic/images/factory/raven_beta-bp11.241210.004-factory-333cee79.zip
+  ota: 097b15cec3f40678393ff0d0a1462eddafab03468693dedc6c05f56266b617ac https://dl.google.com/developers/android/vic/images/ota/raven_beta-ota-bp11.241210.004-097b15ce.zip
+bluejay BP11.241210.004:
+  factory: d9bbab4551774a85d8cb8ffb5fff5b79a8eb3d45a8b80f7b24098a442e0eb146 https://dl.google.com/developers/android/vic/images/factory/bluejay_beta-bp11.241210.004-factory-d9bbab45.zip
+  ota: 59b329bb2b6722ac2496d8e48f08a38b0fd72b03fd2a508e2d7da064d5c59790 https://dl.google.com/developers/android/vic/images/ota/bluejay_beta-ota-bp11.241210.004-59b329bb.zip
+panther BP11.241210.004:
+  factory: c033a6c1a7ac94825d9728f8dc83fbdd49f792f29f839b9bde5e5344c632a442 https://dl.google.com/developers/android/vic/images/factory/panther_beta-bp11.241210.004-factory-c033a6c1.zip
+  ota: 90527d44e69a76dbaba927caef35f3cbd10e8e836cf536500f5956ff881e9a6b https://dl.google.com/developers/android/vic/images/ota/panther_beta-ota-bp11.241210.004-90527d44.zip
+cheetah BP11.241210.004:
+  factory: 430bc8691dd36d014d3d920ce96a1cffbc5b85158339b09ea80e792a121f6e82 https://dl.google.com/developers/android/vic/images/factory/cheetah_beta-bp11.241210.004-factory-430bc869.zip
+  ota: a175edd29997b22234342b5532871768164cc22616e8d78d33ccf41972f51e3a https://dl.google.com/developers/android/vic/images/ota/cheetah_beta-ota-bp11.241210.004-a175edd2.zip
+lynx BP11.241210.004:
+  factory: 27bf17c094de7d5a90302e932e7dd89a780f5e23b52fbeb4d806ed1da2de4da0 https://dl.google.com/developers/android/vic/images/factory/lynx_beta-bp11.241210.004-factory-27bf17c0.zip
+  ota: ced7e588cbbb3d72409ef70ce7019a1a1c58cb7c2a9bc2aeebc771c22b3b85b4 https://dl.google.com/developers/android/vic/images/ota/lynx_beta-ota-bp11.241210.004-ced7e588.zip
+felix BP11.241210.004:
+  factory: ae47f06adf3a424da523d46c8fb624027d703c9ea22e2d7f37fc424149173715 https://dl.google.com/developers/android/vic/images/factory/felix_beta-bp11.241210.004-factory-ae47f06a.zip
+  ota: 2543a1287dc7ded0f320379878d1b6c78ee66ec413c3ad7492aa24e33f6f058b https://dl.google.com/developers/android/vic/images/ota/felix_beta-ota-bp11.241210.004-2543a128.zip
+tangorpro BP11.241210.004:
+  factory: 4c305ab14a04ce8c335002f85480f88cb9787754998046462dde4aa59c94911d https://dl.google.com/developers/android/vic/images/factory/tangorpro_beta-bp11.241210.004-factory-4c305ab1.zip
+  ota: 30ad49a0ab7cc5a709849db4779f7871612e96af537d46d160b5d98a9936cd0e https://dl.google.com/developers/android/vic/images/ota/tangorpro_beta-ota-bp11.241210.004-30ad49a0.zip
+shiba BP11.241210.004:
+  factory: 0d154ee62291a566292e42d1d85b0f736e2016a893277af560b9556eef2e4b34 https://dl.google.com/developers/android/vic/images/factory/shiba_beta-bp11.241210.004-factory-0d154ee6.zip
+  ota: a1bcf4f046166676abe556db517835510e80ed011c5fbdf09510a8f99cfaa75c https://dl.google.com/developers/android/vic/images/ota/shiba_beta-ota-bp11.241210.004-a1bcf4f0.zip
+husky BP11.241210.004:
+  factory: f4e86e6b76f49b8d133e02df904c32cefb8eba99ce479ebe5d26fb7982582a62 https://dl.google.com/developers/android/vic/images/factory/husky_beta-bp11.241210.004-factory-f4e86e6b.zip
+  ota: 2880960c52dfdd3708d681c06f1c05ac0d86aa09e40e811e3a3a7ef16302ba9f https://dl.google.com/developers/android/vic/images/ota/husky_beta-ota-bp11.241210.004-2880960c.zip
+akita BP11.241210.004:
+  factory: 24026d84ff6a0f207f3d66e6e4c141857d45dd071eaaf96629d170817dc79f75 https://dl.google.com/developers/android/vic/images/factory/akita_beta-bp11.241210.004-factory-24026d84.zip
+  ota: 8912c2e95bbe70077b8321d35650c587e4f67318afd0881872536f47d13dacbc https://dl.google.com/developers/android/vic/images/ota/akita_beta-ota-bp11.241210.004-8912c2e9.zip
+tokay BP11.241210.004:
+  factory: 217887f115b0f9c0bd445427d7e05ac12f653f60d50238c34804aa9c0ff28a8d https://dl.google.com/developers/android/vic/images/factory/tokay_beta-bp11.241210.004-factory-217887f1.zip
+  ota: 59a15ca6db3ef5e576ebcff0113434c44833bcc5d7f4ac091343514c6446660c https://dl.google.com/developers/android/vic/images/ota/tokay_beta-ota-bp11.241210.004-59a15ca6.zip
+caiman BP11.241210.004:
+  factory: 6d3df4b45a3d04352f29cf3095239a10fc1ff030c16e3b67304b17ead95a6c1d https://dl.google.com/developers/android/vic/images/factory/caiman_beta-bp11.241210.004-factory-6d3df4b4.zip
+  ota: 2bf3bbcfc6c3294d55769a0875b412762b987f2e43022264e4d9e6abec473238 https://dl.google.com/developers/android/vic/images/ota/caiman_beta-ota-bp11.241210.004-2bf3bbcf.zip
+komodo BP11.241210.004:
+  factory: de11a1164d3ed3de29da777c500c37c15e3388623454cc82dedc0d5369d054b8 https://dl.google.com/developers/android/vic/images/factory/komodo_beta-bp11.241210.004-factory-de11a116.zip
+  ota: d806fbe7b2f01da404d67d6ad8dc6488ca587792b5b31530cd49a7d3bbbdfc81 https://dl.google.com/developers/android/vic/images/ota/komodo_beta-ota-bp11.241210.004-d806fbe7.zip
+comet BP11.241210.004:
+  factory: 01fc7bc24d5c982987816c0a371e1e4a8296f2597ddc47c3dac19e6e05c6aa93 https://dl.google.com/developers/android/vic/images/factory/comet_beta-bp11.241210.004-factory-01fc7bc2.zip
+  ota: dc44cdf1bf1de5eac8b8ff7919c37cb0ecb134b57e85a4a0b5faca48e18ad4aa https://dl.google.com/developers/android/vic/images/ota/comet_beta-ota-bp11.241210.004-dc44cdf1.zip
