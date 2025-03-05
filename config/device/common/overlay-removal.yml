@@ -125,6 +125,7 @@ filters:
       - android:string-array/config_loggable_dream_prefixes
       - android:string-array/config_nonBlockableNotificationPackages
       - android:string-array/config_nonBlockableNotificationPackages
+      - android:string-array/config_oem_enabled_satellite_country_codes
       - android:string-array/config_packagesExemptFromSuspension
       # com.google.android.gms/.auth.api.credentials.credman.service.PasswordAndPasskeyService
       - android:string-array/config_primaryCredentialProviderService
@@ -233,9 +234,13 @@ filters:
       - android:string/config_recentsComponentName
       - android:string/config_retailDemoPackage
       - android:string/config_retailDemoPackageSignature
+      - android:string/config_oem_enabled_satellite_s2cell_file # /vendor/etc/telephony/sats2.dat
       - android:string/config_satellite_carrier_roaming_esos_provisioned_class # com.google.android.apps.stargate.registration.RegistrationReceiver_Receiver
       - android:string/config_satellite_carrier_roaming_non_emergency_session_class # com.google.android.apps.stargate.sessionmanager.SessionManagerReceiver_Receiver
       - android:string/config_satellite_demo_mode_sos_intent_action # com.google.android.apps.stargate.ACTION_ESOS_DEMO
+      - android:string/config_satellite_gateway_service_package # com.google.android.apps.stargate
+      - android:string/config_satellite_sim_plmn_identifier
+      - android:string/config_satellite_sim_spn_identifier
       - android:string/config_satellite_emergency_handover_intent_action
       - android:string/config_satellite_nidd_apn_name
       - android:string/config_satellite_service_package
