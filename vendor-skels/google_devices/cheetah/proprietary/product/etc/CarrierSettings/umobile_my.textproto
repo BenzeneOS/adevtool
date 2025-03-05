@@ -1,5 +1,5 @@
 canonical_name: "umobile_my"
-version: 62000000009
+version: 64000000011
 apns {
   apn {
     name: "U Mobile Internet"
@@ -39,7 +39,15 @@ configs {
     bool_value: true
   }
   config {
+    key: "carrier_ussd_method_int"
+    int_value: 1
+  }
+  config {
     key: "carrier_volte_available_bool"
+    bool_value: true
+  }
+  config {
+    key: "hide_enhanced_4g_lte_bool"
     bool_value: true
   }
   config {
@@ -103,5 +111,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1721185451
+  seconds: 1729074797
 }

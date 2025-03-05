@@ -1,5 +1,5 @@
 canonical_name: "tmomvno_us"
-version: 62000000019
+version: 64000000020
 apns {
   apn {
     name: "T-Mobile Tethering"
@@ -500,6 +500,10 @@ configs {
     int_value: 40000
   }
   config {
+    key: "nr_timers_reset_on_voice_qos_bool"
+    bool_value: true
+  }
+  config {
     key: "prefer_2g_bool"
     bool_value: true
   }
@@ -693,5 +697,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1715895745
+  seconds: 1730276201
 }

@@ -1,22 +1,13 @@
 canonical_name: "m1_sg"
-version: 62000000015
+version: 64000000017
 apns {
   apn {
     name: "Sunsurf Mobile"
     value: "sunsurf"
     type: DEFAULT
     type: SUPL
-  }
-  apn {
-    name: "M1 MMS(3G)"
-    value: "miworld"
-    type: MMS
-    user: "65"
-    password: "user123"
-    authtype: 1
-    mmsc: "http://mmsgw:8002"
-    mmsc_proxy: "172.16.14.10"
-    mmsc_proxy_port: "8080"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
   }
   apn {
     name: "M1 IMS"
@@ -37,10 +28,6 @@ apns {
   }
 }
 configs {
-  config {
-    key: "allow_hold_call_during_emergency_bool"
-    bool_value: false
-  }
   config {
     key: "bsf.bsf_server_port_int"
     int_value: 8090
@@ -153,5 +140,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1708635157
+  seconds: 1733311788
 }

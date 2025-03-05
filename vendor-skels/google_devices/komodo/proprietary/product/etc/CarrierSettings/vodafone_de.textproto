@@ -1,5 +1,5 @@
 canonical_name: "vodafone_de"
-version: 62000000008
+version: 64000000012
 apns {
   apn {
     name: "Vodafone DE"
@@ -31,8 +31,22 @@ apns {
     roaming_protocol: IPV4V6
     user_visible: false
   }
+  apn {
+    name: "emergency"
+    value: "EMERGENCY"
+    type: EMERGENCY
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
 }
 configs {
+  config {
+    key: "carrier_certificate_string_array"
+    text_array {
+      item: "0318ED2A8B33CE173C7ABE3F647D263810994CF489C8FCD27A8CAAFCF2822A88:com.appseleration.android.selfcare,com.appseleration.speedtest"
+    }
+  }
   config {
     key: "carrier_nr_availabilities_int_array"
     int_array {
@@ -117,23 +131,10 @@ configs {
     int_value: 1280
   }
   config {
-    key: "imsemergency.emergency_domain_preference_int_array"
-    int_array {
-      item: 2
-      item: 1
-    }
-  }
-  config {
     key: "imsemergency.emergency_domain_preference_roaming_int_array"
     int_array {
       item: 2
       item: 1
-    }
-  }
-  config {
-    key: "imsemergency.emergency_over_ims_supported_rats_int_array"
-    int_array {
-      item: 3
     }
   }
   config {
@@ -226,6 +227,10 @@ configs {
     int_value: 120000
   }
   config {
+    key: "imswfc.emergency_call_over_emergency_pdn_bool"
+    bool_value: true
+  }
+  config {
     key: "iwlan.child_sa_rekey_hard_timer_sec_int"
     int_value: 14450
   }
@@ -280,6 +285,10 @@ configs {
     }
   }
   config {
+    key: "qns.sos_transport_type_int"
+    int_value: 2
+  }
+  config {
     key: "qns.xcap_transport_type_int"
     int_value: 0
   }
@@ -300,6 +309,10 @@ configs {
     int_value: 3
   }
   config {
+    key: "vonr_enabled_bool"
+    bool_value: true
+  }
+  config {
     key: "wfc_spn_format_idx_int"
     int_value: 11
   }
@@ -309,5 +322,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1718176776
+  seconds: 1732242344
 }

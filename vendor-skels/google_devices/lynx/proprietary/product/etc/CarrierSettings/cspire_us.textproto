@@ -1,5 +1,5 @@
 canonical_name: "cspire_us"
-version: 62000000010
+version: 64000000011
 apns {
   apn {
     name: "C Spire OTA"
@@ -254,10 +254,6 @@ configs {
     text_value: "mmtel@conf-factory.ims.cspire.com"
   }
   config {
-    key: "imsvoice.conference_subscribe_type_int"
-    int_value: 0
-  }
-  config {
     key: "imsvoice.evs_payload_description_bundle"
     bundle {
       config {
@@ -414,5 +410,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1723685410
+  seconds: 1727870754
 }

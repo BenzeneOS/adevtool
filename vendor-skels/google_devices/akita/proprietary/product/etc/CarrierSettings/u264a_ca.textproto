@@ -1,5 +1,5 @@
 canonical_name: "u264a_ca"
-version: 62000000009
+version: 64000000010
 apns {
   apn {
     name: "U+264A CA"
@@ -281,6 +281,18 @@ configs {
     bool_value: false
   }
   config {
+    key: "rtt_downgrade_supported_bool"
+    bool_value: false
+  }
+  config {
+    key: "rtt_supported_bool"
+    bool_value: false
+  }
+  config {
+    key: "rtt_supported_while_roaming_bool"
+    bool_value: false
+  }
+  config {
     key: "vendor.ims.carrier_config_use_aosp_ims_config_bool"
     bool_value: true
   }
@@ -294,5 +306,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1726812792
+  seconds: 1727870767
 }

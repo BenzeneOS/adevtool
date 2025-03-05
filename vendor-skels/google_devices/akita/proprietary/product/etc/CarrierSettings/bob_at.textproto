@@ -1,5 +1,5 @@
 canonical_name: "bob_at"
-version: 62000000006
+version: 64000000007
 apns {
   apn {
     name: "data.bob"
@@ -46,7 +46,7 @@ apns {
     type: EMERGENCY
     protocol: IPV4V6
     roaming_protocol: IPV4V6
-    user_editable: false
+    user_visible: false
   }
 }
 configs {
@@ -107,10 +107,6 @@ configs {
   config {
     key: "imsss.ut_as_server_port_int"
     int_value: 443
-  }
-  config {
-    key: "imsss.ut_iptype_roaming_int"
-    int_value: 0
   }
   config {
     key: "imsss.ut_supported_when_ps_data_off_bool"
@@ -248,5 +244,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1723067552
+  seconds: 1730276201
 }

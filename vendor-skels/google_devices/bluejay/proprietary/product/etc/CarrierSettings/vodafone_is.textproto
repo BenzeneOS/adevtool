@@ -1,0 +1,62 @@
+canonical_name: "vodafone_is"
+version: 64000000002
+apns {
+  apn {
+    name: "Vodafone Internet"
+    value: "gprs.is"
+    type: DEFAULT
+    type: SUPL
+  }
+  apn {
+    name: "Vodafone MMS"
+    value: "mms.gprs.is"
+    type: MMS
+    mmsc: "http://mmsc.vodafone.is"
+    mmsc_proxy: "10.22.0.10"
+    mmsc_proxy_port: "8080"
+  }
+  apn {
+    name: "IMS"
+    value: "ims"
+    type: IMS
+    bearer_bitmask: "14|20"
+    user_visible: false
+  }
+  apn {
+    name: "HOS"
+    value: "hos"
+    type: XCAP
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
+}
+configs {
+  config {
+    key: "bsf.bsf_server_fqdn_string"
+    text_value: "bsf.ims.mnc002.mcc274.pub.3gppnetwork.org"
+  }
+  config {
+    key: "ims.sip_over_ipsec_enabled_bool"
+    bool_value: false
+  }
+  config {
+    key: "imsss.ut_as_server_fqdn_string"
+    text_value: "xcap.ims.mnc002.mcc274.pub.3gppnetwork.org"
+  }
+  config {
+    key: "maxImageHeight"
+    int_value: 1944
+  }
+  config {
+    key: "maxImageWidth"
+    int_value: 2592
+  }
+  config {
+    key: "maxMessageSize"
+    int_value: 1048576
+  }
+}
+last_updated {
+  seconds: 1730276150
+}

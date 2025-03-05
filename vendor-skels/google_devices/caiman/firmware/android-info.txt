@@ -1,5 +1,5 @@
 require board=caiman
 
-require version-bootloader=ripcurrentpro-15.1-12475284
-require version-baseband=g5400c-240910-241106-B-12613159
+require version-bootloader=ripcurrentpro-15.2-12817298
+require version-baseband=g5400c-241205-250127-B-12971716
 require partition-exists=vendor_kernel_boot

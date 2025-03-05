@@ -1,5 +1,5 @@
 canonical_name: "o2_de"
-version: 62000000054
+version: 64000000054
 apns {
   apn {
     name: "o2 Internet"

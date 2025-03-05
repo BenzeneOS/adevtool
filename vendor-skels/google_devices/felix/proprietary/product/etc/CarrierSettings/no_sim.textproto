@@ -1,5 +1,5 @@
 canonical_name: "no_sim"
-version: 62000000001
+version: 64000000001
 configs {
   config {
     key: "carrier_cross_sim_ims_available_bool"
@@ -490,5 +490,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1729752360
+  seconds: 1730360161
 }

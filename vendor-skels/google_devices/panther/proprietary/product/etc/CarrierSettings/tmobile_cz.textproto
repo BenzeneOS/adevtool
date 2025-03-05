@@ -1,5 +1,5 @@
 canonical_name: "tmobile_cz"
-version: 62000000018
+version: 64000000020
 apns {
   apn {
     name: "IMS"
@@ -52,6 +52,10 @@ configs {
   config {
     key: "carrier_wfc_ims_available_bool"
     bool_value: true
+  }
+  config {
+    key: "default_vm_number_string"
+    text_value: "+420603123311"
   }
   config {
     key: "display_hd_audio_property_bool"
@@ -214,6 +218,10 @@ configs {
     int_value: 2
   }
   config {
+    key: "smsToMmsTextThreshold"
+    int_value: 3
+  }
+  config {
     key: "telephony_data_setup_retry_rules_string_array"
     text_array {
       item: "capabilities=eims, retry_interval=1000, maximum_retries=20"
@@ -232,5 +240,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1725936005
+  seconds: 1730276159
 }

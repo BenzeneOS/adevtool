@@ -1,5 +1,5 @@
 canonical_name: "vodafone_ie"
-version: 62000000018
+version: 64000000020
 apns {
   apn {
     name: "Internet"
@@ -46,6 +46,12 @@ configs {
   config {
     key: "call_barring_visibility_bool"
     bool_value: true
+  }
+  config {
+    key: "carrier_certificate_string_array"
+    text_array {
+      item: "DD839AD437E56CDCE41B683F35777EA73DD2B5571FE6849B26176FC26F03CC40:com.VodafoneIreland.MyVodafone"
+    }
   }
   config {
     key: "carrier_default_wfc_ims_enabled_bool"
@@ -129,12 +135,6 @@ configs {
     int_value: 4000
   }
   config {
-    key: "imsemergency.emergency_over_ims_supported_rats_int_array"
-    int_array {
-      item: 3
-    }
-  }
-  config {
     key: "imssms.sms_over_ims_supported_rats_int_array"
     int_array {
     }
@@ -215,10 +215,6 @@ configs {
     int_value: 240000
   }
   config {
-    key: "imswfc.emergency_call_over_emergency_pdn_bool"
-    bool_value: true
-  }
-  config {
     key: "iwlan.diffie_hellman_groups_int_array"
     int_array {
       item: 14
@@ -231,10 +227,6 @@ configs {
   config {
     key: "qns.block_iwlan_in_international_roaming_without_wwan_bool"
     bool_value: true
-  }
-  config {
-    key: "qns.sos_transport_type_int"
-    int_value: 2
   }
   config {
     key: "rtt_downgrade_supported_bool"
@@ -254,5 +246,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1724289908
+  seconds: 1732242325
 }

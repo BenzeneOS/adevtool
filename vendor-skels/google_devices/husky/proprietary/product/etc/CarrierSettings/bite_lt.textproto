@@ -1,5 +1,5 @@
 canonical_name: "bite_lt"
-version: 62000000014
+version: 64000000015
 apns {
   apn {
     name: "Bite Internet"
@@ -109,6 +109,10 @@ configs {
     bool_value: true
   }
   config {
+    key: "iwlan.ike_remote_id_type_int"
+    int_value: 11
+  }
+  config {
     key: "iwlan_handover_policy_string_array"
     text_array {
       item: "source=GERAN|UTRAN|EUTRAN|NGRAN|IWLAN|UNKNOWN, target=GERAN|UTRAN|EUTRAN|NGRAN|IWLAN, type=disallowed, capabilities=EIMS|MMS|XCAP|CBS"
@@ -124,5 +128,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1718786045
+  seconds: 1730898270
 }

@@ -1,5 +1,5 @@
 canonical_name: "u264ab_ca"
-version: 62000000006
+version: 64000000008
 apns {
   apn {
     name: "U+264A CA"
@@ -102,6 +102,18 @@ configs {
   config {
     key: "imsemergency.emergency_registration_timer_millis_int"
     int_value: 10000
+  }
+  config {
+    key: "imsserviceentitlement.entitlement_server_url_string"
+    text_value: "https://egw.wireless.bell.ca:9014/DEGDROIDInterfaceTS43/"
+  }
+  config {
+    key: "imsserviceentitlement.fcm_sender_id_string"
+    text_value: "263945284783"
+  }
+  config {
+    key: "imsserviceentitlement.show_vowifi_webview_bool"
+    bool_value: true
   }
   config {
     key: "imsss.xcap_over_ut_supported_rats_int_array"
@@ -268,6 +280,18 @@ configs {
     bool_value: false
   }
   config {
+    key: "rtt_downgrade_supported_bool"
+    bool_value: false
+  }
+  config {
+    key: "rtt_supported_bool"
+    bool_value: false
+  }
+  config {
+    key: "rtt_supported_while_roaming_bool"
+    bool_value: false
+  }
+  config {
     key: "volte_replacement_rat_int"
     int_value: 3
   }
@@ -277,5 +301,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1716976973
+  seconds: 1731496781
 }

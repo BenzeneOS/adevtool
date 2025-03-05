@@ -1,5 +1,5 @@
 canonical_name: "xfinity2_us"
-version: 62000000007
+version: 64000000008
 apns {
   apn {
     name: "Verizon"
@@ -767,6 +767,10 @@ configs {
     bool_value: true
   }
   config {
+    key: "is_cbrs_mno_subscription_bool"
+    bool_value: true
+  }
+  config {
     key: "is_ims_conference_size_enforced_bool"
     bool_value: true
   }
@@ -1221,5 +1225,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1721185431
+  seconds: 1731496781
 }

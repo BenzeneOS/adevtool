@@ -1,5 +1,5 @@
 canonical_name: "orange_sk"
-version: 62000000012
+version: 64000000014
 apns {
   apn {
     name: "Orange SK"
@@ -32,6 +32,7 @@ apns {
     name: "XCAP"
     value: "xcap"
     type: XCAP
+    bearer_bitmask: "14|18|20"
     protocol: IPV4V6
     roaming_protocol: IPV4V6
     user_visible: false
@@ -44,10 +45,6 @@ configs {
       item: "B67AFFCDA89E3193B1595036D7C6CDBE22BE5CA24C9F6CF93FC6B48F91D7310D:com.orange.phone,com.orange.update"
       item: "6AE20C0E468B99D1F3D35A7CB959AB64CBCEE802461CE9D38F099C90D245BFBF:sk.orange.android.orangego"
     }
-  }
-  config {
-    key: "carrier_default_wfc_ims_mode_int"
-    int_value: 1
   }
   config {
     key: "carrier_default_wfc_ims_roaming_enabled_bool"
@@ -83,8 +80,6 @@ configs {
       item: 5
       item: 6
       item: 3
-      item: 1
-      item: 2
     }
   }
   config {
@@ -210,5 +205,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1717578407
+  seconds: 1731496814
 }

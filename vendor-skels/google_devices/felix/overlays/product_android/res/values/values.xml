@@ -34,7 +34,6 @@
   <bool name="config_allowRotationResolver">false</bool>
   <bool name="config_appCompatUserAppAspectRatioFullscreenIsEnabled">true</bool>
   <bool name="config_appCompatUserAppAspectRatioSettingsIsEnabled">true</bool>
-  <bool name="config_biometricFrrNotificationEnabled">false</bool>
   <bool name="config_buttonTextAllCaps">false</bool>
   <bool name="config_enableAutoPowerModes">true</bool>
   <bool name="config_enableMultiUserUI">true</bool>
@@ -58,7 +57,6 @@
   <bool name="config_letterboxIsPolicyForIgnoringRequestedOrientationEnabled">true</bool>
   <bool name="config_letterboxIsSplitScreenAspectRatioForUnresizableAppsEnabled">true</bool>
   <bool name="config_letterboxIsVerticalReachabilityEnabled">true</bool>
-  <bool name="config_localDisplaysMirrorContent">false</bool>
   <bool name="config_matchSecondaryInternalDisplaysOrientationToReverseDefaultDisplay">true</bool>
   <bool name="config_offsetWallpaperToCenterOfLargestDisplay">true</bool>
   <bool name="config_ringtoneVibrationSettingsSupported">true</bool>
@@ -81,8 +79,6 @@
   <dimen name="config_keyboardHapticFeedbackFixedAmplitude">1</dimen>
   <dimen name="config_letterboxVerticalPositionMultiplier">0.5</dimen>
   <dimen name="config_progressBarCornerRadius">1000dp</dimen>
-  <dimen name="system_app_widget_background_radius">28dp</dimen>
-  <dimen name="system_app_widget_inner_radius">20dp</dimen>
   <integer-array name="config_concurrentDisplayDeviceStates">
     <item>4</item>
   </integer-array>
@@ -95,6 +91,7 @@
   </integer-array>
   <integer-array name="config_deviceStatesToReverseDefaultDisplayRotationAroundZAxis">
     <item>3</item>
+    <item>5</item>
   </integer-array>
   <integer-array name="config_deviceTabletopRotations">
     <item>90</item>
@@ -111,6 +108,7 @@
   </integer-array>
   <integer-array name="config_rearDisplayDeviceStates">
     <item>3</item>
+    <item>5</item>
   </integer-array>
   <integer-array name="non_removable_euicc_slots">
     <item>0</item>
@@ -121,6 +119,7 @@
     <item>2:3</item>
     <item>3:1</item>
     <item>4:1000</item>
+    <item>5:1</item>
   </string-array>
   <string-array name="config_deviceStatesAvailableForAppRequests">
     <item>config_deviceStateRearDisplay</item>
@@ -169,10 +168,5 @@
   <integer name="config_pauseRotationWhenUnfolding_displaySwitchTimeout">1000</integer>
   <integer name="config_pauseRotationWhenUnfolding_hingeEventTimeout">400</integer>
   <integer name="config_pauseRotationWhenUnfolding_maxHingeAngle">165</integer>
-  <integer name="device_idle_idle_after_inactive_to_ms">15000</integer>
-  <integer name="device_idle_inactive_to_ms">15000</integer>
-  <integer name="device_idle_locating_to_ms">15000</integer>
-  <integer name="device_idle_motion_inactive_to_ms">30000</integer>
-  <integer name="device_idle_sensing_to_ms">15000</integer>
   <array name="config_notificationMsgPkgsAllowedAsConvos"/>
 </resources>

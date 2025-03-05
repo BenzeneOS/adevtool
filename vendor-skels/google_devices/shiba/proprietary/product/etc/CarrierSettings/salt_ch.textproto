@@ -1,5 +1,5 @@
 canonical_name: "salt_ch"
-version: 62000000009
+version: 64000000010
 apns {
   apn {
     name: "Salt Internet"
@@ -33,6 +33,14 @@ configs {
   config {
     key: "bsf.bsf_server_fqdn_string"
     text_value: "bsf.mnc003.mcc228.pub.3gppnetwork.org"
+  }
+  config {
+    key: "carrier_default_wfc_ims_enabled_bool"
+    bool_value: false
+  }
+  config {
+    key: "carrier_default_wfc_ims_roaming_enabled_bool"
+    bool_value: false
   }
   config {
     key: "carrier_supports_ss_over_ut_bool"
@@ -94,10 +102,14 @@ configs {
     }
   }
   config {
+    key: "iwlan.add_ke_to_child_session_rekey_bool"
+    bool_value: true
+  }
+  config {
     key: "wfc_spn_format_idx_int"
     int_value: 1
   }
 }
 last_updated {
-  seconds: 1721816163
+  seconds: 1730898270
 }

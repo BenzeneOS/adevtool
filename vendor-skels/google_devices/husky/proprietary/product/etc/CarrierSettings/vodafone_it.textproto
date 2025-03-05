@@ -1,10 +1,12 @@
 canonical_name: "vodafone_it"
-version: 62000000009
+version: 64000000011
 apns {
   apn {
     name: "Tethering Internet"
     value: "web.omnitel.it"
     type: DUN
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
   }
   apn {
     name: "MMS Vodafone"
@@ -13,12 +15,16 @@ apns {
     mmsc: "http://mms.vodafone.it/servlets/mms"
     mmsc_proxy: "10.128.224.10"
     mmsc_proxy_port: "80"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
   }
   apn {
     name: "Acc. Internet da cell"
     value: "mobile.vodafone.it"
     type: DEFAULT
     type: SUPL
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
   }
   apn {
     name: "IMS"
@@ -39,6 +45,12 @@ apns {
   }
 }
 configs {
+  config {
+    key: "carrier_certificate_string_array"
+    text_array {
+      item: "EEFD6F2D255BAE73FDEDB112CF60DEEBD82ABFD1846D7E8A4B4896EF6A1BAE4A:it.vodafone.my190"
+    }
+  }
   config {
     key: "carrier_ussd_method_int"
     int_value: 2
@@ -237,5 +249,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1721185492
+  seconds: 1732242331
 }

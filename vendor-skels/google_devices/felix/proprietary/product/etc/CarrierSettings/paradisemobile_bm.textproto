@@ -1,5 +1,5 @@
 canonical_name: "paradisemobile_bm"
-version: 62000000008
+version: 64000000009
 apns {
   apn {
     name: "internet"
@@ -36,6 +36,10 @@ configs {
   }
   config {
     key: "carrier_default_wfc_ims_roaming_enabled_bool"
+    bool_value: true
+  }
+  config {
+    key: "carrier_supports_ss_over_ut_bool"
     bool_value: true
   }
   config {
@@ -93,5 +97,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1726812769
+  seconds: 1735077842
 }

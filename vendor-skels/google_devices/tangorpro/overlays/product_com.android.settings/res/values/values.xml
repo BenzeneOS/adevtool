@@ -69,7 +69,7 @@ Move your finger slightly each time. This helps capture more of your fingerprint
   <string name="sound_dashboard_summary">Volume</string>
   <string name="sound_dashboard_summary_with_dnd">Volume, Do Not Disturb</string>
   <string name="sound_settings">Sound</string>
-  <string name="suggested_fingerprint_lock_settings_summary">Use Pixel Imprint to unlock your tablet</string>
+  <string name="suggested_fingerprint_lock_settings_summary">Use Pixel Imprint to unlock your phone</string>
   <string name="suggested_fingerprint_lock_settings_title">Use Fingerprint Unlock</string>
   <string name="tether_settings_title_all">Tethering</string>
   <string name="tethering_footer_info">Use tethering to provide internet to other devices through USB, Ethernet, or Bluetooth.</string>

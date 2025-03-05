@@ -1,5 +1,5 @@
 canonical_name: "yesss_at"
-version: 62000000005
+version: 64000000006
 apns {
   apn {
     name: "yesss!"
@@ -23,6 +23,7 @@ apns {
     value: "hos"
     type: XCAP
     protocol: IPV4V6
+    roaming_protocol: IPV4V6
     user_visible: false
   }
 }
@@ -84,10 +85,6 @@ configs {
   config {
     key: "imsss.ut_as_server_port_int"
     int_value: 443
-  }
-  config {
-    key: "imsss.ut_iptype_roaming_int"
-    int_value: 0
   }
   config {
     key: "imsss.ut_supported_when_ps_data_off_bool"
@@ -221,5 +218,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1721185440
+  seconds: 1730276150
 }

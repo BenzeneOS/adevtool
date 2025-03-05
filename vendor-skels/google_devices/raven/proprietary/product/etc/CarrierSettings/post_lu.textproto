@@ -1,5 +1,5 @@
 canonical_name: "post_lu"
-version: 62000000009
+version: 64000000010
 apns {
   apn {
     name: "POST Internet"
@@ -16,14 +16,6 @@ apns {
     protocol: IPV4V6
     roaming_protocol: IPV4V6
     user_visible: false
-  }
-  apn {
-    name: "POST MMS"
-    value: "mms.pt.lu"
-    type: MMS
-    mmsc: "http://mmsc.pt.lu"
-    mmsc_proxy: "194.154.192.88"
-    mmsc_proxy_port: "8080"
   }
   apn {
     name: "POST XCAP"
@@ -57,6 +49,10 @@ configs {
   config {
     key: "carrier_wfc_ims_available_bool"
     bool_value: true
+  }
+  config {
+    key: "enabledMMS"
+    bool_value: false
   }
   config {
     key: "imsemergency.emergency_over_ims_supported_rats_int_array"
@@ -133,5 +129,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1724912449
+  seconds: 1729074783
 }

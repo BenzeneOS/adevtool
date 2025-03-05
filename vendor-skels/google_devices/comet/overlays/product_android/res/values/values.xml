@@ -33,10 +33,10 @@
   <bool name="config_allowRotationResolver">false</bool>
   <bool name="config_appCompatUserAppAspectRatioFullscreenIsEnabled">true</bool>
   <bool name="config_appCompatUserAppAspectRatioSettingsIsEnabled">true</bool>
-  <bool name="config_biometricFrrNotificationEnabled">true</bool>
   <bool name="config_buttonTextAllCaps">false</bool>
   <bool name="config_enableAutoPowerModes">true</bool>
   <bool name="config_enableMultiUserUI">true</bool>
+  <bool name="config_evenDimmerEnabled">false</bool>
   <bool name="config_fingerprintSupportsGestures">true</bool>
   <bool name="config_flexibleSplitRatios">true</bool>
   <bool name="config_fold_lock_behavior">true</bool>
@@ -81,8 +81,6 @@
   <dimen name="config_keyboardHapticFeedbackFixedAmplitude">0.62</dimen>
   <dimen name="config_letterboxVerticalPositionMultiplier">0.5</dimen>
   <dimen name="config_progressBarCornerRadius">1000dp</dimen>
-  <dimen name="system_app_widget_background_radius">28dp</dimen>
-  <dimen name="system_app_widget_inner_radius">20dp</dimen>
   <integer-array name="config_concurrentDisplayDeviceStates">
     <item>4</item>
   </integer-array>
@@ -95,6 +93,7 @@
   </integer-array>
   <integer-array name="config_deviceStatesToReverseDefaultDisplayRotationAroundZAxis">
     <item>3</item>
+    <item>5</item>
   </integer-array>
   <integer-array name="config_deviceTabletopRotations">
     <item>90</item>
@@ -111,6 +110,7 @@
   </integer-array>
   <integer-array name="config_rearDisplayDeviceStates">
     <item>3</item>
+    <item>5</item>
   </integer-array>
   <integer-array name="non_removable_euicc_slots">
     <item>0</item>
@@ -121,6 +121,7 @@
     <item>2:3</item>
     <item>3:1</item>
     <item>4:1000</item>
+    <item>5:1</item>
   </string-array>
   <string-array name="config_deviceStatesAvailableForAppRequests">
     <item>config_deviceStateRearDisplay</item>

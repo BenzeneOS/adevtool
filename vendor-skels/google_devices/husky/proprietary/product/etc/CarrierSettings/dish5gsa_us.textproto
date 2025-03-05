@@ -1,5 +1,5 @@
 canonical_name: "dish5gsa_us"
-version: 62000000002
+version: 64000000003
 apns {
   apn {
     name: "internet"
@@ -267,11 +267,11 @@ configs {
   }
   config {
     key: "imsvoice.ringback_timer_millis_int"
-    int_value: 180000
+    int_value: 90000
   }
   config {
     key: "imsvoice.ringing_timer_millis_int"
-    int_value: 45000
+    int_value: 90000
   }
   config {
     key: "imsvoice.rtp_jitter_threshold_millis_int"
@@ -365,5 +365,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1724912506
+  seconds: 1727870761
 }

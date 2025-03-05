@@ -23,9 +23,9 @@
   <string name="scCellularNetworkSecurityLearnMore">"https://support.google.com/android?p=cellular_security"</string>
   <string name="vendor_required_attestation_revocation_list_url">https://android.googleapis.com/attestation/status</string>
   <bool name="config_allowDisablingAssistDisclosure">true</bool>
-  <bool name="config_biometricFrrNotificationEnabled">true</bool>
   <bool name="config_buttonTextAllCaps">false</bool>
   <bool name="config_enableAutoPowerModes">true</bool>
+  <bool name="config_evenDimmerEnabled">true</bool>
   <bool name="config_fingerprintSupportsGestures">false</bool>
   <bool name="config_honor_data_retry_timer_for_emergency_network">true</bool>
   <bool name="config_hotspotNetworksEnabledForService">false</bool>
@@ -48,8 +48,6 @@
   <dimen name="config_keyboardHapticFeedbackFixedAmplitude">0.62</dimen>
   <dimen name="config_progressBarCornerRadius">1000dp</dimen>
   <dimen name="navigation_bar_gesture_larger_height">110dp</dimen>
-  <dimen name="system_app_widget_background_radius">28dp</dimen>
-  <dimen name="system_app_widget_inner_radius">20dp</dimen>
   <integer name="config_esim_bootstrap_data_limit_bytes">235929600</integer>
   <integer name="config_externalDisplayPeakHeight">1080</integer>
   <integer name="config_externalDisplayPeakRefreshRate">61</integer>

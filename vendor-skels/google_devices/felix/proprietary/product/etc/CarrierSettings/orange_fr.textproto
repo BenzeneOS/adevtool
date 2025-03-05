@@ -1,5 +1,5 @@
 canonical_name: "orange_fr"
-version: 62000000013
+version: 64000000014
 apns {
   apn {
     name: "Orange Fr IMS"
@@ -33,16 +33,6 @@ apns {
     authtype: 1
     mmsc: "http://mms.orange.fr"
     protocol: IPV6
-    user_editable: false
-  }
-  apn {
-    name: "Orange enterprises"
-    value: "orange-mib"
-    type: DEFAULT
-    bearer_bitmask: "1|2|3|9|10|11|13|14|15|20"
-    user: "orange"
-    password: "orange"
-    authtype: 1
     user_editable: false
   }
   apn {
@@ -475,5 +465,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1721185465
+  seconds: 1730276169
 }

@@ -1,5 +1,5 @@
 canonical_name: "tim_it"
-version: 62000000019
+version: 64000000020
 apns {
   apn {
     name: "WAP TIM"
@@ -80,6 +80,10 @@ configs {
   config {
     key: "editable_wfc_mode_bool"
     bool_value: false
+  }
+  config {
+    key: "hide_enhanced_4g_lte_bool"
+    bool_value: true
   }
   config {
     key: "ims.ims_pdn_enabled_in_no_vops_support_int_array"
@@ -290,5 +294,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1723067498
+  seconds: 1727870736
 }

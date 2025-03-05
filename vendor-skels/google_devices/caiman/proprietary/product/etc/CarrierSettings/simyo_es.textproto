@@ -1,5 +1,5 @@
 canonical_name: "simyo_es"
-version: 62000000006
+version: 64000000007
 apns {
   apn {
     name: "internet simyo"
@@ -20,6 +20,8 @@ apns {
     password: "orange"
     authtype: 1
     mmsc: "http://mms.orange.es"
+    mmsc_proxy: "172.22.188.25"
+    mmsc_proxy_port: "8080"
   }
   apn {
     name: "IMS"
@@ -388,5 +390,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1721185512
+  seconds: 1730276211
 }

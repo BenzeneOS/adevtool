@@ -1,5 +1,5 @@
 canonical_name: "rogers5g_ca"
-version: 62000000022
+version: 64000000024
 apns {
   apn {
     name: "Rogers Tethering"
@@ -53,6 +53,14 @@ apns {
     type: XCAP
     bearer_bitmask: "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
     protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
+  apn {
+    name: "emergency"
+    value: "sos"
+    type: EMERGENCY
+    protocol: IPV6
     roaming_protocol: IPV4V6
     user_visible: false
   }
@@ -450,5 +458,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1722472103
+  seconds: 1733311794
 }

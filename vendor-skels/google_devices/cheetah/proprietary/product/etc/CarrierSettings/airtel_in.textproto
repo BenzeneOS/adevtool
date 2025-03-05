@@ -1,5 +1,5 @@
 canonical_name: "airtel_in"
-version: 62000000017
+version: 64000000018
 apns {
   apn {
     name: "Internet"
@@ -245,6 +245,35 @@ configs {
     int_value: 11
   }
   config {
+    key: "iwlan.mcc_mncs_string_array"
+    text_array {
+      item: "404-02"
+      item: "404-03"
+      item: "404-10"
+      item: "404-16"
+      item: "404-31"
+      item: "404-40"
+      item: "404-45"
+      item: "404-49"
+      item: "404-70"
+      item: "404-90"
+      item: "404-92"
+      item: "404-93"
+      item: "404-94"
+      item: "404-95"
+      item: "404-96"
+      item: "404-97"
+      item: "404-98"
+      item: "405-51"
+      item: "405-52"
+      item: "405-53"
+      item: "405-54"
+      item: "405-55"
+      item: "405-56"
+      item: "404-00"
+    }
+  }
+  config {
     key: "non_roaming_operator_string_array"
     text_array {
       item: "21401"
@@ -312,5 +341,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1726812761
+  seconds: 1731496792
 }

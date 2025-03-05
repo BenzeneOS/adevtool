@@ -1,0 +1,30 @@
+canonical_name: "magticom_ge"
+version: 64000000002
+apns {
+  apn {
+    name: "Internet"
+    value: "3g.ge"
+    type: DEFAULT
+    type: SUPL
+    mmsc: "http://mms.magticom.ge"
+    mmsc_proxy: "81.95.160.16"
+    mmsc_proxy_port: "9401"
+    user_editable: false
+  }
+  apn {
+    name: "IMS"
+    value: "ims"
+    type: IMS
+    bearer_bitmask: "14|20"
+    user_visible: false
+  }
+}
+configs {
+  config {
+    key: "carrier_volte_available_bool"
+    bool_value: true
+  }
+}
+last_updated {
+  seconds: 1732098891
+}

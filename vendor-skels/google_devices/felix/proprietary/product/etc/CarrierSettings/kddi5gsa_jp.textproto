@@ -1,5 +1,5 @@
 canonical_name: "kddi5gsa_jp"
-version: 62000000001
+version: 64000000002
 apns {
   apn {
     name: "5G NET"
@@ -477,7 +477,6 @@ configs {
   config {
     key: "read_only_apn_types_string_array"
     text_array {
-      item: "dun"
       item: "ims"
     }
   }
@@ -509,5 +508,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1722472135
+  seconds: 1729679653
 }

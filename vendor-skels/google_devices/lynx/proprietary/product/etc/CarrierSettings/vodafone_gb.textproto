@@ -1,5 +1,5 @@
 canonical_name: "vodafone_gb"
-version: 62000000016
+version: 64000000018
 apns {
   apn {
     name: "Vodafone UK Data"
@@ -14,6 +14,7 @@ apns {
     mmsc_proxy: "212.183.137.12"
     mmsc_proxy_port: "8799"
     protocol: IPV4V6
+    roaming_protocol: IPV4V6
     mtu: 1340
     user_editable: false
   }
@@ -22,12 +23,16 @@ apns {
     value: "IMS"
     type: IMS
     bearer_bitmask: "14|18|20"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
     user_visible: false
   }
   apn {
     name: "XCAP"
     value: "xcap"
     type: XCAP
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
     user_visible: false
   }
 }
@@ -35,6 +40,12 @@ configs {
   config {
     key: "call_barring_visibility_bool"
     bool_value: true
+  }
+  config {
+    key: "carrier_certificate_string_array"
+    text_array {
+      item: "2E26357C65C1F858CE0C798AA7EFB38922E8D334F12DAD4A3963007DFBBC5677:com.myvodafoneapp"
+    }
   }
   config {
     key: "carrier_default_wfc_ims_mode_int"
@@ -108,14 +119,6 @@ configs {
   config {
     key: "imsss.network_initiated_ussd_over_ims_supported_bool"
     bool_value: false
-  }
-  config {
-    key: "imsss.ut_iptype_home_int"
-    int_value: 0
-  }
-  config {
-    key: "imsss.ut_iptype_roaming_int"
-    int_value: 0
   }
   config {
     key: "imsss.xcap_over_ut_supported_rats_int_array"
@@ -314,5 +317,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1721185479
+  seconds: 1732242325
 }

@@ -1,0 +1,24 @@
+canonical_name: "epic_mt"
+version: 64000000001
+apns {
+  apn {
+    name: "Internet"
+    value: "internet"
+    type: DEFAULT
+    type: SUPL
+    authtype: 0
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_editable: false
+  }
+}
+configs {
+  config {
+    key: "carrier_nr_availabilities_int_array"
+    int_array {
+    }
+  }
+}
+last_updated {
+  seconds: 1729679639
+}

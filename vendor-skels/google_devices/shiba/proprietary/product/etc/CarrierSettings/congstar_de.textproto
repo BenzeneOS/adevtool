@@ -1,5 +1,5 @@
 canonical_name: "congstar_de"
-version: 62000000011
+version: 64000000012
 apns {
   apn {
     name: "Internet"
@@ -83,6 +83,16 @@ configs {
   config {
     key: "carrier_default_wfc_ims_roaming_mode_int"
     int_value: 1
+  }
+  config {
+    key: "carrier_metered_apn_types_strings"
+    text_array {
+      item: "default"
+      item: "mms"
+      item: "dun"
+      item: "supl"
+      item: "enterprise"
+    }
   }
   config {
     key: "carrier_supports_ss_over_ut_bool"
@@ -385,5 +395,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1724912506
+  seconds: 1730276191
 }

@@ -1,5 +1,5 @@
 canonical_name: "1and1_de"
-version: 62000000023
+version: 64000000024
 apns {
   apn {
     name: "1&1 Internet"
@@ -67,6 +67,10 @@ configs {
   config {
     key: "default_vm_number_string"
     text_value: "+4915566000333"
+  }
+  config {
+    key: "hide_enhanced_4g_lte_bool"
+    bool_value: true
   }
   config {
     key: "hide_ims_apn_bool"
@@ -329,5 +333,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1725936019
+  seconds: 1731496803
 }

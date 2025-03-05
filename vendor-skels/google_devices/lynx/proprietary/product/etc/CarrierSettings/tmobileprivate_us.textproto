@@ -1,0 +1,25 @@
+canonical_name: "tmobileprivate_us"
+version: 64000000002
+apns {
+  apn {
+    name: "T-Mobile US"
+    value: "fast.t-mobile.com"
+    type: DEFAULT
+    protocol: IPV6
+    mtu: 1440
+  }
+}
+configs {
+  config {
+    key: "carrier_nr_availabilities_int_array"
+    int_array {
+    }
+  }
+  config {
+    key: "cellular_usage_setting_int"
+    int_value: 2
+  }
+}
+last_updated {
+  seconds: 1735077846
+}

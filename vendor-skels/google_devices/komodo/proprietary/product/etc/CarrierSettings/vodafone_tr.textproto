@@ -1,5 +1,5 @@
 canonical_name: "vodafone_tr"
-version: 62000000005
+version: 64000000006
 apns {
   apn {
     name: "Vodafone Internet"
@@ -34,11 +34,6 @@ configs {
   config {
     key: "carrier_default_wfc_ims_mode_int"
     int_value: 1
-  }
-  config {
-    key: "carrier_nr_availabilities_int_array"
-    int_array {
-    }
   }
   config {
     key: "carrier_supports_ss_over_ut_bool"
@@ -213,5 +208,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1715771975
+  seconds: 1730898284
 }

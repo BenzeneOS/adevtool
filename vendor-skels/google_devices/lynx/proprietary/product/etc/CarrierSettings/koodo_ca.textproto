@@ -1,5 +1,5 @@
 canonical_name: "koodo_ca"
-version: 62000000021
+version: 64000000022
 apns {
   apn {
     name: "Koodo SP"
@@ -388,6 +388,12 @@ configs {
     int_value: 30
   }
   config {
+    key: "non_roaming_operator_string_array"
+    text_array {
+      item: "302"
+    }
+  }
+  config {
     key: "nr_advanced_threshold_bandwidth_khz_int"
     int_value: 60000
   }
@@ -488,5 +494,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1721185479
+  seconds: 1728454001
 }

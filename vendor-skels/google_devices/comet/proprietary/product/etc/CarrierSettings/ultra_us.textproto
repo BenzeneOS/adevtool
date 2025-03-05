@@ -1,5 +1,5 @@
 canonical_name: "ultra_us"
-version: 62000000015
+version: 64000000016
 apns {
   apn {
     name: "ultra"
@@ -516,6 +516,10 @@ configs {
     int_value: 40000
   }
   config {
+    key: "nr_timers_reset_on_voice_qos_bool"
+    bool_value: true
+  }
+  config {
     key: "prefer_2g_bool"
     bool_value: true
   }
@@ -717,5 +721,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1720605689
+  seconds: 1730276211
 }

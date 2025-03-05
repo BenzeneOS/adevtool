@@ -1,5 +1,5 @@
 canonical_name: "asda_gb"
-version: 62000000008
+version: 64000000008
 apns {
   apn {
     name: "ASDA internet"
@@ -161,5 +161,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1730247563
+  seconds: 1730360168
 }

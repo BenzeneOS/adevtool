@@ -1,11 +1,20 @@
 canonical_name: "nexphone_ch"
-version: 62000000001
+version: 64000000002
 apns {
   apn {
     name: "NX"
     value: "chili"
     type: DEFAULT
     type: SUPL
+  }
+  apn {
+    name: "ims"
+    value: "ims"
+    type: IMS
+    bearer_bitmask: "14|20"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
   }
 }
 configs {
@@ -15,5 +24,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1724289888
+  seconds: 1731496787
 }

@@ -1,5 +1,5 @@
 canonical_name: "no_sim"
-version: 62000000001
+version: 64000000001
 configs {
   config {
     key: "5g_nr_ssrsrp_thresholds_int_array"
@@ -522,5 +522,5 @@ vendor_configs {
   }
 }
 last_updated {
-  seconds: 1729752385
+  seconds: 1730360190
 }

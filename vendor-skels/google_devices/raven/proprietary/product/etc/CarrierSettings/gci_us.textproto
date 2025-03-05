@@ -1,5 +1,5 @@
 canonical_name: "gci_us"
-version: 62000000007
+version: 64000000008
 apns {
   apn {
     name: "GCI WEB"
@@ -102,7 +102,11 @@ configs {
     key: "maxMessageSize"
     int_value: 1048576
   }
+  config {
+    key: "rtt_downgrade_supported_bool"
+    bool_value: true
+  }
 }
 last_updated {
-  seconds: 1712735143
+  seconds: 1731496781
 }

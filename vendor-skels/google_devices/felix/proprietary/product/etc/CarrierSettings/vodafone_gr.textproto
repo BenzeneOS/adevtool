@@ -1,5 +1,5 @@
 canonical_name: "vodafone_gr"
-version: 62000000007
+version: 64000000008
 apns {
   apn {
     name: "Vf Mobile Internet"
@@ -44,6 +44,12 @@ configs {
   config {
     key: "bsf.bsf_server_fqdn_string"
     text_value: "bsf.ims.mnc005.mcc202.pub.3gppnetwork.org"
+  }
+  config {
+    key: "carrier_certificate_string_array"
+    text_array {
+      item: "DCFD5757F7AE448C5F79D224D33906880D89D3ABBF887EAC17226DBB52DFD6F6:com.myvodafone.android"
+    }
   }
   config {
     key: "carrier_supports_ss_over_ut_bool"
@@ -168,5 +174,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1715771939
+  seconds: 1732242318
 }

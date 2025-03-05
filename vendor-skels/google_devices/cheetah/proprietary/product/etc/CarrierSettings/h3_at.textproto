@@ -1,5 +1,5 @@
 canonical_name: "h3_at"
-version: 62000000016
+version: 64000000018
 apns {
   apn {
     name: "Planet3"
@@ -11,6 +11,8 @@ apns {
     mmsc: "http://mmsc"
     mmsc_proxy: "213.94.78.133"
     mmsc_proxy_port: "8799"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
   }
   apn {
     name: "ims"
@@ -189,10 +191,17 @@ configs {
     int_value: 1800
   }
   config {
+    key: "iwlan.child_session_aes_cbc_key_size_int_array"
+    int_array {
+      item: 256
+    }
+  }
+  config {
     key: "iwlan.diffie_hellman_groups_int_array"
     int_array {
-      item: 2
-      item: 5
+      item: 14
+      item: 15
+      item: 16
     }
   }
   config {
@@ -202,6 +211,25 @@ configs {
   config {
     key: "iwlan.ike_rekey_soft_timer_sec_int"
     int_value: 1800
+  }
+  config {
+    key: "iwlan.ike_session_encryption_aes_cbc_key_size_int_array"
+    int_array {
+      item: 256
+    }
+  }
+  config {
+    key: "iwlan.supported_integrity_algorithms_int_array"
+    int_array {
+      item: 14
+    }
+  }
+  config {
+    key: "iwlan.supported_prf_algorithms_int_array"
+    int_array {
+      item: 5
+      item: 7
+    }
   }
   config {
     key: "non_roaming_operator_string_array"
@@ -357,5 +385,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1721185451
+  seconds: 1732098879
 }

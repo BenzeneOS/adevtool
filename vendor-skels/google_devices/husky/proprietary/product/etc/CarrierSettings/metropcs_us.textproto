@@ -1,5 +1,5 @@
 canonical_name: "metropcs_us"
-version: 62000000029
+version: 64000000032
 apns {
   apn {
     name: "MetroPCS Tethering"
@@ -543,6 +543,10 @@ configs {
     int_value: 40000
   }
   config {
+    key: "nr_timers_reset_on_voice_qos_bool"
+    bool_value: true
+  }
+  config {
     key: "prefer_2g_bool"
     bool_value: true
   }
@@ -752,5 +756,5 @@ vendor_configs {
   }
 }
 last_updated {
-  seconds: 1731561306
+  seconds: 1737999964
 }

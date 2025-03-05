@@ -1,5 +1,5 @@
 canonical_name: "play_pl"
-version: 62000000014
+version: 64000000015
 apns {
   apn {
     name: "Play Internet"
@@ -86,6 +86,10 @@ configs {
   config {
     key: "imsemergency.emergency_qos_precondition_supported_bool"
     bool_value: false
+  }
+  config {
+    key: "imsemergency.emergency_registration_timer_millis_int"
+    int_value: 8000
   }
   config {
     key: "imsrtt.text_qos_precondition_supported_bool"
@@ -254,5 +258,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1724912449
+  seconds: 1730276139
 }

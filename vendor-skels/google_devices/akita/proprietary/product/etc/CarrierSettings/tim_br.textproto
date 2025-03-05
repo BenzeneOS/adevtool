@@ -1,5 +1,5 @@
 canonical_name: "tim_br"
-version: 62000000003
+version: 64000000003
 apns {
   apn {
     name: "TIM Connect"
@@ -43,6 +43,14 @@ configs {
     bool_value: true
   }
   config {
+    key: "carrier_volte_available_bool"
+    bool_value: true
+  }
+  config {
+    key: "ims.sip_over_ipsec_enabled_bool"
+    bool_value: false
+  }
+  config {
     key: "imsss.ut_as_server_fqdn_string"
     text_value: "xcap.ims.mnc002.mcc724.pub.3gppnetwork.org"
   }
@@ -84,5 +92,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1732242429
+  seconds: 1733386079
 }

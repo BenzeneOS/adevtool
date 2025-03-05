@@ -47,13 +47,6 @@ entry {
   }
 }
 entry {
-  canonical_name: "20404GID1=2801"
-  carrier_id {
-    mcc_mnc: "20404"
-    gid1: "2801"
-  }
-}
-entry {
   canonical_name: "truphone_zz"
   carrier_id {
     mcc_mnc: "20404"
@@ -68,10 +61,10 @@ entry {
   }
 }
 entry {
-  canonical_name: "truphone_zz"
+  canonical_name: "20404GID1=2801"
   carrier_id {
     mcc_mnc: "20404"
-    imsi: "20404794"
+    gid1: "2801"
   }
 }
 entry {
@@ -82,17 +75,17 @@ entry {
   }
 }
 entry {
-  canonical_name: "cspire_nl"
+  canonical_name: "truphone_zz"
   carrier_id {
     mcc_mnc: "20404"
-    spn: "C Spire"
+    imsi: "20404794"
   }
 }
 entry {
-  canonical_name: "cspire_nl"
+  canonical_name: "uscc_us"
   carrier_id {
     mcc_mnc: "20404"
-    spn: "C Spire\r"
+    spn: "U.S. CELLULAR"
   }
 }
 entry {
@@ -103,17 +96,24 @@ entry {
   }
 }
 entry {
+  canonical_name: "cspire_nl"
+  carrier_id {
+    mcc_mnc: "20404"
+    spn: "C Spire\r"
+  }
+}
+entry {
+  canonical_name: "cspire_nl"
+  carrier_id {
+    mcc_mnc: "20404"
+    spn: "C Spire"
+  }
+}
+entry {
   canonical_name: "20404SPN=JUMP"
   carrier_id {
     mcc_mnc: "20404"
     spn: "JUMP"
-  }
-}
-entry {
-  canonical_name: "uscc_us"
-  carrier_id {
-    mcc_mnc: "20404"
-    spn: "U.S. CELLULAR"
   }
 }
 entry {
@@ -170,17 +170,17 @@ entry {
   }
 }
 entry {
-  canonical_name: "tmomvno_nl"
-  carrier_id {
-    mcc_mnc: "20416"
-    gid1: "2F"
-  }
-}
-entry {
   canonical_name: "tmobile_nl"
   carrier_id {
     mcc_mnc: "20416"
     gid1: "4E4C"
+  }
+}
+entry {
+  canonical_name: "tmomvno_nl"
+  carrier_id {
+    mcc_mnc: "20416"
+    gid1: "2F"
   }
 }
 entry {
@@ -276,6 +276,13 @@ entry {
   }
 }
 entry {
+  canonical_name: "only_yt"
+  carrier_id {
+    mcc_mnc: "20601"
+    gid1: "F004"
+  }
+}
+entry {
   canonical_name: "20601GID1=4E"
   carrier_id {
     mcc_mnc: "20601"
@@ -311,17 +318,17 @@ entry {
   }
 }
 entry {
-  canonical_name: "20601SPN=IUSACELL"
-  carrier_id {
-    mcc_mnc: "20601"
-    spn: "IUSACELL"
-  }
-}
-entry {
   canonical_name: "20601SPN=NRJ MOBILE"
   carrier_id {
     mcc_mnc: "20601"
     spn: "NRJ MOBILE"
+  }
+}
+entry {
+  canonical_name: "20601SPN=IUSACELL"
+  carrier_id {
+    mcc_mnc: "20601"
+    spn: "IUSACELL"
   }
 }
 entry {
@@ -357,6 +364,20 @@ entry {
   }
 }
 entry {
+  canonical_name: "telavox_be"
+  carrier_id {
+    mcc_mnc: "20614"
+    gid1: "0E"
+  }
+}
+entry {
+  canonical_name: "telavox_be"
+  carrier_id {
+    mcc_mnc: "20614"
+    spn: "Telavox"
+  }
+}
+entry {
   canonical_name: "virgin_gb"
   carrier_id {
     mcc_mnc: "20620"
@@ -388,6 +409,13 @@ entry {
   }
 }
 entry {
+  canonical_name: "webbing_hk"
+  carrier_id {
+    mcc_mnc: "20801"
+    gid1: "536E617065"
+  }
+}
+entry {
   canonical_name: "20801GID1=33"
   carrier_id {
     mcc_mnc: "20801"
@@ -406,13 +434,6 @@ entry {
   carrier_id {
     mcc_mnc: "20801"
     gid1: "52"
-  }
-}
-entry {
-  canonical_name: "webbing_hk"
-  carrier_id {
-    mcc_mnc: "20801"
-    gid1: "536E617065"
   }
 }
 entry {
@@ -531,10 +552,10 @@ entry {
   }
 }
 entry {
-  canonical_name: "20810SPN=A MOBILE"
+  canonical_name: "20810SPN=LECLERCMOBILE"
   carrier_id {
     mcc_mnc: "20810"
-    spn: "A MOBILE"
+    spn: "LECLERCMOBILE"
   }
 }
 entry {
@@ -545,10 +566,10 @@ entry {
   }
 }
 entry {
-  canonical_name: "20810SPN=LECLERCMOBILE"
+  canonical_name: "20810SPN=ZERO FORFAIT"
   carrier_id {
     mcc_mnc: "20810"
-    spn: "LECLERCMOBILE"
+    spn: "ZERO FORFAIT"
   }
 }
 entry {
@@ -559,10 +580,10 @@ entry {
   }
 }
 entry {
-  canonical_name: "20810SPN=ZERO FORFAIT"
+  canonical_name: "20810SPN=A MOBILE"
   carrier_id {
     mcc_mnc: "20810"
-    spn: "ZERO FORFAIT"
+    spn: "A MOBILE"
   }
 }
 entry {
@@ -576,6 +597,13 @@ entry {
   carrier_id {
     mcc_mnc: "20812"
     gid1: "547275554B3030656E"
+  }
+}
+entry {
+  canonical_name: "free_re"
+  carrier_id {
+    mcc_mnc: "20815"
+    gid1: "F2330002"
   }
 }
 entry {
@@ -604,13 +632,6 @@ entry {
   carrier_id {
     mcc_mnc: "20815"
     gid1: "F008"
-  }
-}
-entry {
-  canonical_name: "free_re"
-  carrier_id {
-    mcc_mnc: "20815"
-    gid1: "F2330002"
   }
 }
 entry {
@@ -788,6 +809,20 @@ entry {
   }
 }
 entry {
+  canonical_name: "virgintelco_es"
+  carrier_id {
+    mcc_mnc: "21404"
+    spn: "Virgin telco"
+  }
+}
+entry {
+  canonical_name: "cablemovil_es"
+  carrier_id {
+    mcc_mnc: "21404"
+    spn: "Tu Operador"
+  }
+}
+entry {
   canonical_name: "cablemovil_es"
   carrier_id {
     mcc_mnc: "21404"
@@ -802,31 +837,17 @@ entry {
   }
 }
 entry {
-  canonical_name: "guuk_es"
+  canonical_name: "pepephone_es"
   carrier_id {
     mcc_mnc: "21404"
-    spn: "GUUK"
+    spn: "Pepephone"
   }
 }
 entry {
-  canonical_name: "lebara_es"
+  canonical_name: "telecable2_es"
   carrier_id {
     mcc_mnc: "21404"
-    spn: "LEBARA"
-  }
-}
-entry {
-  canonical_name: "llamaya_es"
-  carrier_id {
-    mcc_mnc: "21404"
-    spn: "LLAMAYA"
-  }
-}
-entry {
-  canonical_name: "lyca_es"
-  carrier_id {
-    mcc_mnc: "21404"
-    spn: "Lyca"
+    spn: "telecable"
   }
 }
 entry {
@@ -837,45 +858,17 @@ entry {
   }
 }
 entry {
-  canonical_name: "pepephone_es"
+  canonical_name: "llamaya_es"
   carrier_id {
     mcc_mnc: "21404"
-    spn: "Pepephone"
+    spn: "LLAMAYA"
   }
 }
 entry {
-  canonical_name: "racc_es"
+  canonical_name: "lebara_es"
   carrier_id {
     mcc_mnc: "21404"
-    spn: "RACC"
-  }
-}
-entry {
-  canonical_name: "sweno_es"
-  carrier_id {
-    mcc_mnc: "21404"
-    spn: "Sweno"
-  }
-}
-entry {
-  canonical_name: "cablemovil_es"
-  carrier_id {
-    mcc_mnc: "21404"
-    spn: "Tu Operador"
-  }
-}
-entry {
-  canonical_name: "virgintelco_es"
-  carrier_id {
-    mcc_mnc: "21404"
-    spn: "Virgin telco"
-  }
-}
-entry {
-  canonical_name: "yoigo_es"
-  carrier_id {
-    mcc_mnc: "21404"
-    spn: "Yoigo"
+    spn: "LEBARA"
   }
 }
 entry {
@@ -886,10 +879,38 @@ entry {
   }
 }
 entry {
-  canonical_name: "telecable2_es"
+  canonical_name: "sweno_es"
   carrier_id {
     mcc_mnc: "21404"
-    spn: "telecable"
+    spn: "Sweno"
+  }
+}
+entry {
+  canonical_name: "yoigo_es"
+  carrier_id {
+    mcc_mnc: "21404"
+    spn: "Yoigo"
+  }
+}
+entry {
+  canonical_name: "guuk_es"
+  carrier_id {
+    mcc_mnc: "21404"
+    spn: "GUUK"
+  }
+}
+entry {
+  canonical_name: "lyca_es"
+  carrier_id {
+    mcc_mnc: "21404"
+    spn: "Lyca"
+  }
+}
+entry {
+  canonical_name: "racc_es"
+  carrier_id {
+    mcc_mnc: "21404"
+    spn: "RACC"
   }
 }
 entry {
@@ -934,13 +955,6 @@ entry {
   }
 }
 entry {
-  canonical_name: "lowi_es"
-  carrier_id {
-    mcc_mnc: "21406"
-    spn: "Lowi"
-  }
-}
-entry {
   canonical_name: "finetwork_es"
   carrier_id {
     mcc_mnc: "21406"
@@ -959,6 +973,13 @@ entry {
   carrier_id {
     mcc_mnc: "21406"
     spn: "finetwork"
+  }
+}
+entry {
+  canonical_name: "lowi_es"
+  carrier_id {
+    mcc_mnc: "21406"
+    spn: "Lowi"
   }
 }
 entry {
@@ -1143,27 +1164,6 @@ entry {
   }
 }
 entry {
-  canonical_name: "21901SPN=BONBON"
-  carrier_id {
-    mcc_mnc: "21901"
-    spn: "BONBON"
-  }
-}
-entry {
-  canonical_name: "telekom_hr"
-  carrier_id {
-    mcc_mnc: "21901"
-    spn: "HT HR"
-  }
-}
-entry {
-  canonical_name: "telekom_hr"
-  carrier_id {
-    mcc_mnc: "21901"
-    spn: "HT-Campus"
-  }
-}
-entry {
   canonical_name: "telekom_hr"
   carrier_id {
     mcc_mnc: "21901"
@@ -1175,6 +1175,27 @@ entry {
   carrier_id {
     mcc_mnc: "21901"
     spn: "T-Mobile HR"
+  }
+}
+entry {
+  canonical_name: "telekom_hr"
+  carrier_id {
+    mcc_mnc: "21901"
+    spn: "HT-Campus"
+  }
+}
+entry {
+  canonical_name: "21901SPN=BONBON"
+  carrier_id {
+    mcc_mnc: "21901"
+    spn: "BONBON"
+  }
+}
+entry {
+  canonical_name: "telekom_hr"
+  carrier_id {
+    mcc_mnc: "21901"
+    spn: "HT HR"
   }
 }
 entry {
@@ -1228,7 +1249,14 @@ entry {
   canonical_name: "telekom_hr"
   carrier_id {
     mcc_mnc: "21920"
-    spn: "HT HR"
+    spn: "R&D Network"
+  }
+}
+entry {
+  canonical_name: "telekom_hr"
+  carrier_id {
+    mcc_mnc: "21920"
+    spn: "T-Mobile HR"
   }
 }
 entry {
@@ -1242,14 +1270,7 @@ entry {
   canonical_name: "telekom_hr"
   carrier_id {
     mcc_mnc: "21920"
-    spn: "R&D Network"
-  }
-}
-entry {
-  canonical_name: "telekom_hr"
-  carrier_id {
-    mcc_mnc: "21920"
-    spn: "T-Mobile HR"
+    spn: "HT HR"
   }
 }
 entry {
@@ -1287,6 +1308,41 @@ entry {
   carrier_id {
     mcc_mnc: "22201"
     gid1: "434F4F50FFFFFFFFFF"
+  }
+}
+entry {
+  canonical_name: "tango_us"
+  carrier_id {
+    mcc_mnc: "22201"
+    imsi: "222013071390"
+  }
+}
+entry {
+  canonical_name: "tango_us"
+  carrier_id {
+    mcc_mnc: "22201"
+    imsi: "222013071391"
+  }
+}
+entry {
+  canonical_name: "tango_us"
+  carrier_id {
+    mcc_mnc: "22201"
+    imsi: "222013071392"
+  }
+}
+entry {
+  canonical_name: "tango_us"
+  carrier_id {
+    mcc_mnc: "22201"
+    imsi: "222013071393"
+  }
+}
+entry {
+  canonical_name: "tango_us"
+  carrier_id {
+    mcc_mnc: "22201"
+    imsi: "222013071394"
   }
 }
 entry {
@@ -1356,41 +1412,6 @@ entry {
   canonical_name: "tango_us"
   carrier_id {
     mcc_mnc: "22201"
-    imsi: "222013071390"
-  }
-}
-entry {
-  canonical_name: "tango_us"
-  carrier_id {
-    mcc_mnc: "22201"
-    imsi: "222013071391"
-  }
-}
-entry {
-  canonical_name: "tango_us"
-  carrier_id {
-    mcc_mnc: "22201"
-    imsi: "222013071392"
-  }
-}
-entry {
-  canonical_name: "tango_us"
-  carrier_id {
-    mcc_mnc: "22201"
-    imsi: "222013071393"
-  }
-}
-entry {
-  canonical_name: "tango_us"
-  carrier_id {
-    mcc_mnc: "22201"
-    imsi: "222013071394"
-  }
-}
-entry {
-  canonical_name: "tango_us"
-  carrier_id {
-    mcc_mnc: "22201"
     imsi: "22201309670"
   }
 }
@@ -1423,17 +1444,17 @@ entry {
   }
 }
 entry {
-  canonical_name: "gigsky_us"
-  carrier_id {
-    mcc_mnc: "22201"
-    spn: "GigSky"
-  }
-}
-entry {
   canonical_name: "22201SPN=IUSACELL"
   carrier_id {
     mcc_mnc: "22201"
     spn: "IUSACELL"
+  }
+}
+entry {
+  canonical_name: "gigsky_us"
+  carrier_id {
+    mcc_mnc: "22201"
+    spn: "GigSky"
   }
 }
 entry {
@@ -1585,10 +1606,31 @@ entry {
   }
 }
 entry {
+  canonical_name: "swisscommvno_ch"
+  carrier_id {
+    mcc_mnc: "22801"
+    spn: "M-Budget Mobile"
+  }
+}
+entry {
+  canonical_name: "swisscommvno_ch"
+  carrier_id {
+    mcc_mnc: "22801"
+    spn: "CoopMobile"
+  }
+}
+entry {
   canonical_name: "fastweb_it"
   carrier_id {
     mcc_mnc: "22801"
     spn: "FASTWEB"
+  }
+}
+entry {
+  canonical_name: "swisscommvno_ch"
+  carrier_id {
+    mcc_mnc: "22801"
+    spn: "Wingo"
   }
 }
 entry {
@@ -1634,6 +1676,12 @@ entry {
   carrier_id {
     mcc_mnc: "22865"
     spn: "Nexphone"
+  }
+}
+entry {
+  canonical_name: "spusu_ch"
+  carrier_id {
+    mcc_mnc: "22871"
   }
 }
 entry {
@@ -1789,14 +1837,14 @@ entry {
   canonical_name: "help_at"
   carrier_id {
     mcc_mnc: "23217"
-    gid1: "0042"
+    gid1: "42"
   }
 }
 entry {
   canonical_name: "tchibo_at"
   carrier_id {
     mcc_mnc: "23217"
-    gid1: "0044"
+    gid1: "44"
   }
 }
 entry {
@@ -1825,6 +1873,20 @@ entry {
   }
 }
 entry {
+  canonical_name: "truphone_zz"
+  carrier_id {
+    mcc_mnc: "23410"
+    gid1: "547275554B3030656E"
+  }
+}
+entry {
+  canonical_name: "webbing_hk"
+  carrier_id {
+    mcc_mnc: "23410"
+    gid1: "536E617065"
+  }
+}
+entry {
   canonical_name: "tesco_gb"
   carrier_id {
     mcc_mnc: "23410"
@@ -1836,20 +1898,6 @@ entry {
   carrier_id {
     mcc_mnc: "23410"
     gid1: "50"
-  }
-}
-entry {
-  canonical_name: "webbing_hk"
-  carrier_id {
-    mcc_mnc: "23410"
-    gid1: "536E617065"
-  }
-}
-entry {
-  canonical_name: "truphone_zz"
-  carrier_id {
-    mcc_mnc: "23410"
-    gid1: "547275554B3030656E"
   }
 }
 entry {
@@ -1949,17 +1997,17 @@ entry {
   }
 }
 entry {
-  canonical_name: "lebara_gb"
-  carrier_id {
-    mcc_mnc: "23415"
-    spn: "LEBARA"
-  }
-}
-entry {
   canonical_name: "23415SPN=SAINSBURY\'S"
   carrier_id {
     mcc_mnc: "23415"
     spn: "SAINSBURY\'S"
+  }
+}
+entry {
+  canonical_name: "lebara_gb"
+  carrier_id {
+    mcc_mnc: "23415"
+    spn: "LEBARA"
   }
 }
 entry {
@@ -2038,7 +2086,7 @@ entry {
   }
 }
 entry {
-  canonical_name: "23430SPN=LycaMobile"
+  canonical_name: "lycamobile_gb"
   carrier_id {
     mcc_mnc: "23430"
     spn: "LycaMobile"
@@ -2083,10 +2131,23 @@ entry {
   }
 }
 entry {
+  canonical_name: "spusu_gb"
+  carrier_id {
+    mcc_mnc: "23440"
+  }
+}
+entry {
   canonical_name: "dent_zz"
   carrier_id {
     mcc_mnc: "23450"
     gid1: "3597BFD533"
+  }
+}
+entry {
+  canonical_name: "cellcomroaming_gb"
+  carrier_id {
+    mcc_mnc: "23450"
+    imsi: "234507096036200"
   }
 }
 entry {
@@ -2143,6 +2204,13 @@ entry {
   carrier_id {
     mcc_mnc: "23450"
     imsi: "2345070960219"
+  }
+}
+entry {
+  canonical_name: "cellcomroaming_gb"
+  carrier_id {
+    mcc_mnc: "23450"
+    imsi: "2345070960361"
   }
 }
 entry {
@@ -2244,20 +2312,6 @@ entry {
   }
 }
 entry {
-  canonical_name: "cellcomroaming_gb"
-  carrier_id {
-    mcc_mnc: "23450"
-    imsi: "2345070960361"
-  }
-}
-entry {
-  canonical_name: "cellcomroaming_gb"
-  carrier_id {
-    mcc_mnc: "23450"
-    imsi: "234507096036200"
-  }
-}
-entry {
   canonical_name: "23450"
   carrier_id {
     mcc_mnc: "23450"
@@ -2282,24 +2336,16 @@ entry {
   }
 }
 entry {
-  canonical_name: "manxcontract_im"
-  carrier_id {
-    mcc_mnc: "23458"
-    imsi: "234583"
-  }
-}
-entry {
-  canonical_name: "manxcontract_im"
-  carrier_id {
-    mcc_mnc: "23458"
-    imsi: "23458850"
-  }
-}
-entry {
   canonical_name: "manxprepaid_im"
   carrier_id {
     mcc_mnc: "23458"
     imsi: "23458851"
+  }
+}
+entry {
+  canonical_name: "manxcontract_im"
+  carrier_id {
+    mcc_mnc: "23458"
   }
 }
 entry {
@@ -2381,12 +2427,6 @@ entry {
   canonical_name: "telia_dk"
   carrier_id {
     mcc_mnc: "23820"
-  }
-}
-entry {
-  canonical_name: "telia_dk"
-  carrier_id {
-    mcc_mnc: "23830"
   }
 }
 entry {
@@ -2476,6 +2516,48 @@ entry {
   }
 }
 entry {
+  canonical_name: "spusu_it"
+  carrier_id {
+    mcc_mnc: "24007"
+    gid1: "40"
+  }
+}
+entry {
+  canonical_name: "spusu_at"
+  carrier_id {
+    mcc_mnc: "24007"
+    gid1: "41"
+  }
+}
+entry {
+  canonical_name: "help_at"
+  carrier_id {
+    mcc_mnc: "24007"
+    gid1: "42"
+  }
+}
+entry {
+  canonical_name: "tchibo_at"
+  carrier_id {
+    mcc_mnc: "24007"
+    gid1: "44"
+  }
+}
+entry {
+  canonical_name: "spusu_gb"
+  carrier_id {
+    mcc_mnc: "24007"
+    gid1: "48"
+  }
+}
+entry {
+  canonical_name: "spusu_ch"
+  carrier_id {
+    mcc_mnc: "24007"
+    gid1: "52"
+  }
+}
+entry {
   canonical_name: "gigsky_us"
   carrier_id {
     mcc_mnc: "24007"
@@ -2535,17 +2617,17 @@ entry {
   }
 }
 entry {
-  canonical_name: "24024SPN=TELE2"
-  carrier_id {
-    mcc_mnc: "24024"
-    spn: "TELE2"
-  }
-}
-entry {
   canonical_name: "telenor_se"
   carrier_id {
     mcc_mnc: "24024"
     spn: "TELENOR SE"
+  }
+}
+entry {
+  canonical_name: "24024SPN=TELE2"
+  carrier_id {
+    mcc_mnc: "24024"
+    spn: "TELE2"
   }
 }
 entry {
@@ -2685,6 +2767,19 @@ entry {
   canonical_name: "dna_fi"
   carrier_id {
     mcc_mnc: "24413"
+  }
+}
+entry {
+  canonical_name: "alcom_fi"
+  carrier_id {
+    mcc_mnc: "24414"
+    spn: "ALCOM"
+  }
+}
+entry {
+  canonical_name: "alcom_fi"
+  carrier_id {
+    mcc_mnc: "24414"
   }
 }
 entry {
@@ -3001,17 +3096,17 @@ entry {
   }
 }
 entry {
-  canonical_name: "o2prepaid_de"
-  carrier_id {
-    mcc_mnc: "26207"
-    imsi: "2620749"
-  }
-}
-entry {
   canonical_name: "tchibo_de"
   carrier_id {
     mcc_mnc: "26207"
     imsi: "26207500"
+  }
+}
+entry {
+  canonical_name: "o2prepaid_de"
+  carrier_id {
+    mcc_mnc: "26207"
+    imsi: "2620749"
   }
 }
 entry {
@@ -3100,6 +3195,13 @@ entry {
   canonical_name: "vodafone_pt"
   carrier_id {
     mcc_mnc: "26801"
+  }
+}
+entry {
+  canonical_name: "digi_pt"
+  carrier_id {
+    mcc_mnc: "26802"
+    spn: "Digi PT"
   }
 }
 entry {
@@ -3200,17 +3302,17 @@ entry {
   }
 }
 entry {
-  canonical_name: "27211GID1=0A"
-  carrier_id {
-    mcc_mnc: "27211"
-    gid1: "0A"
-  }
-}
-entry {
   canonical_name: "48_ie"
   carrier_id {
     mcc_mnc: "27211"
     gid1: "FFFF"
+  }
+}
+entry {
+  canonical_name: "27211GID1=0A"
+  carrier_id {
+    mcc_mnc: "27211"
+    gid1: "0A"
   }
 }
 entry {
@@ -3241,19 +3343,47 @@ entry {
   }
 }
 entry {
+  canonical_name: "sky_ie"
+  carrier_id {
+    mcc_mnc: "27225"
+    gid1: "0D"
+  }
+}
+entry {
+  canonical_name: "sky_ie"
+  carrier_id {
+    mcc_mnc: "27225"
+    spn: "Sky IE"
+  }
+}
+entry {
   canonical_name: "siminn_is"
   carrier_id {
     mcc_mnc: "27401"
   }
 }
 entry {
-  canonical_name: "27402"
+  canonical_name: "nema_fo"
+  carrier_id {
+    mcc_mnc: "27402"
+    imsi: "274029"
+  }
+}
+entry {
+  canonical_name: "nema_fo"
+  carrier_id {
+    mcc_mnc: "27402"
+    spn: "Nema"
+  }
+}
+entry {
+  canonical_name: "vodafone_is"
   carrier_id {
     mcc_mnc: "27402"
   }
 }
 entry {
-  canonical_name: "27403"
+  canonical_name: "vodafone_is"
   carrier_id {
     mcc_mnc: "27403"
   }
@@ -3277,9 +3407,15 @@ entry {
   }
 }
 entry {
-  canonical_name: "27801"
+  canonical_name: "epic_mt"
   carrier_id {
     mcc_mnc: "27801"
+  }
+}
+entry {
+  canonical_name: "gomobile_mt"
+  carrier_id {
+    mcc_mnc: "27821"
   }
 }
 entry {
@@ -3311,6 +3447,12 @@ entry {
   canonical_name: "primetel_cy"
   carrier_id {
     mcc_mnc: "28020"
+  }
+}
+entry {
+  canonical_name: "magticom_ge"
+  carrier_id {
+    mcc_mnc: "28202"
   }
 }
 entry {
@@ -3371,6 +3513,18 @@ entry {
   canonical_name: "turktelekom_tr"
   carrier_id {
     mcc_mnc: "28603"
+  }
+}
+entry {
+  canonical_name: "foroyatele_fo"
+  carrier_id {
+    mcc_mnc: "28801"
+  }
+}
+entry {
+  canonical_name: "nema_fo"
+  carrier_id {
+    mcc_mnc: "28802"
   }
 }
 entry {
@@ -3811,24 +3965,31 @@ entry {
   }
 }
 entry {
-  canonical_name: "310000SPN=BLUEWIRE"
-  carrier_id {
-    mcc_mnc: "310000"
-    spn: "BLUEWIRE"
-  }
-}
-entry {
-  canonical_name: "310000SPN=COMMNET"
-  carrier_id {
-    mcc_mnc: "310000"
-    spn: "COMMNET"
-  }
-}
-entry {
   canonical_name: "310000SPN=DISTRIBUTION"
   carrier_id {
     mcc_mnc: "310000"
     spn: "DISTRIBUTION"
+  }
+}
+entry {
+  canonical_name: "310000SPN=MOBILENATION"
+  carrier_id {
+    mcc_mnc: "310000"
+    spn: "MOBILENATION"
+  }
+}
+entry {
+  canonical_name: "310000SPN=PEOPLESWIRE"
+  carrier_id {
+    mcc_mnc: "310000"
+    spn: "PEOPLESWIRE"
+  }
+}
+entry {
+  canonical_name: "310000SPN=BLUEWIRE"
+  carrier_id {
+    mcc_mnc: "310000"
+    spn: "BLUEWIRE"
   }
 }
 entry {
@@ -3839,10 +4000,17 @@ entry {
   }
 }
 entry {
-  canonical_name: "310000SPN=MOBILENATION"
+  canonical_name: "310000SPN=TRACFONE"
   carrier_id {
     mcc_mnc: "310000"
-    spn: "MOBILENATION"
+    spn: "TRACFONE"
+  }
+}
+entry {
+  canonical_name: "310000SPN=COMMNET"
+  carrier_id {
+    mcc_mnc: "310000"
+    spn: "COMMNET"
   }
 }
 entry {
@@ -3860,24 +4028,10 @@ entry {
   }
 }
 entry {
-  canonical_name: "310000SPN=PEOPLESWIRE"
-  carrier_id {
-    mcc_mnc: "310000"
-    spn: "PEOPLESWIRE"
-  }
-}
-entry {
   canonical_name: "310000SPN=REVOL"
   carrier_id {
     mcc_mnc: "310000"
     spn: "REVOL"
-  }
-}
-entry {
-  canonical_name: "310000SPN=TRACFONE"
-  carrier_id {
-    mcc_mnc: "310000"
-    spn: "TRACFONE"
   }
 }
 entry {
@@ -4798,87 +4952,10 @@ entry {
   }
 }
 entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310280"
-    gid1: "20"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310280"
-    gid1: "21"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310280"
-    gid1: "22"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310280"
-    gid1: "23"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310280"
-    gid1: "24"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310280"
-    gid1: "25"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310280"
-    gid1: "26"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310280"
-    gid1: "27"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310280"
-    gid1: "28"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310280"
-    gid1: "29"
-  }
-}
-entry {
   canonical_name: "consumercellularatt_us"
   carrier_id {
     mcc_mnc: "310280"
     gid1: "2AC9"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310280"
-    gid1: "30"
   }
 }
 entry {
@@ -4956,6 +5033,83 @@ entry {
   carrier_id {
     mcc_mnc: "310280"
     gid1: "DEFF"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310280"
+    gid1: "20"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310280"
+    gid1: "21"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310280"
+    gid1: "22"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310280"
+    gid1: "23"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310280"
+    gid1: "24"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310280"
+    gid1: "25"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310280"
+    gid1: "26"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310280"
+    gid1: "27"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310280"
+    gid1: "28"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310280"
+    gid1: "29"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310280"
+    gid1: "30"
   }
 }
 entry {
@@ -5071,87 +5225,10 @@ entry {
   }
 }
 entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310410"
-    gid1: "20"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310410"
-    gid1: "21"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310410"
-    gid1: "22"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310410"
-    gid1: "23"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310410"
-    gid1: "24"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310410"
-    gid1: "25"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310410"
-    gid1: "26"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310410"
-    gid1: "27"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310410"
-    gid1: "28"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310410"
-    gid1: "29"
-  }
-}
-entry {
   canonical_name: "consumercellularatt_us"
   carrier_id {
     mcc_mnc: "310410"
     gid1: "2AC9"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310410"
-    gid1: "30"
   }
 }
 entry {
@@ -5299,6 +5376,83 @@ entry {
   carrier_id {
     mcc_mnc: "310410"
     gid1: "DEFF"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310410"
+    gid1: "20"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310410"
+    gid1: "21"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310410"
+    gid1: "22"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310410"
+    gid1: "23"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310410"
+    gid1: "24"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310410"
+    gid1: "25"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310410"
+    gid1: "26"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310410"
+    gid1: "27"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310410"
+    gid1: "28"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310410"
+    gid1: "29"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310410"
+    gid1: "30"
   }
 }
 entry {
@@ -5669,87 +5823,10 @@ entry {
   }
 }
 entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310950"
-    gid1: "20"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310950"
-    gid1: "21"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310950"
-    gid1: "22"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310950"
-    gid1: "23"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310950"
-    gid1: "24"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310950"
-    gid1: "25"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310950"
-    gid1: "26"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310950"
-    gid1: "27"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310950"
-    gid1: "28"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310950"
-    gid1: "29"
-  }
-}
-entry {
   canonical_name: "consumercellularatt_us"
   carrier_id {
     mcc_mnc: "310950"
     gid1: "2AC9"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "310950"
-    gid1: "30"
   }
 }
 entry {
@@ -5816,16 +5893,93 @@ entry {
   }
 }
 entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310950"
+    gid1: "20"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310950"
+    gid1: "21"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310950"
+    gid1: "22"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310950"
+    gid1: "23"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310950"
+    gid1: "24"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310950"
+    gid1: "25"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310950"
+    gid1: "26"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310950"
+    gid1: "27"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310950"
+    gid1: "28"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310950"
+    gid1: "29"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "310950"
+    gid1: "30"
+  }
+}
+entry {
   canonical_name: "att_us"
   carrier_id {
     mcc_mnc: "310950"
   }
 }
 entry {
-  canonical_name: "310960SPN=NNTCWIRE"
+  canonical_name: "310960SPN=SOUTHCENTRAL"
   carrier_id {
     mcc_mnc: "310960"
-    spn: "NNTCWIRE"
+    spn: "SOUTHCENTRAL"
   }
 }
 entry {
@@ -5843,17 +5997,10 @@ entry {
   }
 }
 entry {
-  canonical_name: "310960SPN=SOUTHCENTRAL"
+  canonical_name: "310960SPN=NNTCWIRE"
   carrier_id {
     mcc_mnc: "310960"
-    spn: "SOUTHCENTRAL"
-  }
-}
-entry {
-  canonical_name: "310960SPN=STRATA"
-  carrier_id {
-    mcc_mnc: "310960"
-    spn: "STRATA"
+    spn: "NNTCWIRE"
   }
 }
 entry {
@@ -5861,6 +6008,13 @@ entry {
   carrier_id {
     mcc_mnc: "310960"
     spn: "SYRINGA"
+  }
+}
+entry {
+  canonical_name: "310960SPN=STRATA"
+  carrier_id {
+    mcc_mnc: "310960"
+    spn: "STRATA"
   }
 }
 entry {
@@ -5921,87 +6075,10 @@ entry {
   }
 }
 entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "311180"
-    gid1: "20"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "311180"
-    gid1: "21"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "311180"
-    gid1: "22"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "311180"
-    gid1: "23"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "311180"
-    gid1: "24"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "311180"
-    gid1: "25"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "311180"
-    gid1: "26"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "311180"
-    gid1: "27"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "311180"
-    gid1: "28"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "311180"
-    gid1: "29"
-  }
-}
-entry {
   canonical_name: "consumercellularatt_us"
   carrier_id {
     mcc_mnc: "311180"
     gid1: "2AC9"
-  }
-}
-entry {
-  canonical_name: "reachmobileatt_us"
-  carrier_id {
-    mcc_mnc: "311180"
-    gid1: "30"
   }
 }
 entry {
@@ -6135,6 +6212,83 @@ entry {
   carrier_id {
     mcc_mnc: "311180"
     gid1: "DEFF"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "311180"
+    gid1: "20"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "311180"
+    gid1: "21"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "311180"
+    gid1: "22"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "311180"
+    gid1: "23"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "311180"
+    gid1: "24"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "311180"
+    gid1: "25"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "311180"
+    gid1: "26"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "311180"
+    gid1: "27"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "311180"
+    gid1: "28"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "311180"
+    gid1: "29"
+  }
+}
+entry {
+  canonical_name: "commonmvnxatt_us"
+  carrier_id {
+    mcc_mnc: "311180"
+    gid1: "30"
   }
 }
 entry {
@@ -6540,10 +6694,24 @@ entry {
   }
 }
 entry {
-  canonical_name: "311500SPN=24-7 WIRELESS"
+  canonical_name: "311500SPN=NORVADO WIRELESS RPA"
   carrier_id {
     mcc_mnc: "311500"
-    spn: "24-7 WIRELESS"
+    spn: "NORVADO WIRELESS RPA"
+  }
+}
+entry {
+  canonical_name: "311500SPN=NORVADO WIRELESS RPO"
+  carrier_id {
+    mcc_mnc: "311500"
+    spn: "NORVADO WIRELESS RPO"
+  }
+}
+entry {
+  canonical_name: "311500SPN=NORVADO WIRELESS RPT"
+  carrier_id {
+    mcc_mnc: "311500"
+    spn: "NORVADO WIRELESS RPT"
   }
 }
 entry {
@@ -6565,6 +6733,20 @@ entry {
   carrier_id {
     mcc_mnc: "311500"
     spn: "24-7 WIRELESS RPT"
+  }
+}
+entry {
+  canonical_name: "311500SPN=NORVADO WIRELESS"
+  carrier_id {
+    mcc_mnc: "311500"
+    spn: "NORVADO WIRELESS"
+  }
+}
+entry {
+  canonical_name: "311500SPN=24-7 WIRELESS"
+  carrier_id {
+    mcc_mnc: "311500"
+    spn: "24-7 WIRELESS"
   }
 }
 entry {
@@ -6593,34 +6775,6 @@ entry {
   carrier_id {
     mcc_mnc: "311500"
     spn: "MOSAIC RPT"
-  }
-}
-entry {
-  canonical_name: "311500SPN=NORVADO WIRELESS"
-  carrier_id {
-    mcc_mnc: "311500"
-    spn: "NORVADO WIRELESS"
-  }
-}
-entry {
-  canonical_name: "311500SPN=NORVADO WIRELESS RPA"
-  carrier_id {
-    mcc_mnc: "311500"
-    spn: "NORVADO WIRELESS RPA"
-  }
-}
-entry {
-  canonical_name: "311500SPN=NORVADO WIRELESS RPO"
-  carrier_id {
-    mcc_mnc: "311500"
-    spn: "NORVADO WIRELESS RPO"
-  }
-}
-entry {
-  canonical_name: "311500SPN=NORVADO WIRELESS RPT"
-  carrier_id {
-    mcc_mnc: "311500"
-    spn: "NORVADO WIRELESS RPT"
   }
 }
 entry {
@@ -6752,7 +6906,7 @@ entry {
   }
 }
 entry {
-  canonical_name: "tmobile_us"
+  canonical_name: "tmobileprivate_us"
   carrier_id {
     mcc_mnc: "311660"
   }
@@ -7217,34 +7371,6 @@ entry {
   }
 }
 entry {
-  canonical_name: "arlonet_mx"
-  carrier_id {
-    mcc_mnc: "334140"
-    spn: "Arlonet"
-  }
-}
-entry {
-  canonical_name: "walmart_mx"
-  carrier_id {
-    mcc_mnc: "334140"
-    spn: "BAIT"
-  }
-}
-entry {
-  canonical_name: "addinteli_mx"
-  carrier_id {
-    mcc_mnc: "334140"
-    spn: "BYPLUS"
-  }
-}
-entry {
-  canonical_name: "cfe_mx"
-  carrier_id {
-    mcc_mnc: "334140"
-    spn: "CFE TEIPT"
-  }
-}
-entry {
   canonical_name: "addinteli_mx"
   carrier_id {
     mcc_mnc: "334140"
@@ -7252,10 +7378,10 @@ entry {
   }
 }
 entry {
-  canonical_name: "diri_mx"
+  canonical_name: "redpotencia_mx"
   carrier_id {
     mcc_mnc: "334140"
-    spn: "DIRI"
+    spn: "Redpotencia"
   }
 }
 entry {
@@ -7266,10 +7392,87 @@ entry {
   }
 }
 entry {
+  canonical_name: "cfe_mx"
+  carrier_id {
+    mcc_mnc: "334140"
+    spn: "CFE TEIPT"
+  }
+}
+entry {
+  canonical_name: "megacable_mx"
+  carrier_id {
+    mcc_mnc: "334140"
+    spn: "Mega4.5 G"
+  }
+}
+entry {
+  canonical_name: "rocketel_mx"
+  carrier_id {
+    mcc_mnc: "334140"
+    spn: "PagaPhone"
+  }
+}
+entry {
   canonical_name: "guruweb_mx"
   carrier_id {
     mcc_mnc: "334140"
     spn: "Gurucomm"
+  }
+}
+entry {
+  canonical_name: "topos_mx"
+  carrier_id {
+    mcc_mnc: "334140"
+    spn: "TURBORED"
+  }
+}
+entry {
+  canonical_name: "arlonet_mx"
+  carrier_id {
+    mcc_mnc: "334140"
+    spn: "Arlonet"
+  }
+}
+entry {
+  canonical_name: "iusacomm_mx"
+  carrier_id {
+    mcc_mnc: "334140"
+    spn: "IUSATEL"
+  }
+}
+entry {
+  canonical_name: "adm_mx"
+  carrier_id {
+    mcc_mnc: "334140"
+    spn: "MISTRAL"
+  }
+}
+entry {
+  canonical_name: "retemex_mx"
+  carrier_id {
+    mcc_mnc: "334140"
+    spn: "RETEMEX"
+  }
+}
+entry {
+  canonical_name: "addinteli_mx"
+  carrier_id {
+    mcc_mnc: "334140"
+    spn: "BYPLUS"
+  }
+}
+entry {
+  canonical_name: "ads_mx"
+  carrier_id {
+    mcc_mnc: "334140"
+    spn: "MEXFON"
+  }
+}
+entry {
+  canonical_name: "netwey_mx"
+  carrier_id {
+    mcc_mnc: "334140"
+    spn: "NETWEY"
   }
 }
 entry {
@@ -7287,94 +7490,10 @@ entry {
   }
 }
 entry {
-  canonical_name: "iusacomm_mx"
-  carrier_id {
-    mcc_mnc: "334140"
-    spn: "IUSATEL"
-  }
-}
-entry {
-  canonical_name: "ads_mx"
-  carrier_id {
-    mcc_mnc: "334140"
-    spn: "MEXFON"
-  }
-}
-entry {
-  canonical_name: "adm_mx"
-  carrier_id {
-    mcc_mnc: "334140"
-    spn: "MISTRAL"
-  }
-}
-entry {
-  canonical_name: "megacable_mx"
-  carrier_id {
-    mcc_mnc: "334140"
-    spn: "Mega4.5 G"
-  }
-}
-entry {
-  canonical_name: "diveracy_mx"
-  carrier_id {
-    mcc_mnc: "334140"
-    spn: "NEMI"
-  }
-}
-entry {
-  canonical_name: "netwey_mx"
-  carrier_id {
-    mcc_mnc: "334140"
-    spn: "NETWEY"
-  }
-}
-entry {
   canonical_name: "altannewww_mx"
   carrier_id {
     mcc_mnc: "334140"
     spn: "NeWWW"
-  }
-}
-entry {
-  canonical_name: "oui_mx"
-  carrier_id {
-    mcc_mnc: "334140"
-    spn: "OUI"
-  }
-}
-entry {
-  canonical_name: "rocketel_mx"
-  carrier_id {
-    mcc_mnc: "334140"
-    spn: "PagaPhone"
-  }
-}
-entry {
-  canonical_name: "retemex_mx"
-  carrier_id {
-    mcc_mnc: "334140"
-    spn: "RETEMEX"
-  }
-}
-entry {
-  canonical_name: "redpotencia_mx"
-  carrier_id {
-    mcc_mnc: "334140"
-    spn: "Redpotencia"
-  }
-}
-entry {
-  canonical_name: "topos_mx"
-  carrier_id {
-    mcc_mnc: "334140"
-    spn: "TURBORED"
-  }
-}
-entry {
-  canonical_name: "ubix_mx"
-  carrier_id {
-    mcc_mnc: "334140"
-    spn: "Ubix"
   }
 }
 entry {
@@ -7385,6 +7504,34 @@ entry {
   }
 }
 entry {
+  canonical_name: "walmart_mx"
+  carrier_id {
+    mcc_mnc: "334140"
+    spn: "BAIT"
+  }
+}
+entry {
+  canonical_name: "diri_mx"
+  carrier_id {
+    mcc_mnc: "334140"
+    spn: "DIRI"
+  }
+}
+entry {
+  canonical_name: "diveracy_mx"
+  carrier_id {
+    mcc_mnc: "334140"
+    spn: "NEMI"
+  }
+}
+entry {
+  canonical_name: "ubix_mx"
+  carrier_id {
+    mcc_mnc: "334140"
+    spn: "Ubix"
+  }
+}
+entry {
   canonical_name: "wimo_mx"
   carrier_id {
     mcc_mnc: "334140"
@@ -7392,17 +7539,24 @@ entry {
   }
 }
 entry {
-  canonical_name: "yonder_mx"
-  carrier_id {
-    mcc_mnc: "334140"
-    spn: "YO"
-  }
-}
-entry {
   canonical_name: "izzi_mx"
   carrier_id {
     mcc_mnc: "334140"
     spn: "izzi"
+  }
+}
+entry {
+  canonical_name: "oui_mx"
+  carrier_id {
+    mcc_mnc: "334140"
+    spn: "OUI"
+  }
+}
+entry {
+  canonical_name: "yonder_mx"
+  carrier_id {
+    mcc_mnc: "334140"
+    spn: "YO"
   }
 }
 entry {
@@ -7952,6 +8106,12 @@ entry {
   }
 }
 entry {
+  canonical_name: "bsnl_in"
+  carrier_id {
+    mcc_mnc: "40439"
+  }
+}
+entry {
   canonical_name: "airtel_in"
   carrier_id {
     mcc_mnc: "40440"
@@ -8075,6 +8235,12 @@ entry {
   canonical_name: "bsnl_in"
   carrier_id {
     mcc_mnc: "40464"
+  }
+}
+entry {
+  canonical_name: "bsnl_in"
+  carrier_id {
+    mcc_mnc: "40465"
   }
 }
 entry {
@@ -9314,7 +9480,7 @@ entry {
   }
 }
 entry {
-  canonical_name: "41001"
+  canonical_name: "jazz_pk"
   carrier_id {
     mcc_mnc: "41001"
   }
@@ -9332,7 +9498,7 @@ entry {
   }
 }
 entry {
-  canonical_name: "41006"
+  canonical_name: "telenor_pk"
   carrier_id {
     mcc_mnc: "41006"
   }
@@ -10131,17 +10297,17 @@ entry {
   }
 }
 entry {
-  canonical_name: "webbing_hk"
-  carrier_id {
-    mcc_mnc: "45400"
-    gid1: "536E617065"
-  }
-}
-entry {
   canonical_name: "truphone_zz"
   carrier_id {
     mcc_mnc: "45400"
     gid1: "547275554B3030656E"
+  }
+}
+entry {
+  canonical_name: "webbing_hk"
+  carrier_id {
+    mcc_mnc: "45400"
+    gid1: "536E617065"
   }
 }
 entry {
@@ -10473,9 +10639,15 @@ entry {
   }
 }
 entry {
-  canonical_name: "47001"
+  canonical_name: "grameenphone_bd"
   carrier_id {
     mcc_mnc: "47001"
+  }
+}
+entry {
+  canonical_name: "robi_bd"
+  carrier_id {
+    mcc_mnc: "47002"
   }
 }
 entry {
@@ -10675,7 +10847,7 @@ entry {
   }
 }
 entry {
-  canonical_name: "51001"
+  canonical_name: "indosat_id"
   carrier_id {
     mcc_mnc: "51001"
   }
@@ -10857,17 +11029,17 @@ entry {
   }
 }
 entry {
-  canonical_name: "52505IMSI=525053095XXXXXX"
-  carrier_id {
-    mcc_mnc: "52505"
-    imsi: "525053095"
-  }
-}
-entry {
   canonical_name: "travelfy_zz"
   carrier_id {
     mcc_mnc: "52505"
     imsi: "5250530996"
+  }
+}
+entry {
+  canonical_name: "52505IMSI=525053095XXXXXX"
+  carrier_id {
+    mcc_mnc: "52505"
+    imsi: "525053095"
   }
 }
 entry {
@@ -11948,16 +12120,10 @@ entry {
   }
 }
 entry {
-  canonical_name: "64702"
+  canonical_name: "only_yt"
   carrier_id {
     mcc_mnc: "64702"
-  }
-}
-entry {
-  canonical_name: "telco_re"
-  carrier_id {
-    mcc_mnc: "64703"
-    gid1: "F006"
+    gid1: "F004"
   }
 }
 entry {
@@ -11965,6 +12131,13 @@ entry {
   carrier_id {
     mcc_mnc: "64703"
     gid1: "F2330002"
+  }
+}
+entry {
+  canonical_name: "telco_re"
+  carrier_id {
+    mcc_mnc: "64703"
+    gid1: "F006"
   }
 }
 entry {
@@ -12540,7 +12713,7 @@ entry {
   }
 }
 entry {
-  canonical_name: "73001"
+  canonical_name: "entel_cl"
   carrier_id {
     mcc_mnc: "73001"
   }
@@ -12552,7 +12725,7 @@ entry {
   }
 }
 entry {
-  canonical_name: "73003"
+  canonical_name: "claro_cl"
   carrier_id {
     mcc_mnc: "73003"
   }
@@ -12589,9 +12762,16 @@ entry {
   }
 }
 entry {
-  canonical_name: "732101"
+  canonical_name: "claro_co"
   carrier_id {
     mcc_mnc: "732101"
+  }
+}
+entry {
+  canonical_name: "movilexito_co"
+  carrier_id {
+    mcc_mnc: "732103"
+    spn: "MOVIL EXITO"
   }
 }
 entry {
@@ -12602,13 +12782,6 @@ entry {
   }
 }
 entry {
-  canonical_name: "movilexito_co"
-  carrier_id {
-    mcc_mnc: "732103"
-    spn: "MOVIL EXITO"
-  }
-}
-entry {
   canonical_name: "uff_co"
   carrier_id {
     mcc_mnc: "732103"
@@ -12623,9 +12796,16 @@ entry {
   }
 }
 entry {
-  canonical_name: "movil_co"
+  canonical_name: "tigo_co"
   carrier_id {
     mcc_mnc: "732103"
+  }
+}
+entry {
+  canonical_name: "movilexito_co"
+  carrier_id {
+    mcc_mnc: "732111"
+    spn: "MOVIL EXITO"
   }
 }
 entry {
@@ -12636,13 +12816,6 @@ entry {
   }
 }
 entry {
-  canonical_name: "movilexito_co"
-  carrier_id {
-    mcc_mnc: "732111"
-    spn: "MOVIL EXITO"
-  }
-}
-entry {
   canonical_name: "uff_co"
   carrier_id {
     mcc_mnc: "732111"
@@ -12657,7 +12830,7 @@ entry {
   }
 }
 entry {
-  canonical_name: "movil_co"
+  canonical_name: "tigo_co"
   carrier_id {
     mcc_mnc: "732111"
   }
@@ -12683,7 +12856,7 @@ entry {
   }
 }
 entry {
-  canonical_name: "732123"
+  canonical_name: "movistar_co"
   carrier_id {
     mcc_mnc: "732123"
   }
@@ -12764,6 +12937,12 @@ entry {
   canonical_name: "73802"
   carrier_id {
     mcc_mnc: "73802"
+  }
+}
+entry {
+  canonical_name: "enetworks_gy"
+  carrier_id {
+    mcc_mnc: "738040"
   }
 }
 entry {
@@ -12889,7 +13068,7 @@ entry {
     mcc_mnc: "999480"
   }
 }
-version: 62000000517
+version: 64000000528
 4 {
-  1: 1726812743
+  1: 1735077827
 }

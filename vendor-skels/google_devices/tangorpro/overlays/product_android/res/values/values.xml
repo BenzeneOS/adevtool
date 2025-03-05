@@ -78,7 +78,6 @@
   <bool name="config_allowRotationResolver">false</bool>
   <bool name="config_appCompatUserAppAspectRatioFullscreenIsEnabled">true</bool>
   <bool name="config_appCompatUserAppAspectRatioSettingsIsEnabled">true</bool>
-  <bool name="config_biometricFrrNotificationEnabled">true</bool>
   <bool name="config_buttonTextAllCaps">false</bool>
   <bool name="config_deskDockEnablesAccelerometer">false</bool>
   <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
@@ -132,8 +131,7 @@
   <dimen name="config_keyboardHapticFeedbackFixedAmplitude">0.62</dimen>
   <dimen name="config_letterboxVerticalPositionMultiplier">0.5</dimen>
   <dimen name="config_progressBarCornerRadius">1000dp</dimen>
-  <dimen name="system_app_widget_background_radius">28dp</dimen>
-  <dimen name="system_app_widget_inner_radius">20dp</dimen>
+  <dimen name="config_windowManagerCameraCompatAspectRatio">1.77778</dimen>
   <integer name="config_cameraPrivacyLightAlsAveragingIntervalMillis">3000</integer>
   <integer name="config_deskDockRotation">270</integer>
   <integer name="config_dreamsBatteryLevelDrainCutoff">2</integer>
@@ -144,11 +142,6 @@
   <integer name="config_maximumCallLogEntriesPerSim">1000</integer>
   <integer name="config_navBarInteractionMode">2</integer>
   <integer name="config_shortPressOnPowerBehavior">7</integer>
-  <integer name="device_idle_idle_after_inactive_to_ms">15000</integer>
-  <integer name="device_idle_inactive_to_ms">15000</integer>
-  <integer name="device_idle_locating_to_ms">15000</integer>
-  <integer name="device_idle_motion_inactive_to_ms">30000</integer>
-  <integer name="device_idle_sensing_to_ms">15000</integer>
   <integer-array name="config_cameraPrivacyLightAlsLuxThresholds">
     <item>10</item>
     <item>55</item>

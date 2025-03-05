@@ -1,5 +1,5 @@
 canonical_name: "twm_tw"
-version: 62000000012
+version: 64000000012
 apns {
   apn {
     name: "\345\217\260\347\201\243\345\244\247\345\223\245\345\244\247(TW Mobile) (Internet)"

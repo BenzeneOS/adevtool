@@ -1,5 +1,5 @@
 canonical_name: "a1_bg"
-version: 62000000004
+version: 64000000004
 apns {
   apn {
     name: "Mtel Internet"

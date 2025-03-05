@@ -1,5 +1,5 @@
 canonical_name: "coriolis_fr"
-version: 62000000006
+version: 64000000006
 apns {
   apn {
     name: "Coriolis"

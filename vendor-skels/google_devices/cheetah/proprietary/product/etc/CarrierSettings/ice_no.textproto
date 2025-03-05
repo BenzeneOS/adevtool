@@ -1,5 +1,5 @@
 canonical_name: "ice_no"
-version: 62000000012
+version: 64000000012
 apns {
   apn {
     name: "ice.net Internet"

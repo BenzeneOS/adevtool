@@ -1,5 +1,5 @@
 canonical_name: "bouygues_fr"
-version: 62000000010
+version: 64000000012
 apns {
   apn {
     name: "Bouygues Telecom"
@@ -25,6 +25,7 @@ apns {
     type: IMS
     bearer_bitmask: "14|18|20"
     protocol: IPV4V6
+    roaming_protocol: IPV4V6
     user_visible: false
     lingering_network_type_bitmask: "1|2|3|8|9|10|13|14|15|18|20"
   }
@@ -63,10 +64,6 @@ configs {
   config {
     key: "carrier_wfc_ims_available_bool"
     bool_value: true
-  }
-  config {
-    key: "editable_wfc_mode_bool"
-    bool_value: false
   }
   config {
     key: "hide_enhanced_4g_lte_bool"
@@ -211,7 +208,7 @@ configs {
   config {
     key: "qns.idle_eutran_rsrp_int_array"
     int_array {
-      item: -110
+      item: -114
       item: -120
     }
   }
@@ -256,7 +253,7 @@ configs {
   config {
     key: "qns.voice_eutran_rsrp_int_array"
     int_array {
-      item: -110
+      item: -114
       item: -120
     }
   }
@@ -299,5 +296,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1724289921
+  seconds: 1730898277
 }

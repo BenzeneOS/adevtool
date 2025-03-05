@@ -1,5 +1,5 @@
 canonical_name: "tim_it"
-version: 62000000015
+version: 64000000016
 apns {
   apn {
     name: "WAP TIM"
@@ -76,6 +76,10 @@ configs {
   config {
     key: "default_vm_number_string"
     text_value: "41919"
+  }
+  config {
+    key: "hide_enhanced_4g_lte_bool"
+    bool_value: true
   }
   config {
     key: "ims.ims_pdn_enabled_in_no_vops_support_int_array"
@@ -286,5 +290,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1723067530
+  seconds: 1727870754
 }

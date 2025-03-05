@@ -1,5 +1,5 @@
 canonical_name: "telekom_sk"
-version: 62000000013
+version: 64000000014
 apns {
   apn {
     name: "Internet"
@@ -57,6 +57,10 @@ configs {
   }
   config {
     key: "carrier_wfc_ims_available_bool"
+    bool_value: true
+  }
+  config {
+    key: "hide_enhanced_4g_lte_bool"
     bool_value: true
   }
   config {
@@ -228,5 +232,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1726812761
+  seconds: 1730276159
 }

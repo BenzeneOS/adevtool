@@ -112,18 +112,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libedgetpu_dba.google__system_ext",
-    owner: "google_devices",
-    stem: "libedgetpu_dba.google",
-    target: { android_arm64: { srcs: [ "system_ext/lib64/libedgetpu_dba.google.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libhbmsvmanager_jni__system_ext",
     owner: "google_devices",
     stem: "libhbmsvmanager_jni",
@@ -189,9 +177,9 @@ android_app_import {
 }
 
 prebuilt_apex {
-    name: "com.google.android.widevine-11775005",
+    name: "com.google.android.widevine-12141839",
     owner: "google_devices",
-    src: "vendor/apex/com.google.android.widevine-11775005.apex",
+    src: "vendor/apex/com.google.android.widevine-12141839.apex",
     prefer: true,
     soc_specific: true,
 }
@@ -243,6 +231,16 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    name: "flood.control.hal",
+    owner: "google_devices",
+    srcs: [ "vendor/bin/flood.control.hal" ],
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
     name: "android.hardware.authsecret-service.citadel",
     owner: "google_devices",
     srcs: [ "vendor/bin/hw/android.hardware.authsecret-service.citadel" ],
@@ -279,6 +277,17 @@ cc_prebuilt_binary {
     name: "android.hardware.contexthub-service.generic",
     owner: "google_devices",
     srcs: [ "vendor/bin/hw/android.hardware.contexthub-service.generic" ],
+    relative_install_path: "hw",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.drm-service.castkey",
+    owner: "google_devices",
+    srcs: [ "vendor/bin/hw/android.hardware.drm-service.castkey" ],
     relative_install_path: "hw",
     check_elf_files: false,
     prefer: true,
@@ -400,17 +409,6 @@ cc_prebuilt_binary {
     name: "citadeld",
     owner: "google_devices",
     srcs: [ "vendor/bin/hw/citadeld" ],
-    relative_install_path: "hw",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "com.google.edgetpu.dba-service",
-    owner: "google_devices",
-    srcs: [ "vendor/bin/hw/com.google.edgetpu.dba-service" ],
     relative_install_path: "hw",
     check_elf_files: false,
     prefer: true,
@@ -670,15 +668,6 @@ prebuilt_etc {
     name: "motiondetector",
     owner: "google_devices",
     src: "vendor/etc/chre/motiondetector.so",
-    filename_from_src: true,
-    sub_dir: "chre",
-    soc_specific: true,
-}
-
-prebuilt_etc {
-    name: "nearby",
-    owner: "google_devices",
-    src: "vendor/etc/chre/nearby.so",
     filename_from_src: true,
     sub_dir: "chre",
     soc_specific: true,
@@ -1014,33 +1003,11 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.google.edgetpu_app_service-V4-ndk",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "com.google.edgetpu_vendor_service-V2-ndk",
     owner: "google_devices",
     target: {
         android_arm64: { srcs: [ "vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so" ] }
     },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.google.edgetpu.dba-V1-ndk",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/com.google.edgetpu.dba-V1-ndk.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -1103,9 +1070,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.google.input-V3-ndk",
+    name: "com.google.input-V4-ndk",
     owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/com.google.input-V3-ndk.so" ] } },
+    target: { android_arm64: { srcs: [ "vendor/lib64/com.google.input-V4-ndk.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -1412,17 +1379,6 @@ cc_prebuilt_library_shared {
     name: "libdapparamstorage",
     owner: "google_devices",
     target: { android_arm64: { srcs: [ "vendor/lib64/libdapparamstorage.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libdarwinn_dba_hal_runtime",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/libdarwinn_dba_hal_runtime.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -2191,24 +2147,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "com.google.android.imageprocessing.hal-default",
-    owner: "google_devices",
-    src: "vendor/etc/vintf/manifest/com.google.android.imageprocessing.hal-default.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "com.google.edgetpu.dba-service__2",
-    owner: "google_devices",
-    src: "vendor/etc/vintf/manifest/com.google.edgetpu.dba-service.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "com.google.edgetpu.tachyon-service__2",
     owner: "google_devices",
     src: "vendor/etc/vintf/manifest/com.google.edgetpu.tachyon-service.xml",
@@ -2221,6 +2159,33 @@ prebuilt_etc_xml {
     name: "fingerprint-fpc42",
     owner: "google_devices",
     src: "vendor/etc/vintf/manifest/fingerprint-fpc42.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "flood_control",
+    owner: "google_devices",
+    src: "vendor/etc/vintf/manifest/flood_control.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "manifest_android.hardware.drm-service.castkey",
+    owner: "google_devices",
+    src: "vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.castkey.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "manifest_aocx",
+    owner: "google_devices",
+    src: "vendor/etc/vintf/manifest/manifest_aocx.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,

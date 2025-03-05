@@ -84,6 +84,17 @@ cc_prebuilt_binary {
     system_ext_specific: true,
 }
 
+cc_prebuilt_binary {
+    name: "vendor.google.whitechapel.audio.hal.parserservice",
+    owner: "google_devices",
+    srcs: [ "system_ext/bin/hw/vendor.google.whitechapel.audio.hal.parserservice" ],
+    relative_install_path: "hw",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    system_ext_specific: true,
+}
+
 dex_import {
     name: "com.google.android.camera.extensions",
     owner: "google_devices",
@@ -186,18 +197,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libedgetpu_dba.google__system_ext",
-    owner: "google_devices",
-    stem: "libedgetpu_dba.google",
-    target: { android_arm64: { srcs: [ "system_ext/lib64/libedgetpu_dba.google.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmediaadaptor__system_ext",
     owner: "google_devices",
     stem: "libmediaadaptor",
@@ -260,11 +259,11 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.google.whitechapel.audio.extension-V3-ndk__system_ext",
+    name: "vendor.google.whitechapel.audio.extension-V4-ndk__system_ext",
     owner: "google_devices",
-    stem: "vendor.google.whitechapel.audio.extension-V3-ndk",
+    stem: "vendor.google.whitechapel.audio.extension-V4-ndk",
     target: {
-        android_arm64: { srcs: [ "system_ext/lib64/vendor.google.whitechapel.audio.extension-V3-ndk.so" ] }
+        android_arm64: { srcs: [ "system_ext/lib64/vendor.google.whitechapel.audio.extension-V4-ndk.so" ] }
     },
     compile_multilib: "64",
     check_elf_files: false,
@@ -437,9 +436,9 @@ sh_binary {
 }
 
 prebuilt_apex {
-    name: "com.google.android.hardware.biometrics.face.pixel23",
+    name: "com.google.android.hardware.biometrics.face",
     owner: "google_devices",
-    src: "vendor/apex/com.google.android.hardware.biometrics.face.pixel23.apex",
+    src: "vendor/apex/com.google.android.hardware.biometrics.face.apex",
     prefer: true,
     soc_specific: true,
 }
@@ -453,9 +452,9 @@ prebuilt_apex {
 }
 
 prebuilt_apex {
-    name: "com.google.android.widevine-11775005",
+    name: "com.google.android.widevine-12141839",
     owner: "google_devices",
-    src: "vendor/apex/com.google.android.widevine-11775005.apex",
+    src: "vendor/apex/com.google.android.widevine-12141839.apex",
     prefer: true,
     soc_specific: true,
 }
@@ -539,6 +538,27 @@ cc_prebuilt_binary {
     owner: "google_devices",
     srcs: [ "vendor/bin/factory/qm35_poll" ],
     relative_install_path: "factory",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "flood.control.hal",
+    owner: "google_devices",
+    srcs: [ "vendor/bin/flood.control.hal" ],
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.audio.service-aidl.aoc",
+    owner: "google_devices",
+    srcs: [ "vendor/bin/hw/android.hardware.audio.service-aidl.aoc" ],
+    relative_install_path: "hw",
     check_elf_files: false,
     prefer: true,
     strip: { none: true },
@@ -678,6 +698,17 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    name: "android.hardware.vibrator-service.cs40l26",
+    owner: "google_devices",
+    srcs: [ "vendor/bin/hw/android.hardware.vibrator-service.cs40l26" ],
+    relative_install_path: "hw",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
     name: "android.hardware.weaver-service.citadel",
     owner: "google_devices",
     srcs: [ "vendor/bin/hw/android.hardware.weaver-service.citadel" ],
@@ -714,17 +745,6 @@ cc_prebuilt_binary {
     name: "citadeld",
     owner: "google_devices",
     srcs: [ "vendor/bin/hw/citadeld" ],
-    relative_install_path: "hw",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "com.google.edgetpu.dba-service",
-    owner: "google_devices",
-    srcs: [ "vendor/bin/hw/com.google.edgetpu.dba-service" ],
     relative_install_path: "hw",
     check_elf_files: false,
     prefer: true,
@@ -824,17 +844,6 @@ cc_prebuilt_binary {
     name: "vendor.dolby.media.c2@1.0-service",
     owner: "google_devices",
     srcs: [ "vendor/bin/hw/vendor.dolby.media.c2@1.0-service" ],
-    relative_install_path: "hw",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vendor.google.audiometricext@1.0-service-vendor",
-    owner: "google_devices",
-    srcs: [ "vendor/bin/hw/vendor.google.audiometricext@1.0-service-vendor" ],
     relative_install_path: "hw",
     check_elf_files: false,
     prefer: true,
@@ -955,9 +964,9 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "modem_svc_sit",
+    name: "rfsd",
     owner: "google_devices",
-    srcs: [ "vendor/bin/modem_svc_sit" ],
+    srcs: [ "vendor/bin/rfsd" ],
     check_elf_files: false,
     prefer: true,
     strip: { none: true },
@@ -965,9 +974,9 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "rfsd",
+    name: "shared_modem_platform",
     owner: "google_devices",
-    srcs: [ "vendor/bin/rfsd" ],
+    srcs: [ "vendor/bin/shared_modem_platform" ],
     check_elf_files: false,
     prefer: true,
     strip: { none: true },
@@ -1178,15 +1187,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "nearby",
-    owner: "google_devices",
-    src: "vendor/etc/chre/nearby.so",
-    filename_from_src: true,
-    sub_dir: "chre",
-    soc_specific: true,
-}
-
-prebuilt_etc {
     name: "sd",
     owner: "google_devices",
     src: "vendor/etc/chre/sd.so",
@@ -1253,19 +1253,6 @@ dex_import {
     name: "com.google.android.camera.experimental2023",
     owner: "google_devices",
     jars: [ "vendor/framework/com.google.android.camera.experimental2023.jar" ],
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.sounddose-vendor-impl",
-    owner: "google_devices",
-    target: {
-        android_arm64: { srcs: [ "vendor/lib64/android.hardware.audio.sounddose-vendor-impl.so" ] }
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
     soc_specific: true,
 }
 
@@ -1349,185 +1336,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "aoc_aud_ext",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/aoc_aud_ext.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "aoc_audio_stereo_spatializer",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/aoc_audio_stereo_spatializer.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "aocx-V1-ndk",
     owner: "google_devices",
     target: { android_arm64: { srcs: [ "vendor/lib64/aocx-V1-ndk.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio_adapted_info_features",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/audio_adapted_info_features.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio_amcs_ext",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/audio_amcs_ext.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio_bluenote_aoc",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/audio_bluenote_aoc.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio_bt_aoc",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/audio_bt_aoc.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio_cca_aoc",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/audio_cca_aoc.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio_compensation_aoc",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/audio_compensation_aoc.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio_fortemedia_aoc",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/audio_fortemedia_aoc.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio_hdmi_aoc",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/audio_hdmi_aoc.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio_sounddose_aoc",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/audio_sounddose_aoc.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio_spk_35l41",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/audio_spk_35l41.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio_spk_tas25xx",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/audio_spk_tas25xx.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio_tunnel_aoc",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/audio_tunnel_aoc.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio_usb_aoc",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/audio_usb_aoc.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio_waves_aoc",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/audio_waves_aoc.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -1571,17 +1382,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.google.edgetpu.dba-V1-ndk",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/com.google.edgetpu.dba-V1-ndk.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "com.google.edgetpu.tachyon-V1-ndk",
     owner: "google_devices",
     target: { android_arm64: { srcs: [ "vendor/lib64/com.google.edgetpu.tachyon-V1-ndk.so" ] } },
@@ -1604,9 +1404,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.google.input-V3-ndk",
+    name: "com.google.input-V4-ndk",
     owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/com.google.input-V3-ndk.so" ] } },
+    target: { android_arm64: { srcs: [ "vendor/lib64/com.google.input-V4-ndk.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -1709,22 +1509,12 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "audio.platform.aoc",
+    name: "android.hardware.vibrator-impl.cs40l26",
     owner: "google_devices",
     relative_install_path: "hw",
-    target: { android_arm64: { srcs: [ "vendor/lib64/hw/audio.platform.aoc.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio.primary.zuma",
-    owner: "google_devices",
-    relative_install_path: "hw",
-    target: { android_arm64: { srcs: [ "vendor/lib64/hw/audio.primary.zuma.so" ] } },
+    target: {
+        android_arm64: { srcs: [ "vendor/lib64/hw/android.hardware.vibrator-impl.cs40l26.so" ] }
+    },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -1749,32 +1539,6 @@ cc_prebuilt_library_shared {
     owner: "google_devices",
     relative_install_path: "hw",
     target: { android_arm64: { srcs: [ "vendor/lib64/hw/gps.default.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "sound_trigger.primary.zuma",
-    owner: "google_devices",
-    relative_install_path: "hw",
-    target: { android_arm64: { srcs: [ "vendor/lib64/hw/sound_trigger.primary.zuma.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.google.whitechapel.audio.audioext@4.0-impl",
-    owner: "google_devices",
-    relative_install_path: "hw",
-    target: {
-        android_arm64: { srcs: [ "vendor/lib64/hw/vendor.google.whitechapel.audio.audioext@4.0-impl.so" ] }
-    },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -1839,17 +1603,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libadaptedinfo",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/libadaptedinfo.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libAlgFx_HiFi3z",
     owner: "google_devices",
     target: { android_arm64: { srcs: [ "vendor/lib64/libAlgFx_HiFi3z.so" ] } },
@@ -1861,42 +1614,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libamcsextfile",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/libamcsextfile.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libaoc",
     owner: "google_devices",
     target: { android_arm64: { srcs: [ "vendor/lib64/libaoc.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libaoctuningdecoder",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/libaoctuningdecoder.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libaocx",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/libaocx.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -1963,17 +1683,6 @@ cc_prebuilt_library_shared {
     name: "libdapparamstorage",
     owner: "google_devices",
     target: { android_arm64: { srcs: [ "vendor/lib64/libdapparamstorage.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libdarwinn_dba_hal_runtime",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/libdarwinn_dba_hal_runtime.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -2301,6 +2010,17 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libgc2_hal_flags",
+    owner: "google_devices",
+    target: { android_arm64: { srcs: [ "vendor/lib64/libgc2_hal_flags.so" ] } },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libgf_hal",
     owner: "google_devices",
     target: { android_arm64: { srcs: [ "vendor/lib64/libgf_hal.so" ] } },
@@ -2422,9 +2142,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmodem_svc_proto_legacy",
+    name: "libmodem_svc_proto_legacy_soong",
     owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/libmodem_svc_proto_legacy.so" ] } },
+    target: { android_arm64: { srcs: [ "vendor/lib64/libmodem_svc_proto_legacy_soong.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -2754,18 +2474,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "liboffloadeffect",
-    owner: "google_devices",
-    relative_install_path: "soundfx",
-    target: { android_arm64: { srcs: [ "vendor/lib64/soundfx/liboffloadeffect.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libspatialaudio",
     owner: "google_devices",
     relative_install_path: "soundfx",
@@ -2792,28 +2500,6 @@ cc_prebuilt_library_shared {
     name: "vendor_chre_metrics-cpp",
     owner: "google_devices",
     target: { android_arm64: { srcs: [ "vendor/lib64/vendor_chre_metrics-cpp.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor-pixelatoms-cpp",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/vendor-pixelatoms-cpp.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.google.audiometricext@1.0",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/vendor.google.audiometricext@1.0.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -2883,10 +2569,107 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.google.whitechapel.audio.extension-V3-ndk",
+    name: "vendor.google.whitechapel.audio.extension-V4-ndk",
     owner: "google_devices",
     target: {
-        android_arm64: { srcs: [ "vendor/lib64/vendor.google.whitechapel.audio.extension-V3-ndk.so" ] }
+        android_arm64: { srcs: [ "vendor/lib64/vendor.google.whitechapel.audio.extension-V4-ndk.so" ] }
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.google.whitechapel.audio.hal.utils.adaptedinfo.repeated_thread",
+    owner: "google_devices",
+    target: {
+        android_arm64: {
+            srcs: [
+                "vendor/lib64/vendor.google.whitechapel.audio.hal.utils.adaptedinfo.repeated_thread.so"
+            ]
+        }
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.google.whitechapel.audio.hal.utils.adaptedinfo",
+    owner: "google_devices",
+    target: {
+        android_arm64: { srcs: [ "vendor/lib64/vendor.google.whitechapel.audio.hal.utils.adaptedinfo.so" ] }
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.google.whitechapel.audio.hal.utils.aoc",
+    owner: "google_devices",
+    target: {
+        android_arm64: { srcs: [ "vendor/lib64/vendor.google.whitechapel.audio.hal.utils.aoc.so" ] }
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.google.whitechapel.audio.hal.utils.bluenote",
+    owner: "google_devices",
+    target: {
+        android_arm64: { srcs: [ "vendor/lib64/vendor.google.whitechapel.audio.hal.utils.bluenote.so" ] }
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.google.whitechapel.audio.hal.utils.pipe",
+    owner: "google_devices",
+    target: {
+        android_arm64: { srcs: [ "vendor/lib64/vendor.google.whitechapel.audio.hal.utils.pipe.so" ] }
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.google.whitechapel.audio.hal.utils",
+    owner: "google_devices",
+    target: {
+        android_arm64: { srcs: [ "vendor/lib64/vendor.google.whitechapel.audio.hal.utils.so" ] }
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.google.whitechapel.audio.hal.utils.soundcardstate",
+    owner: "google_devices",
+    target: {
+        android_arm64: {
+            srcs: [ "vendor/lib64/vendor.google.whitechapel.audio.hal.utils.soundcardstate.so" ]
+        }
     },
     compile_multilib: "64",
     check_elf_files: false,
@@ -3025,9 +2808,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "android.hardware.audio.sounddose-vendor-aidl",
+    name: "android.hardware.audio.service-aidl.aoc__2",
     owner: "google_devices",
-    src: "vendor/etc/vintf/manifest/android.hardware.audio.sounddose-vendor-aidl.xml",
+    src: "vendor/etc/vintf/manifest/android.hardware.audio.service-aidl.aoc.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
@@ -3106,27 +2889,18 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+    name: "android.hardware.vibrator-service.cs40l26__2",
+    owner: "google_devices",
+    src: "vendor/etc/vintf/manifest/android.hardware.vibrator-service.cs40l26.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
     name: "android.hardware.weaver-service.citadel__2",
     owner: "google_devices",
     src: "vendor/etc/vintf/manifest/android.hardware.weaver-service.citadel.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "com.google.android.imageprocessing.hal-default",
-    owner: "google_devices",
-    src: "vendor/etc/vintf/manifest/com.google.android.imageprocessing.hal-default.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "com.google.edgetpu.dba-service__2",
-    owner: "google_devices",
-    src: "vendor/etc/vintf/manifest/com.google.edgetpu.dba-service.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
@@ -3151,9 +2925,27 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+    name: "flood_control",
+    owner: "google_devices",
+    src: "vendor/etc/vintf/manifest/flood_control.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
     name: "liboemservice_proxy",
     owner: "google_devices",
     src: "vendor/etc/vintf/manifest/liboemservice_proxy.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "manifest_aocx",
+    owner: "google_devices",
+    src: "vendor/etc/vintf/manifest/manifest_aocx.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
@@ -3181,6 +2973,15 @@ prebuilt_etc_xml {
     name: "manifest_wifi_ext_aidl",
     owner: "google_devices",
     src: "vendor/etc/vintf/manifest/manifest_wifi_ext_aidl.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "shared_modem_platform__2",
+    owner: "google_devices",
+    src: "vendor/etc/vintf/manifest/shared_modem_platform.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,

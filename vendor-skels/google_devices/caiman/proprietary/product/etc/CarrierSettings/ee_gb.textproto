@@ -1,5 +1,5 @@
 canonical_name: "ee_gb"
-version: 62000000006
+version: 64000000007
 apns {
   apn {
     name: "IMS"
@@ -311,6 +311,10 @@ configs {
     bool_value: true
   }
   config {
+    key: "vonr_enabled_bool"
+    bool_value: true
+  }
+  config {
     key: "wfc_operator_error_codes_string_array"
     text_array {
       item: "REG09|0"
@@ -322,5 +326,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1723067562
+  seconds: 1730360190
 }

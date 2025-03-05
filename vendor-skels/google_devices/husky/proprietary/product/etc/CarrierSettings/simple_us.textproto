@@ -1,5 +1,5 @@
 canonical_name: "simple_us"
-version: 62000000027
+version: 64000000028
 apns {
   apn {
     name: "SIMPLE"
@@ -453,6 +453,10 @@ configs {
     int_value: 40000
   }
   config {
+    key: "nr_timers_reset_on_voice_qos_bool"
+    bool_value: true
+  }
+  config {
     key: "prefer_2g_bool"
     bool_value: true
   }
@@ -629,5 +633,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1715895734
+  seconds: 1730276191
 }

@@ -1,5 +1,5 @@
 canonical_name: "1and1_de"
-version: 62000000024
+version: 64000000025
 apns {
   apn {
     name: "1&1 Internet"
@@ -70,6 +70,10 @@ configs {
   }
   config {
     key: "display_hd_plus_icon_bool"
+    bool_value: true
+  }
+  config {
+    key: "hide_enhanced_4g_lte_bool"
     bool_value: true
   }
   config {
@@ -333,5 +337,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1726034623
+  seconds: 1731496809
 }
