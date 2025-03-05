@@ -454,3 +454,7 @@ filters:
       # fs-verity certificates for GmsCore and Play Store
       - product/etc/security/fsverity/
       - vendor/boot_otas/
+
+      - system/bin/tradeinmode
+      - system/etc/init/tradeinmode.rc
+      - system/framework/tradeinmode.jar
