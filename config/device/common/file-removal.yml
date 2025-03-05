@@ -273,7 +273,7 @@ filters:
       - product/priv-app/DCMO/
       - product/priv-app/DMService/
       - product/priv-app/PrebuiltDeskClockGoogle
-      - product/priv-app/DeviceConnectivityServicePrebuilt/
+      - product/priv-app/DeviceConnectivityServicePrebuilt
       # "Private Compute Services", https://play.google.com/store/apps/details?id=com.google.android.as.oss
       - product/priv-app/DeviceIntelligenceNetworkPrebuilt
       # DevicePersonalizationPrebuiltPixel{4,2021,2022}
@@ -324,6 +324,7 @@ filters:
       - product/priv-app/PrebuiltBugle/
       - product/priv-app/PrebuiltGmsCore/
       - product/priv-app/RecorderPrebuilt
+      - product/priv-app/RelationshipsPrebuilt
       - product/priv-app/RetailCorePrebuilt/
       - product/priv-app/RetailDemoGooglePrebuilt/
       - product/priv-app/SatelliteGatewayPrebuilt/
