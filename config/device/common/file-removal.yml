@@ -12,6 +12,7 @@ filters:
       - product/etc/sysconfig/game_service.xml
       # com.google.android.apps.wearables.maestro.companion
       - product/etc/default-permissions/default-permissions_maestro.xml
+      - product/etc/init/init.repair_mode.rc
       # Google stuff we dont want/need/cant use
       - product/etc/permissions/com.google.android.apps.diagnosticstool.xml
       - product/etc/permissions/com.google.android.apps.dreamliner.xml
