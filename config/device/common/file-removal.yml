@@ -175,29 +175,29 @@ filters:
       # Root CAs
       - system/etc/security/cacerts/
       - product/app/CalculatorGooglePrebuilt
-      - product/app/CalendarGooglePrebuilt/
+      - product/app/CalendarGooglePrebuilt
       - product/app/Chrome-Stub/
       - product/app/Chrome/
       - product/app/DevicePolicyPrebuilt
       # com.google.android.apps.diagnosticstool
-      - product/app/DiagnosticsToolPrebuilt/
+      - product/app/DiagnosticsToolPrebuilt
       - product/app/Drive/
       - product/app/GoogleCamera/
       - product/app/GoogleContacts/
       - product/app/GoogleContactsSyncAdapter/
-      - product/app/GoogleKeepPrebuilt/
+      - product/app/GoogleKeepPrebuilt
       - product/app/GoogleTTS/
       # Gboard
       - product/app/HealthConnectHideApps/
       - product/app/LatinIMEGooglePrebuilt
-      - product/app/LocationHistoryPrebuilt/
+      - product/app/LocationHistoryPrebuilt
       - product/app/Maps/
       # com.google.android.markup is a screenshot/image editor
       - product/app/MarkupGoogle
       - product/app/MeetPrebuilt
-      - product/app/MicropaperPrebuilt/
+      - product/app/MicropaperPrebuilt
       - product/app/ModuleMetadataGoogle/
-      - product/app/MotionSenseBridgePrebuilt/
+      - product/app/MotionSenseBridgePrebuilt
       # NexusWallpapersStubPrebuilt{2019,2020_midyear}
       - product/app/NexusWallpapers
       # NGA is "Next generation Assistant"
@@ -210,7 +210,7 @@ filters:
       # PixelWallpapers{2021,2021a,2022}
       - product/app/PixelWallpapers
       - product/app/PlayAutoInstallConfig/
-      - product/app/PlayBooksPrebuilt/
+      - product/app/PlayBooksPrebuilt
       - product/app/PrebuiltDeskClockGoogle
       - product/app/PrebuiltGmail/
       - product/app/PrebuiltGoogleAdservicesTvp/
@@ -231,7 +231,7 @@ filters:
       # Google TV app, com.google.android.videos
       - product/app/Videos/
       # com.google.android.apps.accessibility.voiceaccess
-      - product/app/VoiceAccessPrebuilt/
+      - product/app/VoiceAccessPrebuilt
       # WallpapersBReel{2019,2020,2020aBramble etc}, WallpaperEmojiPrebuilt etc
       - product/app/Wallpaper
       - product/app/WebViewGoogle/
@@ -246,10 +246,10 @@ filters:
       - product/priv-app/AICorePrebuilt
       - product/priv-app/AiWallpapers/
       # "Pixel Ambient Services", com.google.intelligence.sense, found on 4th and 5th gen
-      - product/priv-app/AmbientSensePrebuilt/
+      - product/priv-app/AmbientSensePrebuilt
       # "Cross-Device Services", com.google.ambient.streaming, used for integration with ChromeOS
       - product/priv-app/AmbientStreaming/
-      - product/priv-app/AndroidAutoStubPrebuilt/
+      - product/priv-app/AndroidAutoStubPrebuilt
       - product/priv-app/AndroidGlassesCoreStub/
       - product/priv-app/AndroidMediaShell/
       # com.verizon.services
@@ -262,7 +262,7 @@ filters:
       - product/priv-app/CarrierServices/
       - product/priv-app/CarrierSettings
       - product/priv-app/CarrierWifi/
-      - product/priv-app/CastAuthPrebuilt/
+      - product/priv-app/CastAuthPrebuilt
       # com.google.android.apps.cbrsnetworkmonitor
       - product/priv-app/CbrsNetworkMonitor/
       # com.google.android.configupdater
@@ -280,70 +280,70 @@ filters:
       - product/priv-app/DevicePersonalizationPrebuiltPixel
       # com.android.sdm.plugins.diagmon, but included on Tensor Pixels too
       - product/priv-app/DiagMon/
-      - product/priv-app/DiagnosticsToolPrebuilt/
+      - product/priv-app/DiagnosticsToolPrebuilt
       # Google Docker app moved to product partition as of 14
-      - product/priv-app/DockManagerPrebuilt/
+      - product/priv-app/DockManagerPrebuilt
       # DreamlinerPrebuilt is the Pixel Stand app, DreamlinerUpdater is firmware updater for Pixel Stand
       - product/priv-app/Dreamliner
       # appeared in 14 QPR2 on Pixel Tablet, com.google.android.apps.pixel.ensemble
       - product/priv-app/EnsemblePrebuilt-stub/
       - product/priv-app/FamilySpacePrebuilt
-      - product/priv-app/FilesPrebuilt/
+      - product/priv-app/FilesPrebuilt
       # "Google Connectivity Services", https://play.google.com/store/apps/details?id=com.google.android.apps.gcs
       - product/priv-app/GCS/
       - product/priv-app/GoogleCamera/
       - product/priv-app/GoogleDialer/
-      - product/priv-app/GoogleHomePrebuilt/
+      - product/priv-app/GoogleHomePrebuilt
       # com.google.android.onetimeinitializer, runs once each time OS build ID changes
       - product/priv-app/GoogleOneTimeInitializer/
       - product/priv-app/GoogleRestorePrebuilt
       # com.google.android.hardwareinfo collects detailed info about hardware components and their health and uploads
       # them to Google. Runs each time device finishes booting.
       - product/priv-app/HardwareInfo/
-      - product/priv-app/HealthConnectPrebuilt/
+      - product/priv-app/HealthConnectPrebuilt
       - product/priv-app/HealthIntelligence
       # "Google Support Services", https://play.google.com/store/apps/details?id=com.google.android.apps.helprtc
-      - product/priv-app/HelpRtcPrebuilt/
+      - product/priv-app/HelpRtcPrebuilt
       # HotwordEnrollment{OKGoogleFUSION,OKGoogleHEMIDELTA,XGoogleFUSION etc}
       - product/priv-app/HotwordEnrollment
-      - product/priv-app/KidsHomePrebuilt/
+      - product/priv-app/KidsHomePrebuilt
       - product/priv-app/KidsSupervisionStub/
       # "Google Pixel Buds" app, com.google.android.apps.wearables.maestro.companion
-      - product/priv-app/MaestroPrebuilt/
+      - product/priv-app/MaestroPrebuilt
       - product/priv-app/OTAConfigNoZeroTouchPrebuilt
       # "Google Play Protect Service", https://play.google.com/store/apps/details?id=com.google.android.odad
-      - product/priv-app/OdadPrebuilt/
+      - product/priv-app/OdadPrebuilt
       - product/priv-app/OemDmTrigger/
-      - product/priv-app/PartnerSetupPrebuilt/
+      - product/priv-app/PartnerSetupPrebuilt
       # Play Store app (com.android.vending)
       - product/priv-app/Phonesky/
-      - product/priv-app/PixelAIPrebuilt/
+      - product/priv-app/PixelAIPrebuilt
       - product/priv-app/PixelLiveWallpaperPrebuilt
-      - product/priv-app/PixelSupportPrebuilt/
+      - product/priv-app/PixelSupportPrebuilt
       # "Messages by Google", com.google.android.apps.messaging
       - product/priv-app/PrebuiltBugle/
       - product/priv-app/PrebuiltGmsCore/
       - product/priv-app/RecorderPrebuilt
       - product/priv-app/RelationshipsPrebuilt
-      - product/priv-app/RetailCorePrebuilt/
-      - product/priv-app/RetailDemoGooglePrebuilt/
-      - product/priv-app/SatelliteGatewayPrebuilt/
+      - product/priv-app/RetailCorePrebuilt
+      - product/priv-app/RetailDemoGooglePrebuilt
+      - product/priv-app/SatelliteGatewayPrebuilt
       # com.google.android.apps.scone is "Adaptive Connectivity Services", see https://support.google.com/product-documentation/answer/12321563
       - product/priv-app/SCONE
       - product/priv-app/SSRestartDetector/
-      - product/priv-app/SafetyHubPrebuilt/
+      - product/priv-app/SafetyHubPrebuilt
       - product/priv-app/SafetyHubSuwPrebuilt
       # "Live Transcribe & Notification", com.google.audio.hearing.visualization.accessibility.scribe
       - product/priv-app/ScribePrebuilt
-      - product/priv-app/SearchSelectorPrebuilt/
+      - product/priv-app/SearchSelectorPrebuilt
       # https://play.google.com/store/apps/details?id=com.google.android.apps.security.securityhub
-      - product/priv-app/SecurityHubPrebuilt/
+      - product/priv-app/SecurityHubPrebuilt
       # https://play.google.com/store/apps/details?id=com.google.android.settings.intelligence
-      - product/priv-app/SettingsIntelligenceGooglePrebuilt/
-      - product/priv-app/SetupWizardPrebuilt/
+      - product/priv-app/SettingsIntelligenceGooglePrebuilt
+      - product/priv-app/SetupWizardPrebuilt
       # com.customermobile.preload.vzw, found on 6th and 7th gen Pixels
       - product/priv-app/Showcase/
-      - product/priv-app/SmartDisplayPrebuilt/
+      - product/priv-app/SmartDisplayPrebuilt
       # com.android.sdm.plugins.sprintdm
       - product/priv-app/SprintDM/
       - product/priv-app/SprintHM/
@@ -352,7 +352,7 @@ filters:
       # Pixel Tips, com.google.android.apps.tips
       - product/priv-app/TipsPrebuilt
       # Device Health Services, https://play.google.com/store/apps/details?id=com.google.android.apps.turbo
-      - product/priv-app/TurboPrebuilt/
+      - product/priv-app/TurboPrebuilt
       # com.android.sdm.plugins.usccdm
       - product/priv-app/USCCDM/
       # Google search app (GSA), com.google.android.googlequicksearchbox
@@ -360,7 +360,7 @@ filters:
       - product/priv-app/WallpaperEffect/
       - product/priv-app/WeatherPixelPrebuilt
       # Digital Wellbeing, https://play.google.com/store/apps/details?id=com.google.android.apps.wellbeing
-      - product/priv-app/WellbeingPrebuilt/
+      - product/priv-app/WellbeingPrebuilt
       # Wi-Fi Calling setup, com.google.android.apps.wfcactivation
       - product/priv-app/WfcActivation/
       - system/app/BluetoothMigrationForBeta3User/
@@ -384,9 +384,9 @@ filters:
       # Manages thermal throttling of cellular and Wi-Fi connectivity, com.google.android.connectivitythermalpowermanager
       - system_ext/priv-app/ConnectivityThermalPowerManager/
       - system_ext/priv-app/DeviceConnectivityServicePrebuilt
-      - system_ext/priv-app/DockManagerPrebuilt/
+      - system_ext/priv-app/DockManagerPrebuilt
       - system_ext/priv-app/DockSetup/
-      - system_ext/priv-app/FactoryOtaPrebuilt/
+      - system_ext/priv-app/FactoryOtaPrebuilt
       - system_ext/priv-app/GoogleFeedback/
       - system_ext/priv-app/GoogleServicesFramework/
       # High Brightness Mode manager
@@ -404,7 +404,7 @@ filters:
       - system_ext/priv-app/RilConfigService/
       - system_ext/priv-app/SettingsGoogle/
       - system_ext/priv-app/SettingsGoogleFutureFaceEnroll/
-      - system_ext/priv-app/SetupWizardPixelPrebuilt/
+      - system_ext/priv-app/SetupWizardPixelPrebuilt
       - system_ext/priv-app/StorageManagerGoogle/
       # SystemUI Clocks
       - system_ext/priv-app/SystemUIClocks
