@@ -7,3 +7,8 @@ platform:
 includes:
   - common/gen6pixel.yml
   - common/gs-wireless-charger.yml
+
+filters:
+  sepolicy_dirs:
+    match:
+      - hardware/google/pixel-sepolicy/vibrator/cs40l26
