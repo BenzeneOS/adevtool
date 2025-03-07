@@ -322,6 +322,7 @@ filters:
       - com.android.systemui:string-array/config_dock_setup_completed_packages
       # first appeared in Pixel Tablet 14 QPR1 image, set to com.google.android.apps.mediashell
       - com.android.systemui:string-array/config_fingerprint_listen_on_occluding_activity_packages
+      - com.android.systemui:string-array/config_pluginAllowlist
       - com.android.systemui:string-array/config_pluginWhitelist
       - com.android.systemui:string/branded_monitoring_description_app_personal
       # com.google.android.apps.pixel.agent/.app.service.PearlActionService on 14 QPR3 caiman

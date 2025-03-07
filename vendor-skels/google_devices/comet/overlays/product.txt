@@ -159,7 +159,6 @@ com.android.settings:string/suggested_fingerprint_lock_settings_title = Use Fing
 com.google.android.pixelsystemservice/SignalHubConfig:bool/config_robust_open_close_detection_setting_enabled = true
 com.android.systemui:integer-array/config_nfc_conflict_with_usb_audio_productid = 20532
 com.android.systemui:integer-array/config_nfc_conflict_with_usb_audio_vendorid = 6353
-com.android.systemui:string-array/config_pluginAllowlist = com.android.systemui,com.android.systemui.plugin.globalactions.wallet,com.android.systemui.clocks,com.android.systemui.clocks.debug,com.android.systemui.clocks.bignum,com.android.systemui.clocks.calligraphy,com.android.systemui.clocks.flex,com.android.systemui.clocks.growth,com.android.systemui.clocks.handwritten,com.android.systemui.clocks.inflate,com.android.systemui.clocks.metro,com.android.systemui.clocks.numoverlap,com.android.systemui.clocks.weather
 com.android.systemui:bool/comet_unfolded_config_use_split_notification_shade = true
 com.android.systemui:bool/config_adaptive_touch_sensitivity_enabled = true
 com.android.systemui:bool/config_hspa_data_distinguishable = true

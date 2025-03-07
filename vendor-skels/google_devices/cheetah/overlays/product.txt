@@ -78,7 +78,6 @@ com.android.settings:string/security_settings_fingerprint_preference_title = Fin
 com.android.settings:string/suggested_fingerprint_lock_settings_summary = Use Pixel Imprint to unlock your phone
 com.android.systemui:integer-array/config_nfc_conflict_with_usb_audio_productid = 20532
 com.android.systemui:integer-array/config_nfc_conflict_with_usb_audio_vendorid = 6353
-com.android.systemui:string-array/config_pluginAllowlist = com.android.systemui,com.android.systemui.plugin.globalactions.wallet,com.android.systemui.clocks,com.android.systemui.clocks.debug,com.android.systemui.clocks.bignum,com.android.systemui.clocks.calligraphy,com.android.systemui.clocks.flex,com.android.systemui.clocks.growth,com.android.systemui.clocks.handwritten,com.android.systemui.clocks.inflate,com.android.systemui.clocks.metro,com.android.systemui.clocks.numoverlap,com.android.systemui.clocks.weather
 com.android.systemui:bool/config_hspa_data_distinguishable = true
 com.android.systemui:bool/config_nfc_conflict_with_usb_audio = true
 com.android.systemui:bool/config_nfc_conflict_with_wlc = true
