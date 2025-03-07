@@ -89,10 +89,10 @@ overlays/product_com.google.euiccpixel/res: dir
 overlays/product_com.google.euiccpixel/res/values: dir
 overlays/product_com.google.euiccpixel/res/values/values.xml: 9739e4b8d137756076471c4770b63bf4811be367f23202bc6c8240f88b38d48c
 proprietary: dir
-proprietary-files.txt: 308e706ac3a82e24fe2936dec9f415ce687b3a668f382049f4eb07e1682f0b96
-proprietary/Android.bp: ac7c1230c26d000f05200f3cc9a59bfd14676605425464bd1ad9713582272d93
+proprietary-files.txt: 2a860273e636a158acdede8235e0c2fe9ae423a0c5a3a811567d947f5687b069
+proprietary/Android.bp: cf70aefcbb14211d78545ea047a61c00fb3a301c9b08727df8173a0841e51d18
 proprietary/BoardConfigVendor.mk: ff584010234eb0d0c99cee1a4b2b17d8556ae0a1eccec9f9f55e2500bdbe3a66
-proprietary/device-vendor.mk: 72885036bbf8d6a313ff839c8403cefc15c438048679722e80000e1e87695d6f
+proprietary/device-vendor.mk: 5650ed5c6037f2e2442448fd55077ef47ced44a2a757b5010aa0612430041d05
 proprietary/linker-config-adevtool.json: 1f9e401c56f463f32e208aee192aaca3bf367909f95df8da0f18a320cb551e54
 proprietary/product: dir
 proprietary/product/etc: dir
@@ -118,8 +118,6 @@ proprietary/system_ext: dir
 proprietary/system_ext/app: dir
 proprietary/system_ext/app/PersistentBackgroundCameraServices: dir
 proprietary/system_ext/app/PersistentBackgroundCameraServices/PersistentBackgroundCameraServices.apk: d2da9b64db597360d10181b123304060ad5d8dfea6e3c2dbc49ffe45a0ef90fc
-proprietary/system_ext/app/PersistentBackgroundServices: dir
-proprietary/system_ext/app/PersistentBackgroundServices/PersistentBackgroundServices.apk: 7f98fc6ea1e9c4c94fe0812913fb0a220840153ade9203ba2f4d2e8b5ae442c9
 proprietary/system_ext/bin: dir
 proprietary/system_ext/bin/hw: dir
 proprietary/system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service: 7cd46356f452a031fd19e8cc8b7127c634efb9cfe42af65912c6c7a38680eaa4

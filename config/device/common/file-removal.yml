@@ -378,6 +378,7 @@ filters:
       - system_ext/app/EmergencyInfoGoogleNoUi/
       # "Extreme Battery Saver", com.google.android.flipendo
       - system_ext/app/Flipendo/
+      - system_ext/app/PersistentBackgroundServices/
       - system_ext/app/RepairMode/
       - system_ext/priv-app/AvatarPickerGoogle/
       - system_ext/priv-app/CarrierSetup/

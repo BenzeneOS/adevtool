@@ -467,7 +467,6 @@ PRODUCT_PACKAGES += \
     OemRilHookService \
     OemRilService \
     PersistentBackgroundCameraServices \
-    PersistentBackgroundServices \
     pixel-apf-experiment.rc \
     pixel-experiments-recovery.sh \
     pixel-gnss-default \

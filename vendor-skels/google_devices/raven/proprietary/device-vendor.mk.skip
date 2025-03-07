@@ -388,7 +388,6 @@ PRODUCT_PACKAGES += \
     OemRilHookService \
     OemRilService \
     PersistentBackgroundCameraServices \
-    PersistentBackgroundServices \
     PixelCameraServices \
     PixelIwlan \
     PixelNfc \

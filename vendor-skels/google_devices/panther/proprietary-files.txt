@@ -4,7 +4,6 @@
 system/system/bin/oem-iptables-init.sh
 system_ext/app/OemRilHookService/OemRilHookService.apk
 system_ext/app/PersistentBackgroundCameraServices/PersistentBackgroundCameraServices.apk
-system_ext/app/PersistentBackgroundServices/PersistentBackgroundServices.apk
 system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service
 system_ext/etc/default-permissions/default-permissions-euiccpixel.xml
 system_ext/etc/init/vendor.google.edgetpu_app_service@1.0-service.rc

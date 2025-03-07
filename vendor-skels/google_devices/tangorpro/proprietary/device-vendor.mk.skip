@@ -312,7 +312,6 @@ PRODUCT_PACKAGES += \
     nos_app_keymaster \
     nos_app_weaver \
     PersistentBackgroundCameraServices \
-    PersistentBackgroundServices \
     PixelCameraServices \
     PixelIwlan \
     PixelNfc \
