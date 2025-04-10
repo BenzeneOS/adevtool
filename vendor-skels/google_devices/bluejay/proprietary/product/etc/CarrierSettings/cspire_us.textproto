@@ -1,5 +1,5 @@
 canonical_name: "cspire_us"
-version: 64000000017
+version: 64000000021
 apns {
   apn {
     name: "C Spire OTA"
@@ -283,8 +283,16 @@ configs {
     bool_value: true
   }
   config {
+    key: "imsvoice.minimum_session_expires_timer_sec_int"
+    int_value: 90000
+  }
+  config {
     key: "imsvoice.prack_supported_for_18x_bool"
     bool_value: true
+  }
+  config {
+    key: "imsvoice.session_expires_timer_sec_int"
+    int_value: 1800000
   }
   config {
     key: "imsvoice.srvcc_type_int_array"
@@ -410,5 +418,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1727870736
+  seconds: 1742450783
 }

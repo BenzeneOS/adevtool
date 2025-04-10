@@ -25,8 +25,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 PRODUCT_VENDOR_PROPERTIES += \
     ro.build.expect.baseband=g5123b-145971-250103-B-12866815 \
-    ro.build.expect.bootloader=bluejay-15.2-12893632 \
-    ro.vendor.build.svn=75 \
+    ro.build.expect.bootloader=bluejay-15.2-13237069 \
+    ro.vendor.build.svn=77 \
     ro.surface_flinger.game_default_frame_rate_override=60 \
     drm.service.enabled=true \
     media.mediadrmservice.enable=true \
@@ -38,7 +38,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.ril.ecc.use.xml=1 \
     ro.vendor.fingerprint.ta.name=g7.app
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/bluejay/bluejay:15/BP1A.250305.019/13003188:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/bluejay/bluejay:15/BP1A.250405.007/13240079:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

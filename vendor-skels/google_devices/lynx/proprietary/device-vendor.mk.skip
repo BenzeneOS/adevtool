@@ -25,10 +25,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 PRODUCT_VENDOR_PROPERTIES += \
     ro.build.expect.baseband=g5300q-241205-250127-B-12973597 \
-    ro.build.expect.bootloader=lynx-15.2-12878710 \
+    ro.build.expect.bootloader=lynx-15.2-13237001 \
     dalvik.vm.isa.arm.variant=cortex-a53 \
     dalvik.vm.isa.arm.features=default \
-    ro.vendor.build.svn=57 \
+    ro.vendor.build.svn=59 \
     ro.surface_flinger.game_default_frame_rate_override=60 \
     drm.service.enabled=true \
     media.mediadrmservice.enable=true \
@@ -40,7 +40,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.ril.ecc.use.xml=1 \
     ro.vendor.fingerprint.ta.name=g7.app
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/lynx/lynx:15/BP1A.250305.019/13003188:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/lynx/lynx:15/BP1A.250405.007.B1/13240308:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

@@ -1,5 +1,5 @@
 canonical_name: "verizon_us"
-version: 64000000035
+version: 64000000038
 apns {
   apn {
     name: "Verizon"
@@ -277,27 +277,8 @@ configs {
     text_value: "com.android.omadm.service/.TelephonyBroadcastReceiver"
   }
   config {
-    key: "carrier_roaming_ntn_connect_type_int"
-    int_value: 1
-  }
-  config {
-    key: "carrier_roaming_ntn_emergency_call_to_satellite_handover_type_int"
-    int_value: 1
-  }
-  config {
     key: "carrier_setup_app_string"
     text_value: "com.google.android.carriersetup/.VzwSetupActivity"
-  }
-  config {
-    key: "carrier_supported_satellite_services_per_provider_bundle"
-    bundle {
-      config {
-        key: "90198"
-        int_array {
-          item: 3
-        }
-      }
-    }
   }
   config {
     key: "carrier_ussd_method_int"
@@ -1288,47 +1269,11 @@ configs {
     int_value: 20
   }
   config {
-    key: "remove_satellite_plmn_in_manual_network_scan_bool"
-    bool_value: true
-  }
-  config {
     key: "rtt_supported_bool"
     bool_value: true
   }
   config {
     key: "rtt_upgrade_supported_for_downgraded_vt_call"
-    bool_value: false
-  }
-  config {
-    key: "satellite_attach_supported_bool"
-    bool_value: true
-  }
-  config {
-    key: "satellite_connection_hysteresis_sec_int"
-    int_value: 0
-  }
-  config {
-    key: "satellite_display_name_string"
-    text_value: "Satellite"
-  }
-  config {
-    key: "satellite_esos_supported_bool"
-    bool_value: true
-  }
-  config {
-    key: "satellite_nidd_apn_name_string"
-    text_value: "VZWNTN.LBO"
-  }
-  config {
-    key: "satellite_roaming_esos_inactivity_timeout_sec_int"
-    int_value: 2147483
-  }
-  config {
-    key: "satellite_roaming_p2p_sms_supported_bool"
-    bool_value: true
-  }
-  config {
-    key: "satellite_roaming_turn_off_session_for_emergency_call_bool"
     bool_value: false
   }
   config {
@@ -1447,5 +1392,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1737999974
+  seconds: 1742450833
 }

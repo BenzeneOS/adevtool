@@ -26,8 +26,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 PRODUCT_VENDOR_PROPERTIES += \
     ro.build.expect.baseband=g5300i-241205-250127-B-12973597 \
-    ro.build.expect.bootloader=ripcurrent-15.2-12862154 \
-    ro.vendor.build.svn=49 \
+    ro.build.expect.bootloader=ripcurrent-15.2-13237000 \
+    ro.vendor.build.svn=51 \
     ro.surface_flinger.game_default_frame_rate_override=60 \
     drm.service.enabled=true \
     media.mediadrmservice.enable=true \
@@ -40,7 +40,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.fingerprint.ta.name=g7.app \
     ro.vendor.dolby.dax.version=DAX3_G_3.7.3.0_r1
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/shiba/shiba:15/BP1A.250305.019/13003188:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/shiba/shiba:15/BP1A.250405.007.B1/13240308:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

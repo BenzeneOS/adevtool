@@ -47,9 +47,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.product.device_for_attestation=caiman \
     ro.product.manufacturer_for_attestation=Google \
     ro.build.expect.baseband=g5400c-241205-250127-B-12971716 \
-    ro.build.expect.bootloader=ripcurrentpro-15.2-12817298 \
+    ro.build.expect.bootloader=ripcurrentpro-15.2-13237002 \
     persist.vendor.gps.hal.service.name=vendor \
-    ro.vendor.build.svn=18 \
+    ro.vendor.build.svn=24 \
     ro.usb.uvc.enabled=true \
     ro.surface_flinger.game_default_frame_rate_override=60 \
     ro.vendor.dolby.dax.version=DAX3_G_3.7.3.0_r1 \
@@ -70,7 +70,7 @@ PRODUCT_VENDOR_DLKM_PROPERTIES += \
     ro.product.device_for_attestation=caiman \
     ro.product.manufacturer_for_attestation=Google
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/caiman/caiman:15/BP1A.250305.020/13009785:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/caiman/caiman:15/BP1A.250405.007/13240079:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

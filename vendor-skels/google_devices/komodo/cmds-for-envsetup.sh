@@ -1,2 +1,2 @@
-export BUILD_ID_komodo="BP1A.250305.020"
+export BUILD_ID_komodo="BP1A.250405.007"
 unset PLATFORM_SECURITY_PATCH_komodo
