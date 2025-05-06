@@ -36,7 +36,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.build.expect.bootloader=felix-15.2-13237001 \
     dalvik.vm.isa.arm.variant=cortex-a53 \
     dalvik.vm.isa.arm.features=default \
-    ro.vendor.build.svn=68 \
+    ro.vendor.build.svn=69 \
     ro.surface_flinger.game_default_frame_rate_override=60 \
     drm.service.enabled=true \
     media.mediadrmservice.enable=true \
@@ -49,7 +49,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.ril.ecc.use.xml=1 \
     ro.vendor.uwb.calibration.calibrationpaths=/vendor/etc/uwb/calib_paths
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/felix/felix:15/BP1A.250405.007.B1/13240308:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/felix/felix:15/BP1A.250505.005.B1/13277630:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

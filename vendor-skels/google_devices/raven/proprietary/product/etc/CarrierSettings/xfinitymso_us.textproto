@@ -1,5 +1,5 @@
 canonical_name: "xfinitymso_us"
-version: 64000000004
+version: 64000000005
 apns {
   apn {
     name: "Xfinity Mobile"
@@ -33,6 +33,19 @@ configs {
     text_array {
       item: "600-1199"
       item: "1950-2399"
+    }
+  }
+  config {
+    key: "carrier_certificate_string_array"
+    text_array {
+      item: "3557afac6c4a4951b6d669408dc35bf6dfb1b1536eeb465493f9d29ad166c91d:com.xfinity.digitalhome"
+      item: "953f5a4c22e7fd16adc3f12eb038682aad377fef9a18b9d12c1abea78911c749:com.xfinity.digitalhome"
+      item: "06aada946110e64414aebe3af34ae06baf239ef75c947149fb67263d8a2547c3:com.xfinity.digitalhome.debug"
+      item: "06aada946110e64414aebe3af34ae06baf239ef75c947149fb67263d8a2547c3:com.xfinity.dh.xm.app"
+      item: "141E264EB08B576F6C32E49FD47A34300553A132EC5EB1DD58B354A0B15A5E40:com.xfinitymobile.cometcarrierservice"
+      item: "914C26403B57D2D482359FC235CC825AD00D52B0121C18EF2B2B9D4DDA4B8996:com.comcast.mobile.mxs"
+      item: "3557afac6c4a4951b6d669408dc35bf6dfb1b1536eeb465493f9d29ad166c91d:com.xfinity.mobile.spamfilter"
+      item: "953f5a4c22e7fd16adc3f12eb038682aad377fef9a18b9d12c1abea78911c749:com.xfinity.mobile.spamfilter"
     }
   }
   config {
@@ -182,5 +195,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1724979901
+  seconds: 1742179678
 }

@@ -45,9 +45,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.product.device_for_attestation=akita \
     ro.product.manufacturer_for_attestation=Google \
     ro.build.expect.baseband=g5300o-241205-250127-B-12973597 \
-    ro.build.expect.bootloader=akita-15.2-13237000 \
+    ro.build.expect.bootloader=akita-15.3-13266201 \
     persist.vendor.gps.hal.service.name=vendor \
-    ro.vendor.build.svn=34 \
+    ro.vendor.build.svn=35 \
     ro.surface_flinger.game_default_frame_rate_override=60 \
     drm.service.enabled=true \
     media.mediadrmservice.enable=true \
@@ -66,7 +66,7 @@ PRODUCT_VENDOR_DLKM_PROPERTIES += \
     ro.product.device_for_attestation=akita \
     ro.product.manufacturer_for_attestation=Google
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/akita/akita:15/BP1A.250405.007.B1/13240308:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/akita/akita:15/BP1A.250505.005.B1/13277630:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

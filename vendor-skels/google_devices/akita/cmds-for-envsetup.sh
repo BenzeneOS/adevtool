@@ -1,2 +1,2 @@
-export BUILD_ID_akita="BP1A.250405.007.B1"
+export BUILD_ID_akita="BP1A.250505.005.B1"
 unset PLATFORM_SECURITY_PATCH_akita
