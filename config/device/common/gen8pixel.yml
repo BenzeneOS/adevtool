@@ -3,7 +3,7 @@ includes:
   - gs.yml
 
 device:
-  build_id: BP1A.250405.007.B1
+  build_id: BP1A.250505.005.B1
 
 platform:
   sepolicy_dirs:
