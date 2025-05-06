@@ -1,5 +1,5 @@
 canonical_name: "congstar_de"
-version: 63000000004
+version: 63000000006
 apns {
   apn {
     name: "Internet"
@@ -385,5 +385,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1724912532
+  seconds: 1743068789
 }

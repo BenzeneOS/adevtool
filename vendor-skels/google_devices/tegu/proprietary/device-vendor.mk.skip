@@ -43,9 +43,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.product.device_for_attestation=tegu \
     ro.product.manufacturer_for_attestation=Google \
     ro.build.expect.baseband=g5300t-241101-241226-B-12850354 \
-    ro.build.expect.bootloader=tegu-16.0-13238451 \
+    ro.build.expect.bootloader=tegu-16.0-13238471 \
     persist.vendor.gps.hal.service.name=vendor \
-    ro.vendor.build.svn=5 \
+    ro.vendor.build.svn=6 \
     ro.usb.uvc.enabled=true \
     ro.surface_flinger.game_default_frame_rate_override=60 \
     drm.service.enabled=true \
@@ -66,7 +66,7 @@ PRODUCT_VENDOR_DLKM_PROPERTIES += \
     ro.product.device_for_attestation=tegu \
     ro.product.manufacturer_for_attestation=Google
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/tegu/tegu:15/BD4A.250405.003/13238919:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/tegu/tegu:15/BD4A.250505.003/13285625:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

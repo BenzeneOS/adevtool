@@ -1,5 +1,5 @@
 canonical_name: "telekom_hr"
-version: 63000000002
+version: 63000000004
 apns {
   apn {
     name: "Internet"
@@ -141,5 +141,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1720003606
+  seconds: 1743068789
 }

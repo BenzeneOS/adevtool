@@ -1,2 +1,2 @@
-export BUILD_ID_tegu="BD4A.250405.003"
+export BUILD_ID_tegu="BD4A.250505.003"
 unset PLATFORM_SECURITY_PATCH_tegu
