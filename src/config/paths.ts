@@ -4,6 +4,10 @@ import path from 'path'
 export const OS_CHECKOUT_DIR = getOsCheckoutDir()
 
 function getOsCheckoutDir(): string {
+  let fromEnv = process.env.ANDROID_BUILD_TOP
+  if (fromEnv !== undefined) {
+    return fromEnv
+  }
   let scriptDir = '/vendor/adevtool/src/config'
   assert(__dirname.endsWith(scriptDir))
   return __dirname.substring(0, __dirname.length - scriptDir.length)
