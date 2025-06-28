@@ -44,10 +44,8 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     hardware/google/pixel-sepolicy/vibrator/cs40l26 \
     vendor/google_devices/panther/sepolicy
 
-# Missing vendor SELinux context: /dev/umts_wfc[01] u:object_r:pktrouter_device:s0
 # Missing vendor SELinux context: /data/vendor/nfc(/.*)? u:object_r:vendor_nfc_vendor_data_file:s0
 # Missing vendor SELinux context: /dev/fth_fd u:object_r:fingerprint_device:s0
-# Missing vendor SELinux context: /vendor/bin/wfc-pkt-router u:object_r:pktrouter_exec:s0
 # Missing vendor SELinux context: /vendor/bin/storage_init\.sh u:object_r:storage_init_exec:s0
 # Missing vendor SELinux context: /vendor/bin/flood\.control\.hal u:object_r:flood_control_exec:s0
 # Missing vendor SELinux context: /vendor/bin/pixelstats-vendor u:object_r:pixelstats_vendor_exec:s0
@@ -58,7 +56,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 # Missing vendor SELinux context: vendor.wlcservice.test.authentication u:object_r:vendor_wlcservice_prop:s0 exact bool
 # Missing vendor SELinux context: vendor.wlcservice.fwupdate.tx u:object_r:vendor_wlcservice_prop:s0 exact enum 0 1 2 3
 # Missing vendor SELinux context: vendor.wlcservice.start u:object_r:vendor_wlcservice_prop:s0 exact bool
-# Missing vendor SELinux context: vendor.pktrouter u:object_r:vendor_ims_prop:s0
 # Missing vendor SELinux context: ro.vendor.flood. u:object_r:vendor_flood_prop:s0
 # Missing vendor SELinux context: vendor.pixel.system.phenotype. u:object_r:vendor_pss_systemphenotype_prop:s0
 # Missing vendor SELinux context: user=_app isPrivApp=true seinfo=mds name=com.google.mds domain=modem_diagnostic_app type=app_data_file levelFrom=user
