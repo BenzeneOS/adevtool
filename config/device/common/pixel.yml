@@ -1,5 +1,6 @@
 includes:
   - file-removal.yml
+  - overlay-inclusion.yml
   - overlay-removal.yml
   - removal.yml
 

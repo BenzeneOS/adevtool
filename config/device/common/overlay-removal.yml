@@ -1,353 +1,541 @@
 filters:
   overlay_files:
+    match:
+      - AvatarPickerPixelOverlay
+      - AvoidAppsInCutoutOverlay
+      # these DisplayCutout* overlays are already included in fw/base
+      - DisplayCutoutEmulationCornerOverlay
+      - DisplayCutoutEmulationDoubleOverlay
+      - DisplayCutoutEmulationHoleOverlay
+      - DisplayCutoutEmulationWaterfallOverlay
+      - DisplayCutoutEmulationTallOverlay
+      - FontNotoSerifSourceOverlay
+      - GlanceableHubConfigOverlay
+      - GlanceableHubSettingsConfigOverlay
+      - GlanceableHubSysuiConfigOverlay
+      - GoogleWebViewOverlay
+      # already included in fw/base
+      - NavigationBarMode3ButtonOverlay
+      - NavigationBarModeGesturalOverlay
+      - NoCutoutOverlay
+      - NotesRoleEnabledOverlay
+      - SettingsGoogleFutureFelixOverlay
+      - TransparentNavigationBarOverlay
     prefix:
-      - DockSetup_
       # these overlays are for packages that are not shipped
+      - DMService__ # oma-dm is not supported
+      - DockSetup_
       - DeviceDiagnostics
+      - FaceEnroll
       - Flipendo
       - GoogleDeviceLockControllerOverlay
-      - GoogleHealthConnectOverlay
-      - HbmSVManager__auto_generated_rro_
       - PixelSetupWizardOverlay
       - PixelSupport
+      - RepairMode__
       - Scone
       - TipsOverlay
+      - WildlifeSettingsVpnOverlay # Pixel VPN
 
   overlay_keys:
     prefix:
-      # Face Unlock
-      - com.google.android.settings.future.biometrics.faceenroll
-      # Fonts
-      - android:string/config_bodyFont
-      - android:string/config_clockFontFamily
-      - android:string/config_headlineFont
-      # Help and Feedback
-      - android:string/config_feedbackIntent
-      - android:string/config_helpIntent
-      - android:string/config_helpPackage
       # "Face unlock" is not shipped
-      - com.android.settings:bool/config_face_
-      - com.android.settings:string/config_face_
       - com.android.settings:string/security_settings_face_
-      # Pixel SetupWizard
-      - com.google.android.pixel.setupwizard
-      # Unused
-      - com.google.android.cellbroadcastreceiver/CellBroadcastCustomization
-      - com.google.android.cellbroadcastservice/CellBroadcastServiceCustomization
-      - com.google.android.documentsui/DocumentsUICustomization
-      - com.google.android.avatarpicker/
-      # Unused SIM app stuff
-      - com.android.simappdialog
-      # Unwanted Permissions link
-      - com.android.permissioncontroller
-      # Unwanted icons
-      - android:drawable/ic_doc_
-      # Useless defaults
-      - com.android.providers.settings
-      # Useless provisioning items
-      - com.android.managedprovisioning
       - com.android.systemui:string/config_dock_setup_
-      # google media apexs
-      - com.google.android.providers.media.module
-      - com.google.android.storagemanager
-      - com.google.android.apps.nexuslauncher
-      # unused oma-dm stuff
-      - com.android.omadm.service
     substring:
       - branded_vpn
       # "Face unlock" is not shipped
       - /config_face_
       - /face_acquired
     suffix:
-      - config_avatar_picker_package
+      - config_avatar_picker_package = com.google.android.avatarpicker
+      - string/config_headlineFontFamily = google-sans
     match:
-      - android:bool/config_pauseWallpaperRenderWhenStateChangeEnabled
-      - android:bool/config_adaptive_sleep_available
+      - "android:array/config_notificationMsgPkgsAllowedAsConvos =\ " # already empty in fw/base
+      - "android:string/config_secondaryLocationTimeZoneProviderPackageName =\ "
+      - android:array/config_allowedSecureInstantAppSettings = advertising_id;limit_ad_tracking
+      - android:array/config_backupHealthConnectDataAndSettingsKnownSigners = 4F59009D33D5B8C60E4B14623A771EBA08E5C02D2F0A124DE8D184AA9DAF00B4;5F2391277B1DBD489000467E4C2FA6AF802430080457DCE2F618992E9DFB5402;3B062A8FD947C2574749F6609E51D29C4C86525248DD94A3D5D6CD8C338A4D84
+      - android:array/config_batteryPackageTypeService = com.google.android.gms
+      - android:array/config_companionDeviceCerts = 48:ED:00:58:D1:B6:63:8E:39:A6:E4:C2:DF:1C:4D:5F:DF:59:3F:69:6B:F3:1B:09:A8:8F:93:14:1E:AF:60:0F
+      - android:array/config_companionDevicePackages = com.google.android.apps.wear.companion
+      - android:array/config_defaultCloudSearchServices = com.android.vending/com.google.android.finsky.cloudsearch.PlayCloudSearchService;com.android.chrome/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService;com.chrome.canary/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService;com.chrome.dev/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService;com.chrome.beta/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService
+      - android:array/config_defaultFirstUserRestrictions = no_oem_unlock
+      - android:array/config_defaultPinnerServiceFiles|*
+      - android:array/config_disabledUntilUsedPreinstalledImes = com.google.android.inputmethod.latin
+      - android:array/config_enabledCredentialProviderService = com.google.android.gms/.auth.api.credentials.credman.service.PasswordAndPasskeyService
+      - android:array/config_ephemeralResolverPackage = com.google.android.gms
+      - android:array/config_fontManagerServiceCerts = /product/etc/security/fsverity/gms_fsverity_cert.der
+      - android:array/config_forceQueryablePackages = com.android.settings;com.google.android.gms;com.android.vending
+      - android:array/config_healthConnectMigrationKnownSigners = B2C0A80E485934BFB08F902CA27505813DF3159E4E6DD4A4DF078D66CB1C2003
+      - android:array/config_healthConnectRestoreKnownSigners = 56BE132B780656FE2444CD34326EB5D7AAC91D2096ABF0FE673A99270622EC87
+      - android:array/config_hideWhenDisabled_packageNames|mcc204-mnc4 = com.google.android.talk
+      - android:array/config_hideWhenDisabled_packageNames|mcc310-mnc4 = com.google.android.talk
+      - android:array/config_hideWhenDisabled_packageNames|mcc311-mnc480 = com.google.android.talk
+      - android:array/config_integrityRuleProviderPackages = com.android.vending;com.google.android.gms
+      - android:array/config_keep_warming_services = com.google.android.GoogleCamera/com.google.android.apps.camera.prewarm.NoOpPrewarmService
+      - android:array/config_locationExtraPackageNames = com.google.android.gms.location.history
+      - android:array/config_locationProviderPackageNames = com.google.android.gms;com.android.location.fused
+      - android:array/config_loggable_dream_prefixes = com.google.;com.android.
+      - android:array/config_mobile_hotspot_provision_app|mcc204-mnc4 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc4 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc30 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc70 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc90 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc120 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc150 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc170 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc280 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc380 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc410 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc560 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc680 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc311-mnc180 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc311-mnc480 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc311-mnc490 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc311-mnc870 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc312-mnc530 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc312-mnc670 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc313-mnc100 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc313-mnc110 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc313-mnc120 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc313-mnc130 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc313-mnc140 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_notificationDefaultUnsupportedAdjustments = key_type;key_summarization
+      - android:array/config_oem_enabled_satellite_country_codes|*
+      - android:array/config_packagesExemptFromSuspension = com.google.android.apps.wellbeing;com.android.vending;com.google.android.gms;com.android.systemui;com.android.settings;com.google.android.apps.pixelmigrate;com.google.android.apps.restore
+      - android:array/config_primaryCredentialProviderService = com.google.android.gms/.auth.api.credentials.credman.service.PasswordAndPasskeyService
+      - android:array/config_priorityOnlyDndExemptPackages
+      - android:array/config_priorityOnlyDndExemptPackages = com.google.android.dialer;com.android.server.telecom;android;com.android.systemui
+      - android:array/config_profcollectOnCameraOpenedSkipPackages = com.google.android.as
+      - android:array/config_rawContactsEligibleDefaultAccountTypes = com.google
+      - android:array/config_restoreHealthConnectDataAndSettingsKnownSigners = 4F59009D33D5B8C60E4B14623A771EBA08E5C02D2F0A124DE8D184AA9DAF00B4;5F2391277B1DBD489000467E4C2FA6AF802430080457DCE2F618992E9DFB5402;3B062A8FD947C2574749F6609E51D29C4C86525248DD94A3D5D6CD8C338A4D84
+      - android:array/config_setContactsDefaultAccountKnownSigners
+      - android:array/config_setContactsDefaultAccountKnownSigners = F0FD6C5B410F25CB25C3B53346C8972FAE30F8EE7411DF910480AD6B2D60DB83;1975B2F17177BC89A5DFF31F9E64A6CAE281A53DC1D1D59B1D147FE1C82AFA00
+      - android:array/config_setRawContactsDefaultAccountKnownSigners
+      - android:array/config_trustedAccessibilityServices = com.google.android.apps.accessibility.voiceaccess/com.google.android.apps.accessibility.voiceaccess.JustSpeakService;com.google.android.accessibility.switchaccess/com.android.switchaccess.SwitchAccessService;com.android.systemui.accessibility.accessibilitymenu/com.android.systemui.accessibility.accessibilitymenu.AccessibilityMenuService;com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService
+      - android:array/config_verizon_satellite_enabled_tagids|*
+      - android:array/default_wallpaper_component_per_device_color|*
+      - android:array/pause_wallpaper_render_when_state_change = com.google.android.GoogleCamera
+      - android:array/vendor_cross_profile_apps = com.google.android.googlequicksearchbox;com.google.android.inputmethod.latin;com.google.android.projection.gearhead;com.google.android.inputmethod.latin.dev;com.google.android.inputmethod.latin.canary
+      - android:array/vendor_disallowed_apps_managed_device|*
+      - android:array/vendor_disallowed_apps_managed_profile|*
+      - android:array/vendor_disallowed_apps_managed_user|*
+      - android:array/vendor_required_apps_managed_device|*
+      - android:array/vendor_required_apps_managed_profile|*
+      - android:array/vendor_required_apps_managed_user|*
+      - android:bool/config_adaptive_sleep_available = true
+      - android:bool/config_allowDisablingAssistDisclosure = true
       - android:bool/config_assistLongPressHomeEnabledDefault
       - android:bool/config_assistTouchGestureEnabledDefault
-      - android:bool/config_biometricFrrNotificationEnabled
-      - android:bool/config_bugReportHandlerEnabled
-      - android:bool/config_defaultRingtonePickerEnabled
-      - android:bool/config_enableFusedLocationOverlay
-      - android:bool/config_enableGeocoderOverlay
-      - android:bool/config_enableGeofenceOverlay
-      - android:bool/config_enableGeolocationTimeZoneDetection
-      - android:bool/config_enableNetworkLocationOverlay
-      - android:bool/config_enablePrimaryLocationTimeZoneProvider
-      - android:bool/config_enableSecondaryLocationTimeZoneProvider
-      - android:bool/config_glanceableHubEnabled
-      - android:bool/config_pinnerCameraApp
-      - android:bool/config_pinnerHomeApp
-      - android:bool/config_profcollectReportUploaderEnabled
-      - android:bool/config_repairModeSupported
-      - android:bool/config_safe_media_volume_enabled
-      - android:bool/config_satellite_allow_check_message_in_not_connected
-      - android:bool/config_satellite_allow_tn_scanning_during_satellite_session
-      - android:bool/config_satellite_should_notify_availability
-      - android:bool/config_sendPackageName
-      - android:bool/config_showGesturalNavigationHints
-      - android:bool/config_smart_battery_available
-      - android:bool/config_useGnssHardwareProvider
+      - android:bool/config_bugReportHandlerEnabled = true
+      - android:bool/config_defaultRingtonePickerEnabled = false
+      - android:bool/config_enableFusedLocationOverlay = true
+      - android:bool/config_enableGeocoderOverlay = true
+      - android:bool/config_enableGeofenceOverlay = true
+      - android:bool/config_enableGeolocationTimeZoneDetection = true
+      - android:bool/config_enableNetworkLocationOverlay = true
+      - android:bool/config_enablePrimaryLocationTimeZoneProvider = true
+      - android:bool/config_enableSecondaryLocationTimeZoneProvider = false
+      - android:bool/config_honor_data_retry_timer_for_emergency_network = true
+      - android:bool/config_pauseWallpaperRenderWhenStateChangeEnabled
+      - android:bool/config_pinnerCameraApp = true
+      - android:bool/config_profcollectReportUploaderEnabled = true
+      - android:bool/config_repairModeSupported = true
+      - android:bool/config_safe_media_volume_enabled|mcc310 = true
+      - android:bool/config_safe_media_volume_enabled|mcc311 = true
+      - android:bool/config_safe_media_volume_enabled|mcc312 = true
+      - android:bool/config_safe_media_volume_enabled|mcc313 = true
+      - android:bool/config_safe_media_volume_enabled|mcc314 = true
+      - android:bool/config_safe_media_volume_enabled|mcc315 = true
+      - android:bool/config_safe_media_volume_enabled|mcc316 = true
+      - android:bool/config_safe_sound_dosage_enabled = true
+      - android:bool/config_satellite_allow_check_message_in_not_connected = true
+      - android:bool/config_satellite_allow_tn_scanning_during_satellite_session = false
+      - android:bool/config_satellite_should_notify_availability = false
+      - android:bool/config_sendPackageName = true
+      - android:bool/config_sensorPrivacyRequiresAuthentication = false
+      - android:bool/config_showGesturalNavigationHints = true
+      - android:bool/config_smart_battery_available = true
+      - android:bool/config_sms_utf8_support|mcc310-mnc120 = true
+      - android:bool/config_sms_utf8_support|mcc312-mnc530 = true
+      - android:bool/config_use_sim_language_file|mcc404-mnc1 = false
+      - android:bool/config_useGnssHardwareProvider = false
       - android:bool/config_volumeAdjustmentForRemoteGroupSessions
       - android:bool/config_volumeHushGestureEnabled
-      - android:drawable/ic_safety_protection
-      - android:integer-array/config_verizon_satellite_enabled_tagids
-      - android:integer/config_defaultNightMode
-      - android:integer/config_keyChordPowerVolumeUp
-      - android:integer/config_longPressOnPowerBehavior
-      - android:integer/config_multiuserMaximumUsers
-      - android:integer/config_pinnerWebviewPinBytes
-      - android:integer/config_storageManagerDaystoRetainDefault
-      - android:string-array/config_accessibility_allowed_install_source
-      - android:string-array/config_allowedSecureInstantAppSettings
-      - android:string-array/config_batteryPackageTypeService
-      - android:string-array/config_companionDeviceCerts
-      - android:string-array/config_companionDevicePackages
-      - android:string-array/config_companionDevicePackages
-      - android:string-array/config_defaultCloudSearchServices
-      - android:string-array/config_defaultPinnerServiceFiles
-      - android:string-array/config_defaultFirstUserRestrictions
-      - android:string-array/config_disabledUntilUsedPreinstalledImes
-      - android:string-array/config_disabledUntilUsedPreinstalledImes
-      # com.google.android.gms/.auth.api.credentials.credman.service.PasswordAndPasskeyService
-      - android:string-array/config_enabledCredentialProviderService
-      - android:string-array/config_ephemeralResolverPackage
-      # /product/etc/security/fsverity/gms_fsverity_cert.der
-      - android:string-array/config_fontManagerServiceCerts
-      - android:string-array/config_forceQueryablePackages
-      # B2C0A80E485934BFB08F902CA27505813DF3159E4E6DD4A4DF078D66CB1C2003
-      - android:string-array/config_healthConnectMigrationKnownSigners
-      # 56BE132B780656FE2444CD34326EB5D7AAC91D2096ABF0FE673A99270622EC87
-      - android:string-array/config_healthConnectRestoreKnownSigners
-      # F0FD6C5B410F25CB25C3B53346C8972FAE30F8EE7411DF910480AD6B2D60DB83, 1975B2F17177BC89A5DFF31F9E64A6CAE281A53DC1D1D59B1D147FE1C82AFA00 
-      - android:string-array/config_setContactsDefaultAccountKnownSigners
-      - android:string-array/config_restoreHealthConnectDataAndSettingsKnownSigners
-      - android:string-array/config_backupHealthConnectDataAndSettingsKnownSigners
-      - android:string-array/config_integrityRuleProviderPackages
-      - android:string-array/config_keep_warming_services
-      - android:string-array/config_locationExtraPackageNames
-      - android:string-array/config_locationProviderPackageNames
-      - android:string-array/config_loggable_dream_prefixes
-      - android:string-array/config_nonBlockableNotificationPackages
-      - android:string-array/config_nonBlockableNotificationPackages
-      - android:string-array/config_oem_enabled_satellite_country_codes
-      - android:string-array/config_packagesExemptFromSuspension
-      # com.google.android.gms/.auth.api.credentials.credman.service.PasswordAndPasskeyService
-      - android:string-array/config_primaryCredentialProviderService
-      - android:string-array/config_priorityOnlyDndExemptPackages
-      - android:string-array/config_priorityOnlyDndExemptPackages
-      - android:string-array/config_profcollectOnCameraOpenedSkipPackages # com.google.android.as
-      - android:string-array/config_rawContactsEligibleDefaultAccountTypes # com.google
-      - android:string-array/config_setRawContactsDefaultAccountKnownSigners
-      - android:string-array/config_trustedAccessibilityServices
-      # first appeared in Pixel Fold 14 QPR1 image
-      - android:string-array/default_wallpaper_component_per_device_color
-      # set to Google Camera
-      - android:string-array/pause_wallpaper_render_when_state_change
-      - android:string-array/vendor_cross_profile_apps
-      - android:string-array/vendor_cross_profile_apps
-      - android:string-array/vendor_disallowed_apps_managed_device
-      - android:string-array/vendor_disallowed_apps_managed_profile
-      - android:string-array/vendor_disallowed_apps_managed_user
-      - android:string-array/vendor_required_apps_managed_device
-      - android:string-array/vendor_required_apps_managed_profile
-      - android:string-array/vendor_required_apps_managed_user
-      - android:string/config_appsAuthorizedForSharedAccounts
-      - android:string/config_batterySaverScheduleProvider
-      - android:string/config_defaultAccessibilityService
-      - android:string/config_defaultAmbientContextConsentComponent
-      - android:string/config_defaultAmbientContextDetectionService
-      - android:string/config_defaultAppPredictionService
-      - android:string/config_defaultAssistant
-      - android:string/config_defaultAssistantAccessComponent
-      - android:string/config_defaultAttentionService
-      - android:string/config_defaultAugmentedAutofillService
-      - android:string/config_defaultAutofillService
-      - android:string/config_defaultBugReportHandlerApp
-      - android:string/config_defaultCaptivePortalLoginPackageName
-      - android:string/config_defaultContentCaptureService
-      - android:string/config_defaultContentProtectionService
-      - android:string/config_defaultContentSuggestionsService
-      # config for VoiceInteractionManagerService, setup for com.google.android.googlequicksearchbox
-      - android:string/config_defaultContextualSearchEnabled
-      - android:string/config_defaultContextualSearchKey
-      - android:string/config_defaultContextualSearchLegacyEnabled
-      - android:string/config_defaultContextualSearchPackageName
-      # com.google.android.gms/.auth.api.credentials.credman.service.RemoteService
-      - android:string/config_defaultCredentialManagerHybridService
-      - android:string/config_defaultDialer
-      - android:string/config_defaultDndAccessPackages
-      - android:string/config_defaultDockManagerPackageName
-      # com.google.android.as/com.google.android.apps.miphone.aiai.app.AutofillFieldClassificationService
-      - android:string/config_defaultFieldClassificationService
-      - android:string/config_defaultGallery
-      - android:string/config_defaultListenerAccessPackages
-      - android:string/config_defaultModuleMetadataProvider
-      - android:string/config_defaultMusic
-      - android:string/config_defaultMusicRecognitionService
-      - android:string/config_defaultNearbyFastPairSettingsDevicesComponent
-      - android:string/config_defaultNearbySharingComponent
-      - android:string/config_defaultNetworkRecommendationProviderPackage
-      # com.google.android.keep
-      - android:string/config_defaultNotes
-      # aicore
-      - android:string/config_defaultOnDeviceIntelligenceDeviceConfigNamespace
-      # com.google.android.aicore/com.google.android.apps.aicore.service.isolated.AiCoreIntelligenceService
-      - android:string/config_defaultOnDeviceIntelligenceService
-      # com.google.android.aicore/com.google.android.apps.aicore.service.isolated.AiCoreIsolatedService
-      - android:string/config_defaultOnDeviceSandboxedInferenceService
-      - android:string/config_defaultOnDeviceSpeechRecognitionService
-      - android:string/config_defaultProfcollectReportUploaderAction
-      - android:string/config_defaultProfcollectReportUploaderApp
-      - android:string/config_defaultQrCodeComponent
-      - android:string/config_defaultRetailDemo
-      - android:string/config_defaultRotationResolverService
-      - android:string/config_defaultSearchSelectorPackageName
-      - android:string/config_defaultSearchUiService
-      - android:string/config_defaultSmartspaceService
-      - android:string/config_defaultSms
-      - android:string/config_defaultSupervisionProfileOwnerComponent
-      - android:string/config_defaultSystemCaptionsManagerService
-      - android:string/config_defaultSystemCaptionsService
-      - android:string/config_defaultTextClassifierPackage
-      - android:string/config_defaultTranslationService
-      # com.google.android.gms
-      - android:string/config_defaultWallet
-      - android:string/config_defaultWallpaperEffectsGenerationService
-      - android:string/config_defaultWearableSensingService # com.google.android.glasses.core/com.google.android.projection.core.secure.TrustedAmbientSensingService
-      - android:string/config_defaultWellbeingPackage
-      - android:string/config_deviceConfiguratorPackageName
-      - android:string/config_devicePolicyManagement
-      - android:string/config_devicePolicyManagementUpdater
-      - android:string/config_deviceProvisioningPackage
-      - android:string/config_dreamsDefaultComponent
-      - android:string/config_emergency_dialer_package
-      - android:string/config_gnssLocationProviderPackageName
-      # com.google.android.apps.healthdata
-      - android:string/config_healthConnectMigratorPackageName
-      - android:string/config_helpPackageNameValue
-      - android:string/config_incidentReportApproverPackage
-      - android:string/config_loggable_dream_prefix
-      # com.google.android.gms/.identitycredentials.ui.CredentialChooserActivity
-      - android:string/config_oemCredentialManagerDialogComponent
-      - android:string/config_oem_enabled_satellite_sos_handover_app
-      - android:string/config_persistentDataPackageName
-      - android:string/config_pointing_ui_class
-      - android:string/config_pointing_ui_package
-      - android:string/config_powerSaveModeChangedListenerPackage
-      - android:string/config_primaryLocationTimeZoneProviderPackageName
-      - android:string/config_recentsComponentName
-      - android:string/config_retailDemoPackage
-      - android:string/config_retailDemoPackageSignature
-      - android:string/config_oem_enabled_satellite_s2cell_file # /vendor/etc/telephony/sats2.dat
-      - android:string/config_satellite_carrier_roaming_esos_provisioned_class # com.google.android.apps.stargate.registration.RegistrationReceiver_Receiver
-      - android:string/config_satellite_carrier_roaming_non_emergency_session_class # com.google.android.apps.stargate.sessionmanager.SessionManagerReceiver_Receiver
-      - android:string/config_satellite_demo_mode_sos_intent_action # com.google.android.apps.stargate.ACTION_ESOS_DEMO
-      - android:string/config_satellite_gateway_service_package # com.google.android.apps.stargate
-      - android:string/config_satellite_sim_plmn_identifier
-      - android:string/config_satellite_sim_spn_identifier
-      - android:string/config_satellite_emergency_handover_intent_action
-      - android:string/config_satellite_nidd_apn_name
-      - android:string/config_satellite_service_package
-      - android:string/config_satellite_test_with_esp_replies_intent_action # com.google.android.apps.stargate.ACTION_ESOS_QUESTIONNAIRE_TEST_WITH_ESP_REPLIES
-      - android:string/config_secondaryHomePackage
-      - android:string/config_secondaryLocationTimeZoneProviderPackageName
-      - android:string/config_servicesExtensionPackage
-      - android:string/config_sharedConnectivityServiceIntentAction
-      - android:string/config_sharedConnectivityServicePackage
-      # set to Play services on tangorpro
-      - android:string/config_supervisedUserCreationPackage
-      - android:string/config_systemActivityRecognizer
-      - android:string/config_systemAmbientAudioIntelligence
-      - android:string/config_systemAppProtectionService
-      - android:string/config_systemAudioIntelligence
-      - android:string/config_systemAutomotiveProjection
-      - android:string/config_systemBluetoothStack
-      # com.google.android.gms
-      - android:string/config_systemCallStreaming
-      - android:string/config_systemCompanionDeviceProvider
-      - android:string/config_systemContacts
-      - android:string/config_systemDependencyInstaller
-      - android:string/config_intrusionDetectionEventTransport
-      - android:string/config_help_url_action_disabled_by_advanced_protection
-      # com.google.android.devicelockcontroller
-      - android:string/config_systemFinancedDeviceController
-      - android:string/config_systemGallery
-      - android:string/config_systemGameService
-      - android:string/config_systemImageEditor
-      - android:string/config_systemNotificationIntelligence
-      - android:string/config_systemSettingsIntelligence
-      - android:string/config_systemSpeechRecognizer
-      - android:string/config_systemSupervision
-      - android:string/config_systemTextIntelligence
-      - android:string/config_systemUiIntelligence
-      - android:string/config_systemVisualIntelligence
-      - android:string/config_systemWellbeing
-      - android:string/config_wallpaperCropperPackage
-      - android:string/default_wallpaper_component
-      - android:string/harmful_app_warning_title
-      - android:string/identity_check_settings_action # com.google.android.gms.personalsafety.settings.IDENTITY_CHECK_SWITCH
-      - android:string/identity_check_settings_package_name # com.google.android.gms
-      - android:string/satellite_access_config_file
-      - android:string/widget_default_class_name
-      - android:string/widget_default_package_name
-      - com.android.networkstack/NetworkStackConfig:bool/config_dhcp_client_hostname
-      - com.android.phone:string-array/thermal_mitigation_allowlisted_packages
-      - com.android.phone:string/dialer_default_class
-      - com.android.phone:string/platform_carrier_config_package
-      - com.android.phone:string/platform_number_verification_package
-      - com.android.providers.contacts:string/metadata_sync_pacakge
-      - com.android.providers.telephony:string/apn_source_service
-      - com.android.server.telecom:string/call_diagnostic_service_package_name
-      - com.android.server.telecom:string/dialer_default_class
-      - com.android.settings:bool/config_advanced_vpn_enabled
-      - com.android.settings:bool/config_auto_rotate_face_detection_available
-      - com.android.settings:bool/config_nfc_detection_point
-      - com.android.settings:bool/config_show_communal_settings
-      - com.android.settings:bool/config_show_reverse_charging
-      - com.android.settings:bool/config_show_touch_sensitivity
-      - com.android.settings:bool/config_suc_use_partner_resource
-      - com.android.settings:bool/config_suw_support_face_enroll
-      - com.android.settings:drawable/$aware_assist_static__0
-      - com.android.settings:drawable/$aware_assist_static__1
-      - com.android.settings:drawable/aware_assist_static
-      - com.android.settings:integer-array/datausage_hiding_carrier_service_carrier_id
-      - com.android.settings:integer-array/face_enroll_primary_buckets
-      - com.android.settings:string-array/config_preinstalled_dream_components
-      - com.android.settings:string-array/config_settings_slices_accessibility_components
-      - com.android.settings:string-array/datausage_hiding_carrier_service_package_names
-      - com.android.settings:string-array/display_over_apps_permission_change_exempt
-      - com.android.settings:string-array/slice_allowlist_package_names
-      # "Google Assistant"
-      - com.android.systemui.accessibility.accessibilitymenu:string/assistant_utterance
-      - com.android.systemui:bool/config_pixel_vpn_enabled
-      - com.android.systemui:bool/config_touch_context_enabled
-      - com.android.systemui:bool/config_wlc_support_enabled
-      - com.android.systemui:integer/config_keyguardRefreshRate
-      - com.android.systemui:string-array/config_communalWidgetAllowlist
-      - com.android.systemui:string-array/config_controlsPreferredPackages
-      - com.android.systemui:string-array/config_dock_setup_completed_packages
-      # first appeared in Pixel Tablet 14 QPR1 image, set to com.google.android.apps.mediashell
-      - com.android.systemui:string-array/config_fingerprint_listen_on_occluding_activity_packages
-      - com.android.systemui:string-array/config_pluginAllowlist
-      - com.android.systemui:string-array/config_pluginWhitelist
-      - com.android.systemui:string/branded_monitoring_description_app_personal
-      # com.google.android.apps.pixel.agent/.app.service.PearlActionService on 14 QPR3 caiman
-      - com.android.systemui:string/config_action_service
-      - com.android.systemui:string/config_cameraProtectionExcludedPackages
-      - com.android.systemui:string/config_communalSourceComponent
-      - com.android.systemui:string/config_communalSourceConnector
-      - com.android.systemui:string/config_media_shell_service_component
-      - com.android.systemui:string/config_nest_dock_manager_service_component
-      - com.android.systemui:string/config_dockComponent
-      # com.google.android.apps.pixel.agent on 14 QPR3 caiman
-      - com.android.systemui:string/config_pearl_package
-      - com.android.systemui:string/config_remoteCopyPackage
-      # set to Google Files app, com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity
-      - com.android.systemui:string/config_screenshotFilesApp
-      - com.android.systemui:string/config_screenshotEditor
-      - com.android.systemui:string/config_preferredScreenshotEditor
-      - com.android.systemui:string/quick_settings_tiles_default
-      - com.android.systemui:string/config_lowLightDreamComponent
-      # Config not copied from Google's SystemUI, to disallow overriding it
+      - android:color/config_progress_background_tint|*
+      - android:color/error_color_device_default_dark|*
+      - android:color/error_color_device_default_light|*
+      - android:color/system_error|*
+      - android:color/user_icon_1|*
+      - android:drawable/default_wallpaper|*
+      - android:drawable/ic_add_supervised_user|*
+      - android:drawable/ic_safety_protection|*
+      - android:integer/config_defaultNightMode|*
+      - android:integer/config_doubleTapPowerGestureMode = 1
+      - android:integer/config_keyChordPowerVolumeUp|*
+      - android:integer/config_longPressOnHomeBehavior|*
+      - android:integer/config_longPressOnPowerBehavior|*
+      - android:integer/config_multiuserMaximumUsers = 4
+      - android:integer/config_multiuserMaximumUsers = 8
+      - android:integer/config_storageManagerDaystoRetainDefault = 60
+      - android:string/battery_saver_description_with_learn_more|* # contains reference to "Hey Google" hotword
+      - android:string/config_appsAuthorizedForSharedAccounts = ;com.android.vending;com.android.settings;
+      - android:string/config_bodyFontFamily = google-sans-text
+      - android:string/config_bodyFontFamilyMedium = google-sans-text-medium
+      - android:string/config_clockFontFamily = google-sans-clock
+      - android:string/config_defaultAccessibilityService = com.google.android.marvin.talkback/.TalkBackService
+      - android:string/config_defaultAmbientContextConsentComponent = com.google.android.as/com.google.android.apps.miphone.aiai.ambientcontext.ui.ConsentActivity
+      - android:string/config_defaultAmbientContextDetectionService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAmbientContextDetectionService
+      - android:string/config_defaultAppPredictionService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService
+      - android:string/config_defaultAssistant = com.google.android.googlequicksearchbox
+      - android:string/config_defaultAssistantAccessComponent = com.google.android.as/com.google.android.apps.miphone.aiai.common.notification.service.AiAiNotificationAssistantService
+      - android:string/config_defaultAssistantAccessComponent = com.google.android.ext.services/android.ext.services.notification.Assistant
+      - android:string/config_defaultAttentionService = com.google.android.as/com.google.android.apps.miphone.aiai.attention.service.AiAiAttentionService
+      - android:string/config_defaultAugmentedAutofillService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService
+      - android:string/config_defaultAutofillService = com.google.android.gms/.autofill.service.AutofillService
+      - android:string/config_defaultBugReportHandlerApp = com.google.android.apps.internal.betterbug
+      - android:string/config_defaultCaptivePortalLoginPackageName = com.google.android.captiveportallogin
+      - android:string/config_defaultContentCaptureService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentCaptureService
+      - android:string/config_defaultContentProtectionService = com.google.android.odad/com.google.android.apps.miphone.odad.contentprotection.ContentProtectionService
+      - android:string/config_defaultContentSuggestionsService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentSuggestionsService
+      - android:string/config_defaultContextualSearchEnabled = omni.enable_cs_helper
+      - android:string/config_defaultContextualSearchKey = omni.entry_point
+      - android:string/config_defaultContextualSearchLegacyEnabled = omni.enable_vis
+      - android:string/config_defaultContextualSearchPackageName = com.google.android.googlequicksearchbox
+      - android:string/config_defaultCredentialManagerAutofillService = com.android.credentialmanager/com.android.credentialmanager.autofill.CredentialAutofillService # already set to this value in fw/base
+      - android:string/config_defaultCredentialManagerHybridService = com.google.android.gms/.auth.api.credentials.credman.service.RemoteService
+      - android:string/config_defaultDialer = com.google.android.dialer
+      - android:string/config_defaultDndAccessPackages|*
+      - android:string/config_defaultDockManagerPackageName = com.google.android.apps.nest.dockmanager.app
+      - android:string/config_defaultFieldClassificationService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AutofillFieldClassificationService
+      - android:string/config_defaultGallery = com.google.android.apps.photos
+      - android:string/config_defaultListenerAccessPackages|*
+      - android:string/config_defaultModuleMetadataProvider = com.google.android.modulemetadata
+      - android:string/config_defaultMusic = com.google.android.music
+      - android:string/config_defaultMusicRecognitionService = com.google.android.googlequicksearchbox/com.google.android.apps.search.soundsearch.service.SoundSearchService
+      - android:string/config_defaultNearbyFastPairSettingsDevicesComponent = com.google.android.gms/com.google.android.gms.nearby.discovery.devices.SavedDevicesSettingsActivity
+      - android:string/config_defaultNearbySharingComponent = com.google.android.gms/com.google.android.gms.nearby.sharing.send.SendActivity
+      - android:string/config_defaultNetworkRecommendationProviderPackage = com.google.android.gms
+      - android:string/config_defaultOnDeviceIntelligenceDeviceConfigNamespace = aicore
+      - android:string/config_defaultOnDeviceIntelligenceService = com.google.android.aicore/com.google.android.apps.aicore.service.isolated.AiCoreIntelligenceService
+      - android:string/config_defaultOnDeviceSandboxedInferenceService = com.google.android.aicore/com.google.android.apps.aicore.service.isolated.AiCoreIsolatedService
+      - android:string/config_defaultOnDeviceSpeechRecognitionService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSpeechRecognitionService
+      - android:string/config_defaultProfcollectReportUploaderAction = com.google.android.apps.betterbug.intent.action.UPLOAD_PROFILE
+      - android:string/config_defaultProfcollectReportUploaderApp = com.google.android.apps.internal.betterbug
+      - android:string/config_defaultQrCodeComponent = com.google.android.gms/.mlkit.barcode.ui.PlatformBarcodeScanningActivityProxy
+      - android:string/config_defaultRetailDemo = com.google.android.retaildemo:6547c73dee150c103980bfdffe55cc9a011d785dd694a5f99afd8205bcaf1f80
+      - android:string/config_defaultRotationResolverService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiRotationResolverService
+      - android:string/config_defaultSearchSelectorPackageName = com.google.android.apps.setupwizard.searchselector
+      - android:string/config_defaultSearchUiService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSearchUiService
+      - android:string/config_defaultSmartspaceService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService
+      - android:string/config_defaultSms = com.google.android.apps.messaging
+      - android:string/config_defaultSupervisionProfileOwnerComponent = com.google.android.gms/.kids.account.receiver.ProfileOwnerReceiver
+      - android:string/config_defaultSystemCaptionsManagerService = com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService
+      - android:string/config_defaultTextClassifierPackage = com.google.android.as
+      - android:string/config_defaultTranslationService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiTranslationService
+      - android:string/config_defaultWallet = com.google.android.gms
+      - android:string/config_defaultWallpaperEffectsGenerationService = com.google.android.as/com.google.android.apps.miphone.aiai.app.wallpapereffects.AiAiWallpaperEffectsGenerationService
+      - android:string/config_defaultWearableSensingService = com.google.android.glasses.core/com.google.android.projection.core.secure.TrustedAmbientSensingService
+      - android:string/config_defaultWellbeingPackage = @string/config_systemWellbeing
+      - android:string/config_deviceConfiguratorPackageName = com.google.android.gms
+      - android:string/config_devicePolicyManagement = com.google.android.apps.work.clouddpc:23962F4B43B9857638EA66F4D419518EAE282491ACDA4B94707BD59003C45E58
+      - android:string/config_devicePolicyManagementUpdater = com.google.android.gms
+      - android:string/config_deviceProvisioningPackage = com.google.android.apps.work.oobconfig
+      - android:string/config_dreamsDefaultComponent = com.google.android.deskclock/com.android.deskclock.Screensaver
+      - android:string/config_dreamsDefaultComponent = com.google.assistant.hubui/com.google.assistant.hubui.dream.CuratedPhotoDreamService
+      - android:string/config_emergency_dialer_package = com.google.android.apps.safetyhub
+      - android:string/config_feedbackIntentExtraKey = EXTRA_FEEDBACK_PSD_KEYS
+      - android:string/config_feedbackIntentNameKey = EXTRA_FEEDBACK_PSD_VALUES
+      - android:string/config_gnssLocationProviderPackageName = com.google.android.gms
+      - android:string/config_headlineFontFamilyMedium = google-sans-medium
+      - android:string/config_headlineFontFeatureSettings = ss03
+      - android:string/config_healthConnectMigratorPackageName = com.google.android.apps.healthdata
+      - android:string/config_help_url_action_disabled_by_advanced_protection = intent:#Intent;action=com.google.android.gms.settings.ADVANCED_PROTECTION;package=com.google.android.gms;end
+      - android:string/config_helpIntentExtraKey = EXTRA_PSD_KEYS
+      - android:string/config_helpIntentNameKey = EXTRA_PSD_VALUES
+      - android:string/config_helpPackageNameKey = genie-eng:app_pkg_name
+      - android:string/config_helpPackageNameValue = com.google.android.settings.gphone
+      - android:string/config_incidentReportApproverPackage = com.google.android.permissioncontroller
+      - android:string/config_intrusionDetectionEventTransport = com.google.android.gms/.intrusiondetection.service.IntrusionDetectionEventTransportService
+      - android:string/config_loggable_dream_prefixes|*
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc204-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc30 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc70 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc90 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc120 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc150 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc170 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc280 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc380 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc410 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc560 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc680 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc311-mnc180 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc311-mnc480 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc311-mnc490 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc311-mnc870 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc312-mnc530 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc312-mnc670 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc313-mnc100 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc313-mnc110 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc313-mnc120 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc313-mnc130 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc313-mnc140 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_response|mcc204-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc30 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc70 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc90 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc120 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc150 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc170 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc280 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc380 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc410 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc560 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc680 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc311-mnc180 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc311-mnc480 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc311-mnc490 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc311-mnc870 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc312-mnc530 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc312-mnc670 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc313-mnc100 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc313-mnc110 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc313-mnc120 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc313-mnc130 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc313-mnc140 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_oem_enabled_satellite_s2cell_file = /vendor/etc/telephony/sats2.dat
+      - android:string/config_oem_enabled_satellite_sos_handover_app = com.google.android.apps.stargate;com.google.android.apps.stargate.questionnaire.QuestionnaireHomeActivity
+      - android:string/config_oemCredentialManagerDialogComponent = com.google.android.gms/.identitycredentials.ui.CredentialChooserActivity
+      - android:string/config_persistentDataPackageName = com.google.android.gms
+      - android:string/config_pointing_ui_class = com.google.android.apps.scone.satellite.pointingui.ui.PointingUiActivity
+      - android:string/config_pointing_ui_package = com.google.android.apps.scone
+      - android:string/config_powerSaveModeChangedListenerPackage = com.google.android.flipendo
+      - android:string/config_primaryLocationTimeZoneProviderPackageName = com.google.android.gms
+      - android:string/config_recentsComponentName = com.google.android.apps.nexuslauncher/com.android.quickstep.RecentsActivity
+      - android:string/config_retailDemoPackage = com.google.android.retaildemo
+      - android:string/config_retailDemoPackageSignature = 6547c73dee150c103980bfdffe55cc9a011d785dd694a5f99afd8205bcaf1f80
+      - android:string/config_satellite_carrier_roaming_esos_provisioned_class = com.google.android.apps.stargate.registration.RegistrationReceiver_Receiver
+      - android:string/config_satellite_carrier_roaming_non_emergency_session_class = com.google.android.apps.stargate.sessionmanager.SessionManagerReceiver_Receiver
+      - android:string/config_satellite_demo_mode_sos_intent_action = com.google.android.apps.stargate.ACTION_ESOS_DEMO
+      - android:string/config_satellite_emergency_handover_intent_action = com.google.android.apps.stargate.ACTION_ESOS_QUESTIONNAIRE
+      - android:string/config_satellite_gateway_service_package = com.google.android.apps.stargate
+      - android:string/config_satellite_nidd_apn_name = pixel.ntn
+      - android:string/config_satellite_service_package = com.google.android.satellite
+      - android:string/config_satellite_sim_plmn_identifier|*
+      - android:string/config_satellite_sim_spn_identifier = Skylo
+      - android:string/config_satellite_test_with_esp_replies_intent_action = com.google.android.apps.stargate.ACTION_ESOS_QUESTIONNAIRE_TEST_WITH_ESP_REPLIES
+      - android:string/config_secondaryHomePackage = com.google.android.apps.nexuslauncher
+      - android:string/config_servicesExtensionPackage = com.google.android.ext.services
+      - android:string/config_sharedConnectivityServiceIntentAction = com.google.android.gms.magictether.BIND
+      - android:string/config_sharedConnectivityServicePackage = com.google.android.gms
+      - android:string/config_supervisedUserCreationPackage = com.google.android.gms
+      - android:string/config_systemActivityRecognizer = com.google.android.gms
+      - android:string/config_systemAmbientAudioIntelligence = com.google.android.as
+      - android:string/config_systemAppProtectionService = com.google.android.odad
+      - android:string/config_systemAudioIntelligence = com.google.android.as
+      - android:string/config_systemAutomotiveProjection = com.google.android.projection.gearhead
+      - android:string/config_systemBluetoothStack = com.google.android.bluetooth
+      - android:string/config_systemCallStreaming = com.google.android.gms
+      - android:string/config_systemCompanionDeviceProvider = com.google.android.gms
+      - android:string/config_systemContacts = com.google.android.contacts
+      - android:string/config_systemDependencyInstaller = com.google.android.gms
+      - android:string/config_systemFinancedDeviceController = com.google.android.devicelockcontroller
+      - android:string/config_systemGallery = com.google.android.apps.photos
+      - android:string/config_systemGameService = com.google.android.gms
+      - android:string/config_systemImageEditor = com.google.android.markup/com.google.android.markup.AnnotateActivity
+      - android:string/config_systemNotificationIntelligence = com.google.android.as
+      - android:string/config_systemSettingsIntelligence = com.google.android.settings.intelligence
+      - android:string/config_systemSpeechRecognizer = com.google.android.tts
+      - android:string/config_systemSupervision = com.google.android.gms.supervision
+      - android:string/config_systemTextIntelligence = com.google.android.as
+      - android:string/config_systemUiIntelligence = com.google.android.as
+      - android:string/config_systemVisualIntelligence = com.google.android.as
+      - android:string/config_systemWellbeing = com.google.android.apps.wellbeing
+      - android:string/config_wallpaperCropperPackage = com.google.android.apps.wallpaper
+      - android:string/default_wallpaper_component|*
+      - android:string/harmful_app_warning_title|*
+      - android:string/identity_check_settings_action = com.google.android.gms.personalsafety.settings.IDENTITY_CHECK_SWITCH
+      - android:string/identity_check_settings_package_name = com.google.android.gms
+      - android:string/safety_protection_display_text|*
+      - android:string/satellite_access_config_file = /vendor/etc/telephony/satellite_access_config.json
+      - android:string/widget_default_class_name = com.android.alarmclock.DigitalAppWidgetProvider
+      - android:string/widget_default_package_name = com.google.android.deskclock
+      - android:xml/bookmarks|*
+      - android:xml/overlays|*
+      - com.android.bips:color/iconColor|*
+      - com.android.captiveportallogin/CaptivePortalLoginConfig:color/app_icon_background_color|*
+      - com.android.cellbroadcastservice/CellBroadcastServiceCustomization:array/additional_cell_broadcast_receiver_packages = com.google.android.apps.safetyhub
+      - com.android.cellbroadcastservice/CellBroadcastServiceCustomization:array/test_cell_broadcast_receiver_packages = com.googlecode.android_scripting
+      - com.android.documentsui/DocumentsUICustomization:bool/is_launcher_enabled = false
+      - com.android.documentsui/DocumentsUICustomization:string/config_fontFamily = google-sans
+      - com.android.documentsui/DocumentsUICustomization:string/config_fontFamilyMedium = google-sans-medium
+      - com.android.documentsui/DocumentsUICustomization:string/preferred_root_package = com.google.android
+      - com.android.documentsui/DocumentsUICustomization:string/trusted_quick_viewer_package = com.google.android.apps.docs
+      - com.android.managedprovisioning/ManagedProvisioning:xml/overlays|*
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc204-mnc4 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc4 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc30 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc70 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc90 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc120 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc150 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc170 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc280 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc380 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc410 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc560 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc680 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc311-mnc180 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc311-mnc480 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc311-mnc490 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc311-mnc870 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc312-mnc530 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc312-mnc670 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc313-mnc100 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc313-mnc110 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc313-mnc120 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc313-mnc130 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc313-mnc140 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc313-mnc790 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc440-mnc20 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc204-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc30 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc70 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc90 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc120 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc150 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc170 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc280 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc380 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc410 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc560 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc680 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc311-mnc180 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc311-mnc480 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc311-mnc490 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc311-mnc870 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc312-mnc530 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc312-mnc670 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc313-mnc100 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc313-mnc110 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc313-mnc120 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc313-mnc130 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc313-mnc140 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc313-mnc790 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc440-mnc20 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc204-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc30 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc70 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc90 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc120 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc150 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc170 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc280 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc380 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc410 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc560 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc680 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc311-mnc180 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc311-mnc480 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc311-mnc490 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc311-mnc870 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc312-mnc530 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc312-mnc670 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc313-mnc100 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc313-mnc110 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc313-mnc120 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc313-mnc130 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc313-mnc140 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc313-mnc790 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc440-mnc20 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack/NetworkStackConfig:bool/config_dhcp_client_hostname = true
+      - com.android.phone:array/thermal_mitigation_allowlisted_packages = com.google.android.connectivitythermalpowermanager
+      - com.android.phone:bool/config_apn_expand|* # legacy unused option
+      - com.android.phone:bool/config_carrier_settings_enable|* # legacy unused overlay
+      - com.android.phone:mipmap/ic_launcher_phone|*
+      - com.android.phone:string/carrier_settings_menu|mcc310-mnc120 = com.android.sdm.plugins.sprintdm.SprintCarrierSettingsActivity
+      - com.android.phone:string/carrier_settings_menu|mcc312-mnc530 = com.android.sdm.plugins.sprintdm.SprintCarrierSettingsActivity
+      - com.android.phone:string/carrier_settings|mcc310-mnc120 = com.android.sdm.plugins.sprintdm
+      - com.android.phone:string/carrier_settings|mcc312-mnc530 = com.android.sdm.plugins.sprintdm
+      - com.android.phone:string/dialer_default_class = com.google.android.dialer.extensions.GoogleDialtactsActivity
+      - com.android.phone:string/platform_carrier_config_package = com.google.android.carrier
+      - com.android.phone:string/platform_number_verification_package = com.google.android.gms
+      - com.android.providers.contacts:string/metadata_sync_pacakge = com.google.android.gms
+      - com.android.providers.media.module/MediaProviderConfig:string/config_default_cloud_media_provider_package = com.google.android.apps.photos
+      - com.android.providers.media.module/MediaProviderConfig:string/config_default_cloud_provider_authority = com.google.android.apps.photos.cloudpicker
+      - com.android.providers.settings:string/def_backup_transport = com.google.android.gms/.backup.BackupTransportService
+      - com.android.providers.settings:string/def_wireless_charging_started_sound|*
+      - com.android.providers.telephony:mipmap/ic_launcher_phone|*
+      - com.android.providers.telephony:string/apn_source_service = com.google.android.carrier/.ApnSourceService
+      - com.android.server.telecom:bool/grant_location_permission_enabled = true # Determines if the granting of temporary location permission to the default dialer during an emergency call should be allowed
+      - com.android.server.telecom:mipmap/ic_launcher_phone|*
+      - com.android.server.telecom:string/call_diagnostic_service_package_name = com.google.android.apps.scone
+      - com.android.server.telecom:string/dialer_default_class = com.google.android.dialer.extensions.GoogleDialtactsActivity
+      - com.android.settings:array/config_preinstalled_dream_components = com.google.assistant.hubui/com.google.assistant.hubui.dream.PersonalPhotoDreamService;com.google.assistant.hubui/com.google.assistant.hubui.dream.CuratedPhotoDreamService;com.google.assistant.hubui/com.google.assistant.hubui.dream.ClockFacesDreamService;com.google.assistant.hubui/com.google.assistant.hubui.dream.WeatherClockDreamService;com.google.assistant.hubui/com.google.assistant.hubui.dream.FroggyDreamService
+      - com.android.settings:array/config_settings_slices_accessibility_components = com.google.android.marvin.talkback/com.android.switchaccess.SwitchAccessService;com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService;com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService;com.google.android.marvin.talkback/com.google.android.accessibility.accessibilitymenu.AccessibilityMenuService
+      - com.android.settings:array/datausage_hiding_carrier_service_carrier_id = 1802;2032;2126;2146;10008
+      - com.android.settings:array/datausage_hiding_carrier_service_package_names = com.verizon.mips.services;com.verizon.llkagent;com.verizon.obdm;com.verizon.obdm_permissions;com.verizon.services;com.vzw.apnlib
+      - com.android.settings:array/display_over_apps_permission_change_exempt = com.google.android.apps.scone
+      - com.android.settings:array/slice_allowlist_package_names = com.google.android.gms;com.google.android.googlequicksearchbox;com.google.android.apps.search.assistant.surfaces.voice.devapp
+      - com.android.settings:bool/config_auto_rotate_face_detection_available|*
+      - com.android.settings:bool/config_early_screen_timeout_detector_enabled = true
+      - com.android.settings:bool/config_show_communal_settings = true
+      - com.android.settings:bool/config_suw_support_face_enroll|*
+      - com.android.settings:color/icon_accent|*
+      - com.android.settings:xml/overlays|*
+      - com.android.simappdialog:bool/show_sim_app_dialog_illo = true
+      - com.android.simappdialog:drawable/$illo_sim_app_dialog__1|*
+      - com.android.simappdialog:drawable/$illo_sim_app_dialog__2|*
+      - com.android.simappdialog:drawable/$illo_sim_app_dialog__3|*
+      - com.android.simappdialog:drawable/$illo_sim_app_dialog__0|*
+      - com.android.simappdialog:drawable/illo_sim_app_dialog|*
+      - com.android.simappdialog:string/install_carrier_app_image_content_description|* # "Illustration featuring Google Play logo"
+      - com.android.storagemanager:bool/config_hspa_data_distinguishable|*
+      - com.android.storagemanager:bool/config_showMin3G|*
+      - com.android.storagemanager:drawable/ic_5g_plus_mobiledata|*
+      - com.android.storagemanager:string/data_connection_5g_plus|*
+      - com.android.systemui.accessibility.accessibilitymenu:color/assistant_color|*
+      - com.android.systemui.accessibility.accessibilitymenu:drawable/a11ymenu_intro|*
+      - com.android.systemui.accessibility.accessibilitymenu:drawable/ic_logo_a11y_assistant|*
+      - com.android.systemui.accessibility.accessibilitymenu:string/assistant_utterance|* # "Google Assistant"
+      - com.android.systemui/SystemUI:string/config_cameraGesturePackage = com.google.android.GoogleCamera
+      - com.android.systemui:array/config_communalWidgetAllowlist|*
+      - com.android.systemui:array/config_controlsPreferredPackages = com.google.android.apps.chromecast.app
+      - com.android.systemui:array/config_dock_setup_completed_packages = com.google.android.apps.chromecast.app
+      - com.android.systemui:array/config_fingerprint_listen_on_occluding_activity_packages = com.google.android.apps.mediashell
+      - com.android.systemui:array/config_pluginAllowlist = com.android.systemui;com.android.systemui.plugin.globalactions.wallet;com.android.systemui.clocks;com.android.systemui.clocks.debug;com.android.systemui.clocks.bignum;com.android.systemui.clocks.calligraphy;com.android.systemui.clocks.flex;com.android.systemui.clocks.growth;com.android.systemui.clocks.handwritten;com.android.systemui.clocks.inflate;com.android.systemui.clocks.metro;com.android.systemui.clocks.numoverlap;com.android.systemui.clocks.weather
+      - com.android.systemui:array/config_pluginWhitelist = com.android.systemui;com.android.systemui.plugin.globalactions.wallet
+      - com.android.systemui:bool/config_pixel_vpn_enabled = true
+      - com.android.systemui:bool/config_touch_context_enabled = true # not checked by AOSP SystemUI
+      - com.android.systemui:bool/config_wlc_support_enabled = true # not checked by AOSP SystemUI
       - com.android.systemui:bool/custom_lockscreen_shortcuts_enabled
+      - com.android.systemui:drawable/notification_24|*
+      - com.android.systemui:drawable/saved_24|*
+      - com.android.systemui:drawable/saving_24|*
+      - com.android.systemui:drawable/unsaved_24|*
+      - com.android.systemui:integer/config_keyguardRefreshRate
+      - com.android.systemui:string/branded_monitoring_description_app_personal|*
+      - com.android.systemui:string/config_action_service = com.google.android.apps.pixel.agent/.app.service.PearlActionService
+      - com.android.systemui:string/config_cameraProtectionExcludedPackages = com.google.android.as
+      - com.android.systemui:string/config_communalSourceComponent = com.google.assistant.hubui/com.google.assistant.surfaces.dragonglass.opal.lockscreenservice.LockScreenService
+      - com.android.systemui:string/config_communalSourceConnector = com.google.android.systemui.communal.projection.CommunalSourceImpl$Connector
+      - com.android.systemui:string/config_lowLightDreamComponent
+      - com.android.systemui:string/config_lowLightDreamComponent = com.android.systemui/com.google.android.systemui.lowlightclock.LowLightClockDreamService
+      - com.android.systemui:string/config_media_shell_service_component
+      - com.android.systemui:string/config_media_shell_service_component = com.google.android.apps.mediashell/.MediaShellCastReceiverService
+      - com.android.systemui:string/config_nest_dock_manager_service_component
+      - com.android.systemui:string/config_nest_dock_manager_service_component = com.google.android.apps.nest.dockmanager.app/.service.DockManagerAndroidService
+      - com.android.systemui:string/config_pearl_package = com.google.android.apps.pixel.agent
+      - com.android.systemui:string/config_preferredScreenshotEditor = com.google.android.apps.pixel.creativeassistant/com.google.android.apps.pixel.creativeassistant.ExternalEditActivity
+      - com.android.systemui:string/config_remoteCopyPackage = com.google.android.gms/.nearby.sharing.RemoteCopyShareSheetActivity
+      - com.android.systemui:string/config_screenshotEditor = com.google.android.markup/com.google.android.markup.AnnotateActivity
+      - com.android.systemui:string/config_screenshotFilesApp = com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity # Google Files app
+      - com.android.systemui:string/quick_settings_tiles_default|*
+      - com.android.traceur:bool/config_hspa_data_distinguishable|*
+      - com.android.traceur:bool/config_showMin3G|*
+      - com.android.traceur:drawable/ic_5g_plus_mobiledata|*
+      - com.android.traceur:string/data_connection_5g_plus|*
