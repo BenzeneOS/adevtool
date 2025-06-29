@@ -399,8 +399,6 @@ filters:
       - system_ext/priv-app/FactoryOtaPrebuilt
       - system_ext/priv-app/GoogleFeedback/
       - system_ext/priv-app/GoogleServicesFramework/
-      # High Brightness Mode manager
-      - system_ext/priv-app/HbmSVManager/
       # com.verizon.llkagent provides StoreDemoModeService
       - system_ext/priv-app/LLKAgent/
       - system_ext/priv-app/MyVerizonServices/
