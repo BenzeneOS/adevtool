@@ -53,6 +53,7 @@ import {
   getCarrierSettingsUpdatesDir,
   getVersionsMap,
 } from '../blobs/carrier'
+import { processOverlays } from '../blobs/overlays2'
 
 const doDevice = (
   dirs: VendorDirectories,
@@ -134,9 +135,7 @@ const doDevice = (
 
     // 8. Overlays
     if (config.generate.overlays) {
-      let overlayPkgs = await withSpinner('Extracting overlays', spinner =>
-        extractOverlays(spinner, config, customState, dirs, aapt2Path, stockSrc),
-      )
+      let overlayPkgs = await processOverlays(config, dirs, stockSrc)
       buildPkgs.push(...overlayPkgs)
     }
 

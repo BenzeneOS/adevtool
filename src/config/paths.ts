@@ -1,5 +1,6 @@
 import assert from 'assert'
 import path from 'path'
+import { assertDefined } from '../util/data'
 
 export const OS_CHECKOUT_DIR = getOsCheckoutDir()
 
@@ -34,3 +35,11 @@ export const VENDOR_MODULE_SKELS_DIR = path.join(ADEVTOOL_DIR, 'vendor-skels')
 
 export const CARRIER_SETTINGS_DIR = path.join(ADEVTOOL_DIR, 'carrier-settings')
 export const CARRIER_SETTINGS_FACTORY_PATH = 'product/etc/CarrierSettings'
+
+function getHostOutPath() {
+  return assertDefined(process.env.ANDROID_HOST_OUT)
+}
+
+export function getHostBinPath(programName: string) {
+  return path.join(getHostOutPath(), 'bin', programName)
+}

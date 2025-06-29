@@ -26,3 +26,17 @@ export function updateMultiMap<K, V>(map: Map<K, V[]>, key: K, value: V) {
     cur.push(value)
   }
 }
+
+export function assertDefined<T>(o: T | undefined): T {
+  if (o === undefined) {
+    throw new Error('value is undefined')
+  }
+  return o!
+}
+
+export function assertNonNull<T>(o: T | null): T {
+  if (o === null) {
+    throw new Error('value is null')
+  }
+  return o!
+}
