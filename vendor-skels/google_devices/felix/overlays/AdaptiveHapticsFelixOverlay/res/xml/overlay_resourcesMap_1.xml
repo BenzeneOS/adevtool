@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay>
+    <item target="string/low_intensity" value="@string/low_intensity"/>
+    <item target="string/medium_intensity" value="@string/medium_intensity"/>
+    <item target="string/high_intensity" value="@string/high_intensity"/>
+</overlay>

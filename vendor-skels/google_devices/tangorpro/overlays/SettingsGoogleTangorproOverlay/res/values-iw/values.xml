@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">צלילי טעינה</string>
+    <string name="edge_to_edge_navigation_summary">כדי לעבור למסך הבית, מחליקים במהירות למעלה מתחתית המסך. כדי לגשת לסרגל האפליקציות, מחליקים לאט למעלה מתחתית המסך. כדי לעבור בין אפליקציות מחליקים למעלה מתחתית המסך, מחזיקים ומשחררים. כדי לחזור למסך הקודם, מחליקים מהקצה הימני או השמאלי של המסך.</string>
+    <string name="fast_pair_device_not_found_other_device_description">‏מקרבים את המכשיר אל Pixel Tablet ומנסים שוב.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">‏פותחים את הנרתיק של אוזניות הכפתור, מקרבים אותו ל-Pixel Tablet ומנסים שוב.</string>
+    <string name="sound_dashboard_summary">עוצמת הקול</string>
+    <string name="sound_dashboard_summary_with_dnd">"עוצמת הקול, מצב 'נא לא להפריע'"</string>
+    <string name="sound_settings">צליל</string>
+</resources>

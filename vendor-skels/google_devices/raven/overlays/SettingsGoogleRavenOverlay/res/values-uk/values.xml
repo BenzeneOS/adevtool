@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Автоматично збільшує частоту оновлення певного контенту з 60 до 120 Гц. Збільшує використання заряду акумулятора.</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">Dual Screeni režiim pole saadaval, kuna teie Pixeli telefon läheb liiga kuumaks</string>
+    <string name="fingerprint_acquired_partial">Veenduge, et sõrm kataks andurit</string>
+    <string name="fingerprint_acquired_power_press">Seadistuse jätkamiseks puudutage õrnalt andurit</string>
+    <string name="fingerprint_acquired_too_fast">Hoidke sõrme anduril pisut kauem</string>
+    <string name="fingerprint_error_power_pressed">Kinnitamine lõppes. Puudutage järgmisel korral õrnalt.</string>
+</resources>

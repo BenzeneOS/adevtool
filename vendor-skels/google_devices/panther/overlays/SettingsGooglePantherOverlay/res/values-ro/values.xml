@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Parolă • Amprentă • Chip</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Model • Amprentă • Chip</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN • Amprentă • Chip</string>
+</resources>

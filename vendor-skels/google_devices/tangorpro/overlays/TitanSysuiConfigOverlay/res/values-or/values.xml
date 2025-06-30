@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">ଏକ ସ୍କ୍ରିନ ସେଭର ବାଛନ୍ତୁ ଏବଂ ଆପଣଙ୍କ ଟାବଲେଟକୁ ଡକ କରାଯାଇଥିବା ସମୟରେ ହେଣ୍ଡସ-ଫ୍ରି ସହାୟତାକୁ ଚାଲୁ କରନ୍ତୁ</string>
+    <string name="dock_setup_notification_title">ଡକ କରାଯାଇଥିବା ସମୟରେ ଆହୁରି ଅନେକ କିଛି କରନ୍ତୁ</string>
+    <string name="stylus_system_update_notification_text">ଆପଣଙ୍କ ଷ୍ଟାଇଲସରୁ ଅଧିକ ଲାଭ ପାଇବା ପାଇଁ, ନବୀନତମ Android ଅପଡେଟକୁ ଇନଷ୍ଟଲ କରନ୍ତୁ</string>
+    <string name="stylus_system_update_notification_title">Android ଅପଡେଟକୁ ଇନଷ୍ଟଲ କରନ୍ତୁ</string>
+</resources>

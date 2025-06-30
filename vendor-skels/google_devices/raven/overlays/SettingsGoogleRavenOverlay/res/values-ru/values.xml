@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Автоматически изменять частоту обновления экрана с 90 до 120 Гц для некоторых типов контента. При этом батарея разряжается быстрее.</string>
+</resources>

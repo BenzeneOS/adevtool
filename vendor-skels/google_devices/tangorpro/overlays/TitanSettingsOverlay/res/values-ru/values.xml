@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Режим домашнего центра</string>
+    <string name="dream_no_screen_saver_caption">Без заставки</string>
+    <string name="dream_no_screen_saver_description">Для экономии энергии экран будет отключаться после определенного периода бездействия</string>
+    <string name="dream_no_screen_saver_preview_caption">Экологичный</string>
+    <string name="dream_secondary_button_title">Пропустить</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Во время зарядки на док-станции</string>
+    <string name="screensaver_settings_summary_off">Любимые фотографии, изображения, часы и многое другое в режиме ожидания</string>
+    <string name="screensaver_settings_summary_postured_and_charging">В вертикальном положении на зарядке</string>
+    <string name="screensaver_settings_summary_sleep">Во время зарядки</string>
+    <string name="when_to_show_hubmode_charging">Во время зарядки</string>
+    <string name="when_to_show_hubmode_docked">На док-станции</string>
+    <string name="when_to_show_hubmode_never">Никогда</string>
+</resources>

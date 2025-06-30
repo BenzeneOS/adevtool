@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">ავტომატურად ზრდის განახლების სიხშირეს 60-დან და 120 ჰც-მდე, გარკვეული კონტენტისთვის. ზრდის ბატარეის მოხმარებას.</string>
+</resources>

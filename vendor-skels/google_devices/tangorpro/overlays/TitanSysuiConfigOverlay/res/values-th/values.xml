@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">เลือกภาพพักหน้าจอและเปิดใช้ความช่วยเหลือโดยไม่ต้องสัมผัสขณะวางแท็บเล็ตบนแท่นชาร์จ</string>
+    <string name="dock_setup_notification_title">ทำสิ่งต่างๆ ได้มากขึ้นขณะวางอยู่บนแท่นชาร์จ</string>
+    <string name="stylus_system_update_notification_text">ติดตั้งการอัปเดต Android ล่าสุดเพื่อใช้สไตลัสให้เกิดประโยชน์สูงสุด</string>
+    <string name="stylus_system_update_notification_title">ติดตั้งการอัปเดต Android</string>
+</resources>

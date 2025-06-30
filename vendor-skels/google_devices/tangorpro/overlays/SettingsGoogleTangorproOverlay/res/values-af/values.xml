@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Laaiklanke</string>
+    <string name="edge_to_edge_navigation_summary">Swiep vinnig op van onder af om na die tuisskerm toe te gaan. Swiep stadig op van onder af om toegang tot die Taakbalk te kry. Swiep op van onder af, hou, en los dan om apps te wissel. Swiep van die linker- of regterrand af om terug te gaan.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Skuif dié toestel nader aan jou Pixel Tablet en probeer weer.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Maak die oorfoonknoppieshouer oop, skuif dit nader aan jou Pixel Tablet, en probeer dan weer.</string>
+    <string name="sound_dashboard_summary">Volume</string>
+    <string name="sound_dashboard_summary_with_dnd">Volume, Moenie Steur Nie</string>
+    <string name="sound_settings">Klank</string>
+</resources>

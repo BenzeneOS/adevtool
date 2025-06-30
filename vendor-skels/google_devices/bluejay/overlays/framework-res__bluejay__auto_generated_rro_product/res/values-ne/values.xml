@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>आफ्नो औँला सार्नुहोस्। फेरि प्रयास गर्नुहोस्।</item>
+        <item>यो औँला फिंगरप्रिन्टका लागि दर्ता गरिसकिएको छ। अर्को औँला दर्ता गर्नुहोस्।</item>
+        <item>फोटोको गुणस्तर खराब छ। फेरि प्रयास गर्नुहोस्।</item>
+        <item/>
+        <item>फोटोको गुणस्तर खराब छ। फेरि प्रयास गर्नुहोस्।</item>
+        <item/>
+        <item/>
+        <item>स्क्रिनमा दाग लागेको छ र यो दाग हटाउन स्क्रिन सफा गर्नुहोस्। फेरि प्रयास गर्नुहोस्।</item>
+        <item>फोटो रिड गर्न सकिएन। फेरि प्रयास गर्नुहोस्।</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>डेटा खराब छ। फेरि प्रयास गर्नुहोस्।</item>
+        <item>यो औँला फिंगरप्रिन्टका लागि दर्ता गर्न सकिएन। फेरि प्रयास गर्नुहोस्।</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">फिंगरप्रिन्ट सेन्सर प्रयोग गर्न सकिएन। मर्मत केन्द्रमा जानुहोस् वा g.co/pixel/fingerprintunlock हेर्नुहोस्</string>
+    <string name="fingerprint_recalibrate_notification_content">मर्मत केन्द्रमा जानुहोस् वा g.co/pixel/fingerprintunlock हेर्नुहोस्</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">"Tria un estalvi de pantalla i activa l'ajuda amb mans lliures mentre la tauleta està acoblada"</string>
+    <string name="dock_setup_notification_title">Fes més coses mentre està acoblada</string>
+    <string name="stylus_system_update_notification_text">"Per treure el màxim profit del llapis òptic, instal·la la darrera actualització d'Android"</string>
+    <string name="stylus_system_update_notification_title">"Instal·la l'actualització d'Android"</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">વાઇ-ફાઇ</string>
+    <string name="non_carrier_data_usage">વાઇ-ફાઇ ડેટા વપરાશ</string>
+    <string name="tether_settings_title_all">ટિથરિંગ</string>
+    <string name="tethering_footer_info">USB, ઇથરનેટ અથવા બ્લૂટૂથ મારફતે અન્ય ડિવાઇસને ઇન્ટનેટ પ્રદાન કરવા માટે ઇન્ટરનેટ શેર કરવાની સુવિધાનો ઉપયોગ કરો.</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Түйүн режими</string>
+    <string name="dream_no_screen_saver_caption">Көшөгө тандалган жок</string>
+    <string name="dream_no_screen_saver_description">Электр кубатын үнөмдөө үчүн түзмөгүңүз колдонулбаганда экраны өчөт</string>
+    <string name="dream_no_screen_saver_preview_caption">Экологияга коопсуз</string>
+    <string name="dream_secondary_button_title">Өткөрүп жиберүү</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Туташып жана кубатталып жатканда</string>
+    <string name="screensaver_settings_summary_off">Күтүү режиминде сүйүктүү сүрөттөр, саат жана башка көптөгөн нерселер көрүнөт</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Өйдө карап жана кубатталып жатканда</string>
+    <string name="screensaver_settings_summary_sleep">Кубатталып жатканда</string>
+    <string name="when_to_show_hubmode_charging">Кубатталып жатканда</string>
+    <string name="when_to_show_hubmode_docked">Док-станцияда</string>
+    <string name="when_to_show_hubmode_never">Эч качан</string>
+</resources>

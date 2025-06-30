@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Oplaadgeluiden</string>
+    <string name="edge_to_edge_navigation_summary">Swipe snel omhoog vanaf de onderkant om naar het startscherm te gaan. Swipe langzaam omhoog vanaf de onderkant om de taakbalk te openen. Swipe omhoog vanaf de onderkant en houd je vinger even op het scherm om tussen apps te wisselen. Swipe vanaf de linker- of rechterrand om terug te gaan.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Plaats dit apparaat dichter bij je Pixel Tablet en probeer het opnieuw.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Open de case voor oordopjes, plaats deze dichter bij je Pixel Tablet en probeer het opnieuw.</string>
+    <string name="sound_dashboard_summary">Volume</string>
+    <string name="sound_dashboard_summary_with_dnd">Volume, Niet storen</string>
+    <string name="sound_settings">Geluid</string>
+</resources>

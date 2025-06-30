@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Liikuta sormeasi. Yritä uudelleen.</item>
+        <item>Sormenjälki on jo rekisteröity. Käytä eri sormea.</item>
+        <item>Huono kuvanlaatu. Yritä uudelleen.</item>
+        <item/>
+        <item>Huono kuvanlaatu. Yritä uudelleen.</item>
+        <item/>
+        <item/>
+        <item>Tahra havaittu, puhdista näyttö. Yritä uudelleen.</item>
+        <item>Kuvan luku epäonnistui. Yritä uudelleen.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Viallinen data. Yritä uudelleen.</item>
+        <item>Sormen rekisteröinti epäonnistui. Yritä uudelleen.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Sormenjälkitunnistinta ei voi käyttää. Ota yhteys korjauspalveluun tai käy osoitteessa g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Ota yhteys korjauspalveluun tai käy osoitteessa g.co/pixel/fingerprintunlock</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Tabletti käynnistyy…</string>
+    <string name="android_upgrading_title">Tablettia päivitetään…</string>
+    <string name="app_streaming_blocked_message">%1$s ei tällä hetkellä saa pääsyä sovellukseen. Kokeile striimausta tabletilla.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Sovellus pyytää lisäsuojausta. Kokeile striimausta tabletilla.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Sovellus pyytää lisälupia, mutta lupia ei voi myöntää striimatessa. Myönnä lupa ensin tabletilla.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">%1$s ei saa pääsyä sovellukseen. Kokeile striimausta tabletilla.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Tabletin asetukset eivät ole käytettävissä</string>
+    <string name="battery_saver_charged_notification_summary">Tabletissa on tarpeeksi virtaa. Ominaisuuksia ei enää rajoiteta.</string>
+    <string name="default_audio_route_name">Tabletti</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s haluaa ottaa Tutki koskettamalla -ominaisuuden käyttöön. Kun Tutki koskettamalla on käytössä, näet tai kuulet kuvauksen sormen alla olevista kohteista ja voit käyttää tablet-laitetta sormieleiden avulla.</string>
+    <string name="global_actions">Tablet-laitteen asetukset</string>
+    <string name="kg_failed_attempts_almost_at_login">"Piirsit lukituksenpoistokuvion väärin %1$d kertaa. Jos piirrät kuvion väärin vielä %2$d kertaa, sinua pyydetään poistamaan tablet-laitteesi lukitus sähköpostitilin avulla.
+
+ Yritä uudelleen %3$d sekunnin kuluttua."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Tablet-laitteen lukituksen poisto epäonnistui %1$d kertaa. Jos teet vielä %2$d epäonnistunutta yritystä, tablet-laitteeseen palautetaan tehdasasetukset ja kaikki käyttäjätiedot häviävät.</string>
+    <string name="kg_failed_attempts_now_wiping">Tablet-laitteen lukituksen poisto epäonnistui %d kertaa. Laitteeseen palautetaan nyt tehdasasetukset.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Tablet-laitteen lukituksen poisto epäonnistui %1$d kertaa. Jos teet vielä %2$d epäonnistunutta yritystä, tablet-laitteeseen palautetaan tehdasasetukset ja kaikki käyttäjätiedot häviävät.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Piirsit lukituksenpoistokuvion väärin %1$d kertaa. Jos piirrät kuvion väärin vielä %2$d kertaa, sinua pyydetään poistamaan tablet-laitteesi lukitus Google-sisäänkirjautumisen avulla.
+
+ Yritä uudelleen %3$d sekunnin kuluttua."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Tablet-laitteen lukituksen poisto epäonnistui %d kertaa. Laitteeseen palautetaan nyt tehdasasetukset.</string>
+    <string name="lockscreen_missing_sim_message">Tabletissa ei ole SIM-korttia.</string>
+    <string name="low_memory">Tablet-laitteen tallennustila on täynnä. Vapauta tilaa poistamalla tiedostoja.</string>
+    <string name="permdesc_bluetooth">Antaa sovelluksen tarkastella tablet-laitteen Bluetooth-asetuksia sekä muodostaa ja hyväksyä laitepariyhteyksiä.</string>
+    <string name="permdesc_bluetoothAdmin">Antaa sovelluksen määrittää paikallisen Bluetooth-tabletin asetukset sekä tunnistaa muita laitteita ja muodostaa niiden kanssa laitepareja.</string>
+    <string name="permdesc_broadcastSticky">Antaa sovelluksen lähettää pysyviä lähetyksiä, jotka säilyvät lähetyksen päätyttyä. Liiallinen käyttö voi tehdä tablet-laitteesta hitaan tai epävakaan kasvattamalla sen muistinkäyttöä liikaa.</string>
+    <string name="permdesc_changeWifiMulticastState">Antaa sovelluksen vastaanottaa kaikille laitteille, ei vain tablet-laitteellesi, Wi-Fi-verkon kautta monilähetystilassa lähetettyjä paketteja. Tämä käyttää enemmän virtaa kuin tavallinen lähetystila.</string>
+    <string name="permdesc_changeWimaxState">Antaa sovelluksen muodostaa tablet-laitteella yhteyden WiMAX-verkkoon ja katkaista yhteyden.</string>
+    <string name="permdesc_getAccounts">Antaa sovelluksen tarkastella tablet-laitteeseen tallennettuja tilejä. Näihin voivat kuulua myös asentamiesi sovelluksien luomat tilit.</string>
+    <string name="permdesc_persistentActivity">Antaa sovelluksen lisätä omia osiaan muistiin pysyvästi. Tämä voi rajoittaa muiden sovellusten käytettävissä olevaa muistia ja hidastaa tablet-laitteen toimintaa.</string>
+    <string name="permdesc_readCalendar">Tämä sovellus voi lukea kaikkia tabletille tallennettuja kalenteritapahtumia sekä jakaa tai tallentaa kalenteritietoja.</string>
+    <string name="permdesc_readContacts">Antaa sovelluksen lukea tabletille tallennettujen kontaktien tietoja. Sovellukset saavat myös pääsyn tablettisi tileille, joilla on luotu kontaktitietoja. Tilit voivat olla myös asentamiesi sovellusten luomia. Tämän luvan saaneet sovellukset voivat tallentaa kontaktitietoja. Haitalliset sovellukset voivat jakaa kontaktitietoja ilman lupaasi.</string>
+    <string name="permdesc_readSms">Tämä sovellus voi lukea kaikkia tabletillesi tallennettuja tekstiviestejä.</string>
+    <string name="permdesc_receiveBootCompleted">Antaa sovelluksen käynnistyä heti, kun laite on käynnistynyt. Tämä voi pidentää tablet-laitteen käynnistysaikaa ja hidastaa sen yleistä käyttöä sovelluksen ollessa aina käynnissä.</string>
+    <string name="permdesc_setTimeZone">Antaa sovelluksen muuttaa tablet-laitteen aikavyöhykettä.</string>
+    <string name="permdesc_transmitIr">Antaa sovelluksen käyttää tablet-laitteen infrapunalähetintä.</string>
+    <string name="permdesc_wakeLock">Antaa sovelluksen estää tablet-laitetta siirtymästä virransäästötilaan.</string>
+    <string name="permdesc_writeCalendar">Tämä sovellus voi lisätä, poistaa tai muuttaa tabletin kalenteritapahtumia. Sovellus voi lähettää viestejä, jotka näyttävät tulevan kalenterin omistajilta, tai muuttaa kalenteritapahtumia ilmoittamatta omistajille.</string>
+    <string name="permdesc_writeCallLog">Antaa sovelluksen muokata tablet-laitteesi puhelulokia, kuten tietoja vastatuista ja soitetuista puheluista. Haitalliset sovellukset voivat poistaa puhelulokisi tai muokata sitä.</string>
+    <string name="permdesc_writeContacts">Antaa sovelluksen muokata tabletille tallennettujen kontaktien tietoja. Käyttöluvan saaneet sovellukset voivat myös poistaa kontaktitietoja.</string>
+    <string name="permlab_wakeLock">estä tablet-laitetta menemästä virransäästötilaan</string>
+    <string name="policydesc_watchLogin">Valvoo väärien salasanojen lukumäärää näytön lukituksen poistossa sekä lukitsee tablet-laitteen tai poistaa sen tiedot, jos salasana syötetään väärin liian monta kertaa.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Valvo väärien salasanojen määrää ruudun lukitusta avattaessa ja lukitse tabletti tai poista kaikki tämän käyttäjän tiedot, jos salasana kirjoitetaan väärin liian monta kertaa.</string>
+    <string name="policydesc_wipeData">Tyhjentää tablet-laitteen tiedot varoituksetta palauttamalla tehdasasetukset.</string>
+    <string name="policydesc_wipeData_secondaryUser">Pyyhi tämän käyttäjän tiedot tabletista ilman varoitusta.</string>
+    <string name="power_dialog">Tablet-laitteen asetukset</string>
+    <string name="shutdown_confirm">Tablet-laitteesi sammutetaan.</string>
+    <string name="vdm_camera_access_denied">%1$s ei pääse tabletin kameraan</string>
+</resources>

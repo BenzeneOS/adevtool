@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Aumenta automáticamente la tasa de refresco de 60 Hz a 120 Hz en determinados tipos de contenido. Aumenta el uso de la batería.</string>
+</resources>

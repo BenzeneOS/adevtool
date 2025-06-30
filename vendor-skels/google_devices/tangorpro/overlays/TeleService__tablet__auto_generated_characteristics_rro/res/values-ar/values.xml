@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="phoneAppLabel">بيانات الجوال</string>
+    <string name="phone_info_label">معلومات الجهاز اللوحي</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">चार्ज गर्दा बज्ने साउन्ड</string>
+    <string name="edge_to_edge_navigation_summary">होम पेजमा जान तलबाट माथितिर द्रुत रूपमा स्वाइप गर्नुहोस्। टास्कबार प्रयोग गर्न तलबाट माथितिर बिस्तारै स्वाइप गर्नुहोस्। एपहरू बदल्न तलबाट माथितिर स्वाइप गर्नुहोस्, होल्ड गर्नुहोस् अनि छाड्नुहोस्। पछाडि जान स्क्रिनको बायाँ वा दायाँ कुनाबाट स्वाइप गर्नुहोस्।</string>
+    <string name="fast_pair_device_not_found_other_device_description">यो डिभाइस आफ्नो Pixel Tablet नजिकै लैजानुहोस् अनि फेरि प्रयास गर्नुहोस्।</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">इयरबडको केस खोल्नुहोस् र उक्त केस आफ्नो Pixel Tablet नजिकै लैजानुहोस् अनि फेरि प्रयास गर्नुहोस्।</string>
+    <string name="sound_dashboard_summary">भोल्युम</string>
+    <string name="sound_dashboard_summary_with_dnd">भोल्युम, Do Not Disturb</string>
+    <string name="sound_settings">साउन्ड</string>
+</resources>

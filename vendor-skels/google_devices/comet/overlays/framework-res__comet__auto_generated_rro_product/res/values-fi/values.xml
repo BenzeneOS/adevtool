@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">Varmista, että sormesi peittää tunnistimen</string>
+    <string name="fingerprint_acquired_power_press">Jatka käyttöönottoa koskettamalla tunnistinta</string>
+    <string name="fingerprint_acquired_too_fast">Pidä sormesi anturin päällä vielä hetki</string>
+    <string name="fingerprint_error_power_pressed">Vahvistus lopetettu. Kokeile koskettaa kevyesti ensi kerralla.</string>
+</resources>

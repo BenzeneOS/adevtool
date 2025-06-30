@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Veldu skjávara og kveiktu á handfrjálsri aðstoð á meðan spjaldtölvan er tengd við dokku</string>
+    <string name="dock_setup_notification_title">Gerðu meira á meðan spjaldtölvan er tengd við dokku</string>
+    <string name="stylus_system_update_notification_text">Settu upp nýjustu Android-uppfærsluna til að penninn nýtist þér sem best</string>
+    <string name="stylus_system_update_notification_title">Setja upp Android-uppfærslu</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Chuyển ngón tay. Hãy thử lại.</item>
+        <item>Ngón tay này đã đăng ký, hãy dùng một ngón khác.</item>
+        <item>Chất lượng ảnh kém. Hãy thử lại.</item>
+        <item/>
+        <item>Chất lượng ảnh kém. Hãy thử lại.</item>
+        <item/>
+        <item/>
+        <item>Phát hiện thấy vết bẩn, vệ sinh màn hình. Hãy thử lại.</item>
+        <item>Không đọc được hình ảnh. Hãy thử lại.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Dữ liệu bị lỗi. Hãy thử lại.</item>
+        <item>Không đăng ký được ngón tay. Hãy thử lại.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Không thể dùng cảm biến vân tay. Hãy liên hệ với một nhà cung cấp dịch vụ sửa chữa hoặc truy cập g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Hãy liên hệ với một nhà cung cấp dịch vụ sửa chữa hoặc truy cập g.co/pixel/fingerprintunlock</string>
+</resources>

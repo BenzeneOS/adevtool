@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Izberite ohranjevalnik zaslona in vklopite prostoročno pomoč, ko je tablični računalnik na nosilcu.</string>
+    <string name="dock_setup_notification_title">Naredite več, ko je na nosilcu</string>
+    <string name="stylus_system_update_notification_text">Namestite najnovejšo posodobitev za Android, da boste lahko pisalo kar najbolje izkoristili.</string>
+    <string name="stylus_system_update_notification_title">Namestite posodobitev za Android</string>
+</resources>

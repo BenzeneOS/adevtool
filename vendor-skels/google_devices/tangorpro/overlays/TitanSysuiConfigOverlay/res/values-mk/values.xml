@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Изберете штедач на екранот и вклучете ја помошта со интерфон додека таблетот е приклучен на док</string>
+    <string name="dock_setup_notification_title">Направете повеќе додека е приклучен на док</string>
+    <string name="stylus_system_update_notification_text">За да извлечете максимум од пенкалото, инсталирајте го најновото ажурирање за Android</string>
+    <string name="stylus_system_update_notification_title">Инсталирајте ажурирање за Android</string>
+</resources>

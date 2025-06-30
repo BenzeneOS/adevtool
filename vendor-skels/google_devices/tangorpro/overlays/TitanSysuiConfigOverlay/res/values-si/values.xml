@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">තිර සුරැකුමක් තෝරා ඔබේ ටැබ්ලටය ඈඳා ඇති අතරේ දෑත් නොයොදන උදවු ක්‍රියාත්මක කරන්න</string>
+    <string name="dock_setup_notification_title">ඈඳා ඇති අතරේ තවත් දේ කරන්න</string>
+    <string name="stylus_system_update_notification_text">ඔබේ පන්හිඳෙන් උපරිම ප්‍රයෝජන ගැනීම සඳහා, නවතම Android යාවත්කාලීනය ස්ථාපනය කරන්න</string>
+    <string name="stylus_system_update_notification_title">Android යාවත්කාලීනය ස්ථාපනය කරන්න</string>
+</resources>

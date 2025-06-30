@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">Pantalla dual no está disponible porque tu teléfono Pixel se está calentando demasiado</string>
+    <string name="fingerprint_acquired_partial">Asegúrate de que tu dedo cubre el sensor</string>
+    <string name="fingerprint_acquired_power_press">Para continuar, toca ligeramente el sensor</string>
+    <string name="fingerprint_acquired_too_fast">Mantén el dedo en el sensor un poco más</string>
+    <string name="fingerprint_error_power_pressed">La verificación ha terminado. Intenta tocar el sensor ligeramente la próxima vez.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Para voltar à página inicial, deslize de baixo para cima rapidamente. Para abrir a Barra de tarefas, deslize de baixo para cima devagar. Para trocar de app, deslize de baixo para cima, mantenha a tela pressionada e depois solte. Para voltar, deslize da borda esquerda ou direita da tela.</string>
+    <string name="setting_auto_rotate_folded">Girar automaticamente ao dobrar</string>
+    <string name="setting_auto_rotate_unfolded">Girar automaticamente ao abrir</string>
+</resources>

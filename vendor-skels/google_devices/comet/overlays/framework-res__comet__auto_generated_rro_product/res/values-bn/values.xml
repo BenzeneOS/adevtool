@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">আপনার আঙুল যেন সেন্সর কভার করে তা নিশ্চিত করুন</string>
+    <string name="fingerprint_acquired_power_press">সেট-আপ করা চালিয়ে যেতে, সেন্সর হালকা করে টাচ করুন</string>
+    <string name="fingerprint_acquired_too_fast">সেন্সরে আপনার আঙুল আরেকটু বেশিক্ষণ রাখুন</string>
+    <string name="fingerprint_error_power_pressed">যাচাইকরণ সম্পূর্ণ হয়েছে। পরের বার হালকা করে টাচ করার চেষ্টা করুন।</string>
+</resources>

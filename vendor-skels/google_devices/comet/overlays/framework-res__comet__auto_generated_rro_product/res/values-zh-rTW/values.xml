@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">請確認手指完全覆蓋在感應器上</string>
+    <string name="fingerprint_acquired_power_press">如要繼續設定，請輕輕觸碰感應器</string>
+    <string name="fingerprint_acquired_too_fast">請將手指放在感應器上久一點</string>
+    <string name="fingerprint_error_power_pressed">驗證作業已結束，下次請嘗試輕輕觸碰感應器。</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">સ્ક્રીન સેવર પસંદ કરો અને તમારું ટૅબ્લેટ ડૉક થયેલું હોય ત્યારે હાથના ઉપયોગ વિનાની સહાય ચાલુ કરો</string>
+    <string name="dock_setup_notification_title">ડૉક થયેલું હોય ત્યારે બીજું ઘણું કરો</string>
+    <string name="stylus_system_update_notification_text">તમારા સ્ટાઇલસનો સૌથી વધુ લાભ લેવા માટે, Androidની નવીનતમ અપડેટ ઇન્સ્ટૉલ કરો</string>
+    <string name="stylus_system_update_notification_title">Androidની અપડેટ ઇન્સ્ટૉલ કરો</string>
+</resources>

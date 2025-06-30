@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">चार्जिंग शुरू होने की आवाज़</string>
+    <string name="edge_to_edge_navigation_summary">होम स्क्रीन पर जाने के लिए, स्क्रीन पर नीचे से ऊपर की ओर फटाफट स्वाइप करें. टास्कबार को ऐक्सेस करने के लिए, स्क्रीन पर नीचे से ऊपर की ओर धीरे से स्वाइप करें. एक से दूसरे ऐप्लिकेशन पर जाने के लिए, स्क्रीन के सबसे निचले हिस्से से ऊपर की ओर स्वाइप करें, स्क्रीन को दबाकर रखें, और फिर छोड़ दें. वापस जाने के लिए, स्क्रीन के बाएं या दाएं किनारे से स्वाइप करें.</string>
+    <string name="fast_pair_device_not_found_other_device_description">इस डिवाइस को अपने Pixel Tablet के पास ले जाएं और फिर से कोशिश करें.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">ईयरबड केस खोलें और उसे Pixel Tablet के पास ले जाएं. इसके बाद, फिर से कोशिश करें.</string>
+    <string name="sound_dashboard_summary">वॉल्यूम</string>
+    <string name="sound_dashboard_summary_with_dnd">वॉल्यूम, परेशान न करें</string>
+    <string name="sound_settings">आवाज़</string>
+</resources>

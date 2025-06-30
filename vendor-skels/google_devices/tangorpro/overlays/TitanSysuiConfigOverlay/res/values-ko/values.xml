@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">태블릿이 도킹되어 있는 상태에서 화면 보호기를 선택하고 핸즈프리 지원을 사용 설정합니다.</string>
+    <string name="dock_setup_notification_title">도킹된 태블릿에서 더 많은 작업 처리</string>
+    <string name="stylus_system_update_notification_text">스타일러스를 최대한 활용하려면 최신 Android 업데이트를 설치하세요.</string>
+    <string name="stylus_system_update_notification_title">Android 업데이트 설치</string>
+</resources>

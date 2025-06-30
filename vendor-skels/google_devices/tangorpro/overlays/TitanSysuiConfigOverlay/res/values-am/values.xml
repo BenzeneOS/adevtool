@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">የእርስዎ ጡባዊ ተተክሎ ሳለ የማያ ገፅ ማቆያ ይምረጡ እና ነፃ እጅ እገዛን ያብሩ</string>
+    <string name="dock_setup_notification_title">ተተክሎ ሳለ ተጨማሪ ያድርጉ</string>
+    <string name="stylus_system_update_notification_text">ከእርስዎ ቅጥ፣ ጭነት እና የቅርብ ጊዜ የAndroid ዝማኔ የሚችሉትን በሙሉ ያግኙ</string>
+    <string name="stylus_system_update_notification_title">የAndroid ዝማኔን ይጫኑ</string>
+</resources>

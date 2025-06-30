@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">ඔබේ ඇඟිල්ල සංවේදකය ආවරණය කරන බවට වග බලා ගන්න</string>
+    <string name="fingerprint_acquired_power_press">පිහිටුවීම කරගෙන යාමට, සංවේදකය ලුහුව ස්පර්ශ කරන්න</string>
+    <string name="fingerprint_acquired_too_fast">ඔබේ ඇඟිල්ල සංවේදකය මත තව ටිකක් තබා ගන්න</string>
+    <string name="fingerprint_error_power_pressed">සත්‍යාපනය නිමා විය. මීළඟ වතාවේ සැහැල්ලුවෙන් ස්පර්ශ කිරීමට උත්සාහ කරන්න.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Գաղտնաբառ • Մատնահետք • Դեմք</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Նախշ • Մատնահետք • Դեմք</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN կոդ • Մատնահետք • Դեմք</string>
+</resources>

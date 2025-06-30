@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">စကားဝှက် • လက်ဗွေ • မျက်နှာ</string>
+    <string name="biometrics_unlock_set_unlock_pattern">ပုံစံ • လက်ဗွေ • မျက်နှာ</string>
+    <string name="biometrics_unlock_set_unlock_pin">ပင်နံပါတ် • လက်ဗွေ • မျက်နှာ</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wi-Fi</string>
+    <string name="non_carrier_data_usage">Wi-Fi 數據用量</string>
+    <string name="tether_settings_title_all">網絡共享</string>
+    <string name="tethering_footer_info">使用網絡共享功能，透過 USB、以太網絡或藍牙向其他裝置提供互聯網連線。</string>
+</resources>

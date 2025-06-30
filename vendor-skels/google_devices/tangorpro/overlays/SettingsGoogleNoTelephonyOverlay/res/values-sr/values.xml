@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">WiFi</string>
+    <string name="non_carrier_data_usage">Потрошња WiFi података</string>
+    <string name="tether_settings_title_all">Привезивање</string>
+    <string name="tethering_footer_info">Користите привезивање да бисте пружили интернет другим уређајима преко USB-а, етернета или Bluetooth-а.</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Hub mód</string>
+    <string name="dream_no_screen_saver_caption">Nincs képernyőkímélő</string>
+    <string name="dream_no_screen_saver_description">Energiamegtakarítási célból a kijelző kikapcsol inaktivitás esetén</string>
+    <string name="dream_no_screen_saver_preview_caption">Környezetbarát</string>
+    <string name="dream_secondary_button_title">Kihagyás</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Dokkolva, töltés közben</string>
+    <string name="screensaver_settings_summary_off">Kedvenc fotók, műalkotások, órák és egyebek megjelenítése tétlen állapotban</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Álló helyzetben, töltés közben</string>
+    <string name="screensaver_settings_summary_sleep">Töltés közben</string>
+    <string name="when_to_show_hubmode_charging">Töltés közben</string>
+    <string name="when_to_show_hubmode_docked">Dokkolt állapotban</string>
+    <string name="when_to_show_hubmode_never">Soha</string>
+</resources>

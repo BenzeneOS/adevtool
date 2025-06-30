@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Режим Hub</string>
+    <string name="dream_no_screen_saver_caption">Нема штедач на екран</string>
+    <string name="dream_no_screen_saver_description">За да заштеди енергија, екранот ќе се исклучи по неактивност</string>
+    <string name="dream_no_screen_saver_preview_caption">Еколошки</string>
+    <string name="dream_secondary_button_title">Прескокни</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Кога е приклучен на док и се полни</string>
+    <string name="screensaver_settings_summary_off">Прикажувај омилени фотографии, уметнички дела, часовници и друго кога уредот е во мирување</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Додека е исправен и се полни</string>
+    <string name="screensaver_settings_summary_sleep">Додека се полни</string>
+    <string name="when_to_show_hubmode_charging">Додека се полни</string>
+    <string name="when_to_show_hubmode_docked">Додека е приклучен на док</string>
+    <string name="when_to_show_hubmode_never">Никогаш</string>
+</resources>

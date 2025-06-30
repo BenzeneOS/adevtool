@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Modalità Hub</string>
+    <string name="dream_no_screen_saver_caption">Nessun salvaschermo</string>
+    <string name="dream_no_screen_saver_description">Per risparmiare energia, lo schermo viene disattivato dopo un periodo di inattività</string>
+    <string name="dream_no_screen_saver_preview_caption">"Attenzione all'ambiente"</string>
+    <string name="dream_secondary_button_title">Salta</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Agganciato alla base e in carica</string>
+    <string name="screensaver_settings_summary_off">"Quando è inattivo, mostra le foto, le opere d'arte e gli orologi che preferisci e altro ancora"</string>
+    <string name="screensaver_settings_summary_postured_and_charging">In verticale e in carica</string>
+    <string name="screensaver_settings_summary_sleep">Durante la ricarica</string>
+    <string name="when_to_show_hubmode_charging">Durante la ricarica</string>
+    <string name="when_to_show_hubmode_docked">Quando agganciato alla base</string>
+    <string name="when_to_show_hubmode_never">Mai</string>
+</resources>

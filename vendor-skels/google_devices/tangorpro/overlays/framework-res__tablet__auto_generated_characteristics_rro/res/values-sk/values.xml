@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Tablet sa spúšťa…</string>
+    <string name="android_upgrading_title">Tablet sa aktualizuje…</string>
+    <string name="app_streaming_blocked_message">V zariadení %1$s momentálne nemáte k tomuto obsahu prístup. Skúste namiesto toho použiť tablet.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Táto aplikácia požaduje dodatočné zabezpečenie. Skúste namiesto toho použiť tablet.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Táto aplikácia požaduje ďalšie povolenia, ale povolenia nie je možné udeliť v relácii streamovania. Najprv udeľte povolenie v tablete.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">V zariadení %1$s momentálne nemáte prístup k tomuto obsahu. Skúste namiesto toho použiť tablet.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Nastavenia tabletu nie sú k dispozícii</string>
+    <string name="battery_saver_charged_notification_summary">Tablet je dostatočne nabitý. Funkcie už nie sú obmedzené.</string>
+    <string name="default_audio_route_name">Tablet</string>
+    <string name="enable_explore_by_touch_warning_message">Služba %1$s požaduje povolenie funkcie Preskúmanie dotykom. Ak je funkcia Preskúmanie dotykom zapnutá, môžete počuť alebo vidieť popisy objektov pod vaším prstom alebo ovládať tablet gestami.</string>
+    <string name="global_actions">Možnosti tabletu</string>
+    <string name="kg_failed_attempts_almost_at_login">"%1$d-krát ste nesprávne nakreslili svoj bezpečnostný vzor. Po ďalších %2$d neúspešných pokusoch sa zobrazí výzva na odomknutie tabletu pomocou e-mailového účtu.
+
+ Skúste to znova o %3$d s."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Tablet ste sa pokúsili odomknúť nesprávnym spôsobom %1$d-krát. Po %2$d ďalších neúspešných pokusoch sa v tablete obnovia predvolené výrobné nastavenia a všetky používateľské údaje budú stratené.</string>
+    <string name="kg_failed_attempts_now_wiping">Tablet ste sa pokúsili odomknúť nesprávnym spôsobom %d-krát. V tablete sa teraz obnovia predvolené výrobné nastavenia.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Tablet ste sa pokúsili odomknúť nesprávnym spôsobom %1$d-krát. Po %2$d ďalších neúspešných pokusoch sa v tablete obnovia predvolené výrobné nastavenia a všetky používateľské údaje budú stratené.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"%1$d-krát ste nesprávne nakreslili svoj bezpečnostný vzor. Po ďalších neúspešných pokusoch (%2$d) budete vyzvaní odomknúť tablet pomocou prihlasovacích údajov služby Google.
+
+ Skúste to znova o %3$d s."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Tablet ste sa pokúsili odomknúť nesprávnym spôsobom %d-krát. V tablete sa teraz obnovia predvolené výrobné nastavenia.</string>
+    <string name="lockscreen_missing_sim_message">V tablete nie je SIM karta.</string>
+    <string name="low_memory">Ukladací priestor tabletu je plný. Odstráňte niektoré súbory a uvoľnite miesto.</string>
+    <string name="permdesc_bluetooth">Umožňuje aplikácii zobraziť informácie o konfigurácii Bluetooth na tablete. Taktiež jej umožňuje nadväzovať a akceptovať spojenia so spárovanými zariadeniami.</string>
+    <string name="permdesc_bluetoothAdmin">Umožňuje aplikácii konfigurovať miestny tablet s rozhraním Bluetooth a vyhľadávať a spárovať vzdialené zariadenia.</string>
+    <string name="permdesc_broadcastSticky">Umožňuje aplikácii odosielať trvalé vysielania, ktoré pretrvávajú aj po skončení vysielania. Nadmerné používanie môže tablet spomaliť alebo spôsobiť jeho nestabilitu, pretože bude používať príliš veľa pamäte.</string>
+    <string name="permdesc_changeWifiMulticastState">Umožňuje aplikácii prijímať pakety odoslané na všetky zariadenia v sieti Wi‑Fi pomocou viacsmerových adries, nielen pomocou vášho tabletu. Spotrebuje viac energie ako režim bez viacsmerového vysielania.</string>
+    <string name="permdesc_changeWimaxState">Umožňuje aplikácii pripojiť tablet k sieťam WiMAX a odpojiť ho od nich.</string>
+    <string name="permdesc_getAccounts">Umožňuje aplikácii získať zoznam účtov v tablete. Môžu sem patriť akékoľvek účty vytvorené aplikáciami, ktoré ste nainštalovali.</string>
+    <string name="permdesc_persistentActivity">Umožňuje aplikácii uložiť niektoré svoje časti natrvalo do pamäte. Môže to obmedziť pamäť dostupnú pre ostatné aplikácie a spomaliť tak tablet.</string>
+    <string name="permdesc_readCalendar">Táto aplikácia môže čítať všetky udalosti kalendára uložené vo vašom tablete a zdieľať alebo ukladať dáta kalendára.</string>
+    <string name="permdesc_readContacts">Umožňuje aplikácii čítať údaje o kontaktoch uložených v tablete. Aplikácie budú mať tiež prístup k účtom v tablete, ktoré vytvorili kontakty. Môže ísť o účty vytvorené aplikáciami, ktoré ste nainštalovali. Toto povolenie umožňuje aplikáciám ukladať údaje o kontaktoch. Škodlivé aplikácie môžu zdieľať údaje o kontaktoch bez vášho vedomia.</string>
+    <string name="permdesc_readSms">Táto aplikácia môže čítať všetky textové správy (SMS) uložené vo vašom tablete.</string>
+    <string name="permdesc_receiveBootCompleted">Umožňuje aplikácii spustiť sa hneď po spustení systému. Toto nastavenie môže spomaliť spustenie tabletu a tiež jeho celkový výkon, pretože aplikácia bude neustále spustená.</string>
+    <string name="permdesc_setTimeZone">Umožňuje aplikácii zmeniť časové pásmo tabletu.</string>
+    <string name="permdesc_transmitIr">Umožňuje aplikácii používať infračervený vysielač tabletu.</string>
+    <string name="permdesc_wakeLock">Umožňuje aplikácii zabrániť prechodu tabletu do režimu spánku.</string>
+    <string name="permdesc_writeCalendar">Táto aplikácia môže pridávať, odstraňovať alebo meniť udalosti kalendára vo vašom tablete. Táto aplikácia môže odosielať správy od vlastníkov kalendára alebo meniť udalosti bez upozornenia ich vlastníkov.</string>
+    <string name="permdesc_writeCallLog">Umožňuje aplikácii upravovať denník hovorov vo vašom tablete vrátane údajov o prichádzajúcich a odchádzajúcich hovoroch. Škodlivé aplikácie to môžu zneužiť na vymazanie alebo úpravu vášho denníka hovorov.</string>
+    <string name="permdesc_writeContacts">Umožňuje aplikácii upraviť údaje o kontaktoch uložených v tablete. Toto povolenie umožňuje aplikáciám odstraňovať údaje o kontaktoch.</string>
+    <string name="permlab_wakeLock">zabránenie prechodu tabletu do režimu spánku</string>
+    <string name="policydesc_watchLogin">Sledovať počet nesprávnych hesiel zadaných pri odomykaní obrazovky a zamknúť tablet alebo vymazať všetky údaje tabletu v prípade príliš veľkého počtu neplatných pokusov o zadanie hesla.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Sledujte počet nesprávnych hesiel zadaných pri odomykaní obrazovky a v prípade, že ich je zadaných príliš mnoho, uzamknite tablet alebo vymažte všetky údaje tohto používateľa.</string>
+    <string name="policydesc_wipeData">Bez predchádzajúceho upozornenia vymazať všetky dáta obnovením výrobných nastavení tabletu.</string>
+    <string name="policydesc_wipeData_secondaryUser">Vymažte bez upozornenia údaje tohto používateľa na tomto tablete.</string>
+    <string name="power_dialog">Možnosti tabletu</string>
+    <string name="shutdown_confirm">Váš tablet bude vypnutý.</string>
+    <string name="vdm_camera_access_denied">V zariadení %1$s nemáte prístup ku kamere tabletu</string>
+</resources>

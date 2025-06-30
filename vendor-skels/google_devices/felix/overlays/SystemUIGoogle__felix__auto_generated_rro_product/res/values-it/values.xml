@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_dialog_touch_sensor">Tocca delicatamente il sensore di impronte digitali</string>
+    <string name="settingslib_learn_more_text">"Scopri di più sullo sblocco con l'impronta"</string>
+</resources>

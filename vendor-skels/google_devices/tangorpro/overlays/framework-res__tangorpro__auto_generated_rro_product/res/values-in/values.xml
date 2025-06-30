@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Pastikan jari menutupi sensor</string>
+    <string name="fingerprint_acquired_power_press">Untuk melanjutkan penyiapan, sentuh lembut sensor</string>
+    <string name="fingerprint_acquired_too_fast">Biarkan jari di sensor lebih lama</string>
+    <string name="fingerprint_error_power_pressed">Verifikasi berakhir. Selanjutnya, coba sentuh dengan lembut.</string>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">"Augmente automatiquement la fréquence d'actualisation de 60 Hz à 120 Hz pour certains contenus. Ce paramètre sollicite davantage la pile de l'appareil."</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">మీ వేలు సెన్సార్‌ను కవర్ చేస్తోందని నిర్ధారించుకోండి</string>
+    <string name="fingerprint_acquired_power_press">సెటప్ కొనసాగడానికి, సెన్సార్‌ను లైట్‌గా టచ్ చేయండి</string>
+    <string name="fingerprint_acquired_too_fast">సెన్సార్‌పై మీ వేలిని కొంచెం ఎక్కువసేపు ఉంచండి</string>
+    <string name="fingerprint_error_power_pressed">వెరిఫికేషన్ ముగిసింది. తర్వాతిసారి సున్నితంగా తాకడానికి ట్రై చేయండి.</string>
+</resources>

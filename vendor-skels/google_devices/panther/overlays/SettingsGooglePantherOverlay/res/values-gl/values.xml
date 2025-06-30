@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Contrasinal • Impresión dixital • Cara</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Padrón • Impresión dixital • Cara</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN • Impresión dixital • Cara</string>
+</resources>

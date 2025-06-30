@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Lyd ved opladning</string>
+    <string name="edge_to_edge_navigation_summary">Gå til startskærmen ved at stryge hurtigt opad fra bunden. Få adgang til proceslinjen ved at stryge langsomt opad fra bunden. Skift mellem apps ved at stryge opad fra bunden, holde fingeren nede og derefter give slip. Gå tilbage ved at stryge fra venstre eller højre kant.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Ryk denne enhed tættere på din Pixel Tablet, og prøv igen.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Åbn etuiet til øretelefonerne, ryk det tættere på din Pixel Tablet, og prøv igen.</string>
+    <string name="sound_dashboard_summary">Lydstyrke</string>
+    <string name="sound_dashboard_summary_with_dnd">Lydstyrke, Forstyr ikke</string>
+    <string name="sound_settings">Lyd</string>
+</resources>

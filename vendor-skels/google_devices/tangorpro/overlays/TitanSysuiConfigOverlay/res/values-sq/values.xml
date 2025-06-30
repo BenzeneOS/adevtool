@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Zgjidh një mbrojtës ekrani dhe aktivizo ndihmën pa përdorur duart kur tableti yt është i lidhur me stacionin</string>
+    <string name="dock_setup_notification_title">Bëj më shumë gjatë lidhjes me stacionin</string>
+    <string name="stylus_system_update_notification_text">Për të marrë përvojën më të mirë nga stilolapsi, instalo përditësimin më të fundit të Android</string>
+    <string name="stylus_system_update_notification_title">Instalo përditësimin e Android</string>
+</resources>

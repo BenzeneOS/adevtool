@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">基座接入模式</string>
+    <string name="dream_no_screen_saver_caption">未选择屏保</string>
+    <string name="dream_no_screen_saver_description">为了节约能源，您的显示屏将在闲置后关闭</string>
+    <string name="dream_no_screen_saver_preview_caption">环保</string>
+    <string name="dream_secondary_button_title">跳过</string>
+    <string name="screensaver_settings_summary_dock_and_charging">插入基座充电时</string>
+    <string name="screensaver_settings_summary_off">闲置时显示收藏的照片、艺术作品、时钟等</string>
+    <string name="screensaver_settings_summary_postured_and_charging">直立充电时</string>
+    <string name="screensaver_settings_summary_sleep">充电时</string>
+    <string name="when_to_show_hubmode_charging">充电时</string>
+    <string name="when_to_show_hubmode_docked">插入基座时</string>
+    <string name="when_to_show_hubmode_never">永不</string>
+</resources>

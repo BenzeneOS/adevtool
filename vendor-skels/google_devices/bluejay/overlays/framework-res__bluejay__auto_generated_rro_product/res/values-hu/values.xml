@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Mozgassa ujját. Próbálja újra.</item>
+        <item>Az ujj már regisztrálva van, próbálkozzon egy másik ujjával.</item>
+        <item>Gyenge minőségű a kép. Próbálja újra.</item>
+        <item/>
+        <item>Gyenge minőségű a kép. Próbálja újra.</item>
+        <item/>
+        <item/>
+        <item>Szennyeződés a képernyőn, tisztítsa meg. Próbálja újra.</item>
+        <item>Hiba történt a kép beolvasása során. Próbálja újra.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Hibás adatok. Próbálja újra.</item>
+        <item>Nem sikerült regisztrálni az ujjat. Próbálja újra.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Nem lehet használni az ujjlenyomat-érzékelőt. Keresse fel a szervizt vagy a g.co/pixel/fingerprintunlock oldalt.</string>
+    <string name="fingerprint_recalibrate_notification_content">Keresse fel a szervizt vagy a g.co/pixel/fingerprintunlock oldalt</string>
+</resources>

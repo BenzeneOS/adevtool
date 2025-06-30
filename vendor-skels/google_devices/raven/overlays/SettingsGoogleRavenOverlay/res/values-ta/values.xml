@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">சில உள்ளடக்கங்களுக்குப் புதுப்பிக்கும் விகிதத்தை 60ல் இருந்து 120 Hzக்குத் தானாகவே உயர்த்தும். பேட்டரி உபயோகத்தை அதிகரிக்கும்.</string>
+</resources>

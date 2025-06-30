@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Adgangskode • Fingeraftryk • Ansigt</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Mønster • Fingeraftryk • Ansigt</string>
+    <string name="biometrics_unlock_set_unlock_pin">Pinkode • Fingeraftryk • Ansigt</string>
+</resources>

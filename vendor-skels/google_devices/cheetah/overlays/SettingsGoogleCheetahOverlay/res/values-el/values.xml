@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Κωδικός πρόσβασης • Δακτ. αποτύπωμα • Πρόσωπο</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Μοτίβο • Δακτυλικό αποτύπωμα • Πρόσωπο</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN • Δακτυλικό αποτύπωμα • Πρόσωπο</string>
+</resources>

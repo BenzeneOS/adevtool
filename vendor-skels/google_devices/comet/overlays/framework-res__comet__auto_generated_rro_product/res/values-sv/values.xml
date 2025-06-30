@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">Se till att fingret täcker sensorn</string>
+    <string name="fingerprint_acquired_power_press">Nudda sensorn för att fortsätta konfigureringen</string>
+    <string name="fingerprint_acquired_too_fast">Håll kvar fingret på sensorn lite längre</string>
+    <string name="fingerprint_error_power_pressed">Verifieringen avslutades. Testa att nudda nästa gång.</string>
+</resources>

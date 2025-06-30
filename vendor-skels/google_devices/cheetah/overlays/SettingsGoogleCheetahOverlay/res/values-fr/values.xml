@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Mot de passe • Empreinte digitale • Visage</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Schéma • Empreinte digitale • Visage</string>
+    <string name="biometrics_unlock_set_unlock_pin">Code • Empreinte digitale • Visage</string>
+</resources>

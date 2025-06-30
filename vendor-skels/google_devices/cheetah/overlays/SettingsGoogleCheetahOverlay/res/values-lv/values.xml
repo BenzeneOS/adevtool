@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Parole • Pirksta nospiedums • Seja</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Kombinācija • Pirksta nospiedums • Seja</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN • Pirksta nospiedums • Seja</string>
+</resources>

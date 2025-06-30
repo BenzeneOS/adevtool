@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Şarj səsləri</string>
+    <string name="edge_to_edge_navigation_summary">Ana səhifəyə keçmək üçün aşağıdan sürətlə yuxarı sürüşdürün. İşləmə panelinə daxil olmaq üçün aşağıdan astaca yuxarı sürüşdürün. Tətbiqləri dəyişmək üçün aşağıdan yuxarı sürüşdürüb saxlayın və buraxın. Geri qayıtmaq üçün sol və ya sağ kənardan sürüşdürün.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Bu cihazı Pixel Tabletə yaxınlaşdırıb, yenidən cəhd edin.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Qulaqlıq qutusunu açıb, Pixel Tabletə yaxınlaşdırmaqla yenidən cəhd edin.</string>
+    <string name="sound_dashboard_summary">Səs</string>
+    <string name="sound_dashboard_summary_with_dnd">Səs, Narahat etməyin</string>
+    <string name="sound_settings">Səs</string>
+</resources>

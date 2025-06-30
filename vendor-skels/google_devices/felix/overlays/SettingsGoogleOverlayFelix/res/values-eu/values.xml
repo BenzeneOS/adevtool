@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Orri nagusira joateko, pasatu hatza azkar pantailaren behealdetik gora. Zereginen barra atzitzeko, pasatu hatza mantso pantailaren behealdetik gora. Aplikazioz aldatzeko, pasatu hatza pantailaren behealdetik gora eta eduki ezazu sakatuta une batez, altxatu aurretik. Atzera egiteko, pasatu hatza ezkerreko edo eskuineko ertzetik.</string>
+    <string name="setting_auto_rotate_folded">Biratu automatikoki gailua tolestuta dagoenean</string>
+    <string name="setting_auto_rotate_unfolded">Biratu automatikoki gailua luzatuta dagoenean</string>
+</resources>

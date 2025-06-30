@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Tablet se pokreće…</string>
+    <string name="android_upgrading_title">Tablet se ažurira…</string>
+    <string name="app_streaming_blocked_message">Trenutačno toj aplikaciji nije moguće pristupiti na vašem uređaju %1$s. Pokušajte joj pristupiti na tabletu.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Ta aplikacija zahtijeva dodatnu sigurnost. Pokušajte joj pristupiti na tabletu.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Aplikacija zahtijeva dodatna dopuštenja, no dopuštenja se ne mogu odobriti u sesiji streaminga. Dopuštenje najprije odobrite na tabletu.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Toj aplikaciji nije moguće pristupiti na vašem uređaju %1$s. Pokušajte joj pristupiti na tabletu.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Postavke tableta nisu dostupne</string>
+    <string name="battery_saver_charged_notification_summary">Baterija tableta dovoljno je napunjena. Značajke više nisu ograničene.</string>
+    <string name="default_audio_route_name">Tabletno računalo</string>
+    <string name="enable_explore_by_touch_warning_message">Usluga %1$s želi omogućiti značajku Istraživanje dodirom. Kad je značajka Istraživanje dodirom uključena, možete čuti ili vidjeti opise onoga što je pod vašim prstom ili izvršiti pokrete za interakciju s tabletnim računalom.</string>
+    <string name="global_actions">Opcije tabletnog uređaja</string>
+    <string name="kg_failed_attempts_almost_at_login">"Netočno ste iscrtali obrazac za otključavanje %1$d puta. Nakon još ovoliko neuspješnih pokušaja: %2$d morat ćete otključati tabletno računalo pomoću računa e-pošte.
+
+ Pokušajte ponovo za %3$d s."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Netočno ste pokušali otključati tabletno računalo %1$d puta. Ono će se vratiti na tvorničke postavke i svi korisnički podaci bit će izgubljeni nakon još ovoliko neuspjelih pokušaja: %2$d.</string>
+    <string name="kg_failed_attempts_now_wiping">Netočno ste pokušali otključati tabletno računalo %d puta. Sada će se vratiti na tvorničke postavke.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Neispravno ste pokušali otključati tabletno računalo ovoliko puta: %1$d. Ono će se vratiti na tvorničke postavke i svi korisnički podaci bit će izgubljeni nakon još ovoliko neuspjelih pokušaja: %2$d.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Netočno ste iscrtali uzorak za otključavanje %1$d puta. Nakon još ovoliko neuspješnih pokušaja: %2$d zamolit ćemo vas da otključate tabletno računalo putem prijave na Google.
+
+ Pokušajte ponovo za %3$d s."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Neispravno ste pokušali otključati tabletno računalo ovoliko puta: %d. Sada će biti vraćeno na tvorničke postavke.</string>
+    <string name="lockscreen_missing_sim_message">U tabletu nema SIM-a.</string>
+    <string name="low_memory">Prostor za pohranu tabletnog računala pun je. Izbrišite nekoliko datoteka kako biste oslobodili prostor.</string>
+    <string name="permdesc_bluetooth">Aplikaciji omogućuje pregled konfiguracije Bluetootha na tabletnom računalu te uspostavljanje i prihvaćanje veza s uparenim uređajima.</string>
+    <string name="permdesc_bluetoothAdmin">Aplikaciji omogućuje konfiguraciju lokalnog tabletnog računala s Bluetoothom te otkrivanje i uparivanje s udaljenim  uređajima.</string>
+    <string name="permdesc_broadcastSticky">"Aplikaciji omogućuje slanje \"ljepljivih\" emitiranja koja se zadržavaju nakon završetka emitiranja. Prekomjerna upotreba može usporiti tabletno računalo ili ga učiniti nestabilnim uzrokujući pretjeranu upotrebu memorije."</string>
+    <string name="permdesc_changeWifiMulticastState">Aplikaciji omogućuje primanje paketa poslanih na sve uređaje na Wi-Fi mreži putem adresa za višesmjerno slanje, ne samo na vaše tabletno računalo. Potrošnja struje veća je nego u načinu bez višesmjernog slanja.</string>
+    <string name="permdesc_changeWimaxState">Aplikaciji omogućuje povezivanje tabletnog računala s WiMAX mrežama i prekidanje veze tabletnog računala s njima.</string>
+    <string name="permdesc_getAccounts">Aplikaciji omogućuje dobivanje popisa računa koje tabletno računalo poznaje. Uključeni mogu biti svi računi koje izrade aplikacije koje ste instalirali.</string>
+    <string name="permdesc_persistentActivity">Aplikaciji omogućuje trajnu prisutnost nekih njenih dijelova u memoriji. To može ograničiti dostupnost memorije drugim aplikacijama i usporiti tabletno računalo.</string>
+    <string name="permdesc_readCalendar">Aplikacija može čitati sve kalendarske događaje pohranjene na tabletu i dijeliti ili spremati podatke iz vašeg kalendara.</string>
+    <string name="permdesc_readContacts">Aplikaciji omogućuje čitanje podataka o vašim kontaktima pohranjenim na vašem tabletu. Aplikacije će također imati pristup računima na vašem tabletu na kojima su izrađeni kontakti. To može uključivati račune izrađene u aplikacijama koje ste instalirali. To dopuštenje omogućuje aplikacijama spremanje podataka o kontaktima, a zlonamjerne aplikacije mogu dijeliti podatke o kontaktima bez vašeg znanja.</string>
+    <string name="permdesc_readSms">Aplikacija može čitati sve SMS-ove (tekstne poruke) pohranjene na tabletu.</string>
+    <string name="permdesc_receiveBootCompleted">Omogućuje aplikaciji da se sama pokrene čim sustav završi s pokretanjem. To može produljiti pokretanje tabletnog računala i omogućiti aplikaciji da općenito uspori tabletno računalo svojim neprekidnim izvršavanjem.</string>
+    <string name="permdesc_setTimeZone">Aplikaciji omogućuje promjenu vremenske zone na tabletnom računalu.</string>
+    <string name="permdesc_transmitIr">Aplikaciji omogućuje upotrebu infracrvenog odašiljača tableta.</string>
+    <string name="permdesc_wakeLock">Aplikaciji omogućuje sprječavanje prelaska tabletnog računala u mirovanje.</string>
+    <string name="permdesc_writeCalendar">Aplikacija može dodavati, uklanjati ili mijenjati kalendarske događaje na tabletu. Može slati poruke koje izgledaju kao da ih je poslao vlasnik kalendara ili mijenjati događaje bez znanja vlasnika.</string>
+    <string name="permdesc_writeCallLog">Aplikaciji omogućuje izmjenu dnevnika poziva vašeg tabletnog računala zajedno s podacima o dolaznim i odlaznim pozivima. Zlonamjerne aplikacije to mogu upotrebljavati za brisanje ili izmjenu vašeg dnevnika poziva.</string>
+    <string name="permdesc_writeContacts">Aplikaciji omogućuje izmjenu podataka o vašim kontaktima pohranjenim na vašem tabletu. To dopuštenje aplikacijama omogućuje da brišu podatke o kontaktima.</string>
+    <string name="permlab_wakeLock">spriječi mirovanje tabletnog uređaja</string>
+    <string name="policydesc_watchLogin">Nadzire se broj netočnih zaporki unesenih pri otključavanju zaslona, a tablet se zaključava ili se s njega brišu svi podaci ako je uneseno previše netočnih zaporki.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Prati broj netočnih zaporki unesenih prilikom otključavanja zaslona i zaključava tablet ili briše sve podatke korisnika ako se unese previše netočnih zaporki.</string>
+    <string name="policydesc_wipeData">Vraćanjem na tvorničke postavke brišu se podaci tableta bez upozorenja.</string>
+    <string name="policydesc_wipeData_secondaryUser">Briše podatke korisnika na ovom tabletu bez upozorenja.</string>
+    <string name="power_dialog">Opcije tabletnog uređaja</string>
+    <string name="shutdown_confirm">Vaš tabletni uređaj će se isključiti.</string>
+    <string name="vdm_camera_access_denied">S vašeg uređaja %1$s nije moguće pristupiti fotoaparatu tableta</string>
+</resources>

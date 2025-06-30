@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">ਕੋਈ ਸਕ੍ਰੀਨ ਸੇਵਰ ਚੁਣੋ ਅਤੇ ਆਪਣਾ ਟੈਬਲੈੱਟ ਡੌਕ ਹੋਣ ਦੌਰਾਨ ਹੱਥ-ਰਹਿਤ ਮਦਦ ਚਾਲੂ ਕਰੋ</string>
+    <string name="dock_setup_notification_title">ਡੌਕ ਹੋਣ ਦੌਰਾਨ ਹੋਰ ਲਾਹਾ ਲਓ</string>
+    <string name="stylus_system_update_notification_text">ਆਪਣੇ ਸਟਾਈਲਸ ਦਾ ਵੱਧ ਤੋਂ ਵੱਧ ਲਾਹਾ ਲੈਣ ਲਈ, ਨਵੀਨਤਮ Android ਅੱਪਡੇਟ ਸਥਾਪਤ ਕਰੋ</string>
+    <string name="stylus_system_update_notification_title">Android ਅੱਪਡੇਟ ਸਥਾਪਤ ਕਰੋ</string>
+</resources>

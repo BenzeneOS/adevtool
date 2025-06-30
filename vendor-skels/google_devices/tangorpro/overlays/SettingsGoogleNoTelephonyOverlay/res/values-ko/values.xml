@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wi-Fi</string>
+    <string name="non_carrier_data_usage">Wi-Fi 데이터 사용량</string>
+    <string name="tether_settings_title_all">테더링</string>
+    <string name="tethering_footer_info">테더링을 사용하여 USB, 이더넷 또는 블루투스를 통해 다른 기기에 인터넷을 제공합니다.</string>
+</resources>

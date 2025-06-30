@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Néhány tartalomnál automatikusan megemeli a frissítés gyakoriságát 60-ról maximum 120 Hz-re. Növeli az akkumulátorhasználatot.</string>
+</resources>

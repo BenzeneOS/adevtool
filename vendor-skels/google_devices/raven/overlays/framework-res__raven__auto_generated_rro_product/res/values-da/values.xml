@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Flyt din finger. Prøv igen.</item>
+        <item>Fingeren er allerede registreret. Brug en anden finger.</item>
+        <item>Dårlig billedkvalitet. Prøv igen.</item>
+        <item/>
+        <item>Dårlig billedkvalitet. Prøv igen.</item>
+        <item/>
+        <item/>
+        <item>Der er registreret en plet. Gør skærmen ren. Prøv igen.</item>
+        <item>Billedet kan ikke læses. Prøv igen.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Ugyldige data. Prøv igen.</item>
+        <item>Fingeren kunne ikke registreres. Prøv igen.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Fingeraftrykssensoren kan ikke bruges. Få den repareret, eller gå til g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Få den repareret, eller gå til g.co/pixel/fingerprintunlock</string>
+</resources>

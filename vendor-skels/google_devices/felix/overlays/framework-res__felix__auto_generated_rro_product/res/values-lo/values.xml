@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">Dual Screen ບໍ່ພ້ອມໃຫ້ນຳໃຊ້ເນື່ອງຈາກໂທລະສັບ Pixel ຂອງທ່ານຮ້ອນເກີນໄປ</string>
+    <string name="fingerprint_acquired_partial">ກະລຸນາກວດສອບໃຫ້ໝັ້ນໃຈວ່ານິ້ວຂອງທ່ານແຕະຢູ່ເຊັນເຊີ</string>
+    <string name="fingerprint_acquired_power_press">ເພື່ອສືບຕໍ່ຕັ້ງຄ່າ, ໃຫ້ສຳຜັດເຊັນເຊີເບົາໆ</string>
+    <string name="fingerprint_acquired_too_fast">ວາງນິ້ວຂອງທ່ານໄວ້ຢູ່ເຊັນເຊີຕໍ່ອີກໜ້ອຍໜຶ່ງ</string>
+    <string name="fingerprint_error_power_pressed">ສິ້ນສຸດການຢັ້ງຢືນແລ້ວ. ລອງສຳຜັດເບົາໆຄັ້ງຕໍ່ໄປ.</string>
+</resources>

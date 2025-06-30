@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">选择平板电脑在插入基座期间使用的屏保，并开启无需动手即可获得帮助的功能</string>
+    <string name="dock_setup_notification_title">在插入基座期间处理更多任务</string>
+    <string name="stylus_system_update_notification_text">为了充分利用触控笔，请安装最新 Android 更新</string>
+    <string name="stylus_system_update_notification_title">安装 Android 更新</string>
+</resources>

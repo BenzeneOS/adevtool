@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">ചാർജ്ജിംഗ് ശബ്‌ദങ്ങൾ</string>
+    <string name="edge_to_edge_navigation_summary">ഹോമിലേക്ക് പോകാൻ, താഴെ നിന്ന് മുകളിലേക്ക് വേഗത്തിൽ സ്വൈപ്പ് ചെയ്യുക. ടാസ്‌ക്‌ബാർ ആക്‌സസ് ചെയ്യാൻ, താഴെ നിന്ന് മുകളിലേക്ക് സാവധാനം സ്വൈപ്പ് ചെയ്യുക. ആപ്പുകൾ മാറാൻ താഴെ നിന്ന് മുകളിലേക്ക് സ്വൈപ്പ് ചെയ്യുക, ഹോൾഡ് ചെയ്യുക, വിടുക. തിരികെ പോകാൻ ഇടതുവശത്തെയോ വലതുവശത്തെയോ അരികിൽ നിന്ന് സ്വൈപ്പ് ചെയ്യുക.</string>
+    <string name="fast_pair_device_not_found_other_device_description">ഈ ഉപകരണം Pixel Tablet-ന്റെ അടുത്തേക്ക് നീക്കി വീണ്ടും ശ്രമിക്കൂ.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">ഇയർ ബഡ് കെയ്‌സ് തുറന്ന്, അത് Pixel Tablet-ന്റെ അടുത്തേക്ക് നീക്കി വീണ്ടും ശ്രമിക്കൂ.</string>
+    <string name="sound_dashboard_summary">ശബ്ദം</string>
+    <string name="sound_dashboard_summary_with_dnd">ശബ്ദം, ശല്യപ്പെടുത്തരുത്</string>
+    <string name="sound_settings">ശബ്‌ദം</string>
+</resources>

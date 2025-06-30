@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>আপোনাৰ আঙুলি লৰচৰ কৰক। পুনৰ চেষ্টা কৰক।</item>
+        <item>আঙুলিটো ইতিমধ্যে পঞ্জীয়ন কৰা আছে বেলেগ এটা আঙুলি ব্যৱহাৰ কৰক।</item>
+        <item>প্ৰতিচ্ছবিৰ গুণগত মান নিম্ন। পুনৰ চেষ্টা কৰক।</item>
+        <item/>
+        <item>প্ৰতিচ্ছবিৰ গুণগত মান নিম্ন। পুনৰ চেষ্টা কৰক।</item>
+        <item/>
+        <item/>
+        <item>দাগ চিনাক্ত কৰা হৈছে, স্ক্ৰীনখন চাফা কৰক। পুনৰ চেষ্টা কৰক।</item>
+        <item>প্ৰতিচ্ছবি পঢ়িব পৰা নগ’ল। পুনৰ চেষ্টা কৰক।</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>ত্ৰুটিপূৰ্ণ ডেটা। পুনৰ চেষ্টা কৰক।</item>
+        <item>আঙুলি পঞ্জীয়ন কৰিব পৰা নগ’ল। পুনৰ চেষ্টা কৰক।</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">ফিংগাৰপ্ৰিণ্ট ছেন্সৰ ব্যৱহাৰ কৰিব নোৱাৰি। মেৰামতি সেৱা প্ৰদানকাৰী কোনো প্ৰতিষ্ঠান অথবা g.co/pixel/fingerprintunlockলৈ যাওক</string>
+    <string name="fingerprint_recalibrate_notification_content">মেৰামতি সেৱা প্ৰদানকাৰী কোনো প্ৰতিষ্ঠান অথবা g.co/pixel/fingerprintunlockলৈ যাওক</string>
+</resources>

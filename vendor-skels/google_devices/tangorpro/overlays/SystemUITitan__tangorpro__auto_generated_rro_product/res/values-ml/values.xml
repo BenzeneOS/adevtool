@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_dialog_touch_sensor">ഫിംഗർപ്രിന്റ് സെൻസറിൽ മൃദുവായി സ്‌പർശിക്കുക</string>
+    <string name="settingslib_learn_more_text">ഫിംഗർപ്രിന്റ് അൺലോക്കിനെ കുറിച്ച് കൂടുതലറിയുക</string>
+</resources>

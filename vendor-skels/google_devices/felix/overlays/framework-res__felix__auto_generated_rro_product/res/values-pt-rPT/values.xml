@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">A funcionalidade Dual Screen está indisponível porque o seu telemóvel Pixel está a ficar demasiado quente</string>
+    <string name="fingerprint_acquired_partial">Certifique-se de que o seu dedo cobre o sensor</string>
+    <string name="fingerprint_acquired_power_press">Para continuar a configurar, toque no sensor</string>
+    <string name="fingerprint_acquired_too_fast">Mantenha o seu dedo no sensor mais um pouco</string>
+    <string name="fingerprint_error_power_pressed">A validação terminou. Da próxima vez, tente tocar levemente.</string>
+</resources>

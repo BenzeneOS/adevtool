@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Planshet ishga tushirilmoqda…</string>
+    <string name="android_upgrading_title">Planshet yangilanmoqda…</string>
+    <string name="app_streaming_blocked_message">Ayni vaqtda bu translatsiya %1$s qurilmangizda ishlamaydi. Planshet orqali urinib koʻring.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Bu ilova qoʻshimcha himoyani talab qilmoqda. Planshet orqali urinib koʻring.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Bu ilova qoʻshimcha ruxsatlar talab qilmoqda, lekin ruxsatlar striming seansida berilmaydi. Avval planshetingizda ruxsat bering.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Bu %1$s qurilmangizda ochilmaydi. Planshet orqali urinib koʻring.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Planshet sozlamalari ishlamayapti</string>
+    <string name="battery_saver_charged_notification_summary">Planshet yetarli quvvatlandi. Funksiyalar endi cheklovlarsiz ishlaydi.</string>
+    <string name="default_audio_route_name">Planshet</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s teginib o‘rganish xususiyatini yoqishni xohlamoqda. Bu xususiyat yoqilganda, barmog‘ingiz ostidagi elementlar ta‘rifini ko‘rishingiz yoki eshitishingiz mumkin yoki telefon bilan o‘zaro bog‘lanish uchun barmog‘ingiz bilan imo-ishorali harakatlarni bajaring.</string>
+    <string name="global_actions">Planshet sozlamalari</string>
+    <string name="kg_failed_attempts_almost_at_login">"Siz grafik kalitni  %1$d marta noto‘g‘ri kiritdingiz. %2$d marta muvaffaqiyatsiz urinishdan so‘ng, sizdan e-pochtangizdan foydalanib, planshet qulfini ochishingiz so‘raladi.
+
+ %3$d soniyadan so‘ng yana urinib ko‘ring."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Siz planshet qulfini ochish uchun %1$d marta muvaffaqiyatsiz urindingiz. %2$d marta muvaffaqiyatsiz urinishlardan so‘ng planshetning zavod sozlamalari tiklanadi va barcha foydalanuvchi ma’lumotlari o‘chiriladi.</string>
+    <string name="kg_failed_attempts_now_wiping">Planshet qulfini ochish uchun %d marta muvaffaqiyatsiz urinib ko‘rdingiz. Planshetning hozir zavod sozlamari tiklanadi.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Planshet qulfini %1$d marta ochishga urinib ko‘rdingiz. %2$d marta muvaffaqiyatsiz urinishlardan so‘ng, planshet ishlab chiqarilgan holatiga tiklanadi va barcha foydalanuvchi ma’lumotlari yo‘qoladi.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Siz grafik kalitni %1$d marta noto‘g‘ri kiritdingiz. Telefon qulfini ochish uchun yana %2$d marta noto‘g‘ri urinish qilsangiz, sizdan Google hisobingizga kirish talab qilinadi. 
+
+ %3$d soniyadan so‘ng qayta urining."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Planshet qulfini %d marta ochishga urinib ko‘rdingiz. Planshet hozir ishlab chiqarilgan holatiga tiklanadi.</string>
+    <string name="lockscreen_missing_sim_message">Planshetda SIM karta topilmadi.</string>
+    <string name="low_memory">Planshet xotirasi to‘la. Joy ochish uchun ba’zi fayllarni o‘chiring.</string>
+    <string name="permdesc_bluetooth">Ilovaga planshetdagi Bluetooth‘ning sozlamasini ko‘rishga va bog‘langan qurilmalarga ulanish va ulardan ulanish so‘rovlarini qabul qulishga imkon beradi.</string>
+    <string name="permdesc_bluetoothAdmin">Ilova Bluetooth funksiyali mahalliy planshet sozlamalarini sozlashi hamda masofadan turib qurilmalarni aniqlash va ular bilan juftlashishni amalga oshirishi mumkin.</string>
+    <string name="permdesc_broadcastSticky">Ilova yuborilganidan keyin o‘chib ketmaydigan muddatsiz tarqatma xabarlarni yuborishi mumkin. Ulardan noto‘g‘ri maqsadda foydalanish qurilmaning ishlashini sekinlatishi yoki xotiraga haddan ziyod yuklanish tushishi oqibatida qurilma ishdan chiqishi mumkin.</string>
+    <string name="permdesc_changeWifiMulticastState">Ilovaga Wi-Fi tarmoq orqali guruh manzillardan foydalanib, faqat planshetingizga emas, balki barcha qurilmalarga yuborilgan paketlarni qabul qilishga ruxsat beradi. U oddiy rejimdagidan ko‘ra ko‘proq quvvat sarflaydi.</string>
+    <string name="permdesc_changeWimaxState">Ilovaga planshetni WiMAX tarmoqlariga ulashga va ulardan uzishga ruxsat beradi.</string>
+    <string name="permdesc_getAccounts">Ilovaga planshetdagi hisoblar ro‘yxatini olishga ruxsat beradi. Bunga siz o‘rnatgan ilovalar tomonidan yaratilgan har qanday hisoblar kirishi mumkin.</string>
+    <string name="permdesc_persistentActivity">Ilovaga o‘zining komponentlarini xotirada doimiy saqlashga ruxsat beradi. Bu mavjud xotirani cheklashi va planshetni sekin ishlashiga sabab bo‘lishi mumkin.</string>
+    <string name="permdesc_readCalendar">Bu ilova planshetdagi barcha taqvim tadbirlarini o‘qiy olishi hamda taqvim ma’lumotlarini ulashishi yoki saqlashi mumkin.</string>
+    <string name="permdesc_readContacts">Bu planshetga telefoningizdagi kontaktlarga oid axborotni oʻqish huquqini beradi. Ilovalar ham planshetdagi kontaktlarni yaratgan hisoblaringizga ruxsat oladi Jumladan, oʻrnatilgan ilovalar ochgan hisoblarga ham ruxsat beriladi. Bu ruxsat ilovalarga kontaktlaringizga oid axborotni saqlash huquqini berib, zararli ilovalar uning yordamida kontakt maʼlumotlarini sizdan beruxsat boshqalarga ulashishi mumkin.</string>
+    <string name="permdesc_readSms">Bu ilova planshetdagi barcha SMS xabarlarini o‘qiy oladi.</string>
+    <string name="permdesc_receiveBootCompleted">Ilova tizim qayta yoqilganidan so‘ng o‘zini ishga tushirishi mumkin. Bu planshetning yonish vaqtini uzaytirishi va doimiy ishlab turivchi ilova tufayli uning tezkor ishlashini kamaytirishi mumkin.</string>
+    <string name="permdesc_setTimeZone">Iloba planshetdagi vaqt zonasini o‘zgartirishi mumkin.</string>
+    <string name="permdesc_transmitIr">Dasturga planshetdagi infraqizil antenadan foydalanish ruxsatini beradi.</string>
+    <string name="permdesc_wakeLock">Ilova planshetning uyqu rejimiga o‘tib qolishining oldini olishi mumkin.</string>
+    <string name="permdesc_writeCalendar">Bu ilova planshetga taqvim tadbirlarini qo‘shishi, olib tashlashi yoki o‘zgartirishi mumkin. Bu ilova taqvim egalari nomidan ko‘rinadigan SMS yuborishi yoki egalarini ogohlantirmasdan tadbirlarni o‘zgartirishi mumkin.</string>
+    <string name="permdesc_writeCallLog">Ilovaga planshetingizdagi qo‘ng‘iroq jurnallari, kiruvchi va chiquvchi qo‘ng‘rioqlar haqidagi ma’lumotlarni o‘zgartirishga ruxsat beradi. Zararli ilovalar bundan qo‘ng‘iroqlar jurnalini o‘zgartirish yoki o‘chirish uchun foydalanishi mumkin.</string>
+    <string name="permdesc_writeContacts">Bu ilovaga planshetingizdagi kontaktlarga oid axborotni oʻzgartirish huquqini beradi. Bu ruxsat ilovalarga kontaktlarga oid axborotni oʻchirish imkonini ham beradi.</string>
+    <string name="permlab_wakeLock">planshetni uyquga ketishiga yo‘l qo‘ymaslik</string>
+    <string name="policydesc_watchLogin">Ekranni qulfini ochishda parolni kiritishga urinishlarni kuzatib boradi va agar parol bir necha marta noto‘g‘ri kiritilsa, planshetni qulflaydi yoki undagi ma’lumotlarni o‘chirib tashlaydi.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Ekran qulfini ochishda kiritilgan noto‘g‘ri parollar sonini kuzatib boradi va agar parol juda ko‘p marta noto‘g‘ri kiritilsa, planshetni qulflaydi yoki undagi barcha ma’lumotlarni o‘chirib tashlaydi.</string>
+    <string name="policydesc_wipeData">Planshetdagi hamma narsani tozalab tashlaydi va uning sozlamalarini asliga qaytaradi.</string>
+    <string name="policydesc_wipeData_secondaryUser">Ushbu planshetdagi foydalanuvchi ma’lumotlarini ogohlantirishsiz o‘chirib tashlaydi.</string>
+    <string name="power_dialog">Planshet sozlamalari</string>
+    <string name="shutdown_confirm">Planshetingiz o‘chiriladi.</string>
+    <string name="vdm_camera_access_denied">%1$s qurilmasidan planshetning kamerasiga kirish imkonsiz</string>
+</resources>

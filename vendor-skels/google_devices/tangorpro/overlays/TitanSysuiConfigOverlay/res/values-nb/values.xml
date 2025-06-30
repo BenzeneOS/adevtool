@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Velg en skjermsparer og slå på stemmestyrt hjelp når nettbrettet er i dokken</string>
+    <string name="dock_setup_notification_title">Gjør mer mens enheten er i dokken</string>
+    <string name="stylus_system_update_notification_text">For å få mest mulig ut av pekepennen, installer den nyeste Android-oppdateringen</string>
+    <string name="stylus_system_update_notification_title">Installer Android-oppdateringen</string>
+</resources>

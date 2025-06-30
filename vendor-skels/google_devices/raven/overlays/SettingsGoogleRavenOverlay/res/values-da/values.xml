@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Øger automatisk opdateringshastigheden fra 60 til 120 Hz for noget indhold. Medfører højere batteriforbrug.</string>
+</resources>

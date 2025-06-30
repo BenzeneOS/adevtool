@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Ընտրեք էկրանապահ և միացրեք ձայնային կառավարումը, մինչ պլանշետը տեղադրված է դոկ-կայանում</string>
+    <string name="dock_setup_notification_title">Դոկ-կայանում տեղադրված սարքի հնարավորությունները</string>
+    <string name="stylus_system_update_notification_text">Ստիլուսը հնարավորինս արդյունավետ օգտագործելու համար տեղադրեք Android-ի վերջին տարբերակը</string>
+    <string name="stylus_system_update_notification_title">Թարմացրեք Android-ը</string>
+</resources>

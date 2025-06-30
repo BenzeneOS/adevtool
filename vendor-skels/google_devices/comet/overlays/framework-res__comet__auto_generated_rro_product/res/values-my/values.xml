@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">သင်၏လက်ချောင်းက အာရုံခံကိရိယာကို ဖုံးထားကြောင်း သေချာပါစေ</string>
+    <string name="fingerprint_acquired_power_press">စနစ်ဆက်လက်ထည့်သွင်းရန် အာရုံခံကိရိယာကို အသာအယာထိပါ</string>
+    <string name="fingerprint_acquired_too_fast">သင်၏လက်ချောင်းကို အာရုံခံကိရိယာပေါ် ကြာကြာထားပါ</string>
+    <string name="fingerprint_error_power_pressed">အတည်ပြုခြင်း ရပ်သွားသည်။ နောက်တစ်ကြိမ်တွင် အသာအယာထိကြည့်ပါ။</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="enable_filters">true</bool>
+    <bool name="enable_primer_aoa">true</bool>
+</resources>

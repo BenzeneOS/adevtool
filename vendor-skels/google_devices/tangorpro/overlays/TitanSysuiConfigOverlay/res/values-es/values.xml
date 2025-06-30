@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Elige un salvapantallas y activa la ayuda con solo usar la voz mientras tu tablet está en la base</string>
+    <string name="dock_setup_notification_title">Haz más cosas mientras está en la base</string>
+    <string name="stylus_system_update_notification_text">Para sacarle el máximo partido a tu lápiz óptico, instala la última actualización de Android</string>
+    <string name="stylus_system_update_notification_title">Instala la actualización de Android</string>
+</resources>

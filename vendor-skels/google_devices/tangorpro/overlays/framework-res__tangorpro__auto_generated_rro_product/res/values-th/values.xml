@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">ตรวจสอบว่าวางนิ้วอยู่บนเซ็นเซอร์</string>
+    <string name="fingerprint_acquired_power_press">แตะเซ็นเซอร์เบาๆ เพื่อตั้งค่าต่อ</string>
+    <string name="fingerprint_acquired_too_fast">วางนิ้วบนเซ็นเซอร์ให้นานขึ้นเล็กน้อย</string>
+    <string name="fingerprint_error_power_pressed">การยืนยันไม่สมบูรณ์ ครั้งต่อไปให้ลองแตะเบาๆ</string>
+</resources>

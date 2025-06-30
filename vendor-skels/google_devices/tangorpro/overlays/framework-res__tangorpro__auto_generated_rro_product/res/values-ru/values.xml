@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Приложите палец к сканеру</string>
+    <string name="fingerprint_acquired_power_press">Чтобы продолжить, слегка коснитесь сканера</string>
+    <string name="fingerprint_acquired_too_fast">Вы слишком быстро убираете палец со сканера</string>
+    <string name="fingerprint_error_power_pressed">Проверка не удалась. В следующий раз слегка коснитесь кнопки, не нажимая ее.</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">पक्का करें कि आपकी उंगली सेंसर को कवर कर रही हो</string>
+    <string name="fingerprint_acquired_power_press">सेटअप जारी रखने के लिए, सेंसर को हल्के से छुएं</string>
+    <string name="fingerprint_acquired_too_fast">अपनी उंगली को थोड़ी देर तक सेंसर पर रखें</string>
+    <string name="fingerprint_error_power_pressed">फ़िंगरप्रिंट की पुष्टि नहीं हो पाई. अगली बार सेंसर को हल्के से छुएं.</string>
+</resources>

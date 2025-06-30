@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">‏מצב שני מסכים לא זמין כי טלפון Pixel שלך נהיה חם מדי</string>
+    <string name="fingerprint_acquired_partial">צריך לוודא שהאצבע מכסה את החיישן</string>
+    <string name="fingerprint_acquired_power_press">כדי להמשיך בהגדרה, צריך לגעת קלות בחיישן</string>
+    <string name="fingerprint_acquired_too_fast">צריך להשאיר את האצבע על החיישן קצת יותר זמן</string>
+    <string name="fingerprint_error_power_pressed">האימות הסתיים. בפעם הבאה כדאי לנסות לגעת קלות בחיישן.</string>
+</resources>

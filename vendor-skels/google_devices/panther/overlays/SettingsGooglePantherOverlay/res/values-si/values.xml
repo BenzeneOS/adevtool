@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">මුරපදය • ඇඟිලි සලකුණ • මුහුණ</string>
+    <string name="biometrics_unlock_set_unlock_pattern">රටාව • ඇඟිලි සලකුණ • මුහුණ</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN • ඇඟිලි සලකුණ • මුහුණ</string>
+</resources>

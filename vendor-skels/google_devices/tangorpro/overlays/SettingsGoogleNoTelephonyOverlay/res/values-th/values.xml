@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wi-Fi</string>
+    <string name="non_carrier_data_usage">ปริมาณการใช้อินเทอร์เน็ตผ่าน Wi-Fi</string>
+    <string name="tether_settings_title_all">การเชื่อมต่อผ่านมือถือ</string>
+    <string name="tethering_footer_info">ใช้การเชื่อมต่ออินเทอร์เน็ตผ่านมือถือเพื่อให้สัญญาณอินเทอร์เน็ตกับอุปกรณ์อื่นผ่าน USB อีเทอร์เน็ต หรือบลูทูธ</string>
+</resources>

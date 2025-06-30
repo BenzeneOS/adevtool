@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">充電音效</string>
+    <string name="edge_to_edge_navigation_summary">如要返回主畫面，請從螢幕底部快速向上滑動；如要存取工作列，請從螢幕底部緩慢向上滑動。如要切換應用程式，請從螢幕底部向上滑動並按住，然後放開。如要返回上一個畫面，請從螢幕左側或右側往另一側滑動。</string>
+    <string name="fast_pair_device_not_found_other_device_description">請將這部裝置移到較靠近 Pixel Tablet 的地方，然後再試一次。</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">請開啟耳機充電盒並移到較靠近 Pixel Tablet 的地方，然後再試一次。</string>
+    <string name="sound_dashboard_summary">音量</string>
+    <string name="sound_dashboard_summary_with_dnd">音量、零打擾</string>
+    <string name="sound_settings">音效</string>
+</resources>

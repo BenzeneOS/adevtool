@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">हब मोड</string>
+    <string name="dream_no_screen_saver_caption">स्क्रिन सेभर चयन गरिएको छैन</string>
+    <string name="dream_no_screen_saver_description">तपाईं डिभाइसको स्क्रिन प्रयोग नगरिएका बेला ब्याट्री जोगाउन स्क्रिन अफ गरिने छ</string>
+    <string name="dream_no_screen_saver_preview_caption">पर्यावरणमैत्री</string>
+    <string name="dream_secondary_button_title">स्किप गर्नुहोस्</string>
+    <string name="screensaver_settings_summary_dock_and_charging">डक तथा चार्ज गरिरहेका बेला</string>
+    <string name="screensaver_settings_summary_off">डिभाइस प्रयोग नभएका बेला मन पर्ने फोटो, कलाकृति, घडी र अन्य कुरा देखाउनुहोस्</string>
+    <string name="screensaver_settings_summary_postured_and_charging">ठाडो पारेर चार्ज गरिरहेका बेला</string>
+    <string name="screensaver_settings_summary_sleep">चार्ज गरिरहेका बेला</string>
+    <string name="when_to_show_hubmode_charging">चार्ज भइरहेका बेला</string>
+    <string name="when_to_show_hubmode_docked">डक गरिएका बेला</string>
+    <string name="when_to_show_hubmode_never">कहिल्यै पनि होइन</string>
+</resources>

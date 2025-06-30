@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">ສຽງການສາກ</string>
+    <string name="edge_to_edge_navigation_summary">ເພື່ອກັບໄປໜ້າຫຼັກ, ໃຫ້ປັດຂຶ້ນຈາກລຸ່ມສຸດແບບໄວໆ. ເພື່ອເຂົ້າເຖິງແຖບໜ້າວຽກ, ໃຫ້ປັດຂຶ້ນຈາກລຸ່ມສຸດແບບຊ້າໆ. ເພື່ອສະຫຼັບແອັບ, ໃຫ້ປັດຂຶ້ນຈາກລຸ່ມສຸດ, ກົດຄ້າງໄວ້ ແລ້ວປ່ອຍ. ເພື່ອກັບຄືນ, ໃຫ້ປັດຈາກຂອບຊ້າຍ ຫຼື ຂວາ.</string>
+    <string name="fast_pair_device_not_found_other_device_description">ຍ້າຍອຸປະກອນນີ້ເຂົ້າໃກ້ກັບ Pixel Tablet ຂອງທ່ານຫຼາຍຂຶ້ນແລ້ວລອງໃໝ່.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">ເປີດ ແລະ ຍ້າຍເຄສໃສ່ຫູຟັງເຂົ້າໃກ້ກັບ Pixel Tablet ຂອງທ່ານຫຼາຍຂຶ້ນ, ຈາກນັ້ນລອງໃໝ່.</string>
+    <string name="sound_dashboard_summary">ລະດັບສຽງ</string>
+    <string name="sound_dashboard_summary_with_dnd">ລະດັບສຽງ, ຫ້າມລົບກວນ</string>
+    <string name="sound_settings">ສຽງ</string>
+</resources>

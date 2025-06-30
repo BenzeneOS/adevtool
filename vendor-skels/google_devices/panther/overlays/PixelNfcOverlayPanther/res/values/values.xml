@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="antenna_x">
+        <item>38</item>
+    </array>
+    <array name="antenna_y">
+        <item>53</item>
+    </array>
+    <array name="config_skuSupportsSecureNfc">
+        <item>GQML3</item>
+        <item>GVU6C</item>
+        <item>G03Z5</item>
+    </array>
+    <bool name="device_foldable">false</bool>
+    <bool name="nfc_observe_mode_supported">true</bool>
+    <bool name="nfcc_always_on_allowed">false</bool>
+    <bool name="polling_disable_allowed">true</bool>
+    <bool name="tag_intent_app_pref_supported">true</bool>
+    <integer name="device_height">150</integer>
+    <integer name="device_width">70</integer>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Hub 模式</string>
+    <string name="dream_no_screen_saver_caption">不設定螢幕保護程式</string>
+    <string name="dream_no_screen_saver_description">為了節省電力，螢幕會在閒置後關閉</string>
+    <string name="dream_no_screen_saver_preview_caption">環保</string>
+    <string name="dream_secondary_button_title">略過</string>
+    <string name="screensaver_settings_summary_dock_and_charging">在座架充電時</string>
+    <string name="screensaver_settings_summary_off">在閒置時顯示你喜愛的相片、藝術品、時鐘等內容</string>
+    <string name="screensaver_settings_summary_postured_and_charging">以直立狀態充電時</string>
+    <string name="screensaver_settings_summary_sleep">充電時</string>
+    <string name="when_to_show_hubmode_charging">充電時</string>
+    <string name="when_to_show_hubmode_docked">在座架充電時</string>
+    <string name="when_to_show_hubmode_never">一律不要</string>
+</resources>

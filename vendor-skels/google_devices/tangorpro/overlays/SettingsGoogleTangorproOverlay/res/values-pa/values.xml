@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">ਚਾਰਜ ਕਰਨ ਦੀਆਂ ਧੁਨੀਆਂ</string>
+    <string name="edge_to_edge_navigation_summary">"ਹੋਮ 'ਤੇ ਜਾਣ ਲਈ, ਹੇਠਾਂ ਤੋਂ ਉੱਪਰ ਵੱਲ ਨੂੰ ਤੁਰੰਤ-ਸਵਾਈਪ ਕਰੋ। ਟਾਸਕਬਾਰ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਲਈ, ਹੇਠਾਂ ਤੋਂ ਉੱਪਰ ਵੱਲ ਨੂੰ ਹੌਲੀ-ਸਵਾਈਪ ਕਰੋ। ਐਪਾਂ ਵਿਚਕਾਰ ਸਵਿੱਚ ਕਰਨ ਲਈ, ਹੇਠਾਂ ਤੋਂ ਉੱਪਰ ਵੱਲ ਨੂੰ ਸਵਾਈਪ ਕਰ ਕੇ ਦਬਾਈ ਰੱਖੋ ਅਤੇ ਛੱਡੋ। ਪਿੱਛੇ ਜਾਣ ਲਈ, ਖੱਬੇ ਜਾਂ ਸੱਜੇ ਕਿਨਾਰੇ ਤੋਂ ਸਵਾਈਪ ਕਰੋ।"</string>
+    <string name="fast_pair_device_not_found_other_device_description">ਇਸ ਡੀਵਾਈਸ ਨੂੰ ਆਪਣੇ Pixel Tablet ਦੇ ਨੇੜੇ ਲਿਜਾ ਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">ਈਅਰਬੱਡ ਵਾਲੀ ਡੱਬੀ ਖੋਲ੍ਹ ਕੇ ਉਸਨੂੰ ਆਪਣੇ Pixel Tablet ਦੇ ਨੇੜੇ ਲਿਜਾਓ, ਫਿਰ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="sound_dashboard_summary">ਅਵਾਜ਼</string>
+    <string name="sound_dashboard_summary_with_dnd">ਅਵਾਜ਼, ਪਰੇਸ਼ਾਨ ਨਾ ਕਰੋ</string>
+    <string name="sound_settings">ਧੁਨੀ</string>
+</resources>

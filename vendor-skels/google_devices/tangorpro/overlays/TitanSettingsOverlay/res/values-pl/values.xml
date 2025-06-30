@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Tryb centrali</string>
+    <string name="dream_no_screen_saver_caption">Brak wygaszacza ekranu</string>
+    <string name="dream_no_screen_saver_description">Twój ekran automatycznie wygaśnie, jeśli będzie nieaktywny, aby oszczędzać energię</string>
+    <string name="dream_no_screen_saver_preview_caption">Przyjazny środowisku</string>
+    <string name="dream_secondary_button_title">Pomiń</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Po zadokowaniu i podczas ładowania</string>
+    <string name="screensaver_settings_summary_off">Pokazuj ulubione zdjęcia, dzieła sztuki, zegary i inne elementy, kiedy urządzenie jest nieaktywne</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Pionowo i podczas ładowania</string>
+    <string name="screensaver_settings_summary_sleep">Podczas ładowania</string>
+    <string name="when_to_show_hubmode_charging">Podczas ładowania</string>
+    <string name="when_to_show_hubmode_docked">Po zadokowaniu</string>
+    <string name="when_to_show_hubmode_never">Nigdy</string>
+</resources>

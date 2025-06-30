@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">ಸ್ಕ್ರೀನ್ ಸೇವರ್ ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಡಾಕ್ ಆಗಿರುವಾಗ ಹ್ಯಾಂಡ್ಸ್-ಫ್ರೀ ಸಹಾಯವನ್ನು ಆನ್ ಮಾಡಿ</string>
+    <string name="dock_setup_notification_title">ಡಾಕ್ ಆಗಿರುವಾಗ ಹೆಚ್ಚಿನದನ್ನು ಮಾಡಿ</string>
+    <string name="stylus_system_update_notification_text">ನಿಮ್ಮ ಸ್ಟೈಲಸ್‌ನಿಂದ ಅತ್ಯಧಿಕ ಪ್ರಯೋಜನ ಪಡೆಯಲು, ಇತ್ತೀಚಿನ Android ಅಪ್‌ಡೇಟ್ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ</string>
+    <string name="stylus_system_update_notification_title">Android ಅಪ್‌ಡೇಟ್ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ</string>
+</resources>

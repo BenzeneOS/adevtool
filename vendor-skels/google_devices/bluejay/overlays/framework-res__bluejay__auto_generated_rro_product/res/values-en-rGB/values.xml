@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Move your finger. Try again.</item>
+        <item>Finger already enrolled. Use a different finger.</item>
+        <item>Poor image quality. Try again.</item>
+        <item/>
+        <item>Poor image quality. Try again.</item>
+        <item/>
+        <item/>
+        <item>Smudge detected. Clean screen. Try again.</item>
+        <item>Failure to read image. Try again.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Bad data. Try again.</item>
+        <item>Failed to enrol finger. Try again.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Can’t use fingerprint sensor. Visit a repair provider or g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Visit a repair provider or g.co/pixel/fingerprintunlock</string>
+</resources>

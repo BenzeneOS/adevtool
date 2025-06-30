@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Hub-modus</string>
+    <string name="dream_no_screen_saver_caption">Ingen</string>
+    <string name="dream_no_screen_saver_description">For å spare batteri slår skjermen seg av etter inaktivitet</string>
+    <string name="dream_no_screen_saver_preview_caption">Miljøvennlig</string>
+    <string name="dream_secondary_button_title">Hopp over</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Når enheten er dokket og lader</string>
+    <string name="screensaver_settings_summary_off">Vis favorittbilder, kunst, klokker med mer mens enheten er inaktiv</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Når enheten er oppreist og lades</string>
+    <string name="screensaver_settings_summary_sleep">Når enheten lades</string>
+    <string name="when_to_show_hubmode_charging">Når enheten lades</string>
+    <string name="when_to_show_hubmode_docked">Når enheten er i dokken</string>
+    <string name="when_to_show_hubmode_never">Aldri</string>
+</resources>

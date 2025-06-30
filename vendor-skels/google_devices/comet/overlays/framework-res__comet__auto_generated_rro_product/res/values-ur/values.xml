@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">اس بات کو یقینی بنائیں کہ آپ کی انگلی سینسر کو کور کرتی ہے</string>
+    <string name="fingerprint_acquired_power_press">سیٹ اپ جاری رکھنے کیلئے، سینسر کو ہلکے سے ٹچ کریں</string>
+    <string name="fingerprint_acquired_too_fast">اپنی انگلی کو سینسر پر تھوڑی زیادہ دیر تک رکھیں</string>
+    <string name="fingerprint_error_power_pressed">تصدیق ختم ہو گئی۔ اگلی بار ہلکے سے ٹچ کرنے کی کوشش کریں۔</string>
+</resources>

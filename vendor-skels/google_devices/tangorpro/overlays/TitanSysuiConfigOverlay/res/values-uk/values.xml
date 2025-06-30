@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Виберіть заставку й активуйте голосове керування, поки планшет у док-станції</string>
+    <string name="dock_setup_notification_title">Використовуйте більше можливостей, коли пристрій у док-станції</string>
+    <string name="stylus_system_update_notification_text">Щоб використовувати всі можливості стилуса, установіть останнє оновлення Android</string>
+    <string name="stylus_system_update_notification_title">Установіть оновлення Android</string>
+</resources>

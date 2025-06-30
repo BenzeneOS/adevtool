@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Mag tunog sa pag-charge</string>
+    <string name="edge_to_edge_navigation_summary">Para pumunta sa home, mag-swipe nang mabilis pataas mula sa ibaba. Para i-access ang Taskbar, mag-swipe nang mabagal pataas mula sa ibaba. Para magpalipat-lipat sa mga app, mag-swipe pataas mula sa ibaba, mag-hold, at bitawan. Para bumalik, mag-swipe mula sa kaliwa o kanang gilid.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Ilapit ang device na ito sa Pixel Tablet mo at subukan ulit.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Buksan at ilapit sa Pixel Tablet mo ang earbuds case at subukan ulit.</string>
+    <string name="sound_dashboard_summary">Volume</string>
+    <string name="sound_dashboard_summary_with_dnd">Volume, Huwag Istorbohin</string>
+    <string name="sound_settings">Tunog</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Centro režimas</string>
+    <string name="dream_no_screen_saver_caption">Nėra ekrano užsklandos</string>
+    <string name="dream_no_screen_saver_description">Tausojant energiją, nenaudojamas ekranas išsijungs</string>
+    <string name="dream_no_screen_saver_preview_caption">Ekologiška</string>
+    <string name="dream_secondary_button_title">Praleisti</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Kai prijungta prie doko ir kraunama</string>
+    <string name="screensaver_settings_summary_off">Rodyti mėgstamiausias nuotraukas, meno kūrinius ar laikrodžius, kai įrenginys yra neveikos būsenos</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Kai kraunama stačiai</string>
+    <string name="screensaver_settings_summary_sleep">Kai kraunama</string>
+    <string name="when_to_show_hubmode_charging">Įkraunant</string>
+    <string name="when_to_show_hubmode_docked">Kai prijungta prie doko</string>
+    <string name="when_to_show_hubmode_never">Niekada</string>
+</resources>

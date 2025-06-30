@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Pasirinkite ekrano užsklandą ir įjunkite pagalbą laisvų rankų režimu, kol planšetinis kompiuteris prijungtas prie doko</string>
+    <string name="dock_setup_notification_title">Atlikite daugiau prijungtu prie doko įrenginiu</string>
+    <string name="stylus_system_update_notification_text">Kad galėtumėte išnaudoti visas rašiklio galimybes, įdiekite paskiausią „Android“ naujinį</string>
+    <string name="stylus_system_update_notification_title">„Android“ naujinio diegimas</string>
+</resources>

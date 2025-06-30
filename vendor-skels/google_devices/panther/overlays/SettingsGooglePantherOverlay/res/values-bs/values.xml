@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Lozinka • Otisak prsta • Lice</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Obrazac • Otisak prsta • Lice</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN • Otisak prsta • Lice</string>
+</resources>

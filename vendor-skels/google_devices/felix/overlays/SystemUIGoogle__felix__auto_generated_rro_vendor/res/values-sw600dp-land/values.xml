@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="weather_clock_smartspace_scale">0.85</dimen>
+    <dimen name="weather_clock_smartspace_translateX">-40.0dp</dimen>
+    <dimen name="weather_clock_smartspace_translateY">-20.0dp</dimen>
+    <style name="AuthNonBioCredentialPatternContainerStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:maxWidth">@dimen/biometric_auth_pattern_view_max_size</item>
+        <item name="android:maxHeight">@dimen/biometric_auth_pattern_view_max_size</item>
+        <item name="android:minWidth">@dimen/biometric_auth_pattern_view_size</item>
+        <item name="android:minHeight">@dimen/biometric_auth_pattern_view_size</item>
+        <item name="android:paddingVertical">40.0dp</item>
+    </style>
+</resources>

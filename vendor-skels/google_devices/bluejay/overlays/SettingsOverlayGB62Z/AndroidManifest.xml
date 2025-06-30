@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="36" android:versionName="16" package="com.android.settings.overlay.gb62z">
+    <application android:extractNativeLibs="true" android:hasCode="false"/>
+    <overlay android:isStatic="true" android:requiredSystemPropertyName="ro.boot.hardware.sku" android:requiredSystemPropertyValue="GB62Z" android:targetPackage="com.android.settings"/>
+</manifest>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">由於 Pixel 手機過熱，雙螢幕功能無法使用</string>
+    <string name="fingerprint_acquired_partial">請確保手指覆蓋感應器</string>
+    <string name="fingerprint_acquired_power_press">如要繼續設定，請輕觸感應器</string>
+    <string name="fingerprint_acquired_too_fast">將手指放在感應器上，並維持片刻</string>
+    <string name="fingerprint_error_power_pressed">驗證已結束。下次請嘗試輕觸開關按鈕。</string>
+</resources>

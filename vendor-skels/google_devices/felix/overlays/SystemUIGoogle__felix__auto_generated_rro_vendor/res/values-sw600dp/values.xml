@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="biometric_auth_pattern_view_max_size">348.0dp</dimen>
+    <dimen name="biometric_auth_pattern_view_size">298.0dp</dimen>
+    <dimen name="physical_charger_port_location_normalized_x">0.784</dimen>
+    <dimen name="physical_fingerprint_sensor_center_screen_location_x">2208.0px</dimen>
+    <dimen name="weather_clock_smartspace_scale">0.85</dimen>
+    <dimen name="weather_clock_smartspace_translateX">-40.0dp</dimen>
+</resources>

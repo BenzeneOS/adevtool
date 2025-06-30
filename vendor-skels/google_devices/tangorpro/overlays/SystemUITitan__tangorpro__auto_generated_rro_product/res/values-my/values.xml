@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_dialog_touch_sensor">လက်ဗွေအာရုံခံကိရိယာကို အသာထိပါ</string>
+    <string name="settingslib_learn_more_text">‘လက်ဗွေသုံး လော့ခ်ဖွင့်ခြင်း’ အကြောင်း ပိုမိုလေ့လာရန်</string>
+</resources>

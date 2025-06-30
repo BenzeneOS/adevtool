@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="phoneAppLabel">Prenos podataka na mobilnoj mreži</string>
+    <string name="phone_info_label">Informacije o tabletu</string>
+</resources>

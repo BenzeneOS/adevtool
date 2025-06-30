@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">တက်ဘလက် တပ်ဆင်ထားစဉ် စကရင်နားချိန်ပုံရွေးပြီး လက်လွတ်အကူအညီကို ဖွင့်ပါ</string>
+    <string name="dock_setup_notification_title">တပ်ဆင်ထားစဉ် ပိုမိုလုပ်ဆောင်ပါ</string>
+    <string name="stylus_system_update_notification_text">သင့်စတိုင်လပ်စ်ကို အကောင်းဆုံး အသုံးချရန် နောက်ဆုံး Android အပ်ဒိတ် ထည့်သွင်းပါ</string>
+    <string name="stylus_system_update_notification_title">Android အပ်ဒိတ် ထည့်သွင်းခြင်း</string>
+</resources>

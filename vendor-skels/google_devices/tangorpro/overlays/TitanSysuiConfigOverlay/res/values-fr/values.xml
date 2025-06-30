@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">"Choisissez un économiseur d'écran et activez l'assistance mains libres quand votre tablette est sur la station d'accueil"</string>
+    <string name="dock_setup_notification_title">"Plus de possibilités, même quand la tablette est sur la station d'accueil"</string>
+    <string name="stylus_system_update_notification_text">Pour profiter au maximum de votre stylet, installez la dernière mise à jour Android</string>
+    <string name="stylus_system_update_notification_title">Installer la mise à jour Android</string>
+</resources>

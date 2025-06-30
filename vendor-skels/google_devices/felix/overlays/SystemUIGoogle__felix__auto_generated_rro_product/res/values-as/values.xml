@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_dialog_touch_sensor">ফিংগাৰপ্ৰিণ্ট ছেন্সৰটো লাহেকৈ স্পৰ্শ কৰক</string>
+    <string name="settingslib_learn_more_text">ফিংগাৰপ্ৰিণ্ট আনলকৰ বিষয়ে অধিক জানক</string>
+</resources>

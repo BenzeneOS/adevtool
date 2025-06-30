@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Automatiškai padidinamas kai kurio turinio atnaujinimo dažnis nuo 60 iki 120 Hz. Naudojama daugiau akumuliatoriaus energijos.</string>
+</resources>

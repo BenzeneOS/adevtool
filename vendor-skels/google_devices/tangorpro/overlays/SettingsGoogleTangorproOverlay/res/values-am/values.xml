@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">የኃይል መሙላት ድምጾች</string>
+    <string name="edge_to_edge_navigation_summary">ወደ መነሻ ለመሄድ ከታች ወደ ላይ በፍጥነት በጣት ያንሸራትቱ። የተግባር አሞሌውን ለመድረስ ከታች ወደ ላይ በቀስታ በጣት ያንሸራትቱ። መተግበሪያዎችን ለመቀየር ከታች ወደ ላይ በጣት ያንሸራትቱ፣ ይያዙ እና ይልቀቁ። ወደ ኋላ ለመመለስ ከግራ ወይም ቀኝ ጠርዝ በጣት ያንሸራትቱ።</string>
+    <string name="fast_pair_device_not_found_other_device_description">ይህን መሣሪያ ወደ Pixel ጡብዎ ያስጠጉ እና እንደገና ይሞክሩ።</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">የጆሮ ማዳመጫዎች መያዣውን ይክፈቱ እና ወደ Pixel ስልክዎ ያስጠጉት፣ ከዚያም እንደገና ይሞክሩ።</string>
+    <string name="sound_dashboard_summary">የድምፅ መጠን</string>
+    <string name="sound_dashboard_summary_with_dnd">የድምፅ መጠን፣ አትረብሽ</string>
+    <string name="sound_settings">ድምፅ</string>
+</resources>

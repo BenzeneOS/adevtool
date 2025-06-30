@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wi-Fi</string>
+    <string name="non_carrier_data_usage">Uso de datos Wi‑Fi</string>
+    <string name="tether_settings_title_all">Compartir conexión</string>
+    <string name="tethering_footer_info">Comparte la conexión para proporcionar Internet a otros dispositivos por USB, Ethernet o Bluetooth.</string>
+</resources>

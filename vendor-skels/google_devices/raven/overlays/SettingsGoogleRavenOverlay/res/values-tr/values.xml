@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">"Bazı içerikler için yenileme hızını otomatik olarak 60 Hz'den 120 Hz'e yükseltir. Pil kullanımını artırır."</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Пакуль планшэт падключаны да док-станцыі, выберыце экранную застаўку і ўключыце падтрымку галасавога кіравання</string>
+    <string name="dock_setup_notification_title">Выкарыстайце патэнцыял прылады, падключанай да док-станцыі</string>
+    <string name="stylus_system_update_notification_text">Каб выкарыстоўваць усе магчымасці вашага пяра, усталюйце апошняе абнаўленне Android</string>
+    <string name="stylus_system_update_notification_title">Усталюйце абнаўленне Android</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Denne tablet starter…</string>
+    <string name="android_upgrading_title">Denne tablet opdaterer…</string>
+    <string name="app_streaming_blocked_message">Dette er ikke tilgængeligt på din %1$s på nuværende tidspunkt. Prøv på din tablet i stedet.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Denne app anmoder om yderligere sikkerhed. Prøv på din tablet i stedet.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Denne app anmoder om yderligere tilladelser, men der kan ikke gives tilladelser under en streamingsession. Giv tilladelse på din tablet først.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Du kan ikke gøre dette på din %1$s. Prøv på din tablet i stedet.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Tabletindstillingerne er ikke tilgængelige</string>
+    <string name="battery_saver_charged_notification_summary">Tabletten har tilstrækkeligt batteri. Funktionerne er ikke længere begrænsede.</string>
+    <string name="default_audio_route_name">Tablet</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s ønsker at aktivere Udforsk ved berøring. Når Udforsk ved berøring er tændt, kan du høre eller se beskrivelser af, hvad der er under din finger eller udføre bevægelser for at interagere med tabletten.</string>
+    <string name="global_actions">Valgmuligheder for tabletcomputeren</string>
+    <string name="kg_failed_attempts_almost_at_login">"Du har tegnet dit oplåsningsmønster forkert %1$d gange. Efter %2$d yderligere mislykkede forsøg vil du blive bedt om at låse din tablet op ved hjælp af en mailkonto
+
+ Prøv igen om %3$d sekunder."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Du har forsøgt at låse tabletten op forkert %1$d gange. Efter %2$d yderligere mislykkede forsøg nulstilles tabletten til fabriksindstillingerne, og alle brugerdata mistes.</string>
+    <string name="kg_failed_attempts_now_wiping">Du har forsøgt at låse tabletten op forkert %d gange. Tabletten nulstilles til fabriksindstillingerne.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Du har forsøgt at låse tabletten op forkert %1$d gange. Efter yderligere %2$d mislykkede forsøg nulstilles tabletten til fabriksindstillingerne, og alle brugerdata mistes.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Du har tegnet dit oplåsningsmønster forkert %1$d gange. Efter %2$d yderligere forsøg vil du blive bedt om at låse din tablet op ved hjælp af dit Google-login
+
+  Prøv igen om %3$d sekunder."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Du har forsøgt at låse tabletten op forkert %d gange. Tabletten nulstilles til fabriksindstillingerne.</string>
+    <string name="lockscreen_missing_sim_message">Intet SIM-kort i tabletten.</string>
+    <string name="low_memory">Din tablets lager er fuldt. Slet nogle filer for at frigøre plads.</string>
+    <string name="permdesc_bluetooth">Tillader, at appen kan læse konfigurationen af ​​Bluetooth på tabletten samt kan oprette og acceptere forbindelser med parrede enheder.</string>
+    <string name="permdesc_bluetoothAdmin">Tillader, at appen kan konfigurere den lokale Bluetooth-tablet samt finde og parre med fjerne enheder.</string>
+    <string name="permdesc_broadcastSticky">Tillader, at appen kan sende klæbende udsendelser, der forbliver tilbage, når udsendelsen er slut. Overdreven brug kan gøre din tablet langsom eller ustabil ved at tvinge den til at bruge for meget hukommelse.</string>
+    <string name="permdesc_changeWifiMulticastState">Tillader, at appen kan modtage pakker, der sendes til alle enheder på et Wi-Fi-netværk ved hjælp af multicastadresser, ikke kun din tablet. Den bruger mere strøm end tilstanden, der ikke anvender multicast.</string>
+    <string name="permdesc_changeWimaxState">Tillader, at appen kan oprette forbindelse fra tabletten og afbryde forbindelsen til tabletten på WiMAX-netværk.</string>
+    <string name="permdesc_getAccounts">Tillader, at appen kan hente listen over konti, der er kendt af tabletten. Dette kan omfatte alle konti, der er oprettet af de apps, som du har installeret.</string>
+    <string name="permdesc_persistentActivity">Tillader, at appen gør dele af sig selv vedholdende i hukommelsen. Dette kan begrænse den tilgængelige hukommelse for andre apps, hvilket gør tabletten langsommere.</string>
+    <string name="permdesc_readCalendar">Denne app kan læse alle kalenderbegivenheder, der er gemt på din tablet, og dele eller gemme dine kalenderdata.</string>
+    <string name="permdesc_readContacts">Tillader, at appen kan læse data om de kontakter, der er gemt på din tablet. Apps får også adgang til de konti på din tablet, som har oprettet kontakter. Dette kan omfatte konti, som er oprettet af apps, du har installeret. Med denne tilladelse kan apps gemme dine kontaktdata, og skadelige apps kan dele kontaktdata uden din viden.</string>
+    <string name="permdesc_readSms">Denne app kan læse alle sms-beskeder, der er gemt på din tablet.</string>
+    <string name="permdesc_receiveBootCompleted">Tillader, at appen kan starte af sig selv, så snart systemet er færdig med at starte. Dette kan gøre tablettens opstartstid længere og give appen tilladelse til at gøre tabletten langsommere ved altid at lade appen køre.</string>
+    <string name="permdesc_setTimeZone">Tillader, at appen kan ændre tidszonen på din tablet.</string>
+    <string name="permdesc_transmitIr">Tillader, at appen bruger tablettens infrarøde sender.</string>
+    <string name="permdesc_wakeLock">Tillader, at appen kan forhindre tabletten i at gå i dvale.</string>
+    <string name="permdesc_writeCalendar">Denne app kan tilføje, fjerne eller ændre kalenderbegivenheder på din tablet. Denne app kan sende meddelelser, der kan se ud, som om de kommer fra kalenderejere, eller ændre begivenheder uden at give ejeren besked.</string>
+    <string name="permdesc_writeCallLog">Tillader, at appen ændrer din tablets opkaldshistorik, f.eks. data om indgående og udgående opkald. Ondsindede apps kan bruge dette til at slette eller ændre din opkaldshistorik.</string>
+    <string name="permdesc_writeContacts">Tillader, at appen kan ændre data om de kontakter, der er gemt på din tablet. Denne tilladelse giver apps mulighed for at slette kontaktdata.</string>
+    <string name="permlab_wakeLock">afholde tabletcomputeren fra at gå i dvale</string>
+    <string name="policydesc_watchLogin">Overvåg antallet af forkert indtastede adgangskoder, når du låser skærmen op, og lås din tablet, eller slet alle data i den, hvis der er indtastet for mange forkerte adgangskoder.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Registrer antallet af forkerte adgangskoder, der angives ved oplåsning af skærmen, og lås din tablet, eller slet alle brugerens data, hvis adgangskoden tastes forkert for mange gange.</string>
+    <string name="policydesc_wipeData">Slet din tablets data uden varsel ved at gendanne fabriksindstillingerne.</string>
+    <string name="policydesc_wipeData_secondaryUser">Slet denne brugers data på denne tablet uden varsel.</string>
+    <string name="power_dialog">Valgmuligheder for tabletcomputeren</string>
+    <string name="shutdown_confirm">Din tablet slukkes nu.</string>
+    <string name="vdm_camera_access_denied">Kameraet på din tablet kan ikke tilgås via din %1$s</string>
+</resources>

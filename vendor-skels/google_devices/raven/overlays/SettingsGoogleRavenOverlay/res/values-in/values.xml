@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Otomatis meningkatkan kecepatan refresh dari 60 menjadi maksimum 120 Hz untuk konten tertentu. Meningkatkan penggunaan baterai.</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>Přemístěte prst. Touto částí prstu jste se už dotkli.</item>
+    </array>
+    <string name="fingerprint_unlock_set_unlock_password">Heslo • Otisk prstu</string>
+    <string name="fingerprint_unlock_set_unlock_pattern">Gesto • Otisk prstu</string>
+    <string name="fingerprint_unlock_set_unlock_pin">PIN • Otisk prstu</string>
+    <string name="fingerprint_unlock_skip_fingerprint">Pokračovat bez odemknutí otiskem prstu</string>
+    <string name="fingerprint_unlock_title">Odemknutí otiskem prstu umožňuje odemknout tablet otiskem prstu. Z bezpečnostních důvodů tato možnost vyžaduje záložní zámek obrazovky.</string>
+    <string name="security_settings_fingerprint_enroll_consent_introduction_title">Povolit odemknutí otiskem prstu</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message">"Snímač otisků prstů je na vypínači.
+
+Lehce se vypínače dotkněte, aniž byste ho stiskli."</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_title">Dotkněte se vypínače</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">Nastavení odemknutí otiskem prstu</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title">Zvedněte prst a poté ho znovu přiložte. Pokaždé ho lehce posuňte.</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay">Zvedněte prst a dotkněte se znovu</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_message">Snímač otisků prstů je na vypínači.</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_title">Dotkněte se snímače</string>
+    <string name="security_settings_fingerprint_preference_title">Odemknutí otiskem prstu</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Funkce odemknutí otiskem prstu používá unikátní model vašeho otisku prstu k ověření identity. Model otisku prstu se vytváří na základě snímků otisku prstu z různých úhlů.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">Při odemykání tabletu otiskem prstu se model otisku prstu aktualizuje pomocí snímků. Snímky použité k vytvoření tohoto modelu se nikdy neukládají, ale model otisku prstu je bezpečně uložen v tabletu (a nikdy ho neopouští). Veškeré zpracování probíhá bezpečně v tabletu.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">V Nastavení můžete model otisku prstu kdykoli smazat, případně odemknutí otiskem prstu vypnout. Modely otisků prstů zůstanou v tabletu uloženy, dokud je nesmažete.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Odemknutí otiskem prstu vytváří jedinečný model otisku prstu dítěte, podle kterého ho při ověření poznáme. Model otisku prstu vytvoříme při nastavování na základě snímků otisku prstu z různých úhlů.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">Když dítě používá odemknutí otiskem prstu, jeho model otisku prstu se pomocí snímků aktualizuje. Snímky použité k vytvoření modelu otisku prstu se nikdy neukládají, ale model otisku prstu je bezpečně uložen v tabletu (a nikdy ho neopouští). Veškeré zpracování probíhá bezpečně v tabletu.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">V Nastavení můžete vy nebo vaše dítě model otisku prstu kdykoli smazat, případně odemknutí otiskem prstu vypnout. Modely otisku prstu jsou v tabletu uloženy, dokud je nesmažete.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Další informace: &lt;a href='http://g.co/pixeltablet/fingerprintunlock'&gt;g.co/pixeltablet/fingerprintunlock&lt;/a&gt;."</string>
+    <string name="security_settings_sfps_enroll_find_sensor_message">Snímač otisků prstů je na vypínači. Vypínač je kratší tlačítko na boku telefonu.</string>
+    <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Pokaždé prst lehce posuňte</string>
+    <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Pohybujte prstem, abyste zachytili jeho další části</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Zapnutím se sníží pravděpodobnost nezamýšleného odemknutí. Když bude nastavení vypnuté, může se zařízení odemknout i krátkým dotykem na senzoru.</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Odemknutí delším dotykem na senzoru</string>
+    <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Dotkněte se snímače z jiného úhlu</string>
+    <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Pohybujte prstem, abyste zachytili jeho další části</string>
+    <string name="security_settings_work_fingerprint_preference_title">Odemknutí otiskem prstu pro práci</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Pokračovat v nastavení</string>
+    <string name="setup_fingerprint_enroll_immobile_help_subtitle">Pomůže to zachytit větší část otisku prstu, aby odemykání bylo snazší</string>
+    <string name="setup_fingerprint_enroll_immobile_help_title">Posuňte prst</string>
+    <string name="suggested_fingerprint_lock_settings_title">Použijte odemknutí otiskem prstu</string>
+</resources>

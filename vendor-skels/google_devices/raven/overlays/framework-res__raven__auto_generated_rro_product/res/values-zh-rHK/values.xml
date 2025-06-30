@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>請移動手指，請再試一次。</item>
+        <item>此手指已註冊，請改用其他手指。</item>
+        <item>圖片品質差，請再試一次。</item>
+        <item/>
+        <item>圖片品質差，請再試一次。</item>
+        <item/>
+        <item/>
+        <item>偵測到污跡，請清潔螢幕，然後再試一次。</item>
+        <item>無法讀取圖片，請再試一次。</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>資料無效，請再試一次。</item>
+        <item>無法註冊手指。請再試一次。</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">指紋感應器無法使用，請諮詢維修服務供應商或瀏覽 g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">請諮詢維修服務供應商或瀏覽 g.co/pixel/fingerprintunlock</string>
+</resources>

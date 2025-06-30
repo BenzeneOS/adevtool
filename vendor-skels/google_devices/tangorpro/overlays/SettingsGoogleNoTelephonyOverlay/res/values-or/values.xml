@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">ୱାଇ-ଫାଇ</string>
+    <string name="non_carrier_data_usage">ୱାଇ-ଫାଇ ଡାଟା ବ୍ୟବହାର</string>
+    <string name="tether_settings_title_all">ଟିଥରିଂ</string>
+    <string name="tethering_footer_info">USB, ଇଥରନେଟ କିମ୍ବା ବ୍ଲୁଟୁଥ ମାଧ୍ୟମରେ ଅନ୍ୟ ଡିଭାଇସଗୁଡ଼ିକୁ ଇଣ୍ଟରନେଟ ପ୍ରଦାନ କରିବାକୁ ଟିଥରିଂ ବ୍ୟବହାର କରନ୍ତୁ।</string>
+</resources>

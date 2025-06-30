@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Kablosuz</string>
+    <string name="non_carrier_data_usage">Kablosuz ağ veri kullanımı</string>
+    <string name="tether_settings_title_all">Tethering</string>
+    <string name="tethering_footer_info">USB, Ethernet veya Bluetooth aracılığıyla diğer cihazlara internet sağlamak için tethering kullanın.</string>
+</resources>

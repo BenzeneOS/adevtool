@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wifi</string>
+    <string name="non_carrier_data_usage">Wifi-databruk</string>
+    <string name="tether_settings_title_all">Internettdeling</string>
+    <string name="tethering_footer_info">Bruk internettdeling for å gi andre enheter tilgang til internett via USB, Ethernet eller Bluetooth.</string>
+</resources>

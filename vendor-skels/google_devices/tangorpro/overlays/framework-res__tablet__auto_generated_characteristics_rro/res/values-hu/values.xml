@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">A táblagép indítása…</string>
+    <string name="android_upgrading_title">A táblagép frissítése…</string>
+    <string name="app_streaming_blocked_message">Ehhez jelenleg nem lehet hozzáférni a következő eszközön: %1$s. Próbálja újra a táblagépén.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Ez az alkalmazás nagyobb biztonságot igényel. Próbálja újra a táblagépén.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Ez az alkalmazás további engedélyeket kér, de az engedélyeket nem lehet megadni streamelési munkamenetben. Előbb adja meg az engedélyeket a táblagépén.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Ehhez nem lehet hozzáférni a következő eszközön: %1$s. Próbálja újra a táblagépen.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">A táblagép beállításai nem állnak rendelkezésre</string>
+    <string name="battery_saver_charged_notification_summary">A táblagép töltöttsége elegendő. A funkciók használata már nincs korlátozva.</string>
+    <string name="default_audio_route_name">Táblagép</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s aktiválni szeretné a Felfedezés érintéssel funkciót. Amikor be van kapcsolva a Felfedezés érintéssel, akkor hallhatja vagy láthatja annak leírását, ami az ujja alatt van, illetve végrehajthat kézmozdulatokat a táblagép kezeléséhez.</string>
+    <string name="global_actions">Táblagép beállításait</string>
+    <string name="kg_failed_attempts_almost_at_login">"%1$d alkalommal helytelenül rajzolta le a feloldási mintát. További %2$d sikertelen kísérlet után egy e-mail fiók használatával kell feloldania a táblagépét.
+
+ Kérjük, próbálja újra %3$d másodperc múlva."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">A táblagépet %1$d alkalommal próbálta meg sikertelenül feloldani. %2$d további sikertelen próbálkozás után a rendszer visszaállítja a táblagép gyári alapértelmezett beállításait, és minden felhasználói adat elvész.</string>
+    <string name="kg_failed_attempts_now_wiping">A táblagépet %d alkalommal próbálta meg sikertelenül feloldani. A rendszer visszaállítja a táblagép gyári alapértelmezett beállításait.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">A táblagépet %1$d alkalommal próbálta meg sikertelenül feloldani. %2$d további sikertelen próbálkozás után a rendszer visszaállítja a táblagép gyári alapértelmezett beállításait, és minden felhasználói adat elvész.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Helytelenül rajzolta le a feloldási mintát %1$d alkalommal. További %2$d sikertelen kísérlet után a Google rendszerében használt bejelentkezési adataival kell feloldania a táblagépét.
+
+ Kérjük, próbálja újra %3$d másodperc múlva."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">A táblagépet %d alkalommal próbálta meg sikertelenül feloldani. A rendszer visszaállítja a táblagép gyári alapértelmezett beállításait.</string>
+    <string name="lockscreen_missing_sim_message">Nincs SIM a táblagépben.</string>
+    <string name="low_memory">A táblagép tárhelye tele van. Szabadítson fel helyet néhány fájl törlésével.</string>
+    <string name="permdesc_bluetooth">Lehetővé teszi az alkalmazás számára a táblagépen lévő Bluetooth beállításainak megtekintését, valamint kapcsolatok kezdeményezését és fogadását a párosított eszközökkel.</string>
+    <string name="permdesc_bluetoothAdmin">Lehetővé teszi az alkalmazás számára, hogy konfigurálja a helyi Bluetooth-t, valamint hogy távoli eszközöket fedezzen fel és párosítson.</string>
+    <string name="permdesc_broadcastSticky">Lehetővé teszi az alkalmazás számára ragadós üzenetek küldését, amelyek a sugárzás után is megmaradnak. A túlzott használat lelassíthatja vagy instabillá teheti a táblagépet a nagymértékű memóriahasználattal.</string>
+    <string name="permdesc_changeWifiMulticastState">Lehetővé teszi az alkalmazás számára, hogy olyan csomagokat fogadjon, amelyeket nem csak a táblagépének, hanem egy Wi-Fi hálózat minden eszközének elküldtek többirányú címek használatával. Több energiát használ, mint a nem többirányú üzemmód.</string>
+    <string name="permdesc_changeWimaxState">Lehetővé teszi az alkalmazás számára, hogy a táblagépet csatlakoztassa WiMAX-hálózathoz vagy leválassza azt róla.</string>
+    <string name="permdesc_getAccounts">Lehetővé teszi az alkalmazás számára a táblagép által ismert hálózatok listájának lekérését; beleértve a telepített alkalmazások által létrehozott bármely fiókot.</string>
+    <string name="permdesc_persistentActivity">Lehetővé teszi az alkalmazás számára, hogy egyes részeit állandó jelleggel eltárolja a memóriában. Ez korlátozhatja a többi alkalmazás számára rendelkezésre álló memóriát, és lelassíthatja a táblagépet.</string>
+    <string name="permdesc_readCalendar">Az alkalmazás olvashatja a táblagépen tárolt összes naptáreseményt, és megoszthatja vagy mentheti a naptáradatokat.</string>
+    <string name="permdesc_readContacts">Lehetővé teszi az alkalmazás számára a táblagépen tárolt névjegyekre vonatkozó adatok olvasását. Az alkalmazások ezenkívül hozzáférnek azokhoz a fiókokhoz is a táblagépen, amelyek létrehoztak névjegyeket. Ebbe beletartozhatnak a telepített alkalmazások által létrehozott fiókok is. Ez az engedély lehetővé teszi az alkalmazások számára a névjegyadatok mentését, így a rosszindulatú alkalmazások az Ön tudta nélkül megoszthatják őket.</string>
+    <string name="permdesc_readSms">Az alkalmazás olvashatja a táblagépen tárolt összes SMS-t (szöveges üzenetet).</string>
+    <string name="permdesc_receiveBootCompleted">Lehetővé teszi az alkalmazás számára, hogy elindítsa magát a rendszerindítás befejezése után. Ez meghosszabbíthatja a táblagép elindításának idejét, az állandó futás miatt pedig lelassíthatja a táblagépet.</string>
+    <string name="permdesc_setTimeZone">Lehetővé teszi az alkalmazás számára, hogy módosítsa a táblagép időzónáját.</string>
+    <string name="permdesc_transmitIr">Engedélyezi, hogy az alkalmazás használhassa a táblagép infravörös érzékelőjét.</string>
+    <string name="permdesc_wakeLock">Lehetővé teszi az alkalmazás számára, hogy megakadályozza, hogy a táblagép alvó üzemmódra váltson.</string>
+    <string name="permdesc_writeCalendar">Az alkalmazás hozzáadhatja, eltávolíthatja vagy módosíthatja a táblagépen található naptáreseményeket. Az alkalmazás olyan üzeneteket küldhet, amelyekről úgy tűnhet, hogy a naptár tulajdonosaitól származnak, illetve a tulajdonosok értesítése nélkül módosíthat eseményeket.</string>
+    <string name="permdesc_writeCallLog">Lehetővé teszi, hogy az alkalmazás módosítsa a táblagép híváslistáját, beleértve a bejövő és kimenő hívások adatait is. A rosszindulatú alkalmazások ezt arra használhatják, hogy híváslistáját töröljék vagy módosítsák.</string>
+    <string name="permdesc_writeContacts">Lehetővé teszi az alkalmazás számára a táblagépen tárolt névjegyekre vonatkozó adatok módosítását. Ezzel az engedéllyel az alkalmazások törölhetik a névjegyadatokat.</string>
+    <string name="permlab_wakeLock">táblagép alvás üzemmódjának megakadályozása</string>
+    <string name="policydesc_watchLogin">Megfigyeli a képernyő feloldásakor helytelenül beírt jelszavak számát, és túl sok hibásan beírt jelszó esetén lezárja a táblagépet, vagy törli a táblagép összes adatát.</string>
+    <string name="policydesc_watchLogin_secondaryUser">A képernyőzárolás során megadott helytelen jelszavak számának figyelése, és a táblagép zárolása vagy a felhasználó összes adatának törlése abban az esetben, ha túl sokszor adtak meg helytelen jelszót.</string>
+    <string name="policydesc_wipeData">Figyelmeztetés nélkül törli a táblagép adatait, visszaállítva a gyári adatokat.</string>
+    <string name="policydesc_wipeData_secondaryUser">A felhasználó összes adatának törlése erről a táblagépről figyelmeztetés nélkül.</string>
+    <string name="power_dialog">Táblagép beállításai</string>
+    <string name="shutdown_confirm">A táblagép ki fog kapcsolni.</string>
+    <string name="vdm_camera_access_denied">Nem lehet hozzáférni a táblagép kamerájához a következő eszközön: %1$s</string>
+</resources>

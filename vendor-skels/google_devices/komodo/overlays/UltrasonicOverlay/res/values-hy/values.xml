@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Մատնահետքի հատվածում մաքրեք էկրանը</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Սրբեք էկրանը՝ բոլոր հետքերը և բծերը մաքրելու համար։ Սա կօգնի գրանցել մատնահետքի պարզ պատկերներ։</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Շարունակելուց առաջ մաքրեք ձեր էկրանը</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Եթե էկրանի պաշտպանիչ ունեք, փակցրեք այն նախքան ձեր մատնահետքը կարգավորելը։
+
+Խորհուրդ ենք տալիս օգտագործել Made for Google հավաստագրմամբ էկրանի պաշտպանիչ։ Այլ պաշտպանիչներով սարքերը կարող են չճանաչել ձեր մատնահետքը։"</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">Հպեք մատի ծայրով</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Հպեք մատի ձախ եզրով</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Այժմ հպեք մատի աջ եզրով</string>
+</resources>

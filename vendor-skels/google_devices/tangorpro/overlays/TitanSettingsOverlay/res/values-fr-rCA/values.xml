@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Mode Console</string>
+    <string name="dream_no_screen_saver_caption">Aucun écran de veille</string>
+    <string name="dream_no_screen_saver_description">"Pour économiser de l'énergie, votre écran s'éteint après une période d'inactivité"</string>
+    <string name="dream_no_screen_saver_preview_caption">Écologique</string>
+    <string name="dream_secondary_button_title">Ignorer</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Pendant la recharge sur la station</string>
+    <string name="screensaver_settings_summary_off">"Affichez vos photos, vos illustrations, vos horloges et bien plus lorsque l'appareil est inactif"</string>
+    <string name="screensaver_settings_summary_postured_and_charging">En position verticale et pendant la recharge</string>
+    <string name="screensaver_settings_summary_sleep">Pendant la recharge</string>
+    <string name="when_to_show_hubmode_charging">Pendant la recharge</string>
+    <string name="when_to_show_hubmode_docked">"Sur la station d'accueil"</string>
+    <string name="when_to_show_hubmode_never">Jamais</string>
+</resources>

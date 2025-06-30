@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>עליך להזיז את האצבע. יש לנסות שוב.</item>
+        <item>טביעת האצבע כבר רשומה, יש להשתמש באצבע אחרת.</item>
+        <item>איכות התמונה נמוכה. יש לנסות שוב.</item>
+        <item/>
+        <item>איכות התמונה נמוכה. יש לנסות שוב.</item>
+        <item/>
+        <item/>
+        <item>זוהה כתם, צריך לנקות את המסך. יש לנסות שוב.</item>
+        <item>קריאת התמונה נכשלה. יש לנסות שוב.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>הנתונים לא תקינים. יש לנסות שוב.</item>
+        <item>רישום טביעת האצבע נכשל. יש לנסות שוב.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">‏לא ניתן להשתמש בחיישן טביעות האצבע. צריך ליצור קשר עם ספק תיקונים או להיכנס לכתובת g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">‏צריך ליצור קשר עם ספק תיקונים או להיכנס לכתובת g.co/pixel/fingerprintunlock</string>
+</resources>

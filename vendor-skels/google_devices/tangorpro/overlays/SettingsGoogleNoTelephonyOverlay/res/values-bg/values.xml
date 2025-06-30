@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wi‑Fi</string>
+    <string name="non_carrier_data_usage">Пренос на данни през Wi-Fi</string>
+    <string name="tether_settings_title_all">Тетъринг</string>
+    <string name="tethering_footer_info">Използвайте тетъринг, за да предоставите достъп до интернет на други устройства чрез USB, Ethernet или Bluetooth.</string>
+</resources>

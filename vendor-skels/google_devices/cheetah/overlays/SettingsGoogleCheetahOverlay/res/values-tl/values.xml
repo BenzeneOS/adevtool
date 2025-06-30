@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Password • Fingerprint • Mukha</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Pattern • Fingerprint • Mukha</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN • Fingerprint • Mukha</string>
+</resources>

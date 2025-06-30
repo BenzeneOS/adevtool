@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Batareya holati signallari</string>
+    <string name="edge_to_edge_navigation_summary">Bosh ekranga qaytish uchun pastdan tepaga tez suring. Vazifalar panelini ochish uchun pastdan tepaga sekin suring. Bir ilovadan boshqasiga oʻtish uchun pastdan tepaga surib, bosib turing va qoʻyib yuboring. Orqaga qaytish uchun ekran chetini chapga yoki oʻngga suring.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Bu qurilmani Pixel planshetiga yaqinroq tuting va qaytadan urining.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Quloqlik qutisini oching va uni Pixel planshetiga yaqinroq tuting, keyin qaytadan urining.</string>
+    <string name="sound_dashboard_summary">Tovush balandligi</string>
+    <string name="sound_dashboard_summary_with_dnd">Tovush balandligi, Bezovta qilinmasin</string>
+    <string name="sound_settings">Tovush</string>
+</resources>

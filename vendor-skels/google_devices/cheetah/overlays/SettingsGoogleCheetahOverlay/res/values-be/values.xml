@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Пароль • Адбітак пальца • Твар</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Узор разблакіроўкі • Адбітак пальца • Твар</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN-код • Адбітак пальца • Твар</string>
+</resources>

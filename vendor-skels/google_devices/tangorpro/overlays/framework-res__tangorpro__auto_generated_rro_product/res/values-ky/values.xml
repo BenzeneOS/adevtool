@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Манжаңыз сенсорду толугу менен жабышы керек</string>
+    <string name="fingerprint_acquired_power_press">Улантуу үчүн сенсорго акырын тийип коюңуз</string>
+    <string name="fingerprint_acquired_too_fast">Манжаңыз менен сенсорду көбүрөөк басып туруңуз</string>
+    <string name="fingerprint_error_power_pressed">Болбой калды. Кийинки жолу акырын тийгенге аракет кылыңыз.</string>
+</resources>

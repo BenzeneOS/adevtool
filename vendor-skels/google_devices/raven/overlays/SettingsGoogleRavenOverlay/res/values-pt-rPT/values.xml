@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Aumenta automaticamente a taxa de atualização de 60 para 120 Hz para algum conteúdo. Aumenta a utilização da bateria.</string>
+</resources>

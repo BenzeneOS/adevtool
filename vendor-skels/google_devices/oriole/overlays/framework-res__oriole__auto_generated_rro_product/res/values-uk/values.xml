@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Перемістіть палець. Повторіть спробу.</item>
+        <item>Відбиток цього пальця вже зареєстрований. Спробуйте інший.</item>
+        <item>Погана якість зображення. Повторіть спробу.</item>
+        <item/>
+        <item>Погана якість зображення. Повторіть спробу.</item>
+        <item/>
+        <item/>
+        <item>Виявлено забруднення, очистьте екран. Повторіть спробу.</item>
+        <item>Не вдалося прочитати зображення. Повторіть спробу.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Неправильні дані. Повторіть спробу.</item>
+        <item>Не вдалося зареєструвати відбиток пальця. Повторіть спробу.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Не вдається скористатися сканером відбитків пальців. Зверніться до постачальника послуг із ремонту або перейдіть на сторінку g.co/pixel/fingerprintunlock.</string>
+    <string name="fingerprint_recalibrate_notification_content">Зверніться до постачальника послуг із ремонту або перейдіть на сторінку g.co/pixel/fingerprintunlock</string>
+</resources>

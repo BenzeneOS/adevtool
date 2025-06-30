@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Modaliteti Hub</string>
+    <string name="dream_no_screen_saver_caption">Pa mbrojtës ekrani</string>
+    <string name="dream_no_screen_saver_description">Për të kursyer energji, ekrani yt do të çaktivizohet pas mungesës së aktivitetit</string>
+    <string name="dream_no_screen_saver_preview_caption">Miqësor ndaj mjedisit</string>
+    <string name="dream_secondary_button_title">Anashkalo</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Kur është në stacion dhe në karikim</string>
+    <string name="screensaver_settings_summary_off">Shfaq fotografitë e preferuara, ilustrime, orën etj. kur është në gjendje joaktive</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Kur është vertikal dhe në karikim</string>
+    <string name="screensaver_settings_summary_sleep">Gjatë karikimit</string>
+    <string name="when_to_show_hubmode_charging">Gjatë karikimit</string>
+    <string name="when_to_show_hubmode_docked">Kur lidhet me stacionin</string>
+    <string name="when_to_show_hubmode_never">Asnjëherë</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">Uistite sa, že prstom zakrývate senzor</string>
+    <string name="fingerprint_acquired_power_press">Nastavujte ďalej jemným klepnutím na senzor</string>
+    <string name="fingerprint_acquired_too_fast">Podržte prst na senzore trocha dlhšie</string>
+    <string name="fingerprint_error_power_pressed">Overenie bolo ukončené. Nabudúce skúste klepnúť zľahka.</string>
+</resources>

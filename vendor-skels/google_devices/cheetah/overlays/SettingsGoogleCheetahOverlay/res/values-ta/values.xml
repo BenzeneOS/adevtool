@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">கடவுச்சொல் • கைரேகை • முகம் மூலம் திறத்தல்</string>
+    <string name="biometrics_unlock_set_unlock_pattern">பேட்டர்ன் • கைரேகை • முகம் மூலம் திறத்தல்</string>
+    <string name="biometrics_unlock_set_unlock_pin">பின் • கைரேகை • முகம் மூலம் திறத்தல்</string>
+</resources>

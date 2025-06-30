@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">ଆପଣଙ୍କର ଆଙ୍ଗୁଠି ସେନ୍ସରକୁ କଭର କରୁଥିବା ସୁନିଶ୍ଚିତ କରନ୍ତୁ</string>
+    <string name="fingerprint_acquired_power_press">ସେଟଅପ ଜାରି ରଖିବା ପାଇଁ ସେନ୍ସରକୁ ଧୀରେ ସ୍ପର୍ଶ କରନ୍ତୁ</string>
+    <string name="fingerprint_acquired_too_fast">ଟିକିଏ ଅଧିକ ସମୟ ପାଇଁ ଆପଣଙ୍କ ଆଙ୍ଗୁଠିକୁ ସେନ୍ସର ଉପରେ ରଖନ୍ତୁ</string>
+    <string name="fingerprint_error_power_pressed">ଯାଞ୍ଚକରଣ ସମାପ୍ତ ହୋଇଛି। ପରବର୍ତ୍ତୀ ଥର ଧୀରେ ସ୍ପର୍ଶ କରିବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ।</string>
+</resources>

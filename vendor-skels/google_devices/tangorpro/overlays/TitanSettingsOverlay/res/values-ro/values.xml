@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Modul hub</string>
+    <string name="dream_no_screen_saver_caption">Fără screensaver</string>
+    <string name="dream_no_screen_saver_description">Pentru a economisi energie, afișajul se va închide după inactivitate</string>
+    <string name="dream_no_screen_saver_preview_caption">Respectă mediul</string>
+    <string name="dream_secondary_button_title">Omite</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Când este andocat și se încarcă</string>
+    <string name="screensaver_settings_summary_off">Afișează fotografiile, lucrările de artă, ceasurile și alte elemente preferate cât timp este inactiv</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Când este vertical și se încarcă</string>
+    <string name="screensaver_settings_summary_sleep">În timpul încărcării</string>
+    <string name="when_to_show_hubmode_charging">În timpul încărcării</string>
+    <string name="when_to_show_hubmode_docked">Când dispozitivul este andocat</string>
+    <string name="when_to_show_hubmode_never">Niciodată</string>
+</resources>

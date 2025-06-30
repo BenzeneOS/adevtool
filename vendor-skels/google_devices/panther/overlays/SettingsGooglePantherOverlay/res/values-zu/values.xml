@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Iphasiwedi • Isigxivizo somunwe • Ubuso</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Iphethini • Isigxivizo somunwe • Ubuso</string>
+    <string name="biometrics_unlock_set_unlock_pin">Iphinikhodi • Isigxivizo somunwe • Ubuso</string>
+</resources>

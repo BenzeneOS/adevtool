@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">Qiniseka ukuthi umunwe wakho umboza inzwa</string>
+    <string name="fingerprint_acquired_power_press">Ukuze uqhubeke nokusetha, thinta inzwa kancane</string>
+    <string name="fingerprint_acquired_too_fast">Gcina umunwe wakho kwinzwa isikhathi eside</string>
+    <string name="fingerprint_error_power_pressed">Ukuqinisekisa kuphelile. Zama ukuthinta kancane ngokuzayo.</string>
+</resources>

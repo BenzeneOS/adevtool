@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="floating_rotation_button_position_left">false</bool>
+</resources>

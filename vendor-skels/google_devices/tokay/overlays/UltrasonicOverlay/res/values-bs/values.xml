@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Očistite dio ekrana u blizini senzora</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Obrišite ekran da uklonite tragove, mrlje ili fleke. Na ovaj način se lakše snima jasnija slika otiska prsta.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Obrišite ekran prije nego što nastavite</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Ako imate zaštitu ekrana, stavite je prije postavljanja otiska prsta radi najboljih performansi.
+
+Radi najboljih rezultata koristite zaštitu ekrana koja ima certifikat Proizvedeno za Google. Moguće je da vaš otisak prsta neće funkcionirati s drugim zaštitama ekrana."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">Nagnite prst i dodirnite jagodicom</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Nagnite prst i dodirnite lijevim rubom</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Nagnite prst ponovo i dodirnite desnim rubom</string>
+</resources>

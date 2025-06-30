@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Lëviz gishtin. Provo përsëri.</item>
+        <item>Gishti është i regjistruar, përdor një gisht tjetër.</item>
+        <item>Cilësi e dobët imazhi. Provo përsëri.</item>
+        <item/>
+        <item>Cilësi e dobët imazhi. Provo përsëri.</item>
+        <item/>
+        <item/>
+        <item>U zbulua njollë, pastro ekranin. Provo përsëri.</item>
+        <item>Imazhi nuk mund të lexohej. Provo përsëri.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Të dhëna të pavlefshme. Provo përsëri.</item>
+        <item>Gishti nuk mund të regjistrohej. Provo përsëri.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Sensori i gjurmës së gishtit nuk mund të përdoret. Vizito një ofrues të shërbimit të riparimit ose g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Vizito një ofrues të shërbimit të riparimit ose g.co/pixel/fingerprintunlock</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_doze_brightness_sensor_to_brightness">
+        <item>-1</item>
+        <item>3</item>
+        <item>3</item>
+        <item>10</item>
+        <item>10</item>
+    </array>
+    <array name="config_doze_brightness_sensor_to_scrim_opacity">
+        <item>-1</item>
+        <item>133</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </array>
+    <bool name="config_enableDisplayCutoutProtection">true</bool>
+    <bool name="doze_display_state_supported">true</bool>
+    <bool name="doze_suspend_display_state_supported">false</bool>
+    <dimen name="keyguard_carrier_text_margin">70.0px</dimen>
+    <dimen name="lock_icon_padding">50.0px</dimen>
+    <dimen name="multi_user_switch_keyguard_margin">40.0px</dimen>
+    <dimen name="physical_power_button_center_screen_location_y">710.0px</dimen>
+    <dimen name="physical_volume_down_button_center_screen_location_y">1184.0px</dimen>
+    <dimen name="physical_volume_up_button_center_screen_location_y">1018.0px</dimen>
+    <dimen name="pixel_pitch">59.1</dimen>
+    <dimen name="status_bar_padding_top">1.0dp</dimen>
+    <dimen name="system_icons_super_container_avatarless_margin_end">56.0px</dimen>
+    <dimen name="udfps_burn_in_offset_x">6.0px</dimen>
+    <dimen name="udfps_burn_in_offset_y">17.0px</dimen>
+    <integer name="config_lockIconLongPress">100</integer>
+    <string name="config_frontBuiltInDisplayCutoutProtection">m 586.22,68.71 a 46.72,46.22 0 0 0 -93.43,0 46.22,46.22 0 0 0 93.43,0 z</string>
+    <string name="config_protectedCameraId">1</string>
+    <string name="config_rounded_mask">M21,0C19.94,0.01 18.83,0.04 17.73,0.11C16.91,0.17 16.09,0.25 15.3,0.36C14.5,0.48 13.72,0.62 12.95,0.81C11.42,1.19 9.97,1.72 8.65,2.43C7.32,3.14 6.12,4.02 5.08,5.07C4.04,6.11 3.15,7.31 2.44,8.64C1.73,9.97 1.19,11.42 0.82,12.94C0.63,13.7 0.48,14.49 0.37,15.29C0.25,16.09 0.17,16.9 0.12,17.72C0.05,18.82 0.02,19.93 0.01,21.55</string>
+    <string name="doze_brightness_sensor_type">com.google.sensor.binned_brightness</string>
+</resources>

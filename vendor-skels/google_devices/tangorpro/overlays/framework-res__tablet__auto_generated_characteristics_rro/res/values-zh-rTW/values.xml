@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">平板電腦正在啟動…</string>
+    <string name="android_upgrading_title">平板電腦正在更新…</string>
+    <string name="app_streaming_blocked_message">目前無法在 %1$s 上存取這個項目，請改用平板電腦。</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">這個應用程式要求進行額外的安全性驗證，請改用平板電腦。</string>
+    <string name="app_streaming_blocked_message_for_permission_request">這個應用程式要求額外權限，但串流期間無法授權。請先在平板電腦上授予權限。</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">無法在 %1$s 上存取這個項目，請改用平板電腦。</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">無法使用平板電腦設定</string>
+    <string name="battery_saver_charged_notification_summary">平板電腦電力充足，各項功能不再受到限制。</string>
+    <string name="default_audio_route_name">平板電腦</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s 需要啟用「輕觸探索」。開啟這項功能時，系統會在你的手指輕觸螢幕上的物件時顯示或朗讀說明，你也可以執行手勢來與平板電腦互動。</string>
+    <string name="global_actions">平板電腦選項</string>
+    <string name="kg_failed_attempts_almost_at_login">"你的解鎖圖案已畫錯 %1$d 次，如果再嘗試 %2$d 次仍未成功，系統就會要求你透過電子郵件帳戶解除平板電腦的鎖定狀態。
+
+請在 %3$d 秒後再試一次。"</string>
+    <string name="kg_failed_attempts_almost_at_wipe">你嘗試解除這個平板電腦的鎖定已失敗 %1$d 次，目前還剩 %2$d 次機會。如果失敗次數超過限制，平板電腦將恢復原廠設定，所有使用者資料都會遺失。</string>
+    <string name="kg_failed_attempts_now_wiping">你嘗試解除這個平板電腦的鎖定已失敗 %d 次，平板電腦現在將恢復原廠設定。</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">你嘗試解除這個平板電腦的鎖定已失敗 %1$d 次，目前還剩 %2$d 次機會。如果失敗次數超過限制，平板電腦將恢復原廠設定，所有使用者資料都會遺失。</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"你的解鎖圖案已畫錯 %1$d 次，如果再嘗試 %2$d 次仍未成功，系統就會要求你使用你的 Google 登入資訊解除平板電腦的鎖定狀態。
+
+請在 %3$d 秒後再試一次。"</string>
+    <string name="lockscreen_failed_attempts_now_wiping">你嘗試解除這個平板電腦的鎖定已失敗 %d 次，平板電腦現在將恢復原廠設定。</string>
+    <string name="lockscreen_missing_sim_message">平板電腦中沒有 SIM 卡。</string>
+    <string name="low_memory">平板電腦的儲存空間已滿。請刪除一些檔案，以釋放出可用空間。</string>
+    <string name="permdesc_bluetooth">允許應用程式查看平板電腦的藍牙設定，以及建立和接受與其他配對裝置的連線。</string>
+    <string name="permdesc_bluetoothAdmin">允許應用程式設定本機藍牙平板電腦，以及搜尋遠端裝置並配對連線。</string>
+    <string name="permdesc_broadcastSticky">允許應用程式傳送記憶廣播，這類廣播在廣播動作結束後仍繼續存在。請注意，過度使用此功能可能導致平板電腦使用過多的記憶體，導致平板電腦的執行速度變慢或不穩定。</string>
+    <string name="permdesc_changeWifiMulticastState">允許應用程式接收透過多點傳播位址傳送給 Wi-Fi 網路上所有裝置 (而不只是傳送給你的平板電腦) 的封包。這項設定會比非多點傳播模式耗用更多電力。</string>
+    <string name="permdesc_changeWimaxState">允許應用程式建立或中斷平板電腦與 WiMAX 網路的連線。</string>
+    <string name="permdesc_getAccounts">允許應用程式取得平板電腦上所記憶的帳戶清單，其中可能包括你安裝的應用程式所建立的任何帳戶。</string>
+    <string name="permdesc_persistentActivity">允許應用程式的部分內容常駐在記憶體中。這項設定可能會限制其他應用程式可用的記憶體，並拖慢平板電腦運作速度。</string>
+    <string name="permdesc_readCalendar">這個應用程式可讀取所有儲存在平板電腦上的日曆活動資訊，以及共用或儲存日曆資料。</string>
+    <string name="permdesc_readContacts">允許應用程式讀取平板電腦上儲存的聯絡人資料。如果你已在平板電腦上的帳戶建立聯絡人，應用程式也將可以存取這些帳戶，當中可能包括你安裝的應用程式所建立的帳戶。這項權限可讓應用程式儲存你的聯絡人資料，惡意應用程式也可能在你不知情的情況下洩露你的聯絡人資料。</string>
+    <string name="permdesc_readSms">這個應用程式可讀取所有儲存在平板電腦上的簡訊。</string>
+    <string name="permdesc_receiveBootCompleted">允許應用程式在系統完成開機程序後立即自行啟動。這會增加平板電腦的開機時間，而且會因為系統一直執行該應用程式導致平板電腦的整體運作速度變慢。</string>
+    <string name="permdesc_setTimeZone">允許應用程式變更平板電腦的時區。</string>
+    <string name="permdesc_transmitIr">允許應用程式使用平板電腦的紅外線傳送器。</string>
+    <string name="permdesc_wakeLock">允許應用程式防止平板電腦進入休眠狀態。</string>
+    <string name="permdesc_writeCalendar">這個應用程式可在平板電腦上新增、移除或變更日曆活動。提醒你，這個應用程式可能會以日曆擁有者的名義傳送訊息，或是在不通知日曆擁有者的情況下變更活動內容。</string>
+    <string name="permdesc_writeCallLog">允許應用程式修改平板電腦的通話記錄，包括來電和已撥電話相關資料。請注意，惡意應用程式可能濫用此功能刪除或修改你的通話記錄。</string>
+    <string name="permdesc_writeContacts">允許應用程式修改平板電腦上儲存的聯絡人資料。這項權限可讓應用程式刪除聯絡人資料。</string>
+    <string name="permlab_wakeLock">防止平板電腦進入休眠狀態</string>
+    <string name="policydesc_watchLogin">監控螢幕解鎖時密碼輸入錯誤的次數；如果錯誤次數過多，會鎖住平板電腦或清除平板電腦的所有資料。</string>
+    <string name="policydesc_watchLogin_secondaryUser">監控螢幕解鎖密碼輸入錯誤的次數；如果輸入錯誤的次數超過上限，系統會將平板電腦鎖定，或將這個使用者的資料全部清除。</string>
+    <string name="policydesc_wipeData">恢復原廠設定，不提出警告就直接清除平板電腦的資料。</string>
+    <string name="policydesc_wipeData_secondaryUser">將這個使用者的資料從這台平板電腦中清除，而不事先發出警告。</string>
+    <string name="power_dialog">平板電腦選項</string>
+    <string name="shutdown_confirm">你的平板電腦將會關機。</string>
+    <string name="vdm_camera_access_denied">無法從 %1$s 存取平板電腦的相機</string>
+</resources>

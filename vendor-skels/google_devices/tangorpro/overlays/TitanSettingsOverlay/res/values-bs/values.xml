@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Način rada središta</string>
+    <string name="dream_no_screen_saver_caption">Bez čuvara ekrana</string>
+    <string name="dream_no_screen_saver_description">Radi uštede energije ekran će se isključiti nakon neaktivnosti</string>
+    <string name="dream_no_screen_saver_preview_caption">Ekološki prihvatljivo</string>
+    <string name="dream_secondary_button_title">Preskoči</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Dok je priključen i tokom punjenja</string>
+    <string name="screensaver_settings_summary_off">Prikaz omiljenih fotografija, ilustracija, satova i drugog tokom neaktivnosti</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Dok je uspravan i tokom punjenja</string>
+    <string name="screensaver_settings_summary_sleep">Tokom punjenja</string>
+    <string name="when_to_show_hubmode_charging">Tokom punjenja</string>
+    <string name="when_to_show_hubmode_docked">Kada je na priključnoj stanici</string>
+    <string name="when_to_show_hubmode_never">Nikada</string>
+</resources>

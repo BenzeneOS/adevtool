@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Померите прст. Пробајте поново.</item>
+        <item>Прст је већ регистрован. Користите други прст.</item>
+        <item>Лош квалитет слике. Пробајте поново.</item>
+        <item/>
+        <item>Лош квалитет слике. Пробајте поново.</item>
+        <item/>
+        <item/>
+        <item>Откривена је мрља. Очистите екран. Пробајте поново.</item>
+        <item>Читање слике није успело. Пробајте поново.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Неисправни подаци. Пробајте поново.</item>
+        <item>Регистрација прста није успела. Пробајте поново.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Не можете да користите сензор за отисак прста. Посетите добављача за поправке или g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Посетите добављача за поправке или g.co/pixel/fingerprintunlock</string>
+</resources>

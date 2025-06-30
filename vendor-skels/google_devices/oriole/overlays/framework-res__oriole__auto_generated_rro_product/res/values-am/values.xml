@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>ጣትዎን ያንቀሳቅሱት። እንደገና ይሞክሩ።</item>
+        <item>ጣት አስቀድሞ ተመዘገበ ነው፣ የተለየ ጣት ይጠቀሙ።</item>
+        <item>ደካማ የምስል ጥራት። እንደገና ይሞክሩ።</item>
+        <item/>
+        <item>ደካማ የምስል ጥራት። እንደገና ይሞክሩ።</item>
+        <item/>
+        <item/>
+        <item>ጉድፍ ተገኝቷል፣ ማያ ገጽን ያጽዱ። እንደገና ይሞክሩ።</item>
+        <item>ምስልን ማንበብ አልተሳካም። እንደገና ይሞክሩ።</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>መጥፎ ውሂብ። እንደገና ይሞክሩ።</item>
+        <item>ጣትን መመዝገብ አልተሳካም። እንደገና ይሞክሩ።</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">የጣት አሻራ ዳሳሽን መጠቀም አይቻልም። የጥገና አገልግሎት ሰጪን ወይም g.co/pixel/fingerprintunlock ይጎብኙ</string>
+    <string name="fingerprint_recalibrate_notification_content">የጥገና አገልግሎት ሰጪን ወይም g.co/pixel/fingerprintunlock ይጎብኙ</string>
+</resources>

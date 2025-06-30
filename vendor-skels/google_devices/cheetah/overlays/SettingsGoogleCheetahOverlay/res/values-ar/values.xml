@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">كلمة المرور • بصمة الإصبع • بصمة الوجه</string>
+    <string name="biometrics_unlock_set_unlock_pattern">النقش • بصمة الإصبع • بصمة الوجه</string>
+    <string name="biometrics_unlock_set_unlock_pin">رقم التعريف الشخصي • بصمة الإصبع • بصمة الوجه</string>
+</resources>

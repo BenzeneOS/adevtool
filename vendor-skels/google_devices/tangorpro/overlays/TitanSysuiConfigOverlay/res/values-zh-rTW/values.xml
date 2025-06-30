@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">選擇插入座架時平板電腦顯示的螢幕保護程式，並開啟免持協助功能</string>
+    <string name="dock_setup_notification_title">插入座架時發揮更多功用</string>
+    <string name="stylus_system_update_notification_text">如要充分運用觸控筆，請安裝最新的 Android 更新</string>
+    <string name="stylus_system_update_notification_title">安裝 Android 更新</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Asigură-te că degetul acoperă senzorul</string>
+    <string name="fingerprint_acquired_power_press">Ca să continui configurarea, atinge ușor senzorul</string>
+    <string name="fingerprint_acquired_too_fast">Ține degetul pe senzor încă puțin</string>
+    <string name="fingerprint_error_power_pressed">Verificarea s-a încheiat. Încearcă să atingi ușor data viitoare.</string>
+</resources>

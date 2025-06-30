@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">ایک اسکرین سیور کا انتخاب کریں اور آپ کے ٹیبلیٹ کے ڈاک ہونے کے دوران ہینڈز فری مدد آن کریں</string>
+    <string name="dock_setup_notification_title">ڈاک ہونے کے دوران بہت کچھ کریں</string>
+    <string name="stylus_system_update_notification_text">‏اپنے اسٹائلس سے زیادہ سے زیادہ فائدہ اٹھانے کے لیے تازہ ترین Android اپ ڈیٹ انسٹال کریں</string>
+    <string name="stylus_system_update_notification_title">‏Android اپ ڈیٹ انسٹال کریں</string>
+</resources>

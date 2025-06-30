@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Awtomatikong tinataasan ang rate ng pag-refresh mula 60 hanggang 120 Hz para sa ilang content. Pinapalakas ang paggamit ng baterya.</string>
+</resources>

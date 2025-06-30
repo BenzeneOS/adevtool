@@ -276,6 +276,16 @@ android_app_import {
 }
 
 android_app_import {
+    name: "HbmSVManager",
+    owner: "google_devices",
+    apk: "system_ext/priv-app/HbmSVManager/HbmSVManager.apk",
+    certificate: "platform",
+    privileged: true,
+    dex_preopt: { enabled: false },
+    system_ext_specific: true,
+}
+
+android_app_import {
     name: "OemRilService",
     owner: "google_devices",
     apk: "system_ext/priv-app/OemRilService/OemRilService.apk",

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Tablet başlatılıyor…</string>
+    <string name="android_upgrading_title">Tablet güncelleniyor…</string>
+    <string name="app_streaming_blocked_message">Bu uygulamaya şu anda %1$s cihazınızdan erişilemiyor. Bunun yerine tabletinizi kullanmayı deneyin.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Bu uygulama daha fazla güvenlik istiyor. Bunun yerine tabletinizi kullanmayı deneyin.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Bu uygulama ek izinler istiyor ancak akış oturumundayken izin verilemez. Önce tabletinizde ilgili izni verin.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Bu uygulamaya %1$s cihazınızdan erişilemiyor. Bunun yerine tabletinizi kullanmayı deneyin.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Tablet ayarları kullanılamıyor</string>
+    <string name="battery_saver_charged_notification_summary">Tablet yeterince şarj oldu. Özellikler artık kısıtlanmış değil.</string>
+    <string name="default_audio_route_name">Tablet</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s Dokunarak Keşfet özelliğini etkinleştirmek istiyor. Dokunarak Keşfet açık olduğunda, parmağınızın altındaki öğelere ait açıklamaları duyabilir veya görebilir ya da tabletle etkileşimde bulunmak için birtakım hareketler yapabilirsiniz.</string>
+    <string name="global_actions">Tablet seçenekleri</string>
+    <string name="kg_failed_attempts_almost_at_login">"Kilit açma deseninizi %1$d kez yanlış çizdiniz. %2$d başarısız denemeden sonra, tabletinizi bir e-posta hesabı kullanarak açmanız istenir.
+
+ %3$d saniye içinde tekrar deneyin."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Tablet kilidini %1$d defa yanlış bir şekilde açmaya çalıştınız. %2$d defa daha başarısız deneme yapılırsa, tablet fabrika varsayılan değerine sıfırlanır ve tüm kullanıcı verileri kaybedilir.</string>
+    <string name="kg_failed_attempts_now_wiping">Tablet kilidini %d defa yanlış bir şekilde açmaya çalıştınız. Tablet şimdi fabrika varsayılanına sıfırlanacak.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Tablet kilidini %1$d defa yanlış bir şekilde açmaya çalıştınız. %2$d defa daha başarısız deneme yapılırsa, tablet fabrika varsayılanına sıfırlanır ve tüm kullanıcı verileri kaybedilir.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Kilit açma deseninizi %1$d kez yanlış çizdiniz. %2$d başarısız denemeden sonra, tabletinizi, Google oturum açma bilgilerinizi kullanarak açmanız istenir.
+
+%3$d saniye içinde tekrar deneyin."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Tablet kilidini %d defa yanlış bir şekilde açmaya çalıştınız. Tablet şimdi fabrika varsayılanına sıfırlanacak.</string>
+    <string name="lockscreen_missing_sim_message">Tablette SIM yok.</string>
+    <string name="low_memory">Tabletin depolama alanı dolu! Yer açmak için bazı dosyaları silin.</string>
+    <string name="permdesc_bluetooth">Uygulamaya, tabletteki Bluetooth yapılandırmasını görüntüleme, eşlenmiş cihazlarla bağlantı yapma ve bu tür bağlantıları kabul etme izni verir.</string>
+    <string name="permdesc_bluetoothAdmin">Uygulamaya, yerel Bluetooth tabletini yapılandırma ve uzak cihazları keşfedip bunlarla eşleşme izni verir.</string>
+    <string name="permdesc_broadcastSticky">Uygulamaya, yayın bittikten sonra da kalan sabit yayınlar gönderme izni verir. Aşırı kullanılması çok fazla bellek harcanmasına neden olarak tableti yavaşlatabilir veya dengesiz hale getirebilir.</string>
+    <string name="permdesc_changeWifiMulticastState">Uygulamaya, çoklu yayın adreslerini kullanarak yalnızca tablete değil Kablosuz ağ üzerindeki tüm cihazlara gönderilen paketleri alma izni verir. Çoklu olmayan yayın moduna göre daha fazla güç tüketir.</string>
+    <string name="permdesc_changeWimaxState">Uygulamaya, tableti WiMAX ağlarına bağlanma veya bağlantıyı kesme izni verir.</string>
+    <string name="permdesc_getAccounts">Uygulamaya tablet tarafından bilinen hesapların listesini alma izni verir. Bu liste, yüklediğiniz uygulamalar tarafından oluşturulan tüm hesapları içerebilir.</string>
+    <string name="permdesc_persistentActivity">Uygulamaya kendisinin bir bölümünü bellekte kalıcı yapma izni verir. Bu izin, diğer uygulamaların kullanabileceği belleği sınırlandırarak tabletin yavaş çalışmasına neden olabilir.</string>
+    <string name="permdesc_readCalendar">Bu uygulama, tabletinizde kayıtlı tüm takvim etkinliklerini okuyabilir ve takvim verilerinizi paylaşabilir ya da kaydedebilir.</string>
+    <string name="permdesc_readContacts">Uygulamaya tabletinizde kayıtlı kişileriniz ile ilgili verileri okuma izni verir. Uygulamalar ayrıca tabletinizde kişi oluşturan hesaplara da erişebilir. Bu, yüklediğiniz uygulamalar tarafından oluşturulan hesapları içerebilir. Bu izin, uygulamanın kişi verilerinizi kaydetmesine olanak sağlar ve kötü amaçlı uygulamalar kişi verilerini sizden habersiz paylaşabilir.</string>
+    <string name="permdesc_readSms">Bu uygulama, tabletinizde kayıtlı tüm SMS mesajlarını (kısa mesajları) okuyabilir.</string>
+    <string name="permdesc_receiveBootCompleted">Uygulamaya, kendisini sistem açılışı bittikten hemen sonra başlatma izni verir. Bu izin, tabletin başlaması için daha uzun süre geçmesine ve uygulamanın her zaman çalışarak tableti yavaşlatmasına neden olabilir.</string>
+    <string name="permdesc_setTimeZone">Uygulamaya, tabletin saat dilimini değiştirme izni verir.</string>
+    <string name="permdesc_transmitIr">Uygulamaya, tabletin kızıl ötesi vericisini kullanma izni verir.</string>
+    <string name="permdesc_wakeLock">Uygulamaya, tabletin uykuya geçmesini önleme izni verir.</string>
+    <string name="permdesc_writeCalendar">Bu uygulama, tabletinize takvim etkinlikleri ekleyebilir, mevcut etkinlikleri kaldırabilir ve değiştirebilir. Bu uygulama, takvim sahiplerinden gelmiş gibi görünen iletiler gönderebilir veya takvim sahiplerinin bilgisi olmadan etkinlikleri değiştirebilir.</string>
+    <string name="permdesc_writeCallLog">Uygulamaya tabletinizin çağrı günlüğünde (gelen ve giden çağrılarla ilgili veriler dahil olmak üzere) değişiklik yapma izni verir. Kötü amaçlı uygulamalar bu izni kullanarak çağrı günlüğünüzü silebilir veya değiştirebilir.</string>
+    <string name="permdesc_writeContacts">Uygulamaya tabletinizde kayıtlı kişileriniz ile ilgili verileri değiştirme izni verir. Bu izin, uygulamanın kişi verilerinizi silmesine olanak sağlar.</string>
+    <string name="permlab_wakeLock">tabletin uykuya geçmesini önle</string>
+    <string name="policydesc_watchLogin">Ekran kilidini açarken yapılan yanlış şifre girme denemelerini izler ve çok fazla sayıda yanlış şifre girme denemesi yapılmışsa tableti kilitler veya tabletteki tüm verileri siler.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Ekran kilidi açılırken girilen hatalı şifre sayısını takip edin ve çok fazla sayıda hatalı şifre girildiğinde tableti kilitleyin veya söz konusu kullanıcının tüm verilerini silin.</string>
+    <string name="policydesc_wipeData">Fabrika verilerine sıfırlama işlemi gerçekleştirerek tabletteki verileri uyarıda bulunmadan siler.</string>
+    <string name="policydesc_wipeData_secondaryUser">Uyarı yapmadan bu kullanıcının bu tabletteki verilerini silin.</string>
+    <string name="power_dialog">Tablet seçenekleri</string>
+    <string name="shutdown_confirm">Tabletiniz kapanacak.</string>
+    <string name="vdm_camera_access_denied">%1$s cihazınızdan tabletin kamerasına erişilemiyor</string>
+</resources>

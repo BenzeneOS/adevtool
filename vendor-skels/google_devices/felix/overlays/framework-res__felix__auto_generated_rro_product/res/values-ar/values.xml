@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">‏ميزة Dual Screen غير متاحة لأنّ هاتف Pixel ساخن للغاية.</string>
+    <string name="fingerprint_acquired_partial">تأكَّد من أنّ إصبعك يغطي أداة الاستشعار</string>
+    <string name="fingerprint_acquired_power_press">لمواصلة عملية الإعداد، المس أداة الاستشعار بخفة</string>
+    <string name="fingerprint_acquired_too_fast">ثبِّت إصبعك على أداة الاستشعار لمدة أطول قليلاً</string>
+    <string name="fingerprint_error_power_pressed">تم إنهاء عملية إثبات الهوية. حاوِل لمس الزر بخفة في المرة التالية.</string>
+</resources>

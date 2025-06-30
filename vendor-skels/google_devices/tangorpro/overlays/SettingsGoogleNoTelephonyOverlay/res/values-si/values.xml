@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wi-Fi</string>
+    <string name="non_carrier_data_usage">Wi‑Fi දත්ත භාවිතය</string>
+    <string name="tether_settings_title_all">ටෙදරින්</string>
+    <string name="tethering_footer_info">USB, ඊතර්නෙට්, හෝ බ්ලූටූත් හරහා වෙනත් උපාංගවලට ඊතර්නෙට් සැපයීමට ටෙදරින් භාවිත කරන්න.</string>
+</resources>

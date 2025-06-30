@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Surfplattan startar …</string>
+    <string name="android_upgrading_title">Surfplattan uppdateras …</string>
+    <string name="app_streaming_blocked_message">Det går inte att streama detta till %1$s för närvarande. Testa med surfplattan i stället.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Appen begär ytterligare säkerhet. Testa med surfplattan i stället.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Appen begär ytterligare behörigheter, men det går inte att bevilja behörigheter under streamingsessionen. Bevilja behörigheten på surfplattan först.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Det går inte att streama detta till %1$s. Testa med surfplattan i stället.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Surfplattans inställningar är inte tillgängliga</string>
+    <string name="battery_saver_charged_notification_summary">Surfplattan har laddats tillräckligt. Funktioner begränsas inte längre.</string>
+    <string name="default_audio_route_name">Surfplatta</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s vill aktivera Explore by touch. När funktionen är aktiv kan du höra eller se beskrivningar av vad du har under fingret eller utföra gester för att göra saker med surfplattan.</string>
+    <string name="global_actions">Alternativ för surfplattan</string>
+    <string name="kg_failed_attempts_almost_at_login">"Du har ritat ditt grafiska lösenord fel %1$d gånger. Efter ytterligare %2$d försök ombeds du låsa upp surfplattan med ett e-postkonto.
+
+ Försök igen om %3$d sekunder."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Du har försökt låsa upp mobilen på fel sätt %1$d gånger. Efter ytterligare %2$d misslyckade försök återställs surfplattan till fabriksinställningarna. Du förlorar då alla användardata.</string>
+    <string name="kg_failed_attempts_now_wiping">Du har försökt låsa upp surfplattan på fel sätt %d gånger. Surfplattan återställs nu till fabriksinställningarna.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Du har försökt låsa upp surfplattan på fel sätt %1$d gånger. Efter %2$d misslyckade försök till kommer surfplattan att återställas till fabriksinställningarna. Du förlorar då alla användardata.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Du har ritat ditt grafiska lösenord fel %1$d gånger. Efter %2$d försök till ombeds du att låsa upp surfplattan med din Google-inloggning.
+
+ Försök igen om  %3$d sekunder."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Du har försökt låsa upp surfplattan på fel sätt %d gånger. Surfplattan återställs nu till fabriksinställningarna.</string>
+    <string name="lockscreen_missing_sim_message">Inget SIM-kort i surfplattan.</string>
+    <string name="low_memory">Pekdatorns lagringsutrymme är fullt. Ta bort några filer för att frigöra utrymme.</string>
+    <string name="permdesc_bluetooth">Tillåter att appen kommer åt pekdatorns Bluetooth-konfiguration och upprättar och godkänner anslutningar till parkopplade enheter.</string>
+    <string name="permdesc_bluetoothAdmin">Tillåter att appen konfigurerar den lokala Bluetooth-surfplattan samt upptäcker och parkopplar den med fjärranslutna enheter.</string>
+    <string name="permdesc_broadcastSticky">Tillåter att appen skickar sticky broadcasts, som finns kvar när sändningen är slut. Vid intensiv användning kan mobilen bli långsam eller instabil eftersom minnet överbelastas.</string>
+    <string name="permdesc_changeWifiMulticastState">Tillåter att appen tar emot paket som skickats med multicast-adress till alla enheter i ett wifi-nätverk och inte bara till den här surfplattan. Detta drar mer batteri än när multicastläget inte används.</string>
+    <string name="permdesc_changeWimaxState">Tillåter att appen ansluter surfplattan till eller kopplar från WiMAX-nätverk.</string>
+    <string name="permdesc_getAccounts">Tillåter att appen laddar ned en lista över alla kända konton på surfplattan. Detta kan inkludera konton som har skapats av appar som du har installerat.</string>
+    <string name="permdesc_persistentActivity">Tillåter att delar av appen läggs beständigt i minnet. Detta kan innebära att det tillgängliga minnet för andra appar begränsas, vilket gör surfplattan långsam.</string>
+    <string name="permdesc_readCalendar">Appen kan läsa alla kalenderhändelser som sparats på surfplattan och dela eller spara uppgifter i din kalender.</string>
+    <string name="permdesc_readContacts">Tillåter att appen läser kontaktuppgifter som sparats på surfplattan. Appar har även åtkomst till de konton på surfplattan som har skapade kontakter. Detta kan inkludera konton som har skapats av appar som du har installerat. Med den här behörigheten tillåts appen att spara kontaktuppgifter. Skadliga appar kan dela uppgifterna med andra utan din vetskap.</string>
+    <string name="permdesc_readSms">Appen kan läsa alla sms som sparats på surfplattan.</string>
+    <string name="permdesc_receiveBootCompleted">Tillåter att appen startar automatiskt när systemet har startats om. Detta kan innebära att det tar längre tid att starta surfplattan och att surfplattan blir långsammare i och med att appen hela tiden körs i bakgrunden.</string>
+    <string name="permdesc_setTimeZone">Tillåter att appen ändrar pekdatorns tidszon.</string>
+    <string name="permdesc_transmitIr">Tillåter att appen använder surfplattans IR-sändare.</string>
+    <string name="permdesc_wakeLock">Tillåter att appen förhindrar att surfplattan går in i viloläge.</string>
+    <string name="permdesc_writeCalendar">Appen kan lägga till, ta bort eller ändra kalenderhändelser på surfplattan. Appen kan skicka meddelanden som ser ut att komma från kalenderns ägare eller ändra uppgifter utan ägarens vetskap.</string>
+    <string name="permdesc_writeCallLog">Tillåter att appen gör ändringar i pekdatorns samtalslista, inklusive i uppgifter om inkommande och utgående samtal. Skadliga program kan använda detta för att radera eller ändra din samtalslista.</string>
+    <string name="permdesc_writeContacts">Tillåter att appen ändrar kontaktuppgifter som sparats på surfplattan. Med den här behörigheten får appar även radera kontaktuppgifter.</string>
+    <string name="permlab_wakeLock">förhindra att surfplattan går in i viloläge</string>
+    <string name="policydesc_watchLogin">Övervaka antalet felaktiga lösenord som angetts för skärmlåset och lås surfplattan eller ta bort alla data från surfplattan om för många felaktiga försök görs.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Övervaka antalet felaktiga lösenord som skrivits in vid upplåsning av skärmen och lås surfplattan eller rensa alla uppgifter för den här användaren om för många felaktiga lösenord har skrivits in.</string>
+    <string name="policydesc_wipeData">Ta bort data från surfplattan utan förvarning genom att återställa standardinställningarna.</string>
+    <string name="policydesc_wipeData_secondaryUser">Rensa användarens uppgifter på den här surfplattan utan förvarning.</string>
+    <string name="power_dialog">Alternativ för surfplattan</string>
+    <string name="shutdown_confirm">Din surfplatta stängs av.</string>
+    <string name="vdm_camera_access_denied">Surfplattans kamera kan inte användas från %1$s</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Көшөгөнү тандап, планшетти үн менен башкарууну күйгүзүңүз</string>
+    <string name="dock_setup_notification_title">Док бекет режимин орнотуңуз</string>
+    <string name="stylus_system_update_notification_text">"Стилустун бардык мүмкүнчүлүктөрүн пайдалануу үчүн Android'ди жаңыртыңыз"</string>
+    <string name="stylus_system_update_notification_title">"Android'ди жаңыртыңыз"</string>
+</resources>

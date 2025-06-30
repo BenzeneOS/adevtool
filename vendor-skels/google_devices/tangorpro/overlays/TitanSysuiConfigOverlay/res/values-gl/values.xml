@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Elixe un protector de pantalla e activa a axuda coas mans libres cando a tableta estea na base</string>
+    <string name="dock_setup_notification_title">Tira máis proveito da tableta cando estea na base</string>
+    <string name="stylus_system_update_notification_text">Para tirar o máximo proveito do lapis óptico, instala a actualización máis recente de Android</string>
+    <string name="stylus_system_update_notification_title">Instala a actualización de Android</string>
+</resources>

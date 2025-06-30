@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">కొంత కంటెంట్ కోసం రిఫ్రెష్ రేటును ఆటోమేటిక్‌గా 60 నుండి 120 Hz వరకు పెంచుతుంది. ఇది బ్యాటరీ వినియోగం పెరిగేలా చేస్తుంది.</string>
+</resources>

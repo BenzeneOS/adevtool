@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">‏‫«صفحه‌نمایش دوگانه» دردسترس نیست زیرا تلفن Pixel شما بیش‌ازحد گرم شده است</string>
+    <string name="fingerprint_acquired_partial">انگشتتان باید کاملاً روی حسگر قرار بگیرد</string>
+    <string name="fingerprint_acquired_power_press">برای ادامه راه‌اندازی، حسگر را به‌آرامی لمس کنید</string>
+    <string name="fingerprint_acquired_too_fast">انگشتتان را کمی بیشتر روی حسگر نگه دارید</string>
+    <string name="fingerprint_error_power_pressed">درستی‌سنجی به‌پایان رسید. دفعه بعدی، آرام‌تر لمس کنید.</string>
+</resources>

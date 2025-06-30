@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Bewege deinen Finger. Versuch es noch einmal.</item>
+        <item>Dieser Finger wurde bereits registriert – verwende einen anderen.</item>
+        <item>Schlechte Bildqualität. Versuch es noch einmal.</item>
+        <item/>
+        <item>Schlechte Bildqualität. Versuch es noch einmal.</item>
+        <item/>
+        <item/>
+        <item>Fleck erkannt. Säubere das Display. Versuch es dann noch einmal.</item>
+        <item>Bild konnte nicht gelesen werden. Versuch es noch einmal.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Fehlerhafte Daten. Versuch es noch einmal.</item>
+        <item>Finger konnte nicht registriert werden. Versuch es noch einmal.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Fingerabdrucksensor kann nicht verwendet werden. Kontaktiere einen Reparaturdienstleister oder gehe zu g.co/pixel/fingerprintunlock.</string>
+    <string name="fingerprint_recalibrate_notification_content">Kontaktiere einen Reparaturdienstleister oder gehe zu g.co/pixel/fingerprintunlock</string>
+</resources>

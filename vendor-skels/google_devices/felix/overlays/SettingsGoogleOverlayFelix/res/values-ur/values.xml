@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">ہوم پر جانے کے لیے، نیچے سے فوری طور پر اوپر سوائپ کریں۔ ٹاسک بار تک رسائی کے لیے نیچے سے اوپر کی طرف آہستہ سوائپ کریں۔ ایپس کے درمیان سوئچ کرنے کے لیے، نیچے سے اوپر کی طرف سوائپ کریں، پکڑے رہیں اور ریلیز کریں۔ پیچھے جانے کے لیے، بائیں یا دائیں کنارے سے سوائپ کریں۔</string>
+    <string name="setting_auto_rotate_folded">فولڈ ہونے پر خود کار طور پر گھمائیں</string>
+    <string name="setting_auto_rotate_unfolded">فولڈ نہ ہونے پر خود کار طور پر گھمائیں</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Heslo • Otisk prstu • Obličej</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Gesto • Otisk prstu • Obličej</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN • Otisk prstu • Obličej</string>
+</resources>

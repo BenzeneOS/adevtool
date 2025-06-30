@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Башкы бетке өтүү үчүн экранды ылдыйдан өйдө тез сүрүңүз. Тапшырмалар тактасына өтүү үчүн экранды ылдыйдан өйдө жай сүрүңүз. Башка колдонмого которулуу үчүн экранды ылдыйдан өйдө сүрүп, бир аз коё бербей кармап туруңуз. Артка кайтуу үчүн экрандын оң же сол жагына сүрүңүз.</string>
+    <string name="setting_auto_rotate_folded">Бүктөлгөндө автоматтык бурулуу</string>
+    <string name="setting_auto_rotate_unfolded">Ачылганда автоматтык бурулуу</string>
+</resources>

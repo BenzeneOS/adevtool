@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Sørg for at fingeren dekker sensoren</string>
+    <string name="fingerprint_acquired_power_press">Trykk lett på sensoren for å fortsette konfigureringen</string>
+    <string name="fingerprint_acquired_too_fast">Hold fingeren på sensoren litt lenger</string>
+    <string name="fingerprint_error_power_pressed">Bekreftelsen er avsluttet. Prøv å trykke forsiktig neste gang.</string>
+</resources>

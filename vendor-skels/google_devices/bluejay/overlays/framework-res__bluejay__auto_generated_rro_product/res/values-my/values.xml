@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>သင့်လက်ချောင်းကို ရွှေ့ပါ။ ထပ်စမ်းကြည့်ပါ။</item>
+        <item>လက်ချောင်းကို စာရင်းသွင်းပြီးသောကြောင့် အခြားလက်ချောင်း သုံးပါ။</item>
+        <item>ညံ့ဖျင်းသော ပုံအရည်အသွေး။ ထပ်စမ်းကြည့်ပါ။</item>
+        <item/>
+        <item>ညံ့ဖျင်းသော ပုံအရည်အသွေး။ ထပ်စမ်းကြည့်ပါ။</item>
+        <item/>
+        <item/>
+        <item>အစွန်းအထင်း တွေ့ရှိရသည်။ ဖန်သားပြင်ကို ရှင်းပါ။ ထပ်စမ်းကြည့်ပါ။</item>
+        <item>ပုံဖတ်၍ မရပါ။ ထပ်စမ်းကြည့်ပါ။</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>မကောင်းသောဒေတာ။ ထပ်စမ်းကြည့်ပါ။</item>
+        <item>လက်ချောင်းကို စာရင်းသွင်း၍ မရပါ။ ထပ်စမ်းကြည့်ပါ။</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">လက်ဗွေ အာရုံခံကိရိယာကို အသုံးပြု၍ မရပါ။ ပြုပြင်ရေး ဝန်ဆောင်မှုပေးသူ (သို့) g.co/pixel/fingerprintunlock သို့ သွားပါ</string>
+    <string name="fingerprint_recalibrate_notification_content">ပြုပြင်ရေး ဝန်ဆောင်မှုပေးသူ (သို့) g.co/pixel/fingerprintunlock သို့ သွားပါ</string>
+</resources>

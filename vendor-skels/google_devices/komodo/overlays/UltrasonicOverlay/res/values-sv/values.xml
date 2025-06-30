@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Rengör skärmen i närheten av sensorn</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Torka av skärmen för att bli av med alla fläckar. På så sätt kan du ta tydligare bilder av fingeravtrycket.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Rengör skärmen innan du fortsätter</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Om du har ett skärmskydd ska du sätta på det innan du ställer in ditt fingeravtryck för att det ska fungera så bra som möjligt.
+
+Använd ett skärmskydd som har certifieringen Made For Google för bästa möjliga resultat. Fingeravtrycket kanske inte registreras med andra skärmskydd."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">Vrid på fingret och nudda sensorn med fingertoppen</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Vrid på fingret och nudda sensorn med fingrets vänstra sida</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Vrid på fingret och nudda sensorn med fingrets högra sida</string>
+</resources>

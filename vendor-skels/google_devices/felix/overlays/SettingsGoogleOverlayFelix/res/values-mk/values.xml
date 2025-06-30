@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">За отворање на почетниот екран, брзо повлечете нагоре од дното. За отворање на „Лентата со задачи“, бавно повлечете нагоре од дното. За префрлање помеѓу апликациите, повлечете нагоре од дното, задржете и пуштете. За враќање назад, повлечете од левиот или десниот раб.</string>
+    <string name="setting_auto_rotate_folded">Автоматско ротирање при преклопување</string>
+    <string name="setting_auto_rotate_unfolded">Автоматско ротирање при отклопување</string>
+</resources>

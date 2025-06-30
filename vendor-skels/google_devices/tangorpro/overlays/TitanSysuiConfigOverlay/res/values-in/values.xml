@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Pilih screensaver dan aktifkan bantuan handsfree saat tablet dipasang ke dok</string>
+    <string name="dock_setup_notification_title">Lakukan banyak hal saat tablet dipasang ke dok</string>
+    <string name="stylus_system_update_notification_text">Untuk mengoptimalkan penggunaan stilus Anda, instal update Android terbaru</string>
+    <string name="stylus_system_update_notification_title">Instal update Android</string>
+</resources>

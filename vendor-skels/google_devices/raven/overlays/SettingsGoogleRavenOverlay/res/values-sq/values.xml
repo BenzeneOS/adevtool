@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Rrit automatikisht shpejtësinë e rifreskimit nga 60 deri në 120 Hz për disa përmbajtje. Rrit përdorimin e baterisë.</string>
+</resources>

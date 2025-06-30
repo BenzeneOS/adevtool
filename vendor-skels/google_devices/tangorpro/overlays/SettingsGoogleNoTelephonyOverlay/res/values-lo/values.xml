@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wi-Fi</string>
+    <string name="non_carrier_data_usage">ການນຳໃຊ້ອິນເຕີເນັດ Wi-Fi</string>
+    <string name="tether_settings_title_all">ການປ່ອຍສັນຍານ</string>
+    <string name="tethering_footer_info">ໃຊ້ການປ່ອຍສັນຍານເພື່ອໃຫ້ບໍລິການອິນເຕີເນັດກັບອຸປະກອນອື່ນໆຜ່ານທາງ USB, ອີເທີເນັດ ຫຼື Bluetooth.</string>
+</resources>

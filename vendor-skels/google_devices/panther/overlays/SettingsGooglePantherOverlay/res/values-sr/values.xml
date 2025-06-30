@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Лозинка • Отисак прста • Лице</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Шаблон • Отисак прста • Лице</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN • Отисак прста • Лице</string>
+</resources>

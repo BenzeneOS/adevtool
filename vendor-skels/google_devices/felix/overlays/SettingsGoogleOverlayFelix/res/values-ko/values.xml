@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">홈으로 돌아가려면 아래에서 위로 빠르게 스와이프하세요. 태스크 바에 액세스하려면 아래에서 위로 천천히 스와이프하세요. 앱을 전환하려면 아래에서 위로 스와이프하고 잠시 기다린 다음 손가락을 떼세요. 뒤로 돌아가려면 왼쪽 또는 오른쪽 가장자리에서 스와이프하세요.</string>
+    <string name="setting_auto_rotate_folded">접힌 경우 자동 회전</string>
+    <string name="setting_auto_rotate_unfolded">펼쳐진 경우 자동 회전</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>انگشتتان را جابه‌جا کنید. دوباره امتحان کنید.</item>
+        <item>این انگشت قبلاً ثبت شده است؛ از انگشت دیگری استفاده کنید.</item>
+        <item>کیفیت تصویر پایین است. دوباره امتحان کنید.</item>
+        <item/>
+        <item>کیفیت تصویر پایین است. دوباره امتحان کنید.</item>
+        <item/>
+        <item/>
+        <item>لکه تشخیص داده شد؛ صفحه‌نمایش را تمیز کنید. دوباره امتحان کنید.</item>
+        <item>تصویر خوانده نشد. دوباره امتحان کنید.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>داده‌ها مشکل دارند. دوباره امتحان کنید.</item>
+        <item>انگشت ثبت نشد. دوباره امتحان کنید.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">‏امکان استفاده از حسگر اثر انگشت وجود ندارد. به یکی از ارائه‌دهندگان خدمات تعمیر یا g.co/pixel/fingerprintunlock مراجعه کنید</string>
+    <string name="fingerprint_recalibrate_notification_content">‏به یکی از ارائه‌دهندگان خدمات تعمیر یا g.co/pixel/fingerprintunlock مراجعه کنید</string>
+</resources>

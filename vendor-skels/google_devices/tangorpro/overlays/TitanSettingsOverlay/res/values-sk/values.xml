@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Režim centra</string>
+    <string name="dream_no_screen_saver_caption">Žiadny šetrič obrazovky</string>
+    <string name="dream_no_screen_saver_description">Obrazovka sa po nečinnosti vypne, aby sa šetrila energia</string>
+    <string name="dream_no_screen_saver_preview_caption">Ekologické</string>
+    <string name="dream_secondary_button_title">Preskočiť</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Keď je v doku a nabíja sa</string>
+    <string name="screensaver_settings_summary_off">Počas nečinnosti zobrazovať obľúbené fotky, plagáty, hodiny a ďalší obsah</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Keď je kolmo a nabíja sa</string>
+    <string name="screensaver_settings_summary_sleep">Keď sa nabíja</string>
+    <string name="when_to_show_hubmode_charging">Keď sa nabíja</string>
+    <string name="when_to_show_hubmode_docked">Keď je v doku</string>
+    <string name="when_to_show_hubmode_never">Nikdy</string>
+</resources>

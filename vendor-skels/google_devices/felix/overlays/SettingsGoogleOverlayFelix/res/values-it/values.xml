@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">"Per andare alla schermata Home, scorri rapidamente dal basso verso l'alto. Per accedere alla barra delle app, scorri lentamente dal basso verso l'alto. Per cambiare app, scorri dal basso verso l'alto, tieni premuto e rilascia. Per tornare indietro, scorri dal bordo sinistro o destro."</string>
+    <string name="setting_auto_rotate_folded">Rotazione automatica quando è piegato</string>
+    <string name="setting_auto_rotate_unfolded">Rotazione automatica quando non è piegato</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="physical_fingerprint_sensor_center_screen_location_x">2076.0px</dimen>
+    <dimen name="physical_fingerprint_sensor_center_screen_location_y">620.0px</dimen>
+    <dimen name="physical_power_button_center_screen_location_y">675.0px</dimen>
+    <dimen name="status_bar_bottom_aligned_margin_rotation_0">12.0dp</dimen>
+    <dimen name="status_bar_bottom_aligned_margin_rotation_180">-1.0px</dimen>
+    <dimen name="status_bar_bottom_aligned_margin_rotation_270">-1.0px</dimen>
+    <dimen name="status_bar_bottom_aligned_margin_rotation_90">8.0dp</dimen>
+    <dimen name="status_bar_clock_starting_padding">0.0dp</dimen>
+    <dimen name="status_bar_padding_start">0.0dp</dimen>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="phoneAppLabel">流動數據</string>
+    <string name="phone_info_label">平板電腦資訊</string>
+</resources>

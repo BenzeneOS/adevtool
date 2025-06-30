@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="phoneAppLabel">เน็ตมือถือ</string>
+    <string name="phone_info_label">ข้อมูลแท็บเล็ต</string>
+</resources>

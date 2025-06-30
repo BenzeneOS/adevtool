@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Зарим контентын сэргээх хурдыг 60-аас 120 Гц болгож автоматаар өсгөнө. Батарей ашиглалтыг нэмэгдүүлнэ.</string>
+</resources>

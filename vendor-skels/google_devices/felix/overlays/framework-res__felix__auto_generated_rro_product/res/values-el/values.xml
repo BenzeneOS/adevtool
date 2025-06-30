@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">Το Dual Sceen δεν είναι διαθέσιμο επειδή το τηλέφωνο Pixel έχει αρχίσει να ζεσταίνεται πολύ</string>
+    <string name="fingerprint_acquired_partial">Φροντίστε το δάχτυλό σας να καλύπτει τον αισθητήρα.</string>
+    <string name="fingerprint_acquired_power_press">Αγγίξτε απαλά τον αισθητ. για συνέχ. της ρύθμισης</string>
+    <string name="fingerprint_acquired_too_fast">Κρατήστε το δάχτυλό σας στον αισθητήρα λίγο παραπάνω</string>
+    <string name="fingerprint_error_power_pressed">Η επαλήθευση έληξε. Αγγίξτε απαλά την επόμενη φορά.</string>
+</resources>

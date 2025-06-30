@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Skuif jou vinger. Probeer weer.</item>
+        <item>Vinger is reeds ingeskryf; gebruik ’n ander vinger.</item>
+        <item>Lae prentgehalte. Probeer weer.</item>
+        <item/>
+        <item>Lae prentgehalte. Probeer weer.</item>
+        <item/>
+        <item/>
+        <item>Vuil kol is bespeur; maak skerm skoon. Probeer weer.</item>
+        <item>Kon nie prent lees nie. Probeer weer.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Swak data. Probeer weer.</item>
+        <item>Kon nie vinger inskryf nie. Probeer weer.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Kan nie vingerafdruksensor gebruik nie. Besoek ’n verskaffer wat herstelwerk doen of g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Besoek ’n verskaffer wat herstelwerk doen of g.co/pixel/fingerprintunlock</string>
+</resources>

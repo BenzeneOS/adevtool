@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Jelszó • Ujjlenyomat • Arc</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Minta • Ujjlenyomat • Arc</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN-kód • Ujjlenyomat • Arc</string>
+</resources>

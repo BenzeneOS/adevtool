@@ -1,0 +1,1 @@
+runtime_resource_overlay { name: "framework-res__tokay__auto_generated_rro_vendor", soc_specific: true, }

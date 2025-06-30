@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="entryvalues_font_size">
+        <item>"1.0"</item>
+        <item>"1.05"</item>
+        <item>"1.1"</item>
+        <item>"1.20"</item>
+        <item>"1.30"</item>
+        <item>"1.50"</item>
+        <item>"1.80"</item>
+        <item>"2.0"</item>
+    </array>
+    <dimen name="def_device_font_scale">1.1</dimen>
+    <string name="def_satellite_mode_radios">bluetooth,nfc,wifi</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Swipe snel omhoog vanaf de onderkant om naar het startscherm te gaan. Swipe langzaam omhoog vanaf de onderkant om de taakbalk te openen. Swipe omhoog vanaf de onderkant en houd je vinger even op het scherm om tussen apps te wisselen. Swipe vanaf de linker- of rechterrand om terug te gaan.</string>
+    <string name="setting_auto_rotate_folded">Automatisch draaien wanneer gevouwen</string>
+    <string name="setting_auto_rotate_unfolded">Automatisch draaien wanneer niet gevouwen</string>
+</resources>

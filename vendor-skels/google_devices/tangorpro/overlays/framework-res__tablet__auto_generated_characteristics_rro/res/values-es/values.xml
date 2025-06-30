@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">La tablet se está iniciando…</string>
+    <string name="android_upgrading_title">La tablet se está actualizando…</string>
+    <string name="app_streaming_blocked_message">En estos momentos, no se puede acceder a este contenido en tu %1$s. Prueba en tu tablet.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Esta aplicación solicita seguridad adicional. Prueba en tu tablet.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Esta aplicación está solicitando permisos adicionales, pero no se pueden dar durante una sesión de streaming. Da primero el permiso en tu tablet.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">No se puede acceder a este contenido en tu %1$s. Prueba en tu tablet.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Ajustes del tablet no disponibles</string>
+    <string name="battery_saver_charged_notification_summary">El tablet tiene suficiente batería. Las funciones ya no están restringidas.</string>
+    <string name="default_audio_route_name">Tablet</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s quiere habilitar la exploración táctil. Cuando esta función esté activada, podrás escuchar o ver descripciones del contenido seleccionado o usar gestos para interactuar con el tablet.</string>
+    <string name="global_actions">Opciones de la tablet</string>
+    <string name="kg_failed_attempts_almost_at_login">"Has fallado %1$d veces al dibujar el patrón de desbloqueo. Si fallas otras %2$d veces, deberás usar una cuenta de correo electrónico para desbloquear el tablet.
+
+ Inténtalo de nuevo en %3$d segundos."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Has intentado desbloquear el tablet %1$d veces, pero no lo has conseguido. Si fallas otras %2$d veces, se restablecerá el estado de fábrica y se perderán todos los datos del usuario.</string>
+    <string name="kg_failed_attempts_now_wiping">Has intentado desbloquear el tablet %d veces, pero no lo has conseguido. Se restablecerá el estado de fábrica del dispositivo.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Has intentado desbloquear el tablet %1$d veces, pero no lo has conseguido. Si fallas %2$d veces más, se restablecerá el estado de fábrica y se perderán todos los datos del usuario.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Has fallado %1$d veces al dibujar el patrón de desbloqueo. Si fallas otras  %2$d veces, deberás usar tus credenciales de acceso de Google para desbloquear el tablet.
+
+ Inténtalo de nuevo dentro de %3$d segundos."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Has intentado desbloquear el tablet %d veces, pero no lo has conseguido. Se restablecerá el estado de fábrica del dispositivo.</string>
+    <string name="lockscreen_missing_sim_message">No hay ninguna SIM en la tablet.</string>
+    <string name="low_memory">Se ha agotado el espacio de almacenamiento del tablet. Elimina algunos archivos para liberar espacio.</string>
+    <string name="permdesc_bluetooth">Permite que la aplicación acceda a la configuración de Bluetooth de la tablet y que establezca y acepte conexiones con los dispositivos sincronizados.</string>
+    <string name="permdesc_bluetoothAdmin">Permite que la aplicación configure el tablet Bluetooth local y que detecte dispositivos remotos y se empareje con ellos.</string>
+    <string name="permdesc_broadcastSticky">Permite que la aplicación envíe emisiones que permanecen en el dispositivo una vez que la emisión ha finalizado. Un uso excesivo podría ralentizar el tablet o volverlo inestable al hacer que use demasiada memoria.</string>
+    <string name="permdesc_changeWifiMulticastState">Permite que la aplicación reciba paquetes enviados a todos los dispositivos de una red Wi-Fi que usen direcciones de multicast, no solo a la tablet. Usa más batería que el modo de no multicast.</string>
+    <string name="permdesc_changeWimaxState">Permite que la aplicación conecte el tablet a redes WiMAX y lo desconecte de ellas.</string>
+    <string name="permdesc_getAccounts">Permite que la aplicación obtenga una lista de cuentas reconocidas por el tablet, entre las que se pueden incluir las cuentas creadas por las aplicaciones que hayas instalado.</string>
+    <string name="permdesc_persistentActivity">Permite que la aplicación haga que algunas de sus partes se mantengan en la memoria. Esto puede limitar la cantidad de memoria disponible para otras aplicaciones y ralentizar el tablet.</string>
+    <string name="permdesc_readCalendar">Esta aplicación puede leer los eventos de calendario almacenados en tu tablet y compartir o guardar los datos de tu calendario.</string>
+    <string name="permdesc_readContacts">Permite que la aplicación lea datos de los contactos almacenados en tu tablet. Las aplicaciones también podrán acceder a las cuentas de tu tablet que hayan creado contactos, y quizá tengan acceso a las cuentas creadas por aplicaciones que hayas descargado. Las aplicaciones con este permiso pueden guardar los datos de tus contactos, y las aplicaciones maliciosas puede que compartan estos datos sin que lo sepas.</string>
+    <string name="permdesc_readSms">Esta aplicación puede leer todos los SMS (mensajes de texto) almacenados en tu tablet.</string>
+    <string name="permdesc_receiveBootCompleted">Permite que la aplicación se ejecute automáticamente una vez que el sistema se ha iniciado completamente. Esto puede hacer que el tablet tarde más en iniciarse y permite que la aplicación ralentice el funcionamiento global del dispositivo.</string>
+    <string name="permdesc_setTimeZone">Permite que la aplicación cambie la zona horaria del tablet.</string>
+    <string name="permdesc_transmitIr">Permite que la aplicación use el transmisor de infrarrojos de la tablet.</string>
+    <string name="permdesc_wakeLock">Permite que la aplicación impida que el tablet entre en modo de suspensión.</string>
+    <string name="permdesc_writeCalendar">Esta aplicación puede añadir, quitar o cambiar eventos de calendario almacenados en tu tablet. También puede enviar mensajes que parecen provenir del propietario del calendario o cambiar eventos sin notificárselo a su propietario.</string>
+    <string name="permdesc_writeCallLog">Permite que la aplicación modifique el registro de llamadas del tablet, incluidos datos sobre llamadas entrantes y salientes. Las aplicaciones malintencionadas pueden usar este permiso para borrar o modificar el registro de llamadas.</string>
+    <string name="permdesc_writeContacts">Permite que la aplicación cambie los datos de los contactos almacenados en tu tablet. Las aplicaciones con este permiso pueden eliminar datos de contactos.</string>
+    <string name="permlab_wakeLock">impedir que la tablet entre en modo de suspensión</string>
+    <string name="policydesc_watchLogin">Controla el número de contraseñas incorrectas introducidas al desbloquear la pantalla y bloquea la tablet o elimina todos sus datos si se introducen demasiadas contraseñas incorrectas.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Controla el número de contraseñas incorrectas introducidas para desbloquear la pantalla y bloquea el tablet o borra todos los datos del usuario si se introducen demasiadas contraseñas incorrectas.</string>
+    <string name="policydesc_wipeData">Borra los datos de la tablet sin avisar restableciendo el estado de fábrica</string>
+    <string name="policydesc_wipeData_secondaryUser">Borra los datos del usuario en esta tablet sin avisar.</string>
+    <string name="power_dialog">Opciones de la tablet</string>
+    <string name="shutdown_confirm">El tablet se apagará.</string>
+    <string name="vdm_camera_access_denied">No se puede acceder a la cámara del tablet desde tu %1$s</string>
+</resources>

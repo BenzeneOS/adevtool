@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">허브 모드</string>
+    <string name="dream_no_screen_saver_caption">화면 보호기 없음</string>
+    <string name="dream_no_screen_saver_description">활동이 없으면 에너지를 절약하기 위해 화면이 꺼집니다.</string>
+    <string name="dream_no_screen_saver_preview_caption">친환경</string>
+    <string name="dream_secondary_button_title">건너뛰기</string>
+    <string name="screensaver_settings_summary_dock_and_charging">도킹 및 충전 중</string>
+    <string name="screensaver_settings_summary_off">유휴 상태일 때 좋아하는 사진, 예술작품, 시계 등을 표시</string>
+    <string name="screensaver_settings_summary_postured_and_charging">똑바로 세워져 있고 충전 중일 때</string>
+    <string name="screensaver_settings_summary_sleep">충전 중</string>
+    <string name="when_to_show_hubmode_charging">충전 중</string>
+    <string name="when_to_show_hubmode_docked">도킹하는 동안</string>
+    <string name="when_to_show_hubmode_never">사용 안함</string>
+</resources>

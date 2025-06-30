@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Mod Hab</string>
+    <string name="dream_no_screen_saver_caption">Tiada penyelamat skrin</string>
+    <string name="dream_no_screen_saver_description">Skrin anda akan dimatikan selepas tiada aktiviti untuk menjimatkan tenaga</string>
+    <string name="dream_no_screen_saver_preview_caption">Mesra alam sekitar</string>
+    <string name="dream_secondary_button_title">Langkau</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Semasa didok dan dicas</string>
+    <string name="screensaver_settings_summary_off">Tunjukkan foto kegemaran, karya seni, jam dan banyak lagi apabila melahu</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Dalam keadaan tegak dan dicas</string>
+    <string name="screensaver_settings_summary_sleep">Semasa mengecas</string>
+    <string name="when_to_show_hubmode_charging">Semasa mengecas</string>
+    <string name="when_to_show_hubmode_docked">Semasa didok</string>
+    <string name="when_to_show_hubmode_never">Tidak sekali-kali</string>
+</resources>

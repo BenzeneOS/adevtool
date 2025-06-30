@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Vyberte šetrič obrazovky a zapnite handsfree pomocníka, ktoré bude váš tablet používať v doku</string>
+    <string name="dock_setup_notification_title">Urobte toho v doku viac</string>
+    <string name="stylus_system_update_notification_text">Ak chcete dotykové pero využiť naplno, nainštalujte si najnovšiu aktualizáciu Androidu</string>
+    <string name="stylus_system_update_notification_title">Nainštalujte si aktualizáciu Androidu</string>
+</resources>

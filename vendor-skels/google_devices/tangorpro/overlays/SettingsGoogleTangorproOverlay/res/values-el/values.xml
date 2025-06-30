@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Ήχοι φόρτισης</string>
+    <string name="edge_to_edge_navigation_summary">Για μετάβαση στην αρχική σελίδα, σύρετε γρήγορα από κάτω προς τα επάνω. Για πρόσβαση στη Γραμμή εργαλείων, σύρετε αργά από κάτω προς τα επάνω. Για εναλλαγή εφαρμογών, σύρετε από κάτω προς τα επάνω, περιμένετε και έπειτα απομακρύνετε το δάχτυλο. Για επιστροφή, σύρετε είτε από το αριστερό είτε από το δεξί άκρο.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Μεταφέρετε αυτή τη συσκευή πιο κοντά στο Pixel Tablet και δοκιμάστε ξανά.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Ανοίξτε τη θήκη για ακουστικά ψείρες, μεταφέρετε την πιο κοντά στο Pixel Tablet και έπειτα δοκιμάστε ξανά.</string>
+    <string name="sound_dashboard_summary">Ένταση ήχου</string>
+    <string name="sound_dashboard_summary_with_dnd">Ένταση ήχου, λειτουργία Μην ενοχλείτε</string>
+    <string name="sound_settings">Ήχος</string>
+</resources>

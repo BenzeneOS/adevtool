@@ -1,0 +1,1 @@
+runtime_resource_overlay { name: "AdaptiveHapticsBluejayOverlay", product_specific: true, }

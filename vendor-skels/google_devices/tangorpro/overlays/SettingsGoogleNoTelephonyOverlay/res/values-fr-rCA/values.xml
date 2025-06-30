@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wi-Fi</string>
+    <string name="non_carrier_data_usage">Utilisation des données Wi-Fi</string>
+    <string name="tether_settings_title_all">Partage de connexion</string>
+    <string name="tethering_footer_info">"Utilisez le partage de connexion pour fournir une connexion Internet à d'autres appareils au moyen d'un câble USB, d'une connexion Ethernet ou du Bluetooth."</string>
+</resources>

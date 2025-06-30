@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>اپنی انگلی منتقل کریں۔ دوبارہ کوشش کریں۔</item>
+        <item>پہلے سے اندراج شدہ انگلی ایک مختلف انگلی کا استعمال کرتی ہے۔</item>
+        <item>تصویر کی ناقص کوالٹی۔ دوبارہ کوشش کریں۔</item>
+        <item/>
+        <item>تصویر کی ناقص کوالٹی۔ دوبارہ کوشش کریں۔</item>
+        <item/>
+        <item/>
+        <item>داغ کا پتہ چلا، اسکرین صاف کریں۔ دوبارہ کوشش کریں۔</item>
+        <item>تصویر کو پڑھنے میں ناکامی۔ دوبارہ کوشش کریں۔</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>خراب ڈیٹا۔ دوبارہ کوشش کریں۔</item>
+        <item>انگلی کے اندراج میں ناکام۔ دوبارہ کوشش کریں۔</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">‏فنگر پرنٹ سینسر کا استعمال نہیں کر سکتے۔ ایک مرمت فراہم کنندہ یا g.co/pixel/fingerprintunlock کو ملاحظہ کریں</string>
+    <string name="fingerprint_recalibrate_notification_content">‏ایک مرمت فراہم کنندہ یا g.co/pixel/fingerprintunlock کو ملاحظہ کریں</string>
+</resources>

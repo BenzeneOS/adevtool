@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Nenosiri • Alama ya kidole • Uso</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Mchoro • Alama ya kidole • Uso</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN • Alama ya kidole • Uso</string>
+</resources>

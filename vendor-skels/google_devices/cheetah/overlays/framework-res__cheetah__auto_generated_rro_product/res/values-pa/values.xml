@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>ਆਪਣੀ ਉਂਗਲ ਹਿਲਾਓ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+        <item>ਇਸ ਉਂਗਲ ਦਾ ਫਿੰਗਰਪ੍ਰਿੰਟ ਪਹਿਲਾਂ ਤੋਂ ਹੀ ਦਰਜ ਹੈ, ਕੋਈ ਵੱਖਰੀ ਉਂਗਲ ਵਰਤੋ।</item>
+        <item>ਚਿੱਤਰ ਦੀ ਕੁਆਲਿਟੀ ਖਰਾਬ ਹੈ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+        <item/>
+        <item>ਚਿੱਤਰ ਦੀ ਕੁਆਲਿਟੀ ਖਰਾਬ ਹੈ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+        <item/>
+        <item/>
+        <item>ਧੱਬਿਆਂ ਦਾ ਪਤਾ ਲੱਗਿਆ, ਸਕ੍ਰੀਨ ਸਾਫ਼ ਕਰੋ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+        <item>ਚਿੱਤਰ ਨੂੰ ਪੜ੍ਹਨਾ ਅਸਫਲ ਰਿਹਾ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>ਗਲਤ ਡਾਟਾ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+        <item>ਉਂਗਲ ਦਾ ਫਿੰਗਰਪ੍ਰਿੰਟ ਦਰਜ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">"ਫਿੰਗਰਪ੍ਰਿੰਟ ਸੈਂਸਰ ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ। ਮੁਰੰਮਤ ਪ੍ਰਦਾਨਕ ਨੂੰ ਸੰਪਰਕ ਕਰੋ ਜਾਂ g.co/pixel/fingerprintunlock 'ਤੇ ਜਾਓ"</string>
+    <string name="fingerprint_recalibrate_notification_content">"ਮੁਰੰਮਤ ਪ੍ਰਦਾਨਕ ਨੂੰ ਸੰਪਰਕ ਕਰੋ ਜਾਂ g.co/pixel/fingerprintunlock 'ਤੇ ਜਾਓ"</string>
+</resources>

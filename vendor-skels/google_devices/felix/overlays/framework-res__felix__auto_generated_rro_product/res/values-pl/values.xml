@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">Funkcja Dual Screen jest niedostępna, ponieważ telefon Pixel za bardzo się nagrzewa</string>
+    <string name="fingerprint_acquired_partial">Upewnij się, że palec przykrywa czytnik</string>
+    <string name="fingerprint_acquired_power_press">Aby kontynuować konfigurację, lekko dotknij czytnika</string>
+    <string name="fingerprint_acquired_too_fast">Przytrzymaj palec na czujniku trochę dłużej</string>
+    <string name="fingerprint_error_power_pressed">Weryfikacja przerwana. Następnym razem spróbuj naciskać lżej.</string>
+</resources>

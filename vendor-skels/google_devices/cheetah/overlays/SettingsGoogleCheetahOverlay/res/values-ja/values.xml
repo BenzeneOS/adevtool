@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">パスワード • 指紋 • 顔</string>
+    <string name="biometrics_unlock_set_unlock_pattern">パターン • 指紋 • 顔</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN • 指紋 • 顔</string>
+</resources>

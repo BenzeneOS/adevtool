@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Mugitu hatza eta saiatu berriro.</item>
+        <item>Hatza erregistratuta dago jada. Erabili beste bat.</item>
+        <item>Kalitate eskasa du irudiak. Saiatu berriro.</item>
+        <item/>
+        <item>Kalitate eskasa du irudiak. Saiatu berriro.</item>
+        <item/>
+        <item/>
+        <item>Zikingune bat hauteman da. Garbitu pantaila eta saiatu berriro.</item>
+        <item>Ezin izan da irakurri irudia. Saiatu berriro.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Datuak ez dira zuzenak. Saiatu berriro.</item>
+        <item>Ezin izan da erregistratu hatza. Saiatu berriro.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Ezin da erabili hatz-marken sentsorea. Jarri harremanetan konponketak egiten dituen hornitzaile batekin edo joan g.co/pixel/fingerprintunlock helbidera.</string>
+    <string name="fingerprint_recalibrate_notification_content">Jarri harremanetan konponketak egiten dituen hornitzaile batekin edo joan g.co/pixel/fingerprintunlock helbidera.</string>
+</resources>

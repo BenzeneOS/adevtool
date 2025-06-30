@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">ထိန်းချုပ်စင်တာမုဒ်</string>
+    <string name="dream_no_screen_saver_caption">စခရင်နားချိန်ပုံ မရှိပါ</string>
+    <string name="dream_no_screen_saver_description">စွမ်းအင်ချွေတာရန် လှုပ်ရှားမှုမရှိပါက သင့်ဖန်သားပြင် ပိတ်သွားပါမည်</string>
+    <string name="dream_no_screen_saver_preview_caption">ဂေဟမိတ်ဆွေ</string>
+    <string name="dream_secondary_button_title">ကျော်ရန်</string>
+    <string name="screensaver_settings_summary_dock_and_charging">အထိုင်တွင် တပ်ဆင်ပြီး အားသွင်းနေစဉ်</string>
+    <string name="screensaver_settings_summary_off">မလှုပ်ရှားချိန်တွင် အကြိုက်ဆုံး ဓာတ်ပုံ၊ ပိုစတာပုံ၊ နာရီစသည်တို့ကို ပြပါ</string>
+    <string name="screensaver_settings_summary_postured_and_charging">ထောင်ထားပြီး အားသွင်းနေစဉ်</string>
+    <string name="screensaver_settings_summary_sleep">အားသွင်းနေစဉ်</string>
+    <string name="when_to_show_hubmode_charging">အားသွင်းနေစဉ်</string>
+    <string name="when_to_show_hubmode_docked">အထိုင်၌ တပ်ထားစဉ်</string>
+    <string name="when_to_show_hubmode_never">ဘယ်တော့မှ</string>
+</resources>

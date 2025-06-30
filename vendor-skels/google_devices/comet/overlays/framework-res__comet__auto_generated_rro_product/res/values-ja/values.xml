@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">センサー全体に指を押し当ててください</string>
+    <string name="fingerprint_acquired_power_press">設定を続行するにはセンサーに軽く触れてください</string>
+    <string name="fingerprint_acquired_too_fast">指をセンサーにもう少し長く当てていてください</string>
+    <string name="fingerprint_error_power_pressed">確認が終わりました。次は軽く触れてみてください。</string>
+</resources>

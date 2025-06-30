@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">ເລືອກພາບພັກໜ້າຈໍ ແລະ ເປີດໃຊ້ການຊ່ວຍເຫຼືອແບບແຮນຟຣີໃນຂະນະທີ່ວາງແທັບເລັດຂອງທ່ານໄວ້ເທິງແທ່ນສາກ</string>
+    <string name="dock_setup_notification_title">ເຮັດສິ່ງຕ່າງໆໄດ້ຫຼາຍຂຶ້ນໃນຂະນະທີ່ວາງໄວ້ເທິງແທ່ນສາກ</string>
+    <string name="stylus_system_update_notification_text">ເພື່ອໃຊ້ປະໂຫຍດສູງສຸດຈາກປາກກາຂອງທ່ານ, ໃຫ້ຕິດຕັ້ງອັບເດດ Android ຫຼ້າສຸດ</string>
+    <string name="stylus_system_update_notification_title">ຕິດຕັ້ງອັບເດດ Android</string>
+</resources>

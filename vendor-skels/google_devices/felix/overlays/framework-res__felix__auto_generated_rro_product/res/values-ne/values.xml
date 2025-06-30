@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">तपाईंको Pixel फोन ज्यादै तातिरहेको हुनाले Dual Screen उपलब्ध छैन</string>
+    <string name="fingerprint_acquired_partial">आफ्नो औँलाले सेन्सर ओगटेको छ भन्ने कुरा सुनिश्चित गर्नुहोस्</string>
+    <string name="fingerprint_acquired_power_press">सेटअप जारी राख्न सेन्सरमा बिस्तारै छुनुहोस्</string>
+    <string name="fingerprint_acquired_too_fast">आफ्नो औँला अलि बढी समयसम्म सेन्सरमा राख्नुहोस्</string>
+    <string name="fingerprint_error_power_pressed">पुष्टि गर्ने प्रक्रिया अन्त्य भयो। अर्को पटक बिस्तारै छोई हेर्नुहोस्।</string>
+</resources>

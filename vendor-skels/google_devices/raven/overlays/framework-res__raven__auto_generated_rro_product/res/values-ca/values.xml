@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Mou el dit. Torna-ho a provar.</item>
+        <item>"L'empremta digital ja s'ha registrat amb un altre dit."</item>
+        <item>La qualitat de la imatge és deficient. Torna-ho a provar.</item>
+        <item/>
+        <item>La qualitat de la imatge és deficient. Torna-ho a provar.</item>
+        <item/>
+        <item/>
+        <item>"S'ha detectat una taca; neteja la pantalla. Torna-ho a provar."</item>
+        <item>"No s'ha pogut llegir la imatge. Torna-ho a provar."</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Les dades són incorrectes. Torna-ho a provar.</item>
+        <item>"No s'ha pogut registrar el dit. Torna-ho a provar."</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">"No es pot utilitzar el sensor d'empremtes digitals. Visita un proveïdor de reparacions o g.co/pixel/fingerprintunlock."</string>
+    <string name="fingerprint_recalibrate_notification_content">Visita un proveïdor de reparacions o g.co/pixel/fingerprintunlock</string>
+</resources>

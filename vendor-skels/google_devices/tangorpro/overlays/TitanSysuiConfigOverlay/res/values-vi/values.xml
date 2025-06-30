@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Chọn trình bảo vệ màn hình và bật tính năng trợ giúp rảnh tay khi máy tính bảng được gắn vào đế</string>
+    <string name="dock_setup_notification_title">Làm nhiều việc hơn trong khi thiết bị gắn vào đế</string>
+    <string name="stylus_system_update_notification_text">Để tận dụng bút cảm ứng, hãy cài đặt bản cập nhật Android mới nhất</string>
+    <string name="stylus_system_update_notification_title">Cài đặt bản cập nhật Android</string>
+</resources>

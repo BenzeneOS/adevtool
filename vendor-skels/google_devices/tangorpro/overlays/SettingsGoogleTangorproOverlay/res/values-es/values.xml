@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Sonidos de carga</string>
+    <string name="edge_to_edge_navigation_summary">Para ir a la pantalla de inicio, desliza hacia arriba rápidamente desde la parte inferior. Para acceder a la barra de tareas, desliza hacia arriba lentamente desde la parte inferior. Para cambiar de aplicación, desliza hacia arriba desde la parte inferior de la pantalla, mantenla pulsada y levanta el dedo. Para ir hacia atrás, desliza desde el borde izquierdo o derecho.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Acerca este dispositivo a tu Pixel Tablet e inténtalo de nuevo.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Abre la funda de los auriculares de botón, acércala a tu Pixel Tablet y vuelve a intentarlo.</string>
+    <string name="sound_dashboard_summary">Volumen</string>
+    <string name="sound_dashboard_summary_with_dnd">Volumen, No molestar</string>
+    <string name="sound_settings">Sonido</string>
+</resources>

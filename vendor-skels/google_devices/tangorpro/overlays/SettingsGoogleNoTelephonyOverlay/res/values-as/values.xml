@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">ৱাই-ফাই</string>
+    <string name="non_carrier_data_usage">ৱাই-ফাই ডেটাৰ ব্যৱহাৰ</string>
+    <string name="tether_settings_title_all">টেডাৰিং কৰি থকা হৈছে</string>
+    <string name="tethering_footer_info">ইউএছবি, ইথাৰনেট অথবা ব্লুটুথৰ জৰিয়তে অন্য ডিভাইচসমূহলৈ ইণ্টাৰনেট প্ৰদান কৰিবলৈ টিথাৰিং ব্যৱহাৰ কৰক।</string>
+</resources>

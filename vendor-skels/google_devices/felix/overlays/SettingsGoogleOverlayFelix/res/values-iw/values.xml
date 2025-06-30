@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">כדי לעבור למסך הבית, מחליקים במהירות למעלה מתחתית המסך. כדי לגשת לסרגל האפליקציות, מחליקים לאט למעלה מתחתית המסך. כדי לעבור בין אפליקציות מחליקים למעלה מתחתית המסך, מחזיקים ומשחררים. כדי לחזור למסך הקודם, מחליקים מהקצה הימני או השמאלי של המסך.</string>
+    <string name="setting_auto_rotate_folded">סיבוב אוטומטי כשהמכשיר מקופל</string>
+    <string name="setting_auto_rotate_unfolded">סיבוב אוטומטי כשהמכשיר לא מקופל</string>
+</resources>

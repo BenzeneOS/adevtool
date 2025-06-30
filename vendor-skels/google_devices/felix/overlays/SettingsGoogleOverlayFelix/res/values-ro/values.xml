@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Pentru a accesa ecranul de pornire, glisează rapid în sus din partea de jos. Pentru a accesa Bara de activități, glisează lent în sus din partea de jos. Pentru a trece de la o aplicație la alta, glisează în sus din partea de jos, ține apăsat, apoi ridică degetul. Pentru a reveni, glisează dinspre marginea stângă sau dreaptă.</string>
+    <string name="setting_auto_rotate_folded">Rotește automat când dispozitivul este pliat</string>
+    <string name="setting_auto_rotate_unfolded">Rotește automat când dispozitivul este desfăcut</string>
+</resources>

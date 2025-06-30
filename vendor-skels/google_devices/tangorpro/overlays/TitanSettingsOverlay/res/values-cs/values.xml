@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Režim centra</string>
+    <string name="dream_no_screen_saver_caption">Žádný spořič</string>
+    <string name="dream_no_screen_saver_description">Aby se šetřila energie, obrazovka se po nečinnosti vypne</string>
+    <string name="dream_no_screen_saver_preview_caption">Ekologické</string>
+    <string name="dream_secondary_button_title">Přeskočit</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Při nabíjení v doku</string>
+    <string name="screensaver_settings_summary_off">Při nečinnosti zobrazovat oblíbené fotografie, umělecká díla, hodiny a další</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Při nabíjení ve vzpřímené poloze</string>
+    <string name="screensaver_settings_summary_sleep">Při nabíjení</string>
+    <string name="when_to_show_hubmode_charging">Při nabíjení</string>
+    <string name="when_to_show_hubmode_docked">V doku</string>
+    <string name="when_to_show_hubmode_never">Nikdy</string>
+</resources>

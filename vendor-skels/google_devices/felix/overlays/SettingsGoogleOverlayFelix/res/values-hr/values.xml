@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Da biste se vratili na početni zaslon, brzo prijeđite prstom od dna. Da biste pristupili traci sa zadacima, sporo prijeđite prstom od dna. Da biste promijenili aplikaciju, prijeđite prstom od dna prema gore, zadržite i otpustite. Da biste se vratili, prijeđite prstom od lijevog ili desnog ruba.</string>
+    <string name="setting_auto_rotate_folded">Automatsko zakretanje prilikom zatvaranja</string>
+    <string name="setting_auto_rotate_unfolded">Automatsko zakretanje prilikom otvaranja</string>
+</resources>

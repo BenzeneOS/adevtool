@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Sigurohu që gishti yt të mbulojë tërësisht sensorin</string>
+    <string name="fingerprint_acquired_power_press">Për të vazhduar konfigurimin, prek lehtë sensorin</string>
+    <string name="fingerprint_acquired_too_fast">Mbaje gishtin mbi sensor edhe pak më gjatë</string>
+    <string name="fingerprint_error_power_pressed">Verifikimi përfundoi. Provo ta prekësh lehtë herën tjetër.</string>
+</resources>

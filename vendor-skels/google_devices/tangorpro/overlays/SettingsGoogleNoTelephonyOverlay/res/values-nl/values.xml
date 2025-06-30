@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wifi</string>
+    <string name="non_carrier_data_usage">Wifi-datagebruik</string>
+    <string name="tether_settings_title_all">Tethering</string>
+    <string name="tethering_footer_info">Gebruik tethering om andere apparaten internettoegang te geven via USB, ethernet of bluetooth.</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Prst obavezno mora prekrivati senzor</string>
+    <string name="fingerprint_acquired_power_press">Za nastavak postavljanja lagano dodirnite senzor</string>
+    <string name="fingerprint_acquired_too_fast">Zadržite prst na senzoru malo dulje</string>
+    <string name="fingerprint_error_power_pressed">Potvrda je prekinuta. Sljedeći put pokušajte dodirnuti lagano.</string>
+</resources>

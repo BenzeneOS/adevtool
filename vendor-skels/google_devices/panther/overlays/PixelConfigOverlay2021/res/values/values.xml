@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_forceSlowJpegModeList">
+        <item>com.facebook.orca</item>
+        <item>com.skype.raider</item>
+    </array>
+    <bool name="config_assistLongPressHomeEnabledDefault">false</bool>
+    <bool name="config_assistTouchGestureEnabledDefault">false</bool>
+    <bool name="config_pauseWallpaperRenderWhenStateChangeEnabled">true</bool>
+    <bool name="config_volumeHushGestureEnabled">false</bool>
+</resources>

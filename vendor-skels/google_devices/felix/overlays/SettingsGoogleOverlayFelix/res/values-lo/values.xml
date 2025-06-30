@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">ເພື່ອກັບໄປໜ້າຫຼັກ, ໃຫ້ປັດຂຶ້ນຈາກລຸ່ມສຸດແບບໄວໆ. ເພື່ອເຂົ້າເຖິງແຖບໜ້າວຽກ, ໃຫ້ປັດຂຶ້ນຈາກລຸ່ມສຸດແບບຊ້າໆ. ເພື່ອສະຫຼັບແອັບ, ໃຫ້ປັດຂຶ້ນຈາກລຸ່ມສຸດ, ກົດຄ້າງໄວ້ ແລ້ວປ່ອຍ. ເພື່ອກັບຄືນ, ໃຫ້ປັດຈາກຂອບຊ້າຍ ຫຼື ຂວາ.</string>
+    <string name="setting_auto_rotate_folded">ໝຸນອັດຕະໂນມັດເມື່ອພັບໄວ້</string>
+    <string name="setting_auto_rotate_unfolded">ໝຸນອັດຕະໂນມັດເມື່ອພືອອກ</string>
+</resources>

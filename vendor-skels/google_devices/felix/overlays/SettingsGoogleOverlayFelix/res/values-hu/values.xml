@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">A kezdőképernyőre való lépéshez csúsztassa ujját gyorsan felfelé a képernyő aljáról. A Feladatsáv megnyitásához csúsztassa ujját lassan felfelé a képernyő aljáról. Az alkalmazások közötti váltáshoz csúsztasson felfelé a képernyő aljáról, tartsa az ujját a képernyőn, majd emelje fel. A visszaugráshoz csúsztassa gyorsan az ujját a képernyő bal vagy jobb széléről.</string>
+    <string name="setting_auto_rotate_folded">Automatikus forgatás összehajtás esetén</string>
+    <string name="setting_auto_rotate_unfolded">Automatikus elforgatás kihajtás esetén</string>
+</resources>

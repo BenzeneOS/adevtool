@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Ziurtatu hatzak sentsorea estaltzen duela</string>
+    <string name="fingerprint_acquired_power_press">Konfiguratzen jarraitzeko, sakatu sentsorea leunki</string>
+    <string name="fingerprint_acquired_too_fast">Mantendu hatza sentsorearen gainean apur bat gehiago</string>
+    <string name="fingerprint_error_power_pressed">Amaitu egin da egiaztapen-prozesua. Hurrengoan, sakatu sentsorea leunki.</string>
+</resources>

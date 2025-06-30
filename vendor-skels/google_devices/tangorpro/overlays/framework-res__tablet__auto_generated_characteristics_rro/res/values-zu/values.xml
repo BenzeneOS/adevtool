@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Ithebulethi iyaqala…</string>
+    <string name="android_upgrading_title">Ithebulethi iyabuyekeza…</string>
+    <string name="app_streaming_blocked_message">Lokhu akukwazi ukufinyelelwa ku-%1$s yakho ngalesi sikhathi. Zama kuthebhulethi yakho kunalokho.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Le app icela ukuvikeleka okwengeziwe. Zama kuthebhulethi yakho kunalokho.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Le-app icela izimvume ezengeziwe, kodwa izimvume azikwazi ukunikezwa ngesikhathi sokusakaza-bukhoma. Nikeza imvume kuthebulethi yakho kuqala.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Lokhu akukwazi ukufinyelelwa ku-%1$s yakho. Zama kuthebulethi yakho kunalokho.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Amasethingi ethebulethi awatholakali</string>
+    <string name="battery_saver_charged_notification_summary">Ithebulethi inokushajwa okwanele. Izici azisakhawulelwe.</string>
+    <string name="default_audio_route_name">Ithebulethi</string>
+    <string name="enable_explore_by_touch_warning_message">I-%1$s ifuna ukunika amandla i-Explore by Touch. Uma i-Explore by Touch ikhanya, ungezwa noma ubone izincazelo ezingaphansi komunwe wakho noma wenze izenzo zomzimba ukuze uxhumane nethebhulethi.</string>
+    <string name="global_actions">Okukhethwa konke kwethebhulethi</string>
+    <string name="kg_failed_attempts_almost_at_login">"Udwebe ngokungalungile iphathini yakho yokuvula izikhathi ezingu-%1$d. Emva %2$d kweminye imizamo engaphumelelanga, uzocelwa ukuvula ithebhulethi yakho usebenzisa ukungena ngemvume kwi-Google.
+
+ Sicela uzame futhi emuva kwamasekhondi angu-%3$d"</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Uzame ngokusebenzisa indlela engafanele ukuvula ithebhulethi izikhathi ezingu-%1$d. Ngemuva kokuzama ngaphandle kwempumelelo okungu-%2$d, ithebhulethi izobuyiselwa kwizimiso zasembonini futhi yonke imininingwane yomsebenzisi izolahleka.</string>
+    <string name="kg_failed_attempts_now_wiping">Uzame ukuvula ngendlela engafanele ifoni izikhathi ezingu-%d. Ithebhulethi manje isizosethwa kabusha ibe yizimiso ezizenzakalelayo.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Uzame ngokusebenzisa indlela engafanele ukuvula izikhathi %1$d ze-tablet. Ngemuva %2$d kokuzama kaningana okuyimpumelelo i-tablet izobuyela kwizimo zasembonini futhi yonke imininingo yomsebenzisi izolahleka.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Udwebe ngokungalungile iphathini yakho yokuvula izikhathi ezingu-%1$d. Emva %2$d kweminye imizamo engaphumelelanga, uzocelwa ukuvula ithebhulethi yakho usebenzisa ukungena ngemvume kwi-Google.
+
+ Sicela uzame futhi emuva kwamasekhondi angu-%3$d"</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Uzame ukuvula ngendlela engafanele izikhathi %d ze-tablet. I-tablet manje seyizosethwa kabusha ibe yizimiso zasembonini.</string>
+    <string name="lockscreen_missing_sim_message">Ayikho i-SIM kuthebhulethi.</string>
+    <string name="low_memory">Isilondolozi sethebhulethi sigcwele! Susa amanye amafayela ukukhulula isikhala.</string>
+    <string name="permdesc_bluetooth">Ivumela uhlelo lokusebenza ukubuka ukucushwa kwe-Bluetooth kuthebhulethi, nokwenza futhi nokwamukela uxhumo namadivayisi amatanisiwe.</string>
+    <string name="permdesc_bluetoothAdmin">Ivumela uhlelo lokusebenza ukumisa ithebhulethi ye-Bluetooth yasendawni, nokuthola nokubhanqanisa namadivaysi okulawula okukude.</string>
+    <string name="permdesc_broadcastSticky">Ivumela uhlelo lokusebenza ukuthumela ukusakaza okunamathelayo, okusalayo emva kokuba ukusakazwa sekuphelile. Ukusebenzisa kakhulu kuhle kwenze ithebhulethi ukuthi ingasheshi noma ingahlali kahle ngokuyibangela ukusebenzisa imemori eningi.</string>
+    <string name="permdesc_changeWifiMulticastState">Ivumela uhlelo lokusebenza ukuthola amaphakethe athunyelwe kuwo onke amadivayisi kunethiwekhi ye-Wi-Fi asebenzisa amakheli amaningi okusakaza, hhayi nje ithebhulethi yakho. Isebenzisa amandla aminingi ukudlula imodi okungeyona yokusakaza okuningi.</string>
+    <string name="permdesc_changeWimaxState">Ivumela uhlelo lokusebenza ukuxhuma ithebhulethi nokunqamula ithebhulethi kumanethiwekhi e-WiMAX.</string>
+    <string name="permdesc_getAccounts">Ivumela uhlelo lokusebenza ukuthola uhlu lwama-akhawunti aziwa ithebhulethi. Lokhu kufaka phakathi noma yimaphi ama-akhawunti adalwe izinhlelo zokusebenza ozifakile.</string>
+    <string name="permdesc_persistentActivity">Ivumela uhlelo kusebenza ukwenza izingxenye yazo ezicindezelayo kumemori. Lokhu kungakhawulela imemori ekhona kwezinye izinhlelo zokusebenza ukwenza ukuthi ithebhulethi ingasheshi.</string>
+    <string name="permdesc_readCalendar">Lolu hlelo lokusebenza lungafunda yonke imicimbi yekhalenda elondolozwe kuthebhulethi yakho nokwabelana noma ukulondoloza idatha yakho yekhalenda.</string>
+    <string name="permdesc_readContacts">Ivumela uhlelo lokusebenza ukufunda idatha mayelana noxhumana nabo abalondolozwe kuthebhulethi yakho. Izinhlelo zokusebenza zizophinda zibe nokufinyelela kuma-akhawunti akuthebulethi yakho adale oxhumana nabo. Lokhu kungafaka ama-akhawunti adalwe izinhlelo zokusebenza ozifakile. Le mvume ivumela izinhlelo zokusebenza ukuthi zilondoloze idatha yoxhumana nabo, kanye nezinhlelo zokusebenza ezinobungozi zingabelana ngedatha yoxhumana nabo ngaphandle kolwazi lwakho.</string>
+    <string name="permdesc_readSms">Lolu hlelo lokusebenza lingafunda yonke imilayezo ye-SMS (umbhalo) elondolozwe kuthebhulethi.</string>
+    <string name="permdesc_receiveBootCompleted">Ivumela uhlelo lokusebenza ukuthi luziqalise ngokushesha emuva kokuba isistimu isiqedile ukubhutha. Lokhu kwenza ukuthi ithathe isikhathi esithe ukuba side ukuqalise ithebhulethi nokuvumela izinhlelo zokusebenza ukuthi inciphise yonke ithebhulethi ngokuthi isebenze njalo.</string>
+    <string name="permdesc_setTimeZone">Ivumela uhlelo lokusebenza ukuthi iguqule umkhawulo wesikhathi sekhompyutha yepeni.</string>
+    <string name="permdesc_transmitIr">Ivumela uhlelo lokusebenza ukuthi lusebenzise isihambisi esinombala ongabonwa ngeso wethebulethi.</string>
+    <string name="permdesc_wakeLock">Ivumela uhlelo lokusebenza ukuthi linqande ithebulethi yakho ukuthi ilale.</string>
+    <string name="permdesc_writeCalendar">Lolu hlelo lokusebenza lungangeza, lisuse, noma lishintshe imicimbi yekhalenda kuthebhulethi yakho. Lolu hlelo lokusebenza lingathumela imilayezo engabonakala ivela kusuka kubanikazi bekhalenda, noma lishintshe imicimbi ngaphandle kokwazisa abanikazi.</string>
+    <string name="permdesc_writeCallLog">Ivumela uhlelo lokusebenza ukushintsha ilogi yekholi yethebulethi yakho, kufaka phakathi idatha mayelana namakholi angenayo naphumayo. Izinhlelo zikusebenza ezingalungile zingasebenzisa lokhu ukusula noma ukushintsha irekhodi lwamakholi wakho.</string>
+    <string name="permdesc_writeContacts">Ivumela uhlelo lokusebenza ukushintsha idatha mayelana noxhumana nabo abalondolozwe kuthebhulethi yakho. Le mvume ivumela izinhlelo zokusebenza ukususa idatha yoxhumana nabo.</string>
+    <string name="permlab_wakeLock">gwema ithebhulethi ukuba ingalali</string>
+    <string name="policydesc_watchLogin">Bheka inani lamaphasiwedi angafanele athayishiwe uma kuvulwa iskrini bese kuvalwa ithebhulethi noma kususwe yonke idatha yethebhulethi uma kubhalwe amaphasiwedi amaningi angalungile.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Qaphela inombolo yamaphasiwedi angalungile athayiphwe uma kuvulwa isikrini, uphinde ukhiye ithebulethi noma usule yonke idatha yalo msebenzisi uma ngabe kuthayiphwe amaphasiwedi amaningi kakhulu angalungile.</string>
+    <string name="policydesc_wipeData">Sula idatha yethebhulethi ngaphandle kwesaziso, ngokwenza ukusetha kabusha kwemboni.</string>
+    <string name="policydesc_wipeData_secondaryUser">Sula idatha yalo msebenzisi kule thebulethi ngaphandle kwesexwayiso.</string>
+    <string name="power_dialog">Okukhethwa kukho kwethebhulethi</string>
+    <string name="shutdown_confirm">Ithebhulethi yakho izocima.</string>
+    <string name="vdm_camera_access_denied">Ayikwazi ukufinyelela ikhamera yethebulethi kusuka ku-%1$s yakho</string>
+</resources>

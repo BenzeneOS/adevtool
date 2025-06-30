@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">如需进入主屏幕，请从底部快速向上滑动。如需访问任务栏，请从底部缓慢向上滑动。如需切换应用，请从底部向上滑动并按住，然后再松开。如需返回，请从左侧或右侧边缘滑动。</string>
+    <string name="setting_auto_rotate_folded">折叠时自动旋转屏幕</string>
+    <string name="setting_auto_rotate_unfolded">展开时自动旋转屏幕</string>
+</resources>

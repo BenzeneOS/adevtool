@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_dialog_touch_sensor">Леко докоснете сензора за отпечатъци</string>
+    <string name="settingslib_learn_more_text">Научете повече за „Отключване с отпечатък“</string>
+</resources>

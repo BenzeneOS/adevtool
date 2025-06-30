@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Chagua taswira ya skrini kisha uwashe usaidizi bila kutumia mikono wakati kompyuta kibao yako imeambatishwa</string>
+    <string name="dock_setup_notification_title">Fanya mengi zaidi wakati kompyuta imeambatishwa</string>
+    <string name="stylus_system_update_notification_text">Ili unufake zaidi kutokana na stylus yako, sakinisha sasisho jipya la Android</string>
+    <string name="stylus_system_update_notification_title">Sakinisha sasisho la Android</string>
+</resources>

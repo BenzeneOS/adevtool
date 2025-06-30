@@ -1,0 +1,1 @@
+runtime_resource_overlay { name: "PixelUwbOverlayF10", product_specific: true, }

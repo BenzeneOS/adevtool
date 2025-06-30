@@ -216,9 +216,8 @@ PRODUCT_OVERRIDE_FINGERPRINT := google/lynx/lynx:16/BP2A.250605.031.A2/13578606:
 
 PRODUCT_PACKAGES += \
     activity \
+    AdaptiveHapticsLynxOverlay \
     ambient_volume \
-    android.auto_generated_rro_product_adevtool__ \
-    android.auto_generated_rro_vendor_adevtool__ \
     android.frameworks.sensorservice-V1-ndk.vendor \
     android.frameworks.stats-V1-cpp.vendor \
     android.hardware.authsecret-impl.nos \
@@ -376,27 +375,18 @@ PRODUCT_PACKAGES += \
     capo \
     cbd \
     cc \
+    CellBroadcastReceiverOverlay \
     chre_atoms_log:64 \
     chremetrics-cpp \
     citadel_updater \
     citadeld \
+    ClearCallingSettingsOverlay2022 \
     cnss-daemon \
     columbus \
     columbus_lite \
-    com.android.hbmsvmanager.auto_generated_rro_product_adevtool__ \
-    com.android.networkstack__NetworkStackConfig.auto_generated_rro_product_adevtool__ \
-    com.android.networkstack.tethering__TetheringConfig.auto_generated_rro_product_adevtool__ \
-    com.android.phone.auto_generated_rro_product_adevtool__ \
-    com.android.server.telecom.auto_generated_rro_product_adevtool__ \
-    com.android.settings.auto_generated_rro_product_adevtool__ \
-    com.android.systemui.auto_generated_rro_product_adevtool__ \
-    com.android.systemui.auto_generated_rro_vendor_adevtool__ \
-    com.android.traceur.auto_generated_rro_product_adevtool__ \
     com.google.android.camera.experimental2022 \
     com.google.android.camera.extensions \
     com.google.android.camerax.extensions \
-    com.google.android.nfc__NfcCustomization.auto_generated_rro_product_adevtool__ \
-    com.google.android.pixelsystemservice__AdaptiveHapticsConfig.auto_generated_rro_product_adevtool__ \
     com.google.android.widevine-13130248 \
     com.google.edgetpu_app_service-V3-ndk \
     com.google.edgetpu_app_service-V3-ndk__system_ext \
@@ -405,7 +395,6 @@ PRODUCT_PACKAGES += \
     com.google.edgetpu.tachyon-ndk \
     com.google.edgetpu.tachyon-service \
     com.google.edgetpu.tachyon-service__2 \
-    com.google.euiccpixel.auto_generated_rro_product_adevtool__ \
     com.google.hardware.biometrics.fingerprint.fingerprint-ext-V1-ndk \
     com.google.hardware.pixel.display-V15-ndk.vendor \
     com.google.hardware.pixel.display-V4-ndk.vendor \
@@ -422,6 +411,7 @@ PRODUCT_PACKAGES += \
     com.google.pixel.wifi.ext \
     convert_to_ext4.sh \
     dck_gating \
+    device_symlinks \
     disable_contaminant_detection.sh \
     dmd \
     dmd__2 \
@@ -446,6 +436,7 @@ PRODUCT_PACKAGES += \
     EuiccGoogle \
     EuiccGoogleOverlay \
     EuiccSupportPixel \
+    EuiccSupportPixelOverlay \
     EuiccSupportPixelPermissions \
     fake_gxp_telemetry_reader \
     fingerprint-goodix \
@@ -453,12 +444,16 @@ PRODUCT_PACKAGES += \
     flood.control.hal \
     flp.default \
     fp_utils \
+    framework-res__lynx__auto_generated_rro_product \
+    framework-res__lynx__auto_generated_rro_vendor \
     fstab.gs201 \
     fstab.gs201-fips \
     geofence \
     gesture \
     google-ril \
     google.hardware.media.c2@1.0-service \
+    GoogleConfigOverlay \
+    GooglePermissionControllerOverlay \
     gps.default \
     gpsd \
     gs_watchdogd \
@@ -469,6 +464,8 @@ PRODUCT_PACKAGES += \
     hardware.google.bluetooth.sar@1.0.vendor \
     hardware.google.bluetooth.sar@1.1-impl \
     hardware.google.bluetooth.sar@1.1.vendor \
+    HbmSVManager \
+    HbmSVManager__lynx__auto_generated_rro_product \
     health \
     hwc3-default \
     imu_cal \
@@ -641,6 +638,7 @@ PRODUCT_PACKAGES += \
     libziparchive.vendor \
     loc_launcher \
     lowi-server \
+    ManagedProvisioningPixelOverlay \
     manifest \
     manifest_aocx \
     manifest_gralloc_aidl2 \
@@ -656,6 +654,8 @@ PRODUCT_PACKAGES += \
     modem_log_dumper \
     modem_logging_control \
     motiondetector \
+    NetworkStackOverlay \
+    NexusLauncherRelease__lynx__auto_generated_rro_vendor \
     nos_app_avb \
     nos_app_keymaster \
     nos_app_weaver \
@@ -665,22 +665,42 @@ PRODUCT_PACKAGES += \
     PersistentBackgroundCameraServices \
     pixel_stateresidency_provider_aidl_interface-ndk.vendor \
     pixel-display-default \
+    PixelBatteryHealthOverlay \
     PixelCameraServices \
+    PixelConfigOverlay2018 \
+    PixelConfigOverlay2021 \
+    PixelConfigOverlayCommon \
+    PixelConnectivityOverlay2023_midyear \
+    PixelDocumentsUIGoogleOverlay \
     PixelNfc \
+    PixelNfcOverlayCommon \
+    PixelNfcOverlayLynx \
     pixelpowerstats_provider_aidl_interface-cpp.vendor \
     PixelQualifiedNetworksService \
     pixelstats-vendor \
+    PixelTetheringOverlay2021 \
     PixelVibratorFlagsL26.vendor \
+    PixelWifiOverlay2023_midyear \
     predump_gti0.sh \
     predump_touch.sh \
     rfsd \
     rild_exynos \
+    SafetyRegulatoryInfo__lynx__auto_generated_rro_product \
     samsung.hardware.media.c2@1.2-service \
     scd \
     sd \
     sensorcollector \
     sensors.dynamic_sensor_hal \
     sensors.usf \
+    SettingsGoogle__lynx__auto_generated_rro_product \
+    SettingsGoogle__lynx__auto_generated_rro_vendor \
+    SettingsGoogleFutureLynxOverlay \
+    SettingsGoogleLynxOverlay \
+    SettingsOverlayG0DZQ \
+    SettingsOverlayG82U8 \
+    SettingsOverlayGHL1X \
+    SettingsOverlayGWKK3 \
+    SettingsProvider__lynx__auto_generated_rro_product \
     ShannonIms \
     ShannonRcs \
     shared_modem_platform \
@@ -688,9 +708,16 @@ PRODUCT_PACKAGES += \
     smartbatching \
     sound_trigger.primary.gs201 \
     system_signal_hub \
+    SystemUIGoogle__lynx__auto_generated_rro_product \
+    SystemUIGoogle__lynx__auto_generated_rro_vendor \
+    SystemUIGXOverlay \
+    TeleService__lynx__auto_generated_rro_product \
+    TeleService__lynx__auto_generated_rro_vendor \
     touch_gti_ical \
+    TrafficLightFaceOverlay \
     trusty_metricsd \
     twoshay \
+    UdfpsOverlay \
     ufs_firmware_update.sh \
     umfw_stat_tool \
     usf_stats \
@@ -731,6 +758,7 @@ PRODUCT_PACKAGES += \
     vendor.samsung_slsi.telephony.hardware.radioExternal@1.1 \
     vice \
     vulkan.mali \
+    WallpaperPickerGoogleRelease__lynx__auto_generated_rro_vendor \
     wfc-pkt-router
 
 PRODUCT_COPY_FILES += \

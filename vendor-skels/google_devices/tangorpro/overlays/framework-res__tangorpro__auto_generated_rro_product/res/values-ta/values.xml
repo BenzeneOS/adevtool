@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">உங்கள் விரல் சென்சார் மீது இருப்பதை உறுதிசெய்துகொள்ளவும்</string>
+    <string name="fingerprint_acquired_power_press">அமைவைத் தொடர சென்சாரை லேசாகத் தொடவும்</string>
+    <string name="fingerprint_acquired_too_fast">உங்கள் விரலை இன்னும் சிறிதுநேரம் சென்சார் மீது வைத்திருக்கவும்</string>
+    <string name="fingerprint_error_power_pressed">சரிபார்ப்பு முடிந்தது. அடுத்த முறை லேசாகத் தொட்டுப் பார்க்கவும்.</string>
+</resources>

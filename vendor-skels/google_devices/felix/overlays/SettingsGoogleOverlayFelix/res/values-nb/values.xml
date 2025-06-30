@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">For å gå til startskjermen, sveip raskt opp fra bunnen. For å åpne oppgavelinjen, sveip sakte opp fra bunnen. For å bytte app, sveip opp fra bunnen, hold og slipp. For å gå tilbake, sveip fra venstre eller høyre kant.</string>
+    <string name="setting_auto_rotate_folded">Roter automatisk når enheten er lagt sammen</string>
+    <string name="setting_auto_rotate_unfolded">Roter automatisk når enheten er åpen</string>
+</resources>

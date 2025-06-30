@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Liigutage sõrme. Proovige uuesti.</item>
+        <item>See sõrmejälg on juba registreeritud, kasutage teist sõrme.</item>
+        <item>Kehv pildikvaliteet. Proovige uuesti.</item>
+        <item/>
+        <item>Kehv pildikvaliteet. Proovige uuesti.</item>
+        <item/>
+        <item/>
+        <item>Ekraan on määrdunud, puhastage seda. Proovige uuesti.</item>
+        <item>Pilti ei õnnestunud lugeda. Proovige uuesti.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Halvad andmed. Proovige uuesti.</item>
+        <item>Sõrmejälje registreerimine ebaõnnestus. Proovige uuesti.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Sõrmejäljeandurit ei saa kasutada. Külastage remonditeenuse pakkujat või lehte g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Külastage remonditeenuse pakkujat või lehte g.co/pixel/fingerprintunlock</string>
+</resources>

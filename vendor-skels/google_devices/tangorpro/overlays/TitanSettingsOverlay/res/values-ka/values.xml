@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">ჰაბის რეჟიმი</string>
+    <string name="dream_no_screen_saver_caption">ეკრანმზოგი არ არის</string>
+    <string name="dream_no_screen_saver_description">უმოქმედობისას თქვენი ეკრანი გამოირთვება ენერგიის დაზოგვის მიზნით</string>
+    <string name="dream_no_screen_saver_preview_caption">ეკოლოგიური</string>
+    <string name="dream_secondary_button_title">გამოტოვება</string>
+    <string name="screensaver_settings_summary_dock_and_charging">ჩამაგრებისა და დატენვისას</string>
+    <string name="screensaver_settings_summary_off">უმოქმედო რეჟიმში ყოფნისას თქვენი რჩეული ფოტოების, ნამუშევრების, საათებისა და ა.შ. ჩვენება</string>
+    <string name="screensaver_settings_summary_postured_and_charging">ვერტიკალურ პოზიციაში და დატენისას</string>
+    <string name="screensaver_settings_summary_sleep">დატენისას</string>
+    <string name="when_to_show_hubmode_charging">დატენისას</string>
+    <string name="when_to_show_hubmode_docked">სანამ ჩამაგრებულია</string>
+    <string name="when_to_show_hubmode_never">არასოდეს</string>
+</resources>

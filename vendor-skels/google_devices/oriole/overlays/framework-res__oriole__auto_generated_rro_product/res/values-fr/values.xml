@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Déplacez votre doigt, puis réessayez.</item>
+        <item>Doigt déjà enregistré. Utilisez-en un autre.</item>
+        <item>"Mauvaise qualité d'image. Réessayez."</item>
+        <item/>
+        <item>"Mauvaise qualité d'image. Réessayez."</item>
+        <item/>
+        <item/>
+        <item>"Tache détectée. Nettoyez l'écran, puis réessayez."</item>
+        <item>"Échec de lecture de l'image. Réessayez."</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Données erronées. Réessayez.</item>
+        <item>"Échec de l'enregistrement du doigt. Réessayez."</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">"Impossible d'utiliser le lecteur d'empreinte digitale. Contactez un réparateur ou rendez-vous sur g.co/pixel/fingerprintunlock"</string>
+    <string name="fingerprint_recalibrate_notification_content">Contactez un réparateur ou rendez-vous sur g.co/pixel/fingerprintunlock</string>
+</resources>

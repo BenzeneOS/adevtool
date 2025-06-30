@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_ambientBrighteningThresholds">
+        <item>5186</item>
+        <item>4333</item>
+        <item>3666</item>
+        <item>2999</item>
+        <item>2759</item>
+        <item>2519</item>
+        <item>2279</item>
+        <item>2039</item>
+        <item>1799</item>
+        <item>799</item>
+        <item>527</item>
+        <item>499</item>
+        <item>470</item>
+        <item>517</item>
+        <item>565</item>
+        <item>612</item>
+        <item>660</item>
+        <item>708</item>
+        <item>742</item>
+        <item>636</item>
+        <item>582</item>
+        <item>549</item>
+        <item>369</item>
+        <item>294</item>
+        <item>269</item>
+        <item>220</item>
+        <item>220</item>
+    </array>
+    <array name="config_ambientDarkeningThresholds">
+        <item>525</item>
+        <item>683</item>
+        <item>666</item>
+        <item>650</item>
+        <item>640</item>
+        <item>630</item>
+        <item>620</item>
+        <item>610</item>
+        <item>600</item>
+        <item>500</item>
+        <item>500</item>
+        <item>440</item>
+        <item>385</item>
+        <item>382</item>
+        <item>379</item>
+        <item>376</item>
+        <item>373</item>
+        <item>371</item>
+        <item>367</item>
+        <item>387</item>
+        <item>397</item>
+        <item>403</item>
+        <item>380</item>
+        <item>345</item>
+        <item>333</item>
+        <item>283</item>
+        <item>283</item>
+    </array>
+    <array name="config_ambientThresholdLevels">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+    </array>
+    <array name="config_ambientThresholdsOfPeakRefreshRate">
+        <item>-1</item>
+        <item>10</item>
+    </array>
+    <array name="config_autoBrightnessDisplayValuesNits">
+        <item>5.139055</item>
+        <item>9.962019</item>
+        <item>18.34823</item>
+        <item>21.550682</item>
+        <item>24.016779</item>
+        <item>32.5</item>
+        <item>46</item>
+        <item>53.26923</item>
+        <item>54.615383</item>
+        <item>58.115383</item>
+        <item>62.1394</item>
+        <item>67.13133</item>
+        <item>79.67614</item>
+        <item>98.04727</item>
+        <item>125.1222</item>
+        <item>161.68752</item>
+        <item>208.48856</item>
+        <item>264.82214</item>
+        <item>328.58694</item>
+        <item>627.4315</item>
+        <item>826.85846</item>
+        <item>867.04944</item>
+        <item>901.4497</item>
+        <item>1100.0</item>
+    </array>
+    <array name="config_autoBrightnessLevels">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>8</item>
+        <item>12</item>
+        <item>15</item>
+        <item>20</item>
+        <item>33</item>
+        <item>55</item>
+        <item>90</item>
+        <item>148</item>
+        <item>245</item>
+        <item>403</item>
+        <item>665</item>
+        <item>1097</item>
+        <item>1808</item>
+        <item>3000</item>
+        <item>6000</item>
+        <item>9000</item>
+        <item>10000</item>
+        <item>14000</item>
+        <item>20000</item>
+    </array>
+    <array name="config_availableColorModes">
+        <item>0</item>
+        <item>3</item>
+    </array>
+    <array name="config_brightnessThresholdsOfPeakRefreshRate">
+        <item>3</item>
+        <item>4</item>
+    </array>
+    <array name="config_highAmbientBrightnessThresholdsOfFixedRefreshRate">
+        <item>50000</item>
+    </array>
+    <array name="config_highDisplayBrightnessThresholdsOfFixedRefreshRate">
+        <item>128</item>
+    </array>
+    <array name="config_mappedColorModes">
+        <item>0</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </array>
+    <array name="config_mobile_tcp_buffers">
+        <item>umts:131072,262144,1452032,4096,16384,399360</item>
+        <item>hspa:131072,262144,2441216,4096,16384,399360</item>
+        <item>hsupa:131072,262144,2441216,4096,16384,399360</item>
+        <item>hsdpa:131072,262144,2441216,4096,16384,399360</item>
+        <item>hspap:131072,262144,2441216,4096,16384,399360</item>
+        <item>edge:16384,32768,131072,4096,16384,65536</item>
+        <item>gprs:4096,8192,24576,4096,8192,24576</item>
+        <item>1xrtt:16384,32768,131070,4096,16384,102400</item>
+        <item>evdo:131072,262144,1048576,4096,16384,524288</item>
+        <item>lte:524288,1048576,8388608,262144,524288,4194304</item>
+        <item>lte_ca:524288,6291456,12582912,262144,1048576,2097152</item>
+        <item>nr:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>nr_sa:2097152,6291456,16777216,512000,2097152,8388608</item>
+    </array>
+    <array name="config_optionalIpSecAlgorithms">
+        <item>xcbc(aes)</item>
+        <item>rfc3686(ctr(aes))</item>
+    </array>
+    <array name="config_serviceStateLocationAllowedPackages">
+        <item>com.shannon.imsservice</item>
+        <item>com.android.phone</item>
+    </array>
+    <array name="config_smallAreaDetectionAllowlist">
+        <item>com.tencent.mm:0.07</item>
+        <item>com.facebook.katana:0.07</item>
+        <item>com.instagram.android:0.07</item>
+        <item>com.spotify.music:0.05</item>
+        <item>com.reddit.frontpage:0.07</item>
+        <item>com.zhiliaoapp.musically:0.07</item>
+        <item>com.bilibili.app.in:0.07</item>
+        <item>com.twitter.android:0.07</item>
+        <item>com.google.android.youtube:0.07</item>
+    </array>
+    <array name="config_telephonyEuiccDeviceCapabilities">
+        <item>gsm,8</item>
+        <item>utran,9</item>
+        <item>eutran,15</item>
+        <item>nrepc,15</item>
+        <item>nr5gc,15</item>
+        <item>eutran5gc,15</item>
+    </array>
+    <array name="config_tether_usb_regexs">
+        <item>"usb\\d"</item>
+        <item>"rndis\\d"</item>
+    </array>
+    <array name="config_tether_wifi_regexs">
+        <item>wlan0</item>
+        <item>softap.*</item>
+    </array>
+    <array name="non_removable_euicc_slots">
+        <item>0</item>
+    </array>
+    <bool name="allow_clear_initial_attach_data_profile">true</bool>
+    <bool name="config_allow_ussd_over_ims">true</bool>
+    <bool name="config_animateScreenLights">false</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_battery_percentage_setting_available">true</bool>
+    <bool name="config_bg_current_drain_auto_restrict_abusive_apps">true</bool>
+    <bool name="config_cbrs_supported">true</bool>
+    <bool name="config_device_volte_available">true</bool>
+    <bool name="config_device_vt_available">true</bool>
+    <bool name="config_device_wfc_ims_available">true</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
+    <bool name="config_dozePulsePickup">true</bool>
+    <bool name="config_enableHapticTextHandle">true</bool>
+    <bool name="config_enableMultiUserUI">true</bool>
+    <bool name="config_enableNewAutoSelectNetworkUI">true</bool>
+    <bool name="config_enableUdcSysfsUsbStateUpdate">true</bool>
+    <bool name="config_faceAuthDismissesKeyguard">false</bool>
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+    <bool name="config_fingerprintSupportsGestures">false</bool>
+    <bool name="config_hotswapCapable">true</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+    <bool name="config_telephony5gNonStandalone">true</bool>
+    <bool name="config_telephony5gStandalone">true</bool>
+    <bool name="config_ui_enableFadingMarquee">false</bool>
+    <bool name="config_unplugTurnsOnScreen">true</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="config_variableRefreshRateTypingSupported">false</bool>
+    <bool name="config_wifi_dual_band_support">true</bool>
+    <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
+    <bool name="config_wlan_data_service_conn_persistence_on_restart">false</bool>
+    <bool name="config_zramWriteback">true</bool>
+    <bool name="euicc_optimize_apdu_sender">true</bool>
+    <bool name="skip_restoring_network_selection">true</bool>
+    <dimen name="config_hapticChannelMaxVibrationAmplitude">0.335</dimen>
+    <dimen name="config_screenBrightnessSettingDefaultFloat">0.17429718</dimen>
+    <dimen name="config_screenBrightnessSettingMaximumFloat">1.0</dimen>
+    <dimen name="config_screenBrightnessSettingMinimumFloat">0.0</dimen>
+    <dimen name="quick_qs_offset_height">171.0px</dimen>
+    <dimen name="quick_qs_total_height">177.0dp</dimen>
+    <dimen name="rounded_corner_content_padding">47.0px</dimen>
+    <dimen name="rounded_corner_radius">47.0px</dimen>
+    <dimen name="rounded_corner_radius_adjustment">5.0px</dimen>
+    <dimen name="rounded_corner_radius_bottom">48.0px</dimen>
+    <dimen name="rounded_corner_radius_bottom_adjustment">4.0px</dimen>
+    <dimen name="rounded_corner_radius_top">47.0px</dimen>
+    <dimen name="rounded_corner_radius_top_adjustment">5.0px</dimen>
+    <dimen name="status_bar_height_default">28.0dp</dimen>
+    <dimen name="status_bar_height_landscape">28.0dp</dimen>
+    <dimen name="status_bar_height_portrait">136.0px</dimen>
+    <fraction name="config_prescaleAbsoluteVolume_index1">100.0%</fraction>
+    <fraction name="config_prescaleAbsoluteVolume_index2">100.0%</fraction>
+    <fraction name="config_prescaleAbsoluteVolume_index3">100.0%</fraction>
+    <integer name="config_accessibilityColorMode">2</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
+    <integer name="config_customizedMaxCachedProcesses">1024</integer>
+    <integer name="config_defaultAlarmVibrationIntensity">3</integer>
+    <integer name="config_defaultHapticFeedbackIntensity">3</integer>
+    <integer name="config_defaultMediaVibrationIntensity">3</integer>
+    <integer name="config_defaultNotificationVibrationIntensity">3</integer>
+    <integer name="config_defaultPeakRefreshRate">90</integer>
+    <integer name="config_defaultRefreshRate">0</integer>
+    <integer name="config_defaultRefreshRateInHbmHdr">60</integer>
+    <integer name="config_defaultRefreshRateInHbmSunlight">90</integer>
+    <integer name="config_defaultRefreshRateInZone">90</integer>
+    <integer name="config_defaultRingVibrationIntensity">3</integer>
+    <integer name="config_delay_for_ims_dereg_millis">3000</integer>
+    <integer name="config_fixedRefreshRateInHighZone">60</integer>
+    <integer name="config_nightDisplayColorTemperatureDefault">4000</integer>
+    <integer name="config_num_physical_slots">2</integer>
+    <integer name="config_screenBrightnessDim">6</integer>
+    <integer name="config_screenBrightnessDoze">34</integer>
+    <integer name="config_shutdownBatteryTemperature">600</integer>
+    <string name="config_displayLightSensorType">com.google.sensor.auto_brightness</string>
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <string name="config_dozeTapSensorType">com.google.sensor.single_touch</string>
+    <string name="config_dozeUdfpsLongPressSensorType">com.google.sensor.long_press</string>
+    <string name="config_mainBuiltInDisplayCutout">M 506,68 a 34,34 0 1 0 68,0 34,34 0 1 0 -68,0 Z @left</string>
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation">M 480,0 h 145 v 136 h -145 Z @left</string>
+    <string name="config_mainDisplayShape">M 75.769531 0 C 70.332709 -9.2518493e-18 64.952449 0.00079919532 59.515625 0.05859375 C 54.078801 0.11638831 48.699297 0.28968642 43.320312 1.0410156 C 32.388827 2.5436742 22.384063 6.3571816 14.402344 14.390625 C 6.3627864 22.366274 2.486224 32.36589 0.98242188 43.289062 C 0.23052083 48.663956 0.057838542 54.038015 0 59.470703 L 0 2340.5293 C 0.057838884 2345.962 0.23052038 2351.336 0.98242188 2356.7109 C 2.4862239 2367.6341 6.3627861 2377.6338 14.402344 2385.6094 C 22.384063 2393.6429 32.388834 2397.4563 43.320312 2398.959 C 48.699302 2399.7103 54.078805 2399.8834 59.515625 2399.9414 C 64.952444 2399.9994 70.332714 2400 75.769531 2400 L 1004.2305 2400 C 1009.6673 2400 1015.0476 2399.9994 1020.4844 2399.9414 C 1025.9213 2399.8834 1031.3008 2399.7103 1036.6797 2398.959 C 1047.6113 2397.4563 1057.6159 2393.6429 1065.5977 2385.6094 C 1073.6371 2377.6338 1077.5138 2367.6341 1079.0176 2356.7109 C 1079.7695 2351.336 1079.9422 2345.962 1080 2340.5293 L 1080 59.470703 C 1079.9422 54.038015 1079.7695 48.663956 1079.0176 43.289062 C 1077.5138 32.36589 1073.637 22.366274 1065.5977 14.390625 C 1057.6159 6.3571811 1047.6112 2.5436742 1036.6797 1.0410156 C 1031.3007 0.28968666 1025.9213 0.11639363 1020.4844 0.05859375 C 1015.0476 0.00080386558 1009.6673 0 1004.2305 0 L 75.769531 0 z</string>
+    <string name="config_mms_user_agent">gqml3</string>
+    <string name="config_mms_user_agent_profile_url">http://www.gstatic.com/android/sms/GQML3.xml</string>
+    <string name="config_quickPickupSensorType">com.google.sensor.quick_pickup</string>
+    <string name="config_radio_access_family">GSM|CDMA|EVDO|WCDMA|LTE</string>
+    <string name="config_wlan_data_service_package">com.google.android.iwlan</string>
+    <string name="config_wlan_network_service_package">com.google.android.iwlan</string>
+</resources>

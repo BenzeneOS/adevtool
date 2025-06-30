@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Laadimise helid</string>
+    <string name="edge_to_edge_navigation_summary">Avakuvale liikumiseks pühkige ekraani allservast kiiresti üles. Tegumiriba kuvamiseks pühkige ekraani allservast aeglaselt üles. Rakenduste vahetamiseks pühkige allservast üles, hoidke sõrme paigal ja tõstke see üles. Tagasiliikumiseks pühkige vasakust või paremast servast keskele.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Viige see seade Pixel Tabletile lähemale ja proovige uuesti.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Avage kõrvaklappide ümbris, viige see Pixel Tabletile lähemale ja proovige uuesti.</string>
+    <string name="sound_dashboard_summary">Helitugevus</string>
+    <string name="sound_dashboard_summary_with_dnd">Helitugevus, režiim Mitte segada</string>
+    <string name="sound_settings">Heli</string>
+</resources>

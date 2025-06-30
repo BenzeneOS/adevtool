@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>ເລື່ອນນິ້ວຂອງທ່ານ. ກະລຸນາລອງໃໝ່.</item>
+        <item>ເຄີຍລົງທະບຽນນິ້ວນີ້ແລ້ວ, ກະລຸນາໃຊ້ນິ້ວອື່ນ.</item>
+        <item>ຄຸນນະພາບຮູບບໍ່ດີ. ກະລຸນາລອງໃໝ່.</item>
+        <item/>
+        <item>ຄຸນນະພາບຮູບບໍ່ດີ. ກະລຸນາລອງໃໝ່.</item>
+        <item/>
+        <item/>
+        <item>ກວດພົບຮອຍເປື້ອນ, ກະລຸນາເຊັດໜ້າຈໍ. ກະລຸນາລອງໃໝ່.</item>
+        <item>ອ່ານຮູບບໍ່ສຳເລັດ. ກະລຸນາລອງໃໝ່.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>ຂໍ້ມູນເສຍຫາຍ. ກະລຸນາລອງໃໝ່.</item>
+        <item>ລົງທະບຽນນິ້ວມືບໍ່ສຳເລັດ. ກະລຸນາລອງໃໝ່.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">ບໍ່ສາມາດໃຊ້ເຊັນເຊີລາຍນິ້ວມືໄດ້. ກະລຸນາໄປຫາຜູ້ໃຫ້ບໍລິການສ້ອມແປງ ຫຼື g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">ກະລຸນາໄປຫາຜູ້ໃຫ້ບໍລິການສ້ອມແປງ ຫຼື g.co/pixel/fingerprintunlock</string>
+</resources>

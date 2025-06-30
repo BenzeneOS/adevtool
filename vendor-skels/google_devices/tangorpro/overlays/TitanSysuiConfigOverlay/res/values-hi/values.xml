@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">डॉक से जुड़े होने के दौरान, अपने टैबलेट पर एक स्क्रीन सेवर चुनें और बोलकर इस्तेमाल करने की सुविधा चालू करें</string>
+    <string name="dock_setup_notification_title">डॉक से जुड़े होने के दौरान, टैबलेट पर और भी काम करें</string>
+    <string name="stylus_system_update_notification_text">अपने स्टाइलस का भरपूर इस्तेमाल करने के लिए, Android का नया अपडेट इंस्टॉल करें</string>
+    <string name="stylus_system_update_notification_title">Android का अपडेट इंस्टॉल करें</string>
+</resources>

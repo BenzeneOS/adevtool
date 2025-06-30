@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wi-Fi</string>
+    <string name="non_carrier_data_usage">Wi-Fi дерек трафигі</string>
+    <string name="tether_settings_title_all">Тетеринг</string>
+    <string name="tethering_footer_info">USB, Ethernet не Bluetooth арқылы басқа құрылғыларды интернетке қосу үшін тетеринг функциясын пайдаланыңыз.</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Vælg en pauseskærm, og aktivér stemmestyret hjælp, når din tablet sidder i dockingstationen</string>
+    <string name="dock_setup_notification_title">Få mere ud af din enhed, når den sidder i dockingstationen</string>
+    <string name="stylus_system_update_notification_text">Du får mere ud af din styluspen ved at installere den nyeste Android-opdatering</string>
+    <string name="stylus_system_update_notification_title">Installér Android-opdateringen</string>
+</resources>

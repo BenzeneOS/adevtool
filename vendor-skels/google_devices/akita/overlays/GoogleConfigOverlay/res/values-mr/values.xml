@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="face_error_vendor">
+        <item>प्रमाणपत्र एक्स्पायर झाले आहे</item>
+        <item>सेन्सर तात्पुरते बंद केले आहेत</item>
+        <item>कॅलिब्रेशन एरर</item>
+        <item>फेस अनलॉक उपलब्ध नाही. फोन खूप गरम झाला आहे.</item>
+        <item>फेस अनलॉक पुन्हा सेट करणे आवश्यक आहे</item>
+    </array>
+    <string name="biometric_app_setting_name">चेहरा किंवा फिंगरप्रिंट वापरा</string>
+    <string name="biometric_dialog_default_subtitle">पुढे सुरू ठेवण्यासाठी तुमचा चेहरा किंवा फिंगरप्रिंट वापरा</string>
+    <string name="biometric_or_screen_lock_app_setting_name">फेस, फिंगरप्रिंट किंवा स्क्रीन लॉक</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">पुढे सुरू ठेवण्यासाठी तुमचे फेस, फिंगरप्रिंट किंवा स्क्रीन लॉक वापरा</string>
+    <string name="face_recalibrate_notification_content">तुम्ही पुन्हा नोंदणी करेपर्यंत फेस अनलॉक कदाचित काम करणार नाही</string>
+    <string name="face_recalibrate_notification_name">फेस अनलॉक</string>
+    <string name="face_recalibrate_notification_title">कृपया तुमच्या चेहऱ्याची पुन्हा नोंदणी करा</string>
+</resources>

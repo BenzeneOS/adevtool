@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Ili uende kwenye skrini ya kwanza, telezesha kidole juu kwa haraka kutoka sehemu ya chini. Ili ufikie Upauzana, telezesha kidole juu taratibu kutoka sehemu ya chini. Ili ubadilishe programu, telezesha kidole juu kutoka sehemu ya chini, shikilia kisha uachilie. Ili urudi nyuma, telezesha kidole kutoka ukingo wa kushoto au kulia.</string>
+    <string name="setting_auto_rotate_folded">Zungusha skrini kiotomatiki kifaa kinapokunjwa</string>
+    <string name="setting_auto_rotate_unfolded">Zungusha skrini kiotomatiki kifaa kinapokunjuliwa</string>
+</resources>

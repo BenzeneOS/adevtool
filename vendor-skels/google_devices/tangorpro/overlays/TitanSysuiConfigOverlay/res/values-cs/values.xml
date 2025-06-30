@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Zvolte spořič obrazovky a zapněte handsfree pomoc během umístění tabletu v doku</string>
+    <string name="dock_setup_notification_title">Více možností během vložení do doku</string>
+    <string name="stylus_system_update_notification_text">Dotykové pero využijete na maximum, když nainstalujete nejnovější aktualizaci Androidu</string>
+    <string name="stylus_system_update_notification_title">Instalace aktualizace Androidu</string>
+</resources>

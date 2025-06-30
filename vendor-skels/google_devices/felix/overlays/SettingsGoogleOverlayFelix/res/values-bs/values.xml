@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Da odete na početnu stranicu, brzo prevucite s dna prema gore. Da pristupite traci zadataka, sporo prevucite s dna prema gore. Da se prebacite na drugu aplikaciju, prevucite s dna prema gore, zadržite, a zatim otpustite. Da se vratite, prevucite s lijevog odnosno desnog ruba.</string>
+    <string name="setting_auto_rotate_folded">Automatsko rotiranje kada je uređaj sklopljen</string>
+    <string name="setting_auto_rotate_unfolded">Automatsko rotiranje kada uređaj nije sklopljen</string>
+</resources>

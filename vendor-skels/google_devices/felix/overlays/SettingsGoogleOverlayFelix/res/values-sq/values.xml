@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">"Për të shkuar tek ekrani bazë, rrëshqit shpejt lart nga fundi. Për t'u qasur te \"Shiriti i detyrave\", rrëshqit ngadalë lart nga fundi. Për të ndërruar aplikacionet, rrëshqit lart nga fundi, mbaje dhe lëshoje. Për të shkuar prapa, rrëshqit nga skaji i majtë ose i djathtë."</string>
+    <string name="setting_auto_rotate_folded">Rrotullim automatik kur paloset</string>
+    <string name="setting_auto_rotate_unfolded">Rrotullim automatik kur shpaloset</string>
+</resources>

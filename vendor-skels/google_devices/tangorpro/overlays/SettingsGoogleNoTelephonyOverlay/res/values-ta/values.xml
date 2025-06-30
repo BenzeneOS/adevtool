@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">வைஃபை</string>
+    <string name="non_carrier_data_usage">வைஃபை டேட்டா உபயோகம்</string>
+    <string name="tether_settings_title_all">இணைப்பு முறை</string>
+    <string name="tethering_footer_info">இணைப்பு முறையைப் பயன்படுத்தி USB, ஈதர்நெட், புளூடூத் ஆகியவை மூலம் மற்ற சாதனங்களுக்கு இணைய இணைப்பை வழங்குங்கள்.</string>
+</resources>

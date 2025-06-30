@@ -1,0 +1,1 @@
+runtime_resource_overlay { name: "SettingsOverlayGTU8P", product_specific: true, }

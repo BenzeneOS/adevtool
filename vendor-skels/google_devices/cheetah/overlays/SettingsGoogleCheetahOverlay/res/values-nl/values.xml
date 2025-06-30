@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Wachtwoord • Vingerafdruk • Gezicht</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Patroon • Vingerafdruk • Gezicht</string>
+    <string name="biometrics_unlock_set_unlock_pin">Pincode • Vingerafdruk • Gezicht</string>
+</resources>

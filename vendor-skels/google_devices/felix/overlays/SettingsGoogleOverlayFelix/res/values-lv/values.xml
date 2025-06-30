@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Lai pārietu uz sākuma ekrānu, no ekrāna apakšdaļas ātri velciet augšup. Lai piekļūtu uzdevumu joslai, no ekrāna apakšdaļas lēni velciet augšup. Lai pārslēgtu lietotnes, no ekrāna apakšdaļas velciet augšup, turiet un atlaidiet. Lai pārietu atpakaļ, velciet no ekrāna kreisās vai labās malas.</string>
+    <string name="setting_auto_rotate_folded">Automātiski pagriezt salokot</string>
+    <string name="setting_auto_rotate_unfolded">Automātiski pagriezt atlokot</string>
+</resources>

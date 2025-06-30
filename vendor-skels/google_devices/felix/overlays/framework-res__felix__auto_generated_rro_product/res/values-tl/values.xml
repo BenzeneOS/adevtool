@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">Hindi available ang Dual Screen dahil masyado nang umiinit ang Pixel phone mo</string>
+    <string name="fingerprint_acquired_partial">Tiyaking natatakpan ng daliri mo ang sensor</string>
+    <string name="fingerprint_acquired_power_press">Ilapat ang daliri sa sensor para ituloy ang setup</string>
+    <string name="fingerprint_acquired_too_fast">Huwag munang alisin ang iyong daliri sa sensor</string>
+    <string name="fingerprint_error_power_pressed">Natapos ang pag-verify. Subukang ilapat lang ang daliri mo sa susunod.</string>
+</resources>

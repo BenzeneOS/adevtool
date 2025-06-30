@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">ਵਾਈ‑ਫਾਈ</string>
+    <string name="non_carrier_data_usage">ਵਾਈ-ਫਾਈ ਡਾਟਾ ਵਰਤੋਂ</string>
+    <string name="tether_settings_title_all">ਟੈਦਰਿੰਗ</string>
+    <string name="tethering_footer_info">USB, ਈਥਰਨੈੱਟ ਜਾਂ ਬਲੂਟੁੱਥ ਰਾਹੀਂ ਹੋਰ ਡੀਵਾਈਸਾਂ ਨੂੰ ਇੰਟਰਨੈੱਟ ਮੁਹੱਈਆ ਕਰਨ ਲਈ ਟੈਦਰਿੰਗ ਦੀ ਵਰਤੋਂ ਕਰੋ।</string>
+</resources>

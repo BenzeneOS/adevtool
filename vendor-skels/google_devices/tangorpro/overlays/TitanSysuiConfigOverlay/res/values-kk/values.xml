@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Планшет қондыру станциясына қойылғанда скринсейверді таңдап, дауыспен басқару функциясын қосыңыз.</string>
+    <string name="dock_setup_notification_title">Құрылғы қондыру станциясына жалғанып тұрғанда, көп әрекет жасаңыз</string>
+    <string name="stylus_system_update_notification_text">Стилусты барынша тиімді пайдалану үшін Android-тың соңғы нұсқасын орнатыңыз.</string>
+    <string name="stylus_system_update_notification_title">Android-тың жаңа нұсқасын орнатыңыз</string>
+</resources>

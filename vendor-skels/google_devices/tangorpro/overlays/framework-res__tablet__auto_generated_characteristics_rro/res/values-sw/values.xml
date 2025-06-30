@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Kompyuta kibao inawaka…</string>
+    <string name="android_upgrading_title">Kompyuta kibao inasasishwa…</string>
+    <string name="app_streaming_blocked_message">Programu hii haiwezi kufikiwa kwenye %1$s kwa muda huu. Badala yake jaribu kwenye kompyuta kibao yako.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Programu hii inaomba usalama wa ziada. Badala yake jaribu kwenye kompyuta yako kibao.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Programu hii inaomba ruhusa za ziada. Hata hivyo, huwezi kutoa ruhusa ukitiririsha. Ruhusu kwenye kishikwambi chako kwanza.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Huwezi kufikia mipangilio hii kwenye %1$s yako. Badala yake jaribu kwenye kompyuta yako kibao.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Mipangilio ya kompyuta kibao haipatikani</string>
+    <string name="battery_saver_charged_notification_summary">Kompyuta kibao ina chaji ya kutosha. Vipengele havizuiliwi tena.</string>
+    <string name="default_audio_route_name">Kompyuta kibao</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s inataka kuwezesha Kuchunguza kwa Kugusa. Wakati Kuchunguza kwa Kugusa kumewezeshwa, unaweza kusikia au kuona maelezo ya kilicho chini ya kidole chako au kutumia ishara ili kuingiliana na kompyuta kibao.</string>
+    <string name="global_actions">Chaguo za kompyuta ndogo</string>
+    <string name="kg_failed_attempts_almost_at_login">"Umekosea katika kuweka mchoro wako wa kufungua mara %1$d. Baada ya majaribio %2$d bila kufaulu, utaombwa kufungua kompyuta yako ndogo kwa kutumia akaunti yako ya barua pepe.
+
+ Jaribu tena baada ya sekunde %3$d."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Umejaribu kufungua kompyuta ndogo kwa njia isiyo sahihi mara %1$d. Baada ya majaribio %2$d zaidi yasiyofaulu, kompyuta ndogo itarejeshwa katika mfumo chaguomsingi ilivyotoka kiwandani data yote ya mtumiaji itapotea.</string>
+    <string name="kg_failed_attempts_now_wiping">Umejaribu kufungua kompyuta ndogo kwa njia isiyo sahihi mara %d. Sasa kompyuta ndogo itarejeshwa katika mfumo chaguomsingi ilivyotoka kiwandani.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Umejaribu kufungua kompyuta kibao kwa njia isiyo sahihi mara %1$d. Ukijaribu tena mara %2$d bila mafanikio, kompyuta ndogo itarejeshwa kwenye mipangilio iliyotoka nayo kiwandani na data yote iliyomo itafutwa.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Umekosea katika kuweka mchoro wako wa kufungua mara %1$d. Baada ya majaribio %2$d bila kufaulu, utaulizwa kufungua kompyuta yako ndogo kwa kuingia kwa Google.
+
+ Jaribu tena katika sekunde %3$d."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Umejaribu kufungua kompyuta ndogo kwa njia isiyo sahihi mara %d. Kompyuta ndogo haitaweza kuwekwa upya kwa kiwanda chaguomsingi.</string>
+    <string name="lockscreen_missing_sim_message">Hakuna SIM kwenye kompyuta kibao.</string>
+    <string name="low_memory">Hifadhi ya kompyuta kibao imejaa. Futa baadhi ya faili ili kupata nafasi.</string>
+    <string name="permdesc_bluetooth">Huruhusu programu kuona usanidi wa Bluetooth kwenye kompyuta kibao, na kutuma na kukubali miunganisho kwa vifaa vilivyooanishwa.</string>
+    <string name="permdesc_bluetoothAdmin">Inaruhusu programu kusanidi kompyuta kibao ya karibu ya Bluetooth na kutambua na kuoanisha na vifaa vya kudhibiti.</string>
+    <string name="permdesc_broadcastSticky">Inaruhusu programu kutuma matangazo nata, ambayo hubakia baada ya matangazo kuisha. Matumizi zaidi yanaweza kufanya kompyuta kibao kufanya kazi polepole au kuifanya isiwe thabiti kwa kuisababisha itumie kumbukumbu kubwa zaidi.</string>
+    <string name="permdesc_changeWifiMulticastState">Inaruhusu programu kupokea pakiti zilizotumwa katika vifaa vyote kwenye mtandao wa Wi-Fi kwa kutumia anwani za upeperushaji anuwai, sio tu kompyuta yako kibao. Inatumia nguvu zaidi kuliko mfumo wa upeperushaji usio anuwai.</string>
+    <string name="permdesc_changeWimaxState">Inaruhusu programu kuunganisha kompyuta kibao,  na kukata kompyuta kibao kutoka mitandao ya WiMAX.</string>
+    <string name="permdesc_getAccounts">Inaruhusu programu kupata orodha ya akaunti zinazojulikana kwa kompyuta kibao. Hii inaweza kujumuisha akaunti zozote zilizoundwa na programu ambazo umesakinisha.</string>
+    <string name="permdesc_persistentActivity">Inaruhusu programu kuendeleza vijisehemu vyake kwenye kumbukumbu. Hii inaweza kupunguza kumbukumbu inayopatikana katika programu nyingine ikipunguza kasi ya kompyuta ndogo.</string>
+    <string name="permdesc_readCalendar">Programu hii inaweza kusoma matukio yote ya kalenda yaliyohifadhiwa kwenye kompyuta yako kibao na kushiriki au kuhifadhi data yako ya kalenda.</string>
+    <string name="permdesc_readContacts">Huruhusu programu kusoma data kuhusu anwani zako zilizohifadhiwa kwenye kompyuta yako kibao. Programu pia zitafikia akaunti zilizo kwenye kompyuta yako kibao zilizounda anwani. Hii inaweza kujumuisha akaunti zilizoundwa na programu ambazo umesakinisha. Idhini hii huruhusu programu kuhifadhi data yako ya anwani na programu hasidi zinaweza kushiriki data ya anwani bila wewe kujua.</string>
+    <string name="permdesc_readSms">Programu hii inaweza kusoma ujumbe wa SMS (maandishi) wote uliohifadhiwa kwenye kompyuta yako kibao.</string>
+    <string name="permdesc_receiveBootCompleted">Inaruhusu programu yenyewe kujianzisha baada ya mfumo kumaliza kuuanza upya. Hii inaweza kufanya ichukue muda mrefu kuanza kompyuta kibao na kuruhusu programu kupunguza kasi ya kompyuta kibao kijumla kwa kuendeshwa siku zote.</string>
+    <string name="permdesc_setTimeZone">Huruhusu programu kubadilisha saa za eneo katika kompyuta kibao.</string>
+    <string name="permdesc_transmitIr">Inaruhusu programu kutumia transmita ya infrared ya kompyuta kibao.</string>
+    <string name="permdesc_wakeLock">Inaruhusu programu kuzuia kompyuta kibao  kwenda kulala.</string>
+    <string name="permdesc_writeCalendar">Programu hii inaweza kuongeza, kuondoa au kubadilisha matukio kwenye kompyuta yako kibao. Programu hii inaweza kutuma ujumbe unaoonekana kuwa umetoka kwa wamiliki wa kalenda au kurekebisha matukio bila kuwataarifu wamiliki.</string>
+    <string name="permdesc_writeCallLog">Huruhusu programu kurekebisha rajisi ya kompyuta kibao yako, ikiwa ni pamoja na simu zinazoingia na kutoka. Huenda programu hasidi zikatumia hii ili kufuta au kurekebisha rajisi ya simu yako.</string>
+    <string name="permdesc_writeContacts">Huruhusu programu kubadilisha data kuhusu anwani zako zilizohifadhiwa kwenye kompyuta yako kibao. Idhini hii huruhusu programu kufuta data ya anwani.</string>
+    <string name="permlab_wakeLock">zuia kompyuta ndogo dhidi ya kulala</string>
+    <string name="policydesc_watchLogin">Fuatilia idadi ya manenosiri yasiyo sahihi yatakayoingizwa wakati wa kufungua skrini, na kufunga kishikwambi au kufuta data yote iliyomo ikiwa manenosiri mengi yasiyo sahihi yataingizwa.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Fuatilia idadi ya manenosiri yasiyo sahihi yaliyoingizwa wakati wa kufungua skrini, na ufunge kompyuta kibao au ufute data yote ya mtumiaji huyu kama ameingiza manenosiri yasiyo sahihi mara nyingi kupita kiasi.</string>
+    <string name="policydesc_wipeData">Futa data ya kishikwambi bila ilani kwa kurejesha mipangilio ambayo ilitoka nayo kiwandani.</string>
+    <string name="policydesc_wipeData_secondaryUser">Futa data ya mtumiaji huyu iliyo kwenye kompyuta kibao hii bila ilani.</string>
+    <string name="power_dialog">Chaguo za kompyuta ndogo</string>
+    <string name="shutdown_confirm">Kompyuta kibao yako itazima.</string>
+    <string name="vdm_camera_access_denied">Haiwezi kufikia kamera ya kompyuta kibao kutoka kwenye %1$s yako</string>
+</resources>

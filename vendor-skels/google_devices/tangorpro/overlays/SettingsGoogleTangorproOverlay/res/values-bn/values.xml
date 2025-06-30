@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">চার্জ হওয়ার সময় সাউন্ড</string>
+    <string name="edge_to_edge_navigation_summary">"হোমে যেতে, নিচ থেকে উপরের দিকে দ্রুত সোয়াইপ করুন। 'টাস্কবার' অ্যাক্সেস করতে, নিচ থেকে উপরের দিকে ধীরে সোয়াইপ করুন। বিভিন্ন অ্যাপের মধ্যে একটি থেকে অন্যটিতে পাল্টাতে, নিচ থেকে উপরের দিকে সোয়াইপ করে ধরে রেখে ছেড়ে দিন। ফিরে যেতে, স্ক্রিনের বাঁদিক বা ডানদিকের প্রান্ত থেকে সোয়াইপ করুন।"</string>
+    <string name="fast_pair_device_not_found_other_device_description">ডিভাইসটি Pixel Tablet-এর কাছাকাছি নিয়ে যান এবং আবার চেষ্টা করুন।</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">ইয়ারবাডের কেস খুলে সেটি Pixel Tablet-এর কাছাকাছি নিয়ে যান, তারপরে আবার চেষ্টা করুন।</string>
+    <string name="sound_dashboard_summary">ভলিউম</string>
+    <string name="sound_dashboard_summary_with_dnd">ভলিউম, বিরক্ত করবে না</string>
+    <string name="sound_settings">সাউন্ড</string>
+</resources>

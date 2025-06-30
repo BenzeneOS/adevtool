@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Hasło • Odcisk palca • Skan twarzy</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Wzór • Odcisk palca • Skan twarzy</string>
+    <string name="biometrics_unlock_set_unlock_pin">Kod PIN • Odcisk palca • Skan twarzy</string>
+</resources>

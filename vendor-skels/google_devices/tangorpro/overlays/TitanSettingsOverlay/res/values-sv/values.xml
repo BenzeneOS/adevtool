@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Hubbläge</string>
+    <string name="dream_no_screen_saver_caption">Ingen skärmsläckare</string>
+    <string name="dream_no_screen_saver_description">Skärmen stängs av efter inaktivitet för att spara energi</string>
+    <string name="dream_no_screen_saver_preview_caption">Miljövänligt</string>
+    <string name="dream_secondary_button_title">Hoppa över</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Vid laddning när den är dockad</string>
+    <string name="screensaver_settings_summary_off">Visa favoritfoton, omslagsbilder, klockor och liknande vid inaktivitet</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Vid laddning i upprätt läge</string>
+    <string name="screensaver_settings_summary_sleep">Vid laddning</string>
+    <string name="when_to_show_hubmode_charging">Vid laddning</string>
+    <string name="when_to_show_hubmode_docked">Vid dockning</string>
+    <string name="when_to_show_hubmode_never">Aldrig</string>
+</resources>

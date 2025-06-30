@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Zvuky nabíjania</string>
+    <string name="edge_to_edge_navigation_summary">Ak chcete prejsť na plochu, rýchlo potiahnite zdola. Ak chcete prejsť na panel aplikácií, pomaly potiahnite zdola nahor. Ak chcete prejsť na inú aplikáciu, potiahnite prstom zdola nahor, pridržte ho a uvoľnite. Ak chcete prejsť dozadu, potiahnite z ľavého alebo pravého okraja.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Priblížte toto zariadenie k zariadeniu Pixel Tablet a skúste to znova.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Otvorte puzdro na slúchadlá do uší, priblížte ho k zariadeniu Pixel Tablet a skúste to znova.</string>
+    <string name="sound_dashboard_summary">Hlasitosť</string>
+    <string name="sound_dashboard_summary_with_dnd">Hlasitosť, režim bez vyrušení</string>
+    <string name="sound_settings">Zvuk</string>
+</resources>

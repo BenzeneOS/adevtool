@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Assurez-vous que votre doigt recouvre le lecteur</string>
+    <string name="fingerprint_acquired_power_press">Pour continuer, touchez légèrement le lecteur</string>
+    <string name="fingerprint_acquired_too_fast">Maintenez votre doigt sur le lecteur un peu plus longtemps</string>
+    <string name="fingerprint_error_power_pressed">"Validation arrêtée. Essayez vraiment d'effleurer le capteur la prochaine fois."</string>
+</resources>

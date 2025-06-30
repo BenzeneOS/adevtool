@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Välj en skärmsläckare och aktivera röststyrd hjälp när surfplattan är dockad</string>
+    <string name="dock_setup_notification_title">Gör mer medan enheten är dockad</string>
+    <string name="stylus_system_update_notification_text">Få ut så mycket som möjligt av e-pennan genom att installera den senaste Android-uppdateringen</string>
+    <string name="stylus_system_update_notification_title">Installera uppdateringen för Android</string>
+</resources>

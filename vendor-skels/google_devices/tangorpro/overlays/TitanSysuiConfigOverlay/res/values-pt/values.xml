@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Escolha um protetor de tela e ative a ajuda por viva-voz para quando o tablet estiver na base</string>
+    <string name="dock_setup_notification_title">Faça mais com o dispositivo encaixado na base</string>
+    <string name="stylus_system_update_notification_text">Para aproveitar a stylus ao máximo, instale a atualização mais recente do Android</string>
+    <string name="stylus_system_update_notification_title">Instale a atualização do Android</string>
+</resources>

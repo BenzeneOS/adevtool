@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Sørg for, at fingeren dækker sensoren</string>
+    <string name="fingerprint_acquired_power_press">Tryk let på sensoren for at fortsætte</string>
+    <string name="fingerprint_acquired_too_fast">Hold fingeren på sensoren lidt længere</string>
+    <string name="fingerprint_error_power_pressed">Verificeringen er afsluttet. Prøv et let tryk næste gang.</string>
+</resources>

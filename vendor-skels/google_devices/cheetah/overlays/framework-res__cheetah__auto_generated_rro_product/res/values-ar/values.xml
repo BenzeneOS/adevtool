@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>حرِّك إصبعك. يُرجى إعادة المحاولة.</item>
+        <item>سبق أن تم تسجيل بصمة هذا الإصبع، يُرجى استخدام إصبع آخر.</item>
+        <item>جودة الصورة رديئة. يُرجى إعادة المحاولة.</item>
+        <item/>
+        <item>جودة الصورة رديئة. يُرجى إعادة المحاولة.</item>
+        <item/>
+        <item/>
+        <item>الشاشة متسخة، يُرجى تنظيفها ثم إعادة المحاولة.</item>
+        <item>تعذّرت قراءة الصورة. يُرجى إعادة المحاولة.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>البيانات غير صحيحة. يُرجى إعادة المحاولة.</item>
+        <item>تعذّر تسجيل بصمة الإصبع. يُرجى إعادة المحاولة.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">‏يتعذّر استخدام أداة استشعار بصمة الإصبع. يُرجى التواصل مع مقدِّم خدمات إصلاح أو الانتقال إلى g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">‏يُرجى التواصل مع مقدِّم خدمات إصلاح أو الانتقال إلى g.co/pixel/fingerprintunlock</string>
+</resources>

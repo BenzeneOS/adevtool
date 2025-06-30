@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Режим центру керування</string>
+    <string name="dream_no_screen_saver_caption">Немає заставки</string>
+    <string name="dream_no_screen_saver_description">Щоб заощаджувати енергію, екран вимикатиметься після періоду бездіяльності</string>
+    <string name="dream_no_screen_saver_preview_caption">Екологічна</string>
+    <string name="dream_secondary_button_title">Пропустити</string>
+    <string name="screensaver_settings_summary_dock_and_charging">У док-станції і під час заряджання</string>
+    <string name="screensaver_settings_summary_off">Відображайте улюблені фото, твори мистецтва, годинники тощо, коли пристрій неактивний</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Під час заряджання у верт. полож.</string>
+    <string name="screensaver_settings_summary_sleep">Під час заряджання</string>
+    <string name="when_to_show_hubmode_charging">Під час заряджання</string>
+    <string name="when_to_show_hubmode_docked">Коли в док-станції</string>
+    <string name="when_to_show_hubmode_never">Ніколи</string>
+</resources>

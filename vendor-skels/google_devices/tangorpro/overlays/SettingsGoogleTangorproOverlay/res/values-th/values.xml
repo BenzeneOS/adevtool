@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">เสียงการชาร์จ</string>
+    <string name="edge_to_edge_navigation_summary">หากต้องการไปที่หน้าแรก ให้ปัดขึ้นจากด้านล่างเร็วๆ หากต้องการเข้าถึงแถบงาน ให้ปัดขึ้นจากด้านล่างช้าๆ หากต้องการสลับแอป ให้ปัดขึ้นจากด้านล่างค้างไว้แล้วปล่อย หากต้องการย้อนกลับ ให้ปัดจากขอบด้านซ้ายหรือขวา</string>
+    <string name="fast_pair_device_not_found_other_device_description">ขยับอุปกรณ์นี้เข้าใกล้กับ Pixel Tablet มากขึ้นแล้วลองอีกครั้ง</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">เปิดและขยับกล่องหูฟังเข้าใกล้กับ Pixel Tablet มากขึ้น จากนั้นลองอีกครั้ง</string>
+    <string name="sound_dashboard_summary">ระดับเสียง</string>
+    <string name="sound_dashboard_summary_with_dnd">ระดับเสียง ห้ามรบกวน</string>
+    <string name="sound_settings">เสียง</string>
+</resources>

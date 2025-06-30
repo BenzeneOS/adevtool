@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">כשהטאבלט נמצא בעגינה, אפשר להפעיל בו שומר מסך ולהשתמש בעזרה בהפעלה קולית</string>
+    <string name="dock_setup_notification_title">יותר אפשרויות בזמן העגינה</string>
+    <string name="stylus_system_update_notification_text">‏כדי להפיק את המקסימום מהסטיילוס, כדאי להתקין את העדכון האחרון של Android</string>
+    <string name="stylus_system_update_notification_title">‏התקנת העדכון של Android</string>
+</resources>

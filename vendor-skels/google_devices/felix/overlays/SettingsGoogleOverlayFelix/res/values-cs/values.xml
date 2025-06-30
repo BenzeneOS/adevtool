@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Pokud chcete přejít na plochu, rychle přejeďte zdola nahoru. Pokud chcete zobrazit panel aplikací, pomalu přejeďte zdola nahoru. Aplikace přepnete přejetím prstem zdola nahoru, podržením obrazovky a uvolněním prstu. Zpět se vrátíte přejetím prstem z levého nebo pravého okraje obrazovky.</string>
+    <string name="setting_auto_rotate_folded">Automatické otáčení při složení</string>
+    <string name="setting_auto_rotate_unfolded">Automatické otáčení při rozložení</string>
+</resources>

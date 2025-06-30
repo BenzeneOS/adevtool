@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>আঙুল সরিয়ে অন্যভাবে রাখুন। আঙুলের এই জায়গাটি দিয়ে আপনি আগেই টাচ করেছেন।</item>
+    </array>
+    <string name="fingerprint_unlock_set_unlock_password">পাসওয়ার্ড • ফিঙ্গারপ্রিন্ট</string>
+    <string name="fingerprint_unlock_set_unlock_pattern">প্যাটার্ন • ফিঙ্গারপ্রিন্ট</string>
+    <string name="fingerprint_unlock_set_unlock_pin">পিন • ফিঙ্গারপ্রিন্ট</string>
+    <string name="fingerprint_unlock_skip_fingerprint">ফিঙ্গারপ্রিন্ট আনলক সেট আপ না করে চালিয়ে যান</string>
+    <string name="fingerprint_unlock_title">"'ফিঙ্গারপ্রিন্ট আনলক' ফিচারের সাহায্যে আপনি ফিঙ্গারপ্রিন্ট ব্যবহার করে ফোন আনলক করতে পারবেন। নিরাপত্তার জন্য, এই বিকল্পটির একটি ব্যাক-আপ 'স্ক্রিন লক' প্রয়োজন।"</string>
+    <string name="security_settings_fingerprint_enroll_consent_introduction_title">"'ফিঙ্গারপ্রিন্ট আনলক' করার অনুমতি দিন"</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message">"পাওয়ার বোতামের উপরে ফিঙ্গারপ্রিন্ট সেন্সর রয়েছে।
+
+বোতামটি নিচের দিকে প্রেস না করে হালকা টাচ করুন।"</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_title">পাওয়ার বোতাম টাচ করুন</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">ফিঙ্গারপ্রিন্ট আনলক সেট-আপ করুন</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title">উপরে তুলে আবার টাচ করুন। প্রতিবার আঙুল সামান্য সরান।</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay">আঙুল সরিয়ে আবার টাচ করুন</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_message">পাওয়ার বোতামের উপরে ফিঙ্গারপ্রিন্ট সেন্সর আছে।</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_title">এর পরিবর্তে সেন্সরে টাচ করুন</string>
+    <string name="security_settings_fingerprint_preference_title">ফিঙ্গারপ্রিন্ট আনলক</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">"আপনার পরিচয় যাচাই করার জন্য, 'ফিঙ্গারপ্রিন্ট আনলক' ফিচার আপনার ফিঙ্গারপ্রিন্টের একটি অনন্য মডেল তৈরি করে। সেট-আপ করার সময় এই ফিঙ্গারপ্রিন্ট মডেল তৈরি করতে, বিভিন্ন দিক থেকে আপনাকে ফিঙ্গারপ্রিন্টের ছবি নিতে হবে।"</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">"আপনি 'ফিঙ্গারপ্রিন্ট আনলক' ফিচার ব্যবহার করলে, ফিঙ্গারপ্রিন্ট মডেল আপডেট করতে ছবি ব্যবহার করা হয়। আপনার ফিঙ্গারপ্রিন্ট মডেল তৈরির জন্য ব্যবহার করা ছবি কখনই সেভ করে রাখা হয় না, তবে ফিঙ্গারপ্রিন্ট মডেলটি আপনার ফোনে  নিরাপদে সেভ করে রাখা হয় যা কখনই ফোন থেকে অন্য কোথাও পাঠানো হয় না। সবকটি প্রসেস নিরাপদে আপনার ফোনেই সম্পন্ন করা হয়।"</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">সেটিংস থেকে যেকোনও সময়ে আপনি নিজের ফিঙ্গারপ্রিন্ট মডেল মুছে ফেলতে বা ফিঙ্গারপ্রিন্ট আনলক করার সুবিধা বন্ধ করতে পারবেন। আপনি মুছে না ফেলা পর্যন্ত ফিঙ্গারপ্রিন্ট মডেল সেভ করা থাকে।</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">"আপনার সন্তানের পরিচয় যাচাই করার জন্য, 'ফিঙ্গারপ্রিন্ট আনলক' ফিচার তার ফিঙ্গারপ্রিন্টের একটি অনন্য মডেল তৈরি করে। সেটআপ করার সময় এই ফিঙ্গারপ্রিন্ট মডেল তৈরি করার জন্য, বিভিন্ন দিক থেকে তার ফিঙ্গারপ্রিন্টের ছবি নিতে হবে।"</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">বাচ্চা ফিঙ্গারপ্রিন্ট আনলক ব্যবহার করার সময়, ছবিগুলি তার ফিঙ্গারপ্রিন্ট মডেল আপডেট করার জন্য ব্যবহৃত হয়। আপনার বাচ্চার ফিঙ্গারপ্রিন্ট মডেল তৈরির জন্য ব্যবহৃত ছবি কখনও সেভ করে রাখা হয় না, তবে ফোনে ফিঙ্গারপ্রিন্ট মডেল নিরাপদে সেভ করে রাখা হয় এবং কখনও ফোন থেকে মুছে যায় না। ফোনে সবকটি প্রসেস নিরাপদে করা হয়।</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">"আপনি ও আপনার সন্তান ফিঙ্গারপ্রিন্টের মডেল মুছে ফেলতে পারবেন অথবা যে কোনও সময় সেটিংস থেকে 'ফিঙ্গারপ্রিন্ট আনলক' ফিচারটি বন্ধ করে দিতে পারবেন। মুছে না ফেলা পর্যন্ত ফিঙ্গারপ্রিন্ট মডেল ফোনে সেভ করা থাকে।"</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"&lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; থেকে আরও জানুন।"</string>
+    <string name="security_settings_sfps_enroll_find_sensor_message">"'পাওয়ার' বোতামের উপরে ফিঙ্গারপ্রিন্ট সেন্সর আছে। এটি ফোনের পাশের দিকে থাকা তুলনামূলক ছোট বোতাম।"</string>
+    <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">প্রতিবার আঙুল একটু সরান</string>
+    <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">ফিঙ্গারপ্রিন্টের বাকি অংশ ক্যাপচার করতে আঙুল সরাতে থাকুন</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">এর ফলে ভুলবশত আনলক হওয়ার ঘটনা কম ঘটে। এই সেটিং বন্ধ করা থাকলে, সেন্সরে সামান্য টাচ লাগলেও ডিভাইস আনলক হয়ে যাবে।</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">আনলক করতে সেন্সর প্রেস করুন</string>
+    <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">অন্য দিক থেকে সেন্সর টাচ করুন</string>
+    <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">ফিঙ্গারপ্রিন্টের বাকি অংশ ক্যাপচার করতে আঙুল সরান</string>
+    <string name="security_settings_work_fingerprint_preference_title">"অফিসের জন্য 'ফিঙ্গারপ্রিন্ট আনলক'"</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">সেট-আপ চালিয়ে যান</string>
+    <string name="setup_fingerprint_enroll_immobile_help_subtitle">এতে ফিঙ্গারপ্রিন্ট আরও ভালো ক্যাপচার করা যাবে ও আনলক করার আরও ভালো অভিজ্ঞতা পাবেন</string>
+    <string name="setup_fingerprint_enroll_immobile_help_title">আঙুল সরাতে থাকুন</string>
+    <string name="suggested_fingerprint_lock_settings_title">ফিঙ্গারপ্রিন্ট আনলক ব্যবহার করুন</string>
+</resources>

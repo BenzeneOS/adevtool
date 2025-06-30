@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">აირჩიეთ ეკრანის დამზოგი და ჩართეთ უკონტაქტო დახმარება, სანამ თქვენი ტაბლეტი ჩამაგრებულია</string>
+    <string name="dock_setup_notification_title">გააკეთეთ მეტი, სანამ ჩამაგრებულია</string>
+    <string name="stylus_system_update_notification_text">თქვენი სტილუსიდან მაქსიმუმის მისაღებად, დააინსტალირეთ Android-ის უკანასკნელი განახლება</string>
+    <string name="stylus_system_update_notification_title">დააინსტალირეთ Android-ის განახლება</string>
+</resources>

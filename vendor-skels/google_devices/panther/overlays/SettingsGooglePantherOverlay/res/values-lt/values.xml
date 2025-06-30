@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Slaptažodis • Kontrolinis kodas • Veidas</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Atr. piešinys • Kontrolinis kodas • Veidas</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN kodas • Kontrolinis kodas • Veidas</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Цэнэглэх үед гарах дуу</string>
+    <string name="edge_to_edge_navigation_summary">Нүүр лүү очихын тулд доод талаас дээш хурдан шударна уу. Ажлын хэсэгт хандахын тулд доод талаас дээш удаан шударна уу. Аппуудыг сэлгэхийн тулд доод талаас дээш шударч, удаан дараад суллана уу. Буцахын тулд зүүн эсвэл баруун ирмэгээс шударна уу.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Уг төхөөрөмжийг Pixel Tablet-даа ойртуулаад дахин оролдоно уу.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Чихэвчийн гэрийг нээж, Pixel Tablet-даа ойртуулаад дахин оролдоно уу.</string>
+    <string name="sound_dashboard_summary">Дууны түвшин</string>
+    <string name="sound_dashboard_summary_with_dnd">Дууны түвшин, Бүү саад бол</string>
+    <string name="sound_settings">Дуу</string>
+</resources>

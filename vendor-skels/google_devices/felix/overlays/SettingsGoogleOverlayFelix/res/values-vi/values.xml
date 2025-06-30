@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Để chuyển đến màn hình chính, hãy vuốt lên thật nhanh từ cuối màn hình. Để truy cập vào Taskbar, vuốt chậm từ cuối màn hình lên. Để chuyển đổi giữa các ứng dụng, hãy vuốt lên từ cuối màn hình, giữ rồi thả ra. Để quay lại, hãy vuốt từ mép trái hoặc mép phải.</string>
+    <string name="setting_auto_rotate_folded">Tự động xoay khi gập lại</string>
+    <string name="setting_auto_rotate_unfolded">Tự động xoay khi không gập</string>
+</resources>

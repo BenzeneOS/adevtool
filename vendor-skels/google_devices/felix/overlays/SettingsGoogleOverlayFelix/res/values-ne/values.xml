@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">होम पेजमा जान तलबाट माथितिर द्रुत रूपमा स्वाइप गर्नुहोस्। टास्कबार प्रयोग गर्न तलबाट माथितिर बिस्तारै स्वाइप गर्नुहोस्। एपहरू बदल्न तलबाट माथितिर स्वाइप गर्नुहोस्, होल्ड गर्नुहोस् अनि छाड्नुहोस्। पछाडि जान स्क्रिनको बायाँ वा दायाँ कुनाबाट स्वाइप गर्नुहोस्।</string>
+    <string name="setting_auto_rotate_folded">फोल्ड गरिएका बेला स्वतः रोटेट गर्नुहोस्</string>
+    <string name="setting_auto_rotate_unfolded">अनफोल्ड गरिएका बेला स्वतः रोटेट गर्नुहोस्</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="entryvalues_font_size">
+        <item>"1.0"</item>
+        <item>"1.05"</item>
+        <item>"1.1"</item>
+        <item>"1.20"</item>
+        <item>"1.30"</item>
+        <item>"1.50"</item>
+        <item>"1.80"</item>
+        <item>"2.0"</item>
+    </array>
+    <bool name="config_network_selection_list_aggregation_enabled">true</bool>
+    <bool name="config_show_connectivity_helper_call_quality">true</bool>
+    <bool name="config_show_connectivity_helper_d2d">true</bool>
+    <bool name="config_show_mobile_plan">false</bool>
+    <fraction name="display_density_max_scale">138.49792%</fraction>
+</resources>

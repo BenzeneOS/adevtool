@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">選擇在平板電腦放上插座時顯示的螢幕保護程式，並啟用語音控制協助功能</string>
+    <string name="dock_setup_notification_title">放上插座時發揮更多功用</string>
+    <string name="stylus_system_update_notification_text">請安裝最新的 Android 更新，盡情體驗觸控筆功能</string>
+    <string name="stylus_system_update_notification_title">安裝 Android 更新</string>
+</resources>

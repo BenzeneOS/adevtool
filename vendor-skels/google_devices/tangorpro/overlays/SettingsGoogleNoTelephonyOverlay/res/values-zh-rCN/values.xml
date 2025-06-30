@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">WLAN</string>
+    <string name="non_carrier_data_usage">WLAN 流量用量</string>
+    <string name="tether_settings_title_all">网络共享</string>
+    <string name="tethering_footer_info">使用网络共享以通过 USB、以太网或蓝牙为其他设备提供互联网连接。</string>
+</resources>

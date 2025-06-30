@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>ປ່ຽນຕຳແໜ່ງນິ້ວ. ທ່ານສຳຜັດລາຍນິ້ວມືບໍລິເວນນີ້ຂອງທ່ານແລ້ວ.</item>
+    </array>
+    <string name="fingerprint_unlock_set_unlock_password">ລະຫັດຜ່ານ • ລາຍນິ້ວມື</string>
+    <string name="fingerprint_unlock_set_unlock_pattern">ຮູບແບບ • ລາຍນິ້ວມື</string>
+    <string name="fingerprint_unlock_set_unlock_pin">PIN • ລາຍນິ້ວມື</string>
+    <string name="fingerprint_unlock_skip_fingerprint">ສືບຕໍ່ໂດຍບໍ່ໃຊ້ການປົດລັອກດ້ວຍລາຍນິ້ວມື</string>
+    <string name="fingerprint_unlock_title">ດ້ວຍການປົດລັອກດ້ວຍລາຍນິ້ວມື, ທ່ານຈະສາມາດປົດລັອກແທັບເລັດຂອງທ່ານໂດຍໃຊ້ລາຍນິ້ວມືຂອງທ່ານໄດ້. ເພື່ອຄວາມປອດໄພ, ຕົວເລືອກນີ້ຈຳເປັນຕ້ອງມີການລັອກໜ້າຈໍສຳຮອງໄວ້ກ່ອນ.</string>
+    <string name="security_settings_fingerprint_enroll_consent_introduction_title">ອະນຸຍາດໃຫ້ປົດລັອກດ້ວຍລາຍນິ້ວມື</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message">"ເຊັນເຊີລາຍນິ້ວມືແມ່ນຢູ່ເທິງປຸ່ມເປີດປິດ.
+
+ໃຫ້ແຕະໃສ່ປຸ່ມດັ່ງກ່າວຄ່ອຍໆໂດຍບໍ່ຕ້ອງກົດມັນລົງ."</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_title">ແຕະໃສ່ປຸ່ມເປີດປິດ</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">ຕັ້ງຄ່າການປົດລັອກດ້ວຍລາຍນິ້ວມື</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title">ຍົກນິ້ວຂຶ້ນແລ້ວແຕະ. ຍັບນິ້ວຂອງທ່ານເລັກນ້ອຍໃນແຕ່ລະເທື່ອ.</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay">ຍົກຂຶ້ນ, ຈາກນັ້ນແຕະໃໝ່</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_message">ເຊັນເຊີລາຍນິ້ວມືແມ່ນຢູ່ປຸ່ມເປີດປິດ.</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_title">ສຳຜັດເຊັນເຊີແທນ</string>
+    <string name="security_settings_fingerprint_preference_title">ປົດລັອກດ້ວຍລາຍນິ້ວມື</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">ການປົດລັອກດ້ວຍລາຍນິ້ວມືຈະສ້າງຮູບແບບທີ່ບໍ່ຊ້ຳກັນຂອງລາຍນິ້ວມືທ່ານເພື່ອຢັ້ງຢືນວ່າແມ່ນທ່ານແທ້. ເພື່ອສ້າງຮູບແບບລາຍນິ້ວມືນີ້ໃນລະຫວ່າງການຕັ້ງຄ່າ, ທ່ານຈະຖ່າຍຮູບຂອງລາຍນິ້ວມືຂອງທ່ານຈາກຫຼາຍໆມຸມ.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">ເມື່ອທ່ານປົດລັອກດ້ວຍລາຍນິ້ວມື, ຮູບຈະຖືກໃຊ້ເພື່ອອັບເດດຮູບແບບລາຍນິ້ວມືຂອງທ່ານ. ລະບົບຈະບໍ່ຈັດເກັບຮູບທີ່ໃຊ້ສ້າງຮູບແບບລາຍນິ້ວມືຂອງທ່ານ, ແຕ່ຮູບແບບລາຍນິ້ວມືຈະຖືກຈັດເກັບໄວ້ຢ່າງປອດໄພຢູ່ແທັບເລັດຂອງທ່ານ ແລະ ຈະບໍ່ຖືກສົ່ງອອກຈາກແທັບເລັດເດັດຂາດ. ການປະມວນຜົນທັງໝົດຈະເກີດຂຶ້ນຢ່າງປອດໄພຢູ່ແທັບເລັດຂອງທ່ານ.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">ທ່ານສາມາດລຶບຮູບແບບລາຍນິ້ວມືຂອງທ່ານ ຫຼື ປິດການປົດລັອກດ້ວຍລາຍນິ້ວມືຕອນໃດກໍໄດ້ໃນການຕັ້ງຄ່າ. ຮູບແບບລາຍນິ້ວມືແມ່ນຈັດເກັບໄວ້ຢູ່ແທັບເລັດຈົນກວ່າທ່ານຈະລຶບພວກມັນອອກ.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">ການປົດລັອກດ້ວຍລາຍນິ້ວມືຈະສ້າງຮູບແບບທີ່ບໍ່ຊ້ຳກັນຂອງລາຍນິ້ວມືຂອງລູກທ່ານເພື່ອຢັ້ງຢືນວ່າແມ່ນເຂົາເຈົ້າແທ້. ເພື່ອສ້າງຮູບແບບລາຍນິ້ວມືນີ້ໃນລະຫວ່າງການຕັ້ງຄ່າ, ເຂົາເຈົ້າຈະຖ່າຍຮູບລາຍນິ້ວມືຂອງເຂົາເຈົ້າຈາກມຸມຕ່າງໆ.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">ເມື່ອເຂົາເຈົ້າປົດລັອກດ້ວຍລາຍນິ້ວມື, ຮູບຈະຖືກໃຊ້ເພື່ອອັບເດດຮູບແບບລາຍນິ້ວມືຂອງເຂົາເຈົ້າ. ລະບົບຈະບໍ່ຈັດເກັບຮູບທີ່ໃຊ້ສ້າງຮູບແບບລາຍນິ້ວມືຂອງລູກທ່ານ, ແຕ່ຮູບແບບລາຍນິ້ວມືຈະຖືກຈັດເກັບໄວ້ຢ່າງປອດໄພຢູ່ແທັບເລັດ ແລະ ຈະບໍ່ຖືກສົ່ງອອກຈາກແທັບເລັດເດັດຂາດ. ການປະມວນຜົນທັງໝົດຈະເກີດຂຶ້ນຢ່າງປອດໄພຢູ່ແທັບເລັດ.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">ທ່ານ ແລະ ລູກຂອງທ່ານສາມາດລຶບຮູບແບບລາຍນິ້ວມືຂອງເຂົາເຈົ້າອອກ ຫຼື ປິດການໃຊ້ການປົດລັອກດ້ວຍລາຍນິ້ວມືຕອນໃດກໍໄດ້ໃນການຕັ້ງຄ່າ. ຮູບແບບລາຍນິ້ວມືແມ່ນຖືກຈັດເກັບໄວ້ຢູ່ແທັບເລັດຈົນກວ່າພວກມັນຈະຖືກລຶບອອກ.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"ສຶກສາເພີ່ມເຕີມຢູ່ &lt;a href='http://g.co/pixeltablet/fingerprintunlock'&gt;g.co/pixeltablet/fingerprintunlock&lt;/a&gt;."</string>
+    <string name="security_settings_sfps_enroll_find_sensor_message">ເຊັນເຊີລາຍນິ້ວມືແມ່ນຢູ່ປຸ່ມເປີດປິດ. ມັນແມ່ນປຸ່ມທີ່ສັ້ນກວ່າທີ່ຢູ່ທາງຂ້າງຂອງໂທລະສັບ.</string>
+    <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">ແຕ່ລະເທື່ອໃຫ້ຍ້າຍນິ້ວເລັກໜ້ອຍ</string>
+    <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">ຍ້າຍຕໍ່ໄປເພື່ອຖ່າຍຮູບສ່ວນອື່ນຂອງລາຍນິ້ວມືຂອງທ່ານ</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">ການດຳເນີນການນີ້ຊ່ວຍຫຼຸດການປົດລັອກໂດຍບໍ່ຕັ້ງໃຈ. ເມື່ອປິດການຕັ້ງຄ່ານີ້, ອຸປະກອນຈະປົດລັອກດ້ວຍການສຳຜັດເບົາໆຢູ່ເຊັນເຊີ.</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">ກົດເຊັນເຊີຄ້າງໄວ້ເພື່ອປົດລັອກ</string>
+    <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">ສຳຜັດເຊັນເຊີຈາກມຸມອື່ນ</string>
+    <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">ຍ້າຍມືຂອງທ່ານເພື່ອຖ່າຍສ່ວນອື່ນຂອງລາຍນິ້ວມືຂອງທ່ານ</string>
+    <string name="security_settings_work_fingerprint_preference_title">ປົດລັອກດ້ວຍລາຍນິ້ວມືສຳລັບວຽກ</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">ສືບຕໍ່ການຕັ້ງຄ່າ</string>
+    <string name="setup_fingerprint_enroll_immobile_help_subtitle">ນີ້ຊ່ວຍຖ່າຍລາຍນິ້ວມືຂອງທ່ານຕື່ມເພື່ອປະສົບການການປົດລັອກທີ່ດີຍິ່ງຂຶ້ນ</string>
+    <string name="setup_fingerprint_enroll_immobile_help_title">ເລື່ອນນິ້ວຂອງທ່ານ</string>
+    <string name="suggested_fingerprint_lock_settings_title">ໃຊ້ການປົດລັອກດ້ວຍລາຍນິ້ວມື</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Дэлгэц амраагч сонгож таблетаа суурилуулсан үед гараас хамаарахгүй тусламжийг асаана уу</string>
+    <string name="dock_setup_notification_title">Суурилуулсан үед илүү ихийг хийгээрэй</string>
+    <string name="stylus_system_update_notification_text">Мэдрэгч үзгээ бүрэн ашиглахын тулд Android-н хамгийн сүүлийн үеийн шинэчлэлтийг суулгана уу</string>
+    <string name="stylus_system_update_notification_title">Android шинэчлэлтийг суулгана уу</string>
+</resources>

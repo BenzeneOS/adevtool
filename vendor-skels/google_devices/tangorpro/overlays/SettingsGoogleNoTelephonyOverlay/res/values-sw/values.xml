@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wi-Fi</string>
+    <string name="non_carrier_data_usage">Matumizi ya data ya Wi-Fi</string>
+    <string name="tether_settings_title_all">Kusambaza mtandao</string>
+    <string name="tethering_footer_info">Tumia kisambaza mtandao ili kutoa intaneti kwa vifaa vingine kupitia USB, Ethaneti au Bluetooth.</string>
+</resources>

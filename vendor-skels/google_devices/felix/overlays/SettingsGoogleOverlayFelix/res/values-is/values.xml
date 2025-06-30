@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Strjúktu hratt upp frá neðsta hluta skjásins til að opna heimaskjáinn. Strjúktu hægt upp frá neðsta hluta skjásins til að opna forritastikuna. Strjúktu upp frá neðsta hluta skjásins, haltu inni og slepptu til að skipta um forrit. Til að fara til baka skaltu strjúka frá vinstri eða hægri brún skjásins.</string>
+    <string name="setting_auto_rotate_folded">Sjálfvirkur snúningur þegar tæki er lokað</string>
+    <string name="setting_auto_rotate_unfolded">Sjálfvirkur snúningur þegar tæki er opið</string>
+</resources>

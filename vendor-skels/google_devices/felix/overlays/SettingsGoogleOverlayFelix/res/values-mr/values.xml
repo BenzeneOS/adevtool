@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">होमवर जाण्यासाठी, तळापासून वरती झटपट स्‍वाइप करा. टास्कबार अ‍ॅक्सेस करण्यासाठी, तळापासून वरती हळू स्‍वाइप करा. अ‍ॅप्स स्विच करण्यासाठी, तळापासून वरती स्वाइप करा, धरून ठेवा आणि रिलीझ करा. मागे जाण्यासाठी डाव्या किंवा उजव्या कडेकडून स्वाइप करा.</string>
+    <string name="setting_auto_rotate_folded">फोल्ड केल्यावर ऑटो-रोटेट करा</string>
+    <string name="setting_auto_rotate_unfolded">अनफोल्ड केल्यावर ऑटो-रोटेट करा</string>
+</resources>

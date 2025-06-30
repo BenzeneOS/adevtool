@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Wybierz wygaszacz ekranu i włącz pomoc obsługiwaną bez użycia rąk po postawieniu tabletu na stacji dokującej</string>
+    <string name="dock_setup_notification_title">Więcej możliwości po zadokowaniu</string>
+    <string name="stylus_system_update_notification_text">Zainstaluj najnowszą aktualizację Androida, aby w pełni wykorzystać możliwości rysika</string>
+    <string name="stylus_system_update_notification_title">Zainstaluj aktualizację Androida</string>
+</resources>

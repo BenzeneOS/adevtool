@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Режим центра</string>
+    <string name="dream_no_screen_saver_caption">Нема чувара екрана</string>
+    <string name="dream_no_screen_saver_description">Да бисте уштедели енергију, екран ће се искључити после неактивности</string>
+    <string name="dream_no_screen_saver_preview_caption">Еколошки</string>
+    <string name="dream_secondary_button_title">Прескочи</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Док је на базној станици и пуни се</string>
+    <string name="screensaver_settings_summary_off">Приказује омиљене слике, илустрације, сатове и друго у неактивном стању</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Док је усправан и пуни се</string>
+    <string name="screensaver_settings_summary_sleep">Док се пуни</string>
+    <string name="when_to_show_hubmode_charging">Док се пуни</string>
+    <string name="when_to_show_hubmode_docked">Док је на базној станици</string>
+    <string name="when_to_show_hubmode_never">Никад</string>
+</resources>

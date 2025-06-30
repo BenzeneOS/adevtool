@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">ပင်မစာမျက်နှာသို့ သွားရန် အောက်ခြေမှ အပေါ်သို့ အမြန်ပွတ်ဆွဲပါ။ Taskbar သုံးရန် အောက်ခြေမှ အပေါ်သို့ ဖြည်းဖြည်းပွတ်ဆွဲပါ။ အက်ပ်များအကြား ပြောင်းရန် ဖန်သားပြင်အောက်မှ အပေါ်သို့ပွတ်ဆွဲ၍ ဖိထားပြီးနောက် လွှတ်လိုက်ပါ။ ပြန်သွားရန် ဘယ်အစွန် (သို့) ညာအစွန်မှ ပွတ်ဆွဲပါ။</string>
+    <string name="setting_auto_rotate_folded">ခေါက်ထားသောအခါ အလိုအလျောက်လှည့်ရန်</string>
+    <string name="setting_auto_rotate_unfolded">ဖြန့်ထားသောအခါ အလိုအလျောက်လှည့်ရန်</string>
+</resources>

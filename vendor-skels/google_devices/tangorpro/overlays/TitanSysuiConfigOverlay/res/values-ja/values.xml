@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">スクリーン セーバーを選択し、タブレットをホルダーに置いているときにハンズフリーで操作できるようにします</string>
+    <string name="dock_setup_notification_title">ホルダーに置いているときも便利に</string>
+    <string name="stylus_system_update_notification_text">タッチペンを最大限に活用するには、最新の Android アップデートをインストールしてください</string>
+    <string name="stylus_system_update_notification_title">Android アップデートをインストールしてください</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_adaptive_alert_vibration_enabled">true</bool>
+    <dimen name="udfps_lottie_translate_y">-500.0dp</dimen>
+</resources>

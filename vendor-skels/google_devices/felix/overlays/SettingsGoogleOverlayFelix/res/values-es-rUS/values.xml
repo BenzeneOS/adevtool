@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Para regresar a la pantalla principal, desliza rápido hacia arriba desde la parte inferior. Para acceder a la Barra de tareas, desliza lento hacia arriba desde la parte inferior. Para cambiar de app, desliza hacia arriba desde la parte inferior, mantén presionado y, luego, suelta. Para ir atrás, desliza el dedo desde el borde izquierdo o el derecho.</string>
+    <string name="setting_auto_rotate_folded">Girar automáticamente cuando está plegado</string>
+    <string name="setting_auto_rotate_unfolded">Girar automáticamente cuando está desplegado</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Para aceder ao ecrã principal, deslize rapidamente para cima a partir da parte inferior do ecrã. Para aceder à Barra de tarefas, deslize lentamente para cima a partir da parte inferior do ecrã. Para mudar de app, deslize rapidamente para cima a partir da parte inferior do ecrã sem soltar e, em seguida, solte. Para retroceder, deslize rapidamente a partir da extremidade esquerda ou direita do ecrã.</string>
+    <string name="setting_auto_rotate_folded">Rodar automaticamente quando estiver dobrado</string>
+    <string name="setting_auto_rotate_unfolded">Rodar automaticamente quando estiver desdobrado</string>
+</resources>

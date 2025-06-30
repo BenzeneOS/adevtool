@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">أصوات الشحن</string>
+    <string name="edge_to_edge_navigation_summary">للانتقال إلى الشاشة الرئيسية، مرِّر سريعًا من أسفل الشاشة لأعلاها. للوصول إلى شريط التطبيقات، مرِّر ببطء من أسفل الشاشة لأعلاها. للتبديل بين التطبيقات، مرِّر سريعًا من أسفل الشاشة إلى أعلاها واضغط مع الاستمرار ثم ارفع إصبعك عن الشاشة. للرجوع، مرِّر سريعًا من الحافة اليمنى أو اليسرى للشاشة.</string>
+    <string name="fast_pair_device_not_found_other_device_description">‏قرِّب هذا الجهاز أكثر من جهاز Pixel Tablet وحاوِل مجددًا.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">‏افتح حافظة سمّاعات الأذن وقرِّبها من جهاز Pixel Tablet وحاوِل مجددًا.</string>
+    <string name="sound_dashboard_summary">مستوى الصوت</string>
+    <string name="sound_dashboard_summary_with_dnd">"مستوى الصوت وميزة \"عدم الإزعاج\""</string>
+    <string name="sound_settings">الصوت</string>
+</resources>

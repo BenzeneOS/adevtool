@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Latausäänet</string>
+    <string name="edge_to_edge_navigation_summary">Siirry aloitusnäytölle pyyhkäisemällä alareunasta ylös nopeasti. Käytä tehtäväpalkkia pyyhkäisemällä alareunasta ylös hitaasti. Vaihda sovelluksesta toiseen pyyhkäisemällä alareunasta ylös, pitämällä sormea paikallaan ja päästämällä sitten irti. Palaa takaisin pyyhkäisemällä näytön vasemmasta tai oikeasta reunasta.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Siirrä laite lähemmäs Pixel Tabletia ja yritä uudelleen.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Avaa nappikuulokkeiden kotelo, siirrä se lähemmäs Pixel Tabletia ja yritä uudelleen.</string>
+    <string name="sound_dashboard_summary">Äänenvoimakkuus</string>
+    <string name="sound_dashboard_summary_with_dnd">Äänenvoimakkuus, Älä häiritse</string>
+    <string name="sound_settings">Ääni</string>
+</resources>

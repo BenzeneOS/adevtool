@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">コンテンツに応じて、リフレッシュ レートを自動的に 60 Hz から 120 Hz に変更します。バッテリー使用量が増えます。</string>
+</resources>

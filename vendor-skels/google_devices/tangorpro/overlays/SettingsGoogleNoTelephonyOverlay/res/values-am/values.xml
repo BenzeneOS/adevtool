@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wi‑Fi</string>
+    <string name="non_carrier_data_usage">የWi-Fi ተውሂብ አጠቃቀም</string>
+    <string name="tether_settings_title_all">እንደ ሞደም መሰካት</string>
+    <string name="tethering_footer_info">በዩኤስቢ፣ ኢተርኔት ወይም ብሉቱዝ በኩል ለሌሎች መሣሪያዎች በይነመረብን ለማቅረብ እንደ ሞደም መሰካትን ይጠቀሙ።</string>
+</resources>

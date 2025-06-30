@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">വൈഫൈ</string>
+    <string name="non_carrier_data_usage">വൈഫൈ ഡാറ്റാ ഉപയോഗം</string>
+    <string name="tether_settings_title_all">ടെതറിംഗ്</string>
+    <string name="tethering_footer_info">USB, ഇതർനെറ്റ്, അല്ലെങ്കിൽ Bluetooth വഴി മറ്റ് ഉപകരണങ്ങളിലേക്ക് ഇന്റർനെറ്റ് നൽകാൻ ടെതറിംഗ് ഉപയോഗിക്കുക.</string>
+</resources>

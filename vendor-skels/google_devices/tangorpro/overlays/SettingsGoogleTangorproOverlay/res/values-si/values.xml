@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">ආරෝපණය වීමේ ශබ්ද</string>
+    <string name="edge_to_edge_navigation_summary">නිවසට යාමට, ඉක්මනින් පහළ සිට ඉහළට ස්වයිප් කරන්න. කාර්ය තීරුවට ප්‍රවේශ වීම සඳහා, පහළ සිට ඉහළට සෙමින් ස්වයිප් කරන්න. යෙදුම් මාරු කිරීම සඳහා, පහළ සිට ඉහළට ස්වයිප් කර, අල්ලා ගෙන, නිදහස් කරන්න. ආපසු යාම සඳහා, වම් හෝ දකුණු දාරයෙන් ස්වයිප් කරන්න.</string>
+    <string name="fast_pair_device_not_found_other_device_description">මෙම උපාංගය ඔබේ Pixel Tablet වෙත සමීප කර නැවත උත්සාහ කරන්න.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">ඉයර්බඩ් පෙට්ටිය විවෘත කර එය ඔබේ Pixel Tablet වෙත සමීප කර, පසුව නැවත උත්සාහ කරන්න.</string>
+    <string name="sound_dashboard_summary">හඬ පරිමාව</string>
+    <string name="sound_dashboard_summary_with_dnd">හඬ, බාධා නොකිරීම</string>
+    <string name="sound_settings">ශබ්දය</string>
+</resources>

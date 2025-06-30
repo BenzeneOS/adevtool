@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Kies ’n sluimerskerm en skakel handvrye hulp aan terwyl jou tablet gedok is</string>
+    <string name="dock_setup_notification_title">Doen meer terwyl tablet gedok is</string>
+    <string name="stylus_system_update_notification_text">Installeer die jongste Android-opdatering om die beste gebruik van jou stilus te maak</string>
+    <string name="stylus_system_update_notification_title">Installeer Android-opdatering</string>
+</resources>

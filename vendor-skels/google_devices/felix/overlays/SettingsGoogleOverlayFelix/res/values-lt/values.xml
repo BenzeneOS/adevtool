@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Jei norite eiti į pagrindinį puslapį, greitai perbraukite iš apačios į viršų. Jei norite pasiekti užduočių juostą, lėtai perbraukite iš apačios į viršų. Jei norite perjungti programas, perbraukite iš apačios į viršų, palaikykite, tada atleiskite. Jei norite grįžti, perbraukite nuo kairiojo arba dešiniojo krašto.</string>
+    <string name="setting_auto_rotate_folded">Automatiškai pasukti, kai sulenkiama</string>
+    <string name="setting_auto_rotate_unfolded">Automatiškai pasukti, kai atlenkiama</string>
+</resources>

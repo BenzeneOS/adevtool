@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">Asigură-te că degetul acoperă senzorul</string>
+    <string name="fingerprint_acquired_power_press">Ca să continui configurarea, atinge ușor senzorul</string>
+    <string name="fingerprint_acquired_too_fast">Ține degetul pe senzor puțin mai mult</string>
+    <string name="fingerprint_error_power_pressed">Verificarea s-a încheiat. Încearcă să atingi ușor data viitoare.</string>
+</resources>

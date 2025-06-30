@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">タブレットの起動中…</string>
+    <string name="android_upgrading_title">タブレットの更新中…</string>
+    <string name="app_streaming_blocked_message">現在、%1$s からアクセスできません。タブレットでのアクセスをお試しください。</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">このアプリはセキュリティの強化を求めています。タブレットでのアクセスをお試しください。</string>
+    <string name="app_streaming_blocked_message_for_permission_request">このアプリは追加の権限を求めていますが、ストリーミング セッションでは権限を付与できません。タブレットで先に権限を付与してください。</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">%1$s からはアクセスできません。タブレットでのアクセスをお試しください。</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">タブレットの設定: 使用不可</string>
+    <string name="battery_saver_charged_notification_summary">タブレットが十分に充電されました。機能は制限されなくなりました。</string>
+    <string name="default_audio_route_name">タブレット</string>
+    <string name="enable_explore_by_touch_warning_message">%1$sがタッチガイドをONにしようとしています。タッチガイドをONにすると、指の位置にあるアイテムの説明を読み上げたり表示したりできます。また、タブレットを通常とは違うジェスチャーで操作できます。</string>
+    <string name="global_actions">タブレットオプション</string>
+    <string name="kg_failed_attempts_almost_at_login">"ロック解除パターンの入力を%1$d回間違えました。あと%2$d回間違えると、タブレットのロック解除にメールアカウントが必要になります。
+
+%3$d秒後にもう一度お試しください。"</string>
+    <string name="kg_failed_attempts_almost_at_wipe">タブレットのロック解除に%1$d回失敗しました。あと%2$d回失敗すると、タブレットは出荷時設定にリセットされ、ユーザーのデータはすべて失われます。</string>
+    <string name="kg_failed_attempts_now_wiping">タブレットのロック解除を%d回失敗しました。タブレットは出荷時設定にリセットされます。</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">タブレットのロック解除に%1$d回失敗しました。あと%2$d回失敗すると、タブレットは工場出荷状態にリセットされ、ユーザーのデータはすべて失われます。</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"ロック解除パターンの入力を%1$d回間違えました。あと%2$d回間違えると、タブレットのロック解除にGoogleへのログインが必要になります。
+
+%3$d秒後にもう一度お試しください。"</string>
+    <string name="lockscreen_failed_attempts_now_wiping">タブレットのロック解除を%d回失敗しました。タブレットを工場出荷状態にリセットします。</string>
+    <string name="lockscreen_missing_sim_message">タブレットに SIM がありません。</string>
+    <string name="low_memory">タブレットのストレージに空き領域がありません。ファイルを削除して空き領域を確保してください。</string>
+    <string name="permdesc_bluetooth">タブレットのBluetooth設定を表示すること、ペアのデバイスに接続すること/ペアのデバイスからの接続を受け入れることをアプリに許可します。</string>
+    <string name="permdesc_bluetoothAdmin">ローカルのBluetoothタブレットを設定することと、リモートデバイスを検出してペアに設定することをアプリに許可します。</string>
+    <string name="permdesc_broadcastSticky">配信が終了してもメモリに残るstickyブロードキャストの配信をアプリに許可します。この許可を使用し過ぎると、メモリの使用量が増えてタブレットの動作が遅くなったり不安定になったりする恐れがあります。</string>
+    <string name="permdesc_changeWifiMulticastState">マルチキャスト アドレスを使用して、このタブレットだけでなく Wi-Fi ネットワーク上のすべてのデバイスに送信されたパケットを受信することをアプリに許可します。マルチキャスト以外のモードよりもバッテリーの消費量が大きくなります。</string>
+    <string name="permdesc_changeWimaxState">タブレットのWiMAXネットワークへの接続と切断をアプリに許可します。</string>
+    <string name="permdesc_getAccounts">タブレットで認識されているアカウントのリストの取得をアプリに許可します。これには、インストールしたアプリによって作成されたアカウントも含まれます。</string>
+    <string name="permdesc_persistentActivity">アプリにその一部をメモリに常駐させることを許可します。これにより他のアプリが使用できるメモリが制限されるため、タブレットの動作が遅くなることがあります。</string>
+    <string name="permdesc_readCalendar">このアプリは、お使いのタブレットに保存されたカレンダーの予定をすべて読み取り、カレンダーのデータを共有したり、保存したりできます。</string>
+    <string name="permdesc_readContacts">タブレットに保存されている連絡先に関するデータの読み取りをアプリに許可します。また、この読み取りを許可したアプリは、連絡先を作成したタブレット上のアカウントにもアクセスできます。これには、インストールしたアプリによって作成されたアカウントも含まれます。これにより、連絡先データの保存をアプリに許可することになり、悪意のあるアプリによって知らないうちに連絡先データが共有される恐れがあります。</string>
+    <string name="permdesc_readSms">このアプリは、お使いのタブレットに保存された SMS（テキスト）メッセージをすべて読み取ることができます。</string>
+    <string name="permdesc_receiveBootCompleted">システムの起動後に自動的に起動することをアプリに許可します。許可すると、タブレットの起動時間が長くなったり、アプリが常に実行されるためにタブレット全体の動作が遅くなったりする可能性があります。</string>
+    <string name="permdesc_setTimeZone">タブレットのタイムゾーンの変更をアプリに許可します。</string>
+    <string name="permdesc_transmitIr">タブレットの赤外線送信機能の使用をアプリに許可します。</string>
+    <string name="permdesc_wakeLock">タブレットのスリープを無効にすることをアプリに許可します。</string>
+    <string name="permdesc_writeCalendar">このアプリは、お使いのタブレットでカレンダーの予定を追加、削除、変更できます。また、カレンダーの所有者から発信されたかのように表示されるメッセージを送信したり、所有者に通知することなく予定を変更したりできます。</string>
+    <string name="permdesc_writeCallLog">タブレットの通話履歴（着信や発信のデータなど）の変更をアプリに許可します。この許可を悪意のあるアプリに利用されると、通話履歴が消去または変更される恐れがあります。</string>
+    <string name="permdesc_writeContacts">タブレットに保存されている連絡先に関するデータの変更をアプリに許可します。これにより、連絡先データの削除をアプリに許可することになります。</string>
+    <string name="permlab_wakeLock">タブレットのスリープを無効化</string>
+    <string name="policydesc_watchLogin">画面のロック解除に失敗した回数を監視し、多すぎる場合はタブレットをロックするかタブレットのデータをすべて消去します。</string>
+    <string name="policydesc_watchLogin_secondaryUser">画面のロック解除に失敗した回数を監視し、多すぎる場合はタブレットをロックするかこのユーザーのデータをすべて消去します。</string>
+    <string name="policydesc_wipeData">警告せずにタブレットを初期化して内部のデータを消去します。</string>
+    <string name="policydesc_wipeData_secondaryUser">このタブレットのこのユーザーのデータを警告なく消去します。</string>
+    <string name="power_dialog">タブレットオプション</string>
+    <string name="shutdown_confirm">タブレットの電源をOFFにします。</string>
+    <string name="vdm_camera_access_denied">%1$s からタブレットのカメラにアクセスできません</string>
+</resources>

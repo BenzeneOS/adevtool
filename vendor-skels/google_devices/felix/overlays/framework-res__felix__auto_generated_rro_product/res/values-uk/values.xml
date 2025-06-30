@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">Функція Dual Screen недоступна, оскільки телефон Pixel сильно нагрівається</string>
+    <string name="fingerprint_acquired_partial">Палець має закривати сканер</string>
+    <string name="fingerprint_acquired_power_press">Щоб продовжити, злегка торкніться сканера</string>
+    <string name="fingerprint_acquired_too_fast">Утримуйте палець на сканері трохи довше</string>
+    <string name="fingerprint_error_power_pressed">Підтвердження перервано. Наступного разу злегка торкніться сканера.</string>
+</resources>

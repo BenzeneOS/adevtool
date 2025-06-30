@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Преместете пръста си. Опитайте отново.</item>
+        <item>Пръстът вече е регистриран – използвайте друг.</item>
+        <item>Лошо качество на изображението. Опитайте отново.</item>
+        <item/>
+        <item>Лошо качество на изображението. Опитайте отново.</item>
+        <item/>
+        <item/>
+        <item>Открито е зацапване. Почистете екрана. Опитайте отново.</item>
+        <item>Изображението не може да се прочете. Опитайте отново.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Грешни данни. Опитайте отново.</item>
+        <item>Регистрирането на пръста не бе успешно. Опитайте отново.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Сензорът за отпечатъци не може да се използва. Посетете оторизиран сервиз или g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Посетете оторизиран сервиз или g.co/pixel/fingerprintunlock</string>
+</resources>

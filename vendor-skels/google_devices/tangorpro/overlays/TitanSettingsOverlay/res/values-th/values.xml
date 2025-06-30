@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">โหมดฮับ</string>
+    <string name="dream_no_screen_saver_caption">ไม่ใช้ภาพพักหน้าจอ</string>
+    <string name="dream_no_screen_saver_description">หน้าจอจะปิดลงหลังจากไม่มีการใช้งานเพื่อประหยัดพลังงาน</string>
+    <string name="dream_no_screen_saver_preview_caption">เป็นมิตรต่อสิ่งแวดล้อม</string>
+    <string name="dream_secondary_button_title">ข้าม</string>
+    <string name="screensaver_settings_summary_dock_and_charging">ขณะชาร์จอยู่บนแท่นชาร์จ</string>
+    <string name="screensaver_settings_summary_off">แสดงสิ่งที่ชื่นชอบ เช่น รูปภาพ งานศิลปะ นาฬิกา เมื่อไม่มีการใช้งาน</string>
+    <string name="screensaver_settings_summary_postured_and_charging">ขณะวางตั้งตรงและชาร์จ</string>
+    <string name="screensaver_settings_summary_sleep">ขณะชาร์จ</string>
+    <string name="when_to_show_hubmode_charging">ขณะชาร์จ</string>
+    <string name="when_to_show_hubmode_docked">ขณะวางอยู่บนแท่นชาร์จ</string>
+    <string name="when_to_show_hubmode_never">ไม่เลย</string>
+</resources>

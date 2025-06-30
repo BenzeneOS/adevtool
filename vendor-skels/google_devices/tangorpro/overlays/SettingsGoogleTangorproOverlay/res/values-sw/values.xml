@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Sauti za kuchaji</string>
+    <string name="edge_to_edge_navigation_summary">Ili uende kwenye skrini ya kwanza, telezesha kidole juu kwa haraka kutoka sehemu ya chini. Ili ufikie Upauzana, telezesha kidole juu taratibu kutoka sehemu ya chini. Ili ubadilishe programu, telezesha kidole juu kutoka sehemu ya chini, shikilia kisha uachilie. Ili urudi nyuma, telezesha kidole kutoka ukingo wa kushoto au kulia.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Sogeza kifaa hiki karibu na Pixel Tablet yako kisha ujaribu tena.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Fungua kipochi cha vifaa vya sauti vya masikioni na ukisogeze karibu na Pixel Tablet yako, kisha ujaribu tena.</string>
+    <string name="sound_dashboard_summary">Kiwango cha sauti</string>
+    <string name="sound_dashboard_summary_with_dnd">Kiwango cha sauti, Usinisumbue</string>
+    <string name="sound_settings">Mlio</string>
+</resources>

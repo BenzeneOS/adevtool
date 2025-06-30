@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">WLAN</string>
+    <string name="non_carrier_data_usage">WLAN-Datennutzung</string>
+    <string name="tether_settings_title_all">Tethering</string>
+    <string name="tethering_footer_info">Du kannst Tethering verwenden, um andere Geräte über USB, Ethernet oder Bluetooth mit dem Internet zu verbinden.</string>
+</resources>

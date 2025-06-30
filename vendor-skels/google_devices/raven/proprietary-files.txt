@@ -58,6 +58,8 @@ system_ext/priv-app/EuiccSupportPixel/esim-full-v0.img
 system_ext/priv-app/EuiccSupportPixel/esim-full-v1.img
 system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk;PRESIGNED
 system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk
+system_ext/priv-app/HbmSVManager/HbmSVManager.apk
+system_ext/priv-app/HbmSVManager/lib/arm64/libhbmsvmanager_jni.so
 system_ext/priv-app/OemRilService/OemRilService.apk;PRESIGNED
 system_ext/priv-app/PixelNfc/PixelNfc.apk
 system_ext/priv-app/ShannonIms/ShannonIms.apk;PRESIGNED

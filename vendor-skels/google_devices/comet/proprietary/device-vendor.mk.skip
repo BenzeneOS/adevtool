@@ -282,8 +282,6 @@ PRODUCT_PACKAGES += \
     aidl_default_audio_set_configurations_json \
     aidl_default_audio_set_scenarios_json \
     ambient_volume \
-    android.auto_generated_rro_product_adevtool__ \
-    android.auto_generated_rro_vendor_adevtool__ \
     android.frameworks.sensorservice-V1-ndk.vendor \
     android.frameworks.stats-V1-cpp.vendor \
     android.hardware.audio.common@5.0.vendor \
@@ -453,29 +451,18 @@ PRODUCT_PACKAGES += \
     capo \
     cbd \
     cc \
+    CellBroadcastReceiverOverlay \
     chre_atoms_log:64 \
     chremetrics-cpp \
     citadel_updater \
     citadeld \
     columbus \
     columbus_lite \
-    com.android.networkstack__NetworkStackConfig.auto_generated_rro_product_adevtool__ \
-    com.android.networkstack.tethering__TetheringConfig.auto_generated_rro_product_adevtool__ \
-    com.android.phone.auto_generated_rro_product_adevtool__ \
-    com.android.pixeldisplayservice.auto_generated_rro_product_adevtool__ \
-    com.android.server.telecom.auto_generated_rro_product_adevtool__ \
-    com.android.settings.auto_generated_rro_product_adevtool__ \
-    com.android.systemui.auto_generated_rro_product_adevtool__ \
-    com.android.traceur.auto_generated_rro_product_adevtool__ \
-    com.android.uwb.resources__UwbCustomization.auto_generated_rro_vendor_adevtool__ \
-    com.android.wifi.resources__WifiCustomization.auto_generated_rro_product_adevtool__ \
     com.fingerprints42.extension@1.0 \
     com.google.android.camera.experimental2024 \
     com.google.android.camera.experimental2024_system \
     com.google.android.camera.extensions \
     com.google.android.camerax.extensions \
-    com.google.android.nfc__NfcCustomization.auto_generated_rro_product_adevtool__ \
-    com.google.android.pixelsystemservice__SignalHubConfig.auto_generated_rro_product_adevtool__ \
     com.google.android.widevine-13130248 \
     com.google.edgetpu_app_service-V4-ndk \
     com.google.edgetpu_app_service-V4-ndk__system_ext \
@@ -484,7 +471,6 @@ PRODUCT_PACKAGES += \
     com.google.edgetpu.tachyon-ndk \
     com.google.edgetpu.tachyon-service \
     com.google.edgetpu.tachyon-service__2 \
-    com.google.euiccpixel.auto_generated_rro_product_adevtool__ \
     com.google.hardware.biometrics.parcelable.fingerprint.PressToAuthParcelable-V1-ndk \
     com.google.hardware.biometrics.sidefps.fingerprint-ext-V1-ndk \
     com.google.hardware.pixel.display-V15-ndk.vendor \
@@ -501,6 +487,7 @@ PRODUCT_PACKAGES += \
     com.google.pixel.modem.logmasklibrary-V1-ndk \
     com.google.pixel.wifi.ext \
     comet-services \
+    ConnectivityResourcesOverlayCometOverride \
     copy_efs_files_to_data \
     dck_gating \
     device_symlinks \
@@ -531,6 +518,7 @@ PRODUCT_PACKAGES += \
     EuiccGoogle \
     EuiccGoogleOverlay \
     EuiccSupportPixel-P23 \
+    EuiccSupportPixelOverlay \
     EuiccSupportPixelPermissions \
     fake_gxp_telemetry_reader \
     fake_libtachyon_core \
@@ -540,12 +528,17 @@ PRODUCT_PACKAGES += \
     flood.control.hal \
     fpc_util \
     fpc42_suez \
+    framework-res__comet__auto_generated_rro_product \
+    framework-res__comet__auto_generated_rro_vendor \
     geofence \
     gesture \
     gia \
     gnssd \
     google-ril \
     google.hardware.media.c2@2.0-service \
+    GoogleConfigOverlay \
+    GooglePermissionControllerOverlay \
+    GRilServiceOverlay_CT3 \
     gs_watchdogd \
     gxp_metrics_logger \
     gxp_telemetry_reader \
@@ -562,7 +555,10 @@ PRODUCT_PACKAGES += \
     init.radio.sh \
     insmod.sh \
     ip_health \
+    LargeScreenConfigOverlay \
+    LargeScreenSettingsProviderOverlay \
     lassen_dmd_constants \
+    Launcher3QuickStep__comet__auto_generated_rro_vendor \
     lib_aion_buffer \
     lib_jpg_encoder \
     lib_reader \
@@ -737,6 +733,7 @@ PRODUCT_PACKAGES += \
     libwlcproto_aidl-default \
     libxml2.vendor \
     libziparchive.vendor \
+    ManagedProvisioningPixelOverlay \
     manifest \
     manifest_aocx \
     manifest_gralloc_aidl2 \
@@ -756,6 +753,8 @@ PRODUCT_PACKAGES += \
     modemml-tflite-service-aidl-V1-ndk \
     motiondetector \
     nearby \
+    NetworkStackOverlay \
+    NexusLauncherRelease__comet__auto_generated_rro_vendor \
     nos_app_avb \
     nos_app_keymaster \
     nos_app_weaver \
@@ -763,21 +762,35 @@ PRODUCT_PACKAGES += \
     OemRilHookService \
     OemRilService \
     pcie_power_control \
+    PearlOverlay2024 \
     PersistentBackgroundCameraServices \
     pixel_stateresidency_provider_aidl_interface-ndk.vendor \
     pixel-display-default \
     pixel-display-secondary \
     pixel-experiments-recovery.sh \
     pixel-gnss-default \
+    PixelBatteryHealthOverlay \
+    PixelBatteryLotXOverlay \
     PixelCameraServicesConnectivityClient \
+    PixelConfigOverlay2018 \
+    PixelConfigOverlay2021 \
+    PixelConfigOverlayCommon \
+    PixelConnectivityOverlay2024 \
     PixelDisplayService \
+    PixelDisplayService__comet__auto_generated_rro_product \
+    PixelDocumentsUIGoogleOverlay \
     PixelImsMediaService \
     PixelIwlan \
     PixelNfc \
+    PixelNfcOverlayComet \
+    PixelNfcOverlayCommon \
     pixelpowerstats_provider_aidl_interface-cpp.vendor \
     PixelQualifiedNetworksService \
     pixelstats-vendor \
+    PixelTetheringOverlay2021 \
+    PixelUwbOverlayCT3 \
     PixelVibratorFlagsL26.vendor \
+    PixelWifiOverlay2024 \
     predump_gti0.sh \
     predump_gti1.sh \
     predump_touch.sh \
@@ -785,25 +798,43 @@ PRODUCT_PACKAGES += \
     rfsd \
     ril-extension \
     rild_exynos \
+    SafetyRegulatoryInfo__comet__auto_generated_rro_product \
     samsung.hardware.media.c2@1.2-service \
     sd \
     sensorcollector \
     sensors.dynamic_sensor_hal \
     sensors.usf \
+    SettingsCometOverlay \
+    SettingsGoogle__comet__auto_generated_rro_product \
+    SettingsGoogle__comet__auto_generated_rro_vendor \
+    SettingsGoogleCometOverlay \
+    SettingsProvider__comet__auto_generated_rro_product \
+    SettingsProvider__comet__auto_generated_rro_vendor \
+    SfpsOverlay \
     ShannonIms \
     ShannonRcs \
     shared_modem_platform \
     shared_modem_platform__2 \
     sideFpsSuez \
+    SignalHubCometOverlay \
     smartbatching \
     storage_init.sh \
+    StorageManagerGoogle__comet__auto_generated_rro_vendor \
     system_signal_hub \
+    SystemUIGoogle__comet__auto_generated_rro_product \
+    SystemUIGoogle__comet__auto_generated_rro_vendor \
+    SystemUIGXOverlay \
+    TeleService__comet__auto_generated_rro_product \
+    TeleService__comet__auto_generated_rro_vendor \
     time_sync \
     touch_gti_ical \
+    Traceur__comet__auto_generated_rro_vendor \
+    TrafficLightFaceOverlay \
     trusty_metricsd \
     twoshay \
     usf_stats \
     uv_exposure \
+    UwbOverlayCT3Gsi \
     vendor_chre_atoms_log \
     vendor_chre_metrics-cpp \
     vendor-pixelatoms-cpp \
@@ -855,7 +886,8 @@ PRODUCT_PACKAGES += \
     vice \
     vulkan.mali \
     wallaby \
-    wfc-pkt-router
+    wfc-pkt-router \
+    WifiOverlay2024Mid_CT3
 
 PRODUCT_COPY_FILES += \
     vendor/google_devices/comet/proprietary/product/etc/CarrierSettings/1and1_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/1and1_de.pb \

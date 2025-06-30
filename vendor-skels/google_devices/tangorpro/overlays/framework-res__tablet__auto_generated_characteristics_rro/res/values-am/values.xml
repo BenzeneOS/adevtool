@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">ጡባዊ በመጀመር ላይ ነው…</string>
+    <string name="android_upgrading_title">ጡባዊ በመዘመን ላይ ነው…</string>
+    <string name="app_streaming_blocked_message">ይህ በዚህ ጊዜ በእርስዎ %1$s ላይ ሊደረስበት አይችልም። በምትኩ በጡባዊዎ ላይ ይሞክሩ።</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">ይህ መተግበሪያ ተጨማሪ ደህንነትን እየጠየቀ ነው። በምትኩ በጡባዊዎ ላይ ይሞክሩ።</string>
+    <string name="app_streaming_blocked_message_for_permission_request">ይህ መተግበሪያ ተጨማሪ ፈቃዶችን እየጠየቀ ነው፣ ነገር ግን ፈቃዶች በዥረት ክፍለ ጊዜ ውስጥ ሊሰጡ አይችሉም። መጀመሪያ በጡባዊዎ ላይ ፍቃድ ይስጡ።</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">ይህ በእርስዎ %1$s ላይ ሊደረስበት አይችልም። በምትኩ በጡባዊዎ ላይ ይሞክሩ።</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">የጡባዊ ቅንብሮች አይገኝም</string>
+    <string name="battery_saver_charged_notification_summary">ጡባዊ በቂ የባትሪ ኃይል አለው። ባህሪያት ከእንግዲህ የተገደቡ አይደሉም።</string>
+    <string name="default_audio_route_name">ጡባዊ ተኮ</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s  ማሰስን በንኪ ማንቃት ይፈልጋል። አስስ በንኪ በሚበራበት ጊዜ፣ ከጡባዊ ተኮው ጋር ለመግባባት ምን በጣትዎ ስር ወይም ምልክቶችን ማከናወን እንዳለብዎ ማብራሪያ ሊመለከቱ ወይም ሊሰሙ ይችላሉ።</string>
+    <string name="global_actions">የጡባዊ አማራጮች</string>
+    <string name="kg_failed_attempts_almost_at_login">"የመክፈቻ ስርዓተ ጥለቱን %1$d ጊዜ በትክክል አልሳሉትም። ከ%2$d ተጨማሪ ያልተሳኩ ሙከራዎች በኋላ የኢሜይል መለያ ተጠቅመው ጡባዊ ቱኮዎን እንዲከፍቱ ይጠየቃሉ።
+
+ ከ%3$d ከሰከንዶች በኋላ እንደገና ይሞክሩ።"</string>
+    <string name="kg_failed_attempts_almost_at_wipe">ጡባዊ ቱኮውን %1$d ጊዜ ትክክል ባልሆነ መንገድ ለመክፈት ሞክረዋል። ከ%2$d ተጨማሪ ያልተሳኩ ሙከራዎች በኋላ ጡባዊ ቱኮው በፋብሪካ ነባሪ ቅንብር ዳግም ይጀመርና ሁሉም የተጠቃሚ ውሂብ ይጠፋል።</string>
+    <string name="kg_failed_attempts_now_wiping">ጡባዊ ቱኮዎን %d ጊዜ ትክክል ባልሆነ መንገድ ለመክፈት ሞክረዋል። ጡባዊ ቱኮዎ አሁን በፋብሪካ ነባሪ ቅንብር ዳግም ይጀመራል።</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">ይህን tablet %1$d ጊዜ ያህል በስህተት ለማስከፈት ሞክረሃል፡፡ ከ %2$d በላይ ያልተሳኩ ሙከራዎች በኋላ፣ ይህ tablet አሁን በፋብሪካ ነባሪ ቅንጅት ዳግም ይቀናበርና ሁሉም የተጠቃሚው ውሂብ ይጠፋል፡፡</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"የመክፈቻ ስርዓተ ጥለቱን %1$dጊዜ በስህተት ስለውታል።ከ%2$dየበለጠ ያልተሳካ ሙከራ በኋላ፣ የGoogle መግቢያዎን ተጠቅመው ስልኩን እንዲከከፍቱ ይጠየቃሉ።
+
+እባክዎ እንደገና %3$dከሰከንዶች በኋላ ይሞክሩ።"</string>
+    <string name="lockscreen_failed_attempts_now_wiping">ይህን tablet %d ጊዜ ያህል በስህተት ለማስከፈት ሞክረሃል፡፡ ይህ tablet አሁን በፋብሪካ ነባሪ ቅንጅት ዳግም ይቀናበራል፡፡</string>
+    <string name="lockscreen_missing_sim_message">በጡባዊ ውስጥ ምንም ሲም የለም።</string>
+    <string name="low_memory">የጡባዊ ተኮ ማከማቻ ሙሉ ነው! ቦታ ነፃ ለማድረግ አንዳንድ ፋይሎች ሰርዝ።</string>
+    <string name="permdesc_bluetooth">መተግበሪያው በጡባዊ ተኮው ላይ ያለውን የብሉቱዝ ውቅር እንዲያይ እና ከተጣመሩ መሳሪያዎች ጋር ግንኙነቶችን እንዲያደርግና እንዲቀበል ይፈቅድለታል።</string>
+    <string name="permdesc_bluetoothAdmin">የአካባቢውን ብሉቱዝ ጡባዊ ለማዋቀር እና አግኝቶ ከሩቅ መሣሪያዎች ጋር ለማጣመር ለመተግበሪያው ይፈቅዳሉ።</string>
+    <string name="permdesc_broadcastSticky">መተግበሪያው ስርጭቱ ከተጠናቀቀ በኋላ የሚቀሩ አጣባቂ ስርጭቶችን እንዲልክ ይፈቅድለታል። ከልክ በላይ መጠቀም ጡባዊ ተኮው ብዙ ማህደረ ትውስታን እንዲጠቀም በማድረግ ቀርፋፋ ወይም ያልተረጋጋ ሊያደርገው ይችላል።</string>
+    <string name="permdesc_changeWifiMulticastState">መተግበሪያው ባለብዙ ስምሪት አድራሻዎችን በመጠቀም ጡባዊ ቱኮህን ብቻ ሳይሆን በWi-Fi አውታረ መረብ ላሉ መሳሪያዎች በሙሉ የተላኩ እሽጎችን እንዲቀበል ይፈቅድለታል። ባለብዙ ስምሪት ካልሆነው ሁኔታ የበለጠ ሃይል ይጠቀማል።</string>
+    <string name="permdesc_changeWimaxState">መተግበሪያው ጡባዊ ተኮውን ከWiMAX አውታረ መረብ ጋር እንዲያገናኝና እንዲያለያይ ይፈቅድለታል።</string>
+    <string name="permdesc_getAccounts">መተግበሪያው በጡባዊ ተኮው የሚታወቁትን መለያዎች ዝርዝር እንዲያገኝ ይፈቅድለታል። ይህ በጫንዋቸው ማናቸውም መተግበሪያዎች የተፈጠሩ መለያዎችን ሊያጠቃልል ይችላል።</string>
+    <string name="permdesc_persistentActivity">መተግበሪያው የራሱን ክፍሎች በማህደረ ትውስታ ውስጥ በቋሚነት የሚቀጥሉ እንዲያደርግ ይፈቅድለታል። ይህ ለሌላ መተግበሪያዎች ያለውን ማህደረ ትውስታ በመገደብ ጡባዊ ተኮውን ሊያንቀራፍፈው ይችላል።</string>
+    <string name="permdesc_readCalendar">ይህ መተግበሪያ ሁሉንም በእርስዎ ጡባዊ ላይ የተከማቹ የቀን መቁጠሪያ ክስተቶችን ማንበብ ወይም የእርስዎን የቀን መቁጠሪያ ውሂብ ማስቀመጥ ይችላል።</string>
+    <string name="permdesc_readContacts">መተግበሪያው በእርስዎ ጡባዊ ላይ ስለተከማቹ ዕውቂያዎችዎ ያለ ውሂብ እንዲያነብብ ያስችለዋል። መተግበሪያዎች እንዲሁም በእርስዎ ጡባዊ ላይ እውቂያዎችን የፈጠሩ የመለያዎች መዳረሻ ይኖራቸዋል። ይህ እርስዎ በጫኗቸው መተግበሪያዎች የተፈጠሩ መለያዎችን ሊያካትት ይችላል። ይህ ፈቃድ መተግበሪያዎች የእውቂያ ውሂብዎን እንዲያስቀምጡ የሚፈቅድላቸው ሲሆን ተንኮል-አዘል መተግበሪያዎች የእውቂያዎን ውሂብ ሳያውቁት ሊያጋሩት ይችላሉ።</string>
+    <string name="permdesc_readSms">ይህ መተግበሪያ በእርስዎ ጡባዊ ላይ የተከማቹ ሁሉንም አጭር የስልክ መልዕክት (ጽሁፍ) መልእክቶን ማንበብ ይችላል።</string>
+    <string name="permdesc_receiveBootCompleted">ስርዓቱ  ማስጀመር  እንደጨረሰ ወዲያውኑ እራሱን እንዲያስጀምር ለመተግበሪያው ይፈቅዳሉ፡፡ ይሄ ጡባዊ ተኮን ለማስጀመር ብዙ ጊዜ ሊፈጅ ይችላል እና ሁልጊዜ በማስኬድ ጠቅላላውን ጡባዊ ተኮን እንዲቀራፈፍ ለመተግበሪያው ይፈቅዳል፡፡</string>
+    <string name="permdesc_setTimeZone">" የየጡባዊ ተኮን   ሰዓት ለመለወጥ ለመተግበሪያውን ይፈቅዳል።"</string>
+    <string name="permdesc_transmitIr">የጡባዊውን የኢንፍራሪድ አስተላላፊ እንዲጠቀም ለመተግበሪያው ይፈቅድለታል።</string>
+    <string name="permdesc_wakeLock">ጡባዊውን ከመተኛት መከልከል ለመተግበሪያው ይፈቅዳሉ።</string>
+    <string name="permdesc_writeCalendar">ይህ መተግበሪያ በእርስዎ ጡባዊ ላይ የቀን መቁጠሪያ ክስተቶችን ሊያክል፣ ሊያስወግድ ወይም ሊለውጥ ይችላል። ይህ መተግበሪያ ከቀን መቁጠሪያ የመጡ መስለው የሚታዩ መልእክቶችን ሊልክ ወይም ባለቤቶቹን ሳያሳውቅ ክስተቶችን ሊለውጥ ይችላል።</string>
+    <string name="permdesc_writeCallLog">ስለ ገቢ እና ወጪ ጥሪዎችን ውሂብ ጨምሮ፣ የጡባዊተኮህን ምዝግብ ማስታወሻ ለመቀየር ለመተግበሪያው ይፈቅዳል። ይሄንን ተንኮል አዘል መተግበሪያዎች የስልክህን ምዝግብ ማስታወሻ ለመሰረዝ ወይም ለመለወጥ ሊጠቀሙበት ይችላሉ።</string>
+    <string name="permdesc_writeContacts">መተግበሪያው በእርስዎ ጡባዊ ላይ ስለተከማቹ እውቂያዎችዎ ያለ ውሂብን እንዲቀይር ያስችለዋል። ይህ ፈቃድ መተግበሪያዎች የእውቂያ ውሂብን እንዲሰርዙ ያስችላቸዋል።</string>
+    <string name="permlab_wakeLock">ጡባዊ ከማንቀላፋት ተከላከል</string>
+    <string name="policydesc_watchLogin">ማሳያውን በምትከፍትበት ጊዜ በስህተት የተተየቡ የይለፍ ቃሎችን ቁጥር ተቆጣጠር፤ እና ጡባዊ ተኮውን ቆልፍ  ወይም በጣም ብዙ የተሳሳቱ የይለፍ ቃሎች ከተተየቡ የጡባዊ ተኮን ውሂብ አጥፋ፡፡</string>
+    <string name="policydesc_watchLogin_secondaryUser">ማያ ገጹን ሲያስከፍቱ በትክክል ያልተተየቡ የይለፍ ቃላት ብዛት ተከታተል፣ እና በጣም ብዙ ትክክል ያልሆኑ የይለፍ ቃላት ከተተየቡ ጡባዊውን ቆልፍ ወይም ሁሉንም የዚህን ተጠቃሚ ውሂብ ደምስስ።.</string>
+    <string name="policydesc_wipeData">የፋብሪካው ውሂብ ዳግም አስጀምርን በማከናወን፣ያለ ማስጠንቀቂያ የጡባዊውን ውሂብ አጥፋ።</string>
+    <string name="policydesc_wipeData_secondaryUser">ያለምንም ማስጠንቀቂያ የዚህን ጡባዊ የተጠቃሚ ውሂብ ደምስስ።</string>
+    <string name="power_dialog">የጡባዊ አማራጮች</string>
+    <string name="shutdown_confirm">ጡባዊዎ ይዘጋል።</string>
+    <string name="vdm_camera_access_denied">ጡባዊውን ካሜራ ከእርስዎ %1$s መድረስ አይቻልም</string>
+</resources>

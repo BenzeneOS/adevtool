@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Mode Hub</string>
+    <string name="dream_no_screen_saver_caption">Aucun</string>
+    <string name="dream_no_screen_saver_description">"Pour économiser de l'énergie, votre écran s'éteindra après une période d'inactivité"</string>
+    <string name="dream_no_screen_saver_preview_caption">Écoresponsable</string>
+    <string name="dream_secondary_button_title">Ignorer</string>
+    <string name="screensaver_settings_summary_dock_and_charging">"Lorsque l'appareil est en charge sur une station d'accueil"</string>
+    <string name="screensaver_settings_summary_off">"Afficher vos photos, œuvres, horloges préférées et plus en cas d'inactivité"</string>
+    <string name="screensaver_settings_summary_postured_and_charging">"Lorsque l'appareil est en position verticale et en charge"</string>
+    <string name="screensaver_settings_summary_sleep">"Lorsque l'appareil est en charge"</string>
+    <string name="when_to_show_hubmode_charging">"Lorsque l'appareil est en charge"</string>
+    <string name="when_to_show_hubmode_docked">"Lorsque l'appareil est sur une station d'accueil"</string>
+    <string name="when_to_show_hubmode_never">Jamais</string>
+</resources>

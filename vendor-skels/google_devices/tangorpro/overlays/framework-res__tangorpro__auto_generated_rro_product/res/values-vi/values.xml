@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Đảm bảo ngón tay của bạn che cảm biến</string>
+    <string name="fingerprint_acquired_power_press">Để tiếp tục thiết lập, hãy chạm nhẹ vào cảm biến</string>
+    <string name="fingerprint_acquired_too_fast">Giữ ngón tay của bạn trên cảm biến lâu hơn một chút</string>
+    <string name="fingerprint_error_power_pressed">Đã kết thúc quy trình xác minh. Hãy thử chạm nhẹ vào lần tới.</string>
+</resources>

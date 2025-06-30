@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Хуруугаа хөдөлгөнө үү. Дахин оролдоно уу.</item>
+        <item>Хурууг аль хэдийн бүртгүүлсэн. Өөр хуруу ашиглана уу.</item>
+        <item>Зургийн чанар муу байна. Дахин оролдоно уу.</item>
+        <item/>
+        <item>Зургийн чанар муу байна. Дахин оролдоно уу.</item>
+        <item/>
+        <item/>
+        <item>Бохирдол илэрлээ. Дэлгэцийг цэвэрлэнэ үү. Дахин оролдоно уу.</item>
+        <item>Зургийг уншиж чадсангүй. Дахин оролдоно уу.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Өгөгдөл муу байна. Дахин оролдоно уу.</item>
+        <item>Хурууг бүртгүүлж чадсангүй. Дахин оролдоно уу.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Хурууны хээ мэдрэгч ашиглах боломжгүй. Засварын үйлчилгээ үзүүлэгч эсвэл g.co/pixel/fingerprintunlock дээр зочилно уу</string>
+    <string name="fingerprint_recalibrate_notification_content">Засварын үйлчилгээ үзүүлэгч эсвэл g.co/pixel/fingerprintunlock дээр зочилно уу</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">סיסמה • טביעת אצבע • זיהוי פנים</string>
+    <string name="biometrics_unlock_set_unlock_pattern">דפוס • טביעת אצבע • זיהוי פנים</string>
+    <string name="biometrics_unlock_set_unlock_pin">קוד אימות • טביעת אצבע • זיהוי פנים</string>
+</resources>

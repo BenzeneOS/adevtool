@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">Dual Screen функциясы істемейді, себебі Pixel телефоны қатты қызып кетеді.</string>
+    <string name="fingerprint_acquired_partial">Саусағыңыз сканерді жауып тұруы керек.</string>
+    <string name="fingerprint_acquired_power_press">Реттеуді аяқтау үшін датчикті жайлап түртіңіз.</string>
+    <string name="fingerprint_acquired_too_fast">Саусағыңызды датчиктің үстінде ұзағырақ ұстап тұрыңыз.</string>
+    <string name="fingerprint_error_power_pressed">Растау аяқталды. Келесі жолы жайлап түртіп көріңіз.</string>
+</resources>

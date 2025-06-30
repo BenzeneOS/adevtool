@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">ជ្រើសរើស​ធាតុ​រក្សាអេក្រង់ និងបើកជំនួយដោយមិន​ប្រើ​ដៃ ពេលថេប្លេតរបស់អ្នកត្រូវបានភ្ជាប់</string>
+    <string name="dock_setup_notification_title">ធ្វើបានកាន់តែច្រើន ពេលភ្ជាប់</string>
+    <string name="stylus_system_update_notification_text">ដើម្បីទាញយកប្រយោជន៍បានច្រើនបំផុតពីប៊ិករបស់អ្នក សូមដំឡើងកំណែ Android ចុងក្រោយបំផុត</string>
+    <string name="stylus_system_update_notification_title">ដំឡើង​កំណែ Android ថ្មី</string>
+</resources>

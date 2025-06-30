@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">សំឡេងសាកថ្ម</string>
+    <string name="edge_to_edge_navigation_summary">ដើម្បីត្រឡប់ទៅ​ទំព័រដើមវិញ សូមអូសឡើងលើឱ្យរហ័ស​ពីផ្នែកខាងក្រោម។ ដើម្បីចូលប្រើរបារកិច្ចការ សូមអូសឡើងលើយឺតៗ​ពីផ្នែកខាងក្រោម។ ដើម្បីប្ដូរកម្មវិធី សូមអូស​ឡើងលើ​ពីផ្នែកខាងក្រោម ចុចឱ្យជាប់ រួចលែងវិញ។ ដើម្បី​ថយក្រោយ សូមអូស​ពីគែមខាងឆ្វេង ឬខាងស្តាំ។</string>
+    <string name="fast_pair_device_not_found_other_device_description">ផ្លាស់ទីឧបករណ៍នេះទៅជិត Pixel Tablet របស់អ្នក រួចព្យាយាមម្ដងទៀត។</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">បើកប្រអប់កាស ហើយផ្លាស់ទីវាទៅជិត Pixel Tablet របស់អ្នក រួចព្យាយាមម្ដងទៀត។</string>
+    <string name="sound_dashboard_summary">កម្រិតសំឡេង</string>
+    <string name="sound_dashboard_summary_with_dnd">កម្រិតសំឡេង កុំរំខាន</string>
+    <string name="sound_settings">សំឡេង</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Sula isikrini sakho eduze nenzwa</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Sula isikrini sakho ukuze ususe noma yimiphi imithende, ukungcola, noma amabala. Lokhu kusiza ukuthatha izithombe ezisobala zesigxivizo somunwe.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Hlanza isikrini sakho ngaphambi kokuqhubeka</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Uma unesivikeli sesikrini, faka isivikeli sesikrini ngaphambi kokusetha isigxivizo somunwe sakho ukuze sisebenze kahle.
+
+Ukuze uthole umphumela omuhle, sebenzisa isivikeli sesikrini esinesitifiketi sokuthi Kwenzelwe iGoogle. Kwezinye izivikeli zesikrini, isigxivizo sakho somunwe singase singasebenzi."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">Tshekisa umunwe wakho bese uthinta ngethiphu</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Vula umunwe bese uthinta ngomphetho wesokunxele</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Phenduka futhi bese uthinta ngomphetho ongakwesokudla</string>
+</resources>

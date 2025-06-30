@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Зарядтау дыбысы</string>
+    <string name="edge_to_edge_navigation_summary">Негізгі бетке өту үшін төменнен жоғары қарай жылдам сырғытыңыз. Тапсырмалар жолағын пайдалану үшін төменнен жоғары қарай баяу сырғытыңыз. Қолданбаларды ауыстыру үшін төменнен жоғары қарай сырғытып, ұстап тұрыңыз да, жіберіңіз. Артқа оралу үшін экранның сол немесе оң жиегінен сырғытыңыз.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Осы құрылғыны Pixel Tablet құрылғысына жақындатып, әрекетті қайталаңыз.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Құлақаспап қабын ашып, оны Pixel Tablet құрылғысына жақындатып, әрекетті қайталап көріңіз.</string>
+    <string name="sound_dashboard_summary">Дыбыс деңгейі</string>
+    <string name="sound_dashboard_summary_with_dnd">"Дыбыс деңгейі, \"Мазаламау\" режимі"</string>
+    <string name="sound_settings">Дыбыс</string>
+</resources>

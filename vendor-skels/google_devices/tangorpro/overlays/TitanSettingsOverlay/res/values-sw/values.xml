@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Kutumia Ikiwa Imepachikwa</string>
+    <string name="dream_no_screen_saver_caption">Hakuna taswira ya skrini</string>
+    <string name="dream_no_screen_saver_description">Ili uokoe nishati, skrini yako itazima baada ya kutotumika</string>
+    <string name="dream_no_screen_saver_preview_caption">Isiyoathiri mazingira</string>
+    <string name="dream_secondary_button_title">Ruka</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Wakati kimepachikwa na kinachaji</string>
+    <string name="screensaver_settings_summary_off">Onyesha kazi ya sanaa, saa, picha uzipendazo na zaidi wakati skrini haitumiki</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Wakati kiko wima na kinachaji</string>
+    <string name="screensaver_settings_summary_sleep">Wakati kinachaji</string>
+    <string name="when_to_show_hubmode_charging">Wakati inachaji</string>
+    <string name="when_to_show_hubmode_docked">Wakati imeambatishwa</string>
+    <string name="when_to_show_hubmode_never">Usionyeshe kamwe</string>
+</resources>

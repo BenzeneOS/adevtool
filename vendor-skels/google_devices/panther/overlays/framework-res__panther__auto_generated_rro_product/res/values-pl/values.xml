@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Przesuń palec. Spróbuj ponownie.</item>
+        <item>Już zarejestrowano ten palec, użyj innego.</item>
+        <item>Niska jakość obrazu. Spróbuj ponownie.</item>
+        <item/>
+        <item>Niska jakość obrazu. Spróbuj ponownie.</item>
+        <item/>
+        <item/>
+        <item>Wykryto smugi, wyczyść ekran. Spróbuj ponownie.</item>
+        <item>Nie udało się odczytać zdjęcia. Spróbuj ponownie.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Złe dane. Spróbuj ponownie.</item>
+        <item>Nie udało się zarejestrować palca. Spróbuj ponownie.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Nie można użyć czytnika linii papilarnych. Odwiedź serwis lub otwórz stronę g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Odwiedź serwis lub otwórz stronę g.co/pixel/fingerprintunlock</string>
+</resources>

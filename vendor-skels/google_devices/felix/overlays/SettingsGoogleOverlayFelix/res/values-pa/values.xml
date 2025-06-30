@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">"ਹੋਮ 'ਤੇ ਜਾਣ ਲਈ, ਹੇਠਾਂ ਤੋਂ ਉੱਪਰ ਵੱਲ ਨੂੰ ਤੁਰੰਤ-ਸਵਾਈਪ ਕਰੋ। ਟਾਸਕਬਾਰ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਲਈ, ਹੇਠਾਂ ਤੋਂ ਉੱਪਰ ਵੱਲ ਨੂੰ ਹੌਲੀ-ਸਵਾਈਪ ਕਰੋ। ਐਪਾਂ ਵਿਚਕਾਰ ਸਵਿੱਚ ਕਰਨ ਲਈ, ਹੇਠਾਂ ਤੋਂ ਉੱਪਰ ਵੱਲ ਨੂੰ ਸਵਾਈਪ ਕਰ ਕੇ ਦਬਾਈ ਰੱਖੋ ਅਤੇ ਛੱਡੋ। ਪਿੱਛੇ ਜਾਣ ਲਈ, ਖੱਬੇ ਜਾਂ ਸੱਜੇ ਕਿਨਾਰੇ ਤੋਂ ਸਵਾਈਪ ਕਰੋ।"</string>
+    <string name="setting_auto_rotate_folded">"ਮੋੜਨ 'ਤੇ ਸਵੈ-ਘੁਮਾਓ"</string>
+    <string name="setting_auto_rotate_unfolded">"ਖੋਲ੍ਹਣ 'ਤੇ ਸਵੈ-ਘੁਮਾਓ"</string>
+</resources>

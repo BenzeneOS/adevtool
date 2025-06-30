@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">Achte darauf, dass dein Finger den Sensor vollständig bedeckt</string>
+    <string name="fingerprint_acquired_power_press">Berühre zum Fortsetzen der Einrichtung den Sensor</string>
+    <string name="fingerprint_acquired_too_fast">Halte deinen Finger etwas länger auf den Sensor</string>
+    <string name="fingerprint_error_power_pressed">Überprüfung beendet. Drücke beim nächsten Mal nicht so fest auf den Sensor.</string>
+</resources>

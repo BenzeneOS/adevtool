@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_dialog_touch_sensor">Viegli pieskarieties pirksta nospieduma sensoram.</string>
+    <string name="settingslib_learn_more_text">Plašāka informācija par autorizāciju ar pirksta nospiedumu</string>
+</resources>

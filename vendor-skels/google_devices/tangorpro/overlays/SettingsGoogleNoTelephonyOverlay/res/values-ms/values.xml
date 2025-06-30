@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wi‑Fi</string>
+    <string name="non_carrier_data_usage">Penggunaan data Wi-Fi</string>
+    <string name="tether_settings_title_all">Penambatan</string>
+    <string name="tethering_footer_info">Gunakan penambatan untuk menyediakan Internet kepada peranti lain melalui USB, Ethernet atau Bluetooth.</string>
+</resources>

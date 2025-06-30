@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Звуци при полнење</string>
+    <string name="edge_to_edge_navigation_summary">За отворање на почетниот екран, брзо повлечете нагоре од дното. За отворање на „Лентата со задачи“, бавно повлечете нагоре од дното. За префрлање помеѓу апликациите, повлечете нагоре од дното, задржете и пуштете. За враќање назад, повлечете од левиот или десниот раб.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Доближете го уредов до Pixel Tablet и обидете се пак.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Отворете ја кутијата за слушалки и доближете ја до Pixel Tablet, па обидете се пак.</string>
+    <string name="sound_dashboard_summary">Јачина на звук</string>
+    <string name="sound_dashboard_summary_with_dnd">Јачина на звук, „Не вознемирувај“</string>
+    <string name="sound_settings">Звук</string>
+</resources>

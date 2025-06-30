@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Máy tính bảng đang khởi động…</string>
+    <string name="android_upgrading_title">Máy tính bảng đang cập nhật…</string>
+    <string name="app_streaming_blocked_message">Hiện tại, bạn không thể truy cập vào ứng dụng này trên %1$s. Hãy thử trên máy tính bảng.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Ứng dụng này đang yêu cầu tính năng bảo mật bổ sung. Hãy thử trên máy tính bảng.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Ứng dụng này đang yêu cầu thêm quyền, nhưng bạn không thể cấp quyền trong một phiên truyền trực tuyến. Trước tiên, hãy cấp quyền trên máy tính bảng của bạn.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Hiện tại, bạn không thể truy cập vào ứng dụng này trên %1$s. Hãy thử trên máy tính bảng.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Không dùng được các chế độ cài đặt của máy tính bảng</string>
+    <string name="battery_saver_charged_notification_summary">Máy tính bảng còn đủ pin. Các tính năng không bị hạn chế nữa.</string>
+    <string name="default_audio_route_name">Máy tính bảng</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s muốn bật Khám phá bằng cách chạm. Khi Khám phá bằng cách chạm được bật, bạn có thể nghe hoặc xem mô tả dưới ngón tay bạn hoặc thực hiện cử chỉ để tương tác với máy tính bảng.</string>
+    <string name="global_actions">Tùy chọn máy tính bảng</string>
+    <string name="kg_failed_attempts_almost_at_login">"Bạn đã %1$d lần vẽ không chính xác hình mở khóa của mình. Sau %2$d lần thử không thành công nữa, bạn sẽ được yêu cầu mở khóa máy tính bảng bằng tài khoản email.
+
+ Vui lòng thử lại sau %3$d giây."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Bạn đã %1$d lần mở khóa máy tính bảng không đúng cách. Sau %2$d lần mở khóa không thành công nữa, máy tính bảng sẽ được đặt lại về mặc định ban đầu và tất cả dữ liệu người dùng sẽ bị mất.</string>
+    <string name="kg_failed_attempts_now_wiping">Bạn đã %d lần mở khóa máy tính bảng không đúng cách. Bây giờ, máy tính bảng sẽ được đặt lại về mặc định ban đầu.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Bạn đã mở khóa máy tính bảng không đúng cách %1$d lần. Sau %2$d lần mở khóa không thành công nữa, máy tính bảng sẽ được đặt lại về mặc định ban đầu và tất cả dữ liệu người dùng sẽ bị mất.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Bạn đã %1$d lần vẽ không chính xác hình mở khóa của mình. Sau %2$d lần thử không thành công nữa, bạn sẽ được yêu cầu mở khóa máy tính bảng bằng thông tin đăng nhập Google của mình.
+
+ Vui lòng thử lại sau %3$d giây."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Bạn đã mở khóa máy tính bảng không đúng cách %d lần. Bây giờ, máy tính bảng sẽ được đặt lại về mặc định ban đầu.</string>
+    <string name="lockscreen_missing_sim_message">Không có SIM nào trong máy tính bảng.</string>
+    <string name="low_memory">Bộ nhớ máy tính bảng đã đầy. Hãy xóa một số tệp để tạo thêm dung lượng.</string>
+    <string name="permdesc_bluetooth">Cho phép ứng dụng xem cấu hình của Bluetooth trên máy tính bảng và tạo và chấp nhận các kết nối với các thiết bị đã ghép nối.</string>
+    <string name="permdesc_bluetoothAdmin">Cho phép ứng dụng định cấu hình máy tính bảng Bluetooth cục bộ cũng như phát hiện và ghép nối với các thiết bị từ xa.</string>
+    <string name="permdesc_broadcastSticky">Cho phép ứng dụng gửi nội dung truyền phát hấp dẫn người xem. Nội dung này sẽ vẫn còn sau khi quá trình truyền phát kết thúc. Việc sử dụng quá mức có thể làm cho máy tính bảng bị chậm hoặc không ổn định do khiến máy tính bảng sử dụng quá nhiều bộ nhớ.</string>
+    <string name="permdesc_changeWifiMulticastState">Cho phép ứng dụng nhận các gói được gửi đến tất cả các thiết bị trên mạng Wi-Fi các địa chỉ đa hướng, chứ không phải chỉ máy tính bảng của bạn. Chế độ này sử dụng nhiều năng lượng hơn chế độ không phát đa hướng.</string>
+    <string name="permdesc_changeWimaxState">Cho phép ứng dụng kết nối máy tính bảng và ngắt kết nối máy tính bảng khỏi mạng WiMAX.</string>
+    <string name="permdesc_getAccounts">Cho phép ứng dụng nhận danh sách các tài khoản mà máy tính bảng biết. Danh sách này có thể bao gồm bất kỳ tài khoản nào được tạo bởi các ứng dụng mà bạn đã cài đặt.</string>
+    <string name="permdesc_persistentActivity">Cho phép ứng dụng tạo sự đồng nhất cho các phần của mình trong bộ nhớ. Việc này có thể hạn chế bộ nhớ đối với các ứng dụng khác đang làm chậm máy tính bảng.</string>
+    <string name="permdesc_readCalendar">Ứng dụng này có thể đọc tất cả các sự kiện lịch được lưu trữ trên máy tính bảng của bạn và chia sẻ hoặc lưu dữ liệu lịch của bạn.</string>
+    <string name="permdesc_readContacts">Cho phép ứng dụng đọc dữ liệu về người liên hệ mà bạn lưu trữ trên máy tính bảng của mình. Ứng dụng cũng sẽ có quyền truy cập vào các tài khoản đã tạo người liên hệ trên máy tính bảng của bạn. Đây có thể là các tài khoản do ứng dụng (bạn đã cài đặt) tạo. Quyền này cho phép ứng dụng lưu dữ liệu về người liên hệ của bạn và các ứng dụng độc hại có thể lén lút chia sẻ dữ liệu này.</string>
+    <string name="permdesc_readSms">Ứng dụng này có thể đọc tất cả các tin nhắn SMS (văn bản) được lưu trữ trên máy tính bảng của bạn.</string>
+    <string name="permdesc_receiveBootCompleted">Cho phép ứng dụng tự chạy ngay khi hệ thống khởi động xong. Quyền này có thể khiến máy tính bảng mất nhiều thời gian khởi động hơn và cho phép ứng dụng làm chậm toàn bộ máy tính bảng do ứng dụng luôn chạy.</string>
+    <string name="permdesc_setTimeZone">Cho phép ứng dụng thay đổi múi giờ của máy tính bảng.</string>
+    <string name="permdesc_transmitIr">Cho phép ứng dụng sử dụng bộ phát hồng ngoại của máy tính bảng.</string>
+    <string name="permdesc_wakeLock">Cho phép ứng dụng ngăn máy tính bảng chuyển sang chế độ ngủ.</string>
+    <string name="permdesc_writeCalendar">Ứng dụng này có thể thêm, xóa hoặc thay đổi sự kiện lịch trên máy tính bảng của bạn. Ứng dụng này có thể gửi các tin nhắn trông có vẻ như được gửi từ các chủ sở hữu lịch hoặc thay đổi sự kiện mà không thông báo cho chủ sở hữu.</string>
+    <string name="permdesc_writeCallLog">Cho phép ứng dụng sửa đổi nhật ký cuộc gọi trên máy tính bảng của bạn, bao gồm dữ liệu về các cuộc gọi đến và gọi đi. Các ứng dụng độc hại có thể sử dụng quyền này để xóa hoặc sửa đổi nhật ký cuộc gọi của bạn.</string>
+    <string name="permdesc_writeContacts">Cho phép ứng dụng sửa đổi dữ liệu về người liên hệ mà bạn lưu trữ trên máy tính bảng của mình. Quyền này cho phép ứng dụng xóa dữ liệu về người liên hệ.</string>
+    <string name="permlab_wakeLock">ngăn máy tính bảng chuyển sang chế độ ngủ</string>
+    <string name="policydesc_watchLogin">Theo dõi số lần nhập mật khẩu không chính xác khi mở khóa màn hình và khóa máy tính bảng hoặc xóa tất cả dữ liệu của máy tính bảng nếu có quá nhiều lần nhập mật khẩu không chính xác.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Giám sát số lần nhập sai mật khẩu khi mở khóa màn hình và khóa máy tính bảng hoặc xóa tất cả dữ liệu của người dùng này nếu nhập sai mật khẩu quá nhiều lần.</string>
+    <string name="policydesc_wipeData">Xóa dữ liệu trên máy tính bảng mà không cần cảnh báo, bằng cách thực hiện thiết lập lại dữ liệu ban đầu.</string>
+    <string name="policydesc_wipeData_secondaryUser">Xóa dữ liệu của người dùng trên máy tính bảng này mà không cảnh báo.</string>
+    <string name="power_dialog">Tùy chọn máy tính bảng</string>
+    <string name="shutdown_confirm">Máy tính bảng của bạn sẽ tắt.</string>
+    <string name="vdm_camera_access_denied">Không truy cập được vào máy ảnh trên máy tính bảng từ %1$s của bạn</string>
+</resources>

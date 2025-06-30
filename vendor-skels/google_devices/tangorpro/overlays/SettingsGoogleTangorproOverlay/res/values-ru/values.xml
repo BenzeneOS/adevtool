@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Сигналы зарядки</string>
+    <string name="edge_to_edge_navigation_summary">Чтобы перейти на главную страницу, быстро проведите вверх от нижнего края экрана. Чтобы открыть панель задач, медленно проведите вверх от нижнего края экрана. Чтобы переключиться между приложениями, проведите вверх от нижнего края экрана, задержите палец и отпустите. Чтобы вернуться назад, проведите от левого или правого края экрана.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Поднесите это устройство ближе к Pixel Tablet и повторите попытку.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Откройте чехол, поднесите его к Pixel Tablet и повторите попытку.</string>
+    <string name="sound_dashboard_summary">Громкость</string>
+    <string name="sound_dashboard_summary_with_dnd">"Громкость, режим \"Не беспокоить\""</string>
+    <string name="sound_settings">Звук</string>
+</resources>

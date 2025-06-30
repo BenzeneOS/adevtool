@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Setzt die Aktualisierungsrate für einige Inhalte automatisch von 60 auf 120 Hz herauf. Erhöhter Akkuverbrauch.</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Chế độ thiết bị trung tâm</string>
+    <string name="dream_no_screen_saver_caption">Không sử dụng</string>
+    <string name="dream_no_screen_saver_description">Để tiết kiệm năng lượng, màn hình sẽ tắt sau thời gian không hoạt động</string>
+    <string name="dream_no_screen_saver_preview_caption">Thân thiện với môi trường</string>
+    <string name="dream_secondary_button_title">Bỏ qua</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Khi được gắn vào đế sạc và đang sạc</string>
+    <string name="screensaver_settings_summary_off">Hiển thị đồng hồ, hình minh hoạ, ảnh yêu thích và nhiều nội dung khác khi bạn không sử dụng thiết bị</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Khi đứng thẳng và đang sạc</string>
+    <string name="screensaver_settings_summary_sleep">Trong khi sạc</string>
+    <string name="when_to_show_hubmode_charging">Trong khi sạc</string>
+    <string name="when_to_show_hubmode_docked">Trong khi gắn vào đế sạc</string>
+    <string name="when_to_show_hubmode_never">Không bao giờ</string>
+</resources>

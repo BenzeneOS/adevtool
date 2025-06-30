@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Make sure your finger covers the sensor</string>
+    <string name="fingerprint_acquired_power_press">To continue setup, lightly touch the sensor</string>
+    <string name="fingerprint_acquired_too_fast">Keep your finger on the sensor a little longer</string>
+    <string name="fingerprint_error_power_pressed">Verification ended. Try touching lightly next time.</string>
+</resources>

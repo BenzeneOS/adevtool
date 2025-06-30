@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">הטאבלט בתהליך הפעלה…</string>
+    <string name="android_upgrading_title">הטאבלט מתעדכן…</string>
+    <string name="app_streaming_blocked_message">אי אפשר לגשת לאפליקציה הזו במכשיר %1$s כרגע. במקום זאת, יש לנסות בטאבלט.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">האפליקציה הזו מבקשת אמצעי אבטחה נוסף. במקום זאת, יש לנסות בטאבלט.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">האפליקציה הזו מבקשת הרשאות נוספות, אך לא ניתן להעניק הרשאות בסשן סטרימינג. צריך לתת את ההרשאה קודם בטאבלט.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">אי אפשר לגשת להגדרה הזו במכשיר %1$s. במקום זאת, יש לנסות בטאבלט.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">ההגדרות של הטאבלט לא זמינות</string>
+    <string name="battery_saver_charged_notification_summary">הטאבלט טעון מספיק. התכונות כבר לא מוגבלות.</string>
+    <string name="default_audio_route_name">טאבלט</string>
+    <string name="enable_explore_by_touch_warning_message">"%1$s רוצה להפעיל את התכונה 'גילוי באמצעות מגע'. כאשר התכונה הזו מופעלת, אפשר לשמוע או לראות תיאורים של הפריטים שעליהם הנחת את האצבע או לקיים אינטראקציה עם הטאבלט באמצעות תנועות."</string>
+    <string name="global_actions">אפשרויות טאבלט</string>
+    <string name="kg_failed_attempts_almost_at_login">"שרטטת את קו ביטול הנעילה באופן שגוי %1$d פעמים. לאחר %2$d ניסיונות כושלים נוספים, יהיה צורך לבטל את נעילת הטאבלט באמצעות חשבון אימייל‏.
+
+יש לנסות שוב בעוד %3$d שניות."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">ביצעת %1$d ניסיונות שגויים לביטול נעילת הטלפון. לאחר %2$d ניסיונות כושלים נוספים, הטאבלט יעבור איפוס לברירת המחדל של היצרן וכל נתוני המשתמש יאבדו.</string>
+    <string name="kg_failed_attempts_now_wiping">ביצעת %d ניסיונות שגויים לביטול נעילת הטאבלט. הטאבלט יעבור כעת איפוס לברירת המחדל של היצרן.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">ביצעת %1$d ניסיונות שגויים לביטול נעילת הטאבלט. לאחר %2$d ניסיונות כושלים נוספים, הטאבלט יעבור איפוס לברירת המחדל של היצרן וכל נתוני המשתמש יאבדו.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"‏שרטטת את קו ביטול הנעילה באופן שגוי %1$d פעמים. לאחר %2$d ניסיונות כושלים נוספים, יהיה צורך לבטל את נעילת הטאבלט באמצעות פרטי הכניסה שלך ל-Google.
+
+יש לנסות שוב בעוד %3$d שניות."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">ביצעת %d ניסיונות שגויים לביטול נעילת הטאבלט. הטאבלט יעבור כעת איפוס לברירת המחדל של היצרן.</string>
+    <string name="lockscreen_missing_sim_message">‏אין כרטיס SIM בטאבלט.</string>
+    <string name="low_memory">נפח האחסון של הטאבלט מלא. צריך למחוק קבצים כדי לפנות מקום.</string>
+    <string name="permdesc_bluetooth">‏מאפשר לאפליקציה להציג את תצורת ה-Bluetooth בטאבלט, וכן ליצור ולקבל חיבורים עם מכשירים מותאמים.</string>
+    <string name="permdesc_bluetoothAdmin">‏מאפשרת לאפליקציה להגדיר את התצורה של הטאבלט המקומי מסוג Bluetooth וכן לגלות מכשירים מרוחקים ולבצע התאמה איתם.</string>
+    <string name="permdesc_broadcastSticky">מאפשרת לאפליקציה לשלוח שידורים במיקום קבוע, אשר נותרים לאחר סיום השידור. אפליקציות זדוניות עלולות להאט את פעילות הטאבלט או להפוך אותה לבלתי יציבה על ידי אילוץ המכשיר להשתמש ביותר מדי זיכרון.</string>
+    <string name="permdesc_changeWifiMulticastState">‏מאפשרת לאפליקציה לקבל חבילות שנשלחו לכל המכשירים ברשת Wi-Fi באמצעות כתובות שידור לקבוצה, ולא רק בטאבלט שלך. צריכת הסוללה גבוהה יותר מאשר במצב שאינו שידור לקבוצה.</string>
+    <string name="permdesc_changeWimaxState">‏מאפשרת לאפליקציה לחבר את הטאבלט לרשתות WiMAX ולהתנתק מהן.</string>
+    <string name="permdesc_getAccounts">מאפשרת לאפליקציה לקבל רשימה של חשבונות המוכרים לטאבלט. הדבר עשוי לכלול חשבונות שנוצרו על ידי אפליקציות שהתקנת.</string>
+    <string name="permdesc_persistentActivity">מאפשרת לאפליקציה להפוך חלקים ממנה לקבועים בזיכרון. הפעולה הזו עשויה להגביל את הזיכרון הזמין לאפליקציות אחרות ולהאט את פעולת הטאבלט.</string>
+    <string name="permdesc_readCalendar">האפליקציה הזו יכולה לקרוא את כל אירועי היומן המאוחסנים בטאבלט, ולשתף או לשמור את נתוני היומן.</string>
+    <string name="permdesc_readContacts">מאפשרת לאפליקציה לקרוא נתונים על אנשי הקשר השמורים בטאבלט שלך. לאפליקציות תהיה גם גישה לחשבונות בטאבלט שיצרו אנשי קשר, כולל חשבונות שנוצרו על ידי אפליקציות שהתקנת. ההרשאה הזו מאפשרת לאפליקציות לשמור נתונים של אנשי הקשר שלך, ואפליקציות זדוניות עלולות לשתף נתונים של אנשי קשר ללא ידיעתך.</string>
+    <string name="permdesc_readSms">‏האפליקציה הזו יכולה לקרוא את כל הודעות הטקסט (SMS) המאוחסנות בטאבלט.</string>
+    <string name="permdesc_receiveBootCompleted">מאפשרת לאפליקציה להפעיל את עצמה מיד עם סיום תהליך ההפעלה של המערכת. כתוצאה מכך, הפעלת הטאבלט עשויה לארוך יותר זמן והאפליקציה עלולה להאט את הפעילות הכללית של הטאבלט כי היא פועלת כל הזמן.</string>
+    <string name="permdesc_setTimeZone">מאפשרת לאפליקציה לשנות את אזור הזמן של הטאבלט.</string>
+    <string name="permdesc_transmitIr">מאפשרת לאפליקציה להשתמש במשדר האינפרה-אדום של הטאבלט.</string>
+    <string name="permdesc_wakeLock">מאפשרת לאפליקציה למנוע מהטאבלט לעבור למצב שינה.</string>
+    <string name="permdesc_writeCalendar">האפליקציה הזו יכולה להוסיף, להסיר ולשנות אירועי יומן בטאבלט. האפליקציה יכולה לשנות אירועים בלי להודיע לבעלים ולשלוח הודעות שעשויות להיראות כאילו נשלחו מבעלי יומנים.</string>
+    <string name="permdesc_writeCallLog">מאפשרת לאפליקציה לשנות את יומן השיחות של הטאבלט, כולל נתונים על שיחות נכנסות ויוצאות. אפליקציות זדוניות עלולות לעשות בכך שימוש כדי למחוק או לשנות את יומן השיחות שלך.</string>
+    <string name="permdesc_writeContacts">מאפשרת לאפליקציה לשנות את הנתונים לגבי אנשי הקשר המאוחסנים בטאבלט שלך. ההרשאה הזו מאפשרת לאפליקציות למחוק נתונים של אנשי קשר.</string>
+    <string name="permlab_wakeLock">מניעה מהטאבלט לעבור למצב שינה</string>
+    <string name="policydesc_watchLogin">ניהול מעקב אחר מספר הסיסמאות השגויות שמוקלדות במהלך ביטול נעילת המסך, וביצוע נעילה של הטאבלט, או מחיקה של כל נתוני הטאבלט, אם מוקלדות יותר מדי סיסמאות שגויות.</string>
+    <string name="policydesc_watchLogin_secondaryUser">מעקב אחר מספר הסיסמאות השגויות שהוזנו בעת ביטול נעילת המסך, כמו גם נעילת הטאבלט או מחיקה של כל נתוני המשתמש הזה אם הוזנו יותר מדי סיסמאות שגויות.</string>
+    <string name="policydesc_wipeData">מחיקה של נתוני הטאבלט ללא אזהרה, באמצעות איפוס לנתוני היצרן.</string>
+    <string name="policydesc_wipeData_secondaryUser">מחיקה של נתוני המשתמש הזה בטאבלט, ללא אזהרה.</string>
+    <string name="power_dialog">אפשרויות טאבלט</string>
+    <string name="shutdown_confirm">הטאבלט שלך ייכבה.</string>
+    <string name="vdm_camera_access_denied">לא ניתן לגשת למצלמה של הטאבלט מה‑%1$s</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Öppna startskärmen genom att svepa snabbt från skärmens nederkant. Öppna aktivitetsfältet genom att svepa långsamt från skärmens nederkant. Byt app genom att svepa uppåt från skärmens nederkant, hålla stilla och sedan släppa. Navigera bakåt genom att svepa från den vänstra eller högra kanten.</string>
+    <string name="setting_auto_rotate_folded">Rotera automatiskt i hopvikt läge</string>
+    <string name="setting_auto_rotate_unfolded">Rotera automatiskt i utfällt läge</string>
+</resources>

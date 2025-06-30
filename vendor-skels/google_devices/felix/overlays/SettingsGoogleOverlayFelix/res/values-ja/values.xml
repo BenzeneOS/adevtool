@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">ホームに移動するには、画面下部から上にすばやくスワイプします。タスクバーにアクセスするには、画面下部から上にゆっくりスワイプします。アプリを切り替えるには、画面下部から上にスワイプして長押ししてから離します。戻るには、左端または右端からスワイプします。</string>
+    <string name="setting_auto_rotate_folded">折りたたんであるときに自動回転</string>
+    <string name="setting_auto_rotate_unfolded">開いてあるときに自動回転</string>
+</resources>

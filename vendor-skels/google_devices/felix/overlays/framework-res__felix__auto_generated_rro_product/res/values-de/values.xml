@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">Dual Screen ist nicht verfügbar, weil dein Pixel zu warm ist</string>
+    <string name="fingerprint_acquired_partial">Achte darauf, dass dein Finger den Sensor vollständig bedeckt</string>
+    <string name="fingerprint_acquired_power_press">Berühre zum Fortsetzen der Einrichtung den Sensor</string>
+    <string name="fingerprint_acquired_too_fast">Halte deinen Finger etwas länger auf den Sensor</string>
+    <string name="fingerprint_error_power_pressed">Überprüfung beendet. Drücke beim nächsten Mal nicht so fest auf den Sensor.</string>
+</resources>

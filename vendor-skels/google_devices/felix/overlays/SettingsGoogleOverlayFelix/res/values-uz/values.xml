@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Bosh ekranga qaytish uchun pastdan tepaga tez suring. Vazifalar panelini ochish uchun pastdan tepaga sekin suring. Bir ilovadan boshqasiga oʻtish uchun pastdan tepaga surib, bosib turing va qoʻyib yuboring. Orqaga qaytish uchun ekran chetini chapga yoki oʻngga suring.</string>
+    <string name="setting_auto_rotate_folded">Qurilma taxlanganda ekran avtomatik burilsin</string>
+    <string name="setting_auto_rotate_unfolded">Qurilma ochilganda ekran avtomatik burilsin</string>
+</resources>

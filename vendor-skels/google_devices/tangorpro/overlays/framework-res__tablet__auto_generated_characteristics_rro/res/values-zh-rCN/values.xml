@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">平板电脑正在启动…</string>
+    <string name="android_upgrading_title">平板电脑正在更新…</string>
+    <string name="app_streaming_blocked_message">目前无法在您的%1$s上访问此内容。您可以尝试在平板电脑上访问。</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">此应用要求进行额外的安全性验证，您可以尝试在平板电脑上访问。</string>
+    <string name="app_streaming_blocked_message_for_permission_request">此应用请求获得额外的权限，但在流式传输会话期间无法授予权限。请先在平板电脑上授予相应权限。</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">无法在您的%1$s上访问此设置，您可以尝试在平板电脑上访问。</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">无法使用平板电脑设置</string>
+    <string name="battery_saver_charged_notification_summary">平板电脑电量充足。各项功能不再受限。</string>
+    <string name="default_audio_route_name">平板电脑</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s想要启用“触摸浏览”。“触摸浏览”启用后，您可以听到或看到所触摸内容的说明，还可以通过手势操作与手机互动。</string>
+    <string name="global_actions">平板电脑选项</string>
+    <string name="kg_failed_attempts_almost_at_login">"您已连续 %1$d 次画错解锁图案。如果再尝试 %2$d 次后仍不成功，系统就会要求您使用自己的电子邮件账号解锁平板电脑。
+
+请在 %3$d 秒后重试。"</string>
+    <string name="kg_failed_attempts_almost_at_wipe">您已经 %1$d 次错误地尝试解锁平板电脑。如果再尝试  %2$d 次后仍不成功，平板电脑将恢复为出厂默认设置，所有用户数据都会丢失。</string>
+    <string name="kg_failed_attempts_now_wiping">您已经%d次错误地尝试解锁平板电脑。平板电脑现在将恢复为出厂默认设置。</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">您已经 %1$d 次错误地尝试解锁平板电脑。如果再尝试 %2$d 次后仍不成功，平板电脑将恢复为出厂默认设置，所有用户数据都会丢失。</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"您已连续 %1$d 次画错解锁图案。如果再尝试 %2$d 次后仍不成功，系统就会要求您使用自己的 Google 登录信息解锁平板电脑。
+
+请在 %3$d 秒后重试。"</string>
+    <string name="lockscreen_failed_attempts_now_wiping">您已经%d次错误地尝试解锁平板电脑。平板电脑现在将恢复为出厂默认设置。</string>
+    <string name="lockscreen_missing_sim_message">平板电脑中没有 SIM 卡。</string>
+    <string name="low_memory">平板电脑存储空间已满。请删除一些文件以腾出空间。</string>
+    <string name="permdesc_bluetooth">允许该应用查看平板电脑上的蓝牙配置，以及与配对设备建立连接或接受其连接请求。</string>
+    <string name="permdesc_bluetoothAdmin">允许应用配置本地蓝牙平板电脑，并允许其查找远程设备且与之配对。</string>
+    <string name="permdesc_broadcastSticky">允许该应用发送持久广播消息，此类消息在广播结束后仍会保留。过度使用可能会导致平板电脑使用过多内存，从而降低其速度或稳定性。</string>
+    <string name="permdesc_changeWifiMulticastState">允许该应用使用多播地址接收发送到WLAN网络上所有设备（而不仅仅是您的平板电脑）的数据包。该操作的耗电量比非多播模式要大。</string>
+    <string name="permdesc_changeWimaxState">允许该应用建立和断开平板电脑与 WiMAX 网络之间的连接。</string>
+    <string name="permdesc_getAccounts">允许该应用获取平板电脑已知的账号列表，其中可能包括由已安装的应用创建的所有账号。</string>
+    <string name="permdesc_persistentActivity">允许该应用在内存中持续保留其自身的某些组件。这会限制其他应用可用的内存，从而减缓平板电脑运行速度。</string>
+    <string name="permdesc_readCalendar">此应用可读取您平板电脑上存储的所有日历活动，并分享或保存您的日历数据。</string>
+    <string name="permdesc_readContacts">允许该应用读取您的平板电脑上存储的联系人相关数据。应用还将有权访问您的平板电脑上已创建联系人的账号，其中可能包括您已安装的应用所创建的账号。此权限允许应用保存您的联系人数据，而恶意应用可能会在您不知情的情况下分享联系人数据。</string>
+    <string name="permdesc_readSms">此应用可读取您平板电脑上存储的所有短信。</string>
+    <string name="permdesc_receiveBootCompleted">允许应用在系统完成引导后立即自动启动。这样可能会延长平板电脑的启动时间，并允许应用始终运行，从而导致平板电脑总体运行速度减慢。</string>
+    <string name="permdesc_setTimeZone">允许应用更改平板电脑的时区。</string>
+    <string name="permdesc_transmitIr">允许应用使用平板电脑的红外线发射器。</string>
+    <string name="permdesc_wakeLock">允许应用阻止平板电脑进入休眠状态。</string>
+    <string name="permdesc_writeCalendar">此应用可在平板电脑上添加、移除或更改日历活动。此应用可能会以日历所有者的身份发送消息，或在不通知所有者的情况下更改活动。</string>
+    <string name="permdesc_writeCallLog">允许该应用修改平板电脑的通话记录，包括有关来电和外拨电话的数据。恶意应用可能会借此清除或修改您的通话记录。</string>
+    <string name="permdesc_writeContacts">允许该应用修改您平板电脑上存储的联系人相关数据。此权限允许应用删除联系人数据。</string>
+    <string name="permlab_wakeLock">阻止平板电脑进入休眠状态</string>
+    <string name="policydesc_watchLogin">监控在解锁屏幕时输错密码的次数，并在输错次数过多时锁定平板电脑或清除其所有数据。</string>
+    <string name="policydesc_watchLogin_secondaryUser">监控在解锁屏幕时输错密码的次数，并在输错次数过多时锁定平板电脑或清空此用户的所有数据。</string>
+    <string name="policydesc_wipeData">恢复出厂设置时，系统会在不发出警告的情况下清除平板电脑上的数据。</string>
+    <string name="policydesc_wipeData_secondaryUser">清空此用户在这台平板电脑上的数据，而不事先发出警告。</string>
+    <string name="power_dialog">平板电脑选项</string>
+    <string name="shutdown_confirm">您的平板电脑会关闭。</string>
+    <string name="vdm_camera_access_denied">无法从%1$s上访问平板电脑的摄像头</string>
+</resources>

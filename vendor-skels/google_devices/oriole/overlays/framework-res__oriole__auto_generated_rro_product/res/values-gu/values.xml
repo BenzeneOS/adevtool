@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>તમારી આંગળી ખસેડો. ફરી પ્રયાસ કરો.</item>
+        <item>આંગળીની નોંધણી પહેલેથી થયેલી છે, કોઈ બીજી આંગળીનો ઉપયોગ કરો.</item>
+        <item>છબીની નબળી ક્વૉલિટી. ફરી પ્રયાસ કરો.</item>
+        <item/>
+        <item>છબીની નબળી ક્વૉલિટી. ફરી પ્રયાસ કરો.</item>
+        <item/>
+        <item/>
+        <item>ડાઘ જોવા મળ્યો, સ્ક્રીન સાફ કરો. ફરી પ્રયાસ કરો.</item>
+        <item>છબી વાંચવામાં નિષ્ફળ થયાં. ફરી પ્રયાસ કરો.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>ખરાબ ડેટા. ફરી પ્રયાસ કરો.</item>
+        <item>આંગળીની નોંધણી કરવામાં નિષ્ફળ થયાં. ફરી પ્રયાસ કરો.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">ફિંગરપ્રિન્ટ સેન્સરનો ઉપયોગ કરી શકાતો નથી. રિપેર કરવાની સેવાના પ્રદાતાની અથવા g.co/pixel/fingerprintunlockની મુલાકાત લો</string>
+    <string name="fingerprint_recalibrate_notification_content">રિપેર કરવાની સેવાના પ્રદાતાની અથવા g.co/pixel/fingerprintunlockની મુલાકાત લો</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Siirry aloitusnäytölle pyyhkäisemällä alareunasta ylös nopeasti. Käytä tehtäväpalkkia pyyhkäisemällä alareunasta ylös hitaasti. Vaihda sovelluksesta toiseen pyyhkäisemällä alareunasta ylös, pitämällä sormea paikallaan ja päästämällä sitten irti. Palaa takaisin pyyhkäisemällä näytön vasemmasta tai oikeasta reunasta.</string>
+    <string name="setting_auto_rotate_folded">Käännä automaattisesti, kun laite taitetaan</string>
+    <string name="setting_auto_rotate_unfolded">Käännä automaattisesti, kun taitettu laite avataan</string>
+</resources>

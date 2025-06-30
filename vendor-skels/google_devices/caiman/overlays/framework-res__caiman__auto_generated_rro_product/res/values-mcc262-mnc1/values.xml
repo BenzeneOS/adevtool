@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wfcSpnFormats">
+        <item>%s</item>
+        <item>WLAN Call</item>
+    </array>
+    <string name="wfc_mode_wifi_preferred_summary">WLAN preferred</string>
+</resources>

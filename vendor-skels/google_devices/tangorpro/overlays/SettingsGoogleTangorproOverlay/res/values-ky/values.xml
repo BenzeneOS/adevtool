@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Кубатталып баштаганда сигнал угулат</string>
+    <string name="edge_to_edge_navigation_summary">Башкы бетке өтүү үчүн экранды ылдыйдан өйдө тез сүрүңүз. Тапшырмалар тактасына өтүү үчүн экранды ылдыйдан өйдө жай сүрүңүз. Башка колдонмого которулуу үчүн экранды ылдыйдан өйдө сүрүп, бир аз коё бербей кармап туруңуз. Артка кайтуу үчүн экрандын оң же сол жагына сүрүңүз.</string>
+    <string name="fast_pair_device_not_found_other_device_description">"Түзмөктү Pixel Tablet'тин жанына коюп, кайталап көрүңүз."</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">"Гарнитуранын кутучасын ачып, Pixel Tablet'тин жанына коюп, кайталаңыз."</string>
+    <string name="sound_dashboard_summary">Үн деңгээли</string>
+    <string name="sound_dashboard_summary_with_dnd">"Үн деңгээли, \"Тынчымды алба\" режими"</string>
+    <string name="sound_settings">Үн</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">ஹப் பயன்முறை</string>
+    <string name="dream_no_screen_saver_caption">ஸ்கிரீன் சேவர் வேண்டாம்</string>
+    <string name="dream_no_screen_saver_description">ஆற்றலைச் சேமிக்க, பயன்படுத்தாதபோது திரை ஆஃப் ஆகும்</string>
+    <string name="dream_no_screen_saver_preview_caption">சுற்றுச்சூழலுக்கு ஏற்றது</string>
+    <string name="dream_secondary_button_title">தவிர்</string>
+    <string name="screensaver_settings_summary_dock_and_charging">டாக் மற்றும் சார்ஜிங்கின்போது</string>
+    <string name="screensaver_settings_summary_off">செயலில் இல்லாதபோது பிடித்தமான படங்கள், ஆர்ட்வொர்க், கடிகாரங்கள் மற்றும் பலவற்றைக் காட்டும்</string>
+    <string name="screensaver_settings_summary_postured_and_charging">நேராக இருந்து சார்ஜாகும்போது</string>
+    <string name="screensaver_settings_summary_sleep">சார்ஜிங்கின்போது</string>
+    <string name="when_to_show_hubmode_charging">சார்ஜிங்கின்போது</string>
+    <string name="when_to_show_hubmode_docked">டாக்கில் இணைக்கப்பட்டிருக்கும்போது</string>
+    <string name="when_to_show_hubmode_never">ஒருபோதும் காட்டாதே</string>
+</resources>

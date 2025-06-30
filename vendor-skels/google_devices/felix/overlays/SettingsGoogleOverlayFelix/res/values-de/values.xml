@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Du kannst den Startbildschirm aufrufen, indem du schnell von unten nach oben wischst. Wenn du auf die Taskleiste zugreifen möchtest, wische langsam von unten nach oben. Um zwischen Apps zu wechseln, wische von unten nach oben, halte und lass dann los. Wenn du zurückgehen möchtest, wische vom linken oder vom rechten Rand nach innen.</string>
+    <string name="setting_auto_rotate_folded">Automatisch drehen, wenn zugeklappt</string>
+    <string name="setting_auto_rotate_unfolded">Automatisch drehen, wenn aufgeklappt</string>
+</resources>

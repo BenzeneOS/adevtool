@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Хаб режимі</string>
+    <string name="dream_no_screen_saver_caption">Скринсейвер таңдалған жоқ.</string>
+    <string name="dream_no_screen_saver_description">Ешқандай қимыл болмаса, қуатты үнемдеу мақсатында экран өшеді.</string>
+    <string name="dream_no_screen_saver_preview_caption">Экологиялық таза</string>
+    <string name="dream_secondary_button_title">Өткізіп жіберу</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Қондырылғанда және зарядтау кезінде</string>
+    <string name="screensaver_settings_summary_off">Күту режимінде таңдаулы суреттерді, өнер туындыларын, сағаттарды, т.б. көрсету</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Тік қалыпта және зарядтау кезінде</string>
+    <string name="screensaver_settings_summary_sleep">Зарядтау кезінде</string>
+    <string name="when_to_show_hubmode_charging">Зарядтау кезінде</string>
+    <string name="when_to_show_hubmode_docked">Қондыру станциясына қойғанда</string>
+    <string name="when_to_show_hubmode_never">Ешқашан</string>
+</resources>

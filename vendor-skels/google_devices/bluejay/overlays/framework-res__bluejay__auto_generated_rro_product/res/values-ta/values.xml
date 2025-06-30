@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>உங்கள் விரலை நகர்த்தவும். மீண்டும் முயலவும்.</item>
+        <item>இந்த விரல் ஏற்கெனவே பதிவுசெய்யப்பட்டுள்ளது. வேறொரு விரலைப் பயன்படுத்தவும்.</item>
+        <item>படத் தரம் மோசமாக உள்ளது. மீண்டும் முயலவும்.</item>
+        <item/>
+        <item>படத் தரம் மோசமாக உள்ளது. மீண்டும் முயலவும்.</item>
+        <item/>
+        <item/>
+        <item>அழுக்கு உள்ளது, திரையைச் சுத்தம் செய்யவும். மீண்டும் முயலவும்.</item>
+        <item>படத்தைக் கண்டறிய முடியவில்லை. மீண்டும் முயலவும்.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>மோசமான தரவு. மீண்டும் முயலவும்.</item>
+        <item>விரலைப் பதிவுசெய்ய முடியவில்லை. மீண்டும் முயலவும்.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">கைரேகை சென்சாரைப் பயன்படுத்த முடியாது. பழுதுபார்ப்புச் சேவை வழங்குநரைத் தொடர்புகொள்ளவும் அல்லது g.co/pixel/fingerprintunlock இணைப்பிற்குச் செல்லவும்</string>
+    <string name="fingerprint_recalibrate_notification_content">பழுதுபார்ப்புச் சேவை வழங்குநரைத் தொடர்புகொள்ளவும் அல்லது g.co/pixel/fingerprintunlock இணைப்பிற்குச் செல்லவும்</string>
+</resources>

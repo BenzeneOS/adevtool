@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_enabled_lte">true</bool>
+    <bool name="config_gnss_supl_requires_default_data_for_emergency">true</bool>
+    <bool name="config_support_rtt">true</bool>
+    <string name="config_gba_package">com.shannon.rcsservice</string>
+    <string name="config_ims_mmtel_package">com.shannon.imsservice</string>
+    <string name="config_ims_rcs_package">com.shannon.rcsservice</string>
+</resources>

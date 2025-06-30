@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">"Scegli un salvaschermo e attiva l'aiuto in vivavoce quando il tablet è agganciato alla base"</string>
+    <string name="dock_setup_notification_title">Fai di più quando il tablet è agganciato alla base</string>
+    <string name="stylus_system_update_notification_text">"Per usare al meglio il tuo stilo, installa l'ultimo aggiornamento di Android"</string>
+    <string name="stylus_system_update_notification_title">"Installa l'aggiornamento di Android"</string>
+</resources>

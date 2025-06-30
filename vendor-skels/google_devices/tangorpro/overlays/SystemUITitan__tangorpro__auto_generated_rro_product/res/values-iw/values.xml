@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_dialog_touch_sensor">צריך לגעת קלות בחיישן טביעות האצבע</string>
+    <string name="settingslib_learn_more_text">מידע נוסף על ביטול הנעילה בטביעת אצבע</string>
+</resources>

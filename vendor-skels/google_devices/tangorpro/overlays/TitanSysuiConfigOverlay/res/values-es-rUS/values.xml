@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Elige un protector de pantalla y activa la ayuda en el modo manos libres mientras la tablet está conectada</string>
+    <string name="dock_setup_notification_title">Haz mucho más con el dispositivo mientras está conectado</string>
+    <string name="stylus_system_update_notification_text">Instala la actualización de Android más reciente para aprovechar tu pluma stylus al máximo</string>
+    <string name="stylus_system_update_notification_title">Instala la actualización de Android</string>
+</resources>

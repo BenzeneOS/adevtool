@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Tablet begin tans …</string>
+    <string name="android_upgrading_title">Tablet dateer tans oop …</string>
+    <string name="app_streaming_blocked_message">Jy kan nie nou toegang hiertoe op jou %1$s kry nie. Probeer eerder op jou tablet.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Hierdie app versoek tans bykomende sekuriteit. Probeer eerder op jou tablet.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Hierdie app versoek tans bykomende toestemmings, maar toestemmings kan nie in ’n stromingsessie verleen word nie. Verleen eers die toestemming op jou tablet.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Jy kan nie op jou %1$s toegang hiertoe kry nie. Probeer eerder op jou tablet.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Tabletinstellings is nie beskikbaar nie</string>
+    <string name="battery_saver_charged_notification_summary">Tablet se battery het genoeg krag. Kenmerke is nie meer beperk nie.</string>
+    <string name="default_audio_route_name">Tablet</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s wil Verken-met-raak aktiveer. Wanneer Verken-met-raak aangeskakel is, kan jy beskrywings van wat onder jou vinger is hoor of sien, of jy kan gebare uitvoer om interaksie met die tablet te hê.</string>
+    <string name="global_actions">Tablet-opsies</string>
+    <string name="kg_failed_attempts_almost_at_login">"Jy het jou ontsluitpatroon %1$d keer verkeerdelik geteken. Na nog %2$d onsuksesvolle pogings, sal jy gevra word om jou tablet te ontsluit deur middel van 'n e-posrekening.
+
+ Probeer weer oor %3$d sekondes."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Jy het %1$d keer verkeerdelik gepoog om die tablet te ontsluit. Na nog %2$d onsuksesvolle pogings, sal die tablet na die fabrieksverstek teruggestel word en al die gebruikerdata sal verlore wees.</string>
+    <string name="kg_failed_attempts_now_wiping">Jy het %d keer verkeerdelik gepoog om die tablet te ontsluit. Die tablet sal nou na fabrieksverstek teruggestel word.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Jy het %1$d keer probeer om die tablet verkeerde te ontsluit. Na nog %2$d onsuksesvolle poging, sal die tablet terug gestel word nia die fabrieksverstek en alle gebruikerdata sal verlore wees.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Jy het jou ontsluitpatroon %1$d keer verkeerd geteken. Na %2$d nóg onsuksesvolle pogings sal jy gevra word om jou tablet te ontsluit met gebruik van jou Google-aanmelddetails.
+
+ Probeer weer oor %3$d sekondes."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Jy het die tablet %d keer verkeerd probeer ontsluit. Die tablet sal nou terug gestel word na die fabrieksverstek.</string>
+    <string name="lockscreen_missing_sim_message">Geen SIM in tablet nie.</string>
+    <string name="low_memory">"Tablet se berging is vol. Vee 'n aantal lêers uit om spasie vry te maak."</string>
+    <string name="permdesc_bluetooth">Laat die app toe om die opstelling van Bluetooth op die tablet te sien, en om verbindings met saamgebinde toestelle te maak en te aanvaar.</string>
+    <string name="permdesc_bluetoothAdmin">Laat die app toe om die plaaslike Bluetooth-tablet op te stel, en om met afstandbeheer toestelle saam te bind.</string>
+    <string name="permdesc_broadcastSticky">Laat die app toe om vaste uitsendings te stuur, wat agterbly nadat die uitsending klaar is. Oormatige gebruik kan die tablet stadig of onstabiel maak deurdat dit te veel geheue gebruik.</string>
+    <string name="permdesc_changeWifiMulticastState">"Laat die app toe om pakkies te ontvang wat met behulp van multisaai-adresse na alle toestelle op 'n wi-fi-netwerk gestuur is, nie net jou tablet nie. Dit gebruik meer krag as die nie-multisaaimodus."</string>
+    <string name="permdesc_changeWimaxState">Laat die app toe om die tablet aan WiMAX-netwerke te koppel en daarvan te ontkoppel.</string>
+    <string name="permdesc_getAccounts">Laat die app toe om die lys van rekeninge wat aan die tablet bekend is, te kry. Dit kan moontlik enige rekeninge wat geskep is deur apps wat jy geïnstalleer het, insluit.</string>
+    <string name="permdesc_persistentActivity">Laat die app toe om dele van die app deurdringend in die geheue te hou. Dit kan geheue wat aan ander apps beskikbaar is, beperk, en die tablet stadiger maak.</string>
+    <string name="permdesc_readCalendar">Hierdie app kan alle kalendergebeurtenisse lees wat op jou tablet geberg is of jou kalenderdata stoor.</string>
+    <string name="permdesc_readContacts">Laat die app toe om data te lees oor jou kontakte wat op jou tablet geberg is. Apps sal ook toegang hê tot die rekeninge op jou tablet wat kontakte geskep het. Dit kan rekeninge insluit wat geskep is deur apps wat jy geïnstalleer het. Hierdie toestemming laat apps toe om jou kontakdata te stoor, en kwaadwillige apps kan kontakdata deel sonder dat jy dit weet.</string>
+    <string name="permdesc_readSms">"Hierdie app kan alle SMS'e (teksboodskappe) wat op jou tablet geberg is, lees."</string>
+    <string name="permdesc_receiveBootCompleted">Laat die app toe om self te begin sodra die stelsel geselflaai het. Dit maak dat dit langer neem vir die tablet om te begin, en dit laat die foon toe om die tablet stadiger te maak omdat dit altyd loop.</string>
+    <string name="permdesc_setTimeZone">Laat die app toe om die tablet se tydsone te verander.</string>
+    <string name="permdesc_transmitIr">Laat die app toe om die tablet se infrarooisender te gebruik.</string>
+    <string name="permdesc_wakeLock">Laat die app toe om die tablet te keer om te slaap.</string>
+    <string name="permdesc_writeCalendar">Hierdie app kan kalendergebeurtenisse op jou tablet byvoeg, verwyder of verander. Hierdie app kan boodskappe stuur wat lyk of dit van kalendereienaars af kom of gebeurtenisse verander sonder om hul eienaars in te lig.</string>
+    <string name="permdesc_writeCallLog">Laat die app toe om jou tablet se oproeprekord, insluitende data oor inkomende en uitgaande oproepe, te verander. Kwaadwillige apps kan dit gebruik om jou oproeprekord uit te vee of te verander.</string>
+    <string name="permdesc_writeContacts">Laat die app toe om die data te wysig oor jou kontakte wat op jou tablet geberg is. Hierdie toestemming laat apps toe om kontakdata uit te vee.</string>
+    <string name="permlab_wakeLock">verhoed dat tablet slaap</string>
+    <string name="policydesc_watchLogin">"Monitor die aantal keer wat 'n verkeerde wagwoord ingevoer word wanneer die skerm ontsluit word. Sluit die tablet of vee al die data uit as die wagwoord te veel keer verkeerd ingevoer word."</string>
+    <string name="policydesc_watchLogin_secondaryUser">Monitor die aantal verkeerde wagwoorde wat ingevoer word wanneer die skerm ontsluit word, en sluit die tablet of vee al hierdie gebruiker se data uit as te veel verkeerde wagwoorde ingevoer word.</string>
+    <string name="policydesc_wipeData">"Vee die tablet se data uit sonder waarskuwing, deur 'n fabriekterugstelling uit te voer."</string>
+    <string name="policydesc_wipeData_secondaryUser">Vee hierdie gebruiker se data in hierdie tablet sonder waarskuwing uit.</string>
+    <string name="power_dialog">Tablet-opsies</string>
+    <string name="shutdown_confirm">Jou tablet gaan nou afskakel.</string>
+    <string name="vdm_camera_access_denied">Kan nie toegang tot die tablet se kamera op jou %1$s kry nie</string>
+</resources>

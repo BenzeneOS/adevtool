@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Паварушыце пальцам. Паўтарыце спробу.</item>
+        <item>Палец ужо зарэгістраваны. Скарыстайце іншы палец.</item>
+        <item>Нізкая якасць відарыса. Паўтарыце спробу.</item>
+        <item/>
+        <item>Нізкая якасць відарыса. Паўтарыце спробу.</item>
+        <item/>
+        <item/>
+        <item>Выяўлена пляма, пратрыце экран. Паўтарыце спробу.</item>
+        <item>Не ўдалося счытаць відарыс. Паўтарыце спробу.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Няправільныя даныя. Паўтарыце спробу.</item>
+        <item>Не ўдалося зарэгістраваць палец. Паўтарыце спробу.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Не ўдалося скарыстаць сканер адбіткаў пальцаў. Звярніцеся ў сэрвісны цэнтр або наведайце старонку g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Звярніцеся ў сэрвісны цэнтр або наведайце старонку g.co/pixel/fingerprintunlock</string>
+</resources>

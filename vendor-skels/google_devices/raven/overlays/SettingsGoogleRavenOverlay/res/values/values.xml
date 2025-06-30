@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_show_sim_info">true</bool>
+    <dimen name="face_preview_scale">1.2</dimen>
+    <dimen name="face_preview_translate_x">-130.0</dimen>
+    <dimen name="face_preview_translate_y">-300.0</dimen>
+    <dimen name="udfps_lottie_translate_y">-500.0dp</dimen>
+</resources>

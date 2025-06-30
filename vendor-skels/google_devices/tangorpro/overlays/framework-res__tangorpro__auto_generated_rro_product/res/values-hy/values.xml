@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Համոզվեք, որ ձեր մատը ծածկում է սկաները</string>
+    <string name="fingerprint_acquired_power_press">Շարունակեք կարգավորումը՝ թեթևակի հպելով սենսորին</string>
+    <string name="fingerprint_acquired_too_fast">Մատը մի փոքր ավելի երկար պահեք սկաների վրա</string>
+    <string name="fingerprint_error_power_pressed">Հաստատումն ավարտվեց։ Հաջորդ անգամ փորձեք թեթևակի հպել։</string>
+</resources>

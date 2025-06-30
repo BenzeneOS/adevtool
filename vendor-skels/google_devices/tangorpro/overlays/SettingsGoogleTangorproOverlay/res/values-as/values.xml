@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">চাৰ্জিঙৰ ধ্বনি</string>
+    <string name="edge_to_edge_navigation_summary">গৃহলৈ যাবলৈ তলৰ পৰা ক্ষিপ্ৰতাৰে ওপৰলৈ ছোৱাইপ কৰক। টাস্কবাৰ এক্সেছ কৰিবলৈ, তলৰ পৰা লাহেকৈ ওপৰলৈ ছোৱাইপ কৰক। এপ্‌সমূহ সলনি কৰিবলৈ তলৰ পৰা ওপৰলৈ ছোৱাইপ কৰক, ধৰি ৰাখক আৰু এৰি দিয়ক। উভতি যাবলৈ, বাওঁ অথবা সোঁ কাষৰ পৰা ছোৱাইপ কৰক।</string>
+    <string name="fast_pair_device_not_found_other_device_description">এই ডিভাইচটো আপোনাৰ Pixel টেবলেটটোৰ ওচৰলৈ নিয়ক আৰু পুনৰ চেষ্টা কৰক।</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">ইয়েৰবাডৰ কে’ছটো খোলক আৰু সেইটো আপোনাৰ Pixel টেবলেটটোৰ ওচৰলৈ নিয়ক, তাৰ পাছত পুনৰ চেষ্টা কৰক।</string>
+    <string name="sound_dashboard_summary">ভলিউম</string>
+    <string name="sound_dashboard_summary_with_dnd">ভলিউম, অসুবিধা নিদিব</string>
+    <string name="sound_settings">ধ্বনি</string>
+</resources>

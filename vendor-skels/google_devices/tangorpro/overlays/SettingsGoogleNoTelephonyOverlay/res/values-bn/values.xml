@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">ওয়াই-ফাই</string>
+    <string name="non_carrier_data_usage">ওয়াই-ফাই ডেটার ব্যবহার</string>
+    <string name="tether_settings_title_all">টেথারিং</string>
+    <string name="tethering_footer_info">ইউএসবি, ইথারনেট বা ব্লুটুথের মাধ্যমে অন্য ডিভাইসে ইন্টারনেট কানেকশন প্রদান করতে টেথারিং প্রসেস ব্যবহার করুন।</string>
+</resources>

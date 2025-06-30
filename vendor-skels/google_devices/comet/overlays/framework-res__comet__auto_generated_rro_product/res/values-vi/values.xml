@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">Đảm bảo ngón tay của bạn che cảm biến</string>
+    <string name="fingerprint_acquired_power_press">Để tiếp tục thiết lập, hãy chạm nhẹ vào cảm biến</string>
+    <string name="fingerprint_acquired_too_fast">Hãy giữ ngón tay trên cảm biến lâu hơn một chút</string>
+    <string name="fingerprint_error_power_pressed">Đã kết thúc quy trình xác minh. Hãy thử chạm nhẹ vào lần tới.</string>
+</resources>

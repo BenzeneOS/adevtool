@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>გაამოძრავეთ თითი. ცადეთ ხელახლა.</item>
+        <item>ეს თითი უკვე რეგისტრირებულია, ცადეთ სხვა თითით.</item>
+        <item>სურათის ხარისხი დაბალია. ცადეთ ხელახლა.</item>
+        <item/>
+        <item>სურათის ხარისხი დაბალია. ცადეთ ხელახლა.</item>
+        <item/>
+        <item/>
+        <item>აღმოჩენილია ლაქა, გაწმინდეთ ეკრანი. ცადეთ ხელახლა.</item>
+        <item>სურათის წაკითხვა ვერ მოხერხდა. ცადეთ ხელახლა.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>მონაცემები არასწორია. ცადეთ ხელახლა.</item>
+        <item>თითის რეგისტრირება ვერ მოხერხდა. ცადეთ ხელახლა.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">თითის ანაბეჭდის სენსორის გამოყენება ვერ მოხერხდა. ეწვიეთ შეკეთების სერვისის პროვაიდერს ან ბმულს g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">ეწვიეთ შეკეთების სერვისის პროვაიდერს ან ბმულს g.co/pixel/fingerprintunlock</string>
+</resources>

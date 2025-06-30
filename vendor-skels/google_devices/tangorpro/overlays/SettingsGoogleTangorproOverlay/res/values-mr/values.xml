@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">चार्जिंगसंबंधित आवाज</string>
+    <string name="edge_to_edge_navigation_summary">होमवर जाण्यासाठी, तळापासून वरती झटपट स्‍वाइप करा. टास्कबार अ‍ॅक्सेस करण्यासाठी, तळापासून वरती हळू स्‍वाइप करा. अ‍ॅप्स स्विच करण्यासाठी, तळापासून वरती स्वाइप करा, धरून ठेवा आणि रिलीझ करा. मागे जाण्यासाठी डाव्या किंवा उजव्या कडेकडून स्वाइप करा.</string>
+    <string name="fast_pair_device_not_found_other_device_description">हे डिव्हाइस तुमच्या Pixel Tablet जवळ न्या आणि पुन्हा प्रयत्न करा.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">इयरबड केस उघडा व ती तुमच्या Pixel Tablet जवळ न्या, नंतर पुन्हा प्रयत्न करा.</string>
+    <string name="sound_dashboard_summary">व्हॉल्यूम</string>
+    <string name="sound_dashboard_summary_with_dnd">व्हॉल्यूम, व्यत्यय आणू नका</string>
+    <string name="sound_settings">आवाज</string>
+</resources>

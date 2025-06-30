@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Menyalakan tablet…</string>
+    <string name="android_upgrading_title">Mengupdate tablet…</string>
+    <string name="app_streaming_blocked_message">Aplikasi ini tidak dapat diakses di %1$s untuk saat ini. Coba di tablet.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Aplikasi ini meminta keamanan tambahan. Coba di tablet.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Aplikasi ini meminta izin tambahan, tetapi izin tidak dapat diberikan dalam sesi streaming. Berikan izin di tablet terlebih dahulu.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Setelan ini tidak dapat diakses di %1$s. Coba di tablet.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Setelan tablet tidak tersedia</string>
+    <string name="battery_saver_charged_notification_summary">Baterai tablet cukup terisi. Fitur tidak lagi dibatasi.</string>
+    <string name="default_audio_route_name">Tablet</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s ingin mengaktifkan Menjelajah dengan Sentuhan. Saat Menjelajah dengan Sentuhan diaktifkan, Anda dapat melihat atau mendengar deskripsi dari apa yang ada di bawah jari Anda atau melakukan gerakan untuk berinteraksi dengan tablet.</string>
+    <string name="global_actions">Opsi tablet</string>
+    <string name="kg_failed_attempts_almost_at_login">"Anda telah %1$d kali salah menggambar pola pembuka kunci. Setelah %2$d lagi upaya gagal, Anda akan diminta membuka kunci tablet menggunakan akun email.
+
+Coba lagi dalam %3$d detik."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Anda telah %1$d kali gagal saat berusaha membuka kunci tablet. Setelah %2$d lagi upaya gagal, tablet akan direset ke setelan default pabrik dan semua data pengguna akan hilang.</string>
+    <string name="kg_failed_attempts_now_wiping">Anda telah %d kali gagal saat berusaha membuka kunci tablet. Kini tablet akan direset ke setelan default pabrik.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Anda telah gagal mencoba membuka gembok tablet sebanyak %1$d kali. Setelah %2$d upaya gagal lagi, tablet akan direset ke setelan default pabrik dan semua data pengguna hilang.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Anda telah %1$d kali salah menggambar pola pembuka kunci. Setelah %2$d lagi upaya gagal, Anda akan diminta membuka kunci tablet menggunakan proses masuk Google.
+
+Coba lagi dalam %3$d detik."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Anda telah gagal mencoba membuka gembok tablet sebanyak %d kali. Kini tablet akan direset ke setelan default pabrik.</string>
+    <string name="lockscreen_missing_sim_message">Tidak ada SIM di tablet.</string>
+    <string name="low_memory">Penyimpanan tablet penuh. Hapus beberapa file untuk mengosongkan ruang.</string>
+    <string name="permdesc_bluetooth">Memungkinkan aplikasi melihat konfigurasi Bluetooth di tablet, dan membuat serta menerima sambungan dengan perangkat yang disandingkan.</string>
+    <string name="permdesc_bluetoothAdmin">Mengizinkan apl mengonfigurasi tablet Bluetooth lokal, dan menemukan serta menyandingkan dengan perangkat jarak jauh.</string>
+    <string name="permdesc_broadcastSticky">Memungkinkan aplikasi mengirim siaran permanen, yang tetap ada setelah siaran berakhir. Penggunaan yang berlebihan dapat membuat tablet menjadi lambat atau tidak stabil dengan memicu penggunaan memori yang terlalu banyak.</string>
+    <string name="permdesc_changeWifiMulticastState">Memungkinkan aplikasi menerima paket yang dikirim ke semua perangkat melalui jaringan Wi-Fi menggunakan alamat multicast, bukan hanya tablet Anda. Izin ini akan menggunakan lebih banyak daya daripada mode selain multicast.</string>
+    <string name="permdesc_changeWimaxState">Memungkinkan aplikasi menyambungkan tablet ke dan memutus tablet dari jaringan WiMAX.</string>
+    <string name="permdesc_getAccounts">Memungkinkan aplikasi mendapatkan daftar akun yang dikenal oleh tablet. Ini mungkin termasuk akun yang dibuat oleh aplikasi yang telah Anda instal.</string>
+    <string name="permdesc_persistentActivity">Memungkinkan aplikasi membuat bagian dari dirinya sendiri terus-menerus berada dalam memori. Izin ini dapat membatasi memori yang tersedia untuk aplikasi lain sehingga menjadikan tablet lambat.</string>
+    <string name="permdesc_readCalendar">Aplikasi ini dapat membaca semua acara kalender yang tersimpan di tablet dan membagikan atau menyimpan data kalender.</string>
+    <string name="permdesc_readContacts">Mengizinkan aplikasi membaca data tentang kontak yang disimpan di tablet Anda. Aplikasi juga akan memiliki akses ke akun di tablet Anda yang telah membuat kontak. Ini mungkin mencakup akun yang dibuat oleh aplikasi yang telah diinstal. Izin ini mengizinkan aplikasi menyimpan data kontak, dan aplikasi berbahaya dapat membagikan data kontak tanpa sepengetahuan Anda.</string>
+    <string name="permdesc_readSms">Aplikasi ini dapat membaca semua SMS yang tersimpan di tablet.</string>
+    <string name="permdesc_receiveBootCompleted">Mengizinkan apl memulai sendiri segera setelah sistem selesai booting. Hal ini dapat memperpanjang waktu yang diperlukan untuk memulai tablet dan memungkinkan apl memperlambat tablet secara keseluruhan jika terus berjalan.</string>
+    <string name="permdesc_setTimeZone">Mengizinkan apl mengubah zona waktu tablet.</string>
+    <string name="permdesc_transmitIr">Memungkinkan aplikasi menggunakan pemancar inframerah tablet.</string>
+    <string name="permdesc_wakeLock">Mengizinkan apl mencegah tablet tidur.</string>
+    <string name="permdesc_writeCalendar">Aplikasi ini dapat menambahkan, menghapus, atau mengubah acara kalender di tablet. Aplikasi ini dapat mengirim pesan yang kelihatannya berasal dari pemilik kalender, atau mengubah acara tanpa memberi tahu pemilik.</string>
+    <string name="permdesc_writeCallLog">Memungkinkan apl memodifikasi log panggilan tablet Anda, termasuk data tentang panggilan masuk dan keluar. Apl berbahaya dapat menggunakan ini untuk menghapus atau memodifikasi log panggilan Anda.</string>
+    <string name="permdesc_writeContacts">Mengizinkan aplikasi mengubah data tentang kontak yang disimpan di tablet Anda. Izin ini mengizinkan aplikasi menghapus data kontak.</string>
+    <string name="permlab_wakeLock">cegah tablet dari tidur</string>
+    <string name="policydesc_watchLogin">Memantau berapa kali sandi yang dimasukkan salah saat ingin membuka kunci layar, dan mengunci tablet atau menghapus semua data tablet jika terjadi terlalu banyak kesalahan memasukkan sandi.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Memantau berapa kali sandi yang dimasukkan salah saat ingin membuka kunci layar, dan mengunci tablet atau menghapus semua data pengguna ini jika terjadi terlalu banyak kesalahan memasukkan sandi.</string>
+    <string name="policydesc_wipeData">Menghapus data tablet tanpa peringatan dengan mereset ke setelan pabrik.</string>
+    <string name="policydesc_wipeData_secondaryUser">Menghapus data pengguna ini di tablet ini tanpa peringatan.</string>
+    <string name="power_dialog">Opsi tablet</string>
+    <string name="shutdown_confirm">Tablet Anda akan dimatikan.</string>
+    <string name="vdm_camera_access_denied">Tidak dapat mengakses kamera tablet dari %1$s</string>
+</resources>

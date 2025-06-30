@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">স্ক্রিন সেভার বেছে নিন এবং আপনার ট্যাবলেট ডক থাকাকালীন হ্যান্ডস-ফ্রি সাহায্য চালু করুন</string>
+    <string name="dock_setup_notification_title">ডক থাকাকালীন অনেক কিছু করুন</string>
+    <string name="stylus_system_update_notification_text">আপনার স্টাইলাস যাতে সবচেয়ে ভালভাবে কাজ করে তার জন্য Android-এর লেটেস্ট আপডেট ইনস্টল করুন</string>
+    <string name="stylus_system_update_notification_title">Android-এর আপডেট ইনস্টল করুন</string>
+</resources>

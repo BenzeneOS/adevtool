@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Sandi • Sidik Jari • Wajah</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Pola • Sidik Jari • Wajah</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN • Sidik Jari • Wajah</string>
+</resources>

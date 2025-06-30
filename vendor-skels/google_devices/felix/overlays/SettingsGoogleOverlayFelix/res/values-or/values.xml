@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">ହୋମକୁ ଯିବା ପାଇଁ ତଳୁ ଉପରକୁ ଶୀଘ୍ର-ସ୍ୱାଇପ କରନ୍ତୁ। ଟାସ୍କବାରକୁ ଆକ୍ସେସ କରିବା ପାଇଁ ତଳୁ ଉପରକୁ ଧୀରେ-ସ୍ୱାଇପ କରନ୍ତୁ। ଆପ୍ସ ସ୍ୱିଚ କରିବାକୁ ତଳୁ ଉପରକୁ ସ୍ୱାଇପ କରି ଧରି ରଖି ରିଲିଜ କରନ୍ତୁ। ପଛକୁ ଫେରିବା ପାଇଁ ବାମ ବା ଡାହାଣ ଧାରରୁ ସ୍ୱାଇପ କରନ୍ତୁ।</string>
+    <string name="setting_auto_rotate_folded">ଫୋଲ୍ଡ ହେଲେ ଅଟୋ-ରୋଟେଟ କରନ୍ତୁ</string>
+    <string name="setting_auto_rotate_unfolded">ଅନଫୋଲ୍ଡ ହେଲେ ଅଟୋ-ରୋଟେଟ କରନ୍ତୁ</string>
+</resources>

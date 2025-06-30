@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Изберете скрийнсейвър и включете функцията за получаване на помощ, без да използвате ръцете си, докато таблетът ви е свързан с докинг станция</string>
+    <string name="dock_setup_notification_title">Правете повече, докато използвате докинг станция</string>
+    <string name="stylus_system_update_notification_text">За да се възползвате максимално от писалката си, инсталирайте най-новата актуализация за Android</string>
+    <string name="stylus_system_update_notification_title">Инсталирайте актуализацията за Android</string>
+</resources>

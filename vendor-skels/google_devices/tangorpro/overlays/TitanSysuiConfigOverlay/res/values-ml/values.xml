@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">ഒരു സ്ക്രീൻ സേവർ തിരഞ്ഞെടുക്കുക, നിങ്ങളുടെ ടാബ്‌ലെറ്റ് ഡോക്ക് ചെയ്തിരിക്കുമ്പോൾ ഹാൻഡ്‌സ്-ഫ്രീ സഹായം ഓണാക്കുക</string>
+    <string name="dock_setup_notification_title">ഡോക്ക് ചെയ്തിരിക്കുമ്പോൾ കൂടുതൽ കാര്യങ്ങൾ ചെയ്യൂ</string>
+    <string name="stylus_system_update_notification_text">നിങ്ങളുടെ സ്റ്റൈലസ് പരമാവധി പ്രയോജനപ്പെടുത്താൻ, ഏറ്റവും പുതിയ Android അപ്ഡേറ്റ് ഇൻസ്റ്റാൾ ചെയ്യൂ</string>
+    <string name="stylus_system_update_notification_title">Android അപ്‌ഡേറ്റ് ഇൻസ്റ്റാൾ ചെയ്യുക</string>
+</resources>

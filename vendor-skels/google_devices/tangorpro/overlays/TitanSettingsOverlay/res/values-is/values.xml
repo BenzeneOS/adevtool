@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Dokkustilling</string>
+    <string name="dream_no_screen_saver_caption">Enginn skjávari</string>
+    <string name="dream_no_screen_saver_description">Til að spara orku mun slokkna á skjánum þínum eftir aðgerðarleysi</string>
+    <string name="dream_no_screen_saver_preview_caption">Umhverfisvænt</string>
+    <string name="dream_secondary_button_title">Sleppa</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Þegar tækið er í dokku og hleðslu</string>
+    <string name="screensaver_settings_summary_off">Sýna uppáhaldsmyndir, listaverk, klukkur og fleira þegar tækið er aðgerðalaust</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Þegar tækið er upprétt og í hleðslu</string>
+    <string name="screensaver_settings_summary_sleep">Þegar tækið er í hleðslu</string>
+    <string name="when_to_show_hubmode_charging">Þegar tækið er í hleðslu</string>
+    <string name="when_to_show_hubmode_docked">Þegar tækið er í dokku</string>
+    <string name="when_to_show_hubmode_never">Aldrei</string>
+</resources>

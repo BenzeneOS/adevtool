@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Саусағыңызды жылжытыңыз. Қайталап көріңіз.</item>
+        <item>Саусақ тіркеліп қойған, басқа саусақты пайдаланыңыз.</item>
+        <item>Сурет сапасы нашар. Қайталап көріңіз.</item>
+        <item/>
+        <item>Сурет сапасы нашар. Қайталап көріңіз.</item>
+        <item/>
+        <item/>
+        <item>Дақ анықталды, экранды тазартыңыз. Қайталап көріңіз.</item>
+        <item>Сурет оқылмады. Қайталап көріңіз.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Деректер дұрыс емес. Қайталап көріңіз.</item>
+        <item>Саусақ тіркелмеді. Қайталап көріңіз.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Саусақ ізін оқу сканерін пайдалану мүмкін емес. Жөндеу қызметіне жүгініңіз немесе g.co/pixel/fingerprintunlock сілтемесіне өтіңіз.</string>
+    <string name="fingerprint_recalibrate_notification_content">Жөндеу қызметіне жүгініңіз немесе g.co/pixel/fingerprintunlock сілтемесіне өтіңіз.</string>
+</resources>

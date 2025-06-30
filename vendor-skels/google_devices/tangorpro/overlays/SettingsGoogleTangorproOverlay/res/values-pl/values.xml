@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Dźwięki ładowania</string>
+    <string name="edge_to_edge_navigation_summary">Aby przejść do ekranu głównego, szybko przesuń palcem z dołu do góry. Aby otworzyć pasek aplikacji, wykonaj ten sam ruch powoli. Aby przełączać się między aplikacjami, przesuń palcem w górę, przytrzymaj ekran i odsuń palec. Aby przejść wstecz, przesuń palcem od lewej lub prawej krawędzi.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Zbliż to urządzenie do tabletu Pixel Tablet i spróbuj ponownie.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Otwórz etui na słuchawki i zbliż je do urządzenia Pixel Tablet, a potem spróbuj ponownie.</string>
+    <string name="sound_dashboard_summary">Głośność</string>
+    <string name="sound_dashboard_summary_with_dnd">Głośność, Nie przeszkadzać</string>
+    <string name="sound_settings">Dźwięk</string>
+</resources>

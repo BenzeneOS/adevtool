@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="phoneAppLabel">মোবাইল ডেটা</string>
+    <string name="phone_info_label">ট্যাবলেটের তথ্য</string>
+</resources>

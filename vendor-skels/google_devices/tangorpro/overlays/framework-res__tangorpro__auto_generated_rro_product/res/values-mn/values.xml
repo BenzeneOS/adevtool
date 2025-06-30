@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Таны хуруу мэдрэгчийг халхалж байгаа эсэхийг шалгана уу</string>
+    <string name="fingerprint_acquired_power_press">Үргэлжлүүлэн тохируулах бол мэдрэгчид зөөлөн хүр</string>
+    <string name="fingerprint_acquired_too_fast">Хуруугаа мэдрэгч дээр бага зэрэг удаан байлгана уу</string>
+    <string name="fingerprint_error_power_pressed">Баталгаажуулалт дууссан. Дараагийн удаа зөөлөн хүрээрэй.</string>
+</resources>

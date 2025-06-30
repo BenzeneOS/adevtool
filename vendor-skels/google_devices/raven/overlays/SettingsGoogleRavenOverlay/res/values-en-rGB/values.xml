@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Automatically raises the refresh rate from 60 up to 120 Hz for some content. Increases battery usage.</string>
+</resources>

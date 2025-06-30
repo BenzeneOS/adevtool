@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_dialog_touch_sensor">Prek lehtësisht sensorin e gjurmës së gishtit</string>
+    <string name="settingslib_learn_more_text">"Mëso më shumë për \"Shkyçjen me gjurmën e gishtit\""</string>
+</resources>

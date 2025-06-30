@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wi-Fi</string>
+    <string name="non_carrier_data_usage">Wi-Fi дата ашиглалт</string>
+    <string name="tether_settings_title_all">Модем болгох</string>
+    <string name="tethering_footer_info">Бусад төхөөрөмжийг USB, Этернэт эсвэл Bluetooth-р дамжуулан интернэтээр хангахын тулд модем болгохыг ашиглана уу.</string>
+</resources>

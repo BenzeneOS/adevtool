@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Escolha uma proteção de ecrã e ative a ajuda mãos-livres enquanto o tablet estiver na estação de carregamento</string>
+    <string name="dock_setup_notification_title">Faça mais com o tablet na estação de carregamento</string>
+    <string name="stylus_system_update_notification_text">Para tirar o máximo partido da sua caneta stylus, instale a atualização mais recente do Android</string>
+    <string name="stylus_system_update_notification_title">Instale a atualização do Android</string>
+</resources>

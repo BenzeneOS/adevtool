@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>Muutke sõrme asetust. Olete juba puudutanud sõrmejälje selle alaga.</item>
+    </array>
+    <string name="fingerprint_unlock_set_unlock_password">Parool • Sõrmejälg</string>
+    <string name="fingerprint_unlock_set_unlock_pattern">Muster • Sõrmejälg</string>
+    <string name="fingerprint_unlock_set_unlock_pin">PIN-kood • Sõrmejälg</string>
+    <string name="fingerprint_unlock_skip_fingerprint">Jätka ilma sõrmejäljega avamiseta</string>
+    <string name="fingerprint_unlock_title">Sõrmejäljega avamise funktsiooniga saate oma tahvelarvuti avada sõrmejäljega. Turvalisuse tagamiseks nõuab see valik varuekraanilukku.</string>
+    <string name="security_settings_fingerprint_enroll_consent_introduction_title">Lubage sõrmejäljega avamine</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message">"Sõrmejäljeandur on toitenupul.
+
+Puudutage õrnalt nuppu, seda alla vajutamata."</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_title">Puudutage toitenuppu</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">Sõrmejäljega avamise seadistamine</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title">Tõstke sõrm üles, seejärel puudutage. Liigutage iga kord pisut sõrme.</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay">Tõstke, siis puudutage uuesti</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_message">Sõrmejäljeandur asub toitenupul.</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_title">Puudutage ikooni asemel andurit</string>
+    <string name="security_settings_fingerprint_preference_title">Sõrmejäljega avamine</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Sõrmejäljega avamise funktsioon loob teie sõrmejäljest kordumatu mudeli, mille abil teie isik kinnitada. Sõrmejäljemudeli loomiseks jäädvustate seadistamise ajal pildid oma sõrmejäljest eri asendites.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">Kui kasutate sõrmejäljega avamist, kasutatakse kujutisi teie sõrmejäljemudeli värskendamiseks. Sõrmejäljemudeli loomiseks kasutatavaid kujutisi ei salvestata mitte kunagi, kuid sõrmejäljemudel salvestatakse turvaliselt teie tahvelarvutisse, kust seda välja ei saadeta. Kogu töötlus toimub turvaliselt teie tahvelarvutis.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Seadetes saate oma sõrmejäljemudeli alati kustutada või sõrmejäljega avamise funktsiooni välja lülitada. Sõrmejäljemudelid salvestatakse tahvelarvutisse, kuni need kustutate.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Sõrmejäljega avamise funktsioon loob teie lapse sõrmejäljest kordumatu mudeli, mille abil tema isik kinnitada. Sõrmejäljemudeli loomiseks jäädvustatakse seadistamise ajal kujutised tema sõrmejäljest eri asendites.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">Kui ta kasutab sõrmejäljega avamist, kasutatakse kujutisi tema sõrmejäljemudeli värskendamiseks. Lapse sõrmejäljemudeli loomiseks kasutatavaid kujutisi ei salvestata mitte kunagi, kuid sõrmejäljemudel salvestatakse turvaliselt tema tahvelarvutisse, kust seda välja ei saadeta. Kogu töötlus toimub turvaliselt tahvelarvutis.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Seadetes saate (või saab laps) sõrmejäljemudeli alati kustutada või sõrmejäljega avamise funktsiooni välja lülitada. Sõrmejäljemudelid salvestatakse tahvelarvutisse, kuni need kustutatakse.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Vaadake lisateavet aadressil &lt;a href='http://g.co/pixeltablet/fingerprintunlock'&gt;g.co/pixeltablet/fingerprintunlock&lt;/a&gt;."</string>
+    <string name="security_settings_sfps_enroll_find_sensor_message">Sõrmejäljeandur asub toitenupul. See on lühem nupp telefoni küljel.</string>
+    <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Liigutage iga kord pisut sõrme</string>
+    <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Liigutage edasi sõrmejälje muude alade jäädvustamiseks</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">See muudab juhusliku avamise vähem tõenäoliseks. Kui see säte on välja lülitatud, avaneb seade anduri põgusal puudutamisel.</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Avamiseks anduri pikalt puudutamine</string>
+    <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Puudutage andurit muu nurga all</string>
+    <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Liigutage sõrme sõrmejälje muude alade jäädvustamiseks</string>
+    <string name="security_settings_work_fingerprint_preference_title">Sõrmejäljega avamine töö jaoks</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Jätka seadistamist</string>
+    <string name="setup_fingerprint_enroll_immobile_help_subtitle">See aitab jäädvustada rohkem sõrmejälge, et lukust avamist parendada</string>
+    <string name="setup_fingerprint_enroll_immobile_help_title">Liigutage sõrme</string>
+    <string name="suggested_fingerprint_lock_settings_title">Sõrmejäljega avamise kasutamine</string>
+</resources>

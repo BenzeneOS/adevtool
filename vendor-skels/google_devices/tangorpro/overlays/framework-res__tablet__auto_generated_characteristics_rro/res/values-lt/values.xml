@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Planšetinis kompiuteris paleidžiamas…</string>
+    <string name="android_upgrading_title">Planšetinis kompiuteris atnaujinamas…</string>
+    <string name="app_streaming_blocked_message">Šįkart nepavyksta pasiekti programos iš jūsų „%1$s“. Pabandykite naudoti planšetinį kompiuterį.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Ši programa prašo papildomų saugos funkcijų. Pabandykite naudoti planšetinį kompiuterį.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Ši programa prašo papildomų leidimų, bet jų negalima suteikti per srautinio perdavimo seansą. Leidimą pirmiausia suteikite planšetiniame kompiuteryje.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Nepavyksta pasiekti nuotolinio įrenginio iš jūsų „%1$s“. Pabandykite naudoti planšetinį kompiuterį.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Planšetinio kompiuterio nustatymai nepasiekiami</string>
+    <string name="battery_saver_charged_notification_summary">Planšetinis kompiuteris pakankamai įkrautas. Funkcijos neberibojamos.</string>
+    <string name="default_audio_route_name">Planšetinis kompiuteris</string>
+    <string name="enable_explore_by_touch_warning_message">„%1$s“ nori įgalinti naršymą liečiant. Kai naršymas liečiant bus įjungtas, galėsite išgirsti ar peržiūrėti pirštu liečiamų elementų aprašus arba atlikdami gestus naudoti planšetinį kompiuterį.</string>
+    <string name="global_actions">Planšetinio kompiuterio parinktys</string>
+    <string name="kg_failed_attempts_almost_at_login">"Netinkamai nupiešėte atrakinimo piešinį %1$d k. Po dar %2$d nesėkm. band. būsite paprašyti atrakinti planšetinį kompiuterį naudodami „Google“ prisijungimo duomenis.
+
+ Bandykite dar kartą po %3$d sek."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">%1$d k. bandėte netinkamai atrakinti planšetinį kompiuterį. Po dar %2$d nesėkm. band. planšetiniame kompiuteryje bus iš naujo nustatyti numatytieji gamyklos nustatymai ir bus prarasti visi naudotojo duomenys.</string>
+    <string name="kg_failed_attempts_now_wiping">%d k. bandėte netinkamai atrakinti planšetinį kompiuterį. Planšetiniame kompiuteryje bus iš naujo nustatyti numatytieji gamyklos nustatymai.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">%1$d kart. bandėte netinkamai atrakinti planšetinį kompiuterį. Po dar %2$d nesėkm. band. planšetiniame kompiuteryje bus iš naujo nustatyti numatytieji gamyklos nustatymai ir bus prarasti visi naudotojo duomenys.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Neteisingai nurodėte savo atrakinimo modelį %1$d k. Po dar %2$d nesėkm. band. būsite paprašyti atrakinti planšetinį kompiuterį naudodami „Google“ prisijungimo duomenis.
+
+ Bandykite dar kartą po %3$d sek."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">%d kart. bandėte netinkamai atrakinti planšetinį kompiuterį. Planšetinis kompiuteris bus iš naujo nustatytas į numatytuosius gamyklos nustatymus.</string>
+    <string name="lockscreen_missing_sim_message">Planšetiniame kompiuteryje nėra SIM kortelės.</string>
+    <string name="low_memory">Planšetinio kompiuterio atmintis pilna. Kad atlaisvintumėte vietos, ištrinkite kelis failus.</string>
+    <string name="permdesc_bluetooth">Leidžiama programai peržiūrėti „Bluetooth“ konfigūraciją planšetiniame kompiuteryje ir užmegzti bei priimti ryšius iš susietų įrenginių.</string>
+    <string name="permdesc_bluetoothAdmin">Leidžiama programai konfigūruoti vietinį „Bluetooth“ planšetinį kompiuterį ir atrasti nuotolinius įrenginius bei su jais susieti.</string>
+    <string name="permdesc_broadcastSticky">Leidžiama programai siųsti užsifiksuojančias transliacijas, kurios išlieka pasibaigus transliacijai. Per dažnas jų naudojimas gali sulėtinti planšetinio kompiuterio veikimą ar padaryti jį nestabilų verčiant naudoti per daug atminties.</string>
+    <string name="permdesc_changeWifiMulticastState">Leidžiama programai gauti paketus, siunčiamus į visus prie „Wi-Fi“ ryšio tinklo prijungtus įrenginius (ne tik į planšetinį kompiuterį), naudojančius daugiaadresio perdavimo adresus. Ji naudoja daugiau energijos nei ne daugiaadresio perdavimo režimas.</string>
+    <string name="permdesc_changeWimaxState">Leidžia programai prijungti planšetinį kompiuterį prie „WiMAX“ ryšio tinklų ir nuo jų atjungti.</string>
+    <string name="permdesc_getAccounts">Leidžiama programai gauti planšetinio kompiuterio žinomų paskyrų sąrašą. Gali būti įtrauktos visos paskyros, sukurtos įdiegtomis programomis.</string>
+    <string name="permdesc_persistentActivity">Leidžiama programai savo dalis įrašyti į atmintį. Dėl to gali būti apribota kitomis programomis pasiekiama atmintis ir sulėtėti planšetinio kompiuterio veikimas.</string>
+    <string name="permdesc_readCalendar">Ši programa gali nuskaityti visus planšetiniame kompiuteryje saugomus kalendoriaus įvykius ir bendrinti arba išsaugoti kalendoriaus duomenis.</string>
+    <string name="permdesc_readContacts">Programai leidžiama skaityti duomenis apie planšetiniame kompiuteryje saugomus kontaktus. Programos taip pat galės pasiekti planšetiniame kompiuteryje esančias paskyras, kuriose buvo sukurta kontaktų. Gali būti įtrauktos paskyros, kurias sukūrė jūsų įdiegtos programos. Šis leidimas suteikia teisę programoms saugoti kontaktinius duomenis, o kenkėjiškos programos gali bendrinti kontaktinius duomenis be jūsų žinios.</string>
+    <string name="permdesc_readSms">Ši programa gali nuskaityti visus planšetiniame kompiuteryje saugomus SMS (teksto) pranešimus.</string>
+    <string name="permdesc_receiveBootCompleted">Leidžiama programai pasileisti, kai baigsis sistemos įkėlimas iš naujo. Dėl to planšetinio kompiuterio paleidimas gali trukti ilgiau ir programa gali sulėtinti planšetinį kompiuterį, nes ji veiks visada.</string>
+    <string name="permdesc_setTimeZone">Leidžiama programai keisti planšetinio kompiuterio laiko juostą.</string>
+    <string name="permdesc_transmitIr">Programai leidžiama naudoti planšetinio kompiuterio infraraudonųjų spindulių perdavimo įrenginį.</string>
+    <string name="permdesc_wakeLock">Leidžiama programai neleisti planšetiniam kompiuteriui užmigti.</string>
+    <string name="permdesc_writeCalendar">Ši programa gali pridėti, pašalinti arba pakeisti planšetiniame kompiuteryje esančius kalendoriaus įvykius. Ši programa gali siųsti pranešimus, kurie gali atrodyti atsiųsti kalendoriaus savininkų, arba pakeisti įvykius nepranešusi jų savininkams.</string>
+    <string name="permdesc_writeCallLog">Programai leidžiama skaityti planšetinio kompiuterio skambučių žurnalą, įskaitant duomenis apie gaunamuosius ir siunčiamuosius skambučius. Kenkėjiškos programos tai gali naudoti, kad ištrintų ar keistų jūsų skambučių žurnalą.</string>
+    <string name="permdesc_writeContacts">Programai leidžiama keisti duomenis apie planšetiniame kompiuteryje saugomus kontaktus. Su šiuo leidimu programos gali ištrinti kontaktinius duomenis.</string>
+    <string name="permlab_wakeLock">neleisti planšetiniam kompiuteriui užmigti</string>
+    <string name="policydesc_watchLogin">Stebimas neteisingai įvestų slaptažodžių skaičius atrakinant ekraną ir užrakinamas planšetinis kompiuteris arba ištrinami visi jame esantys duomenys, jei įvedama per daug neteisingų slaptažodžių.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Stebėkite atrakinant ekraną įvestų netinkamų slaptažodžių skaičių ir užrakinkite planšetinį kompiuterį arba ištrinkite visus šio naudotojo duomenis, jei per daug kartų įvedamas netinkamas slaptažodis.</string>
+    <string name="policydesc_wipeData">Be įspėjimo ištrinti planšetinio kompiuterio duomenis atkuriant gamyklinius duomenis.</string>
+    <string name="policydesc_wipeData_secondaryUser">Ištrinkite šio naudotojo duomenis šiame planšetiniame kompiuteryje be įspėjimo.</string>
+    <string name="power_dialog">Planšetinio kompiuterio parinktys</string>
+    <string name="shutdown_confirm">Planšetinio kompiuterio veikimas bus sustabdytas.</string>
+    <string name="vdm_camera_access_denied">Nepavyko pasiekti planšetinio kompiuterio fotoaparato iš „%1$s“</string>
+</resources>

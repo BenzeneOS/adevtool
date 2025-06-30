@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Tableta abiarazten ari da…</string>
+    <string name="android_upgrading_title">Tableta eguneratzen ari da…</string>
+    <string name="app_streaming_blocked_message">Une honetan, aplikazioa ezin da %1$s erabilita atzitu. Gailu horren ordez, erabili tableta.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Segurtasun gehigarria eskatzen ari da aplikazioa. Gailu horren ordez, erabili tableta.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Baimen gehigarriak eskatzen ari da aplikazioa, baina ezin da eman baimenik igorpen-saioetan. Lehenik eta behin, eman baimena tabletan.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Aplikazioa ezin da %1$s erabilita atzitu. Gailu horren ordez, erabili tableta.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Tabletaren ezarpenak ez daude erabilgarri</string>
+    <string name="battery_saver_charged_notification_summary">Behar adina bateria dauka tabletak. Jada ez dago eginbiderik murriztuta.</string>
+    <string name="default_audio_route_name">Tableta</string>
+    <string name="enable_explore_by_touch_warning_message">"%1$s zerbitzuak \"Arakatu ukituta\" eginbidea gaitu nahi du. Eginbide hori aktibatuta dagoenean, hatzaren azpian duzunaren azalpena ikus edo entzun dezakezu, edo tabletarekin interakzioan aritzeko keinuak egin ditzakezu."</string>
+    <string name="global_actions">Tabletaren aukerak</string>
+    <string name="kg_failed_attempts_almost_at_login">"Desblokeatzeko eredua oker marraztu duzu %1$d aldiz. Beste %2$d aldiz oker marrazten baduzu, tableta posta-kontu baten bidez desblokeatzeko eskatuko dizugu.
+
+ Saiatu berriro %3$d segundo barru."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Tableta desblokeatzen saiatu zara %1$d aldiz. Beste %2$d saiakera okerren ondoren, jatorrizko ezarpen lehenetsiak berrezarriko dira tabletan eta erabiltzaile-datu guztiak galduko dira.</string>
+    <string name="kg_failed_attempts_now_wiping">Tableta desblokeatzen saiatu zara %d aldiz. Jatorrizko ezarpen lehenetsiak berrezarriko dira.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Tableta %1$d aldiz desblokeatzen saiatu zara. Beste %2$d aldiz huts egiten baduzu, fabrikako ezarpen lehenetsiak berrezarriko dira eta datu guztiak galduko dituzu.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Desblokeatzeko eredua oker marraztu duzu %1$d aldiz. Beste %2$d aldiz idazten baduzu oker, tableta desblokeatzeko, Google-n saioa hasteko kredentzialak erabiltzea eskatuko dizugu.
+
+ Saiatu berriro %3$d segundo barru."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Tableta %d aldiz desblokeatzen saiatu zara. Orain, fabrikako ezarpen lehenetsiak berrezarriko dira.</string>
+    <string name="lockscreen_missing_sim_message">Ez dago SIMik tabletan.</string>
+    <string name="low_memory">Tabletaren memoria beteta dago. Tokia egiteko, ezabatu fitxategi batzuk.</string>
+    <string name="permdesc_bluetooth">Tabletaren Bluetooth konfigurazioa ikusteko eta parekatutako gailuekin konexioak egiteko eta onartzeko baimena ematen dio aplikazioari.</string>
+    <string name="permdesc_bluetoothAdmin">Tokiko Bluetooth tableta konfiguratzeko eta urruneko gailuak detektatzeko eta haiekin parekatzeko baimena ematen dio aplikazioari.</string>
+    <string name="permdesc_broadcastSticky">Igorpen iraunkorrak emateko baimena ematen dio aplikazioari; horiek igorpena amaitu ondoren mantentzen dira. Gehiegi erabiliz gero, tableta motel edo ezegonkor ibiliko da, memoria gehiago erabiliko delako.</string>
+    <string name="permdesc_changeWifiMulticastState">Wifi sarearen bidez gailu guztiei bidalitako paketeak jasotzeko baimena ematen dio aplikazioari multidifusio-helbideak erabilita, ez tableta soilik. Multidifusiokoa ez den moduak baino bateria gehiago erabiltzen du.</string>
+    <string name="permdesc_changeWimaxState">Tableta WiMAX sareetara konektatzeko edo haietatik deskonektatzeko baimena ematen dio aplikazioari.</string>
+    <string name="permdesc_getAccounts">Tabletak ezagutzen dituen kontuen zerrenda lortzeko baimena ematen dio aplikazioari. Instalatuta dauzkazun aplikazioek sortutako kontuak har daitezke barnean.</string>
+    <string name="permdesc_persistentActivity">Bere zati batzuk memoria modu iraunkorrean ezartzeko baimena ematen dio aplikazioari. Horrela, beste aplikazioek erabilgarri duten memoria murritz daiteke eta tableta motel daiteke.</string>
+    <string name="permdesc_readCalendar">Aplikazioak tabletan biltegiratutako egutegiko gertaerak irakur ditzake eta egutegiko datuak parteka eta gorde ditzake.</string>
+    <string name="permdesc_readContacts">Tabletan biltegiratutako kontaktuei buruzko datuak irakurtzeko baimena ematen dio aplikazioari. Kontaktuak sortu dituzten tabletako kontuak ere atzitu ahalko ditu aplikazioak. Horrek barnean hartuko ditu instalatutako aplikazioak sortutako kontuak, agian. Baimen horrekin, kontaktuen datuak gorde ditzake aplikazioak, eta baliteke asmo txarreko aplikazioek zuk jakin gabe partekatzea datu horiek.</string>
+    <string name="permdesc_readSms">Aplikazioak tabletan gordetako SMS mezu (testu-mezu) guztiak irakur ditzake.</string>
+    <string name="permdesc_receiveBootCompleted">Sistema berrabiarazi bezain laster abiarazteko baimena ematen dio aplikazioari. Horrela, agian denbora gehiago beharko du tabletak abiarazteko, eta tabletaren funtzionamendu orokorra mantso daiteke, baimen hori duten aplikazioak beti abian egongo baitira.</string>
+    <string name="permdesc_setTimeZone">Tabletaren ordu-zona aldatzeko baimena ematen dio aplikazioari.</string>
+    <string name="permdesc_transmitIr">Tabletaren infragorri-igorlea erabiltzeko baimena ematen dio aplikazioari.</string>
+    <string name="permdesc_wakeLock">Tableta inaktibo ezartzea galarazteko baimena ematen dio aplikazioari.</string>
+    <string name="permdesc_writeCalendar">Tabletako gertaerak gehitzeko, kentzeko edo aldatzeko aukera du aplikazioak. Gainera, egutegien jabeenak diruditen mezuak bidal ditzake, eta gertaerak alda ditzake jabeei beraiei jakinarazi gabe.</string>
+    <string name="permdesc_writeCallLog">Tabletaren deien erregistroa aldatzeko baimena ematen dio aplikazioari, sarrerako eta irteerako deiei buruzko datuak barne. Asmo txarreko aplikazioek deien erregistroa ezabatzeko edo aldatzeko erabil dezakete.</string>
+    <string name="permdesc_writeContacts">Tabletan gordetako kontaktuei buruzko datuak aldatzeko baimena ematen dio aplikazioari. Baimen horrekin, aplikazioak kontaktuen datuak ezaba ditzake.</string>
+    <string name="permlab_wakeLock">eragotzi tableta inaktibo ezartzea</string>
+    <string name="policydesc_watchLogin">Kontrolatu pantaila desblokeatzen saiatzean idatzitako pasahitz oker kopurua, eta blokeatu tableta edo ezabatu bere datuak pasahitza gehiegitan oker idazten bada.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Kontrolatu pantaila desblokeatzen saiatzean idatzitako pasahitz oker kopurua, eta blokeatu tableta edo ezabatu erabiltzaile-datuak pasahitza gehiegitan oker idazten bada.</string>
+    <string name="policydesc_wipeData">Ezabatu tabletaren datuak abisatu gabe, jatorrizko datuak berrezarrita.</string>
+    <string name="policydesc_wipeData_secondaryUser">Ezabatu erabiltzaileak tabletan dituen datuak abisatu gabe.</string>
+    <string name="power_dialog">Tabletaren aukerak</string>
+    <string name="shutdown_confirm">Tableta itzali egingo da.</string>
+    <string name="vdm_camera_access_denied">Ezin da atzitu tabletaren kamera %1$s gailutik</string>
+</resources>

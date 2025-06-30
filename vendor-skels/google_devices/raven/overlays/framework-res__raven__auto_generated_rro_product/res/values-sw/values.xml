@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Sogeza kidole chako. Jaribu tena.</item>
+        <item>Tayari kidole hiki kimeandikishwa, tumia kidole tofauti.</item>
+        <item>Ubora duni wa picha. Jaribu tena.</item>
+        <item/>
+        <item>Ubora duni wa picha. Jaribu tena.</item>
+        <item/>
+        <item/>
+        <item>Imetambua doa, safisha skrini. Jaribu tena.</item>
+        <item>Imeshindwa kusoma picha. Jaribu tena.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Data duni. Jaribu tena.</item>
+        <item>Imeshindwa kuandikisha kidole. Jaribu tena.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Imeshindwa kutumia kitambua alama ya kidole. Tembelea mtoa huduma za urekebishaji au g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Tembelea mtoa huduma za urekebishaji au g.co/pixel/fingerprintunlock</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>ඔබගේ ඇඟිල්ල ගෙන යන්න. නැවත උත්සාහ කරන්න.</item>
+        <item>ඇඟිල්ල දැනටමත් ලියාපදිංචි කර ඇත, වෙනත් ඇඟිල්ලක් භාවිත කරන්න.</item>
+        <item>දුර්වල රූප ගුණත්වය. නැවත උත්සාහ කරන්න.</item>
+        <item/>
+        <item>දුර්වල රූප ගුණත්වය. නැවත උත්සාහ කරන්න.</item>
+        <item/>
+        <item/>
+        <item>දුමාරය අනාවරණ විය, තිරය පිරිසිදු කරන්න. නැවත උත්සාහ කරන්න.</item>
+        <item>රූපය කියවීම අසාර්ථකයි. නැවත උත්සාහ කරන්න.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>නරක දත්ත. නැවත උත්සාහ කරන්න.</item>
+        <item>ඇඟිල්ල ලියාපදිංචි කිරීම අසාර්ථක විය. නැවත උත්සාහ කරන්න.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">ඇඟිලි සලකුණු සංවේදකය භාවිත කළ නොහැකිය. අලුත්වැඩියා සැපයුම්කරු හෝ g.co/pixel/fingerprintunlock වෙත පිවිසෙන්න</string>
+    <string name="fingerprint_recalibrate_notification_content">අලුත්වැඩියා සැපයුම්කරු හෝ g.co/pixel/fingerprintunlock වෙත පිවිසෙන්න</string>
+</resources>

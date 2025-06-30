@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">အားသွင်းသည့်အသံများ</string>
+    <string name="edge_to_edge_navigation_summary">ပင်မစာမျက်နှာသို့ သွားရန် အောက်ခြေမှ အပေါ်သို့ အမြန်ပွတ်ဆွဲပါ။ Taskbar သုံးရန် အောက်ခြေမှ အပေါ်သို့ ဖြည်းဖြည်းပွတ်ဆွဲပါ။ အက်ပ်များအကြား ပြောင်းရန် ဖန်သားပြင်အောက်မှ အပေါ်သို့ပွတ်ဆွဲ၍ ဖိထားပြီးနောက် လွှတ်လိုက်ပါ။ ပြန်သွားရန် ဘယ်အစွန် (သို့) ညာအစွန်မှ ပွတ်ဆွဲပါ။</string>
+    <string name="fast_pair_device_not_found_other_device_description">ဤစက်ပစ္စည်းကို သင့် Pixel Tablet နှင့် ပိုနီးအောင်ရွှေ့ပြီး ထပ်စမ်းကြည့်ပါ။</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">နားကြပ်ဘူးဖွင့်ကာ ၎င်းကို သင့် Pixel Tablet နှင့် ပိုနီးအောင်ရွှေ့ပြီး ထပ်စမ်းကြည့်ပါ။</string>
+    <string name="sound_dashboard_summary">အသံအတိုးအကျယ်</string>
+    <string name="sound_dashboard_summary_with_dnd">အသံအတိုးအကျယ်၊ မနှောင့်ယှက်ရ</string>
+    <string name="sound_settings">အသံ</string>
+</resources>

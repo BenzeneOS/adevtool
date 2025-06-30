@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_buttonTextAllCaps">false</bool>
+    <bool name="config_fingerprintSupportsGestures">true</bool>
+    <bool name="config_safetyProtectionEnabled">true</bool>
+    <bool name="config_supportDoubleTapSleep">true</bool>
+    <bool name="config_supportLongPressPowerWhenNonInteractive">true</bool>
+    <bool name="config_supportsCamToggle">true</bool>
+    <bool name="config_supportsMicToggle">true</bool>
+    <bool name="config_swipe_up_gesture_setting_available">true</bool>
+    <bool name="config_systemCaptionsServiceCallsEnabled">true</bool>
+    <dimen name="config_bottomDialogCornerRadius">16.0dp</dimen>
+    <dimen name="config_buttonCornerRadius">4.0dp</dimen>
+    <dimen name="config_dialogCornerRadius">28.0dp</dimen>
+    <dimen name="config_highResTaskSnapshotScale">0.8</dimen>
+    <dimen name="config_progressBarCornerRadius">1000.0dp</dimen>
+    <integer name="config_maximumCallLogEntriesPerSim">1000</integer>
+    <string name="android_start_title">Pixel is starting…</string>
+    <string name="android_upgrading_title">Pixel is updating…</string>
+    <string name="config_ambientContextEventArrayExtraKey">EVENT_ARRAY</string>
+    <string name="config_ambientContextPackageNameExtraKey">PACKAGE_NAME</string>
+    <string name="config_icon_mask">M50 0C77.6 0 100 22.4 100 50C100 77.6 77.6 100 50 100C22.4 100 0 77.6 0 50C0 22.4 22.4 0 50 0Z</string>
+</resources>

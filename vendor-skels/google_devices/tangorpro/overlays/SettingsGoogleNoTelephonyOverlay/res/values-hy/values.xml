@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wi‑Fi</string>
+    <string name="non_carrier_data_usage">Թրաֆիկի օգտագործումը Wi-Fi-ի միջոցով</string>
+    <string name="tether_settings_title_all">Մոդեմի ռեժիմ</string>
+    <string name="tethering_footer_info">Օգտագործեք մոդեմի ռեժիմը՝ այլ սարքերը USB-ի, Ethernet-ի կամ Bluetooth-ի միջոցով ինտերնետին միացնելու համար։</string>
+</resources>

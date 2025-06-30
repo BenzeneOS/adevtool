@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Kies een screensaver en zet handsfree hulp aan als je tablet is gedockt</string>
+    <string name="dock_setup_notification_title">Doe meer als je tablet is gedockt</string>
+    <string name="stylus_system_update_notification_text">Installeer de nieuwste Android-update om het maximale uit je stylus te halen</string>
+    <string name="stylus_system_update_notification_title">Android-update installeren</string>
+</resources>

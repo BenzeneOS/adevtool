@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="def_dock_sounds_enabled">1</integer>
+    <integer name="def_screen_off_timeout">120000</integer>
+</resources>

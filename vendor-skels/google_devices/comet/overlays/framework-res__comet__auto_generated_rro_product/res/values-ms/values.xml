@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">Pastikan jari anda meliputi penderia</string>
+    <string name="fingerprint_acquired_power_press">Untuk meneruskan persediaan, sentuh lembut penderia</string>
+    <string name="fingerprint_acquired_too_fast">Letakkan jari lebih lama pada penderia</string>
+    <string name="fingerprint_error_power_pressed">Pengesahan tamat. Cuba sentuh dengan lembut selepas ini.</string>
+</resources>

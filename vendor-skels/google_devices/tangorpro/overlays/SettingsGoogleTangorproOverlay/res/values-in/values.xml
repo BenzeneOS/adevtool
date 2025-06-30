@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Suara pengisian daya</string>
+    <string name="edge_to_edge_navigation_summary">Untuk kembali ke layar utama, geser dari bawah ke atas dengan cepat. Untuk mengakses Taskbar, geser dari bawah ke atas dengan lambat. Untuk beralih aplikasi, geser dari bawah ke atas, tahan, lalu lepas. Untuk kembali, geser dari tepi kiri atau kanan.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Dekatkan perangkat ini ke Pixel Tablet dan coba lagi.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Buka casing earbud dan dekatkan ke Pixel Tablet, lalu coba lagi.</string>
+    <string name="sound_dashboard_summary">Volume</string>
+    <string name="sound_dashboard_summary_with_dnd">Volume, Jangan Ganggu</string>
+    <string name="sound_settings">Suara</string>
+</resources>

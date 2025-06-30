@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="high_intensity">1.8</string>
+    <string name="low_intensity">0.7</string>
+    <string name="medium_intensity">1.0</string>
+</resources>

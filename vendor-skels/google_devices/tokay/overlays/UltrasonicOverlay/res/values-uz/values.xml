@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Ekranning sensorga yaqin qismini tozalang</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Ekrandagi dogʻ va chiziqlarni artib tozalang. Bu barmoq izini tiniqroq yozib olishga yordam beradi.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Davom etishdan avval ekranni tozalang</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Agar sizda ekran himoyasi bor boʻlsa, yaxshi ishlashi uchun barmoq izini sozlashdan oldin uni taqing.
+
+Eng yaxshi natijaga erishish uchun Made for Google sertifikatli ekran himoyasidan foydalaning. Boshqa ekran himoyasida barmoq izi ishlamasligi mumkin."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">Barmogʻingizni buring va uchi bilan tegining</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Barmogʻingizni buring va chap qirrasi bilan tegining</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Yana buring va oʻng qirrasi bilan tegining</string>
+</resources>

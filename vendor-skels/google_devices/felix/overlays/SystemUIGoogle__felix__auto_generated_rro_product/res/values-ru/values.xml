@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_dialog_touch_sensor">Слегка коснитесь сканера отпечатков пальцев.</string>
+    <string name="settingslib_learn_more_text">Подробнее о разблокировке по отпечатку пальца</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Hub mode</string>
+    <string name="dream_no_screen_saver_caption">No screen saver</string>
+    <string name="dream_no_screen_saver_description">To save energy, your screen will turn off after inactivity</string>
+    <string name="dream_no_screen_saver_preview_caption">Eco-friendly</string>
+    <string name="dream_secondary_button_title">Skip</string>
+    <string name="screensaver_settings_summary_dock_and_charging">While docked and charging</string>
+    <string name="screensaver_settings_summary_off">Show favorite photos, artwork, clocks, and more when idle</string>
+    <string name="screensaver_settings_summary_postured_and_charging">While upright and charging</string>
+    <string name="screensaver_settings_summary_sleep">While charging</string>
+    <string name="when_to_show_hubmode_charging">While charging</string>
+    <string name="when_to_show_hubmode_docked">While docked</string>
+    <string name="when_to_show_hubmode_never">Never</string>
+</resources>

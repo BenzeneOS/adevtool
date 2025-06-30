@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Տեղաշարժեք մատը և նորից փորձեք։</item>
+        <item>Մատնահետքն արդեն գրանցված է։ Օգտագործեք մեկ ուրիշ մատ։</item>
+        <item>Պատկերի որակը ցածր է։ Նորից փորձեք։</item>
+        <item/>
+        <item>Պատկերի որակը ցածր է։ Նորից փորձեք։</item>
+        <item/>
+        <item/>
+        <item>Էկրանը կեղտոտ է։ Մաքրեք այն և նորից փորձեք։</item>
+        <item>Չհաջողվեց ընթերցել պատկերը։ Նորից փորձեք։</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Տվյալները սխալ են։ Նորից փորձեք։</item>
+        <item>Չհաջողվեց գրանցել մատնահետքը։ Նորից փորձեք։</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Մատնահետքերի սկաները հնարավոր չէ օգտագործել։ Այցելեք սպասարկման կենտրոն կամ g.co/pixel/fingerprintunlock էջ։</string>
+    <string name="fingerprint_recalibrate_notification_content">Այցելեք սպասարկման կենտրոն կամ g.co/pixel/fingerprintunlock էջ։</string>
+</resources>

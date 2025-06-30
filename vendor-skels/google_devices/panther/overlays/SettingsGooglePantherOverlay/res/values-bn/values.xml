@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">পাসওয়ার্ড • আঙ্গুলের ছাপ • মুখ</string>
+    <string name="biometrics_unlock_set_unlock_pattern">প্যাটার্ন • আঙ্গুলের ছাপ • মুখ</string>
+    <string name="biometrics_unlock_set_unlock_pin">পিন • আঙ্গুলের ছাপ • মুখ</string>
+</resources>

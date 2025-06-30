@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">ពាក្យសម្ងាត់ • ស្នាមម្រាមដៃ • មុខ</string>
+    <string name="biometrics_unlock_set_unlock_pattern">លំនាំ • ស្នាមម្រាមដៃ • មុខ</string>
+    <string name="biometrics_unlock_set_unlock_pin">កូដ PIN • ស្នាមម្រាមដៃ • មុខ</string>
+</resources>

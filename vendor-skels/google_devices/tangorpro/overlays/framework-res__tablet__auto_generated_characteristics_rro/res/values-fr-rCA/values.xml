@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Démarrage de la tablette en cours…</string>
+    <string name="android_upgrading_title">Mise à jour de la tablette en cours…</string>
+    <string name="app_streaming_blocked_message">"Impossible d'accéder à ce contenu sur votre %1$s pour le moment. Essayez sur votre tablette à la place."</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Cette appli demande une sécurité supplémentaire. Essayez sur votre tablette à la place.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">"Cette appli demande des autorisations supplémentaires, mais les autorisations ne peuvent pas être accordées lors d'une session de diffusion en continu. Accordez l'autorisation sur votre tablette d'abord."</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">"Impossible d'accéder à ce contenu sur votre %1$s. Essayez sur votre tablette à la place."</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Paramètres de la tablette non accessibles</string>
+    <string name="battery_saver_charged_notification_summary">La tablette est suffisamment chargée. Ces fonctionnalités ne sont plus restreintes.</string>
+    <string name="default_audio_route_name">Tablette</string>
+    <string name="enable_explore_by_touch_warning_message">"%1$s souhaite activer la fonctionnalité \"Explorer au toucher\". Lorsque celle-ci est activée, vous pouvez entendre ou voir les descriptions des éléments que vous sélectionnez, ou bien interagir avec la tablette en effectuant certains gestes."</string>
+    <string name="global_actions">Options de la tablette</string>
+    <string name="kg_failed_attempts_almost_at_login">"Vous avez dessiné un schéma de déverrouillage incorrect à %1$d reprises. Si vous échouez encore %2$d fois, vous devrez déverrouiller votre tablette à l'aide d'un compte de messagerie électronique.
+
+ Veuillez réessayer dans %3$d secondes."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">"Vous avez tenté de déverrouiller la tablette de façon incorrecte à %1$d reprises. Si vous échouez encore %2$d fois, ses paramètres par défaut seront rétablis, et toutes les données d'utilisateur seront perdues."</string>
+    <string name="kg_failed_attempts_now_wiping">Vous avez tenté de déverrouiller la tablette de façon incorrecte à %d reprises. Ses paramètres par défaut vont être rétablis.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">"Vous avez tenté de déverrouiller la tablette de façon incorrecte à %1$d reprises. Si vous échouez encore %2$d fois, ses paramètres par défaut seront rétablis, et toutes les données d'utilisateur seront perdues."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Vous avez dessiné un schéma de déverrouillage incorrect à %1$d reprises. Au bout de %2$d échecs supplémentaires, vous devrez déverrouiller votre tablette à l'aide de votre identifiant Google.
+
+Veuillez réessayer dans %3$d secondes."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Vous avez tenté de déverrouiller la tablette de façon incorrecte à %d reprises. Ses paramètres par défaut vont être rétablis.</string>
+    <string name="lockscreen_missing_sim_message">Aucune carte SIM ne se trouve dans la tablette.</string>
+    <string name="low_memory">"La mémoire de la tablette est pleine. Supprimez des fichiers pour libérer de l'espace."</string>
+    <string name="permdesc_bluetooth">"Permet à l'appli d'accéder à la configuration du Bluetooth sur la tablette, et d'établir et accepter des connexions avec les appareils associés."</string>
+    <string name="permdesc_bluetoothAdmin">"Permet à l'appli de configurer la tablette Bluetooth locale, d'identifier des appareils distants et de les associer à la tablette."</string>
+    <string name="permdesc_broadcastSticky">"Permet à l'appli d'envoyer des intentions de diffusion \"persistantes\", qui perdurent une fois la diffusion terminée. Une utilisation excessive peut ralentir la tablette ou la rendre instable en l'obligeant à utiliser trop de mémoire."</string>
+    <string name="permdesc_changeWifiMulticastState">"Permet à l'appli de recevoir des paquets envoyés à tous les appareils (et pas seulement à votre tablette) d'un réseau Wi-Fi qui utilise des adresses de multidiffusion. Cette autorisation entraîne une consommation d'énergie supérieure au mode de diffusion simple."</string>
+    <string name="permdesc_changeWimaxState">"Permet à l'appli de connecter la tablette aux réseaux WiMAX et de l'en déconnecter."</string>
+    <string name="permdesc_getAccounts">"Permet à l'appli d'obtenir la liste des comptes connus par la tablette. Il peut s'agir de n'importe quel compte créé par les applis que vous avez installées."</string>
+    <string name="permdesc_persistentActivity">"Permet à l'appli de rendre certains de ces composants persistants dans la mémoire. Cette autorisation peut limiter la mémoire disponible pour d'autres applis et ralentir la tablette."</string>
+    <string name="permdesc_readCalendar">"Cette appli peut lire tous les événements d'agenda stockés sur votre tablette et partager ou enregistrer les données de votre agenda."</string>
+    <string name="permdesc_readContacts">"Permet à l'appli de lire les données relatives aux contacts stockés sur votre tablette. Les applis auront aussi accès aux comptes sur votre tablette qui ont créé des contacts. Cela peut comprendre des comptes créés par des applis que vous avez installées. Cette autorisation permet aux applis d'enregistrer ces données. Les applis malveillantes peuvent les partager à votre insu."</string>
+    <string name="permdesc_readSms">Cette appli peut lire tous les messages texte stockés sur votre tablette.</string>
+    <string name="permdesc_receiveBootCompleted">"Permet à l'appli de se lancer une fois le démarrage du système terminé. Elle peut rallonger le temps de démarrage de la tablette et ralentir son fonctionnement global en raison de son exécution continue."</string>
+    <string name="permdesc_setTimeZone">"Permet à l'appli de modifier le fuseau horaire de la tablette."</string>
+    <string name="permdesc_transmitIr">"Permet à l'appli d'utiliser l'émetteur infrarouge de la tablette."</string>
+    <string name="permdesc_wakeLock">"Permet à l'appli d'empêcher la tablette de passer en mode veille."</string>
+    <string name="permdesc_writeCalendar">"Cette appli peut ajouter, supprimer et modifier des événements d'agenda sur votre tablette. Elle peut aussi envoyer des messages qui pourraient sembler venir des propriétaires d'agenda en question ou modifier des événements sans avertir leur propriétaire."</string>
+    <string name="permdesc_writeCallLog">"Permet à l'appli de lire le journal d'appels de votre tablette, y compris les données relatives aux appels entrants et sortants. Des applis malveillantes peuvent utiliser cette fonctionnalité pour effacer ou modifier votre journal d'appels."</string>
+    <string name="permdesc_writeContacts">"Permet à l'appli de modifier les données relatives aux contacts stockés sur votre tablette. Cette autorisation permet aux applis de supprimer des données relatives aux contacts."</string>
+    <string name="permlab_wakeLock">empêcher la tablette de passer en mode veille</string>
+    <string name="policydesc_watchLogin">"Contrôler le nombre de mots de passe incorrects saisis pour le déverrouillage de l'écran, puis verrouiller la tablette ou effacer toutes ses données si le nombre maximal de tentatives de saisie du mot de passe est atteint"</string>
+    <string name="policydesc_watchLogin_secondaryUser">"Surveille le nombre de mots de passe incorrects entrés lors du déverrouillage de l'écran et verrouille la tablette ou efface toutes les données de l'utilisateur en cas d'un nombre trop élevé de tentatives."</string>
+    <string name="policydesc_wipeData">Effacer les données de la tablette sans avertissement, en rétablissant les paramètres par défaut</string>
+    <string name="policydesc_wipeData_secondaryUser">"Effacer les données de l'utilisateur sur cette tablette sans avertissement."</string>
+    <string name="power_dialog">Options de la tablette</string>
+    <string name="shutdown_confirm">"Votre tablette va s'éteindre."</string>
+    <string name="vdm_camera_access_denied">"Impossible d'accéder à l'appareil photo de la tablette à partir de votre %1$s"</string>
+</resources>

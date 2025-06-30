@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Кейбір мазмұн үшін жаңарту жиілігі 60-тан 120 Гц-ке дейін автоматты түрде артады. Мұндайда батарея заряды тезірек таусылады.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">To go home, quick-swipe up from the bottom. To access the Taskbar, slow-swipe up from the bottom. To switch apps, swipe up from the bottom, hold, and release. To go back, swipe from the left or right edge.</string>
+    <string name="setting_auto_rotate_folded">Auto-rotate when folded</string>
+    <string name="setting_auto_rotate_unfolded">Auto-rotate when unfolded</string>
+</resources>

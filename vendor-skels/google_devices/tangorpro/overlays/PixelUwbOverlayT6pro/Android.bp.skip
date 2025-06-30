@@ -1,0 +1,1 @@
+runtime_resource_overlay { name: "PixelUwbOverlayT6pro", product_specific: true, }

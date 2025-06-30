@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Tablet sedang dimulakan…</string>
+    <string name="android_upgrading_title">Tablet sedang mengemas kini…</string>
+    <string name="app_streaming_blocked_message">Aplikasi ini tidak boleh diakses pada %1$s anda pada masa ini. Cuba pada tablet anda.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Apl ini meminta keselamatan tambahan. Cuba pada tablet anda.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Apl ini meminta kebenaran tambahan tetapi kebenaran tidak boleh diberikan dalam sesi penstriman. Berikan kebenaran pada tablet anda dahulu.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Apl ini tidak boleh diakses pada %1$s anda. Cuba pada tablet anda.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Tetapan tablet tidak tersedia</string>
+    <string name="battery_saver_charged_notification_summary">Cas tablet mencukupi. Ciri tidak lagi dihadkan.</string>
+    <string name="default_audio_route_name">Tablet</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s ingin mendayakan Teroka melalui Sentuhan. Apabila Teroka melalui Sentuhan didayakan, anda boleh mendengar atau melihat penerangan tentang apa-apa di bawah jari anda atau melakukan gerak isyarat untuk berinteraksi dengan tablet.</string>
+    <string name="global_actions">Pilihan tablet</string>
+    <string name="kg_failed_attempts_almost_at_login">"Anda telah tersilap melukis corak buka kunci sebanyak %1$d kali. Selepas %2$d lagi percubaan yang tidak berjaya, anda akan diminta membuka kunci tablet anda menggunakan log masuk Google anda.
+
+ Cuba lagi dalam %3$d saat."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Anda telah mencuba untuk membuka kunci tablet dengan salah sebanyak %1$d kali. Selepas %2$d lagi percubaan yang tidak berjaya, tablet akan ditetapkan semula kepada tetapan lalai kilang dan semua data pengguna akan hilang.</string>
+    <string name="kg_failed_attempts_now_wiping">Anda telah mencuba untuk membuka kunci tablet secara salah sebanyak %d kali. Tablet kini akan ditetapkan semula ke tetapan lalai kilang.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Anda telah mencuba untuk membuka kunci tablet dengan salah sebanyak %1$d kali. Selepas %2$d lagi percubaan yang tidak berjaya, tablet akan ditetapkan semula kepada tetapan lalai kilang dan semua data pengguna akan hilang.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Anda telah tersilap melukis corak buka kunci sebanyak %1$d kali. Selepas %2$d lagi percubaan yang tidak berjaya, anda akan diminta membuka kunci tablet anda menggunakan log masuk Google anda.
+
+ Cuba lagi dalam %3$d saat."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Anda telah mencuba untuk membuka kunci tablet secara salah sebanyak %d kali. Tablet kini akan ditetapkan semula ke tetapan lalai kilang.</string>
+    <string name="lockscreen_missing_sim_message">Tiada SIM dalam tablet.</string>
+    <string name="low_memory">Storan tablet penuh. Padamkan beberapa fail untuk mengosongkan ruang.</string>
+    <string name="permdesc_bluetooth">Membenarkan apl melihat konfigurasi Bluetooth pada tablet dan untuk membuat serta menerima sambungan dengan peranti yang dipasangkan.</string>
+    <string name="permdesc_bluetoothAdmin">Membenarkan apl mengkonfigurasikan tablet Bluetooth setempat dan menemui serta berpasangan dengan peranti jauh.</string>
+    <string name="permdesc_broadcastSticky">Membenarkan apl untuk menghantar siaran melekit, yang kekal selepas siaran berakhir. Penggunaan berlebihan boleh membuatkan tablet perlahan atau tidak stabil kerana menggunakan terlalu banyak memori.</string>
+    <string name="permdesc_changeWifiMulticastState">Membenarkan apl menerima paket yang dihantar kepada semua peranti pada rangkaian Wi-Fi menggunakan alamat multisiar, bukan hanya tablet anda. Apl menggunakan lebih kuasa berbanding mod bukan multisiar.</string>
+    <string name="permdesc_changeWimaxState">Membenarkan apl untuk menyambungkan tablet ke dan menyahsambungkan tablet dari rangkaian WiMaX.</string>
+    <string name="permdesc_getAccounts">Membenarkan apl mendapatkan senarai akaun yang dikenali oleh tablet. Ini mungkin termasuk sebarang akaun yang dibuat oleh aplikasi yang telah anda pasang.</string>
+    <string name="permdesc_persistentActivity">Membenarkan apl untuk membuat sebahagian dirinya berterusan dalam memori. Ini boleh mengehadkan memori yang tersedia kepada apl lain dan menjadikan tablet perlahan.</string>
+    <string name="permdesc_readCalendar">Apl ini boleh membaca semua acara kalendar yang disimpan pada tablet anda dan berkongsi atau menyimpan data kalendar anda.</string>
+    <string name="permdesc_readContacts">Membenarkan apl membaca data tentang kenalan anda yang tersimpan pada tablet anda. Apl juga akan mempunyai akses kepada akaun pada tablet anda yang telah dibuat kenalan. Ini mungkin termasuk akaun yang dibuat oleh apl yang telah anda pasang. Kebenaran ini membolehkan apl menyimpan data kenalan anda dan apl hasad mungkin berkongsi data kenalan tanpa pengetahuan anda.</string>
+    <string name="permdesc_readSms">Apl ini boleh membaca semua mesej SMS (teks) yang disimpan pada tablet anda.</string>
+    <string name="permdesc_receiveBootCompleted">Membenarkan apl untuk memulakan dirinya sendiri sebaik sahaja sistem selesai mengebut. Ini boleh membuat masa untuk menghidupkan tablet menjadi lebih lama dan membenarkan apl untuk memperlahankan keseluruhan tablet dengan sentiasa berjalan.</string>
+    <string name="permdesc_setTimeZone">Membenarkan apl menukar zon waktu tablet.</string>
+    <string name="permdesc_transmitIr">Membenarkan apl menggunakan pemancar inframerah tablet.</string>
+    <string name="permdesc_wakeLock">Membenarkan apl menghalang tablet daripada tidur.</string>
+    <string name="permdesc_writeCalendar">Apl ini boleh menambah, mengalih keluar atau mengubah acara kalendar pada tablet anda. Apl ini boleh menghantar mesej yang mungkin kelihatan seperti dihantar oleh pemilik kalendar atau mengubah acara tanpa memaklumi pemilik acara itu.</string>
+    <string name="permdesc_writeCallLog">Membenarkan apl untuk mengubah suai panggilan tablet anda, termasuk data tentang panggilan masuk dan keluar. Apl hasad boleh menggunakannya untuk memadam atau mengubah suai log panggilan anda.</string>
+    <string name="permdesc_writeContacts">Membenarkan apl mengubah suai data tentang kenalan anda yang tersimpan pada tablet anda. Kebenaran ini membenarkan apl memadamkan data kenalan.</string>
+    <string name="permlab_wakeLock">menghalang tablet daripada tidur</string>
+    <string name="policydesc_watchLogin">Memantau bilangan kata laluan yang tersilap ditaip apabila membuka skrin, dan mengunci tablet atau memadam semua data tablet jika terlalu banyak kesilapan menaip kata laluan.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Pantau bilangan kata laluan tidak betul yang ditaip semasa membuka kunci skrin dan kunci tablet atau padam semua data pengguna ini jika terlalu banyak kata laluan yang tidak betul ditaip.</string>
+    <string name="policydesc_wipeData">Memadamkan data tablet tanpa amaran dengan melakukan tetapan semula data kilang.</string>
+    <string name="policydesc_wipeData_secondaryUser">Padam data pengguna ini pada tablet ini tanpa amaran.</string>
+    <string name="power_dialog">Pilihan tablet</string>
+    <string name="shutdown_confirm">Tablet anda akan dimatikan.</string>
+    <string name="vdm_camera_access_denied">Tidak dapat mengakses kamera tablet daripada %1$s anda</string>
+</resources>

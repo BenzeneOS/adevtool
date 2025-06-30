@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Tableti po niset…</string>
+    <string name="android_upgrading_title">Tableti po përditësohet…</string>
+    <string name="app_streaming_blocked_message">Qasja është e pamundur në %1$s për momentin. Provoje në tablet më mirë.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Ky aplikacion po kërkon siguri shtesë. Provoje në tablet më mirë.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Ky aplikacion po kërkon leje shtesë, por lejet nuk mund të jepen në një seancë transmetimi. Fillimisht jep lejen në tabletin tënd.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Qasja është e pamundur në %1$s. Provoje në tablet më mirë.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Cilësimet e tabletit nuk ofrohen</string>
+    <string name="battery_saver_charged_notification_summary">Tableti ka nivel të mjaftueshëm baterie. Funksionet nuk janë më të kufizuara.</string>
+    <string name="default_audio_route_name">Tablet</string>
+    <string name="enable_explore_by_touch_warning_message">"%1$s kërkon të aktivizojë funksionin \"Eksploro me prekje\". Kur aktivizohet \"Eksploro me prekje\", mund të dëgjosh ose të shohësh përshkrime se çfarë ka nën gishtin tënd ose të kryesh gjeste për të bashkëvepruar me tabletin."</string>
+    <string name="global_actions">Opsionet e tabletit</string>
+    <string name="kg_failed_attempts_almost_at_login">"E ke vizatuar gabimisht motivin tënd të shkyçjes %1$d herë. Pas %2$d tentativave të tjera të pasuksesshme do të të kërkohet ta shkyçësh tabletin duke përdorur një llogari mail-i.
+
+ Provo sërish për %3$d sekonda."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Ke tentuar %1$d herë pa sukses për ta shkyçur tabletin tënd. Pas %2$d tentativave të tjera të pasuksesshme, tableti do të rivendoset në gjendje fabrike dhe të gjitha të dhënat e përdoruesit do të humbasin.</string>
+    <string name="kg_failed_attempts_now_wiping">Ke tentuar %d herë pa sukses për ta shkyçur tabletin tënd. Tableti tani do të rivendoset në gjendje fabrike.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Ke tentuar %1$d herë pa sukses për ta shkyçur tabletin. Pas %2$d tentativave të tjera të pasuksesshme, tableti do të rivendoset në gjendjen e fabrikës dhe të gjitha të dhënat e përdoruesit do të humben.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Ke vizatuar %1$d herë gabimisht motivin tënd të shkyçjes. Pas %2$d tentativave të tjera të pasuksesshme, do të të kërkohet ta shkyçësh tabletin duke përdorur identifikimin në Google.
+
+ Provo sërish për %3$d sekonda."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Ke tentuar %d herë pa sukses për ta shkyçur tabletin tënd. Tableti tani do të rivendoset në gjendje fabrike.</string>
+    <string name="lockscreen_missing_sim_message">Nuk ka kartë SIM në tablet.</string>
+    <string name="low_memory">Hapësira ruajtëse e tabletit është plot. Fshi disa skedarë për të liruar hapësirë.</string>
+    <string name="permdesc_bluetooth">"Lejon aplikacionin të shikojë konfigurimin e \"bluetooth-it\" në tablet, të kryejë dhe të pranojë lidhje me pajisjet e çiftuara."</string>
+    <string name="permdesc_bluetoothAdmin">"Lejon aplikacionin të konfigurojë tabletin lokal me \"bluetooth\" dhe të zbulojë e çiftohet me pajisjet në distancë."</string>
+    <string name="permdesc_broadcastSticky">Lejon aplikacionin të dërgojë transmetime ngjitëse që qëndrojnë derisa të përfundojë transmetimi. Përdorimi i tepruar mund ta bëjë tabletin të ngadaltë ose të paqëndrueshëm duke e detyruar atë të përdorë shumë kujtesë.</string>
+    <string name="permdesc_changeWifiMulticastState">"Lejon aplikacionin të marrë paketa të dërguara në të gjitha pajisjet brenda një rrjeti Wi-Fi duke përdorur adresa me transferim të shumëfishtë, jo vetëm me tabletin tënd. Përdor më shumë energji se modaliteti \"jo me transferim të shumëfishtë\"."</string>
+    <string name="permdesc_changeWimaxState">Lejon aplikacionin ta lidhë tabletin dhe ta shkëpusë atë nga rrjetet WiMAX.</string>
+    <string name="permdesc_getAccounts">Lejon aplikacionin të marrë listën e llogarive të njohura nga tableti. Kjo mund të përfshijë çdo llogari të krijuar nga aplikacionet që ke instaluar.</string>
+    <string name="permdesc_persistentActivity">Lejon aplikacionin të zaptojë një pjesë të qëndrueshme në kujtesë. Kjo mund të kufizojë kujtesën e disponueshme për aplikacionet e tjera duke e ngadalësuar tabletin.</string>
+    <string name="permdesc_readCalendar">Ky aplikacion mund të lexojë të gjitha ngjarjet e kalendarit të ruajtura në tabletin tënd dhe të ndajë ose të ruajë të dhënat e kalendarit.</string>
+    <string name="permdesc_readContacts">Lejon aplikacionin të lexojë të dhëna për kontaktet e ruajtura në tabletin tënd. Aplikacionet do të kenë po ashtu qasje te llogaritë në tabletin tënd, të cilat i kanë krijuar kontaktet. Kjo mund të përfshijë llogaritë e krijuara nga aplikacionet që ke instaluar. Kjo leje lejon që aplikacionet të ruajnë të dhënat e tua të kontakteve dhe aplikacionet keqdashëse mund të ndajnë të dhëna të kontakteve pa dijeninë tënde.</string>
+    <string name="permdesc_readSms">Ky aplikacion mund të lexojë të gjitha mesazhet SMS (me tekst) të ruajtura në tabletin tënd.</string>
+    <string name="permdesc_receiveBootCompleted">Lejon aplikacionin të fillojë vetë sapo sistemi ka mbaruar nisjen. Kjo mund të zgjasë kohën e ngritjes së tabletit dhe të lejojë aplikacionin të ngadalësojë veprimtarinë në përgjithësi, duke qenë gjithmonë në punë.</string>
+    <string name="permdesc_setTimeZone">Lejon aplikacionin të ndryshojë brezin orar të tabletit.</string>
+    <string name="permdesc_transmitIr">Lejon aplikacionin të përdorë transmetuesin e rrezeve infra të kuqe të tabletit.</string>
+    <string name="permdesc_wakeLock">Lejon aplikacionin të parandalojë tabletin nga fjetja.</string>
+    <string name="permdesc_writeCalendar">Ky aplikacion mund të shtojë, të heqë ose të ndryshojë ngjarjet e kalendarit në tabletin tënd. Ky aplikacion mund të dërgojë mesazhe që mund të duket se vijnë nga zotëruesit e kalendarit ose të ndryshojë ngjarjet pa i njoftuar zotëruesit e tyre.</string>
+    <string name="permdesc_writeCallLog">Lejon aplikacionin të modifikojë ditarin e telefonatave të tabletit tënd, përfshirë të dhëna rreth telefonatave hyrëse dhe dalëse. Aplikacione keqdashëse mund ta përdorin këtë leje për të fshirë ose modifikuar ditarin tënd të telefonatave.</string>
+    <string name="permdesc_writeContacts">Lejon aplikacionin të modifikojë të dhënat rreth kontakteve të tua të ruajtura në tabletin tënd. Kjo leje lejon që aplikacionet të fshijnë të dhënat e kontakteve.</string>
+    <string name="permlab_wakeLock">parandalo kalimin e tabletit në fjetje</string>
+    <string name="policydesc_watchLogin">Monitoro numrin e fjalëkalimeve të shkruara gabim kur shkyç ekranin. Kyç tabletin ose fshi të gjitha të dhënat e tij, nëse shkruhen shumë fjalëkalime të pasakta.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Monitoro numrin e fjalëkalimeve të shkruara gabim kur shkyç ekranin. Kyçe tabletin ose spastro të gjitha të dhënat e këtij përdoruesi nëse shkruhen shumë fjalëkalime të gabuara.</string>
+    <string name="policydesc_wipeData">Fshi të dhënat e tabletit pa paralajmërim duke kryer një rivendosje të të dhënave në gjendje fabrike.</string>
+    <string name="policydesc_wipeData_secondaryUser">Spastroji të dhënat e këtij përdoruesi në këtë tablet pa paralajmërim.</string>
+    <string name="power_dialog">Opsionet e tabletit</string>
+    <string name="shutdown_confirm">Tableti yt do të fiket.</string>
+    <string name="vdm_camera_access_denied">Nuk mund të qasesh në kamerën e tabletit tënd nga %1$s</string>
+</resources>

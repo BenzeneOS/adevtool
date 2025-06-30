@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">ખાતરી કરો કે તમારી આંગળી સેન્સરને આવરી લે છે</string>
+    <string name="fingerprint_acquired_power_press">સેટઅપ ચાલુ રાખવા માટે, સેન્સરને હળવેથી ટચ કરો</string>
+    <string name="fingerprint_acquired_too_fast">સેન્સર પર તમારી આંગળી થોડો વધુ સમય રાખો</string>
+    <string name="fingerprint_error_power_pressed">ચકાસણી સમાપ્ત થઈ. આગલી વખતે હળવેથી ટચ કરવાનો પ્રયાસ કરજો.</string>
+</resources>

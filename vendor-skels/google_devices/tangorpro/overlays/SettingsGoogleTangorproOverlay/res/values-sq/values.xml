@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Tingujt e karikimit</string>
+    <string name="edge_to_edge_navigation_summary">"Për të shkuar tek ekrani bazë, rrëshqit shpejt lart nga fundi. Për t'u qasur te \"Shiriti i detyrave\", rrëshqit ngadalë lart nga fundi. Për të ndërruar aplikacionet, rrëshqit lart nga fundi, mbaje dhe lëshoje. Për të shkuar prapa, rrëshqit nga skaji i majtë ose i djathtë."</string>
+    <string name="fast_pair_device_not_found_other_device_description">Afroje këtë pajisje me Pixel Tablet dhe provo përsëri.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Hap kasën e kufjeve të vogla, afroje me Pixel Tablet dhe provo përsëri.</string>
+    <string name="sound_dashboard_summary">Volumi</string>
+    <string name="sound_dashboard_summary_with_dnd">"Volumi, \"Mos shqetëso\""</string>
+    <string name="sound_settings">Tingulli</string>
+</resources>

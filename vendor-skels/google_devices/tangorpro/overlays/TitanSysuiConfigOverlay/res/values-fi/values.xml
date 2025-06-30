@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Valitse näytönsäästäjä ja laita ääniohjattu apu päälle, kun tabletti on telineessä</string>
+    <string name="dock_setup_notification_title">Tee enemmän, kun laite on telineessä</string>
+    <string name="stylus_system_update_notification_text">Saat parhaan hyödyn näyttökynästä, kun asennat uusimman Android-päivityksen</string>
+    <string name="stylus_system_update_notification_title">Android-päivityksen asentaminen</string>
+</resources>

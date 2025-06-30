@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Premaknite prst. Poskusite znova.</item>
+        <item>Prst je že prijavljen. Uporabite drug prst.</item>
+        <item>Slaba kakovost slike. Poskusite znova.</item>
+        <item/>
+        <item>Slaba kakovost slike. Poskusite znova.</item>
+        <item/>
+        <item/>
+        <item>Zaznan je madež. Očistite zaslon. Poskusite znova.</item>
+        <item>Slike ni bilo mogoče prebrati. Poskusite znova.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Neveljavni podatki. Poskusite znova.</item>
+        <item>Prijava prsta ni uspela. Poskusite znova.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Tipala prstnih odtisov ni mogoče uporabiti. Obiščite ponudnika popravil ali spletno stran g.co/pixel/fingerprintunlock.</string>
+    <string name="fingerprint_recalibrate_notification_content">Obiščite ponudnika popravil ali spletno stran g.co/pixel/fingerprintunlock.</string>
+</resources>

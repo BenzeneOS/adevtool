@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Kontrol-zentro modua</string>
+    <string name="dream_no_screen_saver_caption">Ez dago pantaila-babeslerik</string>
+    <string name="dream_no_screen_saver_description">Energia aurrezte aldera, pantaila itzali egingo da jarduerarik ez badago</string>
+    <string name="dream_no_screen_saver_preview_caption">Ekologikoa</string>
+    <string name="dream_secondary_button_title">Saltatu</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Oinarrian kargatu bitartean</string>
+    <string name="screensaver_settings_summary_off">Erakutsi gogoko dituzun argazkiak, artelanak, erlojuak eta abar gailua inaktibo dagoenean</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Tente eta kargatzen dagoenean</string>
+    <string name="screensaver_settings_summary_sleep">Kargatzen ari denean</string>
+    <string name="when_to_show_hubmode_charging">Kargatzen ari denean</string>
+    <string name="when_to_show_hubmode_docked">Oinarrian dagoenean</string>
+    <string name="when_to_show_hubmode_never">Inoiz ez</string>
+</resources>

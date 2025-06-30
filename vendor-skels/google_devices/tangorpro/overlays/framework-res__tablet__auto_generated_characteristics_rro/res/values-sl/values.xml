@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Tablični računalnik se zaganja …</string>
+    <string name="android_upgrading_title">Tablični računalnik se posodablja …</string>
+    <string name="app_streaming_blocked_message">V napravi %1$s trenutno ni mogoče dostopati do te vsebine. Poskusite s tabličnim računalnikom.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Ta aplikacija zahteva dodatno varnost. Poskusite s tabličnim računalnikom.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Ta aplikacija zahteva dodatna dovoljenja, vendar teh ni mogoče odobriti med sejo pretočnega predvajanja. Dovoljenje najprej odobrite v tabličnem računalniku.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">V napravi %1$s ni mogoče dostopati do te vsebine. Poskusite s tabličnim računalnikom.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Nastavitve tabličnega računalnika niso na voljo</string>
+    <string name="battery_saver_charged_notification_summary">Baterija v tabličnem računalniku je dovolj napolnjena. Funkcije niso več omejene.</string>
+    <string name="default_audio_route_name">Tablični računalnik</string>
+    <string name="enable_explore_by_touch_warning_message">Storitev %1$s želi omogočiti raziskovanje z dotikom. Ko je raziskovanje z dotikom vklopljeno, lahko slišite ali vidite opise tega, kar je pod vašim prstom, ali izvajate poteze za interakcijo s tabličnim računalnikom.</string>
+    <string name="global_actions">Možnosti tabličnega računalnika</string>
+    <string name="kg_failed_attempts_almost_at_login">"Vzorec za odklepanje ste %1$d-krat napačno vnesli. Po nadaljnjih %2$d neuspešnih poskusih boste pozvani, da tablični računalnik odklenete z e-poštnim računom.
+
+Poskusite znova čez %3$d s."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Tablični računalnik ste poskusili %1$d-krat napačno odkleniti. Če poskusite še %2$d-krat in ne uspete, bo ponastavljen na privzete tovarniške nastavitve in vsi uporabniški podatki bodo izgubljeni.</string>
+    <string name="kg_failed_attempts_now_wiping">Tablični računalnik ste poskusili %d-krat napačno odkleniti, zato bo ponastavljen na privzete tovarniške nastavitve.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Tablični računalnik ste poskusili %1$d-krat nepravilno odkleniti. Če poskusite še %2$d-krat in ne uspete, bo ponastavljen na privzete tovarniške nastavitve, vsi uporabniški podatki pa bodo izbrisani.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Vzorec za odklepanje ste nepravilno vnesli %1$d-krat. Po %2$d neuspešnih poskusih boste pozvani, da odklenete tablični računalnik z Googlovimi podatki za prijavo.
+
+Poskusite znova čez %3$d s."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Tablični računalnik ste poskusili %d-krat nepravilno odkleniti, zato bo zdaj ponastavljen na privzete tovarniške nastavitve.</string>
+    <string name="lockscreen_missing_sim_message">V tabličnem računalniku ni kartice SIM.</string>
+    <string name="low_memory">Pomnilnik tabličnega računalnika je poln. Izbrišite nekaj datotek, da sprostite prostor.</string>
+    <string name="permdesc_bluetooth">Aplikaciji omogoča ogled konfiguracije Bluetootha tabličnega računalnika ter vzpostavljanje in sprejemanje povezave s seznanjenimi napravami.</string>
+    <string name="permdesc_bluetoothAdmin">Aplikaciji omogoča konfiguriranje lokalnega tabličnega računalnika Bluetooth ter zaznavanje oddaljenih naprav in združevanje z njimi.</string>
+    <string name="permdesc_broadcastSticky">Aplikaciji omogoča hitro pošiljanje fiksnih oddaj, ki ostanejo po koncu oddajanja. Zaradi prekomerne uporabe je delovanje tabličnega računalnika lahko počasno ali nestabilno, ker porabi preveč pomnilnika.</string>
+    <string name="permdesc_changeWifiMulticastState">Aplikaciji omogoča prejemanje paketov, poslanih v vse naprave v omrežju Wi-Fi z večvrstnimi naslovi, ne samo v vaš tablični računalnik. Poraba je večja kot v načinu delovanja brez večvrstnega oddajanja.</string>
+    <string name="permdesc_changeWimaxState">Aplikaciji omogoča, da vzpostavi povezavo med tabličnim računalnikom in omrežjem WiMAX ter jo prekine.</string>
+    <string name="permdesc_getAccounts">Aplikaciji omogoča prejemanje seznama računov, ki jih pozna tablični računalnik.To lahko vključuje račune, ki so jih ustvarile nameščene aplikacije.</string>
+    <string name="permdesc_persistentActivity">Aplikaciji omogoča, da nekatere svoje dele naredi trajne v pomnilniku. S tem je lahko pomnilnik omejen za druge aplikacije, zaradi česar je delovanje tabličnega računalnika upočasnjeno.</string>
+    <string name="permdesc_readCalendar">Ta aplikacija lahko prebere vse dogodke v koledarju, ki so shranjeni v tabličnem računalniku, ter shrani podatke koledarja ali jih deli z drugimi.</string>
+    <string name="permdesc_readContacts">Aplikaciji dovoljuje branje podatkov o stikih, shranjenih v tabličnem računalniku. Aplikacije bodo imele dostop tudi do računov v tabličnem računalniku, ki so ustvarili stike. To lahko vključuje račune, ki so jih ustvarile nameščene aplikacije. S tem dovoljenjem lahko aplikacije shranjujejo podatke o stikih in zlonamerne aplikacije lahko te podatke razkrijejo brez vaše vednosti.</string>
+    <string name="permdesc_readSms">Ta aplikacija lahko prebere vsa sporočila SMS, ki so shranjena v tabličnem računalniku.</string>
+    <string name="permdesc_receiveBootCompleted">Aplikaciji omogoča, da se samodejno zažene po zagonu sistema. To lahko povzroči daljši zagon tabličnega računalnika in aplikaciji omogoči, da s stalnim izvajanjem upočasni delovanje tabličnega računalnika.</string>
+    <string name="permdesc_setTimeZone">Aplikaciji omogoča spreminjanje časovnega pasu v tabličnem računalniku.</string>
+    <string name="permdesc_transmitIr">Aplikaciji dovoljuje uporabo infrardečega oddajnika tabličnega računalnika.</string>
+    <string name="permdesc_wakeLock">Omogoča, da aplikacija prepreči prehod tabličnega računalnika v stanje pripravljenosti.</string>
+    <string name="permdesc_writeCalendar">Ta aplikacija lahko dodaja, odstranjuje in spreminja dogodke v koledarju, ki so shranjeni v tabličnem računalniku. Ta aplikacija lahko pošilja sporočila, ki bodo morda videti, kot da prihajajo od lastnikov koledarjev, ali spreminja dogodke brez vednosti lastnikov.</string>
+    <string name="permdesc_writeCallLog">Aplikaciji dovoli spreminjanje dnevnika klicev v tabličnem računalniku, vključno s podatki o dohodnih in odhodnih klicih. Zlonamerne aplikacije lahko tako izbrišejo ali spreminjajo vaš dnevnik klicev.</string>
+    <string name="permdesc_writeContacts">Aplikaciji dovoljuje spreminjanje podatkov o stikih, shranjenih v tabličnem računalniku. S tem dovoljenjem lahko aplikacije brišejo podatke o stikih.</string>
+    <string name="permlab_wakeLock">preprečitev prehoda tabličnega računalnika v stanje pripravljenosti</string>
+    <string name="policydesc_watchLogin">Nadzoruje število nepravilno vnesenih gesel pri odklepanju zaslona in zaklene tablični računalnik ali izbriše vse podatke v njem, če je vnesenih preveč nepravilnih gesel.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Nadzira število vnesenih nepravilnih gesel pri odklepanju zaslona in zaklene tablični računalnik ali izbriše vse podatke lastnika, če je vnesenih preveč nepravilnih gesel.</string>
+    <string name="policydesc_wipeData">Izbris podatkov v tabličnem računalniku brez opozorila s ponastavitvijo na tovarniške nastavitve</string>
+    <string name="policydesc_wipeData_secondaryUser">Izbris podatkov uporabnika v tem tabličnem računalniku brez opozorila.</string>
+    <string name="power_dialog">Možnosti tabličnega računalnika</string>
+    <string name="shutdown_confirm">Tablični računalnik se bo zaustavil.</string>
+    <string name="vdm_camera_access_denied">Ni mogoče dostopati do fotoaparata tabličnega računalnika prek naprave %1$s.</string>
+</resources>

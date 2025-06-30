@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Звуци при зареждане</string>
+    <string name="edge_to_edge_navigation_summary">За да преминете към началния екран, плъзнете бързо пръст нагоре от долната част. За да видите лентата на задачите, плъзнете бавно пръст нагоре от долната част. За превключване между приложенията плъзнете пръст нагоре от долната част, задръжте и след това вдигнете пръста си. За връщане назад прекарайте пръст настрани от левия или десния край.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Приближете това устройство до своя Pixel Tablet и опитайте отново.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Отворете кутийката за слушалки, приближете я до своя Pixel Tablet и опитайте отново.</string>
+    <string name="sound_dashboard_summary">Сила на звука</string>
+    <string name="sound_dashboard_summary_with_dnd">Сила на звука, „Не безпокойте“</string>
+    <string name="sound_settings">Звук</string>
+</resources>

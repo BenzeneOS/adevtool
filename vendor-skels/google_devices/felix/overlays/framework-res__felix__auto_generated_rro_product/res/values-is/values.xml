@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">Tveir skjáir eru ekki í boði vegna þess að Pixel-síminn er of heitur</string>
+    <string name="fingerprint_acquired_partial">Gakktu úr skugga um að fingurinn nái yfir skynjarann</string>
+    <string name="fingerprint_acquired_power_press">Snertu skynjarann laust til að setja upp</string>
+    <string name="fingerprint_acquired_too_fast">Haltu fingrinum á skynjaranum aðeins lengur</string>
+    <string name="fingerprint_error_power_pressed">Staðfestingu lokið. Prófaðu að snerta laust næst.</string>
+</resources>

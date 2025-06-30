@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Mật khẩu • Vân tay • Khuôn mặt</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Hình mở khóa • Vân tay • Khuôn mặt</string>
+    <string name="biometrics_unlock_set_unlock_pin">Mã PIN • Vân tay • Khuôn mặt</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Ачысціце экран вакол датчыка</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Пратрыце экран, каб ачысціць яго ад плям і бруду. Гэта неабходна для атрымання больш выразных відарысаў адбітка пальца.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Перад тым як працягнуць, ачысціце экран</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Калі ў вас ёсць ахоўная плёнка, для большай эфектыўнасці нанясіце яе да таго, як наладзіце сканер адбіткаў пальцаў.
+
+Каб забяспечыць найбольшую эфектыўнасць, выкарыстоўвайце ахоўную плёнку, якая мае сертыфікат Made for Google. Калі выкарыстоўваць іншыя ахоўныя плёнкі, сканер адбіткаў пальцаў можа не працаваць."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">Нахіліце палец і дакраніцеся яго кончыкам да датчыка</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Павярніце палец і дакраніцеся яго левым краем да датчыка</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Павярніце палец зноў і дакраніцеся яго правым краем</string>
+</resources>

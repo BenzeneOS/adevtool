@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Nettbrettet starter …</string>
+    <string name="android_upgrading_title">Nettbrettet oppdateres …</string>
+    <string name="app_streaming_blocked_message">Dette er ikke tilgjengelig på %1$s for øyeblikket. Prøv på nettbrettet ditt i stedet.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Denne appen ber om ekstra sikkerhet. Prøv på nettbrettet ditt i stedet.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Denne appen ber om flere tillatelser, men du kan ikke gi tillatelser i en strømmeøkt. Gi tillatelsen på nettbrettet først.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Dette er ikke tilgjengelig på %1$s. Prøv på nettbrettet ditt i stedet.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Nettbrettinnstillingene er utilgjengelige</string>
+    <string name="battery_saver_charged_notification_summary">Nettbrettet har nok batteri. Funksjoner begrenses ikke lenger.</string>
+    <string name="default_audio_route_name">Nettbrett</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s ber om aktivering av Utforsk ved å trykke. Når Utforsk ved å trykke er slått på, kan du høre og se beskrivelser av det som er under fingrene dine. Du kan også utføre handlinger på nettbrettet ved hjelp av bevegelser.</string>
+    <string name="global_actions">Innstillinger for nettbrett</string>
+    <string name="kg_failed_attempts_almost_at_login">"Du har tegnet opplåsningsmønsteret feil %1$d ganger. Etter ytterligere %2$d gale forsøk, blir du bedt om å låse opp nettbrettet via en e-postkonto.
+
+ Prøv på nytt om %3$d sekunder."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Du har oppgitt feil opplåsningspassord for nettbrettet %1$d ganger. Etter ytterligere %2$d gale forsøk, tilbakestilles nettbrettet til fabrikkstandard og all data går tapt.</string>
+    <string name="kg_failed_attempts_now_wiping">Du har oppgitt feil opplåsningspassord for nettbrettet %d ganger. Telefonen tilbakestilles nå til fabrikkstandard.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Du har foretatt %1$d mislykkede opplåsinger av nettbrettet. Etter %2$d flere mislykkede forsøk, blir nettbrettet tilbakestilt til fabrikkinnstillingene, og alle brukerdata går tapt.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Du har tegnet inn feil opplåsingsmønster %1$d ganger. Etter ytterligere %2$d mislykkede forsøk, blir du bedt om å låse opp nettbrettet ved hjelp av Google-påloggingsinformasjonen din.
+
+Prøv på nytt om %3$d sekunder."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Du har foretatt %d mislykkede opplåsinger av nettbrettet. Nettbrettet blir nå tilbakestilt til fabrikkinnstillingene.</string>
+    <string name="lockscreen_missing_sim_message">Det er ingen SIM-kort i nettbrettet.</string>
+    <string name="low_memory">Nettbrettlageret er fullt. Slett noen filer for å frigjøre lagringsplass.</string>
+    <string name="permdesc_bluetooth">Lar appen se Bluetooth-konfigurasjonen på nettbrettet, samt opprette og godta tilkoblinger med sammenkoblede enheter.</string>
+    <string name="permdesc_bluetoothAdmin">Lar appen konfigurere det lokale Bluetooth-nettbrettet, samt oppdage og koble sammen med eksterne enheter.</string>
+    <string name="permdesc_broadcastSticky">Lar appen sende faste kringkastinger («sticky broadcasts») som blir værende etter at kringkastingen er over. Overdreven bruk kan gjøre nettbrettet tregt eller ustabilt ved å bruke for mye minne.</string>
+    <string name="permdesc_changeWifiMulticastState">Lar appen motta pakker som sendes til alle enhetene på et wifi-nettverk ved hjelp av multikastingsadresser,  Dette bruker mer strøm enn modusen uten multikasting.</string>
+    <string name="permdesc_changeWimaxState">Lar appen koble nettbrettet til og fra WiMAX-nettverk.</string>
+    <string name="permdesc_getAccounts">Appen kan hente listen over kontoene nettbrettet kjenner. Dette kan inkludere kontoer som er opprettet av apper du har installert.</string>
+    <string name="permdesc_persistentActivity">Lar appen gjøre deler av seg selv vedvarende i minnet. Dette kan begrense minnet for andre apper og gjøre nettbrettet tregt.</string>
+    <string name="permdesc_readCalendar">Denne appen kan lese all kalenderaktivitet som er lagret på nettbrettet ditt, og dele eller lagre kalenderdataene.</string>
+    <string name="permdesc_readContacts">Lar appen lese data om kontaktene dine som er lagret på nettbrettet ditt. Apper får også tilgang til kontoene på nettbrettet ditt som har opprettet kontakter. Dette kan inkludere kontoer som er opprettet av apper du har installert. Denne tillatelsen lar apper lagre kontaktdataene dine. Vær oppmerksom på at skadelige apper kan dele disse dataene uten at du vet om det.</string>
+    <string name="permdesc_readSms">Denne appen kan lese alle tekstmeldingene (SMS) som er lagret på nettbrettet ditt.</string>
+    <string name="permdesc_receiveBootCompleted">Lar appen starte seg selv så snart systemet har startet opp. Dette kan føre til lengre oppstartstid for nettbrettet, i tillegg til at nettbrettet kan bli generelt tregere av at appen alltid kjører.</string>
+    <string name="permdesc_setTimeZone">Lar appen endre nettbrettets tidssone.</string>
+    <string name="permdesc_transmitIr">Gir appen tillatelse til å bruke nettbrettets infrarøde sender.</string>
+    <string name="permdesc_wakeLock">Lar appen hindre nettbrettet fra å gå over i sovemodus.</string>
+    <string name="permdesc_writeCalendar">Denne appen kan legge til, fjerne eller endre kalenderaktiviteter på nettbrettet ditt. Denne appen kan sende meldinger som kan virke som om kommer fra kalendereiere, eller endre aktiviteter uten at eierne blir varslet.</string>
+    <string name="permdesc_writeCallLog">Lar appen endre nettbrettets samtalelogg, inkludert data om innkommende og utgående anrop. Skadelige apper kan utnytte denne tillatelsen til å slette eller endre samtaleloggen din.</string>
+    <string name="permdesc_writeContacts">Lar appen endre informasjon om kontaktene som er lagret på nettbrettet ditt. Denne tillatelsen lar apper slette kontaktdata.</string>
+    <string name="permlab_wakeLock">hindre nettbrettet fra å gå over til sovemodus</string>
+    <string name="policydesc_watchLogin">Overvåk antall feil passordforsøk ved opplåsing av skjerm, og lås nettbrettet eller slett alle data fra nettbrettet ved for mange feil passordforsøk.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Overvåker antallet feil passord som er skrevet inn når skjermen låses opp, og låser nettbrettet eller sletter denne brukerens data når for mange feil passord er skrevet inn.</string>
+    <string name="policydesc_wipeData">Tilbakestill nettbrettets data uten advarsel ved å tilbakestille til fabrikkstandard.</string>
+    <string name="policydesc_wipeData_secondaryUser">Sletter denne brukerens data på dette nettbrettet uten advarsel.</string>
+    <string name="power_dialog">Innstillinger for nettbrettet</string>
+    <string name="shutdown_confirm">Nettbrettet slås av.</string>
+    <string name="vdm_camera_access_denied">Det er ikke mulig å få tilgang til kameraet på nettbrettet fra %1$s</string>
+</resources>

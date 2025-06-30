@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Noteikta satura atsvaidzināšanas biežums tiek automātiski palielināts no 60 līdz 120 Hz. Tas palielina akumulatora lietojumu.</string>
+</resources>

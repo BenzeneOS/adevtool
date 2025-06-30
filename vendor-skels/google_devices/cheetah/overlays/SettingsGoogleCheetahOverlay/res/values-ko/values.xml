@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">비밀번호 • 지문 • 얼굴 인식</string>
+    <string name="biometrics_unlock_set_unlock_pattern">패턴 • 지문 • 얼굴 인식</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN • 지문 • 얼굴 인식</string>
+</resources>

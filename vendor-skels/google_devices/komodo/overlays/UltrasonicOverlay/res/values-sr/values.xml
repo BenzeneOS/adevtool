@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Обришите екран у близини сензора</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Обришите екран да бисте уклонили трагове потеза прстима, масне мрље или флеке. Тако ћете снимити јасније слике отиска прста.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Очистите екран пре него што наставите даље</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Ако имате заштиту за екран, ставите је пре него што подесите отисак прста да бисте добили најбоље перформансе.
+
+Да бисте постигли најбоље резултате, користите заштиту за екран са сертификатом Направљено за Google. Отисак прста можда неће радити са другим заштитама за екран."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">Додирните врхом нагнутог прста</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Окрените прст и додирните левом страном</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Поново окрените прст и додирните десном страном</string>
+</resources>

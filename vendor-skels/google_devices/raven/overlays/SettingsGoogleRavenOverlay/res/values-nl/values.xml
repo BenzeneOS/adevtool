@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Verhoogt de vernieuwingssnelheid automatisch van 60 naar 120 Hz voor bepaalde content. Het batterijgebruik neemt toe.</string>
+</resources>

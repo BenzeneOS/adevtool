@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">Dual Screen je nedostupan jer je Pixel telefon previše zagrejan</string>
+    <string name="fingerprint_acquired_partial">Uverite se da prstom pokrivate senzor</string>
+    <string name="fingerprint_acquired_power_press">Lagano dodirnite senzor da nastavite podešavanje</string>
+    <string name="fingerprint_acquired_too_fast">Držite prst na senzoru malo duže</string>
+    <string name="fingerprint_error_power_pressed">Verifikacija je završena. Sledeći put probajte da lagano dodirnete.</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">ವೈ‑ಫೈ</string>
+    <string name="non_carrier_data_usage">ವೈ-ಫೈ ಡೇಟಾ ಬಳಕೆ</string>
+    <string name="tether_settings_title_all">ಟೆಥರಿಂಗ್‌</string>
+    <string name="tethering_footer_info">USB, ಇಥರ್ನೆಟ್ ಅಥವಾ ಬ್ಲೂಟೂತ್ ಮೂಲಕ ಇತರ ಸಾಧನಗಳಿಗೆ ಇಂಟರ್ನೆಟ್ ಒದಗಿಸಲು ಟೆಥರಿಂಗ್ ಬಳಸಿ.</string>
+</resources>

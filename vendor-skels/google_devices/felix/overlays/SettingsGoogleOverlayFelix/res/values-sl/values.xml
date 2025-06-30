@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Za pomik na začetni zaslon hitro povlecite z dna navzgor. Za dostop do opravilne vrstice počasi povlecite z dna navzgor. Za preklop med aplikacijami povlecite z dna zaslona navzgor, pridržite in spustite. Za vrnitev povlecite z levega ali desnega roba.</string>
+    <string name="setting_auto_rotate_folded">Samodejni zasuk, ko je naprava zaprta</string>
+    <string name="setting_auto_rotate_unfolded">Samodejni zasuk, ko je naprava razprta</string>
+</resources>

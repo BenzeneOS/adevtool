@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Válasszon képernyővédőt, és kapcsolja be a szabadkezes segítséget, amíg a táblagép dokkolt állapotban van</string>
+    <string name="dock_setup_notification_title">Több műveletet végezhet dokkolt állapotban</string>
+    <string name="stylus_system_update_notification_text">Telepítse a legújabb Android-frissítést, hogy minél többet hozhasson ki az érintőceruzájából</string>
+    <string name="stylus_system_update_notification_title">Telepítse az Android-frissítést</string>
+</resources>

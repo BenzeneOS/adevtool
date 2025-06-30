@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Nagsisimula ang tablet…</string>
+    <string name="android_upgrading_title">Nag-a-update ang tablet…</string>
+    <string name="app_streaming_blocked_message">Hindi ito maa-access sa iyong %1$s sa ngayon. Subukan na lang sa iyong tablet.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Humihiling ng karagdagang seguridad ang app na ito. Subukan na lang sa iyong tablet.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Humihingi ang app na ito ng dagdag na pahintulot, pero hindi puwedeng ibigay ang mga pahintulot sa isang session ng streaming. Ibigay muna ang pahintulot sa iyong tablet.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Hindi ito maa-access sa iyong %1$s. Subukan na lang sa iyong tablet.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Hindi available ang mga setting ng tablet</string>
+    <string name="battery_saver_charged_notification_summary">May sapat na charge ang tablet. Hindi na pinaghihigpitan ang mga feature.</string>
+    <string name="default_audio_route_name">Tablet</string>
+    <string name="enable_explore_by_touch_warning_message">Nais i-enable ng %1$s ang Explore by Touch. Kapag naka-on ang Explore by Touch, maaari mong marinig o makita ang mga paglalarawan ng nasa ilalim ng iyong daliri o maaari kang magsagawa ng mga galaw upang makipag-ugnayan sa tablet.</string>
+    <string name="global_actions">Mga pagpipilian sa tablet</string>
+    <string name="kg_failed_attempts_almost_at_login">"Naguhit mo nang hindi tama ang iyong pattern sa pag-unlock nang %1$d (na) beses. Pagkatapos ng %2$d pang hindi matagumpay na pagtatangka, hihilingin sa iyong i-unlock ang tablet mo gamit ang isang email account.
+
+ Subukang muli sa loob ng %3$d (na) segundo."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Tinangka mo sa hindi tamang paraan na i-unlock ang tabelt nang %1$d (na) beses. Pagkatapos ng %2$d pang hindi matagumpay na pagtatangka, ire-reset ang tablet sa factory default at mawawala ang lahat ng data ng user.</string>
+    <string name="kg_failed_attempts_now_wiping">Tinangka mo sa hindi tamang paraan na i-unlock ang tablet nang %d (na) beses. Ire-reset na ngayon ang tablet sa factory default.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Mali mong tinangkang ma-unlock ang tablet nang %1$d (na) beses. Pagkatapos ng %2$d pang mga hindi matagumpay na pagtatangka, mare-reset ang tablet sa factory default at mawawala ang lahat ng data ng user.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Naiguhit mo nang hindi tama ang iyong pattern sa pag-unlock nang %1$d (na) beses. Pagkatapos ng %2$d pang hindi matagumpay na pagtatangka, hihilingin sa iyong i-unlock ang iyong tablet gamit ang iyong pag-sign-in sa Google.
+
+ Subukang muli sa loob ng %3$d (na) segundo."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Mali mong tinangkang ma-unlock ang tablet nang %d (na) beses. Mare-reset na ngayon ang tablet sa factory default.</string>
+    <string name="lockscreen_missing_sim_message">Walang SIM sa tablet.</string>
+    <string name="low_memory">Puno na ang storage ng tablet. Magtanggal ng ilang file upang magbakante ng espasyo.</string>
+    <string name="permdesc_bluetooth">Pinapayagan ang app na tingnan ang configuration ng Bluetooth sa tablet, at na gumawa at tumanggap ng mga koneksyong may mga nakapares na device.</string>
+    <string name="permdesc_bluetoothAdmin">Pinapayagan ang app na i-configure ang lokal na Bluetooth tablet, at tumuklas ng at ipares sa mga malayuang device.</string>
+    <string name="permdesc_broadcastSticky">Pinapayagan ang app na magpadala ng mga sticky na pag-broadcast, na nananatili pagkatapos ng pag-broadcast. Maaaring pabagalin o gawing hindi matatag ng labis na paggamit ang tablet sa pamamagitan ng pagdulot dito na gumamit ng masyadong maraming memory.</string>
+    <string name="permdesc_changeWifiMulticastState">Pinapayagan ang app na tumanggap ng mga packet na ipinapadala sa lahat ng device sa isang Wi-Fi network gamit ang mga multicast na address, hindi lang sa iyong tablet. Gumagamit ito ng higit na power kaysa sa mode na hindi multicast.</string>
+    <string name="permdesc_changeWimaxState">Pinapayagan ang app na ikonekta ang tablet at idiskonekta ang tablet mula sa mga WiMAX network.</string>
+    <string name="permdesc_getAccounts">Pinapayagan ang app na kunin ang listahan ng mga account na alam ng tablet. Maaari itong kabilangan ng anumang mga account na nililikha ng mga application na iyong na-install.</string>
+    <string name="permdesc_persistentActivity">Pinapayagan ang app na panatilihin ang ilang bahagi nito sa memory. Maaari nitong limitahan ang memory na available sa iba pang apps na nagpapabagal sa tablet.</string>
+    <string name="permdesc_readCalendar">Mababasa ng app na ito ang lahat ng event sa kalendaryo na naka-store sa iyong tablet at maibabahagi o mase-save nito ang data ng iyong kalendaryo.</string>
+    <string name="permdesc_readContacts">Nagbibigay-daan sa app na magbasa ng data tungkol sa iyong mga contact na naka-store sa tablet mo. Magkakaroon din ang mga app ng access sa mga account sa iyong tablet na gumawa ng mga contact. Puwedeng kasama rito ang mga account na ginawa ng mga na-install mong app. Nagbibigay-daan ang pahintulot na ito sa mga app na i-save ang iyong data ng contact, at puwedeng magbahagi ng data ng contact ang mga nakakahamak na app nang hindi mo alam.</string>
+    <string name="permdesc_readSms">Mababasa ng app na ito ang lahat ng mensaheng SMS (text) na naka-store sa iyong tablet.</string>
+    <string name="permdesc_receiveBootCompleted">Pinapayagan ang app na mapasimula ang sarili nito sa sandaling matapos ang system sa pag-boot. Maaari nitong gawing mas matagal upang simulan ang tablet at pinapayagan ang app na pabagalin ang buong tablet sa pamamagitan ng palaging pagtakbo.</string>
+    <string name="permdesc_setTimeZone">Pinapayagan ang app na baguhin ang time zone ng tablet.</string>
+    <string name="permdesc_transmitIr">Nagbibigay-daan sa app na gamitin ang infrared transmitter ng tablet.</string>
+    <string name="permdesc_wakeLock">Pinapayagan ang app na pigilan ang tablet mula sa pag-sleep.</string>
+    <string name="permdesc_writeCalendar">Makakapagdagdag, makakapag-alis o makakapagbago ang app na ito ng mga event sa kalendaryo sa iyong tablet. Magagawa ng app na ito na magpadala ng mga mensahe na maaaring mukhang mula sa mga may-ari ng kalendaryo o magbago ng mga event nang hindi inaabisuhan ang mga may-ari nito.</string>
+    <string name="permdesc_writeCallLog">Binibigyan-daan ang app na baguhin ang log ng tawag ng iyong tablet, kabilang ang data tungkol sa mga paparating at papalabas na tawag. Maaari itong gamitin ng nakakahamak na apps upang burahin o baguhin ang iyong log ng tawag.</string>
+    <string name="permdesc_writeContacts">Nagbibigay-daan sa app na baguhin ang data tungkol sa iyong mga contact na naka-store sa tablet mo. Nagbibigay-daan ang pahintulot na ito sa mga app na mag-delete ng data ng contact.</string>
+    <string name="permlab_wakeLock">pigilan ang tablet mula sa pag-sleep</string>
+    <string name="policydesc_watchLogin">Subaybayan ang bilang ng mga hindi tamang password na na-type kapag ina-unlock ang screen, at i-lock ang tablet o burahin ang lahat ng data ng tablet kung masyadong maraming hindi tamang password ang na-type.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Subaybayan ang bilang ng mga maling password na na-type kapag ina-unlock ang screen, at i-lock ang tablet o burahin ang lahat ng data ng user na ito kung masyadong maraming maling password ang nata-type.</string>
+    <string name="policydesc_wipeData">Burahin ang data ng tablet nang walang babala sa pamamagitan ng pagsasagawa ng pag-reset ng factory data.</string>
+    <string name="policydesc_wipeData_secondaryUser">Burahin ang data ng user na ito sa tablet na ito nang walang babala.</string>
+    <string name="power_dialog">Mga pagpipilian sa tablet</string>
+    <string name="shutdown_confirm">Mag-shut down ang iyong tablet.</string>
+    <string name="vdm_camera_access_denied">Hindi ma-access ang camera ng tablet mula sa iyong %1$s</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>ଆପଣଙ୍କ ଆଙ୍ଗୁଠିକୁ ମୁଭ କରନ୍ତୁ। ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।</item>
+        <item>ଏହି ଆଙ୍ଗୁଠିକୁ ପୂର୍ବରୁ ପଞ୍ଜିକରଣ କରାଯାଇଥିବା ଯୋଗୁଁ ଏକ ଭିନ୍ନ ଆଙ୍ଗୁଠି ବ୍ୟବହାର କରନ୍ତୁ।</item>
+        <item>ନିମ୍ନ ଗୁଣବତ୍ତାର ଇମେଜ। ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।</item>
+        <item/>
+        <item>ନିମ୍ନ ଗୁଣବତ୍ତାର ଇମେଜ। ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।</item>
+        <item/>
+        <item/>
+        <item>ସ୍ମଜ ଚିହ୍ନଟ କରାଯାଇଛି, ସ୍କ୍ରିନ ସଫା କରନ୍ତୁ। ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।</item>
+        <item>ଇମେଜକୁ ପଢ଼ିବାରେ ବିଫଳ ହୋଇଛି। ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>ଭୁଲ ଡାଟା। ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।</item>
+        <item>ଆଙ୍ଗୁଠିକୁ ପଞ୍ଜିକରଣ କରିବାରେ ବିଫଳ ହୋଇଛି। ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">ଟିପଚିହ୍ନ ସେନ୍ସରକୁ ବ୍ୟବହାର କରାଯାଇପାରିବ ନାହିଁ। ଏକ ମରାମତି କେନ୍ଦ୍ର କିମ୍ବା g.co/pixel/fingerprintunlockକୁ ଭିଜିଟ କରନ୍ତୁ</string>
+    <string name="fingerprint_recalibrate_notification_content">ଏକ ମରାମତି କେନ୍ଦ୍ର କିମ୍ବା g.co/pixel/fingerprintunlockକୁ ଭିଜିଟ କରନ୍ତୁ</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Gerakkan jari Anda. Coba lagi.</item>
+        <item>Jari sudah terdaftar, gunakan jari lain.</item>
+        <item>Kualitas gambar buruk. Coba lagi.</item>
+        <item/>
+        <item>Kualitas gambar buruk. Coba lagi.</item>
+        <item/>
+        <item/>
+        <item>Noda terdeteksi, bersihkan layar. Coba lagi.</item>
+        <item>Gagal membaca gambar. Coba lagi.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Data bermasalah. Coba lagi.</item>
+        <item>Gagal mendaftarkan jari. Coba lagi.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Tidak dapat menggunakan sensor sidik jari. Kunjungi penyedia reparasi atau g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Kunjungi penyedia reparasi atau g.co/pixel/fingerprintunlock</string>
+</resources>

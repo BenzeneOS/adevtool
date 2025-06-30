@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Izvēlieties ekrānsaudzētāju un ieslēdziet palīdzības saņemšanu brīvroku režīmā, kad planšetdators ir dokots</string>
+    <string name="dock_setup_notification_title">Paveiciet vairāk, kamēr planšetdators ir dokots</string>
+    <string name="stylus_system_update_notification_text">Lai varētu izmantot visas skārienekrāna pildspalvas iespējas, instalējiet jaunāko Android atjauninājumu</string>
+    <string name="stylus_system_update_notification_title">Android atjauninājuma instalēšana</string>
+</resources>

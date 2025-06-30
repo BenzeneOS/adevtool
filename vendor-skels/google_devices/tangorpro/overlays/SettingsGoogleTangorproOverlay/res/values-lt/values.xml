@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Įkrovimo garsai</string>
+    <string name="edge_to_edge_navigation_summary">Jei norite eiti į pagrindinį puslapį, greitai perbraukite iš apačios į viršų. Jei norite pasiekti užduočių juostą, lėtai perbraukite iš apačios į viršų. Jei norite perjungti programas, perbraukite iš apačios į viršų, palaikykite, tada atleiskite. Jei norite grįžti, perbraukite nuo kairiojo arba dešiniojo krašto.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Perkelkite šį įrenginį arčiau „Pixel Tablet“ ir bandykite dar kartą.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Atidarykite ausinių dėklą ir perkelkite arčiau „Pixel Tablet“, tada bandykite dar kartą.</string>
+    <string name="sound_dashboard_summary">Garsumas</string>
+    <string name="sound_dashboard_summary_with_dnd">Garsumas, netrukdymo režimas</string>
+    <string name="sound_settings">Garsas</string>
+</resources>

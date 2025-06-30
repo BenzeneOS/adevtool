@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">හබ් ප්‍රකාරය</string>
+    <string name="dream_no_screen_saver_caption">තිර සුරැකුමක් නැත</string>
+    <string name="dream_no_screen_saver_description">ශක්තිය ඉතිරි කර ගැනීම සඳහා, අක්‍රිය වීමෙන් පසු ඔබේ තිරය ක්‍රියා විරහිත වනු ඇත</string>
+    <string name="dream_no_screen_saver_preview_caption">පරිසර හිතකාමී</string>
+    <string name="dream_secondary_button_title">මඟ හරින්න</string>
+    <string name="screensaver_settings_summary_dock_and_charging">ඈදා ආරෝපණය වන අතරේ</string>
+    <string name="screensaver_settings_summary_off">නිෂ්ක්‍රීය විට ප්‍රියතම ඡායාරූප, කලා නිර්මාණ, ඔරලෝසු සහ තවත් දේ පෙන්වන්න</string>
+    <string name="screensaver_settings_summary_postured_and_charging">කෙළින් තබා ආරෝපණය වන අතරේ</string>
+    <string name="screensaver_settings_summary_sleep">ආරෝපණය වන අතරේ</string>
+    <string name="when_to_show_hubmode_charging">ආරෝපණය වන අතරේ</string>
+    <string name="when_to_show_hubmode_docked">ඩොක් කර ඇති විට</string>
+    <string name="when_to_show_hubmode_never">කවදාවත් නෑ</string>
+</resources>

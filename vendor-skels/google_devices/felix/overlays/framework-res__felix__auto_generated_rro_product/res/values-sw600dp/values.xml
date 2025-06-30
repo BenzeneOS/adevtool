@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_allowAllRotations">false</bool>
+    <bool name="config_keyguardUserSwitcher">false</bool>
+    <bool name="config_showUserSwitcherByDefault">false</bool>
+    <bool name="config_useCurrentRotationOnRotationLockChange">true</bool>
+</resources>

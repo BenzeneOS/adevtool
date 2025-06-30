@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">برای رفتن به صفحه اصلی، از پایین صفحه تند به‌بالا بکشید. برای دسترسی به «نوار وظیفه»، از پایین صفحه آرام به‌بالا بکشید. برای جابه‌جایی بین برنامه‌ها، از پایین صفحه تند به‌بالا بکشید، سپس نگه دارید و رها کنید. برای برگشت، انگشتتان را از لبه سمت راست یا چپ تند بکشید.</string>
+    <string name="setting_auto_rotate_folded">چرخش خودکار در حالت تاشده</string>
+    <string name="setting_auto_rotate_unfolded">چرخش خودکار در حالت باز</string>
+</resources>

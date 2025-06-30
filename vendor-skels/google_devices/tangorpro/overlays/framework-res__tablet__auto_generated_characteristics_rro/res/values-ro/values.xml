@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Pornește tableta…</string>
+    <string name="android_upgrading_title">Se actualizează tableta…</string>
+    <string name="app_streaming_blocked_message">Aplicația nu poate fi accesată pe %1$s momentan. Încearcă pe tabletă.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Aplicația necesită securitate suplimentară. Încearcă pe tabletă.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Aplicația solicită permisiuni suplimentare, dar acestea nu pot fi acordate într-o sesiune de streaming. Acordă permisiunea întâi pe tabletă.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Nu se poate accesa pe %1$s. Încearcă pe tabletă.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Setările pentru tabletă sunt indisponibile</string>
+    <string name="battery_saver_charged_notification_summary">Tableta este încărcată suficient. Funcțiile nu mai sunt limitate.</string>
+    <string name="default_audio_route_name">Tabletă</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s vrea să activeze funcția Explorează prin atingere. Când e activată, poți auzi sau vedea descrieri pentru ceea ce se află sub degetul tău sau poți face gesturi pentru a interacționa cu tableta.</string>
+    <string name="global_actions">Opțiuni tablet PC</string>
+    <string name="kg_failed_attempts_almost_at_login">"Ai desenat incorect modelul pentru deblocare de %1$d ori. După încă %2$d încercări nereușite, ți se va solicita să deblochezi tableta cu ajutorul unui cont de e-mail.
+
+ Încearcă din nou peste %3$d secunde."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Ai făcut %1$d încercări incorecte de deblocare a tabletei. După încă %2$d încercări nereușite, aceasta va reveni la setările din fabrică, iar toate datele de utilizator se vor pierde.</string>
+    <string name="kg_failed_attempts_now_wiping">Ai făcut %d încercări incorecte de deblocare a tabletei. Tableta va reveni acum la setările din fabrică.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Ai făcut %1$d încercări incorecte de deblocare a tabletei. După încă %2$d încercări nereușite, aceasta va reveni la setările din fabrică, iar toate datele de utilizator se vor pierde.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Ai desenat incorect modelul pentru deblocare de %1$d ori. După încă %2$d încercări nereușite, ți se va solicita să deblochezi tableta cu ajutorul datelor de conectare la Google.
+
+ Încearcă din nou peste %3$d secunde."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Ai făcut %d încercări incorecte de deblocare a tabletei. Tableta va reveni acum la setările din fabrică.</string>
+    <string name="lockscreen_missing_sim_message">Nu există card SIM în tabletă.</string>
+    <string name="low_memory">Stocarea pe tabletă este plină. Șterge câteva fișiere pentru a elibera spațiu.</string>
+    <string name="permdesc_bluetooth">Permite aplicației să vadă configurația tabletei Bluetooth, să facă și să accepte conexiuni cu dispozitive asociate.</string>
+    <string name="permdesc_bluetoothAdmin">Permite aplicației să configureze tableta Bluetooth locală, să descopere și să se asocieze cu dispozitive la distanță.</string>
+    <string name="permdesc_broadcastSticky">Permite aplicației să trimită mesaje difuzate persistente, care se păstrează după terminarea difuzării mesajului. Utilizarea excesivă a acestei funcții poate să încetinească sau să destabilizeze tableta, determinând-o să utilizeze prea multă memorie.</string>
+    <string name="permdesc_changeWifiMulticastState">Permite aplicației să primească pachetele trimise către toate dispozitivele dintr-o rețea Wi-Fi, folosind adrese cu difuzare multiplă, nu doar tableta ta. Această funcție folosește mai multă energie decât modul fără difuzare multiplă.</string>
+    <string name="permdesc_changeWimaxState">Permite aplicației să conecteze și să deconecteze tableta la și de la rețelele WiMAX.</string>
+    <string name="permdesc_getAccounts">Permite aplicației să obțină lista de conturi cunoscute de tabletă. Aceasta poate include conturile create de aplicațiile pe care le-ai instalat.</string>
+    <string name="permdesc_persistentActivity">Permite aplicației să declare persistente în memorie anumite părți ale sale. Acest lucru poate limita memoria disponibilă pentru alte aplicații și poate încetini funcționarea tabletei.</string>
+    <string name="permdesc_readCalendar">Această aplicație poate să citească toate evenimentele din calendar stocate pe tabletă și să trimită sau să salveze datele din calendar.</string>
+    <string name="permdesc_readContacts">Permite aplicației să citească datele despre persoanele din agenda stocată pe tabletă. Aplicațiile vor avea și acces la conturile de pe tabletă care au creat agenda. Aici pot fi incluse conturile create de aplicațiile pe care le-ai instalat. Cu această permisiune, aplicațiile pot salva datele de contact, iar aplicațiile rău intenționate pot permite accesul la datele de contact fără cunoștința ta.</string>
+    <string name="permdesc_readSms">Această aplicație poate citi toate mesajele SMS stocate pe tabletă.</string>
+    <string name="permdesc_receiveBootCompleted">Permite aplicației să pornească imediat ce s-a terminat încărcarea sistemului. Din acest motiv, pornirea tabletei poate dura mai mult timp, iar rularea continuă a aplicației poate încetini dispozitivul.</string>
+    <string name="permdesc_setTimeZone">Permite aplicației să schimbe fusul orar al tabletei.</string>
+    <string name="permdesc_transmitIr">Permite aplicației să utilizeze transmițătorul prin infraroșii al tabletei.</string>
+    <string name="permdesc_wakeLock">Permite aplicației să împiedice intrarea tabletei în stare de repaus.</string>
+    <string name="permdesc_writeCalendar">Această aplicație poate să adauge, să elimine sau să modifice evenimente din calendarul de pe tabletă. Această aplicație poate să trimită mesaje care par trimise de proprietarii calendarului sau să modifice evenimentele fără notificarea acestora.</string>
+    <string name="permdesc_writeCallLog">Permite aplicației să modifice jurnalul de apeluri al tabletei, inclusiv datele despre apelurile primite sau făcute. Aplicațiile rău intenționate pot folosi această permisiune pentru a șterge sau a modifica jurnalul de apeluri.</string>
+    <string name="permdesc_writeContacts">Permite aplicației să modifice datele despre persoanele din agenda stocată pe tabletă. Cu această permisiune, aplicația poate șterge datele de contact.</string>
+    <string name="permlab_wakeLock">împiedicarea computerului tablet PC să intre în repaus</string>
+    <string name="policydesc_watchLogin">Monitorizează numărul de parole incorecte introduse la deblocarea ecranului și blochează tableta sau șterge datele acesteia dacă sunt introduse prea multe parole incorecte.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Monitorizează numărul de parole incorecte introduse la deblocarea ecranului și blochează tableta sau șterge toate datele acestui utilizator dacă se introduc prea multe parole incorecte.</string>
+    <string name="policydesc_wipeData">Șterge datele de pe tabletă fără avertisment, efectuând resetarea configurării din fabrică.</string>
+    <string name="policydesc_wipeData_secondaryUser">Șterge datele acestui utilizator de pe această tabletă fără avertisment.</string>
+    <string name="power_dialog">Opțiuni tablet PC</string>
+    <string name="shutdown_confirm">Tableta se va închide.</string>
+    <string name="vdm_camera_access_denied">Nu se poate accesa camera foto a tabletei de pe %1$s</string>
+</resources>

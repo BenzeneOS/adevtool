@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">如要返回主畫面，請從螢幕底部快速向上滑動；如要存取工作列，請從螢幕底部緩慢向上滑動。如要切換應用程式，請從螢幕底部向上滑動並按住，然後放開。如要返回上一個畫面，請從螢幕左側或右側往另一側滑動。</string>
+    <string name="setting_auto_rotate_folded">折疊時自動旋轉</string>
+    <string name="setting_auto_rotate_unfolded">展開時自動旋轉</string>
+</resources>

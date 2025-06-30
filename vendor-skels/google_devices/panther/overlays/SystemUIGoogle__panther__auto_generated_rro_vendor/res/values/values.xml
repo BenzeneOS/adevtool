@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_doze_brightness_sensor_to_brightness">
+        <item>-1</item>
+        <item>3</item>
+        <item>3</item>
+        <item>13</item>
+        <item>13</item>
+    </array>
+    <array name="config_doze_brightness_sensor_to_scrim_opacity">
+        <item>-1</item>
+        <item>133</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </array>
+    <bool name="config_enableDisplayCutoutProtection">true</bool>
+    <bool name="doze_display_state_supported">true</bool>
+    <bool name="doze_suspend_display_state_supported">false</bool>
+    <dimen name="config_rounded_mask_size">47.0px</dimen>
+    <dimen name="config_rounded_mask_size_bottom">46.0px</dimen>
+    <dimen name="config_rounded_mask_size_top">47.0px</dimen>
+    <dimen name="keyguard_carrier_text_margin">0.0px</dimen>
+    <dimen name="lock_icon_padding">48.0px</dimen>
+    <dimen name="multi_user_switch_keyguard_margin">6.0dp</dimen>
+    <dimen name="physical_power_button_center_screen_location_y">776.0px</dimen>
+    <dimen name="physical_volume_down_button_center_screen_location_y">1262.0px</dimen>
+    <dimen name="physical_volume_up_button_center_screen_location_y">1100.0px</dimen>
+    <dimen name="pixel_pitch">61.0</dimen>
+    <dimen name="status_bar_header_height_keyguard">@dimen/status_bar_height</dimen>
+    <dimen name="status_bar_height">@dimen/status_bar_height_portrait</dimen>
+    <dimen name="status_bar_height_landscape">28.0dp</dimen>
+    <dimen name="status_bar_height_portrait">136.0px</dimen>
+    <dimen name="status_bar_padding_start">0.0dp</dimen>
+    <dimen name="status_bar_padding_top">1.0px</dimen>
+    <dimen name="system_icons_super_container_avatarless_margin_end">11.0px</dimen>
+    <dimen name="udfps_burn_in_offset_y">16.0px</dimen>
+    <integer name="config_lockIconLongPress">100</integer>
+    <string name="config_frontBuiltInDisplayCutoutProtection">M 494,67 a 46,46 0 1 0 92,0 a 46,46 0 1 0 -92,0 Z</string>
+    <string name="config_protectedCameraId">1</string>
+    <string name="config_rounded_mask">M 71,0 C 33,0 22,-1 10,10 -1,22 0,33 0,71</string>
+    <string name="doze_brightness_sensor_type">com.google.sensor.binned_brightness</string>
+</resources>

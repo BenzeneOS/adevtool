@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Valige ekraanisäästja ja lülitage sisse vabakäeabi, kui tahvelarvuti on dokitud</string>
+    <string name="dock_setup_notification_title">Tehke seadme dokis olles rohkem</string>
+    <string name="stylus_system_update_notification_text">Oma elektronpliiatsi kasutamiseks parimal moel installige uusim Androidi värskendus</string>
+    <string name="stylus_system_update_notification_title">Installige Androidi värskendus</string>
+</resources>

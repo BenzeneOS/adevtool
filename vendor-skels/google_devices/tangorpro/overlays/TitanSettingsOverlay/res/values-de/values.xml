@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Hub-Modus</string>
+    <string name="dream_no_screen_saver_caption">Kein Bildschirmschoner</string>
+    <string name="dream_no_screen_saver_description">Dein Bildschirm wird nach einer bestimmten Zeit ohne Aktivität ausgeschaltet, um Strom zu sparen</string>
+    <string name="dream_no_screen_saver_preview_caption">Umweltfreundlich</string>
+    <string name="dream_secondary_button_title">Überspringen</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Wenn das Gerät angedockt ist und geladen wird</string>
+    <string name="screensaver_settings_summary_off">Bei Inaktivität Lieblingsfotos, Kunstwerke oder Uhren anzeigen</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Wenn Gerät aufgestellt ist und geladen wird</string>
+    <string name="screensaver_settings_summary_sleep">Beim Laden</string>
+    <string name="when_to_show_hubmode_charging">Beim Aufladen</string>
+    <string name="when_to_show_hubmode_docked">Wenn angedockt</string>
+    <string name="when_to_show_hubmode_never">Nie</string>
+</resources>

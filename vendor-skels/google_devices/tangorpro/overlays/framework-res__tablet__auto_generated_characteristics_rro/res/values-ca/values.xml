@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">"S'està iniciant la tauleta…"</string>
+    <string name="android_upgrading_title">"La tauleta s'està actualitzant…"</string>
+    <string name="app_streaming_blocked_message">"En aquests moments, No s'hi pot accedir des del teu %1$s. Prova-ho a la tauleta."</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Aquesta aplicació sol·licita seguretat addicional. Prova-ho a la tauleta.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">"Aquesta aplicació requereix permisos addicionals, però els permisos no es poden concedir en una sessió d'estríming. Primer concedeix el permís a la teva tauleta."</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">"No s'hi pot accedir des del teu %1$s. Prova-ho a la tauleta."</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">La configuració de la tauleta no està disponible</string>
+    <string name="battery_saver_charged_notification_summary">La tauleta té prou bateria. Les funcions ja no estan restringides.</string>
+    <string name="default_audio_route_name">Tauleta</string>
+    <string name="enable_explore_by_touch_warning_message">"%1$s vol activar l'exploració tàctil. Quan l'exploració tàctil està activada, pots escoltar o veure les descripcions del contingut seleccionat o utilitzar gestos per interaccionar amb la tauleta."</string>
+    <string name="global_actions">Opcions de la tauleta</string>
+    <string name="kg_failed_attempts_almost_at_login">"Has dibuixat el patró de desbloqueig %1$d vegades de manera incorrecta. Si falles %2$d vegades més, se't demanarà que desbloquegis la tauleta amb un compte de correu electrònic.
+
+ Torna-ho a provar d'aquí a %3$d segons."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Has provat de desbloquejar la tauleta %1$d vegades de manera incorrecta. Si falles %2$d vegades més, la tauleta es restablirà a la configuració predeterminada de fàbrica i es perdran totes les dades dels usuaris.</string>
+    <string name="kg_failed_attempts_now_wiping">Has provat de desbloquejar la tauleta %d vegades de manera incorrecta. Ara la tauleta es restablirà a la configuració predeterminada de fàbrica.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Has provat de desbloquejar la tauleta %1$d vegades de manera incorrecta. Si falles %2$d vegades més, la tauleta es restablirà a la configuració predeterminada de fàbrica i es perdran totes les dades dels usuaris.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Has dibuixat el patró de desbloqueig %1$d vegades de manera incorrecta. Si falles %2$d vegades més, se't demanarà que desbloquegis la tauleta amb l'inici de sessió de Google.
+
+ Torna-ho a provar d'aquí a %3$d segons."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Has provat de desbloquejar la tauleta %d vegades incorrectament. Ara la tauleta es restablirà a la configuració predeterminada de fàbrica.</string>
+    <string name="lockscreen_missing_sim_message">No hi ha cap SIM a la tauleta.</string>
+    <string name="low_memory">"L'emmagatzematge de la tauleta és ple. Suprimeix uns quants fitxers per alliberar espai."</string>
+    <string name="permdesc_bluetooth">"Permet que l'aplicació visualitzi la configuració del Bluetooth de la tauleta i que estableixi i accepti connexions amb dispositius sincronitzats."</string>
+    <string name="permdesc_bluetoothAdmin">"Permet que l'aplicació configuri la tauleta Bluetooth local i que detecti dispositius remots i s'hi vinculi."</string>
+    <string name="permdesc_broadcastSticky">"Permet que l'aplicació enviï emissions permanents, que es conserven després de finalitzar l'emissió. L'ús excessiu pot alentir o desestabilitzar la tauleta si li fan utilitzar massa memòria."</string>
+    <string name="permdesc_changeWifiMulticastState">"Permet que l'aplicació rebi paquets enviats a tots els dispositius d'una xarxa Wi-Fi mitjançant les adreces multidifusió, no només a la teva tauleta. Fa servir més energia que el mode que no és multidifusió."</string>
+    <string name="permdesc_changeWimaxState">"Permet que l'aplicació connecti i desconnecti la tauleta de les xarxes WiMAX."</string>
+    <string name="permdesc_getAccounts">"Permet que l'aplicació obtingui la llista de comptes coneguts per la tauleta. Això pot incloure tots els comptes que hagin creat les aplicacions que tens instal·lades."</string>
+    <string name="permdesc_persistentActivity">"Permet que l'aplicació faci que parts de la seva memòria siguin persistents. Aquesta acció pot limitar la memòria disponible per a altres aplicacions i alentir la tauleta."</string>
+    <string name="permdesc_readCalendar">Aquesta aplicació pot llegir tots els esdeveniments del calendari emmagatzemats a la tauleta i compartir o desar les dades del teu calendari.</string>
+    <string name="permdesc_readContacts">"Permet que l'aplicació llegeixi les dades dels contactes que tens emmagatzemats a la tauleta. Les aplicacions també tindran accés als comptes de la tauleta que hagin creat contactes. Això pot incloure els comptes creats per les aplicacions que hi tens instal·lades. Les aplicacions amb aquest permís poden desar les dades dels teus contactes, i és possible que les aplicacions malicioses comparteixin dades dels contactes sense el teu coneixement."</string>
+    <string name="permdesc_readSms">Aquesta aplicació pot llegir tots els SMS (missatges de text) emmagatzemats a la tauleta.</string>
+    <string name="permdesc_receiveBootCompleted">"Permet que l'aplicació s'iniciï tan bon punt el sistema hagi acabat d'arrencar. Això pot fer que es trigui més a iniciar el telèfon i permetre a l'aplicació alentir-ne el funcionament general en executar-se sempre."</string>
+    <string name="permdesc_setTimeZone">"Permet que l'aplicació canviï la zona horària de la tauleta."</string>
+    <string name="permdesc_transmitIr">"Permet que l'aplicació utilitzi el transmissor d'infrarojos de la tauleta."</string>
+    <string name="permdesc_wakeLock">"Permet que l'aplicació impedeixi que la tauleta entri en repòs."</string>
+    <string name="permdesc_writeCalendar">Aquesta aplicació pot afegir, suprimir i canviar esdeveniments del calendari a la tauleta. També pot enviar missatges que sembli que provenen dels propietaris del calendari o canviar esdeveniments sense notificar-los-ho.</string>
+    <string name="permdesc_writeCallLog">"Permet que l'aplicació modifiqui el registre de trucades de la teva tauleta, incloses les dades de les trucades entrants i sortints. És possible que les aplicacions malicioses ho utilitzin per eliminar o per modificar el teu registre de trucades."</string>
+    <string name="permdesc_writeContacts">"Permet que l'aplicació modifiqui les dades dels contactes que tens emmagatzemats a la tauleta. Amb aquest permís, les aplicacions poden suprimir les dades dels contactes."</string>
+    <string name="permlab_wakeLock">evita que la tauleta entri en mode de repòs</string>
+    <string name="policydesc_watchLogin">"Supervisa el nombre de contrasenyes incorrectes introduïdes per desbloquejar la pantalla i bloqueja la tauleta o esborra'n totes les dades si s'introdueixen massa contrasenyes incorrectes."</string>
+    <string name="policydesc_watchLogin_secondaryUser">"Supervisa el nombre de contrasenyes incorrectes introduïdes per desbloquejar la pantalla i bloqueja la tauleta o esborra totes les dades d'aquest usuari si s'introdueixen massa contrasenyes incorrectes."</string>
+    <string name="policydesc_wipeData">Esborra les dades de la tauleta sense avisar mitjançant el restabliment de les dades de fàbrica.</string>
+    <string name="policydesc_wipeData_secondaryUser">"Esborra les dades de l'usuari desades a la tauleta sense avisar-ne."</string>
+    <string name="power_dialog">Opcions de la tauleta</string>
+    <string name="shutdown_confirm">"La tauleta s'apagarà."</string>
+    <string name="vdm_camera_access_denied">No es pot accedir a la càmera de la tauleta des del teu %1$s</string>
+</resources>

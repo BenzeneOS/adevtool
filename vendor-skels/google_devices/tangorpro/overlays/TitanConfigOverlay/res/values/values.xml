@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_disabledDreamComponents">
+        <item>com.google.android.deskclock/com.android.deskclock.Screensaver</item>
+        <item>com.android.dreams.basic/.Colors</item>
+        <item>com.google.android.apps.photos/.daydream.PhotosDreamService</item>
+        <item>com.android.systemui/com.google.android.systemui.lowlightclock.LowLightClockDreamService</item>
+    </array>
+    <array name="config_dockExtconStateMapping">
+        <item>4,USB=1</item>
+        <item>"3"</item>
+    </array>
+    <array name="config_supportedDreamComplications">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </array>
+    <bool name="config_assistTouchGestureEnabledDefault">false</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
+    <bool name="config_dreamsActivatedOnDockByDefault">true</bool>
+    <bool name="config_dreamsActivatedOnPosturedByDefault">false</bool>
+    <bool name="config_dreamsActivatedOnSleepByDefault">false</bool>
+    <bool name="config_dreamsDisabledByAmbientModeSuppressionConfig">true</bool>
+    <bool name="config_dreamsEnabledByDefault">false</bool>
+    <bool name="config_dreamsOnlyEnabledForDockUser">true</bool>
+    <bool name="config_enableTimeoutToDockUserWhenDocked">true</bool>
+    <bool name="config_keepDreamingWhenUnplugging">true</bool>
+    <bool name="config_orderUnlockAndWake">true</bool>
+    <bool name="config_resetScreenTimeoutOnUnexpectedDreamExit">true</bool>
+    <bool name="config_skipActivityRelaunchWhenDocking">true</bool>
+    <bool name="config_startDreamImmediatelyOnDock">false</bool>
+    <integer name="config_dreamsBatteryLevelDrainCutoff">2</integer>
+    <integer name="config_navBarInteractionMode">2</integer>
+    <integer name="config_shortPressOnPowerBehavior">7</integer>
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <string name="supervised_user_creation_label">Add child</string>
+</resources>

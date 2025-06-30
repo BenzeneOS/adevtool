@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">আপোনাৰ Pixel ফ’নটো অতি বেছি গৰম হোৱাৰ বাবে Dual Screen উপলব্ধ নহয়</string>
+    <string name="fingerprint_acquired_partial">আপোনাৰ আঙুলিয়ে ছেন্সৰটো ঢাকি ৰখাটো নিশ্চিত কৰক</string>
+    <string name="fingerprint_acquired_power_press">ছেটআপ অব্যাহত ৰাখিবলৈ ছেন্সৰটো লাহেকৈ স্পৰ্শ কৰক</string>
+    <string name="fingerprint_acquired_too_fast">আপোনাৰ আঙুলিটো ছেন্সৰটোৰ ওপৰত অলপ দীঘলীয়া সময়ৰ বাবে ৰাখক</string>
+    <string name="fingerprint_error_power_pressed">সত্যাপন প্ৰক্ৰিয়া সমাপ্ত হৈছে। পৰৱৰ্তী বাৰ লাহেকৈ স্পৰ্শ কৰি চাওক।</string>
+</resources>

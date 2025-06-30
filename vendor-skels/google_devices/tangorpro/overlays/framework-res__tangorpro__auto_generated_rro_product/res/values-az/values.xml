@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Barmağınızın sensoru örtdüyünə əmin olun</string>
+    <string name="fingerprint_acquired_power_press">Ayarlamağa davam etmək üçün sensora yüngül toxunun</string>
+    <string name="fingerprint_acquired_too_fast">Barmağınızı sensorda bir az daha saxlayın</string>
+    <string name="fingerprint_error_power_pressed">Doğrulama bitdi. Növbəti dəfə yüngül toxunun.</string>
+</resources>

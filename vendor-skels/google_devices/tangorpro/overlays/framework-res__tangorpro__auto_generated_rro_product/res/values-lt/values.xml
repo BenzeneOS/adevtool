@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Įsitikinkite, kad pirštas uždengia jutiklį</string>
+    <string name="fingerprint_acquired_power_press">Tęskite sąranką švelniai paliesdami jutiklį</string>
+    <string name="fingerprint_acquired_too_fast">Šiek tiek ilgiau palaikykite pirštą ant jutiklio</string>
+    <string name="fingerprint_error_power_pressed">Patvirtinimas baigtas. Kitą kartą pabandykite švelniai paliesti.</string>
+</resources>

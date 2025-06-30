@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Mișcă degetul. Încearcă din nou.</item>
+        <item>Degetul a fost deja înregistrat. Folosește alt deget.</item>
+        <item>Calitate slabă a imaginii. Încearcă din nou.</item>
+        <item/>
+        <item>Calitate slabă a imaginii. Încearcă din nou.</item>
+        <item/>
+        <item/>
+        <item>S-a detectat o pată. Curăță ecranul. Încearcă din nou.</item>
+        <item>Nu se poate citi imaginea. Încearcă din nou.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Date greșite. Încearcă din nou.</item>
+        <item>Nu s-a putut înregistra degetul. Încearcă din nou.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Nu se poate folosi senzorul de amprentă. Vizitează un furnizor de servicii de reparații sau accesează g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Vizitează un furnizor de servicii de reparații sau accesează g.co/pixel/fingerprintunlock</string>
+</resources>

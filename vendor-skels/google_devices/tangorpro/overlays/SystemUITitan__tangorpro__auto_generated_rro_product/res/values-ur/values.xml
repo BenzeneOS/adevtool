@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_dialog_touch_sensor">فنگر پرنٹ سینسر کو ہلکے سے ٹچ کریں</string>
+    <string name="settingslib_learn_more_text">فنگر پرنٹ اَن لاک کے بارے میں مزید جانیں</string>
+</resources>

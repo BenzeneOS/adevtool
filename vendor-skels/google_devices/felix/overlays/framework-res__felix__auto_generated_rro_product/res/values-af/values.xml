@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">Dual Screen is nie tans beskikbaar nie omdat jou Pixel-foon te warm raak</string>
+    <string name="fingerprint_acquired_partial">Maak seker dat jou vinger die sensor bedek</string>
+    <string name="fingerprint_acquired_power_press">Raak die sensor liggies aan om verder op te stel</string>
+    <string name="fingerprint_acquired_too_fast">Hou jou vinger ’n bietjie langer op die sensor</string>
+    <string name="fingerprint_error_power_pressed">Verifikasie is beëindig. Probeer volgende keer om liggies aan te raak.</string>
+</resources>

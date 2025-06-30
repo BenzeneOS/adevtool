@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Pumili ng screen saver at i-on ang hands-free na tulong habang naka-dock ang iyong tablet</string>
+    <string name="dock_setup_notification_title">Gumawa ng higit pa habang naka-dock</string>
+    <string name="stylus_system_update_notification_text">Para masulit ang iyong stylus, i-install ang pinakabagong update sa Android</string>
+    <string name="stylus_system_update_notification_title">I-install ang update sa Android</string>
+</resources>

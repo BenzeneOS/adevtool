@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">ಹಬ್ ಮೋಡ್</string>
+    <string name="dream_no_screen_saver_caption">ಯಾವುದೇ ಸ್ಕ್ರೀನ್ ಸೇವರ್ ಇಲ್ಲ</string>
+    <string name="dream_no_screen_saver_description">ಎನರ್ಜಿ ಉಳಿಸಲು, ನಿಷ್ಕ್ರಿಯವಾದ ನಂತರ ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ಆಫ್ ಆಗುತ್ತದೆ</string>
+    <string name="dream_no_screen_saver_preview_caption">ಪರಿಸರ-ಸ್ನೇಹಿ</string>
+    <string name="dream_secondary_button_title">ಸ್ಕಿಪ್ ಮಾಡಿ</string>
+    <string name="screensaver_settings_summary_dock_and_charging">ಡಾಕ್ ಮಾಡಿ ಚಾರ್ಜ್ ಮಾಡುವಾಗ</string>
+    <string name="screensaver_settings_summary_off">ನಿಷ್ಕ್ರಿಯವಾಗಿರುವಾಗ ಮೆಚ್ಚಿನ ಫೋಟೋಗಳು, ಕಲಾಕೃತಿಗಳು, ಗಡಿಯಾರಗಳು ಮತ್ತು ಇನ್ನಷ್ಟನ್ನು ತೋರಿಸಿ</string>
+    <string name="screensaver_settings_summary_postured_and_charging">ನೇರವಾಗಿ ಇರಿಸಿ ಚಾರ್ಜ್ ಮಾಡುವಾಗ</string>
+    <string name="screensaver_settings_summary_sleep">ಚಾರ್ಜ್ ಮಾಡುವಾಗ</string>
+    <string name="when_to_show_hubmode_charging">ಚಾರ್ಜ್ ಮಾಡುವಾಗ</string>
+    <string name="when_to_show_hubmode_docked">ಡಾಕ್ ಆಗಿರುವಾಗ</string>
+    <string name="when_to_show_hubmode_never">ಎಂದಿಗೂ ಬೇಡ</string>
+</resources>

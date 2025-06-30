@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">পাছৱৰ্ড • ফিংগাৰপ্ৰিণ্ট • মুখাৱয়ব</string>
+    <string name="biometrics_unlock_set_unlock_pattern">আৰ্হি • ফিংগাৰপ্ৰিণ্ট • মুখাৱয়ব</string>
+    <string name="biometrics_unlock_set_unlock_pin">পিন • ফিংগাৰপ্ৰিণ্ট • মুখাৱয়ব</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">"হোমে যেতে, নিচ থেকে উপরের দিকে দ্রুত সোয়াইপ করুন। 'টাস্কবার' অ্যাক্সেস করতে, নিচ থেকে উপরের দিকে ধীরে সোয়াইপ করুন। বিভিন্ন অ্যাপের মধ্যে একটি থেকে অন্যটিতে পাল্টাতে, নিচ থেকে উপরের দিকে সোয়াইপ করে ধরে রেখে ছেড়ে দিন। ফিরে যেতে, স্ক্রিনের বাঁদিক বা ডানদিকের প্রান্ত থেকে সোয়াইপ করুন।"</string>
+    <string name="setting_auto_rotate_folded">ফোল্ড করা হলে নিজে থেকে ঘুরবে</string>
+    <string name="setting_auto_rotate_unfolded">আনফোল্ড করা হলে নিজে থেকে ঘুরবে</string>
+</resources>

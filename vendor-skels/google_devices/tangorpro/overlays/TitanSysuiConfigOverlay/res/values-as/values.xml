@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">এটা স্ক্ৰীন ছেভাৰ বাছনি কৰক আৰু আপোনাৰ টেবলেটটো ড’ক কৰা থাকিলে হেণ্ডছ্‌-ফ্ৰী সহায় লাভ কৰক</string>
+    <string name="dock_setup_notification_title">ড’ক কৰা থাকোঁতে অধিক কাৰ্য সম্পাদন কৰক</string>
+    <string name="stylus_system_update_notification_text">আপোনাৰ ষ্টাইলাছৰ পাৰ্যমানে উপকৃত হ’বলৈ, Androidৰ শেহতীয়া আপডে’ট ইনষ্টল কৰক</string>
+    <string name="stylus_system_update_notification_title">Androidৰ আপডে’ট ইনষ্টল কৰক</string>
+</resources>

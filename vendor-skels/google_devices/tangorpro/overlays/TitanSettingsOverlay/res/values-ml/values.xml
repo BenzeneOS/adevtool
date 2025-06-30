@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">ഹബ് മോഡ്</string>
+    <string name="dream_no_screen_saver_caption">സ്ക്രീൻ സേവർ ഇല്ല</string>
+    <string name="dream_no_screen_saver_description">ബാറ്ററി ലാഭിക്കുന്നതിന്, നിശ്ചിത സമയം നിഷ്ക്രിയമായിരുന്നാൽ ഡിസ്പ്ലേ ഓഫാകും</string>
+    <string name="dream_no_screen_saver_preview_caption">പരിസ്ഥിതി സൗഹൃദം</string>
+    <string name="dream_secondary_button_title">ഒഴിവാക്കുക</string>
+    <string name="screensaver_settings_summary_dock_and_charging">ഡോക്ക് ചെയ്ത് ചാർജ് ചെയ്യുമ്പോൾ</string>
+    <string name="screensaver_settings_summary_off">നിഷ്‌ക്രിയമായിരിക്കുമ്പോൾ പ്രിയപ്പെട്ട ഫോട്ടോകൾ, ആർട്ട്‌വർക്ക്, ക്ലോക്കുകൾ എന്നിവയും മറ്റും കാണിക്കൂ</string>
+    <string name="screensaver_settings_summary_postured_and_charging">ഉയർത്തിവച്ച് ചാർജ് ചെയ്യുമ്പോൾ</string>
+    <string name="screensaver_settings_summary_sleep">ചാർജ് ചെയ്യുമ്പോൾ</string>
+    <string name="when_to_show_hubmode_charging">ചാർജ് ചെയ്യുമ്പോൾ</string>
+    <string name="when_to_show_hubmode_docked">ഡോക്ക് ചെയ്‌തിരിക്കുമ്പോൾ</string>
+    <string name="when_to_show_hubmode_never">ഒരിക്കലും വേണ്ട</string>
+</resources>

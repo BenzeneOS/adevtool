@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">ጣትዎ ዳሳሹን እንደሚሸፍነው ያረጋግጡ</string>
+    <string name="fingerprint_acquired_power_press">ውቅረትን ለመቀጠል ዳሳሹን በትንሹ ይንኩት</string>
+    <string name="fingerprint_acquired_too_fast">ጣትዎን ትንሽ ረዘም ላለ ጊዜ ዳሳሹ ላይ ያቆዩት</string>
+    <string name="fingerprint_error_power_pressed">ማረጋገጫ አብቅቷል። በቀጣይ ጊዜ በትንሹ ለመንካት ይሞክሩ።</string>
+</resources>

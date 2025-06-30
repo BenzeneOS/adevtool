@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Parol • Barmoq izi • Yuz</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Grafik kalit • Barmoq izi • Yuz</string>
+    <string name="biometrics_unlock_set_unlock_pin">PIN kod • Barmoq izi • Yuz</string>
+</resources>

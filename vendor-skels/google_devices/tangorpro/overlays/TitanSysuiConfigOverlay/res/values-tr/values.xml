@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Bir ekran koruyucu seçin ve tabletiniz yuvasındayken eller serbest yardımı etkinleştirin</string>
+    <string name="dock_setup_notification_title">Tabletiniz yuvasındayken daha çok şey yapın</string>
+    <string name="stylus_system_update_notification_text">Ekran kaleminizden en iyi şekilde yararlanmak için son Android güncellemesini yükleyin</string>
+    <string name="stylus_system_update_notification_title">Android güncellemesini yükleyin</string>
+</resources>

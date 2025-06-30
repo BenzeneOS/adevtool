@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Լիցքավորման ձայներ</string>
+    <string name="edge_to_edge_navigation_summary">Հիմնական էկրան անցնելու համար էկրանի ներքևի հատվածից մատն արագ սահեցրեք վերև։ Հավելվածների վահանակը բացելու համար էկրանի ներքևի հատվածից մատը դանդաղ սահեցրեք վերև։ Մի հավելվածից մյուսն անցնելու համար էկրանի ներքևի հատվածից մատը սահեցրեք վերև, պահեք և բաց թողեք։ Հետ գնալու համար էկրանի ձախ կամ աջ եզրից մատը սահեցրեք դեպի կենտրոն։</string>
+    <string name="fast_pair_device_not_found_other_device_description">Մոտեցրեք այս սարքը ձեր Pixel Tablet-ին և նորից փորձեք։</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Բացեք ականջակալի պատյանը, մոտեցրեք այն Pixel Tablet-ին և նորից փորձեք։</string>
+    <string name="sound_dashboard_summary">Ձայնի ուժգնություն</string>
+    <string name="sound_dashboard_summary_with_dnd">Ձայնի ուժգնություն, Չանհանգստացնել</string>
+    <string name="sound_settings">Ձայն</string>
+</resources>

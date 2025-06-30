@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Način središča</string>
+    <string name="dream_no_screen_saver_caption">Brez ohranjevalnika zaslona</string>
+    <string name="dream_no_screen_saver_description">Zaradi varčevanja z energijo se bo zaslon samodejno izklopil po nedejavnosti.</string>
+    <string name="dream_no_screen_saver_preview_caption">Okolju prijazno</string>
+    <string name="dream_secondary_button_title">Preskoči</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Na nosilcu in med polnjenjem</string>
+    <string name="screensaver_settings_summary_off">Prikaz priljubljenih fotografij, slikovnega materiala, ur in drugega v stanju nedejavnosti</string>
+    <string name="screensaver_settings_summary_postured_and_charging">V pokončni legi in med polnjenjem</string>
+    <string name="screensaver_settings_summary_sleep">Med polnjenjem</string>
+    <string name="when_to_show_hubmode_charging">Med polnjenjem</string>
+    <string name="when_to_show_hubmode_docked">Ko je v stojalu</string>
+    <string name="when_to_show_hubmode_never">Nikoli</string>
+</resources>

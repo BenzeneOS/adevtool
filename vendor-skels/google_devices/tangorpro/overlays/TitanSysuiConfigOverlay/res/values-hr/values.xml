@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Odaberite čuvar zaslona i uključite pomoć bez upotrebe ruku dok je tablet na priključnoj stanici</string>
+    <string name="dock_setup_notification_title">Učinite više na priključnoj stanici</string>
+    <string name="stylus_system_update_notification_text">Da biste iskoristili sve prednosti svoje olovke, instalirajte najnovije ažuriranje Androida</string>
+    <string name="stylus_system_update_notification_title">Instaliranje ažuriranja Androida</string>
+</resources>

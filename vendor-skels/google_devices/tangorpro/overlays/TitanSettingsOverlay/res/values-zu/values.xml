@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Imodi yehabhu</string>
+    <string name="dream_no_screen_saver_caption">Asikho isilondolozi sesikrini</string>
+    <string name="dream_no_screen_saver_description">Ukuze wonge amandla, isikrini sakho sizocima ngemva kokungasebenzi</string>
+    <string name="dream_no_screen_saver_preview_caption">Imvelo enobungane</string>
+    <string name="dream_secondary_button_title">Yeqa</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Ngenkathi idokhiwe futhi ishaja</string>
+    <string name="screensaver_settings_summary_off">Bonisa izithombe eziyintandokazi, umsebenzi wobuciko, amawashi, nokuningi uma ingenzi lutho</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Ngenkathi imile futhi ishaja</string>
+    <string name="screensaver_settings_summary_sleep">Ngenkathi ishaja</string>
+    <string name="when_to_show_hubmode_charging">Ngenkathi ishaja</string>
+    <string name="when_to_show_hubmode_docked">Ngenkathi ishuthekiwe</string>
+    <string name="when_to_show_hubmode_never">Akusoze</string>
+</resources>

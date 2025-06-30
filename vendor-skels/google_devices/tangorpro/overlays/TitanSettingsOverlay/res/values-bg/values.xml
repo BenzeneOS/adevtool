@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Режим „Контролен център“</string>
+    <string name="dream_no_screen_saver_caption">Без скрийнсейвър</string>
+    <string name="dream_no_screen_saver_description">С цел икономия на енергия екранът ви ще се изключи при неактивност</string>
+    <string name="dream_no_screen_saver_preview_caption">Екологичен режим</string>
+    <string name="dream_secondary_button_title">Пропускане</string>
+    <string name="screensaver_settings_summary_dock_and_charging">При свързв. с докинг станция и зарежд.</string>
+    <string name="screensaver_settings_summary_off">Показване на любими снимки, творби, часовници и др. при неактивност</string>
+    <string name="screensaver_settings_summary_postured_and_charging">При изправено положение и зареждане</string>
+    <string name="screensaver_settings_summary_sleep">При зареждане</string>
+    <string name="when_to_show_hubmode_charging">При зареждане</string>
+    <string name="when_to_show_hubmode_docked">При свързване с докинг станция</string>
+    <string name="when_to_show_hubmode_never">Никога</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">ກຳລັງເລີ່ມແທັບເລັດ…</string>
+    <string name="android_upgrading_title">ກຳລັງອັບເດດແທັບເລັດ…</string>
+    <string name="app_streaming_blocked_message">ບໍ່ສາມາດເຂົ້າເຖິງແອັບນີ້ໄດ້ຢູ່ %1$s ຂອງທ່ານໃນຕອນນີ້. ກະລຸນາລອງຢູ່ແທັບເລັດຂອງທ່ານແທນ.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">ແອັບນີ້ກຳລັງຮ້ອງຂໍຄວາມປອດໄພເພີ່ມເຕີມ. ກະລຸນາລອງຢູ່ແທັບເລັດຂອງທ່ານແທນ.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">ແອັບນີ້ກຳລັງຮ້ອງຂໍການອະນຸຍາດເພີ່ມເຕີມ, ແຕ່ບໍ່ສາມາດໃຫ້ການອະນຸຍາດໃນເຊດຊັນການສະຕຣີມໄດ້. ກະລຸນາໃຫ້ການອະນຸຍາດໃນແທັບເລັດຂອງທ່ານກ່ອນ.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">ບໍ່ສາມາດເຂົ້າເຖິງແອັບນີ້ໄດ້ຢູ່ %1$s ຂອງທ່ານ. ກະລຸນາລອງຢູ່ແທັບເລັດຂອງທ່ານແທນ.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">ການຕັ້ງຄ່າແທັບເລັດບໍ່ສາມາດໃຊ້ໄດ້</string>
+    <string name="battery_saver_charged_notification_summary">ແທັບເລັດມີໄຟພຽງພໍແລ້ວ. ບໍ່ມີການຈຳກັດຄຸນສົມບັດອີກຕໍ່ໄປແລ້ວ.</string>
+    <string name="default_audio_route_name">ແທັບເລັດ</string>
+    <string name="enable_explore_by_touch_warning_message">"%1$s ຕ້ອງການເປີດນຳໃຊ້ \"ການສຳຫຼວດໂດຍສຳພັດ\". ເມື່ອເປີດ \"ການສຳຫຼວດໂດຍສຳພັດ\" ແລ້ວ ທ່ານຈະສາມາດໄດ້ຍິນ ຫຼືເຫັນຄຳບັນຍາຍວ່າມີຫຍັງຢູ່ກ້ອງນິ້ວມືຂອງທ່ານ ຫຼືໃຊ້ຮູບແບບການເຄື່ອນໄຫວເພື່ອໂຕ້ຕອບກັບແທັບເລັດ."</string>
+    <string name="global_actions">ໂຕເລືອກແທັບເລັດ</string>
+    <string name="kg_failed_attempts_almost_at_login">"ທ່ານແຕ້ມຮູບແບບປົດລັອກຜິດ %1$d ເທື່ອແລ້ວ. ຫຼັງຈາກແຕ້ມຜິດອີກ %2$d ເທື່ອ, ທ່ານຈະຖືກຖາມໃຫ້ປົດລັອກແທັບເລັດຂອງທ່ານ ດ້ວຍການເຂົ້າສູ່ລະບົບໂດຍໃຊ້ອີເມວຂອງທ່ານ.
+
+ ກະລຸນາລອງໃໝ່ອີກຄັ້ງໃນອີກ %3$d ວິນາທີ."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">ທ່ານໄດ້ພະຍາຍາມປົດລັອກແທັບເລັດບໍ່ສຳເລັດ %1$d ເທື່ອແລ້ວ. ຫຼັງຈາກຄວາມພະຍາຍາມອີກ %2$d ເທື່ອ ແທັບເລັດຂອງທ່ານຈະຖືກຕັ້ງ ໃຫ້ກັບໄປໃຊ້ຄ່າເລີ່ມຕົ້ນຈາກໂຮງງານຄືນໃໝ່ ແລະຂໍ້ມູນຜູ່ໃຊ້ທັງໝົດຈະສູນຫາຍໄປ.</string>
+    <string name="kg_failed_attempts_now_wiping">ທ່ານໄດ້ພະຍາຍາມປົດລັອກແທັບເລັດບໍ່ສຳເລັດ %d ເທື່ອແລ້ວ. ຕອນນີ້ແທັບເລັດຈະຖືກຕັ້ງໃຫ້ກັບໄປໃຊ້ຄ່າເລີ່ມຕົ້ນຈາກໂຮງງານ.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">ທ່ານພະຍາຍາມປັດລັອກແທັບເລັດຜິດ %1$d ເທື່ອແລ້ວ. ຫຼັງຈາກຜິດອີກ %2$d ເທື່ອ, ແທັບເລັດຈະຖືກຣີເຊັດໃຫ້ເປັນແບບທີ່ມາຈາກໂຮງງານ ແລະຂໍ້ມູນທັງໝົດຈະຖືກຫາຍໄປ.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"ທ່ານແຕ້ມຮູບແບບປົດລັອກຂອງທ່ານຜິດ %1$d ເທື່ອແລ້ວ. ຫຼັງຈາກຄວາມພະຍາຍາມອີກ %2$d ເທື່ອ ທ່ານຈະຖືກຖາມໃຫ້ປົດລັອກແທັບເລັດຂອງທ່ານ ດ້ວຍການເຂົ້າສູ່ລະບົບຂອງ Google.
+
+ ລອງໃໝ່ອີກຄັ້ງໃນ %3$d ວິນາທີ."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">ທ່ານພະຍາຍາມປົດລັອກແທັບເລັດຜິດ %d ເທື່ອແລ້ວ. ຕອນນີ້ແທັບເລັດຈະຖືກຣີເຊັດເປັນຄ່າຈາກໂຮງງານ.</string>
+    <string name="lockscreen_missing_sim_message">ບໍ່ມີຊິມໃນແທັບເລັດ.</string>
+    <string name="low_memory">ພື້ນທີ່ຈັດເກັບຂໍ້ມູນໃນແທັບເລັດເຕັມ. ລຶບບາງໄຟລ໌ອອກເພື່ອເພີ່ມພື້ນທີ່ຫວ່າງ.</string>
+    <string name="permdesc_bluetooth">ອະນຸຍາດໃຫ້ແອັບຯເບິ່ງການຕັ້ງຄ່າຂອງ Bluetooth ໃນແທັບເລັດ ຕະຫຼອດຈົນເຊື່ອມຕໍ່ ແລະຍອມຮັບການເຊື່ອມຕໍ່ກັບອຸປະກອນທີ່ຈັບຄູ່ກັນແລ້ວ.</string>
+    <string name="permdesc_bluetoothAdmin">ອະນຸຍາດໃຫ້ແອັບຯຕັ້ງຄ່າແທັບເລັດ Bluetooth ພາຍໃນ ແລະຊອກຫາ ແລະເຊື່ອມຕໍ່ໄວ້ກັບອຸປະກອນພາຍນອກ.</string>
+    <string name="permdesc_broadcastSticky">ອະນຸຍາດໃຫ້ແອັບພລິເຄຊັນສົ່ງການກະຈາຍສັນຍານແບບຍຶດຕິດ, ທີ່ຍັງຄົງເຫຼືອຫຼັງຈາກການກະຈາຍສັນຍານສິ້ນສຸດລົງ. ການນຳໃຊ້ແບບມະຫາສານອາດເຮັດໃຫ້ແທັບເລັດຊ້າ ຫຼືບໍ່ສະຖຽນ ໂດຍການໃຊ້ໜ່ວຍຄວາມຈຳຫຼາຍເກີນໄປ.</string>
+    <string name="permdesc_changeWifiMulticastState">ອະນຸຍາດໃຫ້ແອັບຯຮັບຂໍ້ມູນແພັກເກັດ ທີ່ຖືກສົ່ງ ໄປຫາທຸກອຸປະກອນໃນເຄືອຂ່າຍ WiFi ໂດຍການນຳໃຊ້ການກະຈາຍຂໍ້ມູນໃນວົງກວ້າງ, ບໍ່ແມ່ນສະເພາະແທັບເລັດຂອງທ່ານ. ມັນໃຊ້ພະລັງງານຫຼາຍກວ່າໂຫມດກະຈາຍຂໍ້ມູນແບບໂດຍກົງ.</string>
+    <string name="permdesc_changeWimaxState">ອະນຸຍາດໃຫ້ແອັບຯເຊື່ອມຕໍ່ ແລະຕັດການເຊື່ອມຕໍ່ແທັບເລັດຈາກເຄືອຂ່າຍ WiMAX.</string>
+    <string name="permdesc_getAccounts">ອະນຸຍາດໃຫ້ແອັບຯຮັບເອົາລາຍການຂອງບັນຊີທີ່ຮູ້ຈັກໂດຍແທັບເລັດ. ນີ້ອາດຮວມທັງບັນຊີຕ່າງໆ ທີ່ຖືກສ້າງໂດຍແອັບພລິເຄຊັນທີ່ທ່ານໄດ້ຕິດຕັ້ງໄວ້.</string>
+    <string name="permdesc_persistentActivity">ອະນຸຍາດໃຫ້ແອັບຯ ສາມາດເຮັດໃຫ້ບາງພາກສ່ວນຂອງມັນເອັງ ຄົງໂຕໃນໜ່ວຍຄວາມຈຳ. ສິ່ງນີ້ສາມາດຈຳກັດໜ່ວຍຄວາມຈຳທີ່ສາມາດໃຊ້ໄດ້ໂດຍແອັບຯອື່ນ ເຮັດໃຫ້ແທັບເລັດຊ້າລົງ.</string>
+    <string name="permdesc_readCalendar">This app can read all calendar events stored on your tablet and share or save your calendar data.</string>
+    <string name="permdesc_readContacts">ອະນຸຍາດໃຫ້ແອັບອ່ານຂໍ້ມູນກ່ຽວກັບລາຍຊື່ຜູ້ຕິດຕໍ່ທີ່ບັນທຶກໄວ້ຢູ່ແທັບເລັດຂອງທ່ານ. ນອກຈາກນັ້ນ, ແອັບຕ່າງໆຍັງມີສິດເຂົ້າເຖິງບັນຊີຢູ່ແທັບເລັດຂອງທ່ານທີ່ສ້າງລາຍຊື່ຜູ້ຕິດຕໍ່ໄດ້ນຳ. ນີ້ອາດຮວມເຖິງບັນຊີທີ່ສ້າງຂຶ້ນມາໂດຍແອັບທີ່ທ່ານຕິດຕັ້ງໄວ້ນຳ. ສິດອະນຸຍາດນີ້ຈະເຮັດໃຫ້ແອັບຕ່າງໆສາມາດບັນທຶກຂໍ້ມູນລາຍຊື່ຜູ້ຕິດຕໍ່ຂອງທ່ານ ແລະ ແອັບທີ່ເປັນອັນຕະລາຍອາດແບ່ງປັນຂໍ້ມູນລາຍຊື່ຜູ້ຕິດຕໍ່ໄດ້ໂດຍທີ່ທ່ານບໍ່ຮູ້ໄດ້.</string>
+    <string name="permdesc_readSms">This app can read all SMS (text) messages stored on your tablet.</string>
+    <string name="permdesc_receiveBootCompleted">ອະນຸຍາດໃຫ້ແອັບຯ ເປີດໂຕມັນເອງທັນທີທີ່ເປີດລະບົບຂຶ້ນມາສຳເລັດ. ນີ້ສາມາດເຮັດໃຫ້ການເລີ່ມເປີດຂອງແທັບເລັດໃຊ້ເວລາດົນຂຶ້ນ ແລະເຮັດໃຫ້ການເຮັດວຽກໂດຍຮວມຂອງແທັບເລັດຊ້າລົງ ໂດຍການເຮັດວຽກຕະຫຼອດເວລາ.</string>
+    <string name="permdesc_setTimeZone">ອະນຸຍາດໃຫ້ແອັບຯປ່ຽນເຂດເວລາຂອງແທັບເລັດ.</string>
+    <string name="permdesc_transmitIr">ອະນຸຍາດໃຫ້ແອັບຯໃຊ້ການສົ່ງອິນຟຣາເຣດຂອງແທັບເລັດໄດ້.</string>
+    <string name="permdesc_wakeLock">ອະນຸຍາດໃຫ້ແອັບຯ ປ້ອງກັນບໍ່ໃຫ້ປິດໜ້າຈໍແທັບເລັດ.</string>
+    <string name="permdesc_writeCalendar">This app can add, remove, or change calendar events on your tablet. This app can send messages that may appear to come from calendar owners, or change events without notifying their owners.</string>
+    <string name="permdesc_writeCallLog">ອະນຸຍາດໃຫ້ແອັບຯແກ້ໄຂບັນທຶກການໂທຂອງແທັບເລັດ ຮວມທັງຂໍ້ມູນກ່ຽວກັບການໂທອອກ ແລະໂທເຂົ້ານຳ. ແອັບຯທີ່ເປັນອັນຕະລາຍອາດໃຊ້ຄຸນສົມບັດນີ້ເພື່ອລຶບ ຫຼືແກ້ໄຂບັນທຶກການໂທຂອງທ່ານໄດ້.</string>
+    <string name="permdesc_writeContacts">ອະນຸຍາດໃຫ້ແອັບແກ້ໄຂຂໍ້ມູນກ່ຽວກັບລາຍຊື່ຜູ້ຕິດຕໍ່ທີ່ບັນທຶກໄວ້ຢູ່ແທັບເລັດຂອງທ່ານ. ສິດອະນຸຍາດນີ້ຈະເຮັດໃຫ້ແອັບສາມາດລຶບຂໍ້ມູນລາຍຊື່ຜູ້ຕິດຕໍ່ອອກໄດ້.</string>
+    <string name="permlab_wakeLock">ຂັດຂວາງບໍ່ໃຫ້ປິດໜ້າຈໍແທັບເລັດ</string>
+    <string name="policydesc_watchLogin">ຕິດຕາມເບິ່ງຈຳນວນການພິມລະຫັດຜ່ານທີ່ບໍ່ຖືກຕ້ອງ ໃນເວລາປົດລັອກໜ້າຈໍ ແລະ ລັອກແທັບເລັດ ຫຼື ລຶບຂໍ້ມູນທັງໝົດຂອງແທັບເລັດ ຖ້າມີການພິມລະຫັດຜ່ານບໍ່ຖືກຕ້ອງຫຼາຍເທື່ອເກີນໄປ.</string>
+    <string name="policydesc_watchLogin_secondaryUser">ຕິດ​ຕາມ​ຈຳ​ນວນ​ຂອງ​ລະ​ຫັດ​ຜ່ານ​ບໍ່​ຖືກ​ຕ້ອງ​ທີ່​ພິມ​ໄປ​ແລ້ວ ເມື່ອ​ປົດ​ລັອກ​ໜ້າ​ຈໍ, ແລະ​ລັອກແທັບ​ເລັດ ຫຼື​ລຶບ​ທຸກ​ຂໍ້​ມູນຜູ້​ໃຊ້​ນີ້ ຖ້າ​ໄດ້​ພິມ​ລະ​ຫັດ​ຜ່ານ​ບໍ່​ຖືກ​ຕ້ອງ​ເຂົ້າ​ໄປ​ຫຼາຍ​ອັນ​ເກີນ​ໄປ.</string>
+    <string name="policydesc_wipeData">ລຶບຂໍ້ມູນຂອງແທັບເລັດໂດຍບໍ່ມີການເຕືອນ ໂດຍການຣີເຊັດກັບຄືນໃຫ້ເປັນແບບທີ່ມາຈາກໂຮງງານ.</string>
+    <string name="policydesc_wipeData_secondaryUser">ລຶບ​ຂໍ້​ມູນ​ຂອງ​ຜູ້​ໃຊ້​ນີ້​ຢູ່​ໃນ​ໂທ​ລະ​ທັດ​ນີ້​ໂດຍ​ບໍ່​ມີ​ການ​ເຕືອນ.</string>
+    <string name="power_dialog">ໂຕເລືອກແທັບເລັດ</string>
+    <string name="shutdown_confirm">ແທັບເລັດຂອງທ່ານຈະຖືກປິດ.</string>
+    <string name="vdm_camera_access_denied">ບໍ່ສາມາດເຂົ້າເຖິງກ້ອງຖ່າຍຮູບຂອງແທັບເລັດຈາກ %1$s ຂອງທ່ານໄດ້</string>
+</resources>

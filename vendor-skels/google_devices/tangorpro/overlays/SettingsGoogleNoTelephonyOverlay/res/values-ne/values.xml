@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wi‑Fi</string>
+    <string name="non_carrier_data_usage">Wi-Fi डेटाको प्रयोग</string>
+    <string name="tether_settings_title_all">टेदरिङ</string>
+    <string name="tethering_footer_info">USB, इथरनेट वा ब्लुटुथमार्फत अन्य डिभाइसहरूमा इन्टरनेट उपलब्ध गराउन टेदरिङ प्रयोग गर्नुहोस्।</string>
+</resources>

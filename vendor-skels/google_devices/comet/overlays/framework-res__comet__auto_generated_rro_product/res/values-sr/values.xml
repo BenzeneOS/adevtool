@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">Уверите се да прстом покривате сензор</string>
+    <string name="fingerprint_acquired_power_press">Лагано додирните сензор да наставите подешавање</string>
+    <string name="fingerprint_acquired_too_fast">Држите прст на сензору мало дуже</string>
+    <string name="fingerprint_error_power_pressed">Верификација је завршена. Следећи пут пробајте да лагано додирнете.</string>
+</resources>

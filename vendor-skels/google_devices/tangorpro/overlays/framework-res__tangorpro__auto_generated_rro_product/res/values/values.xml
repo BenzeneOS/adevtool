@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_cameraPrivacyLightAlsLuxThresholds">
+        <item>10</item>
+        <item>55</item>
+    </array>
+    <array name="config_cameraPrivacyLightColors">
+        <item>@color/camera_privacy_light_night</item>
+        <item>@color/camera_privacy_light_dusk</item>
+        <item>@color/camera_privacy_light_day</item>
+    </array>
+    <array name="config_nightDisplayColorTemperatureCoefficients">
+        <item>"0.0"</item>
+        <item>"0.0"</item>
+        <item>"1.0"</item>
+        <item>"-0.000000014365268757"</item>
+        <item>"0.000255092801250106"</item>
+        <item>"-0.064156942434907716"</item>
+        <item>"-0.000000000910931179"</item>
+        <item>"0.000207598323269139"</item>
+        <item>"-0.349361641294833436"</item>
+    </array>
+    <array name="non_removable_euicc_slots">
+        <item>0</item>
+    </array>
+    <bool name="config_canInternalDisplayHostDesktops">true</bool>
+    <bool name="config_deskDockEnablesAccelerometer">false</bool>
+    <bool name="config_emergencyGestureEnabled">false</bool>
+    <bool name="config_enableProximityService">true</bool>
+    <bool name="config_isDesktopModeDevOptionSupported">true</bool>
+    <bool name="config_isDesktopModeSupported">false</bool>
+    <bool name="config_keyboardVibrationSettingsSupported">true</bool>
+    <bool name="config_performantAuthDefault">true</bool>
+    <bool name="config_reverseDefaultRotation">true</bool>
+    <bool name="config_ringtoneVibrationSettingsSupported">true</bool>
+    <color name="camera_privacy_light_day">#0000ff00</color>
+    <color name="camera_privacy_light_dusk">#0000c000</color>
+    <color name="camera_privacy_light_night">#00008000</color>
+    <dimen name="config_keyboardHapticFeedbackFixedAmplitude">0.62</dimen>
+    <dimen name="config_windowManagerCameraCompatAspectRatio">1.77778</dimen>
+    <integer name="config_cameraPrivacyLightAlsAveragingIntervalMillis">3000</integer>
+    <integer name="config_deskDockRotation">270</integer>
+    <integer name="config_globalActionsKeyTimeout">750</integer>
+    <integer name="config_longPressOnPowerDurationMs">750</integer>
+    <integer name="config_maxDesktopWindowingActiveTasks">4</integer>
+    <string name="config_qualified_networks_service_package">com.android.qns</string>
+    <string name="fingerprint_acquired_partial">Make sure your finger covers the sensor</string>
+    <string name="fingerprint_acquired_power_press">To continue setup, lightly touch the sensor</string>
+    <string name="fingerprint_acquired_too_fast">Keep your finger on the sensor a little longer</string>
+    <string name="fingerprint_error_power_pressed">Verification ended. Try touching lightly next time.</string>
+</resources>

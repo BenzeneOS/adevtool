@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Odaberite čuvar ekrana i uključite hendsfri pomoć dok je tablet na baznoj stanici</string>
+    <string name="dock_setup_notification_title">Uradite više dok je tablet na baznoj stanici</string>
+    <string name="stylus_system_update_notification_text">Da biste iskoristili pisaljku na najbolji način, instalirajte najnovije ažuriranje za Android</string>
+    <string name="stylus_system_update_notification_title">Instalirajte ažuriranje za Android</string>
+</resources>

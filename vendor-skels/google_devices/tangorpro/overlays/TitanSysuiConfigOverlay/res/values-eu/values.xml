@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Aukeratu pantaila-babesle bat, tableta oinarrian dagoen bitartean esku libreko laguntza aktibatzeko</string>
+    <string name="dock_setup_notification_title">Egin gauza gehiago tableta oinarrian dagoen bitartean</string>
+    <string name="stylus_system_update_notification_text">Arkatzari etekin handiena ateratzeko, instalatu Android-en azken eguneratzea</string>
+    <string name="stylus_system_update_notification_title">Instalatu Android-en eguneratzea</string>
+</resources>

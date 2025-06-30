@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">પાસવર્ડ • ફિંગરપ્રિન્ટ • ફેસ</string>
+    <string name="biometrics_unlock_set_unlock_pattern">પૅટર્ન • ફિંગરપ્રિન્ટ • ફેસ</string>
+    <string name="biometrics_unlock_set_unlock_pin">પિન • ફિંગરપ્રિન્ટ • ફેસ</string>
+</resources>

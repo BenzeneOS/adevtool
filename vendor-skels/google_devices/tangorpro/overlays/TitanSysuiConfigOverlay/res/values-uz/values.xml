@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Planshet dokka joylanganda ekran lavhasini tanlang va ovozli boshqaruv funksiyasini yoqing</string>
+    <string name="dock_setup_notification_title">Dokka ulanganda boshqa amallarni bajarish</string>
+    <string name="stylus_system_update_notification_text">Stilusning barcha imkoniyatlaridan foydalanish uchun eng oxirgi Android yangilanishini oʻrnating</string>
+    <string name="stylus_system_update_notification_title">Android yangilanishini oʻrnating</string>
+</resources>

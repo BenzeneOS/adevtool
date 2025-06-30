@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">请确保手指正确放在传感器上</string>
+    <string name="fingerprint_acquired_power_press">继续设置，请轻触传感器</string>
+    <string name="fingerprint_acquired_too_fast">请不要急于从传感器上移开手指，覆盖时间应稍长些</string>
+    <string name="fingerprint_error_power_pressed">验证已结束。下次请尝试轻触。</string>
+</resources>

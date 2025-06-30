@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">充電時の音</string>
+    <string name="edge_to_edge_navigation_summary">ホームに移動するには、画面下部から上にすばやくスワイプします。タスクバーにアクセスするには、画面下部から上にゆっくりスワイプします。アプリを切り替えるには、画面下部から上にスワイプして長押ししてから離します。戻るには、左端または右端からスワイプします。</string>
+    <string name="fast_pair_device_not_found_other_device_description">このデバイスを Google Pixel Tablet に近づけて、もう一度お試しください。</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">イヤホンケースを開けて Google Pixel Tablet に近づけてから、もう一度お試しください。</string>
+    <string name="sound_dashboard_summary">音量</string>
+    <string name="sound_dashboard_summary_with_dnd">音量、サイレント モード</string>
+    <string name="sound_settings">音</string>
+</resources>

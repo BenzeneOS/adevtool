@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">اختَر شاشة استراحة وفعِّل ميزة المساعدة بدون لمس الجهاز عندما يكون الجهاز اللوحي في وضع الإرساء.</string>
+    <string name="dock_setup_notification_title">إنجاز المزيد من المهام على الجهاز اللوحي في وضع الإرساء</string>
+    <string name="stylus_system_update_notification_text">‏للاستفادة من قلم الشاشة بأقصى درجة، ثبِّت أحدث إصدار من Android.</string>
+    <string name="stylus_system_update_notification_title">‏تثبيت تحديث Android</string>
+</resources>

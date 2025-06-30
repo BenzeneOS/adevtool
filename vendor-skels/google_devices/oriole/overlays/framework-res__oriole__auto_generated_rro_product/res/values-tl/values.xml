@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Igalaw ang iyong daliri. Subukan ulit.</item>
+        <item>Na-enroll na ang daliri, gumamit ng ibang daliri.</item>
+        <item>Hindi maganda ang kalidad ng larawan. Subukan ulit.</item>
+        <item/>
+        <item>Hindi maganda ang kalidad ng larawan. Subukan ulit.</item>
+        <item/>
+        <item/>
+        <item>May nakitang dumi, linisin ang screen. Subukan ulit.</item>
+        <item>Hindi na-read ang larawan. Subukan ulit.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Bad data. Subukan ulit.</item>
+        <item>Hndi na-enroll ang daliri. Subukan ulit.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Hindi magamit ang sensor para sa fingerprint. Bumisita sa provider ng pag-aayos o sa g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Bumisita sa provider ng pag-aayos o sa g.co/pixel/fingerprintunlock</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Hub Modu</string>
+    <string name="dream_no_screen_saver_caption">Ekran koruyucu yok</string>
+    <string name="dream_no_screen_saver_description">Hareket olmadığında ekranınız enerji tasarrufu yapmak için kapanır</string>
+    <string name="dream_no_screen_saver_preview_caption">Çevre dostu</string>
+    <string name="dream_secondary_button_title">Atla</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Yuvada ve şarj olurken</string>
+    <string name="screensaver_settings_summary_off">Boştayken favori fotoğrafları, sanat eserlerini, saatleri ve diğer öğeleri göster</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Dik konumdayken ve şarj olurken</string>
+    <string name="screensaver_settings_summary_sleep">Şarj olurken</string>
+    <string name="when_to_show_hubmode_charging">Şarj olurken</string>
+    <string name="when_to_show_hubmode_docked">Yuvaya yerleştirilmiş durumdayken</string>
+    <string name="when_to_show_hubmode_never">Hiçbir zaman</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Swiep vinnig op van onder af om na die tuisskerm toe te gaan. Swiep stadig op van onder af om toegang tot die Taakbalk te kry. Swiep op van onder af, hou, en los dan om apps te wissel. Swiep van die linker- of regterrand af om terug te gaan.</string>
+    <string name="setting_auto_rotate_folded">Outodraai wanneer dit gevou is</string>
+    <string name="setting_auto_rotate_unfolded">Outodraai wanneer dit oopgevou is</string>
+</resources>

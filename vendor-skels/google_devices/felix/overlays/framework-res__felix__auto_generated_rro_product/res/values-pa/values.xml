@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">Dual Screen ਵਿਸ਼ੇਸ਼ਤਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ ਕਿਉਂਕਿ ਤੁਹਾਡਾ Pixel ਫ਼ੋਨ ਬਹੁਤ ਗਰਮ ਹੋ ਰਿਹਾ ਹੈ</string>
+    <string name="fingerprint_acquired_partial">ਪੱਕਾ ਕਰੋ ਕਿ ਤੁਹਾਡੀ ਉਂਗਲ ਸੈਂਸਰ ਨੂੰ ਢੱਕ ਰਹੀ ਹੈ</string>
+    <string name="fingerprint_acquired_power_press">ਸੈੱਟਅੱਪ ਜਾਰੀ ਰੱਖਣ ਲਈ, ਸੈਂਸਰ ਨੂੰ ਹਲਕਾ ਜਿਹਾ ਸਪਰਸ਼ ਕਰੋ</string>
+    <string name="fingerprint_acquired_too_fast">"ਆਪਣੀ ਉਂਗਲ ਨੂੰ ਸੈਂਸਰ 'ਤੇ ਥੋੜ੍ਹੀ ਜ਼ਿਆਦਾ ਦੇਰ ਲਈ ਰੱਖੋ"</string>
+    <string name="fingerprint_error_power_pressed">ਪੁਸ਼ਟੀਕਰਨ ਸਮਾਪਤ। ਅਗਲੀ ਵਾਰ ਹਲਕਾ ਜਿਹਾ ਸਪਰਸ਼ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">Zorg dat je vinger de sensor bedekt</string>
+    <string name="fingerprint_acquired_power_press">Raak de sensor licht aan om door te gaan met instellen</string>
+    <string name="fingerprint_acquired_too_fast">Houd je vinger nog wat langer op de sensor</string>
+    <string name="fingerprint_error_power_pressed">Verificatie beëindigd. Raak de knop de volgende keer licht aan.</string>
+</resources>

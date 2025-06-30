@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Нүүр лүү очихын тулд доод талаас дээш хурдан шударна уу. Ажлын хэсэгт хандахын тулд доод талаас дээш удаан шударна уу. Аппуудыг сэлгэхийн тулд доод талаас дээш шударч, удаан дараад суллана уу. Буцахын тулд зүүн эсвэл баруун ирмэгээс шударна уу.</string>
+    <string name="setting_auto_rotate_folded">Нугалсан үед автоматаар эргүүлэх</string>
+    <string name="setting_auto_rotate_unfolded">Дэлгэсэн үед автоматаар эргүүлэх</string>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">自动将某些内容的刷新频率从 60 Hz 调高到 120 Hz。耗电量会因此增加。</string>
+</resources>

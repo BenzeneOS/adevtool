@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Charging sounds</string>
+    <string name="edge_to_edge_navigation_summary">To go home, quick-swipe up from the bottom. To access the Taskbar, slow-swipe up from the bottom. To switch apps, swipe up from the bottom, hold and release. To go back, swipe from the left or right edge.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Move this device closer to your Pixel Tablet and try again.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Open the earbuds case and move it closer to your Pixel Tablet, then try again.</string>
+    <string name="sound_dashboard_summary">Volume</string>
+    <string name="sound_dashboard_summary_with_dnd">Volume, Do Not Disturb</string>
+    <string name="sound_settings">Sound</string>
+</resources>

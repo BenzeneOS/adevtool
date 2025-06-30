@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Modo Base</string>
+    <string name="dream_no_screen_saver_caption">Sin salvapantallas</string>
+    <string name="dream_no_screen_saver_description">Para ahorrar energía, tu pantalla se apagará tras estar inactiva</string>
+    <string name="dream_no_screen_saver_preview_caption">Ecológico</string>
+    <string name="dream_secondary_button_title">Saltar</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Mientras esté cargándose en la base</string>
+    <string name="screensaver_settings_summary_off">Mostrar fotos favoritas, obras de arte, relojes y más cuando la pantalla esté esté inactiva</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Mientras esté vertical y cargándose</string>
+    <string name="screensaver_settings_summary_sleep">Durante la carga</string>
+    <string name="when_to_show_hubmode_charging">Durante la carga</string>
+    <string name="when_to_show_hubmode_docked">Con el dispositivo en una base</string>
+    <string name="when_to_show_hubmode_never">Nunca</string>
+</resources>

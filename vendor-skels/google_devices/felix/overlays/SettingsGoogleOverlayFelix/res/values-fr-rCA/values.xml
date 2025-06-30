@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">"Pour accéder à l'écran d'accueil, balayez rapidement l'écran du bas vers le haut. Pour accéder à la barre des tâches, balayez lentement l'écran du bas vers le haut. Pour changer d'appli, balayez l'écran du bas vers le haut, maintenez le doigt sur l'écran, puis relâchez-le. Pour revenir en arrière, balayez l'écran à partir du côté gauche ou droit."</string>
+    <string name="setting_auto_rotate_folded">"Rotation automatique lorsque l'appareil est plié"</string>
+    <string name="setting_auto_rotate_unfolded">"Rotation automatique lorsque l'appareil est déplié"</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Pilih penyelamat skrin dan hidupkan bantuan bebas tangan semasa tablet anda didok</string>
+    <string name="dock_setup_notification_title">Lakukan lebih banyak perkara semasa didok</string>
+    <string name="stylus_system_update_notification_text">Untuk memanfaatkan stilus anda sepenuhnya, pasang kemaskinian Android yang terbaharu</string>
+    <string name="stylus_system_update_notification_title">Pasang kemaskinian Android</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Sunete de încărcare</string>
+    <string name="edge_to_edge_navigation_summary">Pentru a accesa ecranul de pornire, glisează rapid în sus din partea de jos. Pentru a accesa Bara de activități, glisează lent în sus din partea de jos. Pentru a trece de la o aplicație la alta, glisează în sus din partea de jos, ține apăsat, apoi ridică degetul. Pentru a reveni, glisează dinspre marginea stângă sau dreaptă.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Mută dispozitivul mai aproape de Pixel Tablet și reîncearcă.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Deschide husa pentru căști intraauriculare și mut-o mai aproape de Pixel Tablet, apoi reîncearcă.</string>
+    <string name="sound_dashboard_summary">Volum</string>
+    <string name="sound_dashboard_summary_with_dnd">Volum, Nu deranja</string>
+    <string name="sound_settings">Sunet</string>
+</resources>

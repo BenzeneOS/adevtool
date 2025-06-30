@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">ಹೋಮ್‌ಗೆ ಹೋಗಲು, ಕೆಳಗಿನಿಂದ ಮೇಲಕ್ಕೆ ತ್ವರಿತವಾಗಿ ಸ್ವೈಪ್ ಮಾಡಿ. ಟಾಸ್ಕ್‌ಬಾರ್ ಆ್ಯಕ್ಸೆಸ್ ಮಾಡಲು, ಕೆಳಗಿನಿಂದ ಮೇಲಕ್ಕೆ ನಿಧಾನವಾಗಿ ಸ್ವೈಪ್‌ ಮಾಡಿ. ಆ್ಯಪ್‌ಗಳನ್ನು ಬದಲಿಸಲು, ಕೆಳಗಿನಿಂದ ಮೇಲಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ, ಹಿಡಿದುಕೊಳ್ಳಿ, ನಂತರ ಬಿಟ್ಟುಬಿಡಿ. ಹಿಂದಕ್ಕೆ ಹೋಗಲು, ಎಡ ಅಥವಾ ಬಲ ತುದಿಯಿಂದ ಸ್ವೈಪ್ ಮಾಡಿ.</string>
+    <string name="setting_auto_rotate_folded">ಫೋಲ್ಡ್ ಮಾಡಿದಾಗ ಸ್ವಯಂ-ತಿರುಗಿಸಿರಿ</string>
+    <string name="setting_auto_rotate_unfolded">ಅನ್‌ಫೋಲ್ಡ್ ಮಾಡಿದಾಗ ಸ್ವಯಂ-ತಿರುಗಿಸಿರಿ</string>
+</resources>

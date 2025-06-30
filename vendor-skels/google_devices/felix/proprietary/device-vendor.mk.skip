@@ -242,9 +242,8 @@ PRODUCT_OVERRIDE_FINGERPRINT := google/felix/felix:16/BP2A.250605.031.A2/1357860
 
 PRODUCT_PACKAGES += \
     activity \
+    AdaptiveHapticsFelixOverlay \
     ambient_volume \
-    android.auto_generated_rro_product_adevtool__ \
-    android.auto_generated_rro_vendor_adevtool__ \
     android.frameworks.sensorservice-V1-ndk.vendor \
     android.frameworks.stats-V1-cpp.vendor \
     android.hardware.authsecret-impl.nos \
@@ -393,6 +392,7 @@ PRODUCT_PACKAGES += \
     audio.platform.aoc \
     audio.primary.gs201 \
     battery_mitigation \
+    BiometricFelixOverlay \
     biometricsuez \
     bipchmgr \
     blue \
@@ -400,26 +400,18 @@ PRODUCT_PACKAGES += \
     capo \
     cbd \
     cc \
+    CellBroadcastReceiverOverlay \
     chre_atoms_log:64 \
     chremetrics-cpp \
     citadel_updater \
     citadeld \
+    ClearCallingSettingsOverlay2022 \
     columbus \
     columbus_lite \
-    com.android.hbmsvmanager.auto_generated_rro_product_adevtool__ \
-    com.android.networkstack__NetworkStackConfig.auto_generated_rro_product_adevtool__ \
-    com.android.networkstack.tethering__TetheringConfig.auto_generated_rro_product_adevtool__ \
-    com.android.phone.auto_generated_rro_product_adevtool__ \
-    com.android.server.telecom.auto_generated_rro_product_adevtool__ \
-    com.android.settings.auto_generated_rro_product_adevtool__ \
-    com.android.systemui.auto_generated_rro_product_adevtool__ \
-    com.android.traceur.auto_generated_rro_product_adevtool__ \
     com.fingerprints42.extension@1.0 \
     com.google.android.camera.experimental2022 \
     com.google.android.camera.extensions \
     com.google.android.camerax.extensions \
-    com.google.android.nfc__NfcCustomization.auto_generated_rro_product_adevtool__ \
-    com.google.android.pixelsystemservice__AdaptiveHapticsConfig.auto_generated_rro_product_adevtool__ \
     com.google.android.widevine-13130248 \
     com.google.edgetpu_app_service-V3-ndk \
     com.google.edgetpu_app_service-V3-ndk__system_ext \
@@ -428,7 +420,6 @@ PRODUCT_PACKAGES += \
     com.google.edgetpu.tachyon-ndk \
     com.google.edgetpu.tachyon-service \
     com.google.edgetpu.tachyon-service__2 \
-    com.google.euiccpixel.auto_generated_rro_product_adevtool__ \
     com.google.hardware.biometrics.parcelable.fingerprint.PressToAuthParcelable-V1-ndk \
     com.google.hardware.biometrics.sidefps.fingerprint-ext-V1-ndk \
     com.google.hardware.pixel.display-V15-ndk.vendor \
@@ -445,6 +436,7 @@ PRODUCT_PACKAGES += \
     com.google.pixel.wifi.ext \
     convert_to_ext4.sh \
     dck_gating \
+    device_symlinks \
     disable_contaminant_detection.sh \
     dmd \
     dmd__2 \
@@ -470,6 +462,7 @@ PRODUCT_PACKAGES += \
     EuiccGoogle \
     EuiccGoogleOverlay \
     EuiccSupportPixel \
+    EuiccSupportPixelOverlay \
     EuiccSupportPixelPermissions \
     fake_gxp_telemetry_reader \
     felix-services \
@@ -480,18 +473,24 @@ PRODUCT_PACKAGES += \
     flp.default \
     fpc_util \
     fpc42_suez \
+    framework-res__felix__auto_generated_rro_product \
+    framework-res__felix__auto_generated_rro_vendor \
     fstab.gs201 \
     fstab.gs201-fips \
     geofence \
     gesture \
     google-ril \
     google.hardware.media.c2@1.0-service \
+    GoogleConfigOverlay \
+    GooglePermissionControllerOverlay \
     gps.default \
     gpsd \
     gs_watchdogd \
     gxp_metrics_logger \
     gxp_telemetry_reader \
     hardware.google.bluetooth.bt_channel_avoidance@1.0.vendor \
+    HbmSVManager \
+    HbmSVManager__felix__auto_generated_rro_product \
     health \
     hwc3-default \
     imu_cal \
@@ -502,6 +501,8 @@ PRODUCT_PACKAGES += \
     init.uwb.calib.sh \
     insmod.sh \
     ip_health \
+    LargeScreenConfigOverlay \
+    LargeScreenSettingsProviderOverlay \
     lassen_dmd_constants \
     lhd \
     lib_aion_buffer \
@@ -653,6 +654,7 @@ PRODUCT_PACKAGES += \
     libvendorgraphicbuffer \
     libwlcproto_aidl-default \
     libziparchive.vendor \
+    ManagedProvisioningPixelOverlay \
     manifest \
     manifest_aocx \
     manifest_gralloc_aidl2 \
@@ -668,6 +670,7 @@ PRODUCT_PACKAGES += \
     modem_log_dumper \
     modem_logging_control \
     motiondetector \
+    NetworkStackOverlay \
     nos_app_avb \
     nos_app_keymaster \
     nos_app_weaver \
@@ -678,12 +681,23 @@ PRODUCT_PACKAGES += \
     pixel_stateresidency_provider_aidl_interface-ndk.vendor \
     pixel-display-default \
     pixel-display-secondary \
+    PixelBatteryHealthOverlay \
     PixelCameraServices \
+    PixelConfigOverlay2018 \
+    PixelConfigOverlay2021 \
+    PixelConfigOverlayCommon \
+    PixelConnectivityOverlay2023_midyear \
+    PixelDocumentsUIGoogleOverlay \
     PixelNfc \
+    PixelNfcOverlayCommon \
+    PixelNfcOverlayFelix \
     pixelpowerstats_provider_aidl_interface-cpp.vendor \
     PixelQualifiedNetworksService \
     pixelstats-vendor \
+    PixelTetheringOverlay2021 \
+    PixelUwbOverlayF10 \
     PixelVibratorFlagsL26.vendor \
+    PixelWifiOverlay2023_midyear_F10 \
     predump_gti0.sh \
     predump_gti1.sh \
     predump_stm.sh \
@@ -691,12 +705,21 @@ PRODUCT_PACKAGES += \
     qorvo.uwb-service \
     rfsd \
     rild_exynos \
+    SafetyRegulatoryInfo__felix__auto_generated_rro_product \
     samsung.hardware.media.c2@1.2-service \
     scd \
     sd \
     sensorcollector \
     sensors.dynamic_sensor_hal \
     sensors.usf \
+    SettingsGoogle__felix__auto_generated_rro_product \
+    SettingsGoogle__felix__auto_generated_rro_vendor \
+    SettingsGoogleOverlayFelix \
+    SettingsOverlayG0B96 \
+    SettingsOverlayG9FPL \
+    SettingsProvider__felix__auto_generated_rro_product \
+    SettingsProvider__felix__auto_generated_rro_vendor \
+    SfpsOverlay \
     ShannonIms \
     ShannonRcs \
     shared_modem_platform \
@@ -704,8 +727,16 @@ PRODUCT_PACKAGES += \
     sideFpsSuez \
     smartbatching \
     sound_trigger.primary.gs201 \
+    StorageManagerGoogle__felix__auto_generated_rro_product \
     system_signal_hub \
+    SystemUIGoogle__felix__auto_generated_rro_product \
+    SystemUIGoogle__felix__auto_generated_rro_vendor \
+    SystemUIGXOverlay \
+    TeleService__felix__auto_generated_rro_product \
+    TeleService__felix__auto_generated_rro_vendor \
     touch_gti_ical \
+    Traceur__felix__auto_generated_rro_product \
+    TrafficLightFaceOverlay \
     trusty_metricsd \
     twoshay \
     ufs_firmware_update.sh \

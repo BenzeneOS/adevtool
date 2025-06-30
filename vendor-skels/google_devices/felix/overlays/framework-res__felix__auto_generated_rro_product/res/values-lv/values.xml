@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">Dual Screen režīms nav pieejams, jo Pixel tālrunis sāk pārāk sakarst.</string>
+    <string name="fingerprint_acquired_partial">Noteikti ar pirkstu nosedziet sensoru</string>
+    <string name="fingerprint_acquired_power_press">Lai turpinātu, viegli pieskarieties sensoram</string>
+    <string name="fingerprint_acquired_too_fast">Paturiet pirkstu uz sensora mazliet ilgāk</string>
+    <string name="fingerprint_error_power_pressed">Verifikācija beigusies. Nākamreiz pieskarieties vieglāk.</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_compensation_brightness_conditions">
+        <item>0.001505017</item>
+        <item>0.004013378</item>
+        <item>0.008016032</item>
+        <item>0.022044089</item>
+    </array>
+    <array name="config_compensation_temperature_conditions_0">
+        <item>-1.0</item>
+        <item>4.0</item>
+    </array>
+    <array name="config_compensation_temperature_conditions_1">
+        <item>-1.0</item>
+        <item>4.0</item>
+    </array>
+    <array name="config_compensation_temperature_conditions_2">
+        <item>-1.0</item>
+        <item>4.0</item>
+        <item>8.0</item>
+    </array>
+    <array name="config_compensation_temperature_conditions_3">
+        <item>-1.0</item>
+        <item>6.0</item>
+    </array>
+    <array name="config_compensation_temperature_conditions_list">
+        <item>@array/config_compensation_temperature_conditions_0</item>
+        <item>@array/config_compensation_temperature_conditions_1</item>
+        <item>@array/config_compensation_temperature_conditions_2</item>
+        <item>@array/config_compensation_temperature_conditions_3</item>
+    </array>
+    <array name="config_hbmHalServiceArray">
+        <item>default</item>
+        <item>secondary</item>
+    </array>
+    <array name="config_hbmSvAmbientSensorArray">
+        <item>TCS3701 Ambient Light</item>
+        <item>TMD3719 Ambient Light</item>
+    </array>
+    <array name="config_hbmSvDisplayIdArray">
+        <item>local:4619827677550801152</item>
+        <item>local:4619827677550801153</item>
+    </array>
+    <array name="config_thermal_compensation_images">
+        <item>@drawable/TCI_0_cal0</item>
+        <item>@drawable/TCI_1_cal0</item>
+        <item>@drawable/TCI_2_cal0</item>
+        <item>@drawable/TCI_3_cal0</item>
+        <item>@drawable/TCI_4_cal0</item>
+        <item>@drawable/TCI_5_cal0</item>
+        <item>@drawable/TCI_6_cal0</item>
+        <item>@drawable/TCI_7_cal0</item>
+        <item>@drawable/TCI_8_cal0</item>
+    </array>
+</resources>

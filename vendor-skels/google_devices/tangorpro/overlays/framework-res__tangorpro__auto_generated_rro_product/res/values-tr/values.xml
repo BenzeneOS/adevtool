@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Parmağınızın sensörün üzerini kapattığından emin olun</string>
+    <string name="fingerprint_acquired_power_press">Kuruluma devam etmek için sensöre hafifçe dokunun</string>
+    <string name="fingerprint_acquired_too_fast">Parmağınızı sensörün üzerinde biraz daha uzun süre tutun</string>
+    <string name="fingerprint_error_power_pressed">Doğrulama sona erdi. Bir dahaki sefere hafifçe dokunmayı deneyin.</string>
+</resources>

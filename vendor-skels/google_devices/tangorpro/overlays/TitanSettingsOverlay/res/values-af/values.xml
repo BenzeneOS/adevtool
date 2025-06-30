@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">Sentrummodus</string>
+    <string name="dream_no_screen_saver_caption">Geen sluimerskerm nie</string>
+    <string name="dream_no_screen_saver_description">Jou skerm sal ná onaktiwiteit afskakel om energie te bespaar</string>
+    <string name="dream_no_screen_saver_preview_caption">Ekovriendelik</string>
+    <string name="dream_secondary_button_title">Slaan oor</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Terwyl dit gedok is en laai</string>
+    <string name="screensaver_settings_summary_off">Wys gunstelingfoto’s, -kunswerke, -horlosies en meer wanneer dit onaktief is</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Terwyl dit regop is en laai</string>
+    <string name="screensaver_settings_summary_sleep">Terwyl dit laai</string>
+    <string name="when_to_show_hubmode_charging">Terwyl dit laai</string>
+    <string name="when_to_show_hubmode_docked">Terwyl dit gedok is</string>
+    <string name="when_to_show_hubmode_never">Nooit</string>
+</resources>

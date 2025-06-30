@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">ორმაგი ეკრანი მიუწვდომელია, რადგან თქვენი Pixel ტელეფონი ძალიან თბება</string>
+    <string name="fingerprint_acquired_partial">დარწმუნდით, რომ თქვენი თითი ფარავს სენსორს</string>
+    <string name="fingerprint_acquired_power_press">დაყენების გასაგრძელებლად, მსუბუქად შეეხეთ სენსორს</string>
+    <string name="fingerprint_acquired_too_fast">გეჭიროთ თითი სენსორზე ცოტა მეტ ხანს</string>
+    <string name="fingerprint_error_power_pressed">ვერიფიკაცია დასრულდა. შემდეგ ჯერზე ეცადეთ, მსუბუქად შეეხოთ.</string>
+</resources>

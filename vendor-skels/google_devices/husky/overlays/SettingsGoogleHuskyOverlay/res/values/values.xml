@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_adaptive_alert_vibration_enabled">true</bool>
+    <bool name="config_battery_first_use_date_enabled">false</bool>
+    <dimen name="udfps_lottie_translate_y">-500.0dp</dimen>
+    <string name="config_limited_warranty_overlay_package_name">com.android.settings.overlay.husky</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">צריך לנקות את אזור החיישן במסך</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">צריך לנגב את המסך כדי להסיר כתמים או אבק. כך אפשר לצלם תמונות ברורות יותר של טביעת האצבע.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">צריך לנקות את המסך לפני שממשיכים</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"‏אם יש לך מגן מסך, צריך לשים את מגן המסך לפני תהליך ההגדרה של טביעת האצבע כדי להבטיח את הביצועים הטובים ביותר.
+
+לקבלת התוצאות הטובות ביותר, כדאי להשתמש במגן מסך שקיבל אישור Made for Google. יכול להיות שטביעת האצבע שלך לא תעבוד עם מגני מסך אחרים."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">מטים את האצבע ונוגעים עם קצה האצבע</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">מסובבים את האצבע ונוגעים עם הקצה השמאלי</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">מסובבים את האצבע שוב ונוגעים עם הקצה הימני</string>
+</resources>

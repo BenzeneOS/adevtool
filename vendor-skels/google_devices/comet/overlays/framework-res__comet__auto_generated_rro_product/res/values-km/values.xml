@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">ត្រូវប្រាកដថាម្រាមដៃរបស់អ្នកនៅពីលើសេនស័រ</string>
+    <string name="fingerprint_acquired_power_press">ដើម្បីបន្តរៀបចំ សូមប៉ះសេនស័រថ្នមៗ</string>
+    <string name="fingerprint_acquired_too_fast">បន្តដាក់ម្រាមដៃរបស់អ្នកលើសេនស័រឱ្យយូរជាងនេះបន្តិចទៀត</string>
+    <string name="fingerprint_error_power_pressed">ការផ្ទៀងផ្ទាត់ចប់ហើយ។ សូមសាកល្បងប៉ះថ្នមៗនៅពេលក្រោយ។</string>
+</resources>

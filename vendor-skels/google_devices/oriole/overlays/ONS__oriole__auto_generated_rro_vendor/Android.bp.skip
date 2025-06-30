@@ -1,0 +1,1 @@
+runtime_resource_overlay { name: "ONS__oriole__auto_generated_rro_vendor", soc_specific: true, }

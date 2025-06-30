@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Barmogʻingizni harakatlantiring. Qayta urining.</item>
+        <item>Barmogʻingiz roʻyxatga olingan. Boshqa barmoqdan foydalaning.</item>
+        <item>Tasvir sifati past. Qayta urining.</item>
+        <item/>
+        <item>Tasvir sifati past. Qayta urining.</item>
+        <item/>
+        <item/>
+        <item>Dogʻ aniqlandi. Ekranni tozalang. Qayta urining.</item>
+        <item>Tasvir oʻqilmadi. Qayta urining.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Maʼlumotning holati yomon. Qayta urining.</item>
+        <item>Barmoq roʻyxatga olinmadi. Qayta urining.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Barmoq izi skaneridan foydalanish imkonsiz. Xizmat koʻrsatish markaziga murojaat qiling yoki g.co/pixel/fingerprintunlock saytidan yordam oling</string>
+    <string name="fingerprint_recalibrate_notification_content">Xizmat koʻrsatish markaziga murojaat qiling yoki g.co/pixel/fingerprintunlock saytidan yordam oling</string>
+</resources>

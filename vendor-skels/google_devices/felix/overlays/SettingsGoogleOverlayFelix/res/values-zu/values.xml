@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Ukuze uye ekhaya, swayiphela ngokushesha phezulu usuka phansi. Ukuze ufinyelele Ibha Yomsebenzi, swayiphela kancane phezulu kusukela phansi. Ukuze ushintshe ama-app, swayiphela phezulu kusukela ngaphansi, ubambe, bese uyakhulula. Ukuze ubuyele emuva, swayipha kusukela kunqenqema langakwesokunxele noma kwesokudla.</string>
+    <string name="setting_auto_rotate_folded">Ukuphenduka okuzenzakalelayo lapho kugoqiwe</string>
+    <string name="setting_auto_rotate_unfolded">Ukuphenduka okuzenzakalelayo lapho kungagoqiwe</string>
+</resources>

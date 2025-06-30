@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">چارج کرنے کی آوازیں</string>
+    <string name="edge_to_edge_navigation_summary">ہوم پر جانے کے لیے، نیچے سے فوری طور پر اوپر سوائپ کریں۔ ٹاسک بار تک رسائی کے لیے نیچے سے اوپر کی طرف آہستہ سوائپ کریں۔ ایپس کے درمیان سوئچ کرنے کے لیے، نیچے سے اوپر کی طرف سوائپ کریں، پکڑے رہیں اور ریلیز کریں۔ پیچھے جانے کے لیے، بائیں یا دائیں کنارے سے سوائپ کریں۔</string>
+    <string name="fast_pair_device_not_found_other_device_description">‏اس آلہ کو اپنے Pixel Tablet کے قریب لے جائیں اور دوبارہ کوشش کریں۔</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">‏ایئر بڈز کیس کھولیں اور اسے اپنے Pixel Tablet کے قریب لے جائیں، پھر دوبارہ کوشش کریں۔</string>
+    <string name="sound_dashboard_summary">والیوم</string>
+    <string name="sound_dashboard_summary_with_dnd">والیوم، ڈسٹرب نہ کریں</string>
+    <string name="sound_settings">آواز</string>
+</resources>

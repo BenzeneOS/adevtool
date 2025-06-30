@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">画面でセンサー付近の汚れを取り除いてください</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">画面を拭いて、すじ、汚れ、しみなどを取り除いてください。指紋の画像をより鮮明に登録できるようになります。</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">次に進む前に画面をきれいにします</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"画面保護シートをお使いになる場合は、シートを装着してから指紋を設定することで最適な設定を行えます。
+
+最適な結果を得るには、Made For Google 認定の画面保護シートを使用してください。これ以外の画面保護シートを使うと、指紋が認識されないおそれがあります。"</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">指先を押し当ててください</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">指の左端を押し当ててください</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">指の右端を押し当ててください</string>
+</resources>

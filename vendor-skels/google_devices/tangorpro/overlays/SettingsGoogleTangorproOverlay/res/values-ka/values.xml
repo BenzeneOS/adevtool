@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">დამუხტვის ხმები</string>
+    <string name="edge_to_edge_navigation_summary">მთავარ ეკრანზე გადასასვლელად სწრაფად გადაფურცლეთ ქვედა კიდიდან ზემოთ ამოცანათა ზოლზე წვდომისათვის სწრაფად გადაფურცლეთ ქვედა კიდიდან ზემოთ. აპების გადასართავად გადაფურცლეთ ქვედა კიდიდან ზემოთ, დააყოვნეთ და შემდეგ გაუშვით. უკან გადასასვლელად, გადაფურცლეთ ეკრანის მარცხენა ან მარჯვენა კიდიდან.</string>
+    <string name="fast_pair_device_not_found_other_device_description">მიიტანეთ ეს მოწყობილობა Pixel Tablet-თან ახლოს და ხელახლა სცადეთ.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">გახსენით ყურსაცვამების სათავსო და მიიტანეთ ის თქვენს Pixel Tablet-თან ახლოს, შემდეგ ხელახლა ცადეთ.</string>
+    <string name="sound_dashboard_summary">ხმა</string>
+    <string name="sound_dashboard_summary_with_dnd">ხმა, არ შემაწუხოთ</string>
+    <string name="sound_settings">ხმა</string>
+</resources>

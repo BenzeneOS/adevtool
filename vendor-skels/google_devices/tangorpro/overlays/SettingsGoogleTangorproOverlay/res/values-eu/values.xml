@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Kargatzearen soinuak</string>
+    <string name="edge_to_edge_navigation_summary">Orri nagusira joateko, pasatu hatza azkar pantailaren behealdetik gora. Zereginen barra atzitzeko, pasatu hatza mantso pantailaren behealdetik gora. Aplikazioz aldatzeko, pasatu hatza pantailaren behealdetik gora eta eduki ezazu sakatuta une batez, altxatu aurretik. Atzera egiteko, pasatu hatza ezkerreko edo eskuineko ertzetik.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Hurbildu gailua Pixel Tablet-era eta saiatu berriro.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Ireki aurikularretarako kutxa eta hurbil ezazu Pixel Tablet-era. Gero, saiatu berriro.</string>
+    <string name="sound_dashboard_summary">Bolumena</string>
+    <string name="sound_dashboard_summary_with_dnd">Bolumena, ez molestatzeko modua</string>
+    <string name="sound_settings">Soinua</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Pārvietojiet pirkstu. Mēģiniet vēlreiz.</item>
+        <item>Pirksts jau ir reģistrēts. Izmantojiet citu pirkstu.</item>
+        <item>Slikta attēla kvalitāte. Mēģiniet vēlreiz.</item>
+        <item/>
+        <item>Slikta attēla kvalitāte. Mēģiniet vēlreiz.</item>
+        <item/>
+        <item/>
+        <item>Konstatēts traips — notīriet ekrānu. Mēģiniet vēlreiz.</item>
+        <item>Neizdevās nolasīt attēlu. Mēģiniet vēlreiz.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Dati nav derīgi. Mēģiniet vēlreiz.</item>
+        <item>Neizdevās reģistrēt pirkstu. Mēģiniet vēlreiz.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Nevar izmantot pirksta nospieduma sensoru. Apmeklējiet remonta pakalpojumu sniedzēju vai vietni g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Apmeklējiet remonta pakalpojumu sniedzēju vai vietni g.co/pixel/fingerprintunlock</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">Wi-Fi</string>
+    <string name="non_carrier_data_usage">‏נתוני שימוש ב-Wi-Fi</string>
+    <string name="tether_settings_title_all">שיתוף אינטרנט בין מכשירים</string>
+    <string name="tethering_footer_info">"‏כדי לספק חיבור לאינטרנט למכשירים אחרים באמצעות USB, אתרנט או Bluetooth, יש להשתמש ב'שיתוף אינטרנט בין מכשירים' (tethering)"</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Parmağınızı hareket ettirin. Tekrar deneyin.</item>
+        <item>Bu parmak zaten kaydedildi, başka bir parmak deneyin.</item>
+        <item>Düşük resim kalitesi. Tekrar deneyin.</item>
+        <item/>
+        <item>Düşük resim kalitesi. Tekrar deneyin.</item>
+        <item/>
+        <item/>
+        <item>Leke algılandı, ekranı temizleyin. Tekrar deneyin.</item>
+        <item>Resim okunamadı. Tekrar deneyin.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Kötü veri. Tekrar deneyin.</item>
+        <item>Parmak kaydedilemedi. Tekrar deneyin.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Parmak izi sensörü kullanılamıyor. Bir onarım hizmeti sağlayıcıyı veya g.co/pixel/fingerprintunlock adresini ziyaret edin.</string>
+    <string name="fingerprint_recalibrate_notification_content">Bir onarım hizmeti sağlayıcıyı veya g.co/pixel/fingerprintunlock adresini ziyaret edin</string>
+</resources>

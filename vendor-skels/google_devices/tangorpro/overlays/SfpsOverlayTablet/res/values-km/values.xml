@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>ប្ដូរទីតាំងម្រាមដៃ។ អ្នកបានប៉ះកន្លែងនេះដោយប្រើស្នាមម្រាមដៃរួចហើយ។</item>
+    </array>
+    <string name="fingerprint_unlock_set_unlock_password">ពាក្យសម្ងាត់ • ស្នាមម្រាមដៃ</string>
+    <string name="fingerprint_unlock_set_unlock_pattern">លំនាំ • ស្នាមម្រាមដៃ</string>
+    <string name="fingerprint_unlock_set_unlock_pin">កូដ PIN • ស្នាមម្រាមដៃ</string>
+    <string name="fingerprint_unlock_skip_fingerprint">បន្តដោយ​មិនប្រើការដោះសោ​ដោយប្រើស្នាមម្រាមដៃ</string>
+    <string name="fingerprint_unlock_title">តាមរយៈការដោះសោ​ដោយប្រើ​ស្នាមម្រាមដៃ អ្នកអាច​ដោះសោ​ថេប្លេតរបស់អ្នក​ដោយប្រើ​ស្នាមម្រាមដៃរបស់អ្នក​។ ដើម្បី​សុវត្ថិភាព ជម្រើសនេះ​តម្រូវឱ្យមាន​ការចាក់សោអេក្រង់​បម្រុង។</string>
+    <string name="security_settings_fingerprint_enroll_consent_introduction_title">អនុញ្ញាតការដោះសោដោយប្រើស្នាមម្រាមដៃ</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message">"ឧបករណ៍​ចាប់ស្នាមម្រាមដៃ​មាននៅលើប៊ូតុង​ថាមពល។
+
+ចុចប៊ូតុងថ្នមៗ​ដោយមិនចាំ​បាច់សង្កត់វានោះទេ។"</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_title">ចុចប៊ូតុង​ថាមពល</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">រៀបចំការដោះសោ​ដោយស្កេន​ស្នាមម្រាមដៃ</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title">ដកចេញ រួចហើយប៉ះ​។ រំកិល​ម្រាមដៃរបស់អ្នកបន្តិច​ក្នុង​មួយលើកៗ។</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay">ដកចេញ រួចចុច​ម្តងទៀត</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_message">សេនស័រចាប់ស្នាមម្រាមដៃ​ស្ថិតនៅលើប៊ូតុង​ថាមពល។</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_title">ប៉ះសេនស័រជំនួសវិញ</string>
+    <string name="security_settings_fingerprint_preference_title">ការដោះសោ​ដោយស្កេន​ស្នាមម្រាមដៃ</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">ការដោះសោ​ដោយស្កេន​ស្នាមម្រាមដៃបង្កើតគំរូស្នាមម្រាមដៃ​របស់អ្នក​ខុសប្លែកពីគេ ដើម្បីផ្ទៀងផ្ទាត់​ថាជាអ្នក។ ដើម្បីបង្កើត​គំរូស្នាមម្រាមដៃនេះ​ក្នុងអំឡុងពេល​រៀបចំ អ្នកនឹងត្រូវ​ថតរូបស្នាមម្រាមដៃ​របស់អ្នក​ពីផ្នែកខុសៗគ្នា។</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">នៅពេលអ្នកប្រើ​ការដោះសោដោយប្រើ​ស្នាមម្រាមដៃ រូបភាពត្រូវបានប្រើ ដើម្បីធ្វើបច្ចុប្បន្នភាព​គំរូស្នាមម្រាមដៃរបស់អ្នក។ រូបភាព​ដែលត្រូវបានប្រើ​សម្រាប់បង្កើត​គំរូស្នាមម្រាមដៃ​របស់អ្នក​មិនត្រូវបាន​រក្សាទុកទេ ប៉ុន្តែ​គំរូស្នាមម្រាមដៃនោះ​ត្រូវបានរក្សាទុក​ដោយសុវត្ថិភាព​នៅលើ​ថេប្លេត​របស់អ្នក និង​មិនចាកចេញ​ពីថេប្លេតឡើយ។ ការដំណើរការ​ទាំងអស់​ប្រព្រឹត្តទៅ​ដោយសុវត្ថិភាព​នៅលើ​ថេប្លេត​​របស់អ្នក​។</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">អ្នកអាច​លុបគំរូស្នាមម្រាមដៃ​របស់អ្នក ឬបិទ​ការដោះសោ​ដោយប្រើ​ស្នាមម្រាមដៃ​បានគ្រប់ពេល​នៅក្នុង​ការកំណត់។ គំរូស្នាមម្រាមដៃ​ត្រូវបានរក្សាទុក​នៅលើថេប្លេត រហូតទាល់តែ​អ្នកលុបវា។</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">ការដោះសោ​ដោយប្រើស្នាមម្រាមដៃ​បង្កើតគំរូស្នាមម្រាមដៃ​របស់កូនអ្នក​ខុសប្លែកពីគេ ដើម្បីផ្ទៀងផ្ទាត់​ថាជាគាត់។ ដើម្បីបង្កើត​គំរូស្នាមម្រាមដៃនេះ​ក្នុងអំឡុងពេល​រៀបចំ គាត់នឹងត្រូវ​ថតរូបស្នាមម្រាមដៃ​របស់គាត់​ពីផ្នែក​ខុសៗគ្នា។</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">នៅពេលគាត់ប្រើការដោះសោ​ដោយប្រើស្នាមម្រាមដៃ រូបភាពត្រូវ​បានប្រើ ដើម្បីធ្វើបច្ចុប្បន្នភាព​គំរូស្នាមម្រាមដៃរបស់គាត់។ រូបភាព​ដែលត្រូវបានប្រើ​សម្រាប់បង្កើត​គំរូស្នាមម្រាមដៃ​របស់កូនអ្នក​មិនត្រូវបាន​រក្សាទុកទេ ប៉ុន្តែ​គំរូស្នាមម្រាមដៃនោះ​ត្រូវបានរក្សាទុក​ដោយសុវត្ថិភាព​នៅលើ​ថេប្លេត និង​មិនចាកចេញ​ពីថេប្លេតឡើយ​។ ការដំណើរការ​ទាំងអស់​ប្រព្រឹត្តទៅ​ដោយសុវត្ថិភាព​នៅលើ​ថេប្លេត។</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">អ្នក និងកូនរបស់អ្នកអាច​លុបគំរូ​ស្នាមម្រាមដៃរបស់គាត់ ឬបិទ​ការដោះសោ​ដោយប្រើស្នាមម្រាមដៃ​បានគ្រប់ពេល​នៅក្នុង​ការកំណត់។ គំរូស្នាមម្រាមដៃ​ត្រូវបានរក្សាទុក​នៅលើថេប្លេត រហូតទាល់តែ​គំរូស្នាមម្រាមដៃ​ទាំងនោះត្រូវបានលុប។</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"ស្វែងយល់បន្ថែមតាមរយៈ &lt;a href='http://g.co/pixeltablet/fingerprintunlock'&gt;g.co/pixeltablet/fingerprintunlock&lt;/a&gt;។"</string>
+    <string name="security_settings_sfps_enroll_find_sensor_message">សេនស័រចាប់ស្នាមម្រាមដៃ​ស្ថិតនៅលើប៊ូតុង​ថាមពល។ វាជាប៊ូតុងខ្លីនៅចំហៀងទូរសព្ទ។</string>
+    <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">រំកិលម្រាមដៃបន្តិចក្នុងមួយលើកៗ</string>
+    <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">បន្តរំកិលដើម្បីថតកន្លែងផ្សេងទៀតនៃស្នាមម្រាមដៃ</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">ការធ្វើបែបនេះធ្វើឱ្យការដោះសោដោយចៃដន្យមិនទំនងជាកើតឡើង។ នៅពេលការកំណត់នេះត្រូវបានបិទ ការប៉ះសេនស័រតិចៗនឹងដោះ​សោ។</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">ដាក់ម្រាមដៃលើសេនស័រ ដើម្បីដោះសោ</string>
+    <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">ប៉ះសេនស័រពីមុំផ្សេងទៀត</string>
+    <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">រំកិលម្រាមដៃដើម្បីថតកន្លែងផ្សេងទៀតនៃស្នាមម្រាមដៃ</string>
+    <string name="security_settings_work_fingerprint_preference_title">ការដោះសោ​ដោយប្រើ​ស្នាមម្រាមដៃសម្រាប់ការងារ</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">បន្ត​រៀបចំ</string>
+    <string name="setup_fingerprint_enroll_immobile_help_subtitle">ការធ្វើបែបនេះជួយចាប់យកស្នាមម្រាមដៃបានកាន់តែច្រើន ដើម្បីធ្វើការដោះសោបានកាន់តែប្រសើរ</string>
+    <string name="setup_fingerprint_enroll_immobile_help_title">រំកិលម្រាមដៃរបស់អ្នក</string>
+    <string name="suggested_fingerprint_lock_settings_title">ប្រើការដោះសោ​ដោយប្រើស្នាម​ម្រាមដៃ</string>
+</resources>

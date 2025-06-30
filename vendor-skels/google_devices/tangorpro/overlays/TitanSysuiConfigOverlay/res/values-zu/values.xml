@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Khetha isilondolozi sesikrini bese uvula usizo lwe-handsfree ngenkathi ithebulethi yakho idokhiwe</string>
+    <string name="dock_setup_notification_title">Yenza okuningi lapho idokhiwe</string>
+    <string name="stylus_system_update_notification_text">Ukuze wenze okuhle nge-stylus yakho, faka isibuyekezo sakamuva se-Android</string>
+    <string name="stylus_system_update_notification_title">Faka isibuyekezo se-Android</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">손가락이 센서 전체를 덮고 있는지 확인하세요</string>
+    <string name="fingerprint_acquired_power_press">설정을 계속하려면 센서를 가볍게 터치하세요</string>
+    <string name="fingerprint_acquired_too_fast">손가락을 센서에 좀 더 오랫동안 대고 기다리세요</string>
+    <string name="fingerprint_error_power_pressed">인증이 중단되었습니다. 다음에는 가볍게 터치해 보세요.</string>
+</resources>

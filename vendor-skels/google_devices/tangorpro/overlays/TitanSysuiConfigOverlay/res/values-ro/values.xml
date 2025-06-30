@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Alege un screensaver și activează ajutorul în modul hands-free cât timp tableta este andocată</string>
+    <string name="dock_setup_notification_title">Fă mai multe cât timp tableta este andocată</string>
+    <string name="stylus_system_update_notification_text">Pentru a profita din plin de creion, instalează cea mai recentă actualizare Android</string>
+    <string name="stylus_system_update_notification_title">Instalează actualizarea Android</string>
+</resources>

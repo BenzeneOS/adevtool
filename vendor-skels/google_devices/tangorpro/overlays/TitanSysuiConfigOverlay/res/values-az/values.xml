@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Ekran qoruyucusu seçin və planşet dokda olarkən səsli idarəetmə ilə yardımı aktiv edin</string>
+    <string name="dock_setup_notification_title">Dokda olarkən daha çox iş görün</string>
+    <string name="stylus_system_update_notification_text">Stilusdan maksimum yararlanmaq üçün ən son Android güncəllənməsini quraşdırın</string>
+    <string name="stylus_system_update_notification_title">Android güncəllənməsini quraşdırın</string>
+</resources>

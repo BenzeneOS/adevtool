@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Ladelyder</string>
+    <string name="edge_to_edge_navigation_summary">For å gå til startskjermen, sveip raskt opp fra bunnen. For å åpne oppgavelinjen, sveip sakte opp fra bunnen. For å bytte app, sveip opp fra bunnen, hold og slipp. For å gå tilbake, sveip fra venstre eller høyre kant.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Flytt denne enheten nærmere Pixel Tablet, og prøv igjen.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Åpne etuiet for ørepluggene, flytt det nærmere Pixel Tablet, og prøv igjen.</string>
+    <string name="sound_dashboard_summary">Volum</string>
+    <string name="sound_dashboard_summary_with_dnd">Volum, Ikke forstyrr</string>
+    <string name="sound_settings">Lyd</string>
+</resources>

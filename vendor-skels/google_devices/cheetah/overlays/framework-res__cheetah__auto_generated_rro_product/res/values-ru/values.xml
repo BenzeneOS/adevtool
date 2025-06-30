@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Переместите палец и повторите попытку.</item>
+        <item>Отпечаток этого пальца уже зарегистрирован. Используйте другой.</item>
+        <item>Низкое качество изображения. Повторите попытку.</item>
+        <item/>
+        <item>Низкое качество изображения. Повторите попытку.</item>
+        <item/>
+        <item/>
+        <item>Обнаружено загрязнение. Очистите экран и повторите попытку.</item>
+        <item>Не удалось прочитать изображение. Повторите попытку.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Неверные данные. Повторите попытку.</item>
+        <item>Не удалось зарегистрировать отпечаток пальца. Повторите попытку.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Невозможно использовать сканер отпечатков пальцев. Обратитесь в сервисный центр или перейдите на страницу g.co/pixel/fingerprintunlock.</string>
+    <string name="fingerprint_recalibrate_notification_content">Обратитесь в сервисный центр или перейдите на страницу g.co/pixel/fingerprintunlock.</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">A Dual Screen funkció nem áll rendelkezésre, mert Pixel telefonja kezd túl meleg lenni</string>
+    <string name="fingerprint_acquired_partial">Takarja le az ujjával az érzékelőt</string>
+    <string name="fingerprint_acquired_power_press">A beállítás folytatásához érintse meg az érzékelőt</string>
+    <string name="fingerprint_acquired_too_fast">Még egy kicsit tartsa az ujját az érzékelőn</string>
+    <string name="fingerprint_error_power_pressed">Az igazolás befejeződött. Legközelebb próbálja meg finoman megérinteni.</string>
+</resources>

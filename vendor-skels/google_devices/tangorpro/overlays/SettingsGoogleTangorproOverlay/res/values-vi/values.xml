@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Âm thanh khi sạc</string>
+    <string name="edge_to_edge_navigation_summary">Để chuyển đến màn hình chính, hãy vuốt lên thật nhanh từ cuối màn hình. Để truy cập vào Taskbar, vuốt chậm từ cuối màn hình lên. Để chuyển đổi giữa các ứng dụng, hãy vuốt lên từ cuối màn hình, giữ rồi thả ra. Để quay lại, hãy vuốt từ mép trái hoặc mép phải.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Đưa thiết bị này lại gần Pixel Tablet hơn rồi thử lại.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Mở hộp đựng tai nghe, đưa lại gần Pixel Tablet rồi thử lại.</string>
+    <string name="sound_dashboard_summary">Âm lượng</string>
+    <string name="sound_dashboard_summary_with_dnd">Âm lượng, Không làm phiền</string>
+    <string name="sound_settings">Âm thanh</string>
+</resources>

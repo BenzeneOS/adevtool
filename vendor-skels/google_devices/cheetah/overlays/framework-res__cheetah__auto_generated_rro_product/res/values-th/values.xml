@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>เลื่อนนิ้ว ลองอีกครั้ง</item>
+        <item>ลงทะเบียนนิ้วนี้แล้ว โปรดใช้นิ้วอื่น</item>
+        <item>คุณภาพของรูปต่ำ ลองอีกครั้ง</item>
+        <item/>
+        <item>คุณภาพของรูปต่ำ ลองอีกครั้ง</item>
+        <item/>
+        <item/>
+        <item>ตรวจพบรอยเปื้อน โปรดทำความสะอาดหน้าจอ ลองอีกครั้ง</item>
+        <item>อ่านรูปภาพไม่สำเร็จ ลองอีกครั้ง</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>ข้อมูลไม่ถูกต้อง ลองอีกครั้ง</item>
+        <item>ลงทะเบียนนิ้วไม่สำเร็จ ลองอีกครั้ง</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">ใช้เซ็นเซอร์ลายนิ้วมือไม่ได้ โปรดติดต่อผู้ให้บริการซ่อมหรือไปที่ g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">โปรดติดต่อผู้ให้บริการซ่อมหรือไปที่ g.co/pixel/fingerprintunlock</string>
+</resources>

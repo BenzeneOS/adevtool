@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_dashboard_summary_no_mobile">WiFi</string>
+    <string name="non_carrier_data_usage">Prijenos podataka putem WiFi-ja</string>
+    <string name="tether_settings_title_all">Dijeljenje internetske veze</string>
+    <string name="tethering_footer_info">Koristite dijeljenje internetske veze da drugim uređajima omogućite internet putem USB-a, Etherneta ili Bluetootha.</string>
+</resources>

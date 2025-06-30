@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Звукови пуњења</string>
+    <string name="edge_to_edge_navigation_summary">Да бисте брзо отишли на почетну страницу, брзо превуците нагоре са дна. Да бисте приступили траци задатака, лагано превуците нагоре са дна. Да бисте прешли са једне апликације на другу, превуците нагоре од дна екрана, задржите, па пустите. Да бисте се вратили назад, превуците од леве или десне ивице.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Приближите овај уређај Pixel Tablet-у и пробајте поново.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Отворите кутију за слушалице, приближите је Pixel Tablet-у и пробајте поново.</string>
+    <string name="sound_dashboard_summary">Јачина звука</string>
+    <string name="sound_dashboard_summary_with_dnd">Јачина звука, Не узнемиравај</string>
+    <string name="sound_settings">Звук</string>
+</resources>

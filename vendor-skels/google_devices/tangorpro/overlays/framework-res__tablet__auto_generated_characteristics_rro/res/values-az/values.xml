@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Planşet başlayır…</string>
+    <string name="android_upgrading_title">Planşet yenilənir…</string>
+    <string name="app_streaming_blocked_message">Hazırda %1$s cihazınızda buna giriş mümkün deyil. Planşetinizdə sınayın.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Bu tətbiq əlavə təhlükəsizlik tələb edir. Planşetinizdə sınayın.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Bu tətbiqə əlavə icazələr lazımdır, lakin yayım sessiyasında icazə vermək olmur. Əvvəlcə planşetdə icazə verin.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">%1$s cihazınızda buna giriş mümkün deyil. Planşetinizdə sınayın.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Planşet ayarları əlçatan deyil</string>
+    <string name="battery_saver_charged_notification_summary">Planşetin kifayət qədər enerjisi var. Funksiyalar artıq məhdud deyil.</string>
+    <string name="default_audio_route_name">Planşet</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s Toxunaraq Kəşf Et rejimini aktivləşdirmək istəyir. Toxunaraq Kəşf Et açıldığı zaman, barmağınızın altında nə olduğu haqda olan təsvirləri eşidə və ya görə bilərsiniz və yaplanşetdə insanlarla əlaqəyə keçmək üçün jestlər həyata keçirə bilərsiniz.</string>
+    <string name="global_actions">Planşet seçimləri</string>
+    <string name="kg_failed_attempts_almost_at_login">"Siz kilidi açmaq üçün şablonu %1$d dəfə səhv çəkdiniz. %2$d daha uğursuz cəhddən sonra planşetinizin kilidini e-poçt hesabınızla açmaq tələb olunacaq.
+
+ %3$d saniyə ərzində bir daha yoxlayın."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Siz planşet kilidini açmaq üçün %1$d dəfə uğursuz cəhd etmisiniz. %2$d dəfə də uğursuz cəhd etsəniz, planşet fabrik ayarlarına sıfırlanacaq və bütün məlumatlarınız itəcək.</string>
+    <string name="kg_failed_attempts_now_wiping">Siz planşet kilidini açmaq üçün %d dəfə uğursuz cəhd etmisiniz. Planşet fabrik ayarlarına sıfırlanacaq.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Siz planşet kilidini açmaq üçün %1$d dəfə uğursuz cəhd etmisiniz. %2$d dəfə də uğursuz cəhd etsəniz, planşet fabrik ayarlarına sıfırlanacaq və bütün məlumatlarınız itəcək.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Siz kilidi açmaq üçün şablonu %1$d dəfə səhv çəkdiniz. %2$d daha uğursuz cəhddən sonra planşetin kilidini Google hesabınıza daxil olmaqla açmağınız istəniləcək.
+
+ %3$d saniyə ərzində bir daha yoxlayın."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Siz planşetin kilidini açmaq üçün %d yanlış cəhd etmisiniz. Planşet artıq defolt zavod halına sıfırlanacaq.</string>
+    <string name="lockscreen_missing_sim_message">Planşetdə SIM kart yoxdur.</string>
+    <string name="low_memory">Planşetin yaddaşı doludur. Boş yer üçün bəzi faylları silin.</string>
+    <string name="permdesc_bluetooth">Tətbiqə yerli Bluetooth planşetinin konfiqurasiyasını görməyə və cütlənmiş cihazlarla bağlantılar etməyə və qəbul etməyə imkan verir.</string>
+    <string name="permdesc_bluetoothAdmin">Tətbiqə yerli Bluetooth planşetinin konfiqurasiyasını görməyə və məsafədən cihazları tapmağa və cütləməyə imkan verir.</string>
+    <string name="permdesc_broadcastSticky">Tətbiqə yayım bitdikdən sonra da qalan çətin yayımlar göndərməyə imkan verir. Hədsiz istifadə çox yaddaş istifadəsinə səbəb olmaqla planşeti yavaş və qeyri-stabil edə bilər.</string>
+    <string name="permdesc_changeWifiMulticastState">Tətbiqə Wi-Fi şəbəkədə sizin planşetdən başqa digər multikast adreslərə yönləndirilmiş paketləri almaq icazəsi verir. Bu qeyri-çoxadresli rejimdən fəqli olaraq daha çox enerji işlədir.</string>
+    <string name="permdesc_changeWimaxState">Tətbiqə planşeti WiMAX şəbəkələrinə qoşmaq və onlardan ayırmaq icazəsi verir.</string>
+    <string name="permdesc_getAccounts">Tətbiqə planşet tərəfindən bilinən hesabların siyahısını alma icazəsi verir. Bu quraşdırdığınız tətbiqlər tərəfindən yaradılmış istənilən hesab ola bilər.</string>
+    <string name="permdesc_persistentActivity">Tətbiqə öz komponentlərini yaddaşda saxlama icazəsi verir. Bu planşetin sürətini zəiflətməklə, digər tətbiqlər üçün mövcud olan yaddaşı limitləyə bilər.</string>
+    <string name="permdesc_readCalendar">Bu tətbiq planşetdə yerləşdirilmiş və təqvim datasında yadda saxlanmış bütün təqvim tədbirlərini oxuya bilər.</string>
+    <string name="permdesc_readContacts">Tətbiqə planşetinizdə saxlanılan kontaktlar haqqında datanı oxumaq icazəsi verir. Tətbiqlərin, həmçinin planşetinizdə kontaktlar yaradan hesablara da giriş imkanı olacaq. Buraya quraşdırdığınız tətbiqlər tərəfindən yaradılan hesablar daxil ola bilər. Bu icazə tətbiqlərə kontakt məlumatlarınızı yadda saxlamaq imkanı verir və zərərli tətbiqlər kontakt məlumatlarını xəbəriniz olmadan paylaşa bilər.</string>
+    <string name="permdesc_readSms">Bu tətbiq, planşetdə yadda saxlanmış bütün SMS (mətn) mesajlarını oxuya bilər.</string>
+    <string name="permdesc_receiveBootCompleted">Tətbiqə sistem yükləməni bitirdiyi zaman dərhal özünü başlatmağa imkan verir. Bu planşeti başlatmağın uzun çəkməsinə səbəb ola bilər və tətbiqə həmişə çalışdıraraq bütün planşeti yavaşlatmağa imkan verir.</string>
+    <string name="permdesc_setTimeZone">Tətbiqə planşetin vaxt zonasını dəyişmə icazəsi verir.</string>
+    <string name="permdesc_transmitIr">Tətbiqə tabletin infraqırmızı ötürücüsünü istifadə etməyə icazə verir.</string>
+    <string name="permdesc_wakeLock">Tətbiqə planşetin yuxu rejimini qadağan etməyə imkan verir.</string>
+    <string name="permdesc_writeCalendar">Bu tətbiq planşetinizdə təqvim tədbirləri əlavə edə, silə və ya dəyişiklik edə bilər. Həmçinin bu tətbiq təqvim sahiblərindən gəlmə ehtimalı olan mesajları göndərə və ya sahiblərinə bildirmədən tədbirlərdə dəyişiklik edə bilər.</string>
+    <string name="permdesc_writeCallLog">Tətbiqə planşetinizdəki zəng jurnalını, həmçinin gedən və gələn zənglərin siyahısını dəyişməyə imkan verir. Zərərli tətbiqlər bundan istifadə edərək, zəng jurnalınıza dəyişiklik edə bilər.</string>
+    <string name="permdesc_writeContacts">Tətbiqə planşetinizdə saxlanan kontaktlar haqqında datanı dəyişdirmək icazəsi verir. Bu icazə tətbiqlərə kontakt datasını silmək imkanı verir.</string>
+    <string name="permlab_wakeLock">planşetin yuxu rejiminin qarşısını almaq</string>
+    <string name="policydesc_watchLogin">Ekan kilidini açarkən daxil edilmiş yanlış parollara baxın və əgər həddindən çox yanlış parollar daxil edilibsə, planşeti kilidləyin və ya bütün planşet datasını silin.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Ekranı kiliddən çıxararkən yazılan yanlış parolların sayına nəzarət edin və planşeti kilidləyin və ya əgər həddən çox yanlış parol yazılıbsa, həmin istifadəçinin bütün verilənlərini silin.</string>
+    <string name="policydesc_wipeData">Planşetin datasını xəbərdarlıq olmadan, zavod data sıfırlaması ilə silin.</string>
+    <string name="policydesc_wipeData_secondaryUser">Xəbərdarlıq etmədən bu istifadəçinin verilənlərini bu planşetdə silin.</string>
+    <string name="power_dialog">Planşet seçimləri</string>
+    <string name="shutdown_confirm">Planşetiniz sönəcək.</string>
+    <string name="vdm_camera_access_denied">%1$s cihazınızdan planşetin kamerasına giriş etmək olmur</string>
+</resources>

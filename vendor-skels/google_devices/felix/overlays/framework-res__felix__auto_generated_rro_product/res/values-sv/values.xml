@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">Dual Screen kan inte användas eftersom Pixel-telefonen börjar bli för varm</string>
+    <string name="fingerprint_acquired_partial">Se till att fingret täcker sensorn</string>
+    <string name="fingerprint_acquired_power_press">Nudda sensorn för att fortsätta konfigureringen</string>
+    <string name="fingerprint_acquired_too_fast">Håll kvar fingret på sensorn lite längre</string>
+    <string name="fingerprint_error_power_pressed">Verifieringen avslutades. Testa att nudda nästa gång.</string>
+</resources>

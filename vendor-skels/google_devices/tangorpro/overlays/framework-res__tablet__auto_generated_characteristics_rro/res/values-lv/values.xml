@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Notiek planšetdatora palaišana…</string>
+    <string name="android_upgrading_title">Notiek planšetdatora atjaunināšana…</string>
+    <string name="app_streaming_blocked_message">Šajā ierīcē (%1$s) pašlaik nevar piekļūt šai lietotnei. Mēģiniet tai piekļūt savā planšetdatorā.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Šī lietotne pieprasa papildu drošību. Mēģiniet tai piekļūt savā planšetdatorā.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Šī lietotne pieprasa papildu atļaujas, taču atļaujas nevar piešķirt straumēšanas sesijā. Vispirms piešķiriet attiecīgo atļauju savā planšetdatorā.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Šajā ierīcē (%1$s) nevar piekļūt tālvadībai. Mēģiniet tai piekļūt savā planšetdatorā.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Planšetdatora iestatījumi nav pieejami</string>
+    <string name="battery_saver_charged_notification_summary">Planšetdatora uzlādes līmenis ir pietiekams. Funkcijas vairs netiek ierobežotas.</string>
+    <string name="default_audio_route_name">Planšetdators</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s vēlas iespējot funkciju “Atklāt pieskaroties”. Kad ir ieslēgta funkcija “Atklāt pieskaroties”, var dzirdēt vai redzēt tā vienuma aprakstu, virs kura atrodas pirksts, vai veikt žestus, lai mijiedarbotos ar planšetdatoru.</string>
+    <string name="global_actions">Planšetdatora opcijas</string>
+    <string name="kg_failed_attempts_almost_at_login">"Jūs nepareizi norādījāt atbloķēšanas kombināciju %1$d reizes. Pēc vēl %2$d neveiksmīgiem mēģinājumiem planšetdators būs jāatbloķē, izmantojot e-pasta kontu.
+
+Mēģiniet vēlreiz pēc %3$d sekundēm."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Jūs nepareizi veicāt planšetdatora atbloķēšanu %1$d reizes. Pēc vēl %2$d neveiksmīgiem mēģinājumiem planšetdatorā tiks atiestatīti rūpnīcas noklusējuma iestatījumi un lietotāja dati tiks zaudēti.</string>
+    <string name="kg_failed_attempts_now_wiping">Jūs nepareizi veicāt planšetdatora atbloķēšanu %d reizes. Planšetdatorā tiks atiestatīti rūpnīcas noklusējuma iestatījumi.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Jūs nepareizi veicāt planšetdatora atbloķēšanu %1$d reizes. Pēc vēl %2$d neveiksmīga(-iem) mēģinājuma(-iem) planšetdatorā tiks atiestatīti rūpnīcas noklusējuma iestatījumi, un lietotāja dati tiks zaudēti.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Atbloķēšanas kombinācija tika nepareizi uzzīmēta %1$d reizes. Pēc vēl %2$d neveiksmīgiem mēģinājumiem planšetdators būs jāatbloķē, izmantojot pierakstīšanos Google kontā.
+
+Mēģiniet vēlreiz pēc %3$d sekundēm."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Jūs nepareizi veicāt planšetdatora atbloķēšanu %d reizes. Planšetdatorā tiks atiestatīti rūpnīcas noklusējuma iestatījumi.</string>
+    <string name="lockscreen_missing_sim_message">Planšetdatorā nav SIM kartes.</string>
+    <string name="low_memory">Planšetdatora atmiņa ir pilna. Dzēsiet dažus failus, lai atbrīvotu vietu.</string>
+    <string name="permdesc_bluetooth">Ļauj lietotnei skatīt Bluetooth konfigurāciju planšetdatorā, kā arī veidot un pieņemt savienojumus ar pārī savienotām ierīcēm.</string>
+    <string name="permdesc_bluetoothAdmin">Ļauj lietotnei konfigurēt vietējo Bluetooth planšetdatoru, kā arī atklāt attālas ierīces un savienot tās pārī.</string>
+    <string name="permdesc_broadcastSticky">Ļauj lietotnei sūtīt piesaistošas apraides, kas tiek saglabātas pēc apraides pabeigšanas. Pārmērīga izmantošana var palēnināt planšetdatora darbību vai padarīt tā darbību nestabilu, liekot izmantot pārāk daudz atmiņas.</string>
+    <string name="permdesc_changeWifiMulticastState">Ļauj lietotnei saņemt sūtījumus, kas sūtīti uz visām ierīcēm Wi-Fi tīklā, izmantojot multiraides adreses, nevis tikai jūsu planšetdatoru. Tādējādi tiek patērēts vairāk enerģijas nekā režīmā, kas nav multiraide.</string>
+    <string name="permdesc_changeWimaxState">Ļauj lietotnei izveidot un pārtraukt planšetdatora savienojumu ar WiMAX tīkliem.</string>
+    <string name="permdesc_getAccounts">Ļauj lietotnei iegūt planšetdatoram zināmo kontu sarakstu. Tas var ietvert jebkādus kontus, ko izveidojušas instalētās lietojumprogrammas.</string>
+    <string name="permdesc_persistentActivity">Ļauj lietotnei nodrošināt atsevišķu tās daļu nepārtrauktu atrašanos atmiņā. Tas var ierobežot pieejamo atmiņas daudzumu citām lietotnēm, tādējādi palēninot planšetdatora darbību.</string>
+    <string name="permdesc_readCalendar">Šī lietotne var lasīt visus kalendāra pasākumus, kas saglabāti planšetdatorā, un kopīgot vai saglabāt jūsu kalendāra datus.</string>
+    <string name="permdesc_readContacts">Ļauj lietotnei lasīt datus par planšetdatorā glabātajām kontaktpersonām. Lietotnēm būs arī piekļuve kontiem jūsu planšetdatorā, kuros ir izveidotas kontaktpersonas. Tas var ietvert kontus, ko izveidojušas jūsu instalētās lietotnes. Ar šo atļauju lietotnes var saglabāt jūsu kontaktpersonu datus, savukārt ļaunprātīgas lietotnes var kopīgot kontaktpersonu datus, jums nezinot.</string>
+    <string name="permdesc_readSms">Šī lietotne var lasīt visas īsziņas, kas saglabātas planšetdatorā.</string>
+    <string name="permdesc_receiveBootCompleted">Ļauj lietotnei tikt startētai, tiklīdz sistēma ir pabeigusi sāknēšanu. Šādi planšetdatora startēšana var notikt ilgāk un lietotne, ja tā darbojas nepārtraukti, var palēnināt planšetdatora vispārējo darbību.</string>
+    <string name="permdesc_setTimeZone">Ļauj lietotnei mainīt planšetdatora laika joslu.</string>
+    <string name="permdesc_transmitIr">Ļauj lietotnei izmantot planšetdatora infrasarkano staru signāla raidītāju.</string>
+    <string name="permdesc_wakeLock">Ļauj lietotnei novērst planšetdatora pāriešanu miega režīmā.</string>
+    <string name="permdesc_writeCalendar">Šī lietotne var pievienot, noņemt vai mainīt kalendāra pasākumus jūsu planšetdatorā. Šī lietotne var sūtīt ziņojumus, ko šķietami sūtījuši kalendāru īpašnieki, vai mainīt pasākumus, neinformējot to īpašniekus.</string>
+    <string name="permdesc_writeCallLog">Ļauj lietotnei pārveidot planšetdatora zvanu žurnālu, tostarp ienākošo un izejošo zvanu datus. Ļaunprātīgas lietotnes var to izmantot, lai dzēstu vai pārveidotu savu zvanu žurnālu.</string>
+    <string name="permdesc_writeContacts">Ļauj lietotnei mainīt datus par planšetdatorā glabātajām kontaktpersonām. Ar šo atļauju lietotnes var dzēst kontaktpersonu datus.</string>
+    <string name="permlab_wakeLock">novērst planšetdatora pāriešanu miega režīmā</string>
+    <string name="policydesc_watchLogin">Pārrauga nepareizi ievadīto paroļu skaitu, atbloķējot ekrānu, un bloķē planšetdatoru vai dzēš visus planšetdatora datus, ja tiek ievadīts pārāk daudz nepareizu paroļu.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Pārraudzīt nepareizi ievadīto ekrāna atbloķēšanas paroļu skaitu un bloķēt planšetdatoru vai dzēst visus šī lietotāja datus, ja tiek ievadīts pārāk daudz nepareizu paroļu.</string>
+    <string name="policydesc_wipeData">Dzēš planšetdatora datus bez brīdinājuma, veicot rūpnīcas datu atiestatīšanu.</string>
+    <string name="policydesc_wipeData_secondaryUser">Bez brīdinājuma dzēst šī lietotāja datus no planšetdatora.</string>
+    <string name="power_dialog">Planšetdatora opcijas</string>
+    <string name="shutdown_confirm">Planšetdators tiks beidzēts.</string>
+    <string name="vdm_camera_access_denied">Nevar piekļūt planšetdatora kamerai no jūsu ierīces (%1$s).</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">சார்ஜிங் ஒலிகள்</string>
+    <string name="edge_to_edge_navigation_summary">முகப்புக்குச் செல்ல, கீழிருந்து மேல்நோக்கி விரைவாக ஸ்வைப் செய்யவும். செயல் பட்டியை அணுக, கீழிருந்து மேல்நோக்கி மெதுவாக ஸ்வைப் செய்யவும். ஆப்ஸுக்கிடையே மாற, கீழிருந்து மேல்நோக்கி ஸ்வைப் செய்து, பிடித்து பிறகு விடுவிக்கவும். பின்செல்ல, திரையின் இடது/வலது விளிம்பிலிருந்து ஸ்வைப் செய்யவும்.</string>
+    <string name="fast_pair_device_not_found_other_device_description">இந்தச் சாதனத்தை Pixel Tabletடிற்கு அருகில் நகர்த்தி மீண்டும் இணைத்துப் பாருங்கள்.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">இயர்பட்களுக்கான பெட்டியைத் திறந்து Pixel Tabletடிற்கு அருகில் வைத்து மீண்டும் இணைத்துப் பாருங்கள்.</string>
+    <string name="sound_dashboard_summary">ஒலியளவு</string>
+    <string name="sound_dashboard_summary_with_dnd">ஒலியளவு, தொந்தரவு செய்ய வேண்டாம்</string>
+    <string name="sound_settings">ஒலி</string>
+</resources>

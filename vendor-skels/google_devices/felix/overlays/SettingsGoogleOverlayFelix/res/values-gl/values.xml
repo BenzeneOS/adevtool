@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Para ir á pantalla de inicio, pasa o dedo rapidamente cara arriba desde a parte inferior da pantalla. Para acceder á Barra de tarefas, pasa o dedo amodo cara arriba desde a parte inferior da pantalla. Para cambiar de aplicación, pasa o dedo cara arriba desde a parte inferior da pantalla, mantena premida e sóltaa. Para volver á pantalla anterior, pasa o dedo desde o bordo esquerdo ou dereito.</string>
+    <string name="setting_auto_rotate_folded">Xirar automaticamente cando o dispositivo estea pregado</string>
+    <string name="setting_auto_rotate_unfolded">Xirar automaticamente cando o dispositivo estea despregado</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">Noteikti ar pirkstu nosedziet sensoru</string>
+    <string name="fingerprint_acquired_power_press">Lai turpinātu, viegli pieskarieties sensoram</string>
+    <string name="fingerprint_acquired_too_fast">Paturiet pirkstu uz sensora mazliet ilgāk</string>
+    <string name="fingerprint_error_power_pressed">Verifikācija beigusies. Nākamreiz pieskarieties vieglāk.</string>
+</resources>

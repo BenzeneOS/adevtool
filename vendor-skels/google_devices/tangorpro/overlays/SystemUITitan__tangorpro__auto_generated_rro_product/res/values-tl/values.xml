@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_dialog_touch_sensor">Ilapat ang daliri sa sensor para sa fingerprint</string>
+    <string name="settingslib_learn_more_text">Matuto pa tungkol sa Pag-unlock Gamit ang Fingerprint</string>
+</resources>

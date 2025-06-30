@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">گذرواژه • اثر انگشت • چهره</string>
+    <string name="biometrics_unlock_set_unlock_pattern">الگو • اثر انگشت • چهره</string>
+    <string name="biometrics_unlock_set_unlock_pin">پین • اثر انگشت • چهره</string>
+</resources>

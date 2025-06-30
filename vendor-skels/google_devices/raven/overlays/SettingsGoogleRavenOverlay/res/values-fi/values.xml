@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Nostaa tietyn sisällön päivitysvälin automaattisesti 60 hertsistä 120:een. Lisää akun käyttöä.</string>
+</resources>

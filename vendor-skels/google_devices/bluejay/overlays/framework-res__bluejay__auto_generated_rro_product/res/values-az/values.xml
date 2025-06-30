@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Barmağınızı hərəkət etdirin. Yenə cəhd edin.</item>
+        <item>Bu barmaq artıq qeydiyyata alınıb, fərqli bir barmaq istifadə edin.</item>
+        <item>Aşağı keyfiyyətli şəkil. Yenə cəhd edin.</item>
+        <item/>
+        <item>Aşağı keyfiyyətli şəkil. Yenə cəhd edin.</item>
+        <item/>
+        <item/>
+        <item>Ləkə aşkarlandı, ekranı təmizləyin. Yenə cəhd edin.</item>
+        <item>Şəkli oxumaq alınmadı. Yenə cəhd edin.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Data xətası. Yenə cəhd edin.</item>
+        <item>Barmaq qeydiyyata alınmadı. Yenə cəhd edin.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Barmaq izi sensorundan istifadə etmək mümkün deyil. Təmir provayderini və ya g.co/pixel/fingerprintunlock ünvanını ziyarət edin</string>
+    <string name="fingerprint_recalibrate_notification_content">Təmir provayderini və ya g.co/pixel/fingerprintunlock ünvanını ziyarət edin</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Spjaldtölvan kveikir á sér…</string>
+    <string name="android_upgrading_title">Uppfærir spjaldtölvu…</string>
+    <string name="app_streaming_blocked_message">Aðgangur að þessu í %1$s er ekki í boði eins og er. Prófaðu það í spjaldtölvunni í staðinn.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Þetta forrit biður um viðbótaröryggi. Prófaðu það í spjaldtölvunni í staðinn.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Þetta forrit biður um viðbótarheimildir en ekki er hægt að veita heimildir í streymislotu. Veittu heimildina í spjaldtölvunni fyrst.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Ekki er hægt að opna þetta í %1$s. Prófaðu það í spjaldtölvunni í staðinn.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Spjaldtölvustillingar ekki tiltækar</string>
+    <string name="battery_saver_charged_notification_summary">Spjaldtölva er með næga hleðslu. Eiginleikar eru ekki lengur takmarkaðir.</string>
+    <string name="default_audio_route_name">Spjaldtölva</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s vill kveikja á snertikönnun. Þegar kveikt er á snertikönnun geturðu heyrt eða séð lýsingu á því sem er á skjánum undir fingrinum hverju sinni eða notað bendingar til að stjórna spjaldtölvunni.</string>
+    <string name="global_actions">Valkostir spjaldtölvu</string>
+    <string name="kg_failed_attempts_almost_at_login">"Þú hefur teiknað rangt opnunarmynstur %1$d sinnum. Eftir %2$d árangurslausar tilraunir í viðbót verður þú beðin(n) um að opna spjaldtölvuna með tölvupóstreikningi.
+
+ Reyndu aftur eftir %3$d sekúndur."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Þú hefur gert %1$d tilraunir til að opna spjaldtölvuna. Eftir %2$d árangurslausar tilraunir í viðbót verður tölvan stillt á sjálfgefar stillingar og öll notandagögn hennar glatast.</string>
+    <string name="kg_failed_attempts_now_wiping">Þú hefur gert %d tilraunir til að opna spjaldtölvuna án árangurs. Hún verður nú stillt á sjálfgefnar stillingar.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Þú hefur gert %1$d tilraunir til að taka spjaldtölvuna úr lás. Eftir %2$d árangurslausar tilraunir í viðbót verður spjaldtölvan stillt á sjálfgefnar stillingar og öll notandagögn hennar glatast.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Þú hefur teiknað opnunarmynstrið rangt %1$d sinnum. Eftir %2$d árangurslausar tilraunir í viðbót verður beðið um að þú notir Google innskráningu til að opna spjaldtölvuna.
+
+ Prófaðu aftur eftir %3$d sekúndur."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Þú hefur gert %d tilraunir til að taka spjaldtölvuna úr lás. Spjaldtölvan verður nú stillt á sjálfgefnar stillingar.</string>
+    <string name="lockscreen_missing_sim_message">Það er ekkert SIM-kort í spjaldtölvunni.</string>
+    <string name="low_memory">Geymslurými spjaldtölvunnar er fullt. Eyddu einhverjum skrám til að losa um pláss.</string>
+    <string name="permdesc_bluetooth">Leyfir forriti að skoða grunnstillingu Bluetooth í spjaldtölvunni og koma á og samþykkja tengingar við pöruð tæki.</string>
+    <string name="permdesc_bluetoothAdmin">Leyfir forriti að stilla Bluetooth-spjaldtölvuna og finna og parast við fjartengd tæki.</string>
+    <string name="permdesc_broadcastSticky">Leyfir forriti að senda viðvarandi tilkynningar, sem eru áfram í gangi eftir birtingu. Of mikil notkun þeirra getur hægt á virkni spjaldtölvunnar eða gert hana óstöðuga með því að nota of mikið af minni hennar.</string>
+    <string name="permdesc_changeWifiMulticastState">Leyfir forriti að taka á móti pökkum sem sendir eru til allra tækja innan þráðlauss nets með fjöldasendingum, ekki bara spjaldtölvunnar þinnar. Það gengur hraðar á rafhlöðuna en stilling án fjöldasendinga.</string>
+    <string name="permdesc_changeWimaxState">Leyfir forriti að tengja og aftengja spjaldtölvuna við WiMAX-net.</string>
+    <string name="permdesc_getAccounts">Leyfir forriti að fá lista yfir reikninga sem spjaldtölvan þekkir. Þar á meðal kunna að vera reikningar stofnaðir af forritum sem þú hefur sett upp.</string>
+    <string name="permdesc_persistentActivity">Leyfir forriti að gera hluta sjálfs sín varanlega í minni. Þetta getur takmarkað það minni sem býðst öðrum forritum og þannig hægt á spjaldtölvunni.</string>
+    <string name="permdesc_readCalendar">Þetta forrit getur lesið alla dagatalsviðburði sem eru vistaðir í spjaldtölvunni og deilt eða vistað dagatalsgögnin þín.</string>
+    <string name="permdesc_readContacts">Leyfir forritinu að lesa gögn um tengiliði sem vistuð eru í spjaldtölvunni þinni. Forrit munu einnig hafa aðgang að reikningum í spjaldtölvunni sem hafa búið til tengiliði. Þar á meðal geta verið reikningar sem forrit sem þú hefur sett upp hafa stofnað. Þessi heimild gerir forritum kleift að vista tengiliðagögnin þín og spilliforrit kunna að deila tengiliðaupplýsingum án þinnar vitundar.</string>
+    <string name="permdesc_readSms">Þetta forrit getur lesið öll SMS-skilaboð (textaskilaboð) sem eru vistuð í spjaldtölvunni.</string>
+    <string name="permdesc_receiveBootCompleted">Leyfir forriti að ræsa sig um leið og kerfið hefur lokið við ræsingu. Þetta getur tafið ræsingu spjaldtölvunnar og valdið því að forritið hægir á allri virkni tölvunnar með því að vera stöðugt í gangi.</string>
+    <string name="permdesc_setTimeZone">Leyfir forriti að breyta tímabelti spjaldtölvunnar.</string>
+    <string name="permdesc_transmitIr">Leyfir forriti að nota innrauðan sendi spjaldtölvunnar.</string>
+    <string name="permdesc_wakeLock">Leyfir forriti að koma í veg fyrir að spjaldtölvan fari í biðstöðu.</string>
+    <string name="permdesc_writeCalendar">Þetta forrit getur bætt við, fjarlægt eða breytt dagatalsviðburðum í spjaldtölvunni. Þetta forrit getur sent skilaboð sem geta virst koma ffrá eigendum dagatala eða breytt viðburðum án þess að láta eigendurna vita.</string>
+    <string name="permdesc_writeCallLog">Leyfir forriti að breyta símtalaskrá spjaldtölvunnar, þ. á m. gögnum um hringd og móttekin símtöl. Spilliforrit geta notað þetta til að eyða eða breyta símtalaskránni.</string>
+    <string name="permdesc_writeContacts">Leyfir forriti að breyta gögnum um tengiliði sem vistuð eru í spjaldtölvunni. Þessi heimild gerir forritum kleift að eyða tengiliðagögnum.</string>
+    <string name="permlab_wakeLock">koma í veg fyrir að spjaldtölvan fari í biðstöðu</string>
+    <string name="policydesc_watchLogin">Fylgjast með fjölda rangra innskráningartilrauna með aðgangsorði þegar skjárinn er tekinn úr lás og læsa spjaldtölvunni eða eyða öllum gögnum hennar ef rangt aðgangsorð er fært inn of oft.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Fylgjast með fjölda rangra innskráningartilrauna með aðgangsorði þegar skjárinn er tekinn úr lás og læsa spjaldtölvunni eða eyða öllum gögnum viðkomandi notanda ef rangt aðgangsorð er fært inn of oft.</string>
+    <string name="policydesc_wipeData">Eyða gögnum spjaldtölvunnar fyrirvaralaust með núllstillingu.</string>
+    <string name="policydesc_wipeData_secondaryUser">Eyða gögnum viðkomandi notanda í þessari spjaldtölvu án viðvörunar.</string>
+    <string name="power_dialog">Valkostir spjaldtölvu</string>
+    <string name="shutdown_confirm">Slökkt verður á spjaldtölvunni.</string>
+    <string name="vdm_camera_access_denied">Ekki er hægt að opna myndavél spjaldtölvunnar úr %1$s</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_selected_background_color">@android:color/system_accent1_900</color>
+    <style name="DocumentsTheme" parent="@android:style/Theme.DeviceDefault.DocumentsUI">
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified</item>
+        <item name="android:actionModeBackground">?android:attr/colorBackground</item>
+        <item name="android:actionBarSize">48.0dp</item>
+        <item name="android:strokeColor">#ff5f6368</item>
+        <item name="android:colorControlActivated">?android:attr/colorForegroundInverse</item>
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:colorSecondary">@*android:color/materialColorSecondary</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

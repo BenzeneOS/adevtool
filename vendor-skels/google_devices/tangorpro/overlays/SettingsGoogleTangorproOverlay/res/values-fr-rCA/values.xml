@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Sons de recharge</string>
+    <string name="edge_to_edge_navigation_summary">"Pour accéder à l'écran d'accueil, balayez rapidement l'écran du bas vers le haut. Pour accéder à la barre des tâches, balayez lentement l'écran du bas vers le haut. Pour changer d'appli, balayez l'écran du bas vers le haut, maintenez le doigt sur l'écran, puis relâchez-le. Pour revenir en arrière, balayez l'écran à partir du côté gauche ou droit."</string>
+    <string name="fast_pair_device_not_found_other_device_description">Rapprochez cet appareil de votre Pixel Tablet, puis réessayez.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">"Ouvrez l'étui pour écouteurs et rapprochez-le de votre Pixel Tablet, puis réessayez."</string>
+    <string name="sound_dashboard_summary">Volume</string>
+    <string name="sound_dashboard_summary_with_dnd">Volume, Ne pas déranger</string>
+    <string name="sound_settings">Son</string>
+</resources>

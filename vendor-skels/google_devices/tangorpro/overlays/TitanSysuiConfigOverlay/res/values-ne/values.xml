@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">कुनै स्क्रिन सेभर छनौट गर्नुहोस् र तपाईंको ट्याब्लेट डक गरिएका बेला ह्यान्ड्सफ्री तरिकाले मद्दत प्राप्त गर्ने सुविधा अन गर्नुहोस्</string>
+    <string name="dock_setup_notification_title">डिभाइस डक गरिएका बेला थप कार्य गर्नुहोस्</string>
+    <string name="stylus_system_update_notification_text">तपाईं आफ्नो स्टाइलसबाट बढीभन्दा बढी फाइदा लिन चाहनुहुन्छ भने Android को नवीनतम अपडेट इन्स्टल गर्नुहोस्</string>
+    <string name="stylus_system_update_notification_title">Android को अपडेट इन्स्टल गर्नुहोस्</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">Dual Screen ni na voljo, ker se telefon Pixel pregreva.</string>
+    <string name="fingerprint_acquired_partial">Prepričajte se, da prst prekriva tipalo</string>
+    <string name="fingerprint_acquired_power_press">Za nadaljevanje nastavitve se nežno dotaknite tipala</string>
+    <string name="fingerprint_acquired_too_fast">Držite prst na tipalu malo dlje</string>
+    <string name="fingerprint_error_power_pressed">Preverjanje je končano. Naslednjič poskusite z nežnim dotikom.</string>
+</resources>

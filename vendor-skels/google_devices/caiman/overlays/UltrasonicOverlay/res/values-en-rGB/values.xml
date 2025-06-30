@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Clean your screen near the sensor</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Wipe your screen to remove any streaks, smudges or stains. This helps capture clearer fingerprint images.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Clean your screen before continuing</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"If you have a screen protector, apply your screen protector before setting up your fingerprint for the best performance.
+
+For best results, use a screen protector that's Made For Google certified. With other screen protectors, your fingerprint may not work."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">Tilt your finger and touch with the tip</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Turn finger and touch with the left edge</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Turn again and touch with the right edge</string>
+</resources>

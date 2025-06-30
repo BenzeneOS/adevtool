@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">Untuk kembali ke layar utama, geser dari bawah ke atas dengan cepat. Untuk mengakses Taskbar, geser dari bawah ke atas dengan lambat. Untuk beralih aplikasi, geser dari bawah ke atas, tahan, lalu lepas. Untuk kembali, geser dari tepi kiri atau kanan.</string>
+    <string name="setting_auto_rotate_folded">Putar otomatis saat dilipat</string>
+    <string name="setting_auto_rotate_unfolded">Putar otomatis saat dibentangkan</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">صدای شارژ کردن</string>
+    <string name="edge_to_edge_navigation_summary">برای رفتن به صفحه اصلی، از پایین صفحه تند به‌بالا بکشید. برای دسترسی به «نوار وظیفه»، از پایین صفحه آرام به‌بالا بکشید. برای جابه‌جایی بین برنامه‌ها، از پایین صفحه تند به‌بالا بکشید، سپس نگه دارید و رها کنید. برای برگشت، انگشتتان را از لبه سمت راست یا چپ تند بکشید.</string>
+    <string name="fast_pair_device_not_found_other_device_description">‏این دستگاه را به Pixel Tablet نزدیک‌تر کنید و دوباره امتحان کنید.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">‏قاب هدفون توگوشی را باز و به Pixel Tablet نزدیک‌تر کنید، سپس دوباره امتحان کنید.</string>
+    <string name="sound_dashboard_summary">میزان صدا</string>
+    <string name="sound_dashboard_summary_with_dnd">میزان صدا، «مزاحم نشوید»</string>
+    <string name="sound_settings">صدا</string>
+</resources>

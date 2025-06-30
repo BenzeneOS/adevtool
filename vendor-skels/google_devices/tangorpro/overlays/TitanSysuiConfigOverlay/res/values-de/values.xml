@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Wähle einen Bildschirmschoner aus und aktiviere die Nutzung von Sprachbefehlen, solange dein Tablet im Dock ist</string>
+    <string name="dock_setup_notification_title">Zusätzliche Möglichkeiten mit dem Tablet im Dock</string>
+    <string name="stylus_system_update_notification_text">Installiere das neueste Android-Update, um die Möglichkeiten deines Eingabestifts optimal nutzen zu können</string>
+    <string name="stylus_system_update_notification_title">Android-Update installieren</string>
+</resources>

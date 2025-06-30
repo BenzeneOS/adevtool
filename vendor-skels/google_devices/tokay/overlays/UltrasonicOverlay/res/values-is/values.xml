@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Hreinsaðu skjáinn við skynjarann</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Strjúktu af skjánum til að fjarlægja öll óhreinindi. Þannig er hægt að fá skýrari mynd af fingrafarinu.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Þrífðu skjáinn áður en þú heldur áfram</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Ef þú ert með skjávörn skaltu setja hana á áður en þú setur upp fingrafarskenni svo að eiginleikinn virki sem best.
+
+Best er að nota skjávörn sem er vottuð sem „Hannað fyrir Google“. Fingrafarskenni virkar hugsanlega ekki með öðrum skjávörnum."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">Hallaðu fingrinum og snertu með fingurgómnum</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Snúðu fingrinum og snertu með vinstri brúninni</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Snúðu aftur og snertu með hægri brúninni</string>
+</resources>

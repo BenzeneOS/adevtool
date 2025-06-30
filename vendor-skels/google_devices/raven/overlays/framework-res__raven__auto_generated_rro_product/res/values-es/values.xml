@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Mueve el dedo. Inténtalo de nuevo.</item>
+        <item>Ya has registrado este dedo; prueba con otro.</item>
+        <item>Imagen de calidad deficiente. Inténtalo de nuevo.</item>
+        <item/>
+        <item>Imagen de calidad deficiente. Inténtalo de nuevo.</item>
+        <item/>
+        <item/>
+        <item>Mancha detectada, limpia la pantalla. Inténtalo de nuevo.</item>
+        <item>No se ha podido leer la imagen. Inténtalo de nuevo.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Datos incorrectos. Inténtalo de nuevo.</item>
+        <item>No se ha podido registrar el dedo. Inténtalo de nuevo.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">No se puede usar el sensor de huellas digitales. Consulta con un proveedor de reparaciones o visita g.co/pixel/fingerprintunlock.</string>
+    <string name="fingerprint_recalibrate_notification_content">Consúltaselo a un proveedor de reparaciones o visita g.co/pixel/fingerprintunlock.</string>
+</resources>

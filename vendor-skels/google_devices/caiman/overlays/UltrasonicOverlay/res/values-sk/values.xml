@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Vyčistite obrazovku okolo senzora</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Vyčistením obrazovku zbavte šmúh či škvŕn. Pomôže to zaznamenať jasnejšie snímky odtlačkov prstov.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Pred pokračovaním vyčistite obrazovku</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Ak máte ochranu obrazovky, prilepte ju pred tým, než začnete nastavovať odtlačok prsta, aby ste zaistili lepšiu funkčnosť.
+
+Najlepšie výsledky dosiahnete, keď použijete ochranu obrazovky s certifikátom Made for Google. S inými ochranami obrazovky nemusí odtlačok prsta fungovať."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">Nakloňte prst a priložte jeho špičku</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Otočte prst a priložte jeho ľavý okraj</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Znova prst otočte a priložte jeho pravý okraj</string>
+</resources>

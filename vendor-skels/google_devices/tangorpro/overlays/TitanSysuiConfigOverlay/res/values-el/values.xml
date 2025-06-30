@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">Επιλέξτε μια προφύλαξη οθόνης και ενεργοποιήστε τη βοήθεια handsfree όταν το tablet βρίσκεται στη βάση σύνδεσης</string>
+    <string name="dock_setup_notification_title">Κάντε περισσότερα όταν η συσκευή βρίσκεται στη βάση σύνδεσης</string>
+    <string name="stylus_system_update_notification_text">Για να αξιοποιήσετε πλήρως τη γραφίδα σας, εγκαταστήστε την τελευταία ενημέρωση Android</string>
+    <string name="stylus_system_update_notification_title">Εγκαταστήστε την ενημέρωση Android</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Нууц үг • Хурууны хээ • Нүүр</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Хээ • Хурууны хээ • Нүүр</string>
+    <string name="biometrics_unlock_set_unlock_pin">ПИН • Хурууны хээ • Нүүр</string>
+</resources>

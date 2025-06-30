@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dock_setup_notification_text">همان‌طور که رایانه لوحی به پایه متصل است، یک محافظ صفحه‌نمایش انتخاب کنید و کمک دست‌آزاد را روشن کنید</string>
+    <string name="dock_setup_notification_title">هنگام متصل بودن به پایه، کارهای بیشتری انجام دهید</string>
+    <string name="stylus_system_update_notification_text">‏برای بردن بیشترین بهره از قلم، جدیدترین به‌روزرسانی Android را نصب کنید</string>
+    <string name="stylus_system_update_notification_title">‏نصب به‌روزرسانی Android</string>
+</resources>

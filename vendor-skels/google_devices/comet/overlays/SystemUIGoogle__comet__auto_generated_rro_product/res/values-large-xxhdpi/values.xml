@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="biometric_dialog_fingerprint_icon_height">180.0dp</dimen>
+    <dimen name="biometric_dialog_fingerprint_icon_width">180.0dp</dimen>
+    <dimen name="biometric_dialog_height">408.0dp</dimen>
+    <dimen name="biometric_dialog_width">600.0dp</dimen>
+</resources>

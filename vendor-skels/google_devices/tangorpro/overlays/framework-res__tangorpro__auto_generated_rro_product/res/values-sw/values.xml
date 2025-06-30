@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Hakikisha umeweka kidole chako vizuri kwenye kitambuzi</string>
+    <string name="fingerprint_acquired_power_press">Kuweka alama ya kidole, gusa kitambuzi taratibu</string>
+    <string name="fingerprint_acquired_too_fast">Endelea kuweka kidole chako kwenye kitambuzi kwa muda zaidi</string>
+    <string name="fingerprint_error_power_pressed">Uthibitishaji umesitishwa. Jaribu kugusa taratibu wakati mwingine.</string>
+</resources>

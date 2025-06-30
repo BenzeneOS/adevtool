@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometrics_unlock_set_unlock_password">Fjalëkalim • Gjurmë gishti • Fytyrë</string>
+    <string name="biometrics_unlock_set_unlock_pattern">Motiv • Gjurmë gishti • Fytyrë</string>
+    <string name="biometrics_unlock_set_unlock_pin">Kod PIN • Gjurmë gishti • Fytyrë</string>
+</resources>

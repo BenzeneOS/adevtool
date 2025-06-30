@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="concurrent_display_notification_thermal_content">Pixel telefoningiz qizib ketgani uchun hozir ikki ekranli rejim ishlamaydi</string>
+    <string name="fingerprint_acquired_partial">Barmoq bilan sensorni bosing</string>
+    <string name="fingerprint_acquired_power_press">Sozlashda davom etish uchun sensorga tegining</string>
+    <string name="fingerprint_acquired_too_fast">Barmoq bilan sensorni yana biroz bosib turing</string>
+    <string name="fingerprint_error_power_pressed">Tekshiruv tugadi. Keyingi safar yengilroq tegining.</string>
+</resources>

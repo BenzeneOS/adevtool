@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+    <string name="fingerprint_acquired_partial">Veenduge, et sõrm kataks andurit</string>
+    <string name="fingerprint_acquired_power_press">Seadistuse jätkamiseks puudutage õrnalt andurit</string>
+    <string name="fingerprint_acquired_too_fast">Hoidke sõrme anduril pisut kauem</string>
+    <string name="fingerprint_error_power_pressed">Kinnitamine lõppes. Puudutage järgmisel korral õrnalt.</string>
+</resources>

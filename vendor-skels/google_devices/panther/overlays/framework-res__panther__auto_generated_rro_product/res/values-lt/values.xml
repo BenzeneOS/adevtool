@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Pajudinkite pirštą. Bandykite dar kartą.</item>
+        <item>Pirštas jau užregistruotas, atlikite tai kitu pirštu.</item>
+        <item>Prasta vaizdo kokybė. Bandykite dar kartą.</item>
+        <item/>
+        <item>Prasta vaizdo kokybė. Bandykite dar kartą.</item>
+        <item/>
+        <item/>
+        <item>Aptikta dėmių, nuvalykite ekraną. Bandykite dar kartą.</item>
+        <item>Nepavyko nuskaityti vaizdo. Bandykite dar kartą.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Netinkami duomenys. Bandykite dar kartą.</item>
+        <item>Nepavyko užregistruoti piršto. Bandykite dar kartą.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Negalima naudoti kontrolinio kodo jutiklio. Apsilankykite pas taisymo paslaugų teikėją arba adresu g.co/pixel/fingerprintunlock.</string>
+    <string name="fingerprint_recalibrate_notification_content">Apsilankykite pas taisymo paslaugų teikėją arba adresu g.co/pixel/fingerprintunlock.</string>
+</resources>

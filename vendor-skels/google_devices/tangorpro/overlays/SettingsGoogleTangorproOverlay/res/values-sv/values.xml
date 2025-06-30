@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Laddningsljud</string>
+    <string name="edge_to_edge_navigation_summary">Öppna startskärmen genom att svepa snabbt från skärmens nederkant. Öppna aktivitetsfältet genom att svepa långsamt från skärmens nederkant. Byt app genom att svepa uppåt från skärmens nederkant, hålla stilla och sedan släppa. Navigera bakåt genom att svepa från den vänstra eller högra kanten.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Flytta denna enhet närmare Pixel Tablet och försök igen.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Öppna hörsnäcksfodralet, flytta det närmare din Pixel Tablet och försök igen.</string>
+    <string name="sound_dashboard_summary">Volym</string>
+    <string name="sound_dashboard_summary_with_dnd">Volym, Stör ej</string>
+    <string name="sound_settings">Ljud</string>
+</resources>

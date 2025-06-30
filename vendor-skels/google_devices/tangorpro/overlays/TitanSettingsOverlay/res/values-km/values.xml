@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="communal_settings_title">មុខងារមណ្ឌល</string>
+    <string name="dream_no_screen_saver_caption">គ្មាន​ធាតុរក្សាអេក្រង់</string>
+    <string name="dream_no_screen_saver_description">ដើម្បីសន្សំសំចៃ​ថាមពល អេក្រង់របស់អ្នក​នឹងបិទ បន្ទាប់ពី​អសកម្ម</string>
+    <string name="dream_no_screen_saver_preview_caption">អំណោយផល​ដល់បរិស្ថាន</string>
+    <string name="dream_secondary_button_title">រំលង</string>
+    <string name="screensaver_settings_summary_dock_and_charging">ពេលភ្ជាប់ និងសាកថ្ម</string>
+    <string name="screensaver_settings_summary_off">បង្ហាញរូបថត រូបផូស្ទ័រ​ នាឡិកា និងអ្វីៗជាច្រើនទៀតដែលអ្នកពេញចិត្ត នៅពេលអសកម្ម</string>
+    <string name="screensaver_settings_summary_postured_and_charging">ពេលដាក់បញ្ឈរ និងសាកថ្ម</string>
+    <string name="screensaver_settings_summary_sleep">ពេលសាកថ្ម</string>
+    <string name="when_to_show_hubmode_charging">ពេលសាកថ្ម</string>
+    <string name="when_to_show_hubmode_docked">ពេល​​ភ្ជាប់</string>
+    <string name="when_to_show_hubmode_never">កុំឱ្យសោះ</string>
+</resources>

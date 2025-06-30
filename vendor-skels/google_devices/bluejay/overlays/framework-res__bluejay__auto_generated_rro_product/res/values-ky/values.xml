@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Манжаңызды жылдырыңыз. Кайра аракет кылыңыз.</item>
+        <item>Бул манжаңыз катталган. Башка манжаңызды колдонуңуз.</item>
+        <item>Сүрөттүн сапаты начар. Кайра аракет кылыңыз.</item>
+        <item/>
+        <item>Сүрөттүн сапаты начар. Кайра аракет кылыңыз.</item>
+        <item/>
+        <item/>
+        <item>Так табылды, экранды тазалаңыз. Кайра аракет кылыңыз.</item>
+        <item>Сүрөт окулган жок. Кайра аракет кылыңыз.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Маалымат туура эмес. Кайра аракет кылыңыз.</item>
+        <item>Манжа катталган жок. Кайра аракет кылыңыз.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Манжа изинин сенсорун колдонууга болбойт. Тейлөө кызматына кайрылыңыз же g.co/pixel/fingerprintunlock бөлүмүнө өтүңүз</string>
+    <string name="fingerprint_recalibrate_notification_content">Тейлөө кызматына кайрылыңыз же g.co/pixel/fingerprintunlock бөлүмүнө өтүңүз</string>
+</resources>

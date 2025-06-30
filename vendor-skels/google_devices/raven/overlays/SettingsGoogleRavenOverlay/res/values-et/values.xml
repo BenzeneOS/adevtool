@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Suurendab teatud sisu puhul värskendamissagedust 60 hertsilt 120 hertsini. Akukasutus suureneb.</string>
+</resources>

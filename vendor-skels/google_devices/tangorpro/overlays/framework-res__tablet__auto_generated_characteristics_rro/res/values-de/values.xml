@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Tablet wird gestartet…</string>
+    <string name="android_upgrading_title">Tablet wird aktualisiert…</string>
+    <string name="app_streaming_blocked_message">Auf deinem %1$s ist derzeit kein Zugriff möglich. Versuche es stattdessen auf deinem Tablet.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Diese App fordert zusätzliche Sicherheit an. Versuch es stattdessen auf deinem Tablet.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Diese App fordert zusätzliche Berechtigungen an – in einer Streamingsitzung können jedoch keine Berechtigungen gewährt werden. Gewähre die Berechtigung zuerst auf deinem Tablet.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Auf deinem %1$s ist kein Zugriff möglich. Versuch es stattdessen auf deinem Tablet.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Tablet-Einstellungen nicht verfügbar</string>
+    <string name="battery_saver_charged_notification_summary">Das Tablet ist ausreichend geladen. Es sind keine Funktionen mehr beschränkt.</string>
+    <string name="default_audio_route_name">Tablet</string>
+    <string name="enable_explore_by_touch_warning_message">"%1$s fordert die Aktivierung von \"Tippen &amp; Entdecken\" an. Wenn \"Tippen &amp; Entdecken\" aktiviert ist, kannst du Beschreibungen dessen hören oder sehen, was sich unter deinen Fingern befindet, oder über Touch-Gesten mit dem Tablet kommunizieren."</string>
+    <string name="global_actions">Tablet-Optionen</string>
+    <string name="kg_failed_attempts_almost_at_login">"Du hast dein Entsperrungsmuster %1$d-mal falsch gezeichnet. Nach %2$d weiteren erfolglosen Versuchen wirst du aufgefordert, dein Tablet mithilfe eines E-Mail-Kontos zu entsperren.
+
+ Versuche es in %3$d Sekunden erneut."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Du hast %1$d-mal erfolglos versucht, das Tablet zu entsperren. Nach %2$d weiteren erfolglosen Versuchen wird das Tablet auf die Werkseinstellungen zurückgesetzt und alle Nutzerdaten gehen verloren.</string>
+    <string name="kg_failed_attempts_now_wiping">Du hast %d-mal erfolglos versucht, das Tablet zu entsperren. Das Tablet wird nun auf die Werkseinstellungen zurückgesetzt.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Du hast %1$d Mal erfolglos versucht, das Tablet zu entsperren. Nach %2$d weiteren erfolglosen Versuchen wird das Tablet auf die Werkseinstellungen zurückgesetzt und alle Nutzerdaten gehen verloren.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Du hast dein Entsperrungsmuster %1$d-mal falsch gezeichnet. Nach %2$d weiteren erfolglosen Versuchen wirst du aufgefordert, dein Tablet mithilfe deiner Google-Anmeldeinformationen zu entsperren.
+
+ Bitte versuche es in %3$d Sekunden noch einmal."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Du hast %d-mal erfolglos versucht, das Tablet zu entsperren. Das Tablet wird nun auf die Werkseinstellungen zurückgesetzt.</string>
+    <string name="lockscreen_missing_sim_message">Keine SIM-Karte im Tablet.</string>
+    <string name="low_memory">Der Tablet-Speicher ist voll. Lösche Dateien, um Speicherplatz freizugeben.</string>
+    <string name="permdesc_bluetooth">Ermöglicht der App, die Bluetooth-Konfiguration eines Tablets einzusehen und Verbindungen zu gekoppelten Geräten herzustellen und zu akzeptieren.</string>
+    <string name="permdesc_bluetoothAdmin">Ermöglicht der App, das lokale Bluetooth-Tablet zu konfigurieren, Remote-Geräte zu erkennen und eine Verbindung zu diesen herzustellen</string>
+    <string name="permdesc_broadcastSticky">Ermöglicht der App, dauerhafte Broadcasts zu senden, die auch nach Ende des Broadcasts bestehen bleiben. Ein zu intensiver Einsatz kann das Tablet langsam oder instabil machen, weil zu viel Arbeitsspeicher belegt wird.</string>
+    <string name="permdesc_changeWifiMulticastState">Ermöglicht der App, Pakete zu empfangen, die mithilfe von Multicast-Adressen an sämtliche Geräte in einem WLAN versendet wurden, nicht nur an dein Tablet. Dies nicht mehr Leistung in Anspruch als der Nicht-Multicast-Modus.</string>
+    <string name="permdesc_changeWimaxState">Ermöglicht der App, eine Verbindung zwischen dem Tablet und WiMAX-Netzwerken herzustellen und solche zu trennen.</string>
+    <string name="permdesc_getAccounts">Ermöglicht der App, eine Liste der dem Tablet bekannten Konten abzurufen. Dabei kann es sich um Konten handeln, die von installierten Apps erstellt wurden.</string>
+    <string name="permdesc_persistentActivity">Ermöglicht der App, Teile der eigenen App dauerhaft im Speicher abzulegen. Dies kann dazu führen, dass anderen Apps weniger Arbeitsspeicher zur Verfügung steht und das Tablet langsamer wird.</string>
+    <string name="permdesc_readCalendar">Diese App kann alle auf deinem Tablet gespeicherten Kalendertermine lesen und deine Kalenderdaten teilen oder speichern.</string>
+    <string name="permdesc_readContacts">Ermöglicht der App, Daten zu den auf deinem Tablet gespeicherten Kontakten zu lesen. Darüber hinaus haben Apps Zugriff auf die Konten auf deinem Tablet, über die Kontakte erstellt wurden. Dabei kann es sich auch um Konten handeln, die von installierten Apps erstellt wurden. Diese Berechtigung erlaubt Apps, deine Kontaktdaten zu speichern. Schädliche Apps könnten dadurch ohne dein Wissen Kontaktdaten teilen.</string>
+    <string name="permdesc_readSms">Diese App kann alle auf deinem Tablet gespeicherten SMS lesen.</string>
+    <string name="permdesc_receiveBootCompleted">Ermöglicht der App, sich selbst zu starten, sobald das System gebootet wurde. Dadurch kann es länger dauern, bis das Tablet gestartet wird, und durch die ständige Aktivität der App wird die gesamte Leistung des Tablets beeinträchtigt.</string>
+    <string name="permdesc_setTimeZone">Ermöglicht der App, die Zeitzone des Tablets zu ändern</string>
+    <string name="permdesc_transmitIr">App darf das System zur Infrarotübertragung des Tablets verwenden.</string>
+    <string name="permdesc_wakeLock">Ermöglicht der App, den Ruhezustand des Tablets zu deaktivieren</string>
+    <string name="permdesc_writeCalendar">Diese App kann Kalendertermine auf deinem Tablet hinzufügen, entfernen oder ändern. Diese App kann Nachrichten senden, die scheinbar von Kalendereigentümern stammen, oder Termine ohne Benachrichtigung der Eigentümer ändern.</string>
+    <string name="permdesc_writeCallLog">Ermöglicht der App, die Anrufliste deines Tablets zu ändern, einschließlich der Daten über ein- und ausgehende Anrufe. Schädliche Apps können so die Einträge in der Anrufliste löschen oder sie ändern.</string>
+    <string name="permdesc_writeContacts">Ermöglicht der App, Daten zu den auf deinem Tablet gespeicherten Kontakten zu ändern. Diese Berechtigung erlaubt Apps, Kontaktdaten zu löschen.</string>
+    <string name="permlab_wakeLock">Ruhezustand des Tablets deaktivieren</string>
+    <string name="policydesc_watchLogin">Anzahl der falsch eingegebenen Passwörter beim Entsperren des Displays überwachen und Tablet sperren oder alle Daten auf dem Tablet löschen, wenn zu häufig ein falsches Passwort eingegeben wird</string>
+    <string name="policydesc_watchLogin_secondaryUser">Anzahl der falsch eingegebenen Passwörter beim Entsperren des Displays überwachen und Tablet sperren oder alle Daten dieses Nutzers löschen, wenn zu häufig ein falsches Passwort eingegeben wird</string>
+    <string name="policydesc_wipeData">Auf Werkseinstellungen zurücksetzen und Daten auf dem Tablet ohne Warnung löschen</string>
+    <string name="policydesc_wipeData_secondaryUser">Daten dieses Nutzers auf diesem Tablet ohne vorherige Warnung löschen</string>
+    <string name="power_dialog">Tablet-Optionen</string>
+    <string name="shutdown_confirm">Dein Tablet wird heruntergefahren.</string>
+    <string name="vdm_camera_access_denied">Zugriff auf die Kamera des Tablets über dein Gerät (%1$s) nicht möglich</string>
+</resources>

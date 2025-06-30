@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_start_title">Tahvelarvuti käivitub …</string>
+    <string name="android_upgrading_title">Tahvelarvutit värskendatakse …</string>
+    <string name="app_streaming_blocked_message">Sellele ei pääse praegu teie seadmega (%1$s) juurde. Proovige juurde pääseda oma tahvelarvutiga.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">See rakendus nõuab lisaturvalisust. Proovige juurde pääseda oma tahvelarvutis.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">See rakendus taotleb lisalube, kuid lube ei saa voogesituse seansis anda. Kõigepealt andke luba oma tahvelarvutile.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Sellele ei pääse teie seadmes %1$s juurde. Proovige juurde pääseda oma tahvelarvutis.</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Tahvelarvuti seaded pole saadaval</string>
+    <string name="battery_saver_charged_notification_summary">Tahvelarvuti on piisavalt laetud. Funktsioonid ei ole enam piiratud.</string>
+    <string name="default_audio_route_name">Tahvelarvuti</string>
+    <string name="enable_explore_by_touch_warning_message">%1$s soovib lubada puudutusega uurimise. Kui puudutusega uurimine on sisse lülitatud, kuulete või näete kirjeldusi asjade kohta, mis on teie sõrme all, või saate suhelda tahvelarvutiga liigutuste abil.</string>
+    <string name="global_actions">Tahvelarvuti valikud</string>
+    <string name="kg_failed_attempts_almost_at_login">"Joonistasite oma avamismustri %1$d korda valesti. Pärast veel %2$d ebaõnnestunud katset palutakse teil tahvelarvuti avada meilikontoga.
+
+ Proovige uuesti %3$d sekundi pärast."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Olete üritanud %1$d korda tahvelarvutit valesti avada. Pärast veel %2$d ebaõnnestunud katset lähtestatakse tahvelarvuti tehase vaikeseadetele ja kõik kasutajaandmed lähevad kaotsi.</string>
+    <string name="kg_failed_attempts_now_wiping">Olete püüdnud tahvelarvutit %d korda valesti avada. Tahvelarvuti lähtestatakse nüüd tehase vaikeseadetele.</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Olete üritanud %1$d korda tahvelarvutit valesti avada. Pärast veel %2$d edutut katset lähtestatakse tahvelarvuti tehase vaikeseadetele ja kõik kasutajaandmed lähevad kaotsi.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Joonistasite oma avamismustri %1$d korda valesti. Pärast veel %2$d ebaõnnestunud katset palutakse teil tahvelarvuti avada Google'i sisselogimisega.
+
+ Proovige %3$d sekundi pärast uuesti."</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Olete püüdnud tahvelarvutit %d korda valesti avada. Tahvelarvuti lähtestatakse nüüd tehase vaikeseadetele.</string>
+    <string name="lockscreen_missing_sim_message">Tahvelarvutis pole SIM-i.</string>
+    <string name="low_memory">Tahvelarvuti mäluruum on täis. Ruumi vabastamiseks kustutage mõned failid.</string>
+    <string name="permdesc_bluetooth">Võimaldab rakendusel vaadata tahvelarvuti Bluetooth-konfiguratsiooni ning luua ja heaks kiita ühendusi seotud seadmetega.</string>
+    <string name="permdesc_bluetoothAdmin">Võimaldab rakendusel seadistada kohalikku Bluetooth-tahvelarvutit ning leida ja siduda seda kaugseadmetega.</string>
+    <string name="permdesc_broadcastSticky">Võimaldab rakendusel saata püsivaid edastusi, mis jäävad pärast saate lõppemist alles. Ülemäärane kasutamine võib muuta tahvelarvuti aeglaseks või ebastabiilseks, põhjustades selle liiga suure mälukasutuse.</string>
+    <string name="permdesc_changeWifiMulticastState">Võimaldab rakendusel vastu võtta pakette, mis on saadetud kõikidele WiFi-võrguga ühendatud seadmetele, mis kasutavad multiedastuse aadresse, mitte ainult teie tahvelarvutit. See võtab rohkem energiat kui mittemultiedastuse režiim.</string>
+    <string name="permdesc_changeWimaxState">Võimaldab rakendusel luua ja katkestada tahvelarvuti ühenduse WiMAX-i võrkudega.</string>
+    <string name="permdesc_getAccounts">Võimaldab rakendusel hankida tahvelarvutile teadaolevaid kontoloendeid. See võib hõlmata mis tahes kontosid, mille on loonud teie installitud rakendused.</string>
+    <string name="permdesc_persistentActivity">Võimaldab rakendusel muuta oma osi mälus püsivaks. See võib piirata teistele (tahvelarvutit aeglasemaks muutvatele) rakendustele saadaolevat mälu.</string>
+    <string name="permdesc_readCalendar">See rakendus saab kõiki teie tahvelarvutisse salvestatud kalendrisündmusi lugeda ja teie kalendriandmeid jagada või salvestada.</string>
+    <string name="permdesc_readContacts">Lubab rakendusel lugeda tahvelarvutisse salvestatud kontaktide andmeid. Rakendustel on ka juurdepääs teie tahvelarvutis olevatele kontodele, millel on loodud kontakte. See võib hõlmata kontosid, mille lõid teie installitud rakendused. See luba võimaldab rakendustel salvestada teie kontaktandmeid ja pahatahtlikud rakendused võivad teie teadmata kontaktandmeid jagada.</string>
+    <string name="permdesc_readSms">See rakendus saab kõiki teie tahvelarvutisse salvestatud SMS-e (tekstsõnumeid) lugeda.</string>
+    <string name="permdesc_receiveBootCompleted">Võimaldab rakendusel käivituda ise kohe, kui süsteem on käivitunud. See võib tahvelarvuti käivitamist aeglustada ja lubab rakendusel muuta tahvelarvuti ka üldiselt aeglasemaks, kuna töötab pidevalt.</string>
+    <string name="permdesc_setTimeZone">Võimaldab rakendusel muuta tahvelarvuti ajavööndit.</string>
+    <string name="permdesc_transmitIr">Lubab rakendusel kasutada tahvelarvuti infrapunasaatjat.</string>
+    <string name="permdesc_wakeLock">Võimaldab rakendusel vältida tahvelarvuti uinumist.</string>
+    <string name="permdesc_writeCalendar">See rakendus võib teie tahvelarvutisse kalendrisündmusi lisada, neid eemaldada või muuta. See rakendus võib saata sõnumeid, mis näivad pärinevat kalendri omanikelt, või muuta sündmusi ilma omanikke teavitamata.</string>
+    <string name="permdesc_writeCallLog">Lubab rakendusel muuta tahvelarvuti kõnelogi, sh sissetulevate ja väljaminevate kõnede andmeid. Pahatahtlikud rakendused võivad kasutada seda kõnelogi kustutamiseks või muutmiseks.</string>
+    <string name="permdesc_writeContacts">Lubab rakendusel muuta tahvelarvutisse salvestatud kontaktide andmeid. See luba võimaldab rakendustel kontaktandmeid kustutada.</string>
+    <string name="permlab_wakeLock">tahvelarvuti uinumise vältimine</string>
+    <string name="policydesc_watchLogin">Jälgib ekraani avamisel valesti sisestatud paroolide arvu ja lukustab tahvelarvuti või kustutab kõik selle andmed, kui vale parool sisestatakse liiga palju kordi.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Jälgitakse ekraani avamisel sisestatud valede paroolide arvu ja lukustatakse tahvelarvuti või kustutatakse kõik selle kasutaja andmed, kui vale parool sisestatakse liiga palju kordi.</string>
+    <string name="policydesc_wipeData">Kustutab tahvelarvuti andmed hoiatamata, lähtestades arvuti tehaseandmetele.</string>
+    <string name="policydesc_wipeData_secondaryUser">Kustutatakse selle kasutaja andmed sellest tahvelarvutist ilma hoiatamata.</string>
+    <string name="power_dialog">Tahvelarvuti valikud</string>
+    <string name="shutdown_confirm">Teie tahvelarvuti lülitub välja.</string>
+    <string name="vdm_camera_access_denied">Teie seadmest %1$s ei pääse tahvelarvuti kaamerale juurde</string>
+</resources>

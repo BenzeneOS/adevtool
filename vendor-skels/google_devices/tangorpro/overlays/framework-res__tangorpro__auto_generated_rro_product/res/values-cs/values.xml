@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_partial">Prst musí snímač překrývat</string>
+    <string name="fingerprint_acquired_power_press">Pro další nastavení se lehce dotkněte snímače</string>
+    <string name="fingerprint_acquired_too_fast">Podržte prst na senzoru o trochu déle</string>
+    <string name="fingerprint_error_power_pressed">Ověření bylo ukončeno. Příště se zkuste dotknout lehce.</string>
+</resources>

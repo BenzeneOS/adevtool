@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edge_to_edge_navigation_summary">หากต้องการไปที่หน้าแรก ให้ปัดขึ้นจากด้านล่างเร็วๆ หากต้องการเข้าถึงแถบงาน ให้ปัดขึ้นจากด้านล่างช้าๆ หากต้องการสลับแอป ให้ปัดขึ้นจากด้านล่างค้างไว้แล้วปล่อย หากต้องการย้อนกลับ ให้ปัดจากขอบด้านซ้ายหรือขวา</string>
+    <string name="setting_auto_rotate_folded">หมุนอัตโนมัติเมื่อพับ</string>
+    <string name="setting_auto_rotate_unfolded">หมุนอัตโนมัติเมื่อกางออก</string>
+</resources>

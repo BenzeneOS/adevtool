@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Posuňte prst. Zkuste to znovu.</item>
+        <item>Prst už je zaregistrován, použijte jiný.</item>
+        <item>Nízká kvalita obrázku. Zkuste to znovu.</item>
+        <item/>
+        <item>Nízká kvalita obrázku. Zkuste to znovu.</item>
+        <item/>
+        <item/>
+        <item>Byla zjištěna skvrna, vyčistěte obrazovku. Zkuste to znovu.</item>
+        <item>Obrázek se nepodařilo načíst. Zkuste to znovu.</item>
+        <item/>
+    </array>
+    <array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Chybná data. Zkuste to znovu.</item>
+        <item>Prst se nepodařilo zaregistrovat. Zkuste to znovu.</item>
+    </array>
+    <string name="fingerprint_error_bad_calibration">Snímač otisků prstů nelze použít. Navštivte servis nebo stránku g.co/pixel/fingerprintunlock</string>
+    <string name="fingerprint_recalibrate_notification_content">Navštivte servis nebo stránku g.co/pixel/fingerprintunlock</string>
+</resources>

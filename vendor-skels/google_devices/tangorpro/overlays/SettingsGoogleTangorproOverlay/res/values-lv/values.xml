@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_sounds_title">Uzlādes signāli</string>
+    <string name="edge_to_edge_navigation_summary">Lai pārietu uz sākuma ekrānu, no ekrāna apakšdaļas ātri velciet augšup. Lai piekļūtu uzdevumu joslai, no ekrāna apakšdaļas lēni velciet augšup. Lai pārslēgtu lietotnes, no ekrāna apakšdaļas velciet augšup, turiet un atlaidiet. Lai pārietu atpakaļ, velciet no ekrāna kreisās vai labās malas.</string>
+    <string name="fast_pair_device_not_found_other_device_description">Pietuviniet šo ierīci planšetdatoram Pixel Tablet un mēģiniet vēlreiz.</string>
+    <string name="fast_pair_device_not_found_tws_headphone_description">Atveriet austiņu futrāli un pietuviniet to planšetdatoram Pixel Tablet, pēc tam mēģiniet vēlreiz.</string>
+    <string name="sound_dashboard_summary">Skaļums</string>
+    <string name="sound_dashboard_summary_with_dnd">Skaļums, režīms “Netraucēt”</string>
+    <string name="sound_settings">Skaņa</string>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="peak_refresh_rate_summary">Автоматично увеличава честотата на опресняване от 60 на 120 Hz за част от съдържанието. По-интензивно използване на батерията.</string>
+</resources>

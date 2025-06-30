@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_white_balance_summary">Dinamično prilagaja prikaz glede na svetlobo v okolici na toplejše ali hladnejše odtenke.</string>
+    <string name="display_white_balance_title">Prilagodljiv odtenek</string>
+    <string name="fingerprint_unlock_set_unlock_password">Pixel Imprint in geslo</string>
+    <string name="fingerprint_unlock_set_unlock_pattern">Pixel Imprint in vzorec</string>
+    <string name="fingerprint_unlock_set_unlock_pin">Pixel Imprint in koda PIN</string>
+    <string name="fingerprint_unlock_skip_fingerprint">Nadaljevanje brez funkcije Pixel Imprint</string>
+    <string name="fingerprint_unlock_title">Funkcija Pixel Imprint omogoča odklepanje telefona s prstnim odtisom. Zaradi varnosti ta možnost zahteva uporabo nadomestnega načina zaklepanja zaslona.</string>
+    <string name="fingerprint_v2_delete_message">S tem boste izbrisali v tabličnem računalniku shranjeni model prstnega odtisa, povezan z odtisom »%1$s«.</string>
+    <string name="security_settings_fingerprint_enroll_consent_introduction_title">Omogočanje funkcije Pixel Imprint</string>
+    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Funkcija Pixel Imprint omogoča uporabo prstnega odtisa za odobritev nakupov ali prijavo v aplikacije.
+
+Pazite, čigave prstne odtise boste dodali. Ta dejanja bo namreč mogoče izvajati s katerim koli od dodanih prstnih odtisov.
+
+Opomba: prstnega odtisa ne morete uporabiti za odklepanje naprave. Za več informacij se obrnite na skrbnika v organizaciji."</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">Nastavite funkcijo Pixel Imprint</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
+    <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
+    <string name="security_settings_sfps_enroll_start_message">"Dotaknite se tipala, ne da bi ga pritisnili. Po vsakem dotiku dvignite prst.
+
+Prst vsakič nekoliko premaknite. Tako bo sistem lahko zajel večji del prstnega odtisa."</string>
+    <string name="settingslib_learn_more_text">Več o odklepanju s prstnim odtisom</string>
+    <string name="suggested_fingerprint_lock_settings_summary">Uporaba funkcije Pixel Imprint za odklepanje telefona</string>
+</resources>
