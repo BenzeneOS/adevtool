@@ -825,6 +825,28 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    name: "android.hardware.usb-service",
+    owner: "google_devices",
+    srcs: [ "vendor/bin/hw/android.hardware.usb-service" ],
+    relative_install_path: "hw",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.usb.gadget-service",
+    owner: "google_devices",
+    srcs: [ "vendor/bin/hw/android.hardware.usb.gadget-service" ],
+    relative_install_path: "hw",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
     name: "android.hardware.vibrator-service.cs40l26",
     owner: "google_devices",
     srcs: [ "vendor/bin/hw/android.hardware.vibrator-service.cs40l26" ],
@@ -3511,6 +3533,24 @@ prebuilt_etc_xml {
     name: "android.hardware.security.keymint-service.citadel__2",
     owner: "google_devices",
     src: "vendor/etc/vintf/manifest/android.hardware.security.keymint-service.citadel.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "android.hardware.usb-service__2",
+    owner: "google_devices",
+    src: "vendor/etc/vintf/manifest/android.hardware.usb-service.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "android.hardware.usb.gadget-service__2",
+    owner: "google_devices",
+    src: "vendor/etc/vintf/manifest/android.hardware.usb.gadget-service.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,

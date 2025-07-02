@@ -220,6 +220,7 @@ PRODUCT_PACKAGES += \
     ambient_volume \
     android.frameworks.sensorservice-V1-ndk.vendor \
     android.frameworks.stats-V1-cpp.vendor \
+    android.frameworks.stats-V1-ndk.vendor \
     android.hardware.authsecret-impl.nos \
     android.hardware.authsecret-service.citadel \
     android.hardware.authsecret-service.citadel__2 \
@@ -332,6 +333,13 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-service.citadel__2 \
     android.hardware.security.keymint-V3-ndk.vendor \
     android.hardware.sensors-V2-ndk.vendor \
+    android.hardware.usb-service \
+    android.hardware.usb-service__2 \
+    android.hardware.usb-V3-ndk.vendor \
+    android.hardware.usb.gadget-service \
+    android.hardware.usb.gadget-service__2 \
+    android.hardware.usb.gadget-V1-ndk.vendor \
+    android.hardware.usb.gadget@1.0.vendor \
     android.hardware.vibrator-impl.cs40l26 \
     android.hardware.vibrator-service.cs40l26 \
     android.hardware.vibrator-service.cs40l26__2 \
@@ -629,6 +637,7 @@ PRODUCT_PACKAGES += \
     libtouchflow \
     libui.vendor \
     libunwindstack.vendor \
+    libusbhost.vendor \
     libusf \
     libutils-default \
     libvendor.goodix.hardware.biometrics.fingerprint@2.1 \
@@ -1313,6 +1322,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/android.hardware.rlsservice-service-google-apex.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.rlsservice-service-google-apex.rc \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-uicc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-uicc-service.rc \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/android.hardware.security.keymint-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.citadel.rc \
+    vendor/google_devices/lynx/proprietary/vendor/etc/init/android.hardware.usb.gadget-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget-service.rc \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/android.hardware.vibrator-service.cs40l26.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vibrator-service.cs40l26.rc \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/android.hardware.weaver-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.weaver-service.citadel.rc \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/aocd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aocd.rc \

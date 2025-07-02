@@ -1874,10 +1874,10 @@ overlays/framework-res__raven__auto_generated_rro_vendor/res/xml/irq_device_map.
 overlays/framework-res__raven__auto_generated_rro_vendor/res/xml/power_profile.xml: 6a4d1721591a858eeac821cb91f447a0cdf90986113668dbfd16ac709966a067
 overlays/overlay-modules.txt: 78458705efab74be16d908163f46caffe4800b638a9b885300d4e1f1303e538f
 proprietary: dir
-proprietary-files.txt: 5cf1a8d1aa1710a5df486947e6fe09e42f618be104649998276112d79205ccb6
-proprietary/Android.bp: 447766d13e638715521fed78953fa4a8b32b3747813a86f4c725a4e9e3121aba
+proprietary-files.txt: 5a9dccf5c7dc90f970caecea3e0435d4bc5176300f18235c908aacb685e8c021
+proprietary/Android.bp: f9e52a5b62717454af71a30b0bb15a09a239e9a2638adee903cd8a1f85a0f7d2
 proprietary/BoardConfigVendor.mk: ece7535697fb1c6dca51e7aeb951ccc7db10af96c75ee8058c6dea82fa013be6
-proprietary/device-vendor.mk: c5d713db5320c713303a5250788045dbb02671b8234e87eea35d641022d0e4d7
+proprietary/device-vendor.mk: ea71b213b5754d7d6c6591470b17c981ce73d3553e7056392a396460d1e3145f
 proprietary/linker-config-adevtool.json: 1f9e401c56f463f32e208aee192aaca3bf367909f95df8da0f18a320cb551e54
 proprietary/product: dir
 proprietary/product/etc: dir
@@ -2509,6 +2509,8 @@ proprietary/vendor/bin/hw/android.hardware.power.stats-service.pixel: 5296ff73c2
 proprietary/vendor/bin/hw/android.hardware.qorvo.uwb.service: f1f8107fc7b8be1c4155c90bcdcb548b4f07a09dd083409590ac545e7eaa2d40
 proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-uicc-service: d80a12b8af42e29a898ff070f2a516ff39b3f9550cd5fb84d691189cd79bfeaa
 proprietary/vendor/bin/hw/android.hardware.security.keymint-service.citadel: 018cb5646f23adde702719f6b79b946483ef83c60fca07f363e93c5692f5950d
+proprietary/vendor/bin/hw/android.hardware.usb-service.gs101: b1684d8068b909a585917484931c4e9f5acd694dc527f82e68a101ee10010673
+proprietary/vendor/bin/hw/android.hardware.usb.gadget-service.gs101: 54f2d5a707c8488cc0844e59f98ec8846edcabcda3118bff742a80473dcd7011
 proprietary/vendor/bin/hw/android.hardware.vibrator-service.cs40l25: 4140119c1e3e7dc38f4f34cd5ccc05a4ca1a9a17328822cd6fb4ac6d76b938c5
 proprietary/vendor/bin/hw/android.hardware.weaver-service.citadel: 2f8ba8f918f4a67fa85d1ffcb51ba4ca0ed57cebb3dee74596a82107afa2cf07
 proprietary/vendor/bin/hw/battery_mitigation: 7a759b07275317119598eba6f1faf64020ab95894f4b215b5be152397b1c7298
@@ -2706,6 +2708,7 @@ proprietary/vendor/etc/init/android.hardware.power.stats-service.pixel.rc: 45351
 proprietary/vendor/etc/init/android.hardware.rlsservice-service-google-apex.rc: ec9432601bb0070502fe6304aa4baedc2c8b889817190a23cc0cce629df5f524
 proprietary/vendor/etc/init/android.hardware.secure_element@1.2-uicc-service.rc: 06da12e1ec9dc295d9cc9fff595b9829eedd813125421461081781f271cba248
 proprietary/vendor/etc/init/android.hardware.security.keymint-service.citadel.rc: ca5dea5419dd9c1d9a6c5bc237f688679634f1d3de2859d10254fd4688966022
+proprietary/vendor/etc/init/android.hardware.usb.gadget-service.rc: 1727de04ca0a3d49a0824009b213346eb683b29dd45c8930a9321abf6fcfab40
 proprietary/vendor/etc/init/android.hardware.vibrator-service.cs40l25.rc: edbaa98159f4c504c4034b7ac354baa3aeee3044599401f7ba3eea28aa88cc77
 proprietary/vendor/etc/init/android.hardware.weaver-service.citadel.rc: fb4645a80de8c8898539899812afa54932c9961744a575eb7d718d47f855febb
 proprietary/vendor/etc/init/aocd.rc: 81792b37004bafcebb648ddfdfb26475af0e32dba3de9cc0744cafbb246ac9b7
@@ -2908,6 +2911,8 @@ proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@service-da
 proprietary/vendor/etc/vintf/manifest/android.hardware.oemlock-service.citadel.xml: 7986d6d8ec6be97f0abc1e77bae36619fde033c2cac4d45645ed71eef2423b77
 proprietary/vendor/etc/vintf/manifest/android.hardware.power.stats-service.pixel.xml: fcf0c2370bc698984f4ac379f0e6f0b2744303ac2cf46d78c45f0f2d19bfad04
 proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service.citadel.xml: e6a9745a5c87944a3ed71a9f95d9bf33638afb5feb64b97e0ae3f0859a43ffdc
+proprietary/vendor/etc/vintf/manifest/android.hardware.usb-service.xml: 486150e92acf190f94d4112be9fb5c82406452ceb11c0d4420bd83627dc71d97
+proprietary/vendor/etc/vintf/manifest/android.hardware.usb.gadget-service.xml: 3ae4d8c6189e6ad849b82839822b49d3afa6615095e2187817255891895627fa
 proprietary/vendor/etc/vintf/manifest/android.hardware.vibrator-service.cs40l25.xml: 26e11b4f4c37b4fb2adc40974bef90309651fd3edc41b0ff5f75dccc9d237aee
 proprietary/vendor/etc/vintf/manifest/android.hardware.weaver-service.citadel.xml: c7d569d1e7de33fb20ebc0bbbd6c3d4d7f3c67c3425fe153ba05fd9e75c5cc1d
 proprietary/vendor/etc/vintf/manifest/com.google.edgetpu.tachyon-service.xml: e9be36ca98bc73e1dacff2ce4914c0886c04af1d53337a9feafed4666cad5d91

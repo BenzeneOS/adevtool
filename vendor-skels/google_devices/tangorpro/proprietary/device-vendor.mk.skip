@@ -183,6 +183,7 @@ PRODUCT_PACKAGES += \
     ambient_volume \
     android.frameworks.sensorservice-V1-ndk.vendor \
     android.frameworks.stats-V1-cpp.vendor \
+    android.frameworks.stats-V1-ndk.vendor \
     android.hardware.authsecret-impl.nos \
     android.hardware.authsecret-service.citadel \
     android.hardware.authsecret-service.citadel__2 \
@@ -274,6 +275,13 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-service.citadel \
     android.hardware.security.keymint-service.citadel__2 \
     android.hardware.security.keymint-V3-ndk.vendor \
+    android.hardware.usb-service \
+    android.hardware.usb-service__2 \
+    android.hardware.usb-V3-ndk.vendor \
+    android.hardware.usb.gadget-service \
+    android.hardware.usb.gadget-service__2 \
+    android.hardware.usb.gadget-V1-ndk.vendor \
+    android.hardware.usb.gadget@1.0.vendor \
     android.hardware.weaver-bridge.nos \
     android.hardware.weaver-impl.nos \
     android.hardware.weaver-service.citadel \
@@ -523,6 +531,7 @@ PRODUCT_PACKAGES += \
     libtinycompress \
     libtouchflow \
     libui.vendor \
+    libusbhost.vendor \
     libusf \
     libvendorgraphicbuffer \
     ManagedProvisioningPixelOverlay \
@@ -710,6 +719,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/tangorpro/proprietary/vendor/etc/init/android.hardware.power.stats-service.pixel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.power.stats-service.pixel.rc \
     vendor/google_devices/tangorpro/proprietary/vendor/etc/init/android.hardware.rlsservice-service-google-apex.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.rlsservice-service-google-apex.rc \
     vendor/google_devices/tangorpro/proprietary/vendor/etc/init/android.hardware.security.keymint-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.citadel.rc \
+    vendor/google_devices/tangorpro/proprietary/vendor/etc/init/android.hardware.usb.gadget-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget-service.rc \
     vendor/google_devices/tangorpro/proprietary/vendor/etc/init/android.hardware.weaver-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.weaver-service.citadel.rc \
     vendor/google_devices/tangorpro/proprietary/vendor/etc/init/aocd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aocd.rc \
     vendor/google_devices/tangorpro/proprietary/vendor/etc/init/aocxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aocxd.rc \

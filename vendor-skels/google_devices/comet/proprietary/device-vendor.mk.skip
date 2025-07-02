@@ -284,6 +284,7 @@ PRODUCT_PACKAGES += \
     ambient_volume \
     android.frameworks.sensorservice-V1-ndk.vendor \
     android.frameworks.stats-V1-cpp.vendor \
+    android.frameworks.stats-V1-ndk.vendor \
     android.hardware.audio.common@5.0.vendor \
     android.hardware.audio.core-V3-ndk.vendor \
     android.hardware.audio.core.sounddose-V3-ndk.vendor \
@@ -420,6 +421,13 @@ PRODUCT_PACKAGES += \
     android.hardware.security.sharedsecret-V1-ndk.vendor \
     android.hardware.soundtrigger3-V3-ndk.vendor \
     android.hardware.thermal-V2-ndk.vendor \
+    android.hardware.usb-service \
+    android.hardware.usb-service__2 \
+    android.hardware.usb-V3-ndk.vendor \
+    android.hardware.usb.gadget-service \
+    android.hardware.usb.gadget-service__2 \
+    android.hardware.usb.gadget-V1-ndk.vendor \
+    android.hardware.usb.gadget@1.0.vendor \
     android.hardware.vibrator-impl.cs40l26 \
     android.hardware.vibrator-service.cs40l26 \
     android.hardware.vibrator-service.cs40l26__2 \
@@ -727,6 +735,7 @@ PRODUCT_PACKAGES += \
     libtouchflow \
     libui.vendor \
     libunwindstack.vendor \
+    libusbhost.vendor \
     libusf \
     libutils-default \
     libvendorgraphicbuffer \
@@ -1467,6 +1476,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/comet/proprietary/vendor/etc/init/android.hardware.qorvo.uwb-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.qorvo.uwb-service.rc \
     vendor/google_devices/comet/proprietary/vendor/etc/init/android.hardware.secure_element-service.uicc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element-service.uicc.rc \
     vendor/google_devices/comet/proprietary/vendor/etc/init/android.hardware.security.keymint-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.citadel.rc \
+    vendor/google_devices/comet/proprietary/vendor/etc/init/android.hardware.usb.gadget-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget-service.rc \
     vendor/google_devices/comet/proprietary/vendor/etc/init/android.hardware.vibrator-service.cs40l26.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vibrator-service.cs40l26.rc \
     vendor/google_devices/comet/proprietary/vendor/etc/init/android.hardware.weaver-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.weaver-service.citadel.rc \
     vendor/google_devices/comet/proprietary/vendor/etc/init/aocd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aocd.rc \

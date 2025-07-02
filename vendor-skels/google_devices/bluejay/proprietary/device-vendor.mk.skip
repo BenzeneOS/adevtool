@@ -207,6 +207,7 @@ PRODUCT_PACKAGES += \
     AdaptiveHapticsBluejayOverlay \
     android.frameworks.sensorservice-V1-ndk.vendor \
     android.frameworks.stats-V1-cpp.vendor:64 \
+    android.frameworks.stats-V1-ndk.vendor:64 \
     android.frameworks.stats-V2-ndk.vendor:32 \
     android.hardware.authsecret-impl.nos \
     android.hardware.authsecret-service.citadel \
@@ -308,6 +309,13 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal-V1-ndk.vendor:32 \
     android.hardware.thermal@1.0.vendor:32 \
     android.hardware.thermal@2.0.vendor:32 \
+    android.hardware.usb-service \
+    android.hardware.usb-service.gs101 \
+    android.hardware.usb-V3-ndk.vendor:64 \
+    android.hardware.usb.gadget-service \
+    android.hardware.usb.gadget-service.gs101 \
+    android.hardware.usb.gadget-V1-ndk.vendor:64 \
+    android.hardware.usb.gadget@1.0.vendor:64 \
     android.hardware.vibrator-impl.cs40l26 \
     android.hardware.vibrator-service.cs40l26 \
     android.hardware.vibrator-service.cs40l26__2 \
@@ -1231,6 +1239,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/bluejay/proprietary/vendor/etc/init/android.hardware.rlsservice-service-google-apex.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.rlsservice-service-google-apex.rc \
     vendor/google_devices/bluejay/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-uicc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-uicc-service.rc \
     vendor/google_devices/bluejay/proprietary/vendor/etc/init/android.hardware.security.keymint-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.citadel.rc \
+    vendor/google_devices/bluejay/proprietary/vendor/etc/init/android.hardware.usb.gadget-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget-service.rc \
     vendor/google_devices/bluejay/proprietary/vendor/etc/init/android.hardware.vibrator-service.cs40l26.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vibrator-service.cs40l26.rc \
     vendor/google_devices/bluejay/proprietary/vendor/etc/init/android.hardware.weaver-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.weaver-service.citadel.rc \
     vendor/google_devices/bluejay/proprietary/vendor/etc/init/aocd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aocd.rc \
