@@ -1,5 +1,4 @@
 import { listPart } from '../blobs/file-list'
-import { parsePartOverlayApks, PartResValues } from '../blobs/overlays'
 import { loadPartitionProps, PartitionProps } from '../blobs/props'
 import { loadPartVintfInfo, PartitionVintfInfo } from '../blobs/vintf'
 import { minimizeModules, parseModuleInfo, SoongModuleInfo } from '../build/soong-info'
@@ -8,7 +7,7 @@ import { withSpinner } from '../util/cli'
 import { readFile } from '../util/fs'
 import { ALL_SYS_PARTITIONS } from '../util/partitions'
 
-const STATE_VERSION = 4
+const STATE_VERSION = 5
 
 export interface SystemState {
   deviceInfo: {
@@ -18,7 +17,6 @@ export interface SystemState {
   partitionFiles: { [part: string]: Array<string> }
   partitionProps: PartitionProps
   partitionSecontexts: SelinuxPartContexts
-  partitionOverlays: PartResValues
   partitionVintfInfo: PartitionVintfInfo
 
   moduleInfo: SoongModuleInfo
@@ -94,13 +92,6 @@ export async function collectSystemState(device: string, outRoot: string, aapt2P
 
   // SELinux contexts
   state.partitionSecontexts = await withSpinner('Extracting SELinux contexts', () => parsePartContexts(systemRoot))
-
-  // Overlays
-  state.partitionOverlays = await withSpinner('Extracting overlays', spinner =>
-    parsePartOverlayApks(aapt2Path, systemRoot, path => {
-      spinner.text = path
-    }),
-  )
 
   // vintf info
   state.partitionVintfInfo = await withSpinner('Extracting vintf manifests', () => loadPartVintfInfo(systemRoot))

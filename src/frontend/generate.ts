@@ -6,7 +6,6 @@ import { flattenAllApexs } from '../blobs/apex'
 import { generateBuild, VendorDirectories, writeBuildFiles } from '../blobs/build'
 import { BlobEntry } from '../blobs/entry'
 import { combinedPartPathToEntry, diffLists, listPart, serializeBlobList } from '../blobs/file-list'
-import { diffPartOverlays, parsePartOverlayApks, serializePartOverlays } from '../blobs/overlays'
 import { parsePresignedRecursive, updatePresignedBlobs } from '../blobs/presigned'
 import { diffPartitionProps, loadPartitionProps, PartitionProps } from '../blobs/props'
 import { diffPartVintfManifests, loadPartVintfInfo, writePartVintfManifests } from '../blobs/vintf'
@@ -217,47 +216,6 @@ export async function resolveSepolicyDirs(
   }
 
   return ctxResolutions
-}
-
-export async function extractOverlays(
-  spinner: ora.Ora,
-  config: DeviceConfig,
-  customState: SystemState,
-  dirs: VendorDirectories,
-  aapt2Path: string,
-  stockSrc: string,
-) {
-  let stockOverlays = await parsePartOverlayApks(
-    aapt2Path,
-    stockSrc,
-    path => {
-      spinner.text = path
-    },
-    config.filters.overlay_files,
-  )
-  let customOverlays = customState.partitionOverlays
-
-  let missingOverlays = diffPartOverlays(
-    stockOverlays,
-    customOverlays,
-    config.filters.overlay_keys,
-    config.filters.overlay_values,
-  )
-
-  // Generate RROs and get a list of modules to build
-  let buildPkgs = await serializePartOverlays(missingOverlays, dirs.overlays)
-
-  // Dump overlay key and value lists
-  if (buildPkgs.length > 0) {
-    for (let [part, overlays] of Object.entries(missingOverlays)) {
-      let overlayList = Array.from(overlays.entries())
-        .map(([k, v]) => `${k} = ${v}`)
-        .join('\n')
-      await fs.writeFile(`${dirs.overlays}/${part}.txt`, `${overlayList}\n`)
-    }
-  }
-
-  return buildPkgs
 }
 
 export async function extractVintfManifests(customState: SystemState, dirs: VendorDirectories, stockSrc: string) {

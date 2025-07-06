@@ -20,7 +20,6 @@ import { forEachDevice } from '../frontend/devices'
 import {
   enumerateFiles,
   extractFirmware,
-  extractOverlays,
   extractProps,
   extractVintfManifests,
   flattenApexs,
