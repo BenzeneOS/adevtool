@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 set -e
+export ANDROID_QUIET_BUILD=true
 source build/envsetup.sh
 export OFFICIAL_BUILD=true
 # Equivalent to 2025-06-29 12:00 UTC+0
