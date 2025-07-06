@@ -541,7 +541,6 @@ product/etc/permissions/com.google.pixel.camera.services.cameraidremapper.impl.x
 product/etc/permissions/com.google.pixel.camera.services.lyricconfigprovider.impl.xml
 product/etc/permissions/features-verizon.xml
 product/etc/sysconfig/allowlist_com.shannon.imsservice.xml
-product/etc/sysconfig/contextual_search.xml
 product/lib64/libdmengine.so
 product/lib64/libdmjavaplugin.so
 product/priv-app/EuiccGoogle/EuiccGoogle.apk

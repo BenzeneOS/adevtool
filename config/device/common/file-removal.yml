@@ -29,6 +29,7 @@ filters:
       - product/etc/sysconfig/GoogleCamera_6gb_or_more_ram.xml
       - product/etc/sysconfig/adaptivecharging.xml
       - product/etc/sysconfig/communal.xml
+      - product/etc/sysconfig/contextual_search.xml
       - product/etc/sysconfig/dreamliner.xml
       - product/etc/sysconfig/firproximity.xml
       - product/etc/sysconfig/game_overlay.xml

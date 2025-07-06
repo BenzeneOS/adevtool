@@ -57,7 +57,6 @@ product/etc/permissions/com.google.pixel.camera.connectivity.impl.xml
 product/etc/permissions/com.google.pixel.camera.services.cameraidremapper.impl.xml
 product/etc/permissions/com.google.pixel.camera.services.lyricconfigprovider.impl.xml
 product/etc/sysconfig/component-overrides.xml
-product/etc/sysconfig/contextual_search.xml
 product/etc/sysconfig/google-nest-hiddenapi-package-whitelist.xml
 product/etc/sysconfig/pixel_tablet-initial-package-stopped-states.xml
 product/priv-app/PixelCameraServices/PixelCameraServices.apk;PRESIGNED

@@ -2287,7 +2287,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/oriole/proprietary/product/etc/permissions/com.google.pixel.camera.services.lyricconfigprovider.impl.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.pixel.camera.services.lyricconfigprovider.impl.xml \
     vendor/google_devices/oriole/proprietary/product/etc/permissions/features-verizon.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/features-verizon.xml \
     vendor/google_devices/oriole/proprietary/product/etc/sysconfig/allowlist_com.shannon.imsservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.shannon.imsservice.xml \
-    vendor/google_devices/oriole/proprietary/product/etc/sysconfig/contextual_search.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/contextual_search.xml \
     vendor/google_devices/oriole/proprietary/system_ext/etc/default-permissions/default-permissions-euiccpixel.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/default-permissions-euiccpixel.xml \
     vendor/google_devices/oriole/proprietary/system_ext/etc/permissions/com.google.android.camera.experimental2022_system.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.google.android.camera.experimental2022_system.xml \
     vendor/google_devices/oriole/proprietary/system_ext/etc/permissions/com.google.android.camera.extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.google.android.camera.extensions.xml \

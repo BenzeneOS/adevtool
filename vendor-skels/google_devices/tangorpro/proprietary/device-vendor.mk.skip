@@ -920,7 +920,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/tangorpro/proprietary/product/etc/permissions/com.google.pixel.camera.services.cameraidremapper.impl.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.pixel.camera.services.cameraidremapper.impl.xml \
     vendor/google_devices/tangorpro/proprietary/product/etc/permissions/com.google.pixel.camera.services.lyricconfigprovider.impl.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.pixel.camera.services.lyricconfigprovider.impl.xml \
     vendor/google_devices/tangorpro/proprietary/product/etc/sysconfig/component-overrides.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/component-overrides.xml \
-    vendor/google_devices/tangorpro/proprietary/product/etc/sysconfig/contextual_search.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/contextual_search.xml \
     vendor/google_devices/tangorpro/proprietary/product/etc/sysconfig/google-nest-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-nest-hiddenapi-package-whitelist.xml \
     vendor/google_devices/tangorpro/proprietary/product/etc/sysconfig/pixel_tablet-initial-package-stopped-states.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_tablet-initial-package-stopped-states.xml \
     vendor/google_devices/tangorpro/proprietary/system_ext/etc/permissions/android.software.freeform_window_management.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/android.software.freeform_window_management.xml \
