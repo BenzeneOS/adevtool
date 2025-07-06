@@ -1,8 +1,8 @@
 type: device-list
 
 devices:
+  - tegu.yml
   - comet.yml
   - komodo.yml
   - caiman.yml
   - tokay.yml
-  - tegu.yml

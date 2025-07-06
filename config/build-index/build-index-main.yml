@@ -1,3 +1,22 @@
+tegu BD4A.240925.111:
+  desc: Apr 2025
+  factory: eb8b02663f40b73b7f0b8d945ca100f3223b05715253268a5ac664a13e26f758 tegu-bd4a.240925.111-factory-eb8b0266.zip
+  ota: 2e1b0f30cfc79bc1125aed9cf4eacc84e38a2a288e511e0e5129ae20a335f2fe tegu-ota-bd4a.240925.111-2e1b0f30.zip
+  vendor/google_devices: ccece1b1cbb147508ae17daee83192195a5c75eff5e7953c092016ce12901567 google_devices-tegu-bd4a.240925.111-7f8389d3.tgz
+tegu BD4A.250405.003:
+  desc: Apr 2025
+  factory: 6dba30b45d2339eae49c7223e276a2ed006d04af157edaaaf9de8e828cb5752d tegu-bd4a.250405.003-factory-6dba30b4.zip
+  ota: 9387d8f01bd877da9a78f2890c6e58b4014e1a3c12105b73590a80e00aba649e tegu-ota-bd4a.250405.003-9387d8f0.zip
+  vendor/google_devices: 2a1512e0c52d8d09f258f0304b455bf0180f60da8f5e5ff172664b97163efc55 google_devices-tegu-bd4a.250405.003-cb48fddd.tgz
+tegu BD4A.250505.003:
+  desc: May 2025
+  factory: c76c3c0dda300a58625e7b3694946e2757e7e629e3ee5b3e00aded7c7b56bad4 tegu-bd4a.250505.003-factory-c76c3c0d.zip
+  ota: 06eb56e8bbaf4c593e730b74285519a82bcc5727ea309d1815c944e5f259d18d tegu-ota-bd4a.250505.003-06eb56e8.zip
+  vendor/google_devices: 0ad7cd61322c38ba01d142123de4e30c69e091c54c0901d18beae7e4b6da7be2 google_devices-tegu-bd4a.250505.003-9ab41e05.tgz
+tegu BP2A.250605.031.A2:
+  desc: Jun 2025
+  factory: aecd8a3b8cb97e1baacdf6b36d3dd053df4b0be5c0f3df31347b863304e5944b tegu-bp2a.250605.031.a2-factory-aecd8a3b.zip
+  ota: ec03acfb955eaa7ee4fea409a4a7a28b01c93647f60e34bc75a28ecf196319b4 tegu-ota-bp2a.250605.031.a2-ec03acfb.zip
 comet AD1A.240530.030:
   desc: Aug 2024
   factory: 77dca5840fa82483f836934ca634ee332728009444e9d2dc125a251bb9ac869e comet-ad1a.240530.030-factory-77dca584.zip
@@ -554,25 +573,6 @@ tokay BP2A.250605.031.A2:
   desc: Jun 2025
   factory: df553d50ff121efc328affcfccb520a17ba4fd5b5d8321e222e17e13a3e10b91 tokay-bp2a.250605.031.a2-factory-df553d50.zip
   ota: 7cccc3b7c2354bf1c5943ebda78ecb7beedf5f5bdf9fd0c5e1e9f75752313f61 tokay-ota-bp2a.250605.031.a2-7cccc3b7.zip
-tegu BD4A.240925.111:
-  desc: Apr 2025
-  factory: eb8b02663f40b73b7f0b8d945ca100f3223b05715253268a5ac664a13e26f758 tegu-bd4a.240925.111-factory-eb8b0266.zip
-  ota: 2e1b0f30cfc79bc1125aed9cf4eacc84e38a2a288e511e0e5129ae20a335f2fe tegu-ota-bd4a.240925.111-2e1b0f30.zip
-  vendor/google_devices: ccece1b1cbb147508ae17daee83192195a5c75eff5e7953c092016ce12901567 google_devices-tegu-bd4a.240925.111-7f8389d3.tgz
-tegu BD4A.250405.003:
-  desc: Apr 2025
-  factory: 6dba30b45d2339eae49c7223e276a2ed006d04af157edaaaf9de8e828cb5752d tegu-bd4a.250405.003-factory-6dba30b4.zip
-  ota: 9387d8f01bd877da9a78f2890c6e58b4014e1a3c12105b73590a80e00aba649e tegu-ota-bd4a.250405.003-9387d8f0.zip
-  vendor/google_devices: 2a1512e0c52d8d09f258f0304b455bf0180f60da8f5e5ff172664b97163efc55 google_devices-tegu-bd4a.250405.003-cb48fddd.tgz
-tegu BD4A.250505.003:
-  desc: May 2025
-  factory: c76c3c0dda300a58625e7b3694946e2757e7e629e3ee5b3e00aded7c7b56bad4 tegu-bd4a.250505.003-factory-c76c3c0d.zip
-  ota: 06eb56e8bbaf4c593e730b74285519a82bcc5727ea309d1815c944e5f259d18d tegu-ota-bd4a.250505.003-06eb56e8.zip
-  vendor/google_devices: 0ad7cd61322c38ba01d142123de4e30c69e091c54c0901d18beae7e4b6da7be2 google_devices-tegu-bd4a.250505.003-9ab41e05.tgz
-tegu BP2A.250605.031.A2:
-  desc: Jun 2025
-  factory: aecd8a3b8cb97e1baacdf6b36d3dd053df4b0be5c0f3df31347b863304e5944b tegu-bp2a.250605.031.a2-factory-aecd8a3b.zip
-  ota: ec03acfb955eaa7ee4fea409a4a7a28b01c93647f60e34bc75a28ecf196319b4 tegu-ota-bp2a.250605.031.a2-ec03acfb.zip
 akita UD2A.231203.054:
   desc: May 2024, EMEA, APAC, JP
   factory: b3a902d4ece1f67ab85ac165d58c543d48dd3af1cc822944636d4f96e12df059 akita-ud2a.231203.054-factory-b3a902d4.zip
