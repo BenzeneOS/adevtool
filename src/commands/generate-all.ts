@@ -434,6 +434,13 @@ async function copyVendorSkel(dirs: VendorDirectories, config: DeviceConfig) {
           return true
         }
 
+        if (
+          source.endsWith('android.hardware.usb-service.rc') ||
+          source.endsWith('android.hardware.usb-service-i2c6.rc')
+        ) {
+          return true
+        }
+
         if (source.includes('/', dirs.proprietary.length + 1)) {
           // skip proprietary/*/* entries
           return false
