@@ -1305,6 +1305,8 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/lynx/proprietary/vendor/etc/fstab.modem:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.modem \
     vendor/google_devices/lynx/proprietary/vendor/etc/fstab.persist:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.persist \
     vendor/google_devices/lynx/proprietary/vendor/etc/gnss/gps.cer:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cer \
+    vendor/google_devices/lynx/proprietary/vendor/etc/gnss/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/lhd.conf \
+    vendor/google_devices/lynx/proprietary/vendor/etc/gnss/scd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/scd.conf \
     vendor/google_devices/lynx/proprietary/vendor/etc/init.common.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.common.cfg \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/android.hardware.authsecret-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.authsecret-service.citadel.rc \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
@@ -1322,6 +1324,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/android.hardware.rlsservice-service-google-apex.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.rlsservice-service-google-apex.rc \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-uicc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-uicc-service.rc \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/android.hardware.security.keymint-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.citadel.rc \
+    vendor/google_devices/lynx/proprietary/vendor/etc/init/android.hardware.usb-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb-service.rc \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/android.hardware.usb.gadget-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget-service.rc \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/android.hardware.vibrator-service.cs40l26.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vibrator-service.cs40l26.rc \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/android.hardware.weaver-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.weaver-service.citadel.rc \
@@ -1338,6 +1341,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/hw/init.gs201.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.gs201.rc \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/hw/init.gs201.storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.gs201.storage.rc \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/hw/init.gs201.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.gs201.usb.rc \
+    vendor/google_devices/lynx/proprietary/vendor/etc/init/hw/init.lynx.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.lynx.rc \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/hwc3-pixel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hwc3-pixel.rc \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/init_dauntless.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_dauntless.rc \
     vendor/google_devices/lynx/proprietary/vendor/etc/init/init.aoc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.aoc.rc \
@@ -2916,6 +2920,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/lynx/proprietary/vendor/etc/database/DbEcc_DEFAULT.xml:$(TARGET_COPY_OUT_VENDOR)/etc/database/DbEcc_DEFAULT.xml \
     vendor/google_devices/lynx/proprietary/vendor/etc/database/DbEcc_ICCID.xml:$(TARGET_COPY_OUT_VENDOR)/etc/database/DbEcc_ICCID.xml \
     vendor/google_devices/lynx/proprietary/vendor/etc/displayconfig/display_id_4619827677550801152.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4619827677550801152.xml \
+    vendor/google_devices/lynx/proprietary/vendor/etc/gnss/gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.xml \
     vendor/google_devices/lynx/proprietary/vendor/etc/media_codecs_aosp_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_aosp_c2.xml \
     vendor/google_devices/lynx/proprietary/vendor/etc/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
     vendor/google_devices/lynx/proprietary/vendor/etc/media_codecs_performance_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_c2.xml \

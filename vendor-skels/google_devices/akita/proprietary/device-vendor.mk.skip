@@ -1381,6 +1381,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/akita/proprietary/vendor/etc/fstab.modem:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.modem \
     vendor/google_devices/akita/proprietary/vendor/etc/fstab.persist:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.persist \
     vendor/google_devices/akita/proprietary/vendor/etc/gnss/ca.pem:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/ca.pem \
+    vendor/google_devices/akita/proprietary/vendor/etc/gnss/gps.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cfg \
     vendor/google_devices/akita/proprietary/vendor/etc/init.common.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.common.cfg \
     vendor/google_devices/akita/proprietary/vendor/etc/init/android.hardware.audio.service-aidl.aoc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service-aidl.aoc.rc \
     vendor/google_devices/akita/proprietary/vendor/etc/init/android.hardware.authsecret-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.authsecret-service.citadel.rc \
@@ -1399,6 +1400,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/akita/proprietary/vendor/etc/init/android.hardware.power.stats-service.pixel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.power.stats-service.pixel.rc \
     vendor/google_devices/akita/proprietary/vendor/etc/init/android.hardware.secure_element-service.uicc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element-service.uicc.rc \
     vendor/google_devices/akita/proprietary/vendor/etc/init/android.hardware.security.keymint-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.citadel.rc \
+    vendor/google_devices/akita/proprietary/vendor/etc/init/android.hardware.usb-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb-service.rc \
     vendor/google_devices/akita/proprietary/vendor/etc/init/android.hardware.usb.gadget-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget-service.rc \
     vendor/google_devices/akita/proprietary/vendor/etc/init/android.hardware.vibrator-service.cs40l26.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vibrator-service.cs40l26.rc \
     vendor/google_devices/akita/proprietary/vendor/etc/init/android.hardware.weaver-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.weaver-service.citadel.rc \

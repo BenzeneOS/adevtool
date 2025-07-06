@@ -1704,10 +1704,10 @@ overlays/framework-res__oriole__auto_generated_rro_vendor/res/xml/irq_device_map
 overlays/framework-res__oriole__auto_generated_rro_vendor/res/xml/power_profile.xml: 6d6fd9955de37daf54a753d2af1fdb250bdbb082c3b28838634f28129ede60ec
 overlays/overlay-modules.txt: 1f88cf646953983b7a521521cb4b5650a293d2bee0ddfc7e227d4eb338509cd9
 proprietary: dir
-proprietary-files.txt: 5fa66b7aa93d2277f0653c4d4a0096e79fb7225ee6f2325ad4f5232f31190fe4
+proprietary-files.txt: dbf24bd3b156eca2fe210ea678e4ca6b7ea5ea0eff6f67f36b7cf0084cdeeb08
 proprietary/Android.bp: 2f033a99f96455e32526fba824a63e700e6bc6776a29b6fba07ea2088a034069
 proprietary/BoardConfigVendor.mk: 86a83f190d1768b7a316ae7dee4774cb6f756eb0d5f441bc6e1b51b341934529
-proprietary/device-vendor.mk: 23f2b3aef0d6656d9bb112368b3ca14dae391001519ba0fb964c662329e696c8
+proprietary/device-vendor.mk: 5dfb4ed3d734c07ee0284d92e9659c5daab4d4d84f5302865b6651d1adb0ee3c
 proprietary/linker-config-adevtool.json: 1f9e401c56f463f32e208aee192aaca3bf367909f95df8da0f18a320cb551e54
 proprietary/product: dir
 proprietary/product/etc: dir
@@ -2512,6 +2512,7 @@ proprietary/vendor/etc/displayconfig: dir
 proprietary/vendor/etc/displayconfig/display_id_4619827677550801152.xml: ee1075086533bea4336d848a30ce387db960b260340ef048b10c5ae4220eb5c5
 proprietary/vendor/etc/gnss: dir
 proprietary/vendor/etc/gnss/gps.cer: c7085bbf9d2df23aa0c0b0f1ff755f3cacc8c23baaf2713e8044916d9e6e2eaf
+proprietary/vendor/etc/gnss/gps.xml: df6ed4155d02e8d64dbbdf7b59f109d60ad29ea2c96b65c01508bfaa2b8bad04
 proprietary/vendor/etc/gnss/lhd.conf: 4c628dc6e160f8fd2aff4c44275a958cdc405a1f707ede95a6f71ca659ab82ae
 proprietary/vendor/etc/gnss/scd.conf: 0d5353135565eae6bb0bfdcfd9d8a94630a957f01853338e0e2fd9792fd77f58
 proprietary/vendor/etc/init: dir
@@ -2533,6 +2534,7 @@ proprietary/vendor/etc/init/android.hardware.power.stats-service.pixel.rc: 45351
 proprietary/vendor/etc/init/android.hardware.rlsservice-service-google-apex.rc: ec9432601bb0070502fe6304aa4baedc2c8b889817190a23cc0cce629df5f524
 proprietary/vendor/etc/init/android.hardware.secure_element@1.2-uicc-service.rc: 06da12e1ec9dc295d9cc9fff595b9829eedd813125421461081781f271cba248
 proprietary/vendor/etc/init/android.hardware.security.keymint-service.citadel.rc: ca5dea5419dd9c1d9a6c5bc237f688679634f1d3de2859d10254fd4688966022
+proprietary/vendor/etc/init/android.hardware.usb-service.rc: 3ca9b1f364e1bb3b6b452cdee07b6ce7acf47d104b06b29c080df95a0cbcaea8
 proprietary/vendor/etc/init/android.hardware.usb.gadget-service.rc: 1727de04ca0a3d49a0824009b213346eb683b29dd45c8930a9321abf6fcfab40
 proprietary/vendor/etc/init/android.hardware.vibrator-service.cs40l25.rc: edbaa98159f4c504c4034b7ac354baa3aeee3044599401f7ba3eea28aa88cc77
 proprietary/vendor/etc/init/android.hardware.weaver-service.citadel.rc: fb4645a80de8c8898539899812afa54932c9961744a575eb7d718d47f855febb
@@ -2550,6 +2552,7 @@ proprietary/vendor/etc/init/hw: dir
 proprietary/vendor/etc/init/hw/init.gs101.rc: 608cf2930873fde874f9452793b0a398fe41ac31bc228429a00b9a86f9f487ec
 proprietary/vendor/etc/init/hw/init.gs101.storage.rc: 44565b0af9ad7324a5af004e5714d50b6fbb2c53e18b0cbd551561e33efe678f
 proprietary/vendor/etc/init/hw/init.gs101.usb.rc: faea21f1475786f0de3f6d699d0a415c7adbbe47489fedfdb4d2d78dd398d035
+proprietary/vendor/etc/init/hw/init.oriole.rc: 5e15d7f95efd268d1bb1d1dc017005a1512eb58941dbfe58ba1c9e34a8c35fd0
 proprietary/vendor/etc/init/hw/init.raviole.rc: 2e63b299dbf8f61e3677a9087a2de43a13deb65487510c802cc71ca8d3c852c2
 proprietary/vendor/etc/init/init.aoc.rc: fbb768e18e950c9b96f2aa5110cfb673898e2e7b154af197736ddbe45909b879
 proprietary/vendor/etc/init/init.camera.set-interrupts-ownership.rc: db7f011647b44e9bd7457ebff5d93c736755abe25e91514bebb79bc4d368fe31
@@ -2672,6 +2675,7 @@ proprietary/vendor/etc/thermal_info_config_WHI_A.json: 3c5cef729d6b297a49f74ba2e
 proprietary/vendor/etc/thermal_info_config_charge.json: cea1a21033ecf0bed4aa1c81a3c3a10355bd61091665dc4f230b6f28b67d4235
 proprietary/vendor/etc/touchflow.pb: 98895ec3f6d12a373937115514cb379b4ba8bf7f51d1905aaff1f7617e1dde63
 proprietary/vendor/etc/twoshay_config.json: 9bc4bc5dd65e60211ec210ca55fd00a1e6d3dd00afcd10376b21173c7a94aeef
+proprietary/vendor/etc/ueventd.rc: f5a6cdb725256c647e342c451c1747a4ebd33eaf216a81567d06b0731dfa7b0b
 proprietary/vendor/etc/vintf: dir
 proprietary/vendor/etc/vintf/manifest: dir
 proprietary/vendor/etc/vintf/manifest/android.hardware.authsecret-service.citadel.xml: 34a01fb3ccd9d20aba892081eee7b9fac02785401d7e53a34277289b794add71

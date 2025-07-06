@@ -420,12 +420,20 @@ async function copyVendorSkel(dirs: VendorDirectories, config: DeviceConfig) {
     force: false,
     preserveTimestamps: false,
     recursive: true,
-    filter(source: string): boolean {
+    async filter(source: string): Promise<boolean> {
       if (source.endsWith('.img')) {
         return false
       }
 
       if (source.startsWith(dirs.proprietary)) {
+        if ((await fs.stat(source)).isDirectory()) {
+          return true
+        }
+
+        if (source.endsWith('gnss/gps.xml') || source.endsWith('gnss/gps.cfg')) {
+          return true
+        }
+
         if (source.includes('/', dirs.proprietary.length + 1)) {
           // skip proprietary/*/* entries
           return false

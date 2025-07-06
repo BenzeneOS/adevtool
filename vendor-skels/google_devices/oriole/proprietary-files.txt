@@ -752,6 +752,7 @@ vendor/etc/display_colordata_dev_cal0.pb
 vendor/etc/display_golden_cal0.pb
 vendor/etc/displayconfig/display_id_4619827677550801152.xml
 vendor/etc/gnss/gps.cer
+vendor/etc/gnss/gps.xml
 vendor/etc/gnss/lhd.conf
 vendor/etc/gnss/scd.conf
 vendor/etc/init.common.cfg
@@ -771,6 +772,7 @@ vendor/etc/init/android.hardware.power.stats-service.pixel.rc
 vendor/etc/init/android.hardware.rlsservice-service-google-apex.rc
 vendor/etc/init/android.hardware.secure_element@1.2-uicc-service.rc
 vendor/etc/init/android.hardware.security.keymint-service.citadel.rc
+vendor/etc/init/android.hardware.usb-service.rc
 vendor/etc/init/android.hardware.usb.gadget-service.rc
 vendor/etc/init/android.hardware.vibrator-service.cs40l25.rc
 vendor/etc/init/android.hardware.weaver-service.citadel.rc
@@ -788,6 +790,7 @@ vendor/etc/init/google.hardware.media.c2@1.0-service.rc
 vendor/etc/init/hw/init.gs101.rc
 vendor/etc/init/hw/init.gs101.storage.rc
 vendor/etc/init/hw/init.gs101.usb.rc
+vendor/etc/init/hw/init.oriole.rc
 vendor/etc/init/hw/init.raviole.rc
 vendor/etc/init/init_dauntless.rc
 vendor/etc/init/init.aoc.rc
@@ -901,6 +904,7 @@ vendor/etc/thermal_info_config_WHI_A.json
 vendor/etc/thermal_info_config.json
 vendor/etc/touchflow.pb
 vendor/etc/twoshay_config.json
+vendor/etc/ueventd.rc
 vendor/etc/vintf/manifest/android.hardware.authsecret-service.citadel.xml
 vendor/etc/vintf/manifest/android.hardware.camera.provider@2.7-service-google-apex.xml
 vendor/etc/vintf/manifest/android.hardware.contexthub-service.generic.xml

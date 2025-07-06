@@ -1874,10 +1874,10 @@ overlays/framework-res__raven__auto_generated_rro_vendor/res/xml/irq_device_map.
 overlays/framework-res__raven__auto_generated_rro_vendor/res/xml/power_profile.xml: 6a4d1721591a858eeac821cb91f447a0cdf90986113668dbfd16ac709966a067
 overlays/overlay-modules.txt: 78458705efab74be16d908163f46caffe4800b638a9b885300d4e1f1303e538f
 proprietary: dir
-proprietary-files.txt: 5a9dccf5c7dc90f970caecea3e0435d4bc5176300f18235c908aacb685e8c021
+proprietary-files.txt: c5d836e4b6c20923b21d59e51f516ff04ef4440e86224648ac6cbec01e92f77e
 proprietary/Android.bp: f9e52a5b62717454af71a30b0bb15a09a239e9a2638adee903cd8a1f85a0f7d2
 proprietary/BoardConfigVendor.mk: ece7535697fb1c6dca51e7aeb951ccc7db10af96c75ee8058c6dea82fa013be6
-proprietary/device-vendor.mk: ea71b213b5754d7d6c6591470b17c981ce73d3553e7056392a396460d1e3145f
+proprietary/device-vendor.mk: a1e41e085866c2984986be2b865dbc44ede25b4b5b0efda929365a7d30b4764a
 proprietary/linker-config-adevtool.json: 1f9e401c56f463f32e208aee192aaca3bf367909f95df8da0f18a320cb551e54
 proprietary/product: dir
 proprietary/product/etc: dir
@@ -2687,6 +2687,7 @@ proprietary/vendor/etc/displayconfig: dir
 proprietary/vendor/etc/displayconfig/display_id_4619827677550801152.xml: 59ce53a97ed14ed011311d599a58fc68860901d9cdd7bd47bb8809468e4bc643
 proprietary/vendor/etc/gnss: dir
 proprietary/vendor/etc/gnss/gps.cer: c7085bbf9d2df23aa0c0b0f1ff755f3cacc8c23baaf2713e8044916d9e6e2eaf
+proprietary/vendor/etc/gnss/gps.xml: cb32d5152b329513de6f0448bb5a96d1bd35771b4e13876c8ece4c088e120e59
 proprietary/vendor/etc/gnss/lhd.conf: 4c628dc6e160f8fd2aff4c44275a958cdc405a1f707ede95a6f71ca659ab82ae
 proprietary/vendor/etc/gnss/scd.conf: 0d5353135565eae6bb0bfdcfd9d8a94630a957f01853338e0e2fd9792fd77f58
 proprietary/vendor/etc/init: dir
@@ -2708,6 +2709,7 @@ proprietary/vendor/etc/init/android.hardware.power.stats-service.pixel.rc: 45351
 proprietary/vendor/etc/init/android.hardware.rlsservice-service-google-apex.rc: ec9432601bb0070502fe6304aa4baedc2c8b889817190a23cc0cce629df5f524
 proprietary/vendor/etc/init/android.hardware.secure_element@1.2-uicc-service.rc: 06da12e1ec9dc295d9cc9fff595b9829eedd813125421461081781f271cba248
 proprietary/vendor/etc/init/android.hardware.security.keymint-service.citadel.rc: ca5dea5419dd9c1d9a6c5bc237f688679634f1d3de2859d10254fd4688966022
+proprietary/vendor/etc/init/android.hardware.usb-service.rc: 3ca9b1f364e1bb3b6b452cdee07b6ce7acf47d104b06b29c080df95a0cbcaea8
 proprietary/vendor/etc/init/android.hardware.usb.gadget-service.rc: 1727de04ca0a3d49a0824009b213346eb683b29dd45c8930a9321abf6fcfab40
 proprietary/vendor/etc/init/android.hardware.vibrator-service.cs40l25.rc: edbaa98159f4c504c4034b7ac354baa3aeee3044599401f7ba3eea28aa88cc77
 proprietary/vendor/etc/init/android.hardware.weaver-service.citadel.rc: fb4645a80de8c8898539899812afa54932c9961744a575eb7d718d47f855febb
@@ -2725,6 +2727,7 @@ proprietary/vendor/etc/init/hw: dir
 proprietary/vendor/etc/init/hw/init.gs101.rc: 608cf2930873fde874f9452793b0a398fe41ac31bc228429a00b9a86f9f487ec
 proprietary/vendor/etc/init/hw/init.gs101.storage.rc: 44565b0af9ad7324a5af004e5714d50b6fbb2c53e18b0cbd551561e33efe678f
 proprietary/vendor/etc/init/hw/init.gs101.usb.rc: faea21f1475786f0de3f6d699d0a415c7adbbe47489fedfdb4d2d78dd398d035
+proprietary/vendor/etc/init/hw/init.raven.rc: f21195381f97dfe0918bf73bcedf05a41c59b166625204d8eb7285c1d3fc80a7
 proprietary/vendor/etc/init/hw/init.raviole.rc: 2e63b299dbf8f61e3677a9087a2de43a13deb65487510c802cc71ca8d3c852c2
 proprietary/vendor/etc/init/init.aoc.rc: fbb768e18e950c9b96f2aa5110cfb673898e2e7b154af197736ddbe45909b879
 proprietary/vendor/etc/init/init.camera.set-interrupts-ownership.rc: db7f011647b44e9bd7457ebff5d93c736755abe25e91514bebb79bc4d368fe31
@@ -2844,6 +2847,7 @@ proprietary/vendor/etc/thermal_info_config.json: c1447b888c3a132026f0abfa39480fd
 proprietary/vendor/etc/thermal_info_config_charge.json: bc80942883a4bd32b6a471fee268ee0e9114127096493c31a68c338f8f3b76ba
 proprietary/vendor/etc/touchflow.pb: 80e51dafbd910a9ae27952b1f76e08fa4fc3c6aed53fb44f10e142e18c4ea271
 proprietary/vendor/etc/twoshay_config.json: f06365850ac55db0750594b59bd74e0eae840e75cc02b6602a7413511a80552e
+proprietary/vendor/etc/ueventd.rc: f5a6cdb725256c647e342c451c1747a4ebd33eaf216a81567d06b0731dfa7b0b
 proprietary/vendor/etc/uwb: dir
 proprietary/vendor/etc/uwb/UWB-calibration-am.conf: 03f0f55c1a26b5140127c014b164da1ebf7a1485c4a2d6eb6c32263a789ead6f
 proprietary/vendor/etc/uwb/UWB-calibration-at.conf: 0cbe927440222c143f7128a08f98260ba4fd0d358a957286e8833543921bbf2e

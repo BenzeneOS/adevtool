@@ -785,6 +785,7 @@ vendor/etc/displayconfig/display_layout_configuration.xml
 vendor/etc/fstab.modem
 vendor/etc/fstab.persist
 vendor/etc/gnss/gps.cer
+vendor/etc/gnss/gps.xml
 vendor/etc/gnss/lhd.conf
 vendor/etc/gnss/scd.conf
 vendor/etc/init.common.cfg
@@ -804,6 +805,7 @@ vendor/etc/init/android.hardware.power.stats-service.pixel.rc
 vendor/etc/init/android.hardware.rlsservice-service-google-apex.rc
 vendor/etc/init/android.hardware.secure_element@1.2-uicc-service.rc
 vendor/etc/init/android.hardware.security.keymint-service.citadel.rc
+vendor/etc/init/android.hardware.usb-service.rc
 vendor/etc/init/android.hardware.usb.gadget-service.rc
 vendor/etc/init/android.hardware.vibrator-service.cs40l26-private.rc
 vendor/etc/init/android.hardware.weaver-service.citadel.rc
@@ -817,6 +819,7 @@ vendor/etc/init/dmd.rc
 vendor/etc/init/Exynos_C2.rc
 vendor/etc/init/fingerprint-fpc42.rc
 vendor/etc/init/google.hardware.media.c2@1.0-service.rc
+vendor/etc/init/hw/init.felix.rc
 vendor/etc/init/hw/init.gs201.rc
 vendor/etc/init/hw/init.gs201.storage.rc
 vendor/etc/init/hw/init.gs201.usb.rc

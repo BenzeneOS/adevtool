@@ -1789,10 +1789,10 @@ overlays/framework-res__caiman__auto_generated_rro_vendor/res/xml/irq_device_map
 overlays/framework-res__caiman__auto_generated_rro_vendor/res/xml/power_profile.xml: 13b52557e0f2a9a1173acc82c436d3bae5e1b8d3c6881479bf5d309f861e061a
 overlays/overlay-modules.txt: b7f1e3e02651606faf9f6ee63079558e10c2e30bd7dc94e99daae8efdf1a656d
 proprietary: dir
-proprietary-files.txt: 83b85beac83ffdfa9e52146274379184dbb37c3b404f8b5feeb64ff28a0646d2
+proprietary-files.txt: c562c4ed0682ae346aa7d1465edd300eb494e65b46bfbe13217bd8b38594c4ae
 proprietary/Android.bp: fbb2bf19bda5c13f5b7bd84abdfd6d50a8b19c759f1df233c7097227ce1fb3e2
 proprietary/BoardConfigVendor.mk: c63cf6e44d4fab8017c322f78eed76123971289ab30c615cf8ae2cf099a65c73
-proprietary/device-vendor.mk: 707ac2f91bb5da4cb113ae4c1327c2566adb2f7ab58163642359ec928978ec9f
+proprietary/device-vendor.mk: 2d77d73db3eb18afbf161924996b2813dd900e2b9934567efb476c81f1389a16
 proprietary/linker-config-adevtool.json: 1f9e401c56f463f32e208aee192aaca3bf367909f95df8da0f18a320cb551e54
 proprietary/product: dir
 proprietary/product/etc: dir
@@ -2670,6 +2670,7 @@ proprietary/vendor/etc/fstab.modem: d849c67455c62427dabdd0a922673e9ff9bafcbb0d0d
 proprietary/vendor/etc/fstab.persist: 1437ffa6c212fd4e656c75bc7fe5add821a2c0f893cbf75ea0e051b2fff447f9
 proprietary/vendor/etc/gnss: dir
 proprietary/vendor/etc/gnss/ca.pem: 730fc9a6b512cf2782351b22f870f83cbf79bd51a1891f22edb3bb987a5f2422
+proprietary/vendor/etc/gnss/gps.cfg: 60c6ee09360dc8addc8e37a13d54bd853a6c3be578da0735e589f3067ce86137
 proprietary/vendor/etc/init: dir
 proprietary/vendor/etc/init.common.cfg: f4104573e29026ac335f03703e24242a304bd74cbb99f5d5848c9968901444fb
 proprietary/vendor/etc/init/Exynos_C2.rc: e1a67aedbf8524273e9b755409da6e4f5660631b59d6e502e35e4a778cb15422
@@ -2691,6 +2692,7 @@ proprietary/vendor/etc/init/android.hardware.power.stats-service.pixel.rc: 45351
 proprietary/vendor/etc/init/android.hardware.qorvo.uwb-service.rc: 4a11236162ef2abfe0be2f8540704e0ec442a604a7b864ee09fd3c05c3abd8c6
 proprietary/vendor/etc/init/android.hardware.secure_element-service.uicc.rc: b37ed8a4751930a8ed585f9d9675e1f7112378c8444758cf8f40a07609e9c128
 proprietary/vendor/etc/init/android.hardware.security.keymint-service.citadel.rc: ca5dea5419dd9c1d9a6c5bc237f688679634f1d3de2859d10254fd4688966022
+proprietary/vendor/etc/init/android.hardware.usb-service-i2c6.rc: 03e8ff3db007b92469dbcb072a447c6bbbe1e9bfebc8ec3647c170d6442d84c5
 proprietary/vendor/etc/init/android.hardware.usb.gadget-service.rc: 0524acb9f70ec26c4ea5a351d0bebedb1a40e0b1657117bae23b26a236a05eae
 proprietary/vendor/etc/init/android.hardware.vibrator-service.cs40l26.rc: dafe61e7f9499e862f40b1801dae51df536c1550ec91176ad760b28de6cbea48
 proprietary/vendor/etc/init/android.hardware.weaver-service.citadel.rc: fb4645a80de8c8898539899812afa54932c9961744a575eb7d718d47f855febb
@@ -2705,6 +2707,7 @@ proprietary/vendor/etc/init/dmd.rc: 7307371cdd7a222227132f874409b6a481ef78a8e71e
 proprietary/vendor/etc/init/dump_power.rc: 507130e26aa0053a1c2d2d3944e7203c6135728d6c205fdd04309748efa0f542
 proprietary/vendor/etc/init/google.hardware.media.c2@2.0-service.rc: 28aee5378fb43c7fae0089ab60aae0a46b7d26b7fed343ef300db3908953c4fa
 proprietary/vendor/etc/init/hw: dir
+proprietary/vendor/etc/init/hw/init.caiman.rc: 7616afebd368db998ea35549bcb1f3161c59bc9e3910eee1c0bf768c39c5f8cb
 proprietary/vendor/etc/init/hw/init.efs.rc: b2f8123e9807afc8ca0dd7fb0b0f5797b9bf14be24f48c393d78378eb8f5d44b
 proprietary/vendor/etc/init/hw/init.persist.rc: bdb0dc7f09e327a7caa204034a4a94b81efd8142a8b53242717fe8dc87007921
 proprietary/vendor/etc/init/hw/init.zuma.soc.rc: b1cc94a7ad401adf313e3e4a94caefa905cb9f4c45abe5a4a09c5e2a9cbfdd17

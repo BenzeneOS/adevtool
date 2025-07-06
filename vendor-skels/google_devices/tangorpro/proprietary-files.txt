@@ -216,6 +216,7 @@ vendor/etc/init/android.hardware.oemlock-service.citadel.rc
 vendor/etc/init/android.hardware.power.stats-service.pixel.rc
 vendor/etc/init/android.hardware.rlsservice-service-google-apex.rc
 vendor/etc/init/android.hardware.security.keymint-service.citadel.rc
+vendor/etc/init/android.hardware.usb-service.rc
 vendor/etc/init/android.hardware.usb.gadget-service.rc
 vendor/etc/init/android.hardware.weaver-service.citadel.rc
 vendor/etc/init/aocd.rc
@@ -228,6 +229,7 @@ vendor/etc/init/google.hardware.media.c2@1.0-service.rc
 vendor/etc/init/hw/init.gs201.rc
 vendor/etc/init/hw/init.gs201.storage.rc
 vendor/etc/init/hw/init.gs201.usb.rc
+vendor/etc/init/hw/init.tangorpro.rc
 vendor/etc/init/hwc3-pixel.rc
 vendor/etc/init/init_dauntless.rc
 vendor/etc/init/init.aoc.rc

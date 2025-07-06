@@ -775,6 +775,9 @@ vendor/etc/displayconfig/display_id_4619827677550801152.xml
 vendor/etc/fstab.modem
 vendor/etc/fstab.persist
 vendor/etc/gnss/gps.cer
+vendor/etc/gnss/gps.xml
+vendor/etc/gnss/lhd.conf
+vendor/etc/gnss/scd.conf
 vendor/etc/init.common.cfg
 vendor/etc/init/android.hardware.authsecret-service.citadel.rc
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
@@ -792,6 +795,7 @@ vendor/etc/init/android.hardware.power.stats-service.pixel.rc
 vendor/etc/init/android.hardware.rlsservice-service-google-apex.rc
 vendor/etc/init/android.hardware.secure_element@1.2-uicc-service.rc
 vendor/etc/init/android.hardware.security.keymint-service.citadel.rc
+vendor/etc/init/android.hardware.usb-service.rc
 vendor/etc/init/android.hardware.usb.gadget-service.rc
 vendor/etc/init/android.hardware.vibrator-service.cs40l26.rc
 vendor/etc/init/android.hardware.weaver-service.citadel.rc
@@ -808,6 +812,7 @@ vendor/etc/init/google.hardware.media.c2@1.0-service.rc
 vendor/etc/init/hw/init.gs201.rc
 vendor/etc/init/hw/init.gs201.storage.rc
 vendor/etc/init/hw/init.gs201.usb.rc
+vendor/etc/init/hw/init.lynx.rc
 vendor/etc/init/hwc3-pixel.rc
 vendor/etc/init/init_dauntless.rc
 vendor/etc/init/init.aoc.rc

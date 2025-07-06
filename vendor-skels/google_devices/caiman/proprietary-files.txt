@@ -820,6 +820,7 @@ vendor/etc/fstab.efs.from_data
 vendor/etc/fstab.modem
 vendor/etc/fstab.persist
 vendor/etc/gnss/ca.pem
+vendor/etc/gnss/gps.cfg
 vendor/etc/init.common.cfg
 vendor/etc/init/android.hardware.audio.service-aidl.aoc.rc
 vendor/etc/init/android.hardware.authsecret-service.citadel.rc
@@ -839,6 +840,7 @@ vendor/etc/init/android.hardware.power.stats-service.pixel.rc
 vendor/etc/init/android.hardware.qorvo.uwb-service.rc
 vendor/etc/init/android.hardware.secure_element-service.uicc.rc
 vendor/etc/init/android.hardware.security.keymint-service.citadel.rc
+vendor/etc/init/android.hardware.usb-service-i2c6.rc
 vendor/etc/init/android.hardware.usb.gadget-service.rc
 vendor/etc/init/android.hardware.vibrator-service.cs40l26.rc
 vendor/etc/init/android.hardware.weaver-service.citadel.rc
@@ -853,6 +855,7 @@ vendor/etc/init/dmd.rc
 vendor/etc/init/dump_power.rc
 vendor/etc/init/Exynos_C2.rc
 vendor/etc/init/google.hardware.media.c2@2.0-service.rc
+vendor/etc/init/hw/init.caiman.rc
 vendor/etc/init/hw/init.efs.rc
 vendor/etc/init/hw/init.persist.rc
 vendor/etc/init/hw/init.zuma.soc.rc

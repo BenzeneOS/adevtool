@@ -794,6 +794,7 @@ vendor/etc/fstab.efs.from_data
 vendor/etc/fstab.modem
 vendor/etc/fstab.persist
 vendor/etc/gnss/gps.cer
+vendor/etc/gnss/gps.xml
 vendor/etc/gnss/lhd.conf
 vendor/etc/gnss/scd.conf
 vendor/etc/init.common.cfg
@@ -814,6 +815,7 @@ vendor/etc/init/android.hardware.oemlock-service.citadel.rc
 vendor/etc/init/android.hardware.power.stats-service.pixel.rc
 vendor/etc/init/android.hardware.secure_element-service.uicc.rc
 vendor/etc/init/android.hardware.security.keymint-service.citadel.rc
+vendor/etc/init/android.hardware.usb-service.rc
 vendor/etc/init/android.hardware.usb.gadget-service.rc
 vendor/etc/init/android.hardware.vibrator-service.cs40l26.rc
 vendor/etc/init/android.hardware.weaver-service.citadel.rc
@@ -827,6 +829,7 @@ vendor/etc/init/dmd.rc
 vendor/etc/init/dump_power.rc
 vendor/etc/init/Exynos_C2.rc
 vendor/etc/init/google.hardware.media.c2@2.0-service.rc
+vendor/etc/init/hw/init.shiba.rc
 vendor/etc/init/hw/init.zuma.rc
 vendor/etc/init/hw/init.zuma.storage.rc
 vendor/etc/init/hw/init.zuma.usb.rc

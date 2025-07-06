@@ -1608,10 +1608,10 @@ overlays/framework-res__lynx__auto_generated_rro_vendor/res/xml/irq_device_map.x
 overlays/framework-res__lynx__auto_generated_rro_vendor/res/xml/power_profile.xml: e84d3cbe85ab75aa817614bfe3feb381596f06bb8f2d78a2dd2fb75396f5dd5d
 overlays/overlay-modules.txt: e7b405607e7655aadeec561e7c338f6c1d2c42000f8d3062cbe0594b41929f3d
 proprietary: dir
-proprietary-files.txt: 1d7962ead63236f1e631165a74c441832b00515e3cb369147190c5152739e3f1
+proprietary-files.txt: d9f97b7b568894592916bbe099a0a26d224023e022b203ec73ac1ca08820d64d
 proprietary/Android.bp: 384d2d737025d99020fcab9c5bdcfb04dfc3f1240232cf07621fe48768b029e7
 proprietary/BoardConfigVendor.mk: 93b05e3e531b8e0c435fe4a1a1a837b85ed29d529a544805a4a8187982842110
-proprietary/device-vendor.mk: 1975646f238e4e9bf0616946b0ffbefacf2e6720390a31aa93e65b00bf9d452c
+proprietary/device-vendor.mk: f49c7abd81269f49b9851583ddb270651e0d830b2088677ad288cb6f12ebb0b0
 proprietary/linker-config-adevtool.json: 1f9e401c56f463f32e208aee192aaca3bf367909f95df8da0f18a320cb551e54
 proprietary/product: dir
 proprietary/product/etc: dir
@@ -2436,6 +2436,9 @@ proprietary/vendor/etc/fstab.modem: ea2a09fb83d8597d977215caa1dc6d34a801bf61b02f
 proprietary/vendor/etc/fstab.persist: 1af4f80fca67234a1a22bfad7182d9185093b361aa7a6ce4842e2de7e62d8b30
 proprietary/vendor/etc/gnss: dir
 proprietary/vendor/etc/gnss/gps.cer: c7085bbf9d2df23aa0c0b0f1ff755f3cacc8c23baaf2713e8044916d9e6e2eaf
+proprietary/vendor/etc/gnss/gps.xml: 086a544cb56849f748cb0203ab97dac848670b58897b973e82d8f416c69dfba1
+proprietary/vendor/etc/gnss/lhd.conf: 4c628dc6e160f8fd2aff4c44275a958cdc405a1f707ede95a6f71ca659ab82ae
+proprietary/vendor/etc/gnss/scd.conf: 0d5353135565eae6bb0bfdcfd9d8a94630a957f01853338e0e2fd9792fd77f58
 proprietary/vendor/etc/init: dir
 proprietary/vendor/etc/init.common.cfg: f4104573e29026ac335f03703e24242a304bd74cbb99f5d5848c9968901444fb
 proprietary/vendor/etc/init/Exynos_C2.rc: e1a67aedbf8524273e9b755409da6e4f5660631b59d6e502e35e4a778cb15422
@@ -2455,6 +2458,7 @@ proprietary/vendor/etc/init/android.hardware.power.stats-service.pixel.rc: 45351
 proprietary/vendor/etc/init/android.hardware.rlsservice-service-google-apex.rc: ec9432601bb0070502fe6304aa4baedc2c8b889817190a23cc0cce629df5f524
 proprietary/vendor/etc/init/android.hardware.secure_element@1.2-uicc-service.rc: 06da12e1ec9dc295d9cc9fff595b9829eedd813125421461081781f271cba248
 proprietary/vendor/etc/init/android.hardware.security.keymint-service.citadel.rc: ca5dea5419dd9c1d9a6c5bc237f688679634f1d3de2859d10254fd4688966022
+proprietary/vendor/etc/init/android.hardware.usb-service.rc: 75576c5db8d17e96a82b1d19209bd8a3ee71a42ee0d4fd49f93e475d6bc354ea
 proprietary/vendor/etc/init/android.hardware.usb.gadget-service.rc: c28e810d4752bcd33a5ad5173ef30ef8f41fa8aa6a04944801aebe5fa414c9a2
 proprietary/vendor/etc/init/android.hardware.vibrator-service.cs40l26.rc: dafe61e7f9499e862f40b1801dae51df536c1550ec91176ad760b28de6cbea48
 proprietary/vendor/etc/init/android.hardware.weaver-service.citadel.rc: fb4645a80de8c8898539899812afa54932c9961744a575eb7d718d47f855febb
@@ -2471,6 +2475,7 @@ proprietary/vendor/etc/init/hw: dir
 proprietary/vendor/etc/init/hw/init.gs201.rc: 6bc5dd6de4e07d1f049648cb1fc1d5897734dad3cd9bcc6ac7334abf47061143
 proprietary/vendor/etc/init/hw/init.gs201.storage.rc: 44565b0af9ad7324a5af004e5714d50b6fbb2c53e18b0cbd551561e33efe678f
 proprietary/vendor/etc/init/hw/init.gs201.usb.rc: 403c237812bf6ce9f79b5cf906cc5c0f02040154c8507a503420cc0244b03aa6
+proprietary/vendor/etc/init/hw/init.lynx.rc: 37f229acbe282c1fc0493eff2a88c7eb99e6abd9b21173f6710401936330c2ec
 proprietary/vendor/etc/init/hwc3-pixel.rc: 36eb37af0b1ab6f11a624a636bd92fc8ab7778f5d84405d45894cf518d374632
 proprietary/vendor/etc/init/init.aoc.rc: fbb768e18e950c9b96f2aa5110cfb673898e2e7b154af197736ddbe45909b879
 proprietary/vendor/etc/init/init.camera.set-interrupts-ownership.rc: db7f011647b44e9bd7457ebff5d93c736755abe25e91514bebb79bc4d368fe31
