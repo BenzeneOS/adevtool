@@ -64,6 +64,10 @@ async function maybePatch(entry: BlobEntry, srcPath: string) {
     switch (entry.path) {
       case 'etc/gnss/ca.pem':
         return patchGnssCert(await readFile(srcPath))
+      case 'etc/gnss/gps.xml':
+        return patchGpsXml(await readFile(srcPath))
+      case 'etc/gnss/gps.cfg':
+        return patchGpsCfg(await readFile(srcPath))
     }
   }
   return undefined
@@ -119,4 +123,31 @@ function patchGnssCert(orig: string) {
     '/q4AaOeMSQ+2b1tbFfLn\n' +
     '-----END CERTIFICATE-----\n'
   )
+}
+
+function patchGpsXml(orig: string) {
+  return replaceLines(orig, line => {
+    if (line.startsWith('       SuplSslMethod="')) {
+      return '       SuplSslMethod="TLSv1_2"'
+    } else {
+      return line
+    }
+  })
+}
+
+function patchGpsCfg(orig: string) {
+  return replaceLines(orig, line => {
+    if (line.startsWith('SUPL_SSL_METHOD=')) {
+      return 'SUPL_SSL_METHOD=TLSv1_2'
+    } else {
+      return line
+    }
+  })
+}
+
+function replaceLines(multiLine: string, callbackFn: (value: string) => string) {
+  return multiLine
+    .split('\n')
+    .map(line => callbackFn(line))
+    .join('\n')
 }

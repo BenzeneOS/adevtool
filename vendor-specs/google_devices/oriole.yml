@@ -2512,7 +2512,7 @@ proprietary/vendor/etc/displayconfig: dir
 proprietary/vendor/etc/displayconfig/display_id_4619827677550801152.xml: ee1075086533bea4336d848a30ce387db960b260340ef048b10c5ae4220eb5c5
 proprietary/vendor/etc/gnss: dir
 proprietary/vendor/etc/gnss/gps.cer: c7085bbf9d2df23aa0c0b0f1ff755f3cacc8c23baaf2713e8044916d9e6e2eaf
-proprietary/vendor/etc/gnss/gps.xml: df6ed4155d02e8d64dbbdf7b59f109d60ad29ea2c96b65c01508bfaa2b8bad04
+proprietary/vendor/etc/gnss/gps.xml: 29f7e388d76bf75214d58fce266f1c5f6393c692e875268b0bc890e912fc014d
 proprietary/vendor/etc/gnss/lhd.conf: 4c628dc6e160f8fd2aff4c44275a958cdc405a1f707ede95a6f71ca659ab82ae
 proprietary/vendor/etc/gnss/scd.conf: 0d5353135565eae6bb0bfdcfd9d8a94630a957f01853338e0e2fd9792fd77f58
 proprietary/vendor/etc/init: dir

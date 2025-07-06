@@ -3517,7 +3517,7 @@ proprietary/vendor/etc/fstab.modem: ea2a09fb83d8597d977215caa1dc6d34a801bf61b02f
 proprietary/vendor/etc/fstab.persist: 1af4f80fca67234a1a22bfad7182d9185093b361aa7a6ce4842e2de7e62d8b30
 proprietary/vendor/etc/gnss: dir
 proprietary/vendor/etc/gnss/gps.cer: c7085bbf9d2df23aa0c0b0f1ff755f3cacc8c23baaf2713e8044916d9e6e2eaf
-proprietary/vendor/etc/gnss/gps.xml: 777375e153bfd817ddee293d13f44e73ab78baf61bc55144ccee93749e7a12bc
+proprietary/vendor/etc/gnss/gps.xml: ea5dd35c9fa0303b5e305e1ffddcc643c392b5892cfdcc729a18ff9739771968
 proprietary/vendor/etc/gnss/lhd.conf: 4c628dc6e160f8fd2aff4c44275a958cdc405a1f707ede95a6f71ca659ab82ae
 proprietary/vendor/etc/gnss/scd.conf: 0d5353135565eae6bb0bfdcfd9d8a94630a957f01853338e0e2fd9792fd77f58
 proprietary/vendor/etc/init: dir
