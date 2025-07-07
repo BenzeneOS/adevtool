@@ -177,6 +177,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.ril.enable_set_screen_state=1 \
     persist.vendor.radio.config.carrier_config_dir=/vendor/firmware/carrierconfig \
     telephony.active_modems.max_count=2 \
+    persist.vendor.usb.displayport.enabled=1 \
     persist.vendor.verbose_logging_enabled=false \
     persist.vendor.modem.extensive_logging_enabled=false \
     ro.vendor.sys.modem.logging.loc=/data/vendor/slog \

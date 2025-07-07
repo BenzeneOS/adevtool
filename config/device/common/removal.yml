@@ -12,7 +12,6 @@ filters:
       # intentionally removed, see device/google/zuma commit
       - ro.arm64.memtag.bootctl_supported
       - persist.sys.sf.native_mode
-      - persist.vendor.usb.displayport.enabled
     prefix:
       # these props disable memory tagging for some of system processes
       - persist.arm64.memtag.app.
