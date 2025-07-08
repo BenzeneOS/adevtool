@@ -1,5 +1,6 @@
 device:
   name: raven
+  build_id: BP2A.250605.031.A2
 
 platform:
   product_makefile: device/google/raviole/aosp_raven.mk

@@ -17,6 +17,10 @@ tegu BP2A.250605.031.A2:
   desc: Jun 2025
   factory: aecd8a3b8cb97e1baacdf6b36d3dd053df4b0be5c0f3df31347b863304e5944b tegu-bp2a.250605.031.a2-factory-aecd8a3b.zip
   ota: ec03acfb955eaa7ee4fea409a4a7a28b01c93647f60e34bc75a28ecf196319b4 tegu-ota-bp2a.250605.031.a2-ec03acfb.zip
+tegu BP2A.250705.008:
+  desc: Jul 2025
+  factory: b1e7ec820134668cbe6040e294b01b219ccd6fe88780118788f7f82024d6eb3f tegu-bp2a.250705.008-factory-b1e7ec82.zip
+  ota: 84cbc47cd3d996614a478d85e7650e62ac821a8b618cb0b64b2afc0ce61a29a8 tegu-ota-bp2a.250705.008-84cbc47c.zip
 comet AD1A.240530.030:
   desc: Aug 2024
   factory: 77dca5840fa82483f836934ca634ee332728009444e9d2dc125a251bb9ac869e comet-ad1a.240530.030-factory-77dca584.zip
@@ -151,6 +155,10 @@ comet BP2A.250605.031.A3:
   desc: Jun 2025
   factory: 1f6bd727030e18daf381e3b759d75622ba4cae218b4c5cab084e213cf1b88fee comet-bp2a.250605.031.a3-factory-1f6bd727.zip
   ota: b6c67e0a96df3ef2bf75ac8eba49cc50c5aae500f84583221881a665b429a0ec comet-ota-bp2a.250605.031.a3-b6c67e0a.zip
+comet BP2A.250705.008:
+  desc: Jul 2025
+  factory: 3f997228407ad0c8b1d005374f6495254f8098698587b0859a843f8e93a8a203 comet-bp2a.250705.008-factory-3f997228.zip
+  ota: 2e87ff3b94e23785aed71f0135b0aaa616408d5a7447fc1a8a156cfbca66dbbf comet-ota-bp2a.250705.008-2e87ff3b.zip
 komodo AD1A.240530.030:
   desc: Aug 2024
   factory: fb963bd65cdf9f933692fda3937144f400bde59cfbd74dcaf76f003911480711 komodo-ad1a.240530.030-factory-fb963bd6.zip
@@ -290,6 +298,10 @@ komodo BP2A.250605.031.A2:
   desc: Jun 2025
   factory: 4cd869ece3656228c2a34566534896fc5b1e5dba792341350a09dcc80e4ec19f komodo-bp2a.250605.031.a2-factory-4cd869ec.zip
   ota: 60eaa0edceab3cf39868b58c291f13b1027b10a04c06186b6782cf39b278850f komodo-ota-bp2a.250605.031.a2-60eaa0ed.zip
+komodo BP2A.250705.008:
+  desc: Jul 2025
+  factory: 696ca9b75993a635d0e4695dc5302ea8fa778b2d7dee87153b97333b8f714036 komodo-bp2a.250705.008-factory-696ca9b7.zip
+  ota: 13d920f860eba7f27f8da63c47acd082466408114ef663e996e19c9e3d339fa9 komodo-ota-bp2a.250705.008-13d920f8.zip
 caiman AD1A.240530.030:
   desc: Aug 2024
   factory: 5e2727b97027f14ff26f89b68ce04559c0caf43ce8feda39e6ca3e5925c66309 caiman-ad1a.240530.030-factory-5e2727b9.zip
@@ -429,6 +441,10 @@ caiman BP2A.250605.031.A2:
   desc: Jun 2025
   factory: ff28182737365d31b5a40033c943ad820507fa7e68a7cd8735cd220cdf78bb0e caiman-bp2a.250605.031.a2-factory-ff281827.zip
   ota: 3748a4e149c9691eec8c0a2cdb16b99c2cc252d967878c9c354ed805ca072a1c caiman-ota-bp2a.250605.031.a2-3748a4e1.zip
+caiman BP2A.250705.008:
+  desc: Jul 2025
+  factory: fa2e0329f8c4b3730e74131d81b8a0288f061d39f18961c2252ccc14ed5dbc1c caiman-bp2a.250705.008-factory-fa2e0329.zip
+  ota: 522a7e25df3b894a52cad4cb85d92652050b3bdc817dc4b189e8a18639b60682 caiman-ota-bp2a.250705.008-522a7e25.zip
 tokay AD1A.240530.030.A1:
   desc: Aug 2024, India only
   factory: c00748c817eba73c1f70695132ae71a9db6c4d0adb486ba1827a7d231378863d tokay-ad1a.240530.030.a1-factory-c00748c8.zip
@@ -573,6 +589,10 @@ tokay BP2A.250605.031.A2:
   desc: Jun 2025
   factory: df553d50ff121efc328affcfccb520a17ba4fd5b5d8321e222e17e13a3e10b91 tokay-bp2a.250605.031.a2-factory-df553d50.zip
   ota: 7cccc3b7c2354bf1c5943ebda78ecb7beedf5f5bdf9fd0c5e1e9f75752313f61 tokay-ota-bp2a.250605.031.a2-7cccc3b7.zip
+tokay BP2A.250705.008:
+  desc: Jul 2025
+  factory: 1c9faf78f5542780ac46da646619ee494528e1d276477252dd4eb668691c3eaf tokay-bp2a.250705.008-factory-1c9faf78.zip
+  ota: 576f0b41ddfe705b908effc6bd97c4a7525479a21ab953ece392d4fe6d991eba tokay-ota-bp2a.250705.008-576f0b41.zip
 akita UD2A.231203.054:
   desc: May 2024, EMEA, APAC, JP
   factory: b3a902d4ece1f67ab85ac165d58c543d48dd3af1cc822944636d4f96e12df059 akita-ud2a.231203.054-factory-b3a902d4.zip
@@ -732,6 +752,10 @@ akita BP2A.250605.031.A2:
   desc: Jun 2025
   factory: ee6b1148bd59c827863c23b559fe51368acc4e709eb9df529d0fbef91f49ddd7 akita-bp2a.250605.031.a2-factory-ee6b1148.zip
   ota: 608042aae37cda79dec6bf0efe299da0ca015aeb69384d1da8190cc37b7f6a48 akita-ota-bp2a.250605.031.a2-608042aa.zip
+akita BP2A.250705.008:
+  desc: Jul 2025
+  factory: 80be6c762c41f3c8c92d55486370f8367fdb2a292440e2ac6fca73ba9bd2d883 akita-bp2a.250705.008-factory-80be6c76.zip
+  ota: 55461d02aa4b81e416bb985e20169f02bbb67eb3c085c4ea0146032aaafa262a akita-ota-bp2a.250705.008-55461d02.zip
 husky UD1A.230803.022.A3:
   desc: Sep 2023, Verizon
   factory: a95417f6ace90bb3ed39f86966bf9f32aad0505c29d5698dc19dddb9739f37bc husky-ud1a.230803.022.a3-factory-a95417f6.zip
@@ -951,6 +975,10 @@ husky BP2A.250605.031.A2:
   desc: Jun 2025
   factory: bc4121464e7caca3ac375164ac808825113ed31ae55141d681cc33ab4cfb6fc4 husky-bp2a.250605.031.a2-factory-bc412146.zip
   ota: 73a4023f1dd2814dc75f9db8959face06b59d475832d8a09a42a8fd526a30ad1 husky-ota-bp2a.250605.031.a2-73a4023f.zip
+husky BP2A.250705.008:
+  desc: Jul 2025
+  factory: 2790a053fd65964f0e8129655e520f29d22280ab768c1f516f3385add5e866b3 husky-bp2a.250705.008-factory-2790a053.zip
+  ota: 6d996443bba9e7580cdf96015f65decd41388d6c4a985519e7f62697ed393a58 husky-ota-bp2a.250705.008-6d996443.zip
 shiba UD1A.230803.022.A5:
   desc: Sep 2023, US Non Verizon/AT&T/T-Mobile carriers/CA/TW
   factory: 85c06d1dd95b2e157ea1ba3c78fc2df8dabeb42dcd58c9cdb6f015e2c0c7b455 shiba-ud1a.230803.022.a5-factory-85c06d1d.zip
@@ -1170,6 +1198,10 @@ shiba BP2A.250605.031.A2:
   desc: Jun 2025
   factory: 4453bca2af28baf052b7c55046e255d45b3e70e5ab368c7b92d814abfc616679 shiba-bp2a.250605.031.a2-factory-4453bca2.zip
   ota: 410a5c373b4c4552663db2634c96d857f91b4522ad4d8d9d395f024d341da6f7 shiba-ota-bp2a.250605.031.a2-410a5c37.zip
+shiba BP2A.250705.008:
+  desc: Jul 2025
+  factory: fea65c9102082a5a5e6248e4cfc94d714a2239c91b376c093ef8a4e53d769d73 shiba-bp2a.250705.008-factory-fea65c91.zip
+  ota: ea68f16bcbb64d0888d71360a233cbb541877a351c08520bbfd681518689a924 shiba-ota-bp2a.250705.008-ea68f16b.zip
 felix TD3A.230203.070.A1:
   desc: Jun 2023
   factory: d935f0196d7959c916e4f42e25d92e05cd7d2ca0c01080ee46fc35fa996e302b felix-td3a.230203.070.a1-factory-d935f019.zip
@@ -1414,6 +1446,10 @@ felix BP2A.250605.031.A2:
   desc: Jun 2025
   factory: 49bbb5b560e6a6775ef389a43e495635fb8fa82263ba8ac375c802b6222c9d08 felix-bp2a.250605.031.a2-factory-49bbb5b5.zip
   ota: 7988b295cfa8bd1cda6f7158245e6771776c7c553f3c85f7046196753d14ccb2 felix-ota-bp2a.250605.031.a2-7988b295.zip
+felix BP2A.250705.008:
+  desc: Jul 2025
+  factory: 03039332b58f26ee84862f68a3fc4cd951d3a0d048974f75dd3863af4ba95390 felix-bp2a.250705.008-factory-03039332.zip
+  ota: 14c1da2707c60546fd05a816b1da4b9148bd1a7bcd1ae2921173f8b68bba1b24 felix-ota-bp2a.250705.008-14c1da27.zip
 tangorpro TD2A.230203.028:
   desc: Jun 2023
   factory: 55b7fab7178e0cc88a70d432d73edf498ace0277d81ee34867aeaa943b46a7fa tangorpro-td2a.230203.028-factory-55b7fab7.zip
@@ -1543,6 +1579,10 @@ tangorpro BP2A.250605.031.A2:
   desc: Jun 2025
   factory: f6a2a3280fc3069c8edc5c8033e2ada89bee7d67459521bd90860afcdf3ef940 tangorpro-bp2a.250605.031.a2-factory-f6a2a328.zip
   ota: f2142d82d447ef2014027ac004a5ec7aa01363579194b249a9d01d19e619bd33 tangorpro-ota-bp2a.250605.031.a2-f2142d82.zip
+tangorpro BP2A.250705.008:
+  desc: Jul 2025
+  factory: 8cca89b5092744d7e732f87198fae10639223328d3af9b90cee82dbcf11e3e5b tangorpro-bp2a.250705.008-factory-8cca89b5.zip
+  ota: ee18162d003b37bac71dee8b3d23a46e1f89d76481d99b9c31fe8e29f25b2e21 tangorpro-ota-bp2a.250705.008-ee18162d.zip
 lynx TD4A.221205.042:
   desc: May 2023
   factory: f94007e2844eabb0b4f2203f31776cc9f907021458a258f69f57eed4ef3d24f2 lynx-td4a.221205.042-factory-f94007e2.zip
@@ -1782,6 +1822,10 @@ lynx BP2A.250605.031.A2:
   desc: Jun 2025
   factory: 4246da73f42a97389351bd67dd0a766d7310ee10958e3569fc574ad48e86c81b lynx-bp2a.250605.031.a2-factory-4246da73.zip
   ota: 8c4a66d1b4c2516a87763090d39221b2479f39b2f603be5f1cab7dd6eb779087 lynx-ota-bp2a.250605.031.a2-8c4a66d1.zip
+lynx BP2A.250705.008:
+  desc: Jul 2025
+  factory: 606312e52958a3ee8ab0abf8cb0e0a596e9582ec834688421a528964716990e2 lynx-bp2a.250705.008-factory-606312e5.zip
+  ota: 8f51a02f43f2d34497624bdf6f64cebb1f11e64930a670d64dfc68a2a103057c lynx-ota-bp2a.250705.008-8f51a02f.zip
 cheetah TD1A.220804.009.A2:
   desc: Oct 2022
   factory: 8e7393e1bd7f86d76d75cdea988d5e4ebfded3a50fac26d774b9eb07152c1ed5 cheetah-td1a.220804.009.a2-factory-8e7393e1.zip
@@ -2086,6 +2130,10 @@ cheetah BP2A.250605.031.A2:
   desc: Jun 2025
   factory: f5e122c5f8600b34fb825eeedb3ced347e0f07c6de589ca7baab1a1d23f1628b cheetah-bp2a.250605.031.a2-factory-f5e122c5.zip
   ota: 0662933e3e2e52701eaa4844646336fc79fa3dd0df1a078b297ec97cfea824fe cheetah-ota-bp2a.250605.031.a2-0662933e.zip
+cheetah BP2A.250705.008:
+  desc: Jul 2025
+  factory: 49ac9bc6b7a49688430d2df361c96f23b85577d25dc0f40c23dbc615212d3eaa cheetah-bp2a.250705.008-factory-49ac9bc6.zip
+  ota: 01f83681339a20d40165a35d7eb53568a4125924ae96e383469eeb6160ef6d17 cheetah-ota-bp2a.250705.008-01f83681.zip
 panther TD1A.220804.009.A2:
   desc: Oct 2022
   factory: 336ba5c1728987d0dea8ce764e342b1d3c5cf30b8c3ea1dd5c405c492f66677d panther-td1a.220804.009.a2-factory-336ba5c1.zip
@@ -2390,305 +2438,14 @@ panther BP2A.250605.031.A2:
   desc: Jun 2025
   factory: 53161cbbb74752a913d89137eb7d238a168905338356712bd5fddffdf60041f2 panther-bp2a.250605.031.a2-factory-53161cbb.zip
   ota: e04c4c91ce0606a260e07415e0b0de97d60f07672df4084e89e9ea27b545cbcd panther-ota-bp2a.250605.031.a2-e04c4c91.zip
-bluejay SD2A.220601.001.A1:
-  desc: Jun 2022, JP carriers
-  factory: 16c3fe1cce5be6bd26db4a87a40c8ebe0b0f520efe5fa79602e809d91d89c40b bluejay-sd2a.220601.001.a1-factory-16c3fe1c.zip
-  ota: bacd4108518f9e6b0908030bca1f7410b71526854351c41f918078607d4b16c3 bluejay-ota-sd2a.220601.001.a1-bacd4108.zip
-  vendor/google_devices: 77d5f05efb753517b717cad3226447339d7a4dff51eb0a47e4293644d793a14d google_devices-bluejay-sd2a.220601.001.a1-0145bbe6.tgz
-bluejay SD2A.220601.004:
-  desc: Jun 2022, Verizon, Verizon MVNOs
-  factory: 5ecedd46a2c981f40b940366fcf1b810ede60d3c81cd581243cb38f255d52f6f bluejay-sd2a.220601.004-factory-5ecedd46.zip
-  ota: a53caf37f76731525ed1d809d48950d585713bb0475a027fe78b4e12fd7b0f53 bluejay-ota-sd2a.220601.004-a53caf37.zip
-  vendor/google_devices: dbf707f8c238fa6b5d7dc6a06e363a04a4d7d520494379effd518c27cd4a775a google_devices-bluejay-sd2a.220601.004-7c778415.tgz
-bluejay SD2A.220601.002:
-  desc: Jun 2022, AT&T, T-Mobile
-  factory: 928c0c46e1fc88294b3933354667eb24bc41cec81530eb99c97083e7e64950f2 bluejay-sd2a.220601.002-factory-928c0c46.zip
-  ota: 344f1ec90934dd99354b5b424038be78d82de81db9df01bb2d120e758018fc36 bluejay-ota-sd2a.220601.002-344f1ec9.zip
-  vendor/google_devices: 2b9b86df876a33720cf54dd5442cf83d5b4ad74d13cb87522c4e137148379634 google_devices-bluejay-sd2a.220601.002-1e7dd329.tgz
-bluejay SD2A.220601.003:
-  desc: Jun 2022
-  factory: 96c1bea8fd18761238007ad4d36ba66649b97548b6722b69c35bbf4fc643f31f bluejay-sd2a.220601.003-factory-96c1bea8.zip
-  ota: ddfde1f7edcdbb2b3de41d24f6c3f31587f836f387cab4cc6d16adee32bcab8a bluejay-ota-sd2a.220601.003-ddfde1f7.zip
-  vendor/google_devices: c4c27b46a7097570dac54891c8f72d10fd701e2658036f3555730f7296e9e5c1 google_devices-bluejay-sd2a.220601.003-94980bd4.tgz
-bluejay SD2A.220601.002.B1:
-  desc: Jul 2022, T-Mobile
-  factory: 5757bf741afb80824900e9a676a9fc88fa6b912adc5d93c4f9b7567fff978da3 bluejay-sd2a.220601.002.b1-factory-5757bf74.zip
-  ota: 4af4ae37491c9349af5500a272dd3d1b256d738cc8dbc39411ea098c10f4b10d bluejay-ota-sd2a.220601.002.b1-4af4ae37.zip
-  vendor/google_devices: b0ec56284375fd15e3a9f7ef7afd49291cd7be7f9824ac14d50e967f4c42700d google_devices-bluejay-sd2a.220601.002.b1-11de82cc.tgz
-bluejay SD2A.220601.001.B1:
-  desc: Jul 2022, JP carriers
-  factory: af00d48d6ac9d5abe5534db023837ef35e3034936b9bc5b7a7487e4a9de3424b bluejay-sd2a.220601.001.b1-factory-af00d48d.zip
-  ota: e51cd08a966bbf90b3b8eabd5cddd08cfb3a2b6e59f91f6cc0b19a71b9412c44 bluejay-ota-sd2a.220601.001.b1-e51cd08a.zip
-  vendor/google_devices: 843fdc534aff6e2037de5a149f5e7bddcb34b637c34f3b36ab8dda48b0ad90d4 google_devices-bluejay-sd2a.220601.001.b1-5866a9af.tgz
-bluejay SD2A.220601.003.B1:
-  desc: Jul 2022
-  factory: 793243360b349c377124e25193f757f16c5de731d2ddb9209eec3998e412eaf8 bluejay-sd2a.220601.003.b1-factory-79324336.zip
-  ota: 8b8a81b7496152c6c02e7f79f7eae60be0843785b042963a3fb9e329f517c1b8 bluejay-ota-sd2a.220601.003.b1-8b8a81b7.zip
-  vendor/google_devices: 4518135b14bdb71f48520af1dd32fdafbb8eb683b35042e4037a6c2c401c56ce google_devices-bluejay-sd2a.220601.003.b1-94aa047e.tgz
-bluejay SD2A.220601.004.B2:
-  desc: Jul 2022, Verizon, Verizon MVNOs
-  factory: beedcf397597780963257c1aaf241f3b1814b6bae42008bb396cfb9e024c9476 bluejay-sd2a.220601.004.b2-factory-beedcf39.zip
-  ota: 0fe6dde8e0c6242bfad21b364a11fdf231a745eb918fb79b59b2ca627370c3b4 bluejay-ota-sd2a.220601.004.b2-0fe6dde8.zip
-  vendor/google_devices: e7443b666e390e3ae7b874e69a57f552b09ca6214a45205a057dab1ddf611385 google_devices-bluejay-sd2a.220601.004.b2-13292478.tgz
-bluejay TP1A.220624.021.A1:
-  desc: Aug 2022
-  factory: 4a2a794fabb12b265e1aeeba4bcd07fce77b5e8427a73b1837caf9f1257f0170 bluejay-tp1a.220624.021.a1-factory-4a2a794f.zip
-  ota: 10f43b8bf31a3674756305c21d62e767fde23d278a3f19559fd2d6fba47a6509 bluejay-ota-tp1a.220624.021.a1-10f43b8b.zip
-  vendor/google_devices: c60a6d735dfd093ab8be90149601aea07c16fcf5d594578382c515a2d5c07bf3 google_devices-bluejay-tp1a.220624.021.a1-f3edb59a.tgz
-bluejay TP1A.220905.004.A2:
-  desc: Sep 2022
-  factory: bcfb549e7ad1bbaa208aaea9c248635023296a8b2e0b1dca3b36cc7912b7b18c bluejay-tp1a.220905.004.a2-factory-bcfb549e.zip
-  ota: 1e3ce69cc51d96bc25a61e204735e6d669e729c2866354a8ac31a8a3810fc8a4 bluejay-ota-tp1a.220905.004.a2-1e3ce69c.zip
-  vendor/google_devices: 9f544fbfa66de9c85c1e1dd40cdac06857e00ab64d15d4c5c63a22b4d0a7009f google_devices-bluejay-tp1a.220905.004.a2-0c4b242a.tgz
-bluejay TP1A.221005.003:
-  desc: Oct 2022
-  factory: 79e6bc1a7b7084ae2e3a8d4eddd49ac943476ad55f0254a9902658432576264c bluejay-tp1a.221005.003-factory-79e6bc1a.zip
-  ota: 574bf4cf0ad1f1cb563592a9dfa76876a70f9e5aa4c3e0afea4dcbbfe55d7320 bluejay-ota-tp1a.221005.003-574bf4cf.zip
-  vendor/google_devices: 08b9d25df8c95939327fac58a70448f5dc9f2ef1d5f3692fb8748c2f714e9ee0 google_devices-bluejay-tp1a.221005.003-576eab18.tgz
-bluejay TP1A.221105.002:
-  desc: Nov 2022
-  factory: efca1d2d250ba552411cf214ae1e9bacb23106dbd08f4ee9c264e03e545da953 bluejay-tp1a.221105.002-factory-efca1d2d.zip
-  ota: 1bd63cb33d23288224f4a14891fc75e72d6483fb952f58ca095a8308765a0cb8 bluejay-ota-tp1a.221105.002-1bd63cb3.zip
-  vendor/google_devices: b172026514650ed205140bbb7a9da5c380ab07e9523577ebe198190cd58a394d google_devices-bluejay-tp1a.221105.002-8bfbf59b.tgz
-bluejay TQ1A.221205.011:
-  desc: Dec 2022
-  factory: 41aa5eb717185caa1f661c1212c08db19b0092af7f10ca841d3111ab00fc848b bluejay-tq1a.221205.011-factory-41aa5eb7.zip
-  ota: 7a7b07000a677ab5654e70ea157f8eb6462214f95ba26585ffebf857f51f97a6 bluejay-ota-tq1a.221205.011-7a7b0700.zip
-  vendor/google_devices: 66aa070772c339397528b66e94f1ebda07c3cbdf789f4110a3517e1347dffcce google_devices-bluejay-tq1a.221205.011-ddb0b153.tgz
-bluejay TQ1A.221205.012:
-  desc: Dec 2022, O2 UK
-  factory: a38d8ff9c21ad0e97a825bae9853aed891eaefe8816854772969c3f1db796453 bluejay-tq1a.221205.012-factory-a38d8ff9.zip
-  ota: 82b18cc0f3c4e0960adb7cb2b2f704ac75f78ce4bfae7a58692a7802ff292904 bluejay-ota-tq1a.221205.012-82b18cc0.zip
-  vendor/google_devices: 1edd14c9776ec1e073170af5171606f2bd5ecb3e3d2c9919295bf5420f70275b google_devices-bluejay-tq1a.221205.012-3024ca0d.tgz
-bluejay TQ1A.230105.001.A2:
-  desc: Jan 2023
-  factory: cd4887446e60dd02c93b5b391b655ffe82e6eb87cc3af6bc173b0451897c3cfe bluejay-tq1a.230105.001.a2-factory-cd488744.zip
-  ota: deb3f8324f57a9e605fdac3500710c7efa38997532d930289fe89837d50497f6 bluejay-ota-tq1a.230105.001.a2-deb3f832.zip
-  vendor/google_devices: 5d6a95be9281910eba5f7034a4f41a0cfa1f233a77dda21b230901723bf123a9 google_devices-bluejay-tq1a.230105.001.a2-fa4de8b5.tgz
-bluejay TQ1A.230205.001.D2:
-  desc: Feb 2023, T-Mobile, T-Mobile MVNOs
-  factory: 0b7a7917ad8caa8b15b860983526366832251ce6881738aa272cf80998d1d159 bluejay-tq1a.230205.001.d2-factory-0b7a7917.zip
-  ota: df8c54e54403ae4c25f64fa93cda4e540e325b22c2f96d468119c55fd42083ec bluejay-ota-tq1a.230205.001.d2-df8c54e5.zip
-  vendor/google_devices: a5f55acf7d9e1126791b29f6d6d914e8e280334587ec61684bb3a1f8ffda6f90 google_devices-bluejay-tq1a.230205.001.d2-343e9e35.tgz
-bluejay TQ1A.230205.002:
-  desc: Feb 2023
-  factory: 1b04ccc96962f6e9fbf2ba37925ff3cf771e41a5369697c618b21252d63f88db bluejay-tq1a.230205.002-factory-1b04ccc9.zip
-  ota: 1ec64b589cba8d9687ea8f85cf6c2e5d09c9e4fbdae15417aa06d5ba976fbe79 bluejay-ota-tq1a.230205.002-1ec64b58.zip
-  vendor/google_devices: d230648b33d11302ab7f062448001f63d23bcd552a7379d3a9380ea726cabda1 google_devices-bluejay-tq1a.230205.002-d1f9e298.tgz
-bluejay TQ2A.230305.008.E1:
-  desc: Mar 2023
-  factory: 3023e8fcc2a5c2ed9736ff1576bf042cc64ba52ba6c005f4c229b0dc4b4ac0d9 bluejay-tq2a.230305.008.e1-factory-3023e8fc.zip
-  ota: 915f9087b627b6961be9bb447dc63a7a1083b536753a78715e98641eaeb9c9d1 bluejay-ota-tq2a.230305.008.e1-915f9087.zip
-  vendor/google_devices: 60739b6a823e09dfb428b71b48ce87424aa9f15beb48b24e9c5a9a503aae9fc8 google_devices-bluejay-tq2a.230305.008.e1-6720c11f.tgz
-bluejay TQ2A.230305.008.F1:
-  desc: Mar 2023, WINDTRE/Canada
-  factory: 3b64df38142bfa87740094c8891fc45b8d4f431f4ee0d9a035a5ce4302bbfb19 bluejay-tq2a.230305.008.f1-factory-3b64df38.zip
-  ota: 295d6274dc3fa0f0087b749dfde65154970d5a68d2f271b71896dae176a3a735 bluejay-ota-tq2a.230305.008.f1-295d6274.zip
-  vendor/google_devices: 1823fed7fe744e50c64ff233c9265ce224bd0d18ebbd174981e98453a9b0e428 google_devices-bluejay-tq2a.230305.008.f1-43e8b502.tgz
-bluejay TQ2A.230405.003.E1:
-  desc: Apr 2023
-  factory: f21956aba8d9108092790611a4e36e8345bc740f792e751d2e0398520da1b081 bluejay-tq2a.230405.003.e1-factory-f21956ab.zip
-  ota: 160f9d40cfa18252c53d08e40476bbdd8788037ab1174ec1b70cff1acc9f000b bluejay-ota-tq2a.230405.003.e1-160f9d40.zip
-  vendor/google_devices: 286e1cd13ea7634b3e7be9bfa45ac74dc621ec625fe6c3e14eb6ac24e610fbb1 google_devices-bluejay-tq2a.230405.003.e1-c708f660.tgz
-bluejay TQ2A.230405.003.G1:
-  desc: April 2023, Verizon, Verizon MVNOs
-  factory: 2e7be32942896a28035d450d310773f7804902c30b06c06b364ad20af43042ed bluejay-tq2a.230405.003.g1-factory-2e7be329.zip
-  ota: 295da789cdb79d5628f05962f5a17554c2c510973b74e955d6ef922b34861b35 bluejay-ota-tq2a.230405.003.g1-295da789.zip
-  vendor/google_devices: 713eb59de1c392a8c8b7689f992c6f5531538320ca08bc91860e862f8c76d149 google_devices-bluejay-tq2a.230405.003.g1-953527a2.tgz
-bluejay TQ2A.230505.002:
-  desc: May 2023
-  factory: 7a58c8b3219b7dfa03b9b4f2090b8247e4fa7305eb5f50f958b96422ef369429 bluejay-tq2a.230505.002-factory-7a58c8b3.zip
-  ota: 3749a0fac4b30a871d228553a77ab873778cc19b969c64c7f65c986032369ef6 bluejay-ota-tq2a.230505.002-3749a0fa.zip
-  vendor/google_devices: e93bc51c9ac5b0292ee89f7e143a7a0f0dd179fbc503df1b4fa084ff1ebbebe3 google_devices-bluejay-tq2a.230505.002-d3548441.tgz
-bluejay TQ2A.230505.002.G1:
-  desc: May 2023, Verizon, Verizon MVNOs
-  factory: 748468821f9ebd9c975f0308ed46403f590895dd64b524402716f7cfe2c5cebb bluejay-tq2a.230505.002.g1-factory-74846882.zip
-  ota: 519eabf689dfd41a7294a0dee5a01a225aa9874e44a0f30e604ce6f5d371a1c0 bluejay-ota-tq2a.230505.002.g1-519eabf6.zip
-  vendor/google_devices: 5138aa870a57e6873632748588cab3d73e7aa3673009b7b28bad314cc16f380e google_devices-bluejay-tq2a.230505.002.g1-3bc494f8.tgz
-bluejay TQ3A.230605.010:
-  desc: Jun 2023
-  factory: 1d224b9463d6903a27e90d3413726925e91c55b2774449617f4e2f8ea767b745 bluejay-tq3a.230605.010-factory-1d224b94.zip
-  ota: a67dbf3626dd2f9fd187b83b738b7152b0200fb2bf031c469e00777b47f8b002 bluejay-ota-tq3a.230605.010-a67dbf36.zip
-  vendor/google_devices: 8d0917100bf7193781b9a47e3ca3565b8fe135bc6fc73cedf3100eca805e3543 google_devices-bluejay-tq3a.230605.010-5a9735df.tgz
-bluejay TQ3A.230605.010.A1:
-  desc: Jun 2023, T-Mobile, T-Mobile MVNOs
-  factory: 383fed94491da3ebe3b291201c7c5770612beea5c6c88d102de87fa40e7f63a3 bluejay-tq3a.230605.010.a1-factory-383fed94.zip
-  ota: 9eb9836a27d0cc85ec583285522fbd025e78db5188baeec51ddbba4e4116e849 bluejay-ota-tq3a.230605.010.a1-9eb9836a.zip
-  vendor/google_devices: 4465b71a79062ac885af57d5d7b448bd8d66aa2ec982cb6c9476100c0ab335e9 google_devices-bluejay-tq3a.230605.010.a1-49e23a4c.tgz
-bluejay TQ3A.230705.001:
-  desc: Jul 2023
-  factory: d748864f62a09e4d237b4638ea2c3db2172a1fbdacea2801a03f100cfdb8b30f bluejay-tq3a.230705.001-factory-d748864f.zip
-  ota: 1c9bce8ded42b6cf1a133436ef902d2fda3f4c0c78a127f4611ab1067613d6fe bluejay-ota-tq3a.230705.001-1c9bce8d.zip
-  vendor/google_devices: 0f15795ba6afb541d8fcba0706b81362d5c5570814270d2be75d24a2964d28b9 google_devices-bluejay-tq3a.230705.001-d91b8986.tgz
-bluejay TQ3A.230705.001.A1:
-  desc: Jul 2023, T-Mobile, T-Mobile MVNOs
-  factory: 145fa6df1168531690bacb259832b130a65506ba58c72e1a49c42f8abc21007b bluejay-tq3a.230705.001.a1-factory-145fa6df.zip
-  ota: 27fe6ebc5de2df260d6a249653ac18e0e0880dbd6e694475e852492031074347 bluejay-ota-tq3a.230705.001.a1-27fe6ebc.zip
-  vendor/google_devices: b2f4ad8444a3d095e5b93f4d0bfc52bb5ca192d40a27df95f22d9b87ce98d187 google_devices-bluejay-tq3a.230705.001.a1-57a44eed.tgz
-bluejay TQ3A.230805.001:
-  desc: Aug 2023
-  factory: 49a03cb1684fd374497e2acf7deae395a669d709224a254b600b324e72704c58 bluejay-tq3a.230805.001-factory-49a03cb1.zip
-  ota: fb877f31360713e433d608b47f52a9beadec67407269b4e3b60b35d2c19597b7 bluejay-ota-tq3a.230805.001-fb877f31.zip
-  vendor/google_devices: 4819b038216de49a7fc8fb3a3d3abcd981703e80be67bb177fa51fbe34c4bdb3 google_devices-bluejay-tq3a.230805.001-932b7e9c.tgz
-bluejay TQ3A.230805.001.A1:
-  desc: Aug 2023, T-Mobile, T-Mobile MVNOs
-  factory: 71d7f79ebf6d61d87123ae7db43c34df844759c751ac1748a8c0aa2ff6160803 bluejay-tq3a.230805.001.a1-factory-71d7f79e.zip
-  ota: 037b273fac5b995c3126cc83b348f0b9bd71364746ce23fdfaf5526b334a4c2b bluejay-ota-tq3a.230805.001.a1-037b273f.zip
-  vendor/google_devices: 30810d628ab6434f7327201aa8e4957bea5f08ea1b6d88dc91d3e58e427dc285 google_devices-bluejay-tq3a.230805.001.a1-ff502e2b.tgz
-bluejay TQ3A.230805.001.A2:
-  desc: Aug 2023, Verizon, Verizon MVNOs
-  factory: 3cbf4bdc9b3c808a45a484b53083a92f91d2617a604abeb995b5a0987985bbab bluejay-tq3a.230805.001.a2-factory-3cbf4bdc.zip
-  ota: c5deea95435856c65c4e01e4135faf12b80ea9aa3858e599349a4868abdbdc5b bluejay-ota-tq3a.230805.001.a2-c5deea95.zip
-  vendor/google_devices: ccf400225b92b05fbc8d2c20f0c3d848b02d080451f0704ccf91d9e7b447bdd2 google_devices-bluejay-tq3a.230805.001.a2-2a88203e.tgz
-bluejay TQ3A.230901.001:
-  desc: Sep 2023
-  factory: 141a3d5b9dcffb59df5f6171f1c0f020e5832e0f68c8d6b691566403b03b7a5f bluejay-tq3a.230901.001-factory-141a3d5b.zip
-  ota: 1f1f0abe67a6f6f47287be6dafec2c12628de6a715b82ca7beddaf67ad22aca5 bluejay-ota-tq3a.230901.001-1f1f0abe.zip
-  vendor/google_devices: a68be5a028d722c199f83c3f04a238a31dfa42090cc93462668251f109939fb4 google_devices-bluejay-tq3a.230901.001-a2e819f6.tgz
-bluejay TQ3A.230901.001.C1:
-  desc: Sep 2023, T-Mobile, T-Mobile MVNOs
-  factory: 4182683a141b7491329d0372f3ecb86b4238eeec40282b1424879a20c4d59f69 bluejay-tq3a.230901.001.c1-factory-4182683a.zip
-  ota: ec7307977edc55250e07bf5c6c18420758cd752ac2df9d0c14c16fdac5359bfd bluejay-ota-tq3a.230901.001.c1-ec730797.zip
-  vendor/google_devices: add2e84377b094a8242c346f6d077dbba30b0a2cc18b21ddc82699b3c5a29d6e google_devices-bluejay-tq3a.230901.001.c1-9c114cc3.tgz
-bluejay TQ3A.230901.001.C2:
-  desc: Sep 2023, Verizon, Verizon MVNOs
-  factory: 12efaa81659798120adcd901dbd2ad7336106baa0b3776e48c7b52e295472045 bluejay-tq3a.230901.001.c2-factory-12efaa81.zip
-  ota: 5d128166c9af400b1df33fb104666df660452ba68177994cf166be38f64709f6 bluejay-ota-tq3a.230901.001.c2-5d128166.zip
-  vendor/google_devices: 3693e5d811e2ac7114cc5f6ff42c42432dcab2819599a178795d0bf2f56d38c9 google_devices-bluejay-tq3a.230901.001.c2-9f0c53d1.tgz
-bluejay UP1A.231005.007:
-  desc: Oct 2023
-  factory: ab16eb7b02a22030b4b5c2b7e768783ea15bdc0268874f543edbe25bb1409ce4 bluejay-up1a.231005.007-factory-ab16eb7b.zip
-  ota: b0c46acfbd5aaaf93cba51944be86cce17ee30323c38af3c9a3bbfffbe535cb6 bluejay-ota-up1a.231005.007-b0c46acf.zip
-  vendor/google_devices: dbbec7825467744967784454ce3ad2fcfe1571f9bfee39e2136bf32c75eed4cf google_devices-bluejay-up1a.231005.007-6d7c6c83.tgz
-bluejay UP1A.231005.007.A1:
-  desc: Oct 2023, AT&T
-  factory: 824adabf5ede67672e0c12bb7a22d7859b67b8a454a3bcb86d158cfbdb3a91d2 bluejay-up1a.231005.007.a1-factory-824adabf.zip
-  ota: 1d3f9743ce70f6eba63e39e2a36b58c28eba0ab21526e3596c9ae91e75810350 bluejay-ota-up1a.231005.007.a1-1d3f9743.zip
-  vendor/google_devices: 110557165631d1a4d4da9448c77b70fdbb9095d508dfaf76fda894912650e305 google_devices-bluejay-up1a.231005.007.a1-2ceb7344.tgz
-bluejay UP1A.231105.003:
-  desc: Nov 2023
-  factory: f21e8baff6fe9a59726a0dc47c89a3d2312c0ae89dd6725c5988d56e42231b1d bluejay-up1a.231105.003-factory-f21e8baf.zip
-  ota: 8f9f1dcd832bd1ed117b2375eb078aa3cae466d41ce9bb48584429c16e9c6d0b bluejay-ota-up1a.231105.003-8f9f1dcd.zip
-  vendor/google_devices: bea39b8b56d3472f5cb5fc71a0ebf1e4e1b51bfa75568921c219088fb9fce179 google_devices-bluejay-up1a.231105.003-f817a87c.tgz
-bluejay UP1A.231105.003.A1:
-  desc: Nov 2023, AT&T
-  factory: 15b9e4c660bd0687d36005cb703c0d9c263b6ee91eda50c8d1ce9fa82fc409b0 bluejay-up1a.231105.003.a1-factory-15b9e4c6.zip
-  ota: 0e8dfe024c9aefea4de9b691c68f3c0493eda1932d0870f0f06173d1917c9004 bluejay-ota-up1a.231105.003.a1-0e8dfe02.zip
-  vendor/google_devices: 28c3f21a71fe5ae2dc66950091ada62d66f7e2d06d2677cbdb7e22443d90cda3 google_devices-bluejay-up1a.231105.003.a1-4687686c.tgz
-bluejay UQ1A.231205.015:
-  desc: Dec 2023
-  factory: cc482de897f03b877a003e02754dc1041a03e842548df50baa31a2f0b7dbfa8d bluejay-uq1a.231205.015-factory-cc482de8.zip
-  ota: 2503078c241b1edb8df6a14481b8a7fc29792bc4b00c240336e334c335c5581e bluejay-ota-uq1a.231205.015-2503078c.zip
-  vendor/google_devices: a1019dcfc6f49c39fc1ab8f8d6a41030fdf42ea15aa430d49f5563217369aa47 google_devices-bluejay-uq1a.231205.015-a0fb55b1.tgz
-bluejay UQ1A.240105.002:
-  desc: Jan 2024
-  factory: d1dd7f0b3210c45b5b8ebe2d041dab6deb0d1f55a07c64e3d8e519e97178a8b8 bluejay-uq1a.240105.002-factory-d1dd7f0b.zip
-  ota: 6e3cf627f60d1c005569196291ce7ed53fd2dd64872d623c160fc019eb9596c7 bluejay-ota-uq1a.240105.002-6e3cf627.zip
-  vendor/google_devices: a4f248469a0d79fab6588c60bb2b7f9e5f8ade777a43b0b7aea7f253df943bf9 google_devices-bluejay-uq1a.240105.002-41f1e93c.tgz
-bluejay UQ1A.240205.002:
-  desc: Feb 2024
-  factory: c6eba0d2f6780666d3d103f6af8e1eabf95681e7c58c72f6337b7f265bf9b511 bluejay-uq1a.240205.002-factory-c6eba0d2.zip
-  ota: 3eb29a13b4b1e9507b6e4074bf9325837de72bc1dd7fd45e84d5c4670a09e84d bluejay-ota-uq1a.240205.002-3eb29a13.zip
-  vendor/google_devices: cfc849f57dda897eec598c729f7818634eeb2252597feb929f62f8abd6f03bab google_devices-bluejay-uq1a.240205.002-00d62eaa.tgz
-bluejay AP1A.240305.019.A1:
-  desc: Mar 2024
-  factory: 60e97f8c300cd236dd7fd0ddba95173b0bf03a4ceb1c07e5fea1ded11257faf3 bluejay-ap1a.240305.019.a1-factory-60e97f8c.zip
-  ota: fd58dc50aa0ab8c992e211fd161fe1490938c952ea312b37f86a9d2eff2522c0 bluejay-ota-ap1a.240305.019.a1-fd58dc50.zip
-  vendor/google_devices: c33d26715948a8509fce655dfa73ad194783c67b0688be78e6a926901a013cc0 google_devices-bluejay-ap1a.240305.019.a1-66978e46.tgz
-bluejay AP1A.240405.002:
-  desc: Apr 2024
-  factory: 5132dfa47ab0dee84a770c71a2afb7c4234a798c735ab307634a2dc8f75aa5c9 bluejay-ap1a.240405.002-factory-5132dfa4.zip
-  ota: 6114363cea4102798bd7d27f3ec59ed04f45eec1901ce0c5247777a0e7b5912c bluejay-ota-ap1a.240405.002-6114363c.zip
-  vendor/google_devices: cd25eaf7c2175e18e7560301fcfa6bedce9aadd482e681fe84ad979b21937d52 google_devices-bluejay-ap1a.240405.002-e80bdadc.tgz
-bluejay AP1A.240505.004:
-  desc: May 2024
-  factory: cceebfed48417b14848ca7a7d8d6dcd883d636cd64cd02efb18710adb92bf488 bluejay-ap1a.240505.004-factory-cceebfed.zip
-  ota: 1170ac408f05351cc64a749b6a5dc6063f83323ed704e33845fc5297979ba035 bluejay-ota-ap1a.240505.004-1170ac40.zip
-  vendor/google_devices: 4761dbb1bed493920abbd296cce657c8f046b54a31ac00a73ef07b4cead8fb90 google_devices-bluejay-ap1a.240505.004-9cc87c4e.tgz
-bluejay AP2A.240605.024:
-  desc: Jun 2024
-  factory: 6fcf1c35c4456887e358ff0037b652d70021fec45c70d8025e1a1adf8e5e3a26 bluejay-ap2a.240605.024-factory-6fcf1c35.zip
-  ota: f8a734a35362604436aa42106343acf1c6441cb6ca60d85cf351f0ad79ddacd9 bluejay-ota-ap2a.240605.024-f8a734a3.zip
-  vendor/google_devices: 24508baafcf33f58a10455e4bb2329f594633e18f02c81ad5ef3b681850f98af google_devices-bluejay-ap2a.240605.024-b371a8cc.tgz
-bluejay AP2A.240705.004:
-  desc: Jul 2024
-  factory: 22c92bf8909f5004dfcf9e89c7b1d22acd2cefe85719a40c8e0bac212a4ce8be bluejay-ap2a.240705.004-factory-22c92bf8.zip
-  ota: 0b2bc993977cc222071cdf8f01be037fdfa106064b53225ec1c9d96692c04c91 bluejay-ota-ap2a.240705.004-0b2bc993.zip
-  vendor/google_devices: 727a068e0b44f2c2a128dc2f4aed3fac27c07918ca2f896040c5c11ebe18a17a google_devices-bluejay-ap2a.240705.004-0f373af7.tgz
-bluejay AP2A.240805.005.F1:
-  desc: Aug 2024
-  factory: 5ff0002b1c49a88071162a6ce11a21c7ccdfa8f14dc3f0361c8e140ddef3978f bluejay-ap2a.240805.005.f1-factory-5ff0002b.zip
-  ota: cfb8260531c0b7aaea31d2820bd9ef16054791b8b9c82f790714abf45ef14aec bluejay-ota-ap2a.240805.005.f1-cfb82605.zip
-  vendor/google_devices: ec70610a6d9c2ba9982e30a346583591da7a7c169acb4fa1d9c900d4e02359b0 google_devices-bluejay-ap2a.240805.005.f1-5f68920f.tgz
-bluejay AP2A.240905.003.F1:
-  desc: Sep 2024
-  factory: ccb9246b90b5e89e46ff6af7196a9e11eec453104012fa1290efed6e7a8d2fbe bluejay-ap2a.240905.003.f1-factory-ccb9246b.zip
-  ota: bc5a699a4d37ae146c56b499ce9a7742c1d72bc9e1977859c71378321c3407d3 bluejay-ota-ap2a.240905.003.f1-bc5a699a.zip
-  vendor/google_devices: 3992bb320b7893a6b6107383dcbb9b5f177fdb3425cdff989c380cb368ea785f google_devices-bluejay-ap2a.240905.003.f1-d81d2234.tgz
-bluejay AP3A.241005.015:
-  desc: Oct 2024
-  factory: 9c97e72beec9ced2c089a2de1190b266348f7921d16f24463304ba3b7f832421 bluejay-ap3a.241005.015-factory-9c97e72b.zip
-  ota: 6f398595f9b21e368ac4e9440108d20fa269d1ebf76c2f51978553df5b420f25 bluejay-ota-ap3a.241005.015-6f398595.zip
-  vendor/google_devices: a793a167cd89bc0ae38c8354de5cdab9253e44d3f6fc49e9f2c2816fca677555 google_devices-bluejay-ap3a.241005.015-008fb1be.tgz
-bluejay AP3A.241005.015.A2:
-  desc: Oct 2024, Google Fi
-  factory: a7284b8358d560a494d391504f1f3d2d900c1da54d053fc78c240ab556446b3f bluejay-ap3a.241005.015.a2-factory-a7284b83.zip
-  ota: a1bbe25e4eaa2147eae8909d6b6be6e700d65ea7243fdd50706a77bddb1eac1a bluejay-ota-ap3a.241005.015.a2-a1bbe25e.zip
-  vendor/google_devices: fbe712157e262864fdcd2e7ee4f873c644949a98bdcadd24714ef36cc6c01811 google_devices-bluejay-ap3a.241005.015.a2-c521b983.tgz
-bluejay AP3A.241105.007:
-  desc: Nov 2024
-  factory: c657cf23a3bca74d77260ca509ece8a513bc8ef80264bb591a242721ffa061de bluejay-ap3a.241105.007-factory-c657cf23.zip
-  ota: 365e6b1225cd936116e9b0cff13ba17fda8e31697dd1ce74c53b872b7f004994 bluejay-ota-ap3a.241105.007-365e6b12.zip
-  vendor/google_devices: 7448bfdf691b3eac4090c6cc36623974947af44e38abd506cebbf256eb25faa5 google_devices-bluejay-ap3a.241105.007-c52ee9ae.tgz
-bluejay AP4A.241205.013:
-  desc: Dec 2024
-  factory: f6c5ddf3646f002d62fc49c58fc9a7199e1e66cb143bef1a38e9b654bbaba858 bluejay-ap4a.241205.013-factory-f6c5ddf3.zip
-  ota: 10a378a57c3389678bd753cd2216af413af057d56deac376b2b36a7525bcea52 bluejay-ota-ap4a.241205.013-10a378a5.zip
-  vendor/google_devices: b9e53c9d765dc64e23c4714e6f290465b59e1734b08385164187bcd8b940c237 google_devices-bluejay-ap4a.241205.013-a4c2fc38.tgz
-bluejay AP4A.241205.013.A2:
-  desc: Dec 2024, EMEA
-  factory: 52a9ff22c7dd81d1ef591d4664150d8af4a7bc8202e31155ff2dda2865a463ad bluejay-ap4a.241205.013.a2-factory-52a9ff22.zip
-  ota: d06e0e4d21c68c36a93a50adea1a79cb3555b9e9370aeb4ff98bcc10febff033 bluejay-ota-ap4a.241205.013.a2-d06e0e4d.zip
-  vendor/google_devices: f733cf25099fd70acaa4feab456cf3aad9f737a2a4690fc8daeea5c8a9c42f3f google_devices-bluejay-ap4a.241205.013.a2-0fdf3ef9.tgz
-bluejay AP4A.250105.002:
-  desc: Jan 2025
-  factory: 72283090f956af65694f65f0d9947eefb0c0023f739f9f7eaa0038b008e63491 bluejay-ap4a.250105.002-factory-72283090.zip
-  ota: 14508b664b31eb5c6880a0b5bba13905f876ff5a9b6a5be9832a2b1d872edfcb bluejay-ota-ap4a.250105.002-14508b66.zip
-  vendor/google_devices: d193ce3c5741d4d6ad7e9b6619105043ca7db56f8aa192ed06a07e712edcba68 google_devices-bluejay-ap4a.250105.002-3e267cbd.tgz
-bluejay AP4A.250105.002.A1:
-  desc: Jan 2025, EMEA
-  factory: 1ca32eb5eff5aaf3a504b7860677759918044ac078a3b44c661a627dd37dbbea bluejay-ap4a.250105.002.a1-factory-1ca32eb5.zip
-  ota: e270b59e6f3dd2a579fd6eac042a3dd1d53c826c67a06c764d82ec5a647baebf bluejay-ota-ap4a.250105.002.a1-e270b59e.zip
-  vendor/google_devices: b4938beba8db248fef6ac23b8cdb6b80c62e8a59bdd45677bab04f8c415c2543 google_devices-bluejay-ap4a.250105.002.a1-3c9db338.tgz
-bluejay AP4A.250205.002:
-  desc: Feb 2025
-  factory: 6e330d725784defb188a58a5cfa31ba4720457d89c7c77ce2cc261b9bdeb0145 bluejay-ap4a.250205.002-factory-6e330d72.zip
-  ota: 0050fec36449d663e487a2169c81b23670b775020adb7d93a30789fc3ca6ddea bluejay-ota-ap4a.250205.002-0050fec3.zip
-  vendor/google_devices: c528fef2ea9f20a52fe6f9b52b7f802b8c271daa095ba460df4336f398bd1717 google_devices-bluejay-ap4a.250205.002-88e22345.tgz
-bluejay AP4A.250205.002.A1:
-  desc: Feb 2025, EMEA
-  factory: 2f4b08d13d59a518b129890ed2e21d3650e2ab6f18ef2c0af4d9e64d9794b24a bluejay-ap4a.250205.002.a1-factory-2f4b08d1.zip
-  ota: 0e760060cd7e3b872dd213e4cccc1e2c33fd4d12ca5d4ccb145f8e3f47b5a982 bluejay-ota-ap4a.250205.002.a1-0e760060.zip
-  vendor/google_devices: bbc25817174602efffa6787a971f260cfd51240af0f928d657a2dceadb97643b google_devices-bluejay-ap4a.250205.002.a1-63082188.tgz
-bluejay BP1A.250305.019:
-  desc: Mar 2025
-  factory: 9dde1d1d05778041f5cc439e01b73f2c7e9c8837d1d9192e4db1c435e27be169 bluejay-bp1a.250305.019-factory-9dde1d1d.zip
-  ota: 4204a8816afc7503df7ec1d461c4303bb6d4f6b9089a0d22c3309874a8efebdc bluejay-ota-bp1a.250305.019-4204a881.zip
-  vendor/google_devices: 39502c874f9686a43f355904b5bddf4c8402a10312c4f8e8aad64bfb6508b9a8 google_devices-bluejay-bp1a.250305.019-c6bf9761.tgz
-bluejay BP1A.250405.007:
-  desc: Apr 2025
-  factory: 98ac49c04235c1cd6ff6b52eee92bf546fdad44d955c94d0eb045ac6b172fa29 bluejay-bp1a.250405.007-factory-98ac49c0.zip
-  ota: e5d6863abed61b0247413c2797d4546585ba343d77e8e1001d14021ff81e4cda bluejay-ota-bp1a.250405.007-e5d6863a.zip
-  vendor/google_devices: adb149019b6c91374eb547d93e5f227c8e6a4d215b5b563f6984d8db52726534 google_devices-bluejay-bp1a.250405.007-62bd5066.tgz
-bluejay BP1A.250505.005:
-  desc: May 2025
-  factory: b552839786586b7f0c946abfb59478d5477531d94a164c10f2f577b0ef0861ab bluejay-bp1a.250505.005-factory-b5528397.zip
-  ota: 728eab10ee8393a04503e2f79cfe441f7f287a6dda4ba207d0550632009f6904 bluejay-ota-bp1a.250505.005-728eab10.zip
-  vendor/google_devices: 022fea802f2108bf93528281442f1a64e5e4cac9bb10530edcf872d58591b127 google_devices-bluejay-bp1a.250505.005-5f83a18f.tgz
-bluejay BP2A.250605.031.A2:
-  desc: Jun 2025
-  factory: d7a8921521b13555005b6be393ca5296a710dd50116c375bbf8f6ef492caac71 bluejay-bp2a.250605.031.a2-factory-d7a89215.zip
-  ota: 71681dcb1b6a9492aab6b463986297a08cda2e68a3de026c53c954e75092d045 bluejay-ota-bp2a.250605.031.a2-71681dcb.zip
+panther BP2A.250705.008:
+  desc: Jul 2025
+  factory: 4e4c9ce6f2b7525f510a73e7a12f8883ffc9cf67d6f3ed3cba21549a836fb3b3 panther-bp2a.250705.008-factory-4e4c9ce6.zip
+  ota: cb3a7411cab6033b0160d2af0854848737a356cff43b25310a875f8ba28e55b5 panther-ota-bp2a.250705.008-cb3a7411.zip
+bluejay BP2A.250705.008:
+  desc: Jul 2025
+  factory: 128110b0979a070522a57c739cce741a3554595a8379d7c95b003286e8348740 bluejay-bp2a.250705.008-factory-128110b0.zip
+  ota: f7332dab7672847bc8d5c3f97c59b9270db5e1c5d87f9d676c1338bab8d9594f bluejay-ota-bp2a.250705.008-f7332dab.zip
 raven SD1A.210817.015.A4:
   desc: Oct 2021
   factory: bd6cb030402897f58b952008211640f5241699200d509926540425e00b115bc9 raven-sd1a.210817.015.a4-factory-bd6cb030.zip
@@ -3437,6 +3194,124 @@ oriole BP2A.250605.031.A2:
   desc: Jun 2025
   factory: 747402f25eed1c39fe6de3f132e9e27446191e616e6235e51675e9179f888949 oriole-bp2a.250605.031.a2-factory-747402f2.zip
   ota: e6a8072b436ebb1d0ffd1eef9be1b45bb564550ec62f73c5e40632440d7de6c5 oriole-ota-bp2a.250605.031.a2-e6a8072b.zip
+bluejay SD2A.220601.001.A1:
+  vendor/google_devices: 77d5f05efb753517b717cad3226447339d7a4dff51eb0a47e4293644d793a14d google_devices-bluejay-sd2a.220601.001.a1-0145bbe6.tgz
+bluejay SD2A.220601.004:
+  vendor/google_devices: dbf707f8c238fa6b5d7dc6a06e363a04a4d7d520494379effd518c27cd4a775a google_devices-bluejay-sd2a.220601.004-7c778415.tgz
+bluejay SD2A.220601.002:
+  vendor/google_devices: 2b9b86df876a33720cf54dd5442cf83d5b4ad74d13cb87522c4e137148379634 google_devices-bluejay-sd2a.220601.002-1e7dd329.tgz
+bluejay SD2A.220601.003:
+  vendor/google_devices: c4c27b46a7097570dac54891c8f72d10fd701e2658036f3555730f7296e9e5c1 google_devices-bluejay-sd2a.220601.003-94980bd4.tgz
+bluejay SD2A.220601.002.B1:
+  vendor/google_devices: b0ec56284375fd15e3a9f7ef7afd49291cd7be7f9824ac14d50e967f4c42700d google_devices-bluejay-sd2a.220601.002.b1-11de82cc.tgz
+bluejay SD2A.220601.001.B1:
+  vendor/google_devices: 843fdc534aff6e2037de5a149f5e7bddcb34b637c34f3b36ab8dda48b0ad90d4 google_devices-bluejay-sd2a.220601.001.b1-5866a9af.tgz
+bluejay SD2A.220601.003.B1:
+  vendor/google_devices: 4518135b14bdb71f48520af1dd32fdafbb8eb683b35042e4037a6c2c401c56ce google_devices-bluejay-sd2a.220601.003.b1-94aa047e.tgz
+bluejay SD2A.220601.004.B2:
+  vendor/google_devices: e7443b666e390e3ae7b874e69a57f552b09ca6214a45205a057dab1ddf611385 google_devices-bluejay-sd2a.220601.004.b2-13292478.tgz
+bluejay TP1A.220624.021.A1:
+  vendor/google_devices: c60a6d735dfd093ab8be90149601aea07c16fcf5d594578382c515a2d5c07bf3 google_devices-bluejay-tp1a.220624.021.a1-f3edb59a.tgz
+bluejay TP1A.220905.004.A2:
+  vendor/google_devices: 9f544fbfa66de9c85c1e1dd40cdac06857e00ab64d15d4c5c63a22b4d0a7009f google_devices-bluejay-tp1a.220905.004.a2-0c4b242a.tgz
+bluejay TP1A.221005.003:
+  vendor/google_devices: 08b9d25df8c95939327fac58a70448f5dc9f2ef1d5f3692fb8748c2f714e9ee0 google_devices-bluejay-tp1a.221005.003-576eab18.tgz
+bluejay TP1A.221105.002:
+  vendor/google_devices: b172026514650ed205140bbb7a9da5c380ab07e9523577ebe198190cd58a394d google_devices-bluejay-tp1a.221105.002-8bfbf59b.tgz
+bluejay TQ1A.221205.011:
+  vendor/google_devices: 66aa070772c339397528b66e94f1ebda07c3cbdf789f4110a3517e1347dffcce google_devices-bluejay-tq1a.221205.011-ddb0b153.tgz
+bluejay TQ1A.221205.012:
+  vendor/google_devices: 1edd14c9776ec1e073170af5171606f2bd5ecb3e3d2c9919295bf5420f70275b google_devices-bluejay-tq1a.221205.012-3024ca0d.tgz
+bluejay TQ1A.230105.001.A2:
+  vendor/google_devices: 5d6a95be9281910eba5f7034a4f41a0cfa1f233a77dda21b230901723bf123a9 google_devices-bluejay-tq1a.230105.001.a2-fa4de8b5.tgz
+bluejay TQ1A.230205.001.D2:
+  vendor/google_devices: a5f55acf7d9e1126791b29f6d6d914e8e280334587ec61684bb3a1f8ffda6f90 google_devices-bluejay-tq1a.230205.001.d2-343e9e35.tgz
+bluejay TQ1A.230205.002:
+  vendor/google_devices: d230648b33d11302ab7f062448001f63d23bcd552a7379d3a9380ea726cabda1 google_devices-bluejay-tq1a.230205.002-d1f9e298.tgz
+bluejay TQ2A.230305.008.E1:
+  vendor/google_devices: 60739b6a823e09dfb428b71b48ce87424aa9f15beb48b24e9c5a9a503aae9fc8 google_devices-bluejay-tq2a.230305.008.e1-6720c11f.tgz
+bluejay TQ2A.230305.008.F1:
+  vendor/google_devices: 1823fed7fe744e50c64ff233c9265ce224bd0d18ebbd174981e98453a9b0e428 google_devices-bluejay-tq2a.230305.008.f1-43e8b502.tgz
+bluejay TQ2A.230405.003.E1:
+  vendor/google_devices: 286e1cd13ea7634b3e7be9bfa45ac74dc621ec625fe6c3e14eb6ac24e610fbb1 google_devices-bluejay-tq2a.230405.003.e1-c708f660.tgz
+bluejay TQ2A.230405.003.G1:
+  vendor/google_devices: 713eb59de1c392a8c8b7689f992c6f5531538320ca08bc91860e862f8c76d149 google_devices-bluejay-tq2a.230405.003.g1-953527a2.tgz
+bluejay TQ2A.230505.002:
+  vendor/google_devices: e93bc51c9ac5b0292ee89f7e143a7a0f0dd179fbc503df1b4fa084ff1ebbebe3 google_devices-bluejay-tq2a.230505.002-d3548441.tgz
+bluejay TQ2A.230505.002.G1:
+  vendor/google_devices: 5138aa870a57e6873632748588cab3d73e7aa3673009b7b28bad314cc16f380e google_devices-bluejay-tq2a.230505.002.g1-3bc494f8.tgz
+bluejay TQ3A.230605.010:
+  vendor/google_devices: 8d0917100bf7193781b9a47e3ca3565b8fe135bc6fc73cedf3100eca805e3543 google_devices-bluejay-tq3a.230605.010-5a9735df.tgz
+bluejay TQ3A.230605.010.A1:
+  vendor/google_devices: 4465b71a79062ac885af57d5d7b448bd8d66aa2ec982cb6c9476100c0ab335e9 google_devices-bluejay-tq3a.230605.010.a1-49e23a4c.tgz
+bluejay TQ3A.230705.001:
+  vendor/google_devices: 0f15795ba6afb541d8fcba0706b81362d5c5570814270d2be75d24a2964d28b9 google_devices-bluejay-tq3a.230705.001-d91b8986.tgz
+bluejay TQ3A.230705.001.A1:
+  vendor/google_devices: b2f4ad8444a3d095e5b93f4d0bfc52bb5ca192d40a27df95f22d9b87ce98d187 google_devices-bluejay-tq3a.230705.001.a1-57a44eed.tgz
+bluejay TQ3A.230805.001:
+  vendor/google_devices: 4819b038216de49a7fc8fb3a3d3abcd981703e80be67bb177fa51fbe34c4bdb3 google_devices-bluejay-tq3a.230805.001-932b7e9c.tgz
+bluejay TQ3A.230805.001.A1:
+  vendor/google_devices: 30810d628ab6434f7327201aa8e4957bea5f08ea1b6d88dc91d3e58e427dc285 google_devices-bluejay-tq3a.230805.001.a1-ff502e2b.tgz
+bluejay TQ3A.230805.001.A2:
+  vendor/google_devices: ccf400225b92b05fbc8d2c20f0c3d848b02d080451f0704ccf91d9e7b447bdd2 google_devices-bluejay-tq3a.230805.001.a2-2a88203e.tgz
+bluejay TQ3A.230901.001:
+  vendor/google_devices: a68be5a028d722c199f83c3f04a238a31dfa42090cc93462668251f109939fb4 google_devices-bluejay-tq3a.230901.001-a2e819f6.tgz
+bluejay TQ3A.230901.001.C1:
+  vendor/google_devices: add2e84377b094a8242c346f6d077dbba30b0a2cc18b21ddc82699b3c5a29d6e google_devices-bluejay-tq3a.230901.001.c1-9c114cc3.tgz
+bluejay TQ3A.230901.001.C2:
+  vendor/google_devices: 3693e5d811e2ac7114cc5f6ff42c42432dcab2819599a178795d0bf2f56d38c9 google_devices-bluejay-tq3a.230901.001.c2-9f0c53d1.tgz
+bluejay UP1A.231005.007:
+  vendor/google_devices: dbbec7825467744967784454ce3ad2fcfe1571f9bfee39e2136bf32c75eed4cf google_devices-bluejay-up1a.231005.007-6d7c6c83.tgz
+bluejay UP1A.231005.007.A1:
+  vendor/google_devices: 110557165631d1a4d4da9448c77b70fdbb9095d508dfaf76fda894912650e305 google_devices-bluejay-up1a.231005.007.a1-2ceb7344.tgz
+bluejay UP1A.231105.003:
+  vendor/google_devices: bea39b8b56d3472f5cb5fc71a0ebf1e4e1b51bfa75568921c219088fb9fce179 google_devices-bluejay-up1a.231105.003-f817a87c.tgz
+bluejay UP1A.231105.003.A1:
+  vendor/google_devices: 28c3f21a71fe5ae2dc66950091ada62d66f7e2d06d2677cbdb7e22443d90cda3 google_devices-bluejay-up1a.231105.003.a1-4687686c.tgz
+bluejay UQ1A.231205.015:
+  vendor/google_devices: a1019dcfc6f49c39fc1ab8f8d6a41030fdf42ea15aa430d49f5563217369aa47 google_devices-bluejay-uq1a.231205.015-a0fb55b1.tgz
+bluejay UQ1A.240105.002:
+  vendor/google_devices: a4f248469a0d79fab6588c60bb2b7f9e5f8ade777a43b0b7aea7f253df943bf9 google_devices-bluejay-uq1a.240105.002-41f1e93c.tgz
+bluejay UQ1A.240205.002:
+  vendor/google_devices: cfc849f57dda897eec598c729f7818634eeb2252597feb929f62f8abd6f03bab google_devices-bluejay-uq1a.240205.002-00d62eaa.tgz
+bluejay AP1A.240305.019.A1:
+  vendor/google_devices: c33d26715948a8509fce655dfa73ad194783c67b0688be78e6a926901a013cc0 google_devices-bluejay-ap1a.240305.019.a1-66978e46.tgz
+bluejay AP1A.240405.002:
+  vendor/google_devices: cd25eaf7c2175e18e7560301fcfa6bedce9aadd482e681fe84ad979b21937d52 google_devices-bluejay-ap1a.240405.002-e80bdadc.tgz
+bluejay AP1A.240505.004:
+  vendor/google_devices: 4761dbb1bed493920abbd296cce657c8f046b54a31ac00a73ef07b4cead8fb90 google_devices-bluejay-ap1a.240505.004-9cc87c4e.tgz
+bluejay AP2A.240605.024:
+  vendor/google_devices: 24508baafcf33f58a10455e4bb2329f594633e18f02c81ad5ef3b681850f98af google_devices-bluejay-ap2a.240605.024-b371a8cc.tgz
+bluejay AP2A.240705.004:
+  vendor/google_devices: 727a068e0b44f2c2a128dc2f4aed3fac27c07918ca2f896040c5c11ebe18a17a google_devices-bluejay-ap2a.240705.004-0f373af7.tgz
+bluejay AP2A.240805.005.F1:
+  vendor/google_devices: ec70610a6d9c2ba9982e30a346583591da7a7c169acb4fa1d9c900d4e02359b0 google_devices-bluejay-ap2a.240805.005.f1-5f68920f.tgz
+bluejay AP2A.240905.003.F1:
+  vendor/google_devices: 3992bb320b7893a6b6107383dcbb9b5f177fdb3425cdff989c380cb368ea785f google_devices-bluejay-ap2a.240905.003.f1-d81d2234.tgz
+bluejay AP3A.241005.015:
+  vendor/google_devices: a793a167cd89bc0ae38c8354de5cdab9253e44d3f6fc49e9f2c2816fca677555 google_devices-bluejay-ap3a.241005.015-008fb1be.tgz
+bluejay AP3A.241005.015.A2:
+  vendor/google_devices: fbe712157e262864fdcd2e7ee4f873c644949a98bdcadd24714ef36cc6c01811 google_devices-bluejay-ap3a.241005.015.a2-c521b983.tgz
+bluejay AP3A.241105.007:
+  vendor/google_devices: 7448bfdf691b3eac4090c6cc36623974947af44e38abd506cebbf256eb25faa5 google_devices-bluejay-ap3a.241105.007-c52ee9ae.tgz
+bluejay AP4A.241205.013:
+  vendor/google_devices: b9e53c9d765dc64e23c4714e6f290465b59e1734b08385164187bcd8b940c237 google_devices-bluejay-ap4a.241205.013-a4c2fc38.tgz
+bluejay AP4A.241205.013.A2:
+  vendor/google_devices: f733cf25099fd70acaa4feab456cf3aad9f737a2a4690fc8daeea5c8a9c42f3f google_devices-bluejay-ap4a.241205.013.a2-0fdf3ef9.tgz
+bluejay AP4A.250105.002:
+  vendor/google_devices: d193ce3c5741d4d6ad7e9b6619105043ca7db56f8aa192ed06a07e712edcba68 google_devices-bluejay-ap4a.250105.002-3e267cbd.tgz
+bluejay AP4A.250105.002.A1:
+  vendor/google_devices: b4938beba8db248fef6ac23b8cdb6b80c62e8a59bdd45677bab04f8c415c2543 google_devices-bluejay-ap4a.250105.002.a1-3c9db338.tgz
+bluejay AP4A.250205.002:
+  vendor/google_devices: c528fef2ea9f20a52fe6f9b52b7f802b8c271daa095ba460df4336f398bd1717 google_devices-bluejay-ap4a.250205.002-88e22345.tgz
+bluejay AP4A.250205.002.A1:
+  vendor/google_devices: bbc25817174602efffa6787a971f260cfd51240af0f928d657a2dceadb97643b google_devices-bluejay-ap4a.250205.002.a1-63082188.tgz
+bluejay BP1A.250305.019:
+  vendor/google_devices: 39502c874f9686a43f355904b5bddf4c8402a10312c4f8e8aad64bfb6508b9a8 google_devices-bluejay-bp1a.250305.019-c6bf9761.tgz
+bluejay BP1A.250405.007:
+  vendor/google_devices: adb149019b6c91374eb547d93e5f227c8e6a4d215b5b563f6984d8db52726534 google_devices-bluejay-bp1a.250405.007-62bd5066.tgz
+bluejay BP1A.250505.005:
+  vendor/google_devices: 022fea802f2108bf93528281442f1a64e5e4cac9bb10530edcf872d58591b127 google_devices-bluejay-bp1a.250505.005-5f83a18f.tgz
 raven SQ1D.211205.016.A1:
   vendor/google_devices: af62f2caad37c623bc7a6d87a1aa5a35aa73e54e17d5fec1e45938659ecb9375 google_devices-raven-sq1d.211205.016.a1-71ff241f.tgz
 raven SQ1D.211205.016.A4:
