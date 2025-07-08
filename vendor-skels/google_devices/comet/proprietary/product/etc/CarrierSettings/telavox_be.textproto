@@ -1,5 +1,5 @@
 canonical_name: "telavox_be"
-version: 70000000001
+version: 70000000002
 apns {
   apn {
     name: "Internet"
@@ -33,10 +33,26 @@ configs {
     bool_value: true
   }
   config {
+    key: "ignore_rtt_mode_setting_bool"
+    bool_value: true
+  }
+  config {
     key: "ims.sip_over_ipsec_enabled_bool"
     bool_value: false
   }
+  config {
+    key: "rtt_downgrade_supported_bool"
+    bool_value: true
+  }
+  config {
+    key: "rtt_supported_bool"
+    bool_value: true
+  }
+  config {
+    key: "rtt_supported_while_roaming_bool"
+    bool_value: true
+  }
 }
 last_updated {
-  seconds: 1732242344
+  seconds: 1746613959
 }

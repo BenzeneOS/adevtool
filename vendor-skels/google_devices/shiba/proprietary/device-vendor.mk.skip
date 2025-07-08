@@ -116,7 +116,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.vibrator.hal.context.cooldowntime=1600 \
     persist.vendor.vibrator.hal.context.settlingtime=5000 \
     vendor.audio.hapticgenerator.distortion.output.gain=0.38 \
-    ro.vendor.build.svn=54 \
+    ro.vendor.build.svn=55 \
     persist.vendor.camera.rls_supported=false \
     hypervisor.memory_reclaim.supported=1 \
     persist.vendor.camera.exif_reveal_make_model=true \
@@ -227,10 +227,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.gms.dck.eligible_wcc=2 \
     ro.gms.dck.se_capability=1 \
     ro.vendor.fingerprint.ta.name=g7.app \
-    ro.build.version.emergency_base_os=google/shiba/shiba:16/BP2A.250605.031/13467367:user/release-keys \
     ro.vendor.dolby.dax.version=DAX3_G_3.7.3.0_r1
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/shiba/shiba:16/BP2A.250605.031.A2/13578606:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/shiba/shiba:16/BP2A.250705.008/13578956:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

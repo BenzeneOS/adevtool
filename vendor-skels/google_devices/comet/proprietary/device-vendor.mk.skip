@@ -126,7 +126,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.edgetpu.cpu_scheduler.policy=FIFO \
     vendor.edgetpu.cpu_scheduler.priority=99 \
     ro.crypto.metadata_init_delete_all_keys.enabled=true \
-    ro.vendor.build.svn=33 \
+    ro.vendor.build.svn=34 \
     vendor.primarydisplay.op.hs_hz=120 \
     vendor.primarydisplay.op.ns_hz=120 \
     ro.vendor.gps.pps.enabled=true \
@@ -272,7 +272,7 @@ PRODUCT_VENDOR_DLKM_PROPERTIES += \
     ro.product.device_for_attestation=comet \
     ro.product.manufacturer_for_attestation=Google
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/comet/comet:16/BP2A.250605.031.A3/13578795:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/comet/comet:16/BP2A.250705.008/13578956:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

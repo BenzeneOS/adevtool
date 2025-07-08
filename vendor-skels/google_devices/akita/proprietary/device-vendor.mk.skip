@@ -137,7 +137,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.vibrator.hal.context.cooldowntime=1600 \
     persist.vendor.vibrator.hal.context.settlingtime=5000 \
     vendor.audio.hapticgenerator.distortion.output.gain=0.29 \
-    ro.vendor.build.svn=37 \
+    ro.vendor.build.svn=38 \
     ro.usb.uvc.enabled=true \
     vendor.powerhal.apf_disabled=false \
     vendor.powerhal.apf_enabled=true \
@@ -254,8 +254,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.app.audio.gsenet.version=1 \
     persist.vendor.audio.cca.enabled=false \
     ro.vendor.fingerprint.ta.name=g7a.app \
-    ro.build.device_family=HK3SB3AK3 \
-    ro.build.version.emergency_base_os=google/akita/akita:16/BP2A.250605.031/13467367:user/release-keys
+    ro.build.device_family=HK3SB3AK3
 
 PRODUCT_VENDOR_DLKM_PROPERTIES += \
     ro.product.model_for_attestation=Pixel 8a \
@@ -264,7 +263,7 @@ PRODUCT_VENDOR_DLKM_PROPERTIES += \
     ro.product.device_for_attestation=akita \
     ro.product.manufacturer_for_attestation=Google
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/akita/akita:16/BP2A.250605.031.A2/13578606:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/akita/akita:16/BP2A.250705.008/13578956:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

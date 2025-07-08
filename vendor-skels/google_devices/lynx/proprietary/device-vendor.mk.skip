@@ -97,7 +97,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.vibrator.hal.context.settlingtime=5000 \
     vendor.audio.hapticgenerator.distortion.output.gain=0.29 \
     vendor.zram.size=3g \
-    ro.vendor.build.svn=62 \
+    ro.vendor.build.svn=63 \
     persist.vendor.udfps.als_feed_forward_supported=true \
     persist.vendor.udfps.lhbm_controlled_in_hal_supported=true \
     persist.vendor.camera.1080P_60fps_binning=true \
@@ -205,14 +205,13 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.gms.dck.se_capability=1 \
     wifi.aware.interface=wifi-aware0 \
     ro.build.device_family=P10C10L10 \
-    ro.build.version.emergency_base_os=google/lynx/lynx:16/BP2A.250605.031/13467367:user/release-keys \
     persist.vendor.camera.extended_launch_boost=1 \
     persist.vendor.camera.optimized_tnr_freq=1 \
     persist.vendor.camera.raise_buf_allocation_priority=1 \
     persist.vendor.camera.start_cpu_throttling_at_moderate_thermal=1 \
     persist.vendor.audio.cca.enabled=false
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/lynx/lynx:16/BP2A.250605.031.A2/13578606:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/lynx/lynx:16/BP2A.250705.008/13578956:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

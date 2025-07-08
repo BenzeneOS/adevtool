@@ -171,12 +171,11 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.camera.extended_launch_boost=1 \
     persist.vendor.camera.raise_buf_allocation_priority=1 \
     camera.enable_landscape_to_portrait=true \
-    ro.build.version.emergency_base_os=google/tangorpro/tangorpro:16/BP2A.250605.031/13467367:user/release-keys \
     ro.audio.multi_usb_mode=true \
     persist.vendor.audio.speech_enhancement.enable=1 \
     ro.vendor.dolby.dax.version=DAX3_G_3.7.3.0_r1
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/tangorpro/tangorpro:16/BP2A.250605.031.A2/13578606:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/tangorpro/tangorpro:16/BP2A.250705.008/13578956:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

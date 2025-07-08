@@ -123,7 +123,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.edgetpu.cpu_scheduler.policy=FIFO \
     vendor.edgetpu.cpu_scheduler.priority=99 \
     ro.crypto.metadata_init_delete_all_keys.enabled=true \
-    ro.vendor.build.svn=33 \
+    ro.vendor.build.svn=34 \
     vendor.primarydisplay.op.hs_hz=120 \
     vendor.primarydisplay.op.ns_hz=120 \
     vendor.primarydisplay.fixed_te2.default_rate_hz=120 \
@@ -250,7 +250,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.incremental.enable=true \
     ro.crypto.volume.options=aes-256-xts:aes-256-hctr2 \
     debug.bugle.enable_emergency_satellite_messaging=true \
-    ro.build.version.emergency_base_os=google/komodo/komodo:16/BP2A.250605.031/13467367:user/release-keys \
     ro.bluetooth.a2dp_offload.supported=true \
     persist.bluetooth.a2dp_offload.disabled=false \
     persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac-opus \
@@ -269,7 +268,7 @@ PRODUCT_VENDOR_DLKM_PROPERTIES += \
     ro.product.device_for_attestation=komodo \
     ro.product.manufacturer_for_attestation=Google
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/komodo/komodo:16/BP2A.250605.031.A2/13578606:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/komodo/komodo:16/BP2A.250705.008/13578956:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

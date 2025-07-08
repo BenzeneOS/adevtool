@@ -1,5 +1,5 @@
 canonical_name: "erate_no"
-version: 70000000006
+version: 70000000007
 apns {
   apn {
     name: "eRate Internet"
@@ -39,6 +39,10 @@ configs {
   config {
     key: "default_vm_number_string"
     text_value: "+4796630000"
+  }
+  config {
+    key: "ignore_rtt_mode_setting_bool"
+    bool_value: true
   }
   config {
     key: "ims.ipv4_sip_mtu_size_cellular_int"
@@ -127,7 +131,19 @@ configs {
       item: "source=GERAN|UTRAN|EUTRAN|NGRAN|IWLAN|UNKNOWN, target=GERAN|UTRAN|EUTRAN|NGRAN|IWLAN, type=disallowed, capabilities=IMS|EIMS|MMS|XCAP|CBS"
     }
   }
+  config {
+    key: "rtt_downgrade_supported_bool"
+    bool_value: true
+  }
+  config {
+    key: "rtt_supported_bool"
+    bool_value: true
+  }
+  config {
+    key: "rtt_supported_while_roaming_bool"
+    bool_value: true
+  }
 }
 last_updated {
-  seconds: 1739493478
+  seconds: 1746613928
 }

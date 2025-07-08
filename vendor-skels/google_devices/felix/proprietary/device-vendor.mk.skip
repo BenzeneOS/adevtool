@@ -107,7 +107,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.crypto.metadata_init_delete_all_keys.enabled=true \
     ro.vendor.touch.dump.sys=/sys/class/spi_master/spi6/spi6.0 \
     ro.vendor.touch.dump.proc=/proc/fts_ext/driver_test \
-    ro.vendor.build.svn=71 \
+    ro.vendor.build.svn=72 \
     ro.vendor.vibrator.hal.long.frequency.shift=0 \
     ro.vendor.vibrator.hal.gpio.num=44 \
     ro.vendor.vibrator.hal.gpio.shift=2 \
@@ -223,7 +223,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.audio.spatializer_transaural_enabled_default=false \
     persist.vendor.audio.spatializer.speaker_enabled=true \
     ro.vendor.bluetooth.evb_bdaddr=22:22:22:33:44:55 \
-    ro.build.version.emergency_base_os=google/felix/felix:16/BP2A.250605.031/13467367:user/release-keys \
     ro.gms.dck.eligible_wcc=3 \
     ro.gms.dck.se_capability=1 \
     persist.vendor.audio.cca.enabled=false \
@@ -238,7 +237,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.camera.allow_sensor_binning_aspect_ratio_to_override_itp_output=false \
     vendor.camera.support_specific_stream_aspect_ratio=0.75
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/felix/felix:16/BP2A.250605.031.A2/13578606:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/felix/felix:16/BP2A.250705.008/13578956:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \
