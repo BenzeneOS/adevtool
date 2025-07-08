@@ -453,6 +453,9 @@ filters:
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc313-mnc790 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc440-mnc20 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - com.android.networkstack/NetworkStackConfig:bool/config_dhcp_client_hostname = true
+      - com.android.nfc/NfcCustomization:bool/enable_nfc_url_open_dialog|mcc204-mnc4 = true
+      - com.android.nfc/NfcCustomization:bool/enable_nfc_url_open_dialog|mcc310-mnc4 = true
+      - com.android.nfc/NfcCustomization:bool/enable_nfc_url_open_dialog|mcc311-mnc480 = true
       - com.android.phone:array/thermal_mitigation_allowlisted_packages = com.google.android.connectivitythermalpowermanager
       - com.android.phone:bool/config_apn_expand|* # legacy unused option
       - com.android.phone:bool/config_carrier_settings_enable|* # legacy unused overlay

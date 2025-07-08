@@ -366,12 +366,6 @@ overlays/PixelNfcOverlayCommon/Android.bp: b79fcbfa65d342c80e3ec6b1ab033bf0e1cea
 overlays/PixelNfcOverlayCommon/AndroidManifest.xml: 109756d19a612303a8b28769c744c1e6e7d01f6695a012f854715cfe8abbe502
 overlays/PixelNfcOverlayCommon/res: dir
 overlays/PixelNfcOverlayCommon/res/values: dir
-overlays/PixelNfcOverlayCommon/res/values-mcc204-mnc4: dir
-overlays/PixelNfcOverlayCommon/res/values-mcc204-mnc4/values.xml: 9a9cdde06a4dce876b559e6d4092f9dce6ff754e0dff30401b3a537f1eb610d7
-overlays/PixelNfcOverlayCommon/res/values-mcc310-mnc4: dir
-overlays/PixelNfcOverlayCommon/res/values-mcc310-mnc4/values.xml: 9a9cdde06a4dce876b559e6d4092f9dce6ff754e0dff30401b3a537f1eb610d7
-overlays/PixelNfcOverlayCommon/res/values-mcc311-mnc480: dir
-overlays/PixelNfcOverlayCommon/res/values-mcc311-mnc480/values.xml: 9a9cdde06a4dce876b559e6d4092f9dce6ff754e0dff30401b3a537f1eb610d7
 overlays/PixelNfcOverlayCommon/res/values/values.xml: 18cbeeaeae876b332af8673791fd71eb2de82831b215951b46930e0ae2182a58
 overlays/PixelNfcOverlayTokay: dir
 overlays/PixelNfcOverlayTokay/Android.bp: 70ec3ddc3774025fe45ce4d5c63ee5711ed38d0c75210e1b76ee2ed94341f788

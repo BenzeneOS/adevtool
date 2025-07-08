@@ -560,9 +560,6 @@ filters:
       - com.android.nfc/NfcCustomization:array/antenna_y|*
       - com.android.nfc/NfcCustomization:array/config_skuSupportsSecureNfc|*
       - com.android.nfc/NfcCustomization:bool/device_foldable|*
-      - com.android.nfc/NfcCustomization:bool/enable_nfc_url_open_dialog|mcc204-mnc4 = true # TODO consider unconditionally enabling this
-      - com.android.nfc/NfcCustomization:bool/enable_nfc_url_open_dialog|mcc310-mnc4 = true
-      - com.android.nfc/NfcCustomization:bool/enable_nfc_url_open_dialog|mcc311-mnc480 = true
       - com.android.nfc/NfcCustomization:bool/enable_secure_nfc_support = true
       - com.android.nfc/NfcCustomization:bool/nfc_observe_mode_supported = true
       - com.android.nfc/NfcCustomization:bool/nfc_proprietary_getcaps_supported = true
