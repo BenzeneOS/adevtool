@@ -65,7 +65,7 @@ export function parseSystemState(json: string) {
   return diskState as SystemState
 }
 
-export async function collectSystemState(device: string, outRoot: string, aapt2Path: string) {
+export async function collectSystemState(device: string, outRoot: string) {
   let systemRoot = `${outRoot}/target/product/${device}`
   let moduleInfoPath = `${systemRoot}/module-info.json`
   let state = {

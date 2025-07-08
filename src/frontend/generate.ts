@@ -37,7 +37,7 @@ export interface PropResults {
   missingOtaParts: Array<string>
 }
 
-export async function loadCustomState(config: DeviceConfig, aapt2Path: string, customSrc: string) {
+export async function loadCustomState(config: DeviceConfig, customSrc: string) {
   if ((await fs.stat(customSrc)).isFile()) {
     return parseSystemState(await readFile(customSrc))
   }
@@ -48,7 +48,7 @@ export async function loadCustomState(config: DeviceConfig, aapt2Path: string, c
   }
 
   // Otherwise, assume it's AOSP build output
-  return await collectSystemState(config.device.name, customSrc, aapt2Path)
+  return await collectSystemState(config.device.name, customSrc)
 }
 
 export async function enumerateFiles(

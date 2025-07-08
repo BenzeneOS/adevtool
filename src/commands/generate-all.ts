@@ -77,7 +77,7 @@ const doDevice = (
     }
 
     // customSrc can point to a (directory containing) system state JSON or out/
-    let customState = await loadCustomState(config, aapt2Path, customSrc)
+    let customState = await loadCustomState(config, customSrc)
 
     // Each step will modify this. Key = combined part path
     let namedEntries = new Map<string, BlobEntry>()

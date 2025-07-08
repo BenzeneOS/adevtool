@@ -18,11 +18,6 @@ export default class CollectState extends Command {
 
   static flags = {
     help: Flags.help({ char: 'h' }),
-    aapt2: Flags.string({
-      char: 'a',
-      description: 'path to aapt2 executable',
-      default: 'out/host/linux-x86/bin/aapt2',
-    }),
     outRoot: Flags.string({ char: 'r', description: 'path to AOSP build output directory (out/)', default: 'out' }),
     parallel: Flags.boolean({
       char: 'p',
@@ -48,7 +43,7 @@ export default class CollectState extends Command {
 
   async run() {
     let {
-      flags: { aapt2: aapt2Path, devices, outRoot, parallel, outPath, rebuild, allowOutReuse },
+      flags: { devices, outRoot, parallel, outPath, rebuild, allowOutReuse },
     } = await this.parse(CollectState)
 
     let configs = await loadDeviceConfigs(devices)
@@ -76,7 +71,7 @@ export default class CollectState extends Command {
           assert(res.status === 0, `make-prep-build.sh failed, exit code ${res.status}`)
         }
 
-        let state = await collectSystemState(config.device.name, outRoot, aapt2Path)
+        let state = await collectSystemState(config.device.name, outRoot)
 
         // Write
         let devicePath = isDir ? `${outPath}/${config.device.name}.json` : outPath
