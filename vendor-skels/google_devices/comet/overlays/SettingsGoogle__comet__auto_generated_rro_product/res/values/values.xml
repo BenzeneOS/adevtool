@@ -52,6 +52,7 @@
     <bool name="config_hspa_data_distinguishable">true</bool>
     <bool name="config_psim_conversion_menu_enabled">true</bool>
     <bool name="config_screen_protector_notification_v2">true</bool>
+    <color name="icon_accent">@*android:color/accent_device_default_light</color>
     <dimen name="config_activity_embed_split_ratio">0.5</dimen>
     <dimen name="immobile_dialog_height">246.0dp</dimen>
     <dimen name="immobile_dialog_width">406.0dp</dimen>

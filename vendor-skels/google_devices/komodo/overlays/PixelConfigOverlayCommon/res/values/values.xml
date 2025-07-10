@@ -9,6 +9,8 @@
     <bool name="config_supportsMicToggle">true</bool>
     <bool name="config_swipe_up_gesture_setting_available">true</bool>
     <bool name="config_systemCaptionsServiceCallsEnabled">true</bool>
+    <color name="error_color_device_default_dark">#ffec928e</color>
+    <color name="error_color_device_default_light">#ffb3261e</color>
     <dimen name="config_bottomDialogCornerRadius">16.0dp</dimen>
     <dimen name="config_buttonCornerRadius">4.0dp</dimen>
     <dimen name="config_dialogCornerRadius">28.0dp</dimen>

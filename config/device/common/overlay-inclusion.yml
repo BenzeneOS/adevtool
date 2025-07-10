@@ -254,6 +254,9 @@ filters:
       - android:color/camera_privacy_light_day|*
       - android:color/camera_privacy_light_dusk|*
       - android:color/camera_privacy_light_night|*
+      - android:color/config_progress_background_tint|*
+      - android:color/error_color_device_default_dark|*
+      - android:color/error_color_device_default_light|*
       - android:dimen/config_bottomDialogCornerRadius = 16.0dp
       - android:dimen/config_buttonCornerRadius = 4.0dp
       - android:dimen/config_dialogCornerRadius = 28.0dp
@@ -700,6 +703,7 @@ filters:
       - com.android.settings:bool/dream_setup_supported = true
       - com.android.settings:bool/enrollment_message_display_controller_flag|*
       - com.android.settings:bool/has_dock_settings = true
+      - com.android.settings:color/icon_accent|*
       - com.android.settings:dimen/biometric_auth_pattern_view_size|*
       - com.android.settings:dimen/biometric_enroll_introduction_message_padding_bottom|*
       - com.android.settings:dimen/biometric_enroll_introduction_title_padding_vertical|*
