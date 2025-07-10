@@ -27,8 +27,6 @@
     <bool name="config_deskDockEnablesAccelerometer">false</bool>
     <bool name="config_emergencyGestureEnabled">false</bool>
     <bool name="config_enableProximityService">true</bool>
-    <bool name="config_isDesktopModeDevOptionSupported">true</bool>
-    <bool name="config_isDesktopModeSupported">false</bool>
     <bool name="config_keyboardVibrationSettingsSupported">true</bool>
     <bool name="config_performantAuthDefault">true</bool>
     <bool name="config_reverseDefaultRotation">true</bool>

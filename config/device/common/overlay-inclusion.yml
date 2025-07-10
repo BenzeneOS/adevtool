@@ -170,9 +170,6 @@ filters:
       - android:bool/config_is_powerbutton_fps = true
       - android:bool/config_isCameraCompatControlForStretchedIssuesEnabled = true
       - android:bool/config_isCompatFakeFocusEnabled = true
-      - android:bool/config_isDesktopModeDevOptionSupported = true
-      - android:bool/config_isDesktopModeSupported = false
-      - android:bool/config_isDesktopModeSupported = true
       - android:bool/config_isWindowManagerCameraCompatSplitScreenAspectRatioEnabled = true
       - android:bool/config_isWindowManagerCameraCompatTreatmentEnabled = true
       - android:bool/config_keepDreamingWhenUnplugging = true

@@ -135,6 +135,9 @@ filters:
       - android:bool/config_enablePrimaryLocationTimeZoneProvider = true
       - android:bool/config_enableSecondaryLocationTimeZoneProvider = false
       - android:bool/config_honor_data_retry_timer_for_emergency_network = true
+      - android:bool/config_isDesktopModeDevOptionSupported = true
+      - android:bool/config_isDesktopModeSupported = false
+      - android:bool/config_isDesktopModeSupported = true
       - android:bool/config_pinnerCameraApp = true
       - android:bool/config_profcollectReportUploaderEnabled = true
       - android:bool/config_repairModeSupported = true
