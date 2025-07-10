@@ -114,7 +114,6 @@ filters:
       - android:array/config_trustedAccessibilityServices = com.google.android.apps.accessibility.voiceaccess/com.google.android.apps.accessibility.voiceaccess.JustSpeakService;com.google.android.accessibility.switchaccess/com.android.switchaccess.SwitchAccessService;com.android.systemui.accessibility.accessibilitymenu/com.android.systemui.accessibility.accessibilitymenu.AccessibilityMenuService;com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService
       - android:array/config_verizon_satellite_enabled_tagids|*
       - android:array/default_wallpaper_component_per_device_color|*
-      - android:array/pause_wallpaper_render_when_state_change = com.google.android.GoogleCamera
       - android:array/vendor_cross_profile_apps = com.google.android.googlequicksearchbox;com.google.android.inputmethod.latin;com.google.android.projection.gearhead;com.google.android.inputmethod.latin.dev;com.google.android.inputmethod.latin.canary
       - android:array/vendor_disallowed_apps_managed_device|*
       - android:array/vendor_disallowed_apps_managed_profile|*
@@ -136,7 +135,6 @@ filters:
       - android:bool/config_enablePrimaryLocationTimeZoneProvider = true
       - android:bool/config_enableSecondaryLocationTimeZoneProvider = false
       - android:bool/config_honor_data_retry_timer_for_emergency_network = true
-      - android:bool/config_pauseWallpaperRenderWhenStateChangeEnabled
       - android:bool/config_pinnerCameraApp = true
       - android:bool/config_profcollectReportUploaderEnabled = true
       - android:bool/config_repairModeSupported = true

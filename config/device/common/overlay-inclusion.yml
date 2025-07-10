@@ -90,6 +90,7 @@ filters:
       - android:array/fingerprint_acquired_vendor|*
       - android:array/fingerprint_error_vendor|*
       - android:array/non_removable_euicc_slots|*
+      - android:array/pause_wallpaper_render_when_state_change = com.google.android.GoogleCamera
       - android:array/vendor_required_attestation_certificates|*
       - android:array/wfcSpnFormats|*
       - android:bool/allow_clear_initial_attach_data_profile = true
