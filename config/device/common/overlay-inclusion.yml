@@ -245,7 +245,6 @@ filters:
       - android:bool/config_voice_capable = false
       - android:bool/config_volume_down_to_enter_silent = true
       - android:bool/config_volume_up_to_exit_silent = true
-      - android:bool/config_volumeHushGestureEnabled = false
       - android:bool/config_wifi_dual_band_support = true
       - android:bool/config_wifi_softap_ieee80211ac_supported = true
       - android:bool/config_windowManagerHalfFoldAutoRotateOverride = false

@@ -7,5 +7,4 @@
     <bool name="config_assistLongPressHomeEnabledDefault">false</bool>
     <bool name="config_assistTouchGestureEnabledDefault">false</bool>
     <bool name="config_pauseWallpaperRenderWhenStateChangeEnabled">true</bool>
-    <bool name="config_volumeHushGestureEnabled">false</bool>
 </resources>

@@ -160,7 +160,7 @@ filters:
       - android:bool/config_use_sim_language_file|mcc404-mnc1 = false
       - android:bool/config_useGnssHardwareProvider = false
       - android:bool/config_volumeAdjustmentForRemoteGroupSessions
-      - android:bool/config_volumeHushGestureEnabled
+      - android:bool/config_volumeHushGestureEnabled = false
       - android:color/config_progress_background_tint|*
       - android:color/error_color_device_default_dark|*
       - android:color/error_color_device_default_light|*
