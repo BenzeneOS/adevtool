@@ -62,6 +62,8 @@ export interface DeviceConfig {
   // Not part of the final config
   // includes: string[]
 
+  synthetic_overlays: SyntheticOverlaySpec[]
+
   filters: {
     props: Filters
     overlay_keys: Filters
@@ -75,6 +77,17 @@ export interface DeviceConfig {
     files: Filters
     deprivileged_apks: Filters
   }
+}
+
+// synthetic overlay is created by copying resources from a regular (non-overlay) package
+interface SyntheticOverlaySpec {
+  // Only the first available path will be used. This behavior was added to support packages that
+  // are stored under different paths across devices
+  sourcePaths: string[]
+  moduleName: string
+  targetPackage: string
+  targetName?: string
+  resourcesToInclude: Map<string, string[]>
 }
 
 interface DeviceListConfig {
@@ -122,6 +135,7 @@ const DEFAULT_CONFIG_BASE = {
     ota_firmware: true,
     products: true,
   },
+  synthetic_overlays: [],
   filters: {
     props: structuredClone(EMPTY_FILTERS),
     overlay_keys: structuredClone(EMPTY_FILTERS),

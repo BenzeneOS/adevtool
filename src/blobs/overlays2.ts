@@ -14,6 +14,7 @@ export async function processOverlays(config: DeviceConfig, dirs: VendorDirector
 
   let cmd = {
     unpackedOsImageDir: stockSrc,
+    syntheticOverlays: config.synthetic_overlays,
     pkgExclusionFilters: filtersToJson(config.filters.overlay_files),
     exclusionFilters: filtersToJson(config.filters.overlay_keys),
     inclusionFilters: filtersToJson(config.filters.overlay_inclusions),
