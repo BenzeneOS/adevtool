@@ -224,6 +224,8 @@ export default class GenerateFull extends Command {
       description: `do not replace carrier settings with updated ones from ${CARRIER_SETTINGS_DIR}`,
     }),
 
+    doNotDownloadCarrierSettings: Flags.boolean({}),
+
     ...WRAPPED_SOURCE_FLAGS,
     ...DEVICE_CONFIG_FLAGS,
   }
@@ -282,7 +284,7 @@ export default class GenerateFull extends Command {
         )
 
         if (!flags.doNotReplaceCarrierSettings) {
-          if (flags.updateSpec && config.device.has_cellular) {
+          if (flags.updateSpec && config.device.has_cellular && !flags.doNotDownloadCarrierSettings) {
             this.log(chalk.bold(`Downloading carrier settings updates`))
             const csUpdateConfig = await fetchUpdateConfig(config.device.name, config.device.build_id, false)
             await downloadAllConfigs(csUpdateConfig, getCarrierSettingsUpdatesDir(config), false)
