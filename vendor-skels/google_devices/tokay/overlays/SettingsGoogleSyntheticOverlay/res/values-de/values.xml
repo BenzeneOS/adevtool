@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s – vollständig geladen</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Vollständig geladen</string>
     <string name="charging_optimization_remaining_time_label">Spätestens um %1$s vollständig geladen</string>
+    <string name="touch_sensitivity_summary">Bei Verwendung eines Displayschutzes die Berührungsempfindlichkeit erhöhen und die Touchreaktion verbessern</string>
+    <string name="touch_sensitivity_title">Displayschutzmodus</string>
 </resources>

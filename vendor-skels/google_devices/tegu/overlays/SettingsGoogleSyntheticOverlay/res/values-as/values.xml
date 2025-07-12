@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s • চাৰ্জিং সম্পূৰ্ণ হৈছে</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">চাৰ্জিং সম্পূৰ্ণ হৈছে</string>
     <string name="charging_optimization_remaining_time_label">%1$sলৈকে চাৰ্জিং সম্পূৰ্ণ হ’ব</string>
+    <string name="touch_sensitivity_summary">স্পৰ্শৰ সংবেদনশীলতা বৃদ্ধি কৰক আৰু স্ক্ৰীনৰ সুৰক্ষা প্ৰদানকাৰী ব্যৱহাৰ কৰাৰ সময়ত স্পৰ্শ উন্নত কৰক</string>
+    <string name="touch_sensitivity_title">স্ক্ৰীনৰ সুৰক্ষা প্ৰদানকাৰী ম’ড</string>
 </resources>

@@ -4,11 +4,18 @@ synthetic_overlays:
     moduleName: SettingsGoogleSyntheticOverlay
     targetPackage: com.android.settings
     resourcesToInclude:
+      bool:
+        - config_show_smooth_display
+        - config_show_touch_sensitivity
+      integer:
+        - config_vibration_supported_intensity_levels
       string:
         - charging_optimization_charge_label
         - charging_optimization_reach_limit_charge_label
         - charging_optimization_reach_limit_remaining_time_label
         - charging_optimization_remaining_time_label
+        - touch_sensitivity_title
+        - touch_sensitivity_summary
 
   - sourcePaths:
       - product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk

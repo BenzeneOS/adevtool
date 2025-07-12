@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s: carregamento concluído</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Carregamento concluído</string>
     <string name="charging_optimization_remaining_time_label">Carregamento concluído à(s) %1$s</string>
+    <string name="touch_sensitivity_summary">Aumenta a sensibilidade do toque e melhora o toque quando usa um protetor de ecrã</string>
+    <string name="touch_sensitivity_title">Modo de protetor de ecrã</string>
 </resources>

@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - Цэнэглэж дууслаа</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Цэнэглэж дууслаа</string>
     <string name="charging_optimization_remaining_time_label">%1$s гэхэд цэнэглэж дуусна</string>
+    <string name="touch_sensitivity_summary">Дэлгэц хамгаалагчийг ашиглаж байх үед хүрэлтийн мэдрэгшлийг нэмж, хүрэлтийг сайжруулна уу</string>
+    <string name="touch_sensitivity_title">Дэлгэц хамгаалагч горим</string>
 </resources>

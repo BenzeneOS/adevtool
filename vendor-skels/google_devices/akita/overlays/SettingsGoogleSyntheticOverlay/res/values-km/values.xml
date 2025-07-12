@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - សាកថ្មពេញ</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">សាកថ្មពេញ</string>
     <string name="charging_optimization_remaining_time_label">សាកថ្មពេញត្រឹមម៉ោង %1$s</string>
+    <string name="touch_sensitivity_summary">បង្កើនកម្រិតរំញោចនឹងការ​ចុច និង​កែលម្អ​ការ​ចុច​នៅ​ពេល​ប្រើប្រាស់​កញ្ចក់​ការពារ​អេក្រង់</string>
+    <string name="touch_sensitivity_title">មុខងារ​កញ្ចក់​ការពារ​អេក្រង់</string>
 </resources>

@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - Imemaliza kuchaji</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Imemaliza kuchaji</string>
     <string name="charging_optimization_remaining_time_label">Itamaliza kuchaji kufikia saa %1$s</string>
+    <string name="touch_sensitivity_summary">Ongeza kiwango cha hisi unapogusa na uboreshe matumizi ya kugusa wakati una kilinda skrini</string>
+    <string name="touch_sensitivity_title">Hali ya ulinzi wa skrini</string>
 </resources>

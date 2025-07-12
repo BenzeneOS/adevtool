@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s – Încărcarea s-a încheiat</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Încărcarea s-a încheiat</string>
     <string name="charging_optimization_remaining_time_label">Încărcarea se încheie la %1$s</string>
+    <string name="touch_sensitivity_summary">Crește sensibilitatea și îmbunătățește răspunsul la atingere când folosești o protecție pentru ecran</string>
+    <string name="touch_sensitivity_title">Modul protecție pentru ecran</string>
 </resources>

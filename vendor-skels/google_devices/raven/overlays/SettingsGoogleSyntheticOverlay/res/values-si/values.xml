@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - ආරෝපණය අවසන්</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">ආරෝපණය අවසන්</string>
     <string name="charging_optimization_remaining_time_label">%1$s වන විට ආරෝපණය නිමයි</string>
+    <string name="touch_sensitivity_summary">තිර ආරක්ෂකයක් භාවිත කරන විට ස්පර්ශ සංවේදීතාව වැඩි කරන්න සහ ස්පර්ශය වැඩි දියුණු කරන්න</string>
+    <string name="touch_sensitivity_title">තිර ආරක්ෂක ප්‍රකාරය</string>
 </resources>

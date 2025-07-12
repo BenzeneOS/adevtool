@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - Şarjetmə tamamlandı</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Şarjetmə tamamlandı</string>
     <string name="charging_optimization_remaining_time_label">%1$s radələrinə qədər şarjetmə bitəcək</string>
+    <string name="touch_sensitivity_summary">Ekran qoruyucusu istifadə edərkən toxunma həssaslığını artırın və toxunuşu yaxşılaşdırın</string>
+    <string name="touch_sensitivity_title">Ekran qoruyucu rejimi</string>
 </resources>

@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s – Nabíjanie je ukončené</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Nabíjanie je ukončené</string>
     <string name="charging_optimization_remaining_time_label">Nabíjanie sa ukončí do %1$s</string>
+    <string name="touch_sensitivity_summary">Zvyšuje citlivosť dotyku a zlepšuje dotykové ovládanie, keď používate ochranu obrazovky</string>
+    <string name="touch_sensitivity_title">Režim s ochranou obrazovky</string>
 </resources>

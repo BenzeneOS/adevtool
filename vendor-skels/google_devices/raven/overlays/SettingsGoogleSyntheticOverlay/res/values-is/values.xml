@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - Hleðslu lokið</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Hleðslu lokið</string>
     <string name="charging_optimization_remaining_time_label">Hleðslu lýkur fyrir %1$s</string>
+    <string name="touch_sensitivity_summary">Þú getur aukið næmi fyrir snertingu og bætt snertingu með því að nota skjávörn</string>
+    <string name="touch_sensitivity_title">Skjávarnarstilling</string>
 </resources>

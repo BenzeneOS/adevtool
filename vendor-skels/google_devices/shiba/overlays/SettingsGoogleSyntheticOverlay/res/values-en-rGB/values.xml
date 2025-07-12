@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s – Done charging</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Done charging</string>
     <string name="charging_optimization_remaining_time_label">Done charging by %1$s</string>
+    <string name="touch_sensitivity_summary">Increase touch sensitivity and improve touch when using a screen protector</string>
+    <string name="touch_sensitivity_title">Screen protector mode</string>
 </resources>

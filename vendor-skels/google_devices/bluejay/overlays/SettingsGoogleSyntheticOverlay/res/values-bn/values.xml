@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - চার্জিং সম্পূর্ণ হয়েছে</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">চার্জিং সম্পূর্ণ হয়েছে</string>
     <string name="charging_optimization_remaining_time_label">%1$s-এ চার্জিং শেষ হবে</string>
+    <string name="touch_sensitivity_summary">স্পর্শ সংবেদনশীলতা বাড়ান এবং স্ক্রিন প্রোটেকটর ব্যবহার করার সময় স্পর্শ বোঝার ক্ষমতা উন্নত করুন</string>
+    <string name="touch_sensitivity_title">স্ক্রিন প্রোটেকটর মোড</string>
 </resources>

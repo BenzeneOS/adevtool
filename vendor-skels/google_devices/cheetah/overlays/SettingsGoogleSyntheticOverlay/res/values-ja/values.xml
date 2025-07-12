@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - 充電完了</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">充電完了</string>
     <string name="charging_optimization_remaining_time_label">%1$s までに充電完了</string>
+    <string name="touch_sensitivity_summary">タッチの感度を上げ、画面保護シートを使用しているときの操作性を改善します</string>
+    <string name="touch_sensitivity_title">画面保護シート モード</string>
 </resources>

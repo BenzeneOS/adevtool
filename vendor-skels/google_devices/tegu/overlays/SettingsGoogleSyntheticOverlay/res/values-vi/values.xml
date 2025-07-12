@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s – Sạc xong</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Sạc xong</string>
     <string name="charging_optimization_remaining_time_label">Sạc xong trước %1$s</string>
+    <string name="touch_sensitivity_summary">Tăng độ nhạy cảm ứng và cải thiện cảm ứng khi sử dụng miếng dán bảo vệ màn hình</string>
+    <string name="touch_sensitivity_title">Chế độ miếng dán bảo vệ màn hình</string>
 </resources>

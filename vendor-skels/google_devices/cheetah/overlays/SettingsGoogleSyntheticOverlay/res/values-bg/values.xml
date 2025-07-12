@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s – зареждането завърши</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Зареждането завърши</string>
     <string name="charging_optimization_remaining_time_label">Ще се зареди до %1$s</string>
+    <string name="touch_sensitivity_summary">Увеличаване на чувствителността и подобряване на точността при докосване, когато използвате защитен слой на екрана</string>
+    <string name="touch_sensitivity_title">Режим при защитен слой на екрана</string>
 </resources>

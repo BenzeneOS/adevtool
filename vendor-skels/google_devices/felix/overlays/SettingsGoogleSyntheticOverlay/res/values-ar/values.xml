@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">‫%1$s - تم الوصول إلى حد الشحن المطلوب</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">اكتمل الشحن</string>
     <string name="charging_optimization_remaining_time_label">سيكتمل الشحن بحلول %1$s</string>
+    <string name="touch_sensitivity_summary">يزيد حساسية اللمس ويحسّن الاستجابة باللمس في حال استخدام واقي شاشة.</string>
+    <string name="touch_sensitivity_title">"وضع \"واقي الشاشة\""</string>
 </resources>

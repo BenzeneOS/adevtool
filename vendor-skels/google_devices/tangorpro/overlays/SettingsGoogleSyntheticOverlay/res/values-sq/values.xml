@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - Karikimi përfundoi</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Karikimi përfundoi</string>
     <string name="charging_optimization_remaining_time_label">Karikimi përfundoi në %1$s</string>
+    <string name="touch_sensitivity_summary">Rrit ndjeshmërinë e prekjes dhe përmirëso prekjen kur përdor një mbrojtës ekrani</string>
+    <string name="touch_sensitivity_title">Modaliteti i mbrojtësit të ekranit</string>
 </resources>

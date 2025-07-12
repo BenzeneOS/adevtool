@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - 충전 완료</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">충전 완료</string>
     <string name="charging_optimization_remaining_time_label">%1$s까지 충전 완료</string>
+    <string name="touch_sensitivity_summary">화면 보호필름 사용 시 터치 민감도 및 터치 반응 개선</string>
+    <string name="touch_sensitivity_title">화면 보호필름 모드</string>
 </resources>

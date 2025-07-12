@@ -697,6 +697,8 @@ filters:
       - com.android.settings:bool/config_show_premium_sms = false
       - com.android.settings:bool/config_show_sim_info = false
       - com.android.settings:bool/config_show_sim_info = true
+      - com.android.settings:bool/config_show_smooth_display = true
+      - com.android.settings:bool/config_show_touch_sensitivity = true
       - com.android.settings:bool/config_show_wifi_hotspot_settings = false
       - com.android.settings:bool/config_showMin3G|*
       - com.android.settings:bool/default_allow_sensitive_lockscreen_content = false
@@ -746,6 +748,7 @@ filters:
       - com.android.settings:fraction/display_density_max_scale|*
       - com.android.settings:integer/config_activity_embed_split_min_cur_dp|*
       - com.android.settings:integer/config_udfpsEnrollProgressBar|*
+      - com.android.settings:integer/config_vibration_supported_intensity_levels = 3
       - com.android.settings:integer/config_whenToStartHubModeDefault|*
       - com.android.settings:integer/enrollment_collect_time|*
       - com.android.settings:integer/enrollment_help_minimum_time_display|*
@@ -877,6 +880,8 @@ filters:
       - com.android.settings:string/suggested_fingerprint_lock_settings_title|*
       - com.android.settings:string/tether_settings_title_all|*
       - com.android.settings:string/tethering_footer_info|*
+      - com.android.settings:string/touch_sensitivity_summary|*
+      - com.android.settings:string/touch_sensitivity_title|*
       - com.android.settings:string/unlock_disable_frp_warning_content_password_face_fingerprint|*
       - com.android.settings:string/unlock_disable_frp_warning_content_password_fingerprint|*
       - com.android.settings:string/unlock_disable_frp_warning_content_pattern_face_fingerprint|*

@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - चार्ज पूरा भयो</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">चार्ज पूरा भयो</string>
     <string name="charging_optimization_remaining_time_label">%1$s सम्ममा पूरा चार्ज हुन्छ</string>
+    <string name="touch_sensitivity_summary">स्क्रिन प्रोटेक्टर प्रयोग गर्दा टच सेन्सिटिभिटी बढाउनुहोस् र टचले अझ राम्रोसँग काम गर्ने बनाउनुहोस्</string>
+    <string name="touch_sensitivity_title">स्क्रिन प्रोटेक्टर मोड</string>
 </resources>

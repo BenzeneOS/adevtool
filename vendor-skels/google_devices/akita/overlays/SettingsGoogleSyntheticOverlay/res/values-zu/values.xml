@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - Iqedile ukushaja</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Iqedile ukushaja</string>
     <string name="charging_optimization_remaining_time_label">Iqedile ukushaja ngo-%1$s</string>
+    <string name="touch_sensitivity_summary">Nyusa ukuzwela kokuthinta futhi uthuthukise ukuthinta lapho usebenzisa isivikeli sesikrini</string>
+    <string name="touch_sensitivity_title">Imodi yesivikeli sesikrini</string>
 </resources>

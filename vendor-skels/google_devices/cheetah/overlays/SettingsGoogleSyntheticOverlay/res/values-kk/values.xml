@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s – зарядталып болды.</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Зарядталып болды.</string>
     <string name="charging_optimization_remaining_time_label">Сағат %1$s шамасында зарядталып бітеді.</string>
+    <string name="touch_sensitivity_summary">Экран қорғанышын пайдаланған кезде, сенсорлық сезгіштікті арттыру</string>
+    <string name="touch_sensitivity_title">Экран қорғанышы режимі</string>
 </resources>

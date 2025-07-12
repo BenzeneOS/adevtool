@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">‫%1$s - شارژ کامل شد</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">شارژ کامل شد</string>
     <string name="charging_optimization_remaining_time_label">شارژ تا %1$s تمام می‌شود</string>
+    <string name="touch_sensitivity_summary">افزایش حساسیت لمس و بهبود لمس هنگام استفاده از محافظ صفحه‌نمایش</string>
+    <string name="touch_sensitivity_title">حالت محافظ صفحه‌نمایش</string>
 </resources>

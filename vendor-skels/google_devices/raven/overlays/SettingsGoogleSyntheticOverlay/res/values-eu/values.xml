@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - Guztiz kargatu da</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Guztiz kargatu da</string>
     <string name="charging_optimization_remaining_time_label">Ordu honetan egongo da guztiz kargatuta: %1$s</string>
+    <string name="touch_sensitivity_summary">Handitu ukipen-sentikortasuna eta hobetu ukipena pantaila babesteko osagarri bat erabiltzean</string>
+    <string name="touch_sensitivity_title">Pantaila babesteko osagarriaren modua</string>
 </resources>

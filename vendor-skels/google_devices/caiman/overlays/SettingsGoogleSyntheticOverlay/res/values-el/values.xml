@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s – Η φόρτιση ολοκληρώθηκε</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Η φόρτιση ολοκληρώθηκε</string>
     <string name="charging_optimization_remaining_time_label">Ολοκλήρωση φόρτισης έως τις %1$s</string>
+    <string name="touch_sensitivity_summary">Αυξήστε την ευαισθησία αφής και βελτιώστε την αφή όταν χρησιμοποιείτε προστατευτικό οθόνης</string>
+    <string name="touch_sensitivity_title">Λειτουργία προστατευτικού οθόνης</string>
 </resources>

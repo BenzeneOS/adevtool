@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - Pengecasan selesai</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Pengecasan selesai</string>
     <string name="charging_optimization_remaining_time_label">Pengecasan selesai pada %1$s</string>
+    <string name="touch_sensitivity_summary">Tingkatkan kepekaan sentuhan dan tingkatkan sentuhan semasa menggunakan pelindung skrin</string>
+    <string name="touch_sensitivity_title">Mod pelindung skrin</string>
 </resources>

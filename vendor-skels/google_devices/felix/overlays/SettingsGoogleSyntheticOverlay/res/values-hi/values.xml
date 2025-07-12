@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - बैटरी चार्ज हो गई है</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">बैटरी चार्ज हो गई है</string>
     <string name="charging_optimization_remaining_time_label">%1$s तक बैटरी चार्ज हो जाएगी</string>
+    <string name="touch_sensitivity_summary">स्क्रीन प्राेटेक्टर का इस्तेमाल करके टच सेंसिटिविटी बढ़ाएं और टच की सुविधा को बेहतर बनाएं</string>
+    <string name="touch_sensitivity_title">स्क्रीन प्राेटेक्टर मोड</string>
 </resources>

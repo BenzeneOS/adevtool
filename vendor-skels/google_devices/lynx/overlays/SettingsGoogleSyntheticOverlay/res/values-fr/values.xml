@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - Fin de la recharge</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Fin de la recharge</string>
     <string name="charging_optimization_remaining_time_label">Fin de la recharge dans %1$s</string>
+    <string name="touch_sensitivity_summary">"Augmenter la sensibilité tactile et améliorer le toucher quand une protection d'écran est utilisée"</string>
+    <string name="touch_sensitivity_title">"Mode Protection d'écran"</string>
 </resources>

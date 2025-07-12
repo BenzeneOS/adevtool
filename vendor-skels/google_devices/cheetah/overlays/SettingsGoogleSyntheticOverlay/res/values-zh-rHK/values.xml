@@ -4,4 +4,6 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - 完成充電</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">完成充電</string>
     <string name="charging_optimization_remaining_time_label">%1$s 前充電完成</string>
+    <string name="touch_sensitivity_summary">當使用螢幕保護貼時提升觸控敏感度，並改善觸控回應效果</string>
+    <string name="touch_sensitivity_title">螢幕保護貼模式</string>
 </resources>
