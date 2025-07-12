@@ -1,4 +1,0 @@
-require board=barbet
-
-require version-bootloader=b9-0.6-10898944
-require version-baseband=g7250-00299-240229-B-11514324
