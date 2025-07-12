@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">carga, límite, optimización da carga, límite de carga</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">Para axudar a aumentar a vida útil da batería do teléfono, esta só se cargará ata o {batteryLimitLevel} %. Cargarase ata o 100 % unha vez cada unha ou dúas semanas para manter a precisión dos informes do nivel da batería.</string>
+    <string name="charging_optimization_summary_charge_limit">Limitar ao {batteryLimitLevel} %</string>
+    <string name="charging_optimization_summary_off">Opción desactivada</string>
+    <string name="charging_optimization_title">Optimización da carga</string>
+</resources>

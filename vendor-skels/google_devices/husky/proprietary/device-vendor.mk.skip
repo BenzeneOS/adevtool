@@ -762,7 +762,9 @@ PRODUCT_PACKAGES += \
     SettingsGoogle__husky__auto_generated_rro_product \
     SettingsGoogle__husky__auto_generated_rro_vendor \
     SettingsGoogleHuskyOverlay \
+    SettingsGoogleSyntheticOverlay \
     SettingsHuskyOverlay \
+    SettingsIntelligenceGoogleSyntheticOverlay \
     SettingsProvider__husky__auto_generated_rro_product \
     ShannonIms \
     ShannonRcs \
@@ -772,6 +774,7 @@ PRODUCT_PACKAGES += \
     system_signal_hub \
     SystemUIGoogle__husky__auto_generated_rro_product \
     SystemUIGoogle__husky__auto_generated_rro_vendor \
+    SystemUIGoogleSyntheticOverlay \
     SystemUIGXOverlay \
     TeleService__husky__auto_generated_rro_product \
     TeleService__husky__auto_generated_rro_vendor \

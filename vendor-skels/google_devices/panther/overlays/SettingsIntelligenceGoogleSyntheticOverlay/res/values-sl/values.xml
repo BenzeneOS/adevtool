@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">polnjenje, omejitev, optimizacija polnjenja, meja polnjenja</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">Zaradi podaljšanja življenjske dobe baterije se bo baterija telefona napolnila samo na {batteryLimitLevel} %. Telefon se bo enkrat na en do dva tedna napolnil na 100 %, da bo raven napolnjenosti baterije še naprej natančno prikazana.</string>
+    <string name="charging_optimization_summary_charge_limit">Omeji na {batteryLimitLevel} %</string>
+    <string name="charging_optimization_summary_off">Izklopljeno</string>
+    <string name="charging_optimization_title">Optimizacija polnjenja</string>
+</resources>

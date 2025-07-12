@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">φόρτιση, όριο, βελτιστοποίηση φόρτισης, όριο φόρτισης</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">Για την επέκταση της διάρκειας ζωής της μπαταρίας, η μπαταρία του τηλεφώνου σας θα φορτίζει μόνο έως το {batteryLimitLevel}%. Το τηλέφωνο θα φορτίζεται στο 100% μία φορά κάθε μία έως δύο εβδομάδες, για να διατηρείται η ακρίβεια των αναφορών για το επίπεδο της μπαταρίας.</string>
+    <string name="charging_optimization_summary_charge_limit">Περιορισμός στο {batteryLimitLevel}%</string>
+    <string name="charging_optimization_summary_off">Ανενεργή</string>
+    <string name="charging_optimization_title">Βελτιστοποίηση φόρτισης</string>
+</resources>

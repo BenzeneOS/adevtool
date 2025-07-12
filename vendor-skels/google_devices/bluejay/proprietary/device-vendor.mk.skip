@@ -644,6 +644,8 @@ PRODUCT_PACKAGES += \
     SettingsGoogle__bluejay__auto_generated_rro_product \
     SettingsGoogle__bluejay__auto_generated_rro_vendor \
     SettingsGoogleBluejayOverlay \
+    SettingsGoogleSyntheticOverlay \
+    SettingsIntelligenceGoogleSyntheticOverlay \
     SettingsOverlayG1AZG \
     SettingsOverlayGB17L \
     SettingsOverlayGB62Z \
@@ -658,6 +660,7 @@ PRODUCT_PACKAGES += \
     sound_trigger.primary.gs101 \
     SystemUIGoogle__bluejay__auto_generated_rro_product \
     SystemUIGoogle__bluejay__auto_generated_rro_vendor \
+    SystemUIGoogleSyntheticOverlay \
     SystemUIGXOverlay \
     TeleService__bluejay__auto_generated_rro_product \
     TeleService__bluejay__auto_generated_rro_vendor \

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">ଚାର୍ଜିଂ, ସୀମା, ଚାର୍ଜିଂ ଅପ୍ଟିମାଇଜେସନ, ଚାର୍ଜ ସୀମା</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">ବେଟେରୀ ଲାଇଫସ୍ପାନକୁ ବଢ଼ାଇବାରେ ସାହାଯ୍ୟ କରିବା ପାଇଁ ଆପଣଙ୍କ ଫୋନ କେବଳ {batteryLimitLevel}% ବେଟେରୀ ପର୍ଯ୍ୟନ୍ତ ଚାର୍ଜ ହେବ। ବେଟେରୀ ଲେଭେଲ ରିପୋର୍ଟିଂ ସଠିକତା ଜାରି ରଖିବା ପାଇଁ ଆପଣଙ୍କ ଫୋନ ପ୍ରତି ଏକରୁ ଦୁଇ ସପ୍ତାହରେ ଥରେ 100% ଚାର୍ଜ ହେବ।</string>
+    <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}%ରେ ସୀମିତ</string>
+    <string name="charging_optimization_summary_off">ବନ୍ଦ ଅଛି</string>
+    <string name="charging_optimization_title">ଚାର୍ଜିଂ ଅପ୍ଟିମାଇଜେସନ</string>
+</resources>

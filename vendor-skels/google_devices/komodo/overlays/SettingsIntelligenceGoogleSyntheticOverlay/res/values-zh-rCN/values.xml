@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">充电, 限制, 充电优化, 充电限制, charging, limit, charging optimization, charge limit</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">为了延长电池寿命，您的手机将只会充电至 {batteryLimitLevel}%。您的手机每一到两周会有一次充电至 100%，以保持电池电量报告的准确性。</string>
+    <string name="charging_optimization_summary_charge_limit">充电上限为 {batteryLimitLevel}%</string>
+    <string name="charging_optimization_summary_off">已关闭</string>
+    <string name="charging_optimization_title">充电优化</string>
+</resources>

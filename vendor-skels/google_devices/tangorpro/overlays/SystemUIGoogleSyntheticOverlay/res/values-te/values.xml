@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$s సమయానికి ఛార్జింగ్ పూర్తయింది</string>
+    <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s సమయంలో ఛార్జింగ్ పూర్తవుతుంది</string>
+    <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • సమయానికి ఛార్జింగ్ పూర్తయింది</string>
+</resources>

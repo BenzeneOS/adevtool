@@ -3,6 +3,7 @@ includes:
   - overlay-inclusion.yml
   - overlay-removal.yml
   - removal.yml
+  - synthetic-overlays.yml
 
 device:
   vendor: google_devices

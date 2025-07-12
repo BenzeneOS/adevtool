@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">зарадка, абмежаванне, аптымізацыя зарадкі, абмежаванне зарадкі</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">У мэтах падаўжэння тэрміну службы акумулятара тэлефон будзе зараджацца толькі да {batteryLimitLevel}%. Тэлефон будзе зараджацца да 100% раз у 1-2 тыдні, каб захаваць дакладнасць адлюстравання ўзроўню зарада акумулятара.</string>
+    <string name="charging_optimization_summary_charge_limit">Зарадка да {batteryLimitLevel}%</string>
+    <string name="charging_optimization_summary_off">Выключана</string>
+    <string name="charging_optimization_title">Аптымізацыя зарадкі</string>
+</resources>

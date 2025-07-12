@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">пуњење, ограничење, оптимизација пуњења, ограничење пуњења</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">Да би се продужио век трајања батерије, батерија телефона се пуни само до {batteryLimitLevel}%. Телефон ће се напунити до 100% једном у периоду од једне до две недеље како би се одржала прецизност извештавања о нивоу батерије.</string>
+    <string name="charging_optimization_summary_charge_limit">Ограничено на {batteryLimitLevel}%</string>
+    <string name="charging_optimization_summary_off">Искључено</string>
+    <string name="charging_optimization_title">Оптимизација пуњења</string>
+</resources>

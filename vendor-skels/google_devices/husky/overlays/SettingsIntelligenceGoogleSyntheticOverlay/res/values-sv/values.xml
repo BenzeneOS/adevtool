@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">laddning, gräns, laddningsoptimering, laddningsgräns</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">Telefonen laddas endast till {batteryLimitLevel} % för att förlänga batteriets livslängd. Telefonen laddas till 100 % en gång varannan vecka för att säkerställa att batterinivårapporteringen är korrekt.</string>
+    <string name="charging_optimization_summary_charge_limit">Begränsa till {batteryLimitLevel} %</string>
+    <string name="charging_optimization_summary_off">Av</string>
+    <string name="charging_optimization_title">Laddningsoptimering</string>
+</resources>

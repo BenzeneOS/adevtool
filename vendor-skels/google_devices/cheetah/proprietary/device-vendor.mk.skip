@@ -702,6 +702,8 @@ PRODUCT_PACKAGES += \
     SettingsGoogle__cheetah__auto_generated_rro_vendor \
     SettingsGoogleCheetahOverlay \
     SettingsGoogleFutureCheetahOverlay \
+    SettingsGoogleSyntheticOverlay \
+    SettingsIntelligenceGoogleSyntheticOverlay \
     SettingsOverlayGE2AE \
     SettingsOverlayGFE4J \
     SettingsOverlayGP4BC \
@@ -715,6 +717,7 @@ PRODUCT_PACKAGES += \
     system_signal_hub \
     SystemUIGoogle__cheetah__auto_generated_rro_product \
     SystemUIGoogle__cheetah__auto_generated_rro_vendor \
+    SystemUIGoogleSyntheticOverlay \
     SystemUIGXOverlay \
     TeleService__cheetah__auto_generated_rro_product \
     TeleService__cheetah__auto_generated_rro_vendor \

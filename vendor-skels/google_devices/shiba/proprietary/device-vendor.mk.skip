@@ -745,6 +745,8 @@ PRODUCT_PACKAGES += \
     SettingsGoogle__shiba__auto_generated_rro_product \
     SettingsGoogle__shiba__auto_generated_rro_vendor \
     SettingsGoogleShibaOverlay \
+    SettingsGoogleSyntheticOverlay \
+    SettingsIntelligenceGoogleSyntheticOverlay \
     SettingsProvider__shiba__auto_generated_rro_product \
     SettingsShibaOverlay \
     ShannonIms \
@@ -755,6 +757,7 @@ PRODUCT_PACKAGES += \
     system_signal_hub \
     SystemUIGoogle__shiba__auto_generated_rro_product \
     SystemUIGoogle__shiba__auto_generated_rro_vendor \
+    SystemUIGoogleSyntheticOverlay \
     SystemUIGXOverlay \
     TeleService__shiba__auto_generated_rro_product \
     TeleService__shiba__auto_generated_rro_vendor \

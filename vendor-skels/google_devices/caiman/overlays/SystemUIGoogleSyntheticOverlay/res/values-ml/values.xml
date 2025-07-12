@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$s-നകം ചാർജ് ചെയ്യൽ പൂർത്തിയാകും</string>
+    <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s-നുള്ളിൽ പൂർണ്ണമായി ചാർജ് ചെയ്യും</string>
+    <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • ചാർജ്ജ് ചെയ്യൽ പൂർത്തിയായി</string>
+</resources>

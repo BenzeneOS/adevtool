@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">laai, limiet, laai-optimering, laailimiet</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">Om batteryleeftyd te help verleng, sal jou foon se battery net tot {batteryLimitLevel}% gelaai word. Jou foon sal een keer elke een tot twee weke tot 100% laai om die akkuraatheid van batteryvlakrapportering te handhaaf.</string>
+    <string name="charging_optimization_summary_charge_limit">Beperk tot {batteryLimitLevel}%</string>
+    <string name="charging_optimization_summary_off">Af</string>
+    <string name="charging_optimization_title">Laai-optimering</string>
+</resources>

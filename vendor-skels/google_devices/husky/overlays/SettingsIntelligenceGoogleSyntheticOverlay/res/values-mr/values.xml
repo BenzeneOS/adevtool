@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">चार्जिंग, मर्यादा, चार्जिंग ऑप्टिमायझेशन, चार्जिंगची मर्यादा</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">बॅटरीचा कालावधी वाढवण्यात मदत करण्यासाठी, तुमचा फोन फक्त {batteryLimitLevel}% बॅटरीपर्यंत चार्ज होईल. बॅटरीच्या पातळीचा अहवाल देण्याची अचूकता कायम ठेवण्यासाठी तुमचा फोन दर एक ते दोन आठवड्यांनी एकदा १००% चार्ज होईल.</string>
+    <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% पर्यंत मर्यादित करा</string>
+    <string name="charging_optimization_summary_off">बंद आहे</string>
+    <string name="charging_optimization_title">चार्जिंग ऑप्टिमायझेशन</string>
+</resources>

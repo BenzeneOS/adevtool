@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">充電, 限制, 充電最佳化, 充電限制</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">為延長電池壽命，手機只會充到 {batteryLimitLevel}%。手機每一到兩週會充電至 100% 一次，保持電池電量報告準確性。</string>
+    <string name="charging_optimization_summary_charge_limit">最多充到 {batteryLimitLevel}%</string>
+    <string name="charging_optimization_summary_off">關閉</string>
+    <string name="charging_optimization_title">充電最佳化</string>
+</resources>

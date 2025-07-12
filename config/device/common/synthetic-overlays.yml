@@ -1,0 +1,34 @@
+synthetic_overlays:
+  - sourcePaths:
+      - system_ext/priv-app/SettingsGoogle/SettingsGoogle.apk
+    moduleName: SettingsGoogleSyntheticOverlay
+    targetPackage: com.android.settings
+    resourcesToInclude:
+      string:
+        - charging_optimization_charge_label
+        - charging_optimization_reach_limit_charge_label
+        - charging_optimization_reach_limit_remaining_time_label
+        - charging_optimization_remaining_time_label
+
+  - sourcePaths:
+      - product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk
+    moduleName: SettingsIntelligenceGoogleSyntheticOverlay
+    targetPackage: com.android.settings
+    resourcesToInclude:
+      string:
+        - charge_limit_indexing_keywords
+        - charging_optimization_footer_charge_limit
+        - charging_optimization_summary_charge_limit
+        - charging_optimization_summary_off
+        - charging_optimization_title
+
+  - sourcePaths:
+      - system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+      - system_ext/priv-app/SystemUITitan/SystemUITitan.apk
+    moduleName: SystemUIGoogleSyntheticOverlay
+    targetPackage: com.android.systemui
+    resourcesToInclude:
+      string:
+        - keyguard_indication_charging_time_charge_limit
+        - keyguard_indication_charging_time_charge_limit_v1
+        - keyguard_indication_charging_time_reach_charge_limit

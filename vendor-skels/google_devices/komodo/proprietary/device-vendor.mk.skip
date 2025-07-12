@@ -798,6 +798,8 @@ PRODUCT_PACKAGES += \
     SettingsGoogle__komodo__auto_generated_rro_product \
     SettingsGoogle__komodo__auto_generated_rro_vendor \
     SettingsGoogleKomodoOverlay \
+    SettingsGoogleSyntheticOverlay \
+    SettingsIntelligenceGoogleSyntheticOverlay \
     SettingsKomodoOverlay \
     SettingsProvider__komodo__auto_generated_rro_product \
     SettingsProvider__komodo__auto_generated_rro_vendor \
@@ -810,6 +812,7 @@ PRODUCT_PACKAGES += \
     system_signal_hub \
     SystemUIGoogle__komodo__auto_generated_rro_product \
     SystemUIGoogle__komodo__auto_generated_rro_vendor \
+    SystemUIGoogleSyntheticOverlay \
     SystemUIGXOverlay \
     TeleService__komodo__auto_generated_rro_product \
     TeleService__komodo__auto_generated_rro_vendor \

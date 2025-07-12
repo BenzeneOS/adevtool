@@ -785,7 +785,9 @@ PRODUCT_PACKAGES += \
     sensors.usf \
     SettingsGoogle__tokay__auto_generated_rro_product \
     SettingsGoogle__tokay__auto_generated_rro_vendor \
+    SettingsGoogleSyntheticOverlay \
     SettingsGoogleTokayOverlay \
+    SettingsIntelligenceGoogleSyntheticOverlay \
     SettingsProvider__tokay__auto_generated_rro_product \
     SettingsProvider__tokay__auto_generated_rro_vendor \
     SettingsTokayOverlay \
@@ -798,6 +800,7 @@ PRODUCT_PACKAGES += \
     system_signal_hub \
     SystemUIGoogle__tokay__auto_generated_rro_product \
     SystemUIGoogle__tokay__auto_generated_rro_vendor \
+    SystemUIGoogleSyntheticOverlay \
     SystemUIGXOverlay \
     TeleService__tokay__auto_generated_rro_product \
     TeleService__tokay__auto_generated_rro_vendor \

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">lading, grense, ladeoptimalisering, ladegrense</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">For å øke brukstiden for batteriet lades telefonen bare til {batteryLimitLevel} % batteri. Telefonen lades til 100 % én til to ganger i uken for å opprettholde nøyaktige rapporter om batterinivået.</string>
+    <string name="charging_optimization_summary_charge_limit">Begrens til {batteryLimitLevel} %</string>
+    <string name="charging_optimization_summary_off">Av</string>
+    <string name="charging_optimization_title">Ladeoptimalisering</string>
+</resources>

@@ -659,6 +659,8 @@ PRODUCT_PACKAGES += \
     SettingsGoogle__raven__auto_generated_rro_product \
     SettingsGoogle__raven__auto_generated_rro_vendor \
     SettingsGoogleRavenOverlay \
+    SettingsGoogleSyntheticOverlay \
+    SettingsIntelligenceGoogleSyntheticOverlay \
     SettingsOverlayG8V0U \
     SettingsOverlayGF5KQ \
     SettingsOverlayGLU0G \
@@ -672,6 +674,7 @@ PRODUCT_PACKAGES += \
     sound_trigger.primary.gs101 \
     SystemUIGoogle__raven__auto_generated_rro_product \
     SystemUIGoogle__raven__auto_generated_rro_vendor \
+    SystemUIGoogleSyntheticOverlay \
     SystemUIGXOverlay \
     TeleService__raven__auto_generated_rro_product \
     TeleService__raven__auto_generated_rro_vendor \

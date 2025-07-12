@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">ચાર્જિંગ, મર્યાદા, ચાર્જિંગ ઑપ્ટિમાઇઝેશન, ચાર્જિંગની મર્યાદા</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">બૅટરીની આવરદા વધારવામાં સહાય કરવા માટે, તમારો ફોન માત્ર {batteryLimitLevel}% બૅટરી સુધી ચાર્જ થશે. બૅટરીના લેવલની જાણ કરવામાં સચોટતા જાળવવા માટે તમારો ફોન દર એકથી બે અઠવાડિયામાં એકવાર 100% ચાર્જ થશે.</string>
+    <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% સુધી મર્યાદિત કરો</string>
+    <string name="charging_optimization_summary_off">બંધ છે</string>
+    <string name="charging_optimization_title">ચાર્જિંગ ઑપ્ટિમાઇઝેશન</string>
+</resources>

@@ -704,6 +704,8 @@ PRODUCT_PACKAGES += \
     SettingsGoogle__lynx__auto_generated_rro_vendor \
     SettingsGoogleFutureLynxOverlay \
     SettingsGoogleLynxOverlay \
+    SettingsGoogleSyntheticOverlay \
+    SettingsIntelligenceGoogleSyntheticOverlay \
     SettingsOverlayG0DZQ \
     SettingsOverlayG82U8 \
     SettingsOverlayGHL1X \
@@ -718,6 +720,7 @@ PRODUCT_PACKAGES += \
     system_signal_hub \
     SystemUIGoogle__lynx__auto_generated_rro_product \
     SystemUIGoogle__lynx__auto_generated_rro_vendor \
+    SystemUIGoogleSyntheticOverlay \
     SystemUIGXOverlay \
     TeleService__lynx__auto_generated_rro_product \
     TeleService__lynx__auto_generated_rro_vendor \

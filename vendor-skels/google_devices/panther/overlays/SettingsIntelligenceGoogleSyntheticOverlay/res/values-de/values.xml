@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">Laden, Aufladen, Limit, Begrenzung, Ladeoptimierung, Optimierung, Ladelimit, Ladebegrenzung, Begrenzung beim Aufladen</string>
+    <string name="charging_optimization_footer_charge_limit">Der Akku deines Smartphones wird nur bis zu {batteryLimitLevel} % geladen, um seine Lebensdauer zu verlängern. Dein Smartphone wird einmal alle ein bis zwei Wochen vollständig aufgeladen, um die Genauigkeit der Akkustandsanzeige zu gewährleisten.</string>
+    <string name="charging_optimization_summary_charge_limit">Limit fürs Aufladen: {batteryLimitLevel} %</string>
+    <string name="charging_optimization_summary_off">Aus</string>
+    <string name="charging_optimization_title">Optimiertes Laden</string>
+</resources>

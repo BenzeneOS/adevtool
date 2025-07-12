@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">ricarica, limite, ottimizzazione ricarica, limite di ricarica</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">"Per prolungare la durata della batteria, il tuo smartphone si ricaricherà solo fino al livello di batteria {batteryLimitLevel}%. Lo smartphone si ricaricherà al 100% una volta ogni una o due settimane per mantenere l'accuratezza dei report sul livello batteria."</string>
+    <string name="charging_optimization_summary_charge_limit">Limita a {batteryLimitLevel}%</string>
+    <string name="charging_optimization_summary_off">Off</string>
+    <string name="charging_optimization_title">Ottimizzazione ricarica</string>
+</resources>

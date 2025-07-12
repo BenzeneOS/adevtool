@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_indication_charging_time_charge_limit">%2$s • چارجنگ %1$s تک مکمل ہو جائے گا</string>
+    <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s میں مکمل چارج ہو جائے گی</string>
+    <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • چارجنگ مکمل ہو گئی</string>
+</resources>

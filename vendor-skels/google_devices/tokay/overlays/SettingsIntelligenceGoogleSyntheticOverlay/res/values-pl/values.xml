@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">ładowanie, limit, optymalizacja ładowania, limit ładowania</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">Aby pomóc wydłużyć żywotność baterii, telefon będzie się ładował tylko do {batteryLimitLevel}%. Aby zapewnić dokładność podawania poziomu baterii, telefon będzie się ładował do 100% raz na 1–2 tygodnie.</string>
+    <string name="charging_optimization_summary_charge_limit">Ograniczaj ładowanie do {batteryLimitLevel}%</string>
+    <string name="charging_optimization_summary_off">Wyłączono</string>
+    <string name="charging_optimization_title">Optymalizacja ładowania</string>
+</resources>

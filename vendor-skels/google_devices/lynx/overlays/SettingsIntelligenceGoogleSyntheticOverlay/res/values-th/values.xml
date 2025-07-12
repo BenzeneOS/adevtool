@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">การชาร์จ, ขีดจำกัด, การเพิ่มประสิทธิภาพการชาร์จ, ขีดจำกัดการชาร์จ</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">โทรศัพท์ของคุณจะชาร์จแบตเตอรี่ถึงแค่ {batteryLimitLevel}% เท่านั้นเพื่อช่วยยืดอายุการใช้งานแบตเตอรี่ โทรศัพท์จะชาร์จถึง 100% ทุก 1-2 สัปดาห์เพื่อรักษาความแม่นยำในการรายงานระดับแบตเตอรี่</string>
+    <string name="charging_optimization_summary_charge_limit">ชาร์จไม่เกิน {batteryLimitLevel}%</string>
+    <string name="charging_optimization_summary_off">ปิด</string>
+    <string name="charging_optimization_title">การเพิ่มประสิทธิภาพการชาร์จ</string>
+</resources>

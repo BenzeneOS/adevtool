@@ -580,7 +580,9 @@ PRODUCT_PACKAGES += \
     SettingsGoogle__tangorpro__auto_generated_rro_product \
     SettingsGoogle__tangorpro__auto_generated_rro_vendor \
     SettingsGoogleNoTelephonyOverlay \
+    SettingsGoogleSyntheticOverlay \
     SettingsGoogleTangorproOverlay \
+    SettingsIntelligenceGoogleSyntheticOverlay \
     SettingsOverlayGTU8P \
     SettingsProvider__tangorpro__auto_generated_rro_product \
     SfpsOverlayTablet \
@@ -588,6 +590,7 @@ PRODUCT_PACKAGES += \
     sound_trigger.primary.gs201 \
     StorageManagerGoogle__tangorpro__auto_generated_rro_product \
     system_signal_hub \
+    SystemUIGoogleSyntheticOverlay \
     SystemUIGXOverlay \
     SystemUITitan__tangorpro__auto_generated_rro_product \
     SystemUITitan__tangorpro__auto_generated_rro_vendor \

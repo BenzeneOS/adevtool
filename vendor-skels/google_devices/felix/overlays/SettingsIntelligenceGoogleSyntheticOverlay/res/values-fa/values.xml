@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">شارژ، سطح، بهینه‌سازی شارژ، میزان شارژ</string>
+    <string name="charging_optimization_footer_charge_limit">برای کمک به افزایش طول عمر باتری، تلفن شما باتری را فقط تا {batteryLimitLevel}٪ شارژ خواهد کرد. تلفن شما هر یک تا دو هفته یک‌بار تا ۱۰۰٪ شارژ خواهد شد تا دقت گزارش سطح باتری حفظ شود.</string>
+    <string name="charging_optimization_summary_charge_limit">محدود کردن به {batteryLimitLevel}٪</string>
+    <string name="charging_optimization_summary_off">خاموش</string>
+    <string name="charging_optimization_title">بهینه‌سازی شارژ</string>
+</resources>

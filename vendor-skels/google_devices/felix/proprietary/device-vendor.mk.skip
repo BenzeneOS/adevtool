@@ -723,6 +723,8 @@ PRODUCT_PACKAGES += \
     SettingsGoogle__felix__auto_generated_rro_product \
     SettingsGoogle__felix__auto_generated_rro_vendor \
     SettingsGoogleOverlayFelix \
+    SettingsGoogleSyntheticOverlay \
+    SettingsIntelligenceGoogleSyntheticOverlay \
     SettingsOverlayG0B96 \
     SettingsOverlayG9FPL \
     SettingsProvider__felix__auto_generated_rro_product \
@@ -739,6 +741,7 @@ PRODUCT_PACKAGES += \
     system_signal_hub \
     SystemUIGoogle__felix__auto_generated_rro_product \
     SystemUIGoogle__felix__auto_generated_rro_vendor \
+    SystemUIGoogleSyntheticOverlay \
     SystemUIGXOverlay \
     TeleService__felix__auto_generated_rro_product \
     TeleService__felix__auto_generated_rro_vendor \

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_indication_charging_time_charge_limit">%2$s • Ferdig ladet innen %1$s</string>
+    <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Ferdig ladet om %1$s</string>
+    <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Ferdig ladet</string>
+</resources>

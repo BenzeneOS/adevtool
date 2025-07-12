@@ -782,6 +782,16 @@ filters:
       - com.android.settings:string/biometrics_unlock_set_unlock_password|*
       - com.android.settings:string/biometrics_unlock_set_unlock_pattern|*
       - com.android.settings:string/biometrics_unlock_set_unlock_pin|*
+      - com.android.settings:string/charge_limit_indexing_keywords|*
+      - com.android.settings:string/charging_optimization_charge_label|*
+      - com.android.settings:string/charging_optimization_footer_charge_limit|*
+      - com.android.settings:string/charging_optimization_footer_off|*
+      - com.android.settings:string/charging_optimization_reach_limit_charge_label|*
+      - com.android.settings:string/charging_optimization_reach_limit_remaining_time_label|*
+      - com.android.settings:string/charging_optimization_remaining_time_label|*
+      - com.android.settings:string/charging_optimization_summary_charge_limit|*
+      - com.android.settings:string/charging_optimization_summary_off|*
+      - com.android.settings:string/charging_optimization_title|*
       - com.android.settings:string/charging_sounds_title|*
       - com.android.settings:string/communal_settings_title|*
       - com.android.settings:string/config_limited_warranty_overlay_package_name|*
@@ -1080,6 +1090,9 @@ filters:
       - com.android.systemui:string/dock_setup_notification_title|*
       - com.android.systemui:string/doze_brightness_sensor_type = com.google.sensor.binned_brightness
       - com.android.systemui:string/fingerprint_dialog_touch_sensor|*
+      - com.android.systemui:string/keyguard_indication_charging_time_charge_limit_v1|*
+      - com.android.systemui:string/keyguard_indication_charging_time_charge_limit|*
+      - com.android.systemui:string/keyguard_indication_charging_time_reach_charge_limit|*
       - com.android.systemui:string/proximity_sensor_secondary_type|*
       - com.android.systemui:string/proximity_sensor_type|*
       - com.android.systemui:string/reminder_description|*

@@ -788,7 +788,9 @@ PRODUCT_PACKAGES += \
     sensors.usf \
     SettingsGoogle__tegu__auto_generated_rro_product \
     SettingsGoogle__tegu__auto_generated_rro_vendor \
+    SettingsGoogleSyntheticOverlay \
     SettingsGoogleTeguOverlay \
+    SettingsIntelligenceGoogleSyntheticOverlay \
     SettingsProvider__tegu__auto_generated_rro_product \
     SettingsProvider__tegu__auto_generated_rro_vendor \
     SettingsTeguOverlay \
@@ -801,6 +803,7 @@ PRODUCT_PACKAGES += \
     system_signal_hub \
     SystemUIGoogle__tegu__auto_generated_rro_product \
     SystemUIGoogle__tegu__auto_generated_rro_vendor \
+    SystemUIGoogleSyntheticOverlay \
     SystemUIGXOverlay \
     TeleService__tegu__auto_generated_rro_product \
     TeleService__tegu__auto_generated_rro_vendor \

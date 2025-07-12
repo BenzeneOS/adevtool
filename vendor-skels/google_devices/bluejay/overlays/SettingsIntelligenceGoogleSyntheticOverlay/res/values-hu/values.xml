@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">töltés, korlát, töltésoptimalizálás, töltési korlát</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">Az akkumulátor élettartamának meghosszabbítása érdekében a telefon akkumulátora csak {batteryLimitLevel}%-ra töltődik. Telefonja egy-két hetente 100%-ra töltődik fel, hogy továbbra is pontosan jelenthesse az akkumulátor töltöttségi szintjét.</string>
+    <string name="charging_optimization_summary_charge_limit">Korlátozás {batteryLimitLevel}%-ra</string>
+    <string name="charging_optimization_summary_off">Ki</string>
+    <string name="charging_optimization_title">Töltésoptimalizálás</string>
+</resources>

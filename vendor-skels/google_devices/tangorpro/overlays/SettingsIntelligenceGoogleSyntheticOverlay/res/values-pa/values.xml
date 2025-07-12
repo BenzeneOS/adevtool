@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">ਚਾਰਜ ਹੋ ਰਹੀ ਹੈ, ਸੀਮਾ, ਚਾਰਜਿੰਗ ਔਪਟੀਮਾਈਜ਼ੇਸ਼ਨ, ਚਾਰਜ ਕਰਨ ਦੀ ਤੈਅ ਸੀਮਾ</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">ਬੈਟਰੀ ਦੀ ਮਿਆਦ ਨੂੰ ਵਧਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰਨ ਲਈ, ਤੁਹਾਡੇ ਫ਼ੋਨ ਦੀ ਬੈਟਰੀ ਸਿਰਫ਼ {batteryLimitLevel}% ਤੱਕ ਚਾਰਜ ਹੋਵੇਗੀ। ਤੁਹਾਡਾ ਫ਼ੋਨ ਹਰੇਕ ਇੱਕ ਜਾਂ ਦੋ ਹਫ਼ਤਿਆਂ ਬਾਅਦ 100% ਚਾਰਜ ਹੋ ਜਾਵੇਗਾ, ਤਾਂ ਜੋ ਬੈਟਰੀ ਪੱਧਰ ਦੀ ਰਿਪੋਰਟਿੰਗ ਨੂੰ ਬਰਕਰਾਰ ਰੱਖਿਆ ਜਾ ਸਕੇ।</string>
+    <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% ਤੱਕ ਸੀਮਤ ਕਰੋ</string>
+    <string name="charging_optimization_summary_off">ਬੰਦ ਹੈ</string>
+    <string name="charging_optimization_title">ਚਾਰਜਿੰਗ ਔਪਟੀਮਾਈਜ਼ੇਸ਼ਨ</string>
+</resources>

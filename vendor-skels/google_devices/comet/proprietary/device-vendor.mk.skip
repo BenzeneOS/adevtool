@@ -817,6 +817,8 @@ PRODUCT_PACKAGES += \
     SettingsGoogle__comet__auto_generated_rro_product \
     SettingsGoogle__comet__auto_generated_rro_vendor \
     SettingsGoogleCometOverlay \
+    SettingsGoogleSyntheticOverlay \
+    SettingsIntelligenceGoogleSyntheticOverlay \
     SettingsProvider__comet__auto_generated_rro_product \
     SettingsProvider__comet__auto_generated_rro_vendor \
     SfpsOverlay \
@@ -832,6 +834,7 @@ PRODUCT_PACKAGES += \
     system_signal_hub \
     SystemUIGoogle__comet__auto_generated_rro_product \
     SystemUIGoogle__comet__auto_generated_rro_vendor \
+    SystemUIGoogleSyntheticOverlay \
     SystemUIGXOverlay \
     TeleService__comet__auto_generated_rro_product \
     TeleService__comet__auto_generated_rro_vendor \

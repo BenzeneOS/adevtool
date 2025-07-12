@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">recharge, limite, optimisation de recharge, limite de recharge</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">Pour prolonger la durée de vie de la pile de votre téléphone, elle se rechargera uniquement à {batteryLimitLevel} %. Votre téléphone se rechargera à 100 % environ une fois toutes les deux semaines pour maintenir la précision des rapports sur le niveau de charge de la pile.</string>
+    <string name="charging_optimization_summary_charge_limit">Limiter à {batteryLimitLevel} %</string>
+    <string name="charging_optimization_summary_off">Désactivée</string>
+    <string name="charging_optimization_title">Optimisation de la recharge</string>
+</resources>

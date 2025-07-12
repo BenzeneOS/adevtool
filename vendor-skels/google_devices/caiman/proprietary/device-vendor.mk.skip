@@ -799,6 +799,8 @@ PRODUCT_PACKAGES += \
     SettingsGoogle__caiman__auto_generated_rro_product \
     SettingsGoogle__caiman__auto_generated_rro_vendor \
     SettingsGoogleCaimanOverlay \
+    SettingsGoogleSyntheticOverlay \
+    SettingsIntelligenceGoogleSyntheticOverlay \
     SettingsProvider__caiman__auto_generated_rro_product \
     SettingsProvider__caiman__auto_generated_rro_vendor \
     ShannonIms \
@@ -810,6 +812,7 @@ PRODUCT_PACKAGES += \
     system_signal_hub \
     SystemUIGoogle__caiman__auto_generated_rro_product \
     SystemUIGoogle__caiman__auto_generated_rro_vendor \
+    SystemUIGoogleSyntheticOverlay \
     SystemUIGXOverlay \
     TeleService__caiman__auto_generated_rro_product \
     TeleService__caiman__auto_generated_rro_vendor \

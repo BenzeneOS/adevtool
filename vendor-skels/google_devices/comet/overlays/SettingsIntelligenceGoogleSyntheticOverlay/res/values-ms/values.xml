@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">Pengecasan, had, pengoptimuman pengecasan, had pengecasan</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">Untuk melanjutkan jangka hayat bateri, telefon anda hanya akan mengecas hingga tahap bateri {batteryLimitLevel}%. Telefon anda akan dicaj hingga 100% sekali setiap satu hingga dua minggu untuk mengekalkan ketepatan pelaporan tahap bateri.</string>
+    <string name="charging_optimization_summary_charge_limit">Hadkan kepada {batteryLimitLevel}%</string>
+    <string name="charging_optimization_summary_off">Mati</string>
+    <string name="charging_optimization_title">Pengoptimuman pengecasan</string>
+</resources>

@@ -773,6 +773,8 @@ PRODUCT_PACKAGES += \
     SettingsGoogle__akita__auto_generated_rro_product \
     SettingsGoogle__akita__auto_generated_rro_vendor \
     SettingsGoogleAkitaOverlay \
+    SettingsGoogleSyntheticOverlay \
+    SettingsIntelligenceGoogleSyntheticOverlay \
     SettingsProvider__akita__auto_generated_rro_product \
     ShannonIms \
     ShannonRcs \
@@ -782,6 +784,7 @@ PRODUCT_PACKAGES += \
     system_signal_hub \
     SystemUIGoogle__akita__auto_generated_rro_product \
     SystemUIGoogle__akita__auto_generated_rro_vendor \
+    SystemUIGoogleSyntheticOverlay \
     SystemUIGXOverlay \
     TeleService__akita__auto_generated_rro_product \
     TeleService__akita__auto_generated_rro_vendor \
