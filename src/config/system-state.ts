@@ -1,4 +1,3 @@
-import { listPart } from '../blobs/file-list'
 import { loadPartitionProps, PartitionProps } from '../blobs/props'
 import { loadPartVintfInfo, PartitionVintfInfo } from '../blobs/vintf'
 import { minimizeModules, parseModuleInfo, SoongModuleInfo } from '../build/soong-info'
@@ -6,6 +5,8 @@ import { parsePartContexts, SelinuxPartContexts } from '../selinux/contexts'
 import { withSpinner } from '../util/cli'
 import { readFile } from '../util/fs'
 import { ALL_SYS_PARTITIONS } from '../util/partitions'
+import path from 'path'
+import { updateMultiMap } from '../util/data'
 
 const STATE_VERSION = 5
 
@@ -76,16 +77,31 @@ export async function collectSystemState(device: string, outRoot: string) {
   } as SystemState
 
   // Files
-  await withSpinner('Enumerating files', async spinner => {
-    for (let partition of ALL_SYS_PARTITIONS) {
-      spinner.text = partition
+  let fileList = await readFile(path.join(systemRoot, 'allimages-file-list.txt'))
 
-      let files = await listPart(partition, systemRoot)
-      if (files == null) continue
+  let topLevelDirs = new Map<string, string[]>()
 
-      state.partitionFiles[partition] = files
+  let requiredPrefix = systemRoot + '/'
+  for (let filePath of fileList.split(' ')) {
+    if (!filePath.startsWith(requiredPrefix)) {
+      continue
     }
-  })
+    let relPath = filePath.substring(requiredPrefix.length)
+    let slashIdx = relPath.indexOf('/')
+    if (slashIdx < 0) {
+      // this is a top-level file
+      continue
+    }
+    let dir = relPath.substring(0, slashIdx)
+    updateMultiMap(topLevelDirs, dir, relPath)
+  }
+
+  for (let partition of ALL_SYS_PARTITIONS) {
+    let filePaths = topLevelDirs.get(partition)
+    if (filePaths !== undefined) {
+      state.partitionFiles[partition] = filePaths.sort((a, b) => a.localeCompare(b))
+    }
+  }
 
   // Props
   state.partitionProps = await withSpinner('Extracting properties', () => loadPartitionProps(systemRoot))

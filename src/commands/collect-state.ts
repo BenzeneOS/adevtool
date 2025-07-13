@@ -65,9 +65,12 @@ export default class CollectState extends Command {
           if (!allowOutReuse) {
             await spawnAsync('rm', ['-rf', path.join(OS_CHECKOUT_DIR, 'out')])
           }
-          let res = spawnSync(path.join(ADEVTOOL_DIR, 'scripts/make-prep-build.sh'), [config.device.name], {
+          let label = 'state collection build took'
+          console.time(label)
+          let res = spawnSync(path.join(ADEVTOOL_DIR, 'scripts/make-state-collection-build.sh'), [config.device.name], {
             stdio: 'inherit',
           })
+          console.timeEnd(label)
           assert(res.status === 0, `make-prep-build.sh failed, exit code ${res.status}`)
         }
 

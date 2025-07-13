@@ -8,4 +8,4 @@ export OFFICIAL_BUILD=true
 export BUILD_DATETIME=1751155200
 export BUILD_NUMBER=2025062900
 lunch ${1}-cur-user
-m
+m adevtool-state-collection-inputs
