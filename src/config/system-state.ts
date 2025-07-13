@@ -103,19 +103,11 @@ export async function collectSystemState(device: string, outRoot: string) {
     }
   }
 
-  // Props
-  state.partitionProps = await withSpinner('Extracting properties', () => loadPartitionProps(systemRoot))
-
+  state.partitionProps = await loadPartitionProps(systemRoot)
   // SELinux contexts
-  state.partitionSecontexts = await withSpinner('Extracting SELinux contexts', () => parsePartContexts(systemRoot))
-
-  // vintf info
-  state.partitionVintfInfo = await withSpinner('Extracting vintf manifests', () => loadPartVintfInfo(systemRoot))
-
-  // Module info
-  state.moduleInfo = await withSpinner('Parsing module info', async () =>
-    parseModuleInfo(await readFile(moduleInfoPath)),
-  )
+  state.partitionSecontexts = await parsePartContexts(systemRoot)
+  state.partitionVintfInfo = await loadPartVintfInfo(systemRoot)
+  state.moduleInfo = parseModuleInfo(await readFile(moduleInfoPath))
 
   return state
 }
