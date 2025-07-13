@@ -34,16 +34,15 @@ export default class CollectState extends Command {
       description: 'generate prep vendor module (same as generate-prep) and make an OS build before collecting state',
       default: false,
     }),
-    allowOutReuse: Flags.boolean({
-      description: 'if --rebuild is specified, do not remove out/ dir before making an OS build',
-      default: false,
+    disallowOutReuse: Flags.boolean({
+      description: 'if --rebuild is specified, remove out/ dir before making a state collection OS build',
     }),
     ...DEVICE_CONFIG_FLAGS,
   }
 
   async run() {
     let {
-      flags: { devices, outRoot, parallel, outPath, rebuild, allowOutReuse },
+      flags: { devices, outRoot, parallel, outPath, rebuild, disallowOutReuse },
     } = await this.parse(CollectState)
 
     let configs = await loadDeviceConfigs(devices)
@@ -62,7 +61,7 @@ export default class CollectState extends Command {
           let deviceImages = deviceImagesMap.get(getDeviceBuildId(config))
           assert(deviceImages !== undefined)
           await generatePrep(config, deviceImages.unpackedFactoryImageDir, config.device.build_id)
-          if (!allowOutReuse) {
+          if (disallowOutReuse) {
             await spawnAsync('rm', ['-rf', path.join(OS_CHECKOUT_DIR, 'out')])
           }
           let label = 'state collection build took'
