@@ -10,10 +10,7 @@ export async function forEachDevice<Device>(
   let isMultiDevice = devices.length > 1
   for (let device of devices) {
     if (isMultiDevice) {
-      console.log(`
-
-${chalk.bold(chalk.blueBright(deviceKey(device)))}
-`)
+      console.log(`${chalk.bold(chalk.blueBright(deviceKey(device)))}`)
     }
 
     let job = callback(device)
