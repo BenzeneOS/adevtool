@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="battery_missing_link_message">තව දැන ගන්න</string>
     <string name="charging_optimization_charge_label">%1$s - නිමයි, %2$s වන විට ආරෝපිතයි</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s - ආරෝපණය අවසන්</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">ආරෝපණය අවසන්</string>
     <string name="charging_optimization_remaining_time_label">%1$s වන විට ආරෝපණය නිමයි</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"&lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; හි දී Pixel ඇඟිලි සලකුණු අගුළු හැරීම පිළිබඳව තව දැන ගන්න."</string>
     <string name="touch_sensitivity_summary">තිර ආරක්ෂකයක් භාවිත කරන විට ස්පර්ශ සංවේදීතාව වැඩි කරන්න සහ ස්පර්ශය වැඩි දියුණු කරන්න</string>
     <string name="touch_sensitivity_title">තිර ආරක්ෂක ප්‍රකාරය</string>
 </resources>

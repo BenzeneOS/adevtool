@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="battery_missing_link_message">மேலும் அறிக</string>
     <string name="charging_optimization_charge_label">%1$s - சார்ஜிங் ஆன நேரம் %2$s</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s - சார்ஜாகிவிட்டது</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">சார்ஜாகிவிட்டது</string>
     <string name="charging_optimization_remaining_time_label">%1$sக்கு சார்ஜிங் நிறைவாகும்</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Pixel சாதனத்தின் ‘கைரேகை அன்லாக்’ அம்சம் குறித்து மேலும் அறிய &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; என்ற இணைப்பிற்குச் செல்லுங்கள்."</string>
     <string name="touch_sensitivity_summary">ஸ்கிரீன் கார்டைப் பயன்படுத்தும்போது தொடுதல் உணர்திறனை அதிகரிக்கும் மற்றும் தொடுதலை மேம்படுத்தும்</string>
     <string name="touch_sensitivity_title">ஸ்கிரீன் கார்டுப் பயன்முறை</string>
 </resources>

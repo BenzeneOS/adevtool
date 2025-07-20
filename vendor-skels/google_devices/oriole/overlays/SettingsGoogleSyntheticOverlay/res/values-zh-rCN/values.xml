@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="battery_missing_link_message">了解详情</string>
     <string name="charging_optimization_charge_label">%1$s - %2$s 前充满电</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s - 充电完成</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">充电完成</string>
     <string name="charging_optimization_remaining_time_label">%1$s 前充满电</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"如需详细了解 Pixel 指纹解锁，请访问 &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;。"</string>
     <string name="touch_sensitivity_summary">在使用屏幕保护膜时提升触控灵敏度和改进触控效果</string>
     <string name="touch_sensitivity_title">屏幕保护膜模式</string>
 </resources>

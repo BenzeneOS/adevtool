@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="battery_missing_link_message">Pata maelezo zaidi</string>
     <string name="charging_optimization_charge_label">%1$s - Itamaliza kuchaji kufikia saa %2$s</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s - Imemaliza kuchaji</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Imemaliza kuchaji</string>
     <string name="charging_optimization_remaining_time_label">Itamaliza kuchaji kufikia saa %1$s</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Pata maelezo zaidi kuhusu kufungua Pixel kwa alama ya kidole kwenye &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="touch_sensitivity_summary">Ongeza kiwango cha hisi unapogusa na uboreshe matumizi ya kugusa wakati una kilinda skrini</string>
     <string name="touch_sensitivity_title">Hali ya ulinzi wa skrini</string>
 </resources>

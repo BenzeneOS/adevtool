@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="battery_missing_link_message">Нэмэлт мэдээлэл авах</string>
     <string name="charging_optimization_charge_label">%1$s - %2$s гэхэд цэнэглэж дуусна</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s - Цэнэглэж дууслаа</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Цэнэглэж дууслаа</string>
     <string name="charging_optimization_remaining_time_label">%1$s гэхэд цэнэглэж дуусна</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"&lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; дээрээс Pixel-н Хурууны хээгээр түгжээ тайлах талаар нэмэлт мэдээлэл авна уу."</string>
     <string name="touch_sensitivity_summary">Дэлгэц хамгаалагчийг ашиглаж байх үед хүрэлтийн мэдрэгшлийг нэмж, хүрэлтийг сайжруулна уу</string>
     <string name="touch_sensitivity_title">Дэлгэц хамгаалагч горим</string>
 </resources>

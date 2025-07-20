@@ -9,13 +9,135 @@ synthetic_overlays:
         - config_show_touch_sensitivity
       integer:
         - config_vibration_supported_intensity_levels
+      raw:
+        - fingerprint_location_animation
+        - flip_camera_for_selfie_lottie
+        - lottie_adaptive_brightness
+        - lottie_lift_to_check_phone
+        - lottie_one_hand_mode
+        - lottie_prevent_ringing
+        - lottie_swipe_fingerprint
+        - lottie_swipe_for_notifications
+        - lottie_tap_to_check_phone
       string:
+        - battery_missing_link_message
         - charging_optimization_charge_label
         - charging_optimization_reach_limit_charge_label
         - charging_optimization_reach_limit_remaining_time_label
         - charging_optimization_remaining_time_label
-        - touch_sensitivity_title
+        - help_uri_5g_dsds
+        - help_uri_about
+        - help_uri_about_phone_v2
+        - help_uri_accessibility
+        - help_uri_accessibility_vibration
+        - help_uri_alarms_and_reminders
+        - help_uri_apps
+        - help_uri_apps_games
+        - help_uri_apps_high_power
+        - help_uri_apps_manage_sources
+        - help_uri_apps_overlay
+        - help_uri_apps_storage
+        - help_uri_apps_wifi_access
+        - help_uri_apps_write_settings
+        - help_uri_beam
+        - help_uri_bluetooth_screen
+        - help_uri_default
+        - help_uri_display
+        - help_uri_interruptions
+        - help_uri_long_background_tasks
+        - help_uri_manage_external_storage
+        - help_uri_media_management_apps
+        - help_uri_nfc_and_payment_settings
+        - help_uri_notifications
+        - help_uri_other_sounds
+        - help_uri_prevent_ringing_gesture
+        - help_uri_printing
+        - help_uri_private_dns
+        - help_uri_process_stats_apps
+        - help_uri_process_stats_summary
+        - help_uri_restricted_apps
+        - help_uri_sim_combination_warning
+        - help_uri_smart_battery_settings
+        - help_uri_storage
+        - help_uri_wallpaper
+        - help_uri_wifi_calling
+        - help_uri_wifi_scanning_required
+        - help_url_accessibility_shortcut
+        - help_url_account_detail
+        - help_url_accounts
+        - help_url_action_disabled_by_it_admin
+        - help_url_action_disabled_by_restricted_settings
+        - help_url_adaptive_sleep
+        - help_url_apps_and_notifications
+        - help_url_audio_accessory_not_supported
+        - help_url_audio_sharing
+        - help_url_auto_brightness
+        - help_url_auto_rotate_settings
+        - help_url_autoclick
+        - help_url_backup_reset
+        - help_url_battery
+        - help_url_battery_defender
+        - help_url_battery_missing
+        - help_url_battery_replacement
+        - help_url_bluetooth
+        - help_url_caption
+        - help_url_choose_lockscreen
+        - help_url_color_correction
+        - help_url_color_inversion
+        - help_url_connected_devices
+        - help_url_connected_devices_fast_pair_devices
+        - help_url_dark_theme
+        - help_url_data_saver
+        - help_url_data_usage
+        - help_url_development_memtag
+        - help_url_dock_defender
+        - help_url_double_tap_screen
+        - help_url_dreams
+        - help_url_encryption
+        - help_url_external_display
+        - help_url_face
+        - help_url_fingerprint
+        - help_url_flash_notifications
+        - help_url_gestures
+        - help_url_icc_lock
+        - help_url_incompatible_charging
+        - help_url_insecure_vpn
+        - help_url_install_certificate
+        - help_url_location_access
+        - help_url_lockscreen
+        - help_url_magnification
+        - help_url_manage_storage
+        - help_url_memtag
+        - help_url_more_networks
+        - help_url_network_dashboard
+        - help_url_nfc_payment
+        - help_url_night_display
+        - help_url_pickup_gesture
+        - help_url_previously_connected_devices
+        - help_url_privacy_dashboard
+        - help_url_remote_display
+        - help_url_screen_pinning
+        - help_url_screen_saver
+        - help_url_security
+        - help_url_sound
+        - help_url_storage_dashboard
+        - help_url_system_dashboard
+        - help_url_tether
+        - help_url_timeout
+        - help_url_trust_agent
+        - help_url_unrestricted_data_access
+        - help_url_upgrading
+        - help_url_usage_access
+        - help_url_usb_contaminant_detected
+        - help_url_user_and_account_dashboard
+        - help_url_users
+        - help_url_vpn
+        - help_url_wifi
+        - help_url_wifi_p2p
+        - help_url_wireless_charging
+        - security_settings_fingerprint_v2_enroll_introduction_message_learn_more
         - touch_sensitivity_summary
+        - touch_sensitivity_title
 
   - sourcePaths:
       - product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk
@@ -36,6 +158,8 @@ synthetic_overlays:
     targetPackage: com.android.systemui
     resourcesToInclude:
       string:
+        - high_temp_dialog_help_url
         - keyguard_indication_charging_time_charge_limit
         - keyguard_indication_charging_time_charge_limit_v1
         - keyguard_indication_charging_time_reach_charge_limit
+        - thermal_shutdown_dialog_help_url

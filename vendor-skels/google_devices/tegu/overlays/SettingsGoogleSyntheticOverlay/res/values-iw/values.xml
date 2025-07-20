@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="battery_missing_link_message">מידע נוסף</string>
     <string name="charging_optimization_charge_label">‫%1$s – טעינה מלאה עד %2$s</string>
     <string name="charging_optimization_reach_limit_charge_label">‫%1$s – הטעינה הסתיימה</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">הטעינה הסתיימה</string>
     <string name="charging_optimization_remaining_time_label">טעינה מלאה עד %1$s</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"‏מידע נוסף על פתיחה בטביעת אצבע ב-Pixel זמין בכתובת &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="touch_sensitivity_summary">הגברת הרגישות למגע ושיפור של זיהוי המגע כשמשתמשים במגן מסך</string>
     <string name="touch_sensitivity_title">מצב מגן מסך</string>
 </resources>

@@ -12,6 +12,20 @@ filters:
       - com.android.wifi.resources/WifiCustomization
     match:
       - "android:string/config_dozeComponent =\ "
+      - "com.android.settings:string/help_uri_alarms_and_reminders =\ "
+      - "com.android.settings:string/help_uri_bluetooth_screen =\ "
+      - "com.android.settings:string/help_uri_long_background_tasks =\ "
+      - "com.android.settings:string/help_uri_manage_external_storage =\ "
+      - "com.android.settings:string/help_uri_media_management_apps =\ "
+      - "com.android.settings:string/help_uri_nfc_and_payment_settings =\ "
+      - "com.android.settings:string/help_url_audio_sharing =\ "
+      - "com.android.settings:string/help_url_connected_devices_fast_pair_devices =\ "
+      - "com.android.settings:string/help_url_development_memtag =\ "
+      - "com.android.settings:string/help_url_external_display =\ "
+      - "com.android.settings:string/help_url_flash_notifications =\ "
+      - "com.android.settings:string/help_url_install_certificate =\ "
+      - "com.android.settings:string/help_url_memtag =\ "
+      - "com.android.settings:string/help_url_privacy_dashboard =\ "
       - android:array/config_ambientBrighteningThresholds|*
       - android:array/config_ambientDarkeningThresholds|*
       - android:array/config_ambientThresholdLevels = 2;3;4;5;6;7;8;9;10;20;30;40;50;60;70;80;90;100;200;300;400;500;1000;2000;3000;4000
@@ -767,13 +781,18 @@ filters:
       - com.android.settings:raw/fingerprint_edu_lottie_portrait|*
       - com.android.settings:raw/fingerprint_edu_lottie|*
       - com.android.settings:raw/fingerprint_location_animation|*
+      - com.android.settings:raw/flip_camera_for_selfie_lottie|*
       - com.android.settings:raw/lottie_adaptive_brightness|*
       - com.android.settings:raw/lottie_bubbles|*
       - com.android.settings:raw/lottie_button_nav_menu|*
       - com.android.settings:raw/lottie_lift_to_check_phone|*
       - com.android.settings:raw/lottie_long_press_power_for_assistant|*
       - com.android.settings:raw/lottie_long_press_power_for_power_menu|*
+      - com.android.settings:raw/lottie_one_hand_mode|*
+      - com.android.settings:raw/lottie_prevent_ringing|*
       - com.android.settings:raw/lottie_reverse_charging|*
+      - com.android.settings:raw/lottie_swipe_fingerprint|*
+      - com.android.settings:raw/lottie_swipe_for_notifications|*
       - com.android.settings:raw/lottie_system_nav_3_button|*
       - com.android.settings:raw/lottie_system_nav_fully_gestural|*
       - com.android.settings:raw/lottie_tap_to_check_phone|*
@@ -782,6 +801,7 @@ filters:
       - com.android.settings:raw/sfps_reposition_finger_right_lottie|*
       - com.android.settings:raw/user_aspect_ratio_education|*
       - com.android.settings:raw/warranty_mapping|*
+      - com.android.settings:string/battery_missing_link_message|*
       - com.android.settings:string/biometrics_unlock_set_unlock_password|*
       - com.android.settings:string/biometrics_unlock_set_unlock_pattern|*
       - com.android.settings:string/biometrics_unlock_set_unlock_pin|*
@@ -818,8 +838,105 @@ filters:
       - com.android.settings:string/fingerprint_unlock_skip_fingerprint|*
       - com.android.settings:string/fingerprint_unlock_title|*
       - com.android.settings:string/fingerprint_v2_delete_message|*
-      - com.android.settings:string/help_uri_private_dns|*
-      - com.android.settings:string/help_url_fingerprint|*
+      - com.android.settings:string/help_uri_5g_dsds = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=pixel_5G_and_DSDS;end
+      - com.android.settings:string/help_uri_about = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_about;end
+      - com.android.settings:string/help_uri_about_phone_v2 = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_about_device;end
+      - com.android.settings:string/help_uri_accessibility = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_accessibility;end
+      - com.android.settings:string/help_uri_accessibility_vibration = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_accessibility_vibration;end
+      - com.android.settings:string/help_uri_apps = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps;end
+      - com.android.settings:string/help_uri_apps_games = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_games;end
+      - com.android.settings:string/help_uri_apps_high_power = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_high_power;end
+      - com.android.settings:string/help_uri_apps_manage_sources = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_manage_sources;end
+      - com.android.settings:string/help_uri_apps_overlay = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_overlay;end
+      - com.android.settings:string/help_uri_apps_storage = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_storage;end
+      - com.android.settings:string/help_uri_apps_wifi_access = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_wifi_access;end
+      - com.android.settings:string/help_uri_apps_write_settings = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_write_settings;end
+      - com.android.settings:string/help_uri_beam = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_beam;end
+      - com.android.settings:string/help_uri_default = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;end
+      - com.android.settings:string/help_uri_display = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_display;end
+      - com.android.settings:string/help_uri_interruptions = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_zen;end
+      - com.android.settings:string/help_uri_notifications = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_notification;end
+      - com.android.settings:string/help_uri_other_sounds = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_touch;end
+      - com.android.settings:string/help_uri_prevent_ringing_gesture = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=prevent_ringing_gesture;end
+      - com.android.settings:string/help_uri_printing = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_print;end
+      - com.android.settings:string/help_uri_private_dns = https://support.google.com/googlepixeltablet/?p=private_DNS
+      - com.android.settings:string/help_uri_private_dns = https://support.google.com/pixelphone/answer/2819583
+      - com.android.settings:string/help_uri_process_stats_apps = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_process_stats_apps;end
+      - com.android.settings:string/help_uri_process_stats_summary = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_process_stats_summary;end
+      - com.android.settings:string/help_uri_restricted_apps = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=restricted_apps;end
+      - com.android.settings:string/help_uri_sim_combination_warning = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_sim_combination_warning;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fpixelphone%2F%3Fp%3Dsim_combination_flag;end
+      - com.android.settings:string/help_uri_smart_battery_settings = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=smart_battery_settings;end
+      - com.android.settings:string/help_uri_storage = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_storage;end
+      - com.android.settings:string/help_uri_wallpaper = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_wallpaper;end
+      - com.android.settings:string/help_uri_wifi_calling = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=wifi_calling_settings;end
+      - com.android.settings:string/help_uri_wifi_scanning_required = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=wifi_scanning_required;end
+      - com.android.settings:string/help_url_accessibility_shortcut = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_accessibility_shortcut;end
+      - com.android.settings:string/help_url_account_detail = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_account_detail;end
+      - com.android.settings:string/help_url_accounts = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_account;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_accounts;end
+      - com.android.settings:string/help_url_action_disabled_by_it_admin = https://support.google.com/work/android?p=work_device_help
+      - com.android.settings:string/help_url_action_disabled_by_restricted_settings = https://support.google.com/android/?p=restricted_settings
+      - com.android.settings:string/help_url_adaptive_sleep = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_adaptive_sleep;end
+      - com.android.settings:string/help_url_apps_and_notifications = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_and_notifications;end
+      - com.android.settings:string/help_url_audio_accessory_not_supported = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=help_url_audio_accessory_not_supported;end
+      - com.android.settings:string/help_url_auto_brightness = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_auto_brightness;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_auto_brightness;end
+      - com.android.settings:string/help_url_auto_rotate_settings = https://support.google.com/accessibility/android/answer/6006961
+      - com.android.settings:string/help_url_autoclick = https://support.google.com/accessibility/android/answer/7071579
+      - com.android.settings:string/help_url_backup_reset = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_backup;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_backup;end
+      - com.android.settings:string/help_url_battery = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_battery;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_battery;end
+      - com.android.settings:string/help_url_battery_defender = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_batterydefender;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fpixelphone%2Fanswer%2F3333708;end
+      - com.android.settings:string/help_url_battery_missing = https://support.google.com/pixelphone/?p=p4xl_battery
+      - com.android.settings:string/help_url_battery_replacement = https://g.co/pixel/4abattery
+      - com.android.settings:string/help_url_battery_replacement = https://g.co/pixel/6abattery
+      - com.android.settings:string/help_url_bluetooth = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_bluetooth;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_bluetooth;end
+      - com.android.settings:string/help_url_caption = https://support.google.com/accessibility/android/answer/6006554
+      - com.android.settings:string/help_url_choose_lockscreen = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_lock;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_screenlock;end
+      - com.android.settings:string/help_url_color_correction = https://support.google.com/talkback/answer/6151850
+      - com.android.settings:string/help_url_color_inversion = https://support.google.com/accessibility/android/answer/6151800
+      - com.android.settings:string/help_url_connected_devices = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_connected_devices;end
+      - com.android.settings:string/help_url_dark_theme = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_dark_theme;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fpixelphone%3Fp%3Dandroid_dark_theme;end
+      - com.android.settings:string/help_url_data_saver = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_datasaver;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_datasaver;end
+      - com.android.settings:string/help_url_data_usage = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_data;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_data;end
+      - com.android.settings:string/help_url_dock_defender = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_dockdefender;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fgooglepixeltablet%2F%3Fp%3Dextend_battery_life;end
+      - com.android.settings:string/help_url_double_tap_screen = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_double_tap_screen;end
+      - com.android.settings:string/help_url_dreams = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_daydream;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_dreams;end
+      - com.android.settings:string/help_url_encryption = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_encryption_credentials;end
+      - com.android.settings:string/help_url_face = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_face_unlock;end
+      - com.android.settings:string/help_url_fingerprint = http://g.co/pixeltablet/fingerprintunlock
+      - com.android.settings:string/help_url_fingerprint = https://support.google.com/pixelphone/answer/6285273
+      - com.android.settings:string/help_url_gestures = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_gestures;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_gestures;end
+      - com.android.settings:string/help_url_icc_lock = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_icc_lock;end
+      - com.android.settings:string/help_url_incompatible_charging = https://support.google.com/pixelphone?p=pixel_power_issues
+      - com.android.settings:string/help_url_insecure_vpn = https://support.google.com/android/answer/9089766
+      - com.android.settings:string/help_url_location_access = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_location;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_location;end
+      - com.android.settings:string/help_url_lockscreen = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_lockscreen_dashboard;end
+      - com.android.settings:string/help_url_magnification = https://support.google.com/talkback/answer/6006949
+      - com.android.settings:string/help_url_manage_storage = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_manage_storage;end
+      - com.android.settings:string/help_url_more_networks = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_more;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_wireless;end
+      - com.android.settings:string/help_url_network_dashboard = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_network_dashboard;end
+      - com.android.settings:string/help_url_nfc_payment = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_tap_pay;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_nfcpayment;end
+      - com.android.settings:string/help_url_night_display = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_night_display;end
+      - com.android.settings:string/help_url_pickup_gesture = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_pickup_gesture;end
+      - com.android.settings:string/help_url_previously_connected_devices = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_previously_connected_devices;end
+      - com.android.settings:string/help_url_remote_display = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_cast;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_remote_display;end
+      - com.android.settings:string/help_url_screen_pinning = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_screen_pinning;end
+      - com.android.settings:string/help_url_screen_saver = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_screen_saver;end
+      - com.android.settings:string/help_url_security = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_security;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_security;end
+      - com.android.settings:string/help_url_sound = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_sound;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_sound;end
+      - com.android.settings:string/help_url_storage_dashboard = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_storage_dashboard;end
+      - com.android.settings:string/help_url_system_dashboard = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_system_dashboard;end
+      - com.android.settings:string/help_url_tether = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_tether;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_tether;end
+      - com.android.settings:string/help_url_timeout = https://support.google.com/accessibility/android/answer/9426889
+      - com.android.settings:string/help_url_trust_agent = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_trust_agent;end
+      - com.android.settings:string/help_url_unrestricted_data_access = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_unrestricted_data_access;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_unrestricted_data_access;end
+      - com.android.settings:string/help_url_upgrading = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_upgrading;end
+      - com.android.settings:string/help_url_usage_access = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_usage_access;end
+      - com.android.settings:string/help_url_usb_contaminant_detected = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=usb_contaminant_detected;end
+      - com.android.settings:string/help_url_user_and_account_dashboard = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_user_and_account_dashboard;end
+      - com.android.settings:string/help_url_users = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_users;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_users;end
+      - com.android.settings:string/help_url_vpn = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_vpn;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_vpn;end
+      - com.android.settings:string/help_url_wifi = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_wi_fi;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_wifi;end
+      - com.android.settings:string/help_url_wifi_p2p = intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_wi_fi_p2p;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_wifi_p2p;end
+      - com.android.settings:string/help_url_wireless_charging = https://support.google.com/pixelphone?p=eu_ecodesign_charging
       - com.android.settings:string/keywords_wifi_calling|*
       - com.android.settings:string/link_locale_picker_footer_learn_more|*
       - com.android.settings:string/location_settings_footer_learn_more_link|*
@@ -1095,6 +1212,7 @@ filters:
       - com.android.systemui:string/dock_setup_notification_title|*
       - com.android.systemui:string/doze_brightness_sensor_type = com.google.sensor.binned_brightness
       - com.android.systemui:string/fingerprint_dialog_touch_sensor|*
+      - com.android.systemui:string/high_temp_dialog_help_url = https://support.google.com/pixelphone?p=overheat_emergency
       - com.android.systemui:string/keyguard_indication_charging_time_charge_limit_v1|*
       - com.android.systemui:string/keyguard_indication_charging_time_charge_limit|*
       - com.android.systemui:string/keyguard_indication_charging_time_reach_charge_limit|*
@@ -1106,6 +1224,7 @@ filters:
       - com.android.systemui:string/settingslib_learn_more_text|*
       - com.android.systemui:string/stylus_system_update_notification_text|*
       - com.android.systemui:string/stylus_system_update_notification_title|*
+      - com.android.systemui:string/thermal_shutdown_dialog_help_url = https://support.google.com/pixelphone?p=overheat_shutdown
       - com.android.systemui:string/unsaved_status_description|*
       - com.android.systemui:style/AuthNonBioCredentialPatternContainerStyle|*
       - com.android.traceur:array/entryvalues_font_size|*
