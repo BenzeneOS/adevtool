@@ -102,7 +102,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.crypto.metadata_init_delete_all_keys.enabled=true \
     ro.vendor.touch.dump.sys=/sys/class/spi_master/spi0/spi0.0/synaptics_tcm.0/sysfs \
     vendor.zram.size=3g \
-    ro.vendor.build.svn=78 \
+    ro.vendor.build.svn=79 \
     persist.vendor.udfps.als_feed_forward_supported=true \
     persist.vendor.udfps.lhbm_controlled_in_hal_supported=true \
     persist.vendor.vibrator.hal.chirp.enabled=0 \
@@ -223,7 +223,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.audio.cca.enabled=false \
     ro.vendor.dolby.dax.version=DAX3_G_3.7.3.0_r1
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/cheetah/cheetah:16/BP2A.250705.008/13578956:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/cheetah/cheetah:16/BP2A.250805.005/13691446:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

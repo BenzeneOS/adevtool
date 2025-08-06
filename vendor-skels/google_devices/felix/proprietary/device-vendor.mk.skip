@@ -107,7 +107,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.crypto.metadata_init_delete_all_keys.enabled=true \
     ro.vendor.touch.dump.sys=/sys/class/spi_master/spi6/spi6.0 \
     ro.vendor.touch.dump.proc=/proc/fts_ext/driver_test \
-    ro.vendor.build.svn=72 \
+    ro.vendor.build.svn=73 \
     ro.vendor.vibrator.hal.long.frequency.shift=0 \
     ro.vendor.vibrator.hal.gpio.num=44 \
     ro.vendor.vibrator.hal.gpio.shift=2 \
@@ -237,7 +237,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.camera.allow_sensor_binning_aspect_ratio_to_override_itp_output=false \
     vendor.camera.support_specific_stream_aspect_ratio=0.75
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/felix/felix:16/BP2A.250705.008/13578956:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/felix/felix:16/BP2A.250805.005/13691446:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

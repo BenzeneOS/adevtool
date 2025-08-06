@@ -102,7 +102,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.product.device_for_attestation=tegu \
     ro.product.manufacturer_for_attestation=Google \
     ro.build.expect.baseband=g5300t-250320-250425-B-13407682 \
-    ro.build.expect.bootloader=tegu-16.0-13291548 \
+    ro.build.expect.bootloader=tegu-16.0-13541477 \
     ro.hardware.egl=mali \
     ro.hardware.vulkan=mali \
     ro.surface_flinger.prime_shader_cache.ultrahdr=1 \
@@ -149,7 +149,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.udfps.auto_exposure_compensation_supported=true \
     vendor.powerhal.apf_disabled=false \
     vendor.powerhal.apf_enabled=true \
-    ro.vendor.build.svn=09 \
+    ro.vendor.build.svn=10 \
     ro.usb.uvc.enabled=true \
     ro.surface_flinger.game_default_frame_rate_override=60 \
     ro.oem_unlock_supported=1 \
@@ -268,7 +268,7 @@ PRODUCT_VENDOR_DLKM_PROPERTIES += \
     ro.product.device_for_attestation=tegu \
     ro.product.manufacturer_for_attestation=Google
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/tegu/tegu:16/BP2A.250705.008/13578956:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/tegu/tegu:16/BP2A.250805.005/13691446:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

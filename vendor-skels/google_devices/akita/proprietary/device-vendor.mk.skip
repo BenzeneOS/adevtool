@@ -100,7 +100,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.product.device_for_attestation=akita \
     ro.product.manufacturer_for_attestation=Google \
     ro.build.expect.baseband=g5300o-250320-250425-B-13407682 \
-    ro.build.expect.bootloader=akita-16.2-13291556 \
+    ro.build.expect.bootloader=akita-16.2-13541478 \
     ro.hardware.egl=mali \
     ro.hardware.vulkan=mali \
     vendor.mali.platform.config=/vendor/etc/mali/platform.config \
@@ -137,7 +137,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.vibrator.hal.context.cooldowntime=1600 \
     persist.vendor.vibrator.hal.context.settlingtime=5000 \
     vendor.audio.hapticgenerator.distortion.output.gain=0.29 \
-    ro.vendor.build.svn=38 \
+    ro.vendor.build.svn=39 \
     ro.usb.uvc.enabled=true \
     vendor.powerhal.apf_disabled=false \
     vendor.powerhal.apf_enabled=true \
@@ -263,7 +263,7 @@ PRODUCT_VENDOR_DLKM_PROPERTIES += \
     ro.product.device_for_attestation=akita \
     ro.product.manufacturer_for_attestation=Google
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/akita/akita:16/BP2A.250705.008/13578956:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/akita/akita:16/BP2A.250805.005/13691446:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

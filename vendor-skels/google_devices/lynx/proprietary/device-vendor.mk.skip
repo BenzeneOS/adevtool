@@ -97,7 +97,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.vibrator.hal.context.settlingtime=5000 \
     vendor.audio.hapticgenerator.distortion.output.gain=0.29 \
     vendor.zram.size=3g \
-    ro.vendor.build.svn=63 \
+    ro.vendor.build.svn=64 \
     persist.vendor.udfps.als_feed_forward_supported=true \
     persist.vendor.udfps.lhbm_controlled_in_hal_supported=true \
     persist.vendor.camera.1080P_60fps_binning=true \
@@ -211,7 +211,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.camera.start_cpu_throttling_at_moderate_thermal=1 \
     persist.vendor.audio.cca.enabled=false
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/lynx/lynx:16/BP2A.250705.008/13578956:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/lynx/lynx:16/BP2A.250805.005/13691446:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \

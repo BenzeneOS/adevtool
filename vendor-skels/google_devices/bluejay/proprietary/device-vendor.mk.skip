@@ -84,7 +84,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.soc.model=Tensor \
     ro.vendor.touch.dump.sys=/sys/class/spi_master/spi11/spi11.0 \
     ro.vendor.touch.dump.proc=/proc/fts/driver_test \
-    ro.vendor.build.svn=81 \
+    ro.vendor.build.svn=82 \
     vendor.zram.size=3g \
     persist.vendor.camera.1080P_60fps_binning=true \
     persist.vendor.camera.exif_reveal_make_model=true \
@@ -199,7 +199,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.gms.dck.eligible_wcc=2 \
     ro.gms.dck.se_capability=1
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/bluejay/bluejay:16/BP2A.250705.008/13578956:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/bluejay/bluejay:16/BP2A.250705.008.A1/13673213:user/release-keys
 
 PRODUCT_PACKAGES += \
     activity \
