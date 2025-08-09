@@ -2957,7 +2957,7 @@ proprietary/vendor/etc/fstab.modem: d849c67455c62427dabdd0a922673e9ff9bafcbb0d0d
 proprietary/vendor/etc/fstab.persist: 290d4167933d2997d19d64da9dd32976b8b608a2163fe11ed8c73327df7a53d9
 proprietary/vendor/etc/gnss: dir
 proprietary/vendor/etc/gnss/ca.pem: 20ce188c6b9673e03dc504784562a0db953efa638a8e094394c7e25cbb20ea0f
-proprietary/vendor/etc/gnss/gps.cfg: c0b8c9618c93cc448f19f7fa52345f5d18a50119e253880954a0b1e9525dfa44
+proprietary/vendor/etc/gnss/gps.cfg: e1a78e4e89f5f18da29a5518291ec6f47c60df4728f14b04ac9ab4511423f965
 proprietary/vendor/etc/init: dir
 proprietary/vendor/etc/init.common.cfg: f4104573e29026ac335f03703e24242a304bd74cbb99f5d5848c9968901444fb
 proprietary/vendor/etc/init/Exynos_C2.rc: e1a67aedbf8524273e9b755409da6e4f5660631b59d6e502e35e4a778cb15422

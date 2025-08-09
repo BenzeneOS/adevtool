@@ -138,7 +138,7 @@ function patchGpsXml(orig: string) {
 function patchGpsCfg(orig: string) {
   return replaceLines(orig, line => {
     if (line.startsWith('SUPL_SSL_METHOD=')) {
-      return 'SUPL_SSL_METHOD=TLSv1_2'
+      return 'SUPL_SSL_METHOD=TLSv1_3'
     } else {
       return line
     }
