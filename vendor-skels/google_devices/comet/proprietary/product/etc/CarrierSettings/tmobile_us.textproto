@@ -1,5 +1,5 @@
 canonical_name: "tmobile_us"
-version: 70000000024
+version: 70000000025
 apns {
   apn {
     name: "T-Mobile Tethering"
@@ -605,10 +605,6 @@ configs {
     bool_value: true
   }
   config {
-    key: "mms_max_ntn_payload_size_bytes_int"
-    int_value: 3000
-  }
-  config {
     key: "nr_advanced_threshold_bandwidth_khz_int"
     int_value: 40000
   }
@@ -846,5 +842,5 @@ vendor_configs {
   }
 }
 last_updated {
-  seconds: 1747187273
+  seconds: 1753752526
 }
