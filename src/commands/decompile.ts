@@ -3,7 +3,7 @@ import { promises as fs } from 'fs'
 import path from 'path'
 import asyncPool from 'tiny-async-pool'
 import xml2js from 'xml2js'
-import { DEVICE_CONFIGS_FLAG_WITH_BUILD_ID, loadDeviceConfigs } from '../config/device'
+import { DEVICE_CONFIGS_FLAG_WITH_BUILD_ID, loadDeviceConfigs2 } from '../config/device'
 import { IMAGE_DOWNLOAD_DIR } from '../config/paths'
 import { prepareFactoryImages } from '../frontend/source'
 import { loadBuildIndex } from '../images/build-index'
@@ -22,8 +22,8 @@ export default class Decompile extends Command {
   async run() {
     let { flags } = await this.parse(Decompile)
 
-    let devices = await loadDeviceConfigs(flags.devices)
-    let images = await prepareFactoryImages(await loadBuildIndex(), devices, flags.buildId)
+    let devices = await loadDeviceConfigs2(flags)
+    let images = await prepareFactoryImages(await loadBuildIndex(), devices)
     for (let img of images.values()) {
       let items: DecompiledItem[] = []
       let tasks: Promise<unknown>[] = []
