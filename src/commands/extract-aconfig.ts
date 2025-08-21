@@ -141,7 +141,11 @@ class FlagDecoder {
     }
 
     if (flag.description !== undefined) {
-      comments.push(`description: ${flag.description}`)
+      let lines = flag.description.split('\n')
+      comments.push(`description: ${lines[0]}`)
+      if (lines.length > 1) {
+        comments.push(...lines.slice(1))
+      }
     }
 
     for (let t of flag.trace) {
