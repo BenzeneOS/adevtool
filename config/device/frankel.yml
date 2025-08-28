@@ -1,0 +1,5 @@
+device:
+  name: frankel
+
+includes:
+  - common/gen10pixel.yml

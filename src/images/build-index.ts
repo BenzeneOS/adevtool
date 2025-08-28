@@ -141,6 +141,10 @@ function parseFactoryOrOtaPage(buildIndex: BuildIndex, pageType: string, dom: JS
 function parseVendorPage(buildIndex: BuildIndex, dom: JSDOM, devices: Set<string>) {
   for (let device of devices) {
     let header = dom.window.document.querySelector(`#${device}`) as HTMLHeadingElement
+    if (header === null) {
+      // vendor images are not published since Android 16 release
+      continue
+    }
     let head = header.nextElementSibling!
 
     while (head.id.startsWith(device)) {

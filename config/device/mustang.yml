@@ -1,0 +1,5 @@
+device:
+  name: mustang
+
+includes:
+  - common/gen10pixel.yml

@@ -1,0 +1,6 @@
+type: device-list
+
+devices:
+  - mustang.yml
+  - blazer.yml
+  - frankel.yml

@@ -1,0 +1,5 @@
+device:
+  name: blazer
+
+includes:
+  - common/gen10pixel.yml

@@ -1,3 +1,51 @@
+mustang BD1A.250702.001:
+  desc: Aug 2025
+  factory: c37e6f51b65c0ea421e3049d0499aec63a4be2fa6459d13c58b96174b6ae62c7 mustang-bd1a.250702.001-factory-c37e6f51.zip
+  ota: 08db3f854647f344ff24eb90c22016b5f1a0e3dcaa47a6d1afb7818d0396de89 mustang-ota-bd1a.250702.001-08db3f85.zip
+mustang BD1A.250702.001.A3:
+  desc: Aug 2025, Verizon
+  factory: 25dd800299b1dbb74cc8d94f21cda603a36132b23cd56f1120db6caaac34167c mustang-bd1a.250702.001.a3-factory-25dd8002.zip
+  ota: db25e3b4b9abd8500379f4d0d3fc546b9299a37c8f6473ed3d7d1de87548a1b9 mustang-ota-bd1a.250702.001.a3-db25e3b4.zip
+mustang BD3A.250721.001:
+  desc: Aug 2025
+  factory: 0f215a805b2138e5952a47b437cb91b7804272feb7b3403deb8c11cd84937879 mustang-bd3a.250721.001-factory-0f215a80.zip
+  ota: 98d59e63c9a2c5802706600507cb8e2b063f0fbe4406f52ea90a1345b65bcfcd mustang-ota-bd3a.250721.001-98d59e63.zip
+mustang BD3A.250721.001.A1:
+  desc: Aug 2025, NA GStore
+  factory: 5e164eb20b1cb26bd09cff65fba5dfaa59e1ddd346a5c18ac5ab966f6287d5f7 mustang-bd3a.250721.001.a1-factory-5e164eb2.zip
+  ota: b31f1038cbec321881399c48c94c6022bc3800923d1137bce1ae3bdcd9633be1 mustang-ota-bd3a.250721.001.a1-b31f1038.zip
+blazer BD1A.250702.001:
+  desc: Aug 2025
+  factory: f2267c453f3c983897df0a02fefde5838fd75ab051f37553e19df947efd9b00a blazer-bd1a.250702.001-factory-f2267c45.zip
+  ota: 23331feef312884bac74cc5d058f4c30d017443d2e984168250c550ac3883151 blazer-ota-bd1a.250702.001-23331fee.zip
+blazer BD1A.250702.001.A3:
+  desc: Aug 2025, Verizon
+  factory: 2ea9335cf00a32d9e3aa4e47930fc5df4dbd70cc69dca3a5527b9b1351a272db blazer-bd1a.250702.001.a3-factory-2ea9335c.zip
+  ota: 9bff160fc90e80e8ed9b4c05256f6b688b9cc32a1f9abc7fd4c22f5ab59f726a blazer-ota-bd1a.250702.001.a3-9bff160f.zip
+blazer BD3A.250721.001:
+  desc: Aug 2025
+  factory: e4aa8889f1a0a510058eec5ec430eb3b306b843de231f84e4cd27d9056239d9a blazer-bd3a.250721.001-factory-e4aa8889.zip
+  ota: ca3da1c9894bd253e8977252a7074e30639c30625fa04fe25ce39dc68161624d blazer-ota-bd3a.250721.001-ca3da1c9.zip
+blazer BD3A.250721.001.A1:
+  desc: Aug 2025, NA GStore
+  factory: 33ce861121a519e0c5c416c982364ef5b030a9a307812b06bf64a3b46944628d blazer-bd3a.250721.001.a1-factory-33ce8611.zip
+  ota: 2a139ae146d1ff25ae3dd0948857e49b77e024f6d7d916c7b1d4619e24e637e7 blazer-ota-bd3a.250721.001.a1-2a139ae1.zip
+frankel BD1A.250702.001:
+  desc: Aug 2025
+  factory: 1a0ca67007d2607e83d8dd173ad932626e9ebf06814203a40d978418401c07b3 frankel-bd1a.250702.001-factory-1a0ca670.zip
+  ota: 82bd95c69c03e13ccc761be2d9a7d65138f85832cfc946de7374df58d76e98c5 frankel-ota-bd1a.250702.001-82bd95c6.zip
+frankel BD1A.250702.001.A3:
+  desc: Aug 2025, Verizon
+  factory: b3f8b98185335b7bc4db7df32951ec66f8ab3b360635cb2d77ab4c7e78a52e59 frankel-bd1a.250702.001.a3-factory-b3f8b981.zip
+  ota: 3c8a6dc8bf8a8a31aab3a25343a4752797c368e4bd04a079ef09f2bb1e2e9755 frankel-ota-bd1a.250702.001.a3-3c8a6dc8.zip
+frankel BD3A.250721.001:
+  desc: Aug 2025
+  factory: e686cae9557bbd98ee4e8840d9b84c042a06c79c87c119883d634ac1efe62dcb frankel-bd3a.250721.001-factory-e686cae9.zip
+  ota: 0b9b663c04d04a5b1b52332a4af94c1c73eae1ce32447a1ba7651bf9d6e83b66 frankel-ota-bd3a.250721.001-0b9b663c.zip
+frankel BD3A.250721.001.A1:
+  desc: Aug 2025, NA GStore
+  factory: 7241736d7cf5adea1f7c99349ad446538f1a27b65eeedfb5d35e663d2a92d414 frankel-bd3a.250721.001.a1-factory-7241736d.zip
+  ota: b5a1d9aa0a69a501f1397758ddd36728704489b04e32a74ee073dee9033e9b2d frankel-ota-bd3a.250721.001.a1-b5a1d9aa.zip
 tegu BD4A.240925.111:
   desc: Apr 2025
   factory: eb8b02663f40b73b7f0b8d945ca100f3223b05715253268a5ac664a13e26f758 tegu-bd4a.240925.111-factory-eb8b0266.zip
