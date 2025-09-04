@@ -55,7 +55,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.odm.cast.ssid_suffix=ynn
 
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.build.expect.bootloader=tangorpro-16.0-13291549 \
+    ro.build.expect.bootloader=tangorpro-16.3-13642542 \
     dalvik.vm.isa.arm.variant=cortex-a53 \
     dalvik.vm.isa.arm.features=default \
     vendor.mali.platform.config=/vendor/etc/mali/platform.config \

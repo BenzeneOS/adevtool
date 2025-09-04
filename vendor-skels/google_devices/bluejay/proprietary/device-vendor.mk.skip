@@ -61,8 +61,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
 
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.build.expect.baseband=g5123b-145971-250328-B-13284995 \
-    ro.build.expect.bootloader=bluejay-16.2-13291547 \
+    ro.build.expect.baseband=g5123b-145971-250708-B-13746081 \
+    ro.build.expect.bootloader=bluejay-16.3-13642543 \
     ro.hardware.vulkan=mali \
     vendor.mali.platform.config=/vendor/etc/mali/platform.config \
     vendor.mali.debug.config=/vendor/etc/mali/debug.config \

@@ -1,5 +1,5 @@
 require board=husky
 
-require version-bootloader=ripcurrent-16.2-13541478
-require version-baseband=g5300i-250320-250425-B-13407682
+require version-bootloader=ripcurrent-16.3-13642541
+require version-baseband=g5300i-250605-250630-B-13713258
 require partition-exists=vendor_kernel_boot
