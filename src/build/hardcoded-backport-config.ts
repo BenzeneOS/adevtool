@@ -84,6 +84,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "product/priv-app/EuiccGoogle/EuiccGoogle.apk",
       "system_ext/priv-app/EuiccSupportPixel-P23/EuiccSupportPixel-P23.apk",
+      "system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
       "vendor/apex/com.google.pixel.euicc.update.apex",
     ],
     newFiles: [
@@ -151,6 +152,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "product/priv-app/EuiccGoogle/EuiccGoogle.apk",
       "system_ext/priv-app/EuiccSupportPixel-P23/EuiccSupportPixel-P23.apk",
+      "system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
       "vendor/apex/com.google.pixel.euicc.update.apex",
     ],
     newFiles: [
@@ -217,6 +219,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "product/priv-app/EuiccGoogle/EuiccGoogle.apk",
       "system_ext/priv-app/EuiccSupportPixel-P23/EuiccSupportPixel-P23.apk",
+      "system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
       "vendor/apex/com.google.pixel.euicc.update.apex",
     ],
     newFiles: [
@@ -283,6 +286,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "product/priv-app/EuiccGoogle/EuiccGoogle.apk",
       "system_ext/priv-app/EuiccSupportPixel-P23/EuiccSupportPixel-P23.apk",
+      "system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
       "vendor/apex/com.google.pixel.euicc.update.apex",
     ],
     newFiles: [
@@ -347,6 +351,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "product/priv-app/EuiccGoogle/EuiccGoogle.apk",
       "system_ext/priv-app/EuiccSupportPixel-P23/EuiccSupportPixel-P23.apk",
+      "system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
       "vendor/apex/com.google.pixel.euicc.update.apex",
     ],
     newFiles: [
@@ -412,6 +417,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "product/priv-app/EuiccGoogle/EuiccGoogle.apk",
       "system_ext/priv-app/EuiccSupportPixel-P23/EuiccSupportPixel-P23.apk",
+      "system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
       "vendor/apex/com.google.pixel.euicc.update.apex",
     ],
     newFiles: [
@@ -475,6 +481,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "product/priv-app/EuiccGoogle/EuiccGoogle.apk",
       "system_ext/priv-app/EuiccSupportPixel-P23/EuiccSupportPixel-P23.apk",
+      "system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
       "vendor/apex/com.google.pixel.euicc.update.apex",
     ],
     newFiles: [
@@ -536,6 +543,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "product/priv-app/EuiccGoogle/EuiccGoogle.apk",
       "system_ext/priv-app/EuiccSupportPixel-P23/EuiccSupportPixel-P23.apk",
+      "system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
       "vendor/apex/com.google.pixel.euicc.update.apex",
     ],
     newFiles: [
@@ -582,6 +590,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "product/priv-app/EuiccGoogle/EuiccGoogle.apk",
       "system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk",
+      "system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
       "vendor/apex/com.google.pixel.euicc.update.apex",
     ],
     newFiles: [
@@ -677,6 +686,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "product/priv-app/EuiccGoogle/EuiccGoogle.apk",
       "system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk",
+      "system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
       "vendor/apex/com.google.pixel.euicc.update.apex",
     ],
     newFiles: [
@@ -736,6 +746,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "product/priv-app/EuiccGoogle/EuiccGoogle.apk",
       "system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk",
+      "system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
       "vendor/apex/com.google.pixel.euicc.update.apex",
     ],
     newFiles: [
@@ -795,6 +806,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "product/priv-app/EuiccGoogle/EuiccGoogle.apk",
       "system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk",
+      "system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
       "vendor/apex/com.google.pixel.euicc.update.apex",
     ],
     newFiles: [
@@ -847,6 +859,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "product/priv-app/EuiccGoogle/EuiccGoogle.apk",
       "system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk",
+      "system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
       "vendor/apex/com.google.pixel.euicc.update.apex",
     ],
     newFiles: [

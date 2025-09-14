@@ -2665,7 +2665,7 @@ proprietary/system_ext/priv-app/EuiccSupportPixel-P23/esim-full-v1-m40.img: 7460
 proprietary/system_ext/priv-app/EuiccSupportPixel-P23/esim-full-v1-m41.img: 748bb9041ec65bbba3a58ed87b0735274d472fa274a116fd7480b02676be93ad
 proprietary/system_ext/priv-app/EuiccSupportPixel-P23/esim-full-v1.img: 73346fc46488a0b93fcc9a37250b0139ff3d2905b03a8412fde8409f796dfd96
 proprietary/system_ext/priv-app/EuiccSupportPixelPermissions: dir
-proprietary/system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk: 9cbae45cfd1d1d99b852bc6dda3eacec33e295120825adfc722d70bab0f69279
+proprietary/system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk: 84c4019ba82a014e296d7ac9013cf2fdc8f45f285ee8658991e28537d60b9bc3
 proprietary/system_ext/priv-app/OemRilService: dir
 proprietary/system_ext/priv-app/OemRilService/OemRilService.apk: 7f472efbd17203a3bae3c4c9274b8fc120baff24cdf0049e251efaaf7f065362
 proprietary/system_ext/priv-app/PixelDisplayService: dir
