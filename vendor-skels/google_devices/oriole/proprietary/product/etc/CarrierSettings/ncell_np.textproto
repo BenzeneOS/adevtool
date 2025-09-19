@@ -1,0 +1,25 @@
+canonical_name: "ncell_np"
+version: 72000000001
+apns {
+  apn {
+    name: "Ncell"
+    value: "default"
+    type: DEFAULT
+    type: SUPL
+    authtype: 1
+  }
+  apn {
+    name: "IMS"
+    value: "ims"
+    type: IMS
+    bearer_bitmask: "14|20"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
+}
+configs {
+}
+last_updated {
+  seconds: 1749144090
+}

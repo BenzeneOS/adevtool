@@ -1,0 +1,32 @@
+canonical_name: "vodafone_al"
+version: 72000000001
+apns {
+  apn {
+    name: "VFAL Internet"
+    value: "vodafoneweb"
+    type: DEFAULT
+    type: SUPL
+    user: "web"
+    password: "web"
+    authtype: 1
+    user_editable: false
+  }
+  apn {
+    name: "VFAL IMS"
+    value: "ims"
+    type: IMS
+    bearer_bitmask: "14|20"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
+}
+configs {
+  config {
+    key: "default_vm_number_string"
+    text_value: "135"
+  }
+}
+last_updated {
+  seconds: 1747202388
+}

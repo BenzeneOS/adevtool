@@ -1,0 +1,44 @@
+canonical_name: "h3_hk"
+version: 72000000002
+apns {
+  apn {
+    name: "3 LTE"
+    value: "mobile.lte.three.com.hk"
+    type: DEFAULT
+    type: MMS
+    type: SUPL
+    authtype: 1
+    mmsc: "http://mms.um.three.com.hk:10021/mmsc"
+    mmsc_proxy: "mms.three.com.hk"
+    mmsc_proxy_port: "8799"
+  }
+  apn {
+    name: "3"
+    value: "mobile.three.com.hk"
+    type: DEFAULT
+    type: MMS
+    type: SUPL
+    authtype: 1
+    mmsc: "http://mms.um.three.com.hk:10021/mmsc"
+    mmsc_proxy: "mms.three.com.hk"
+    mmsc_proxy_port: "8799"
+  }
+  apn {
+    name: "IMS"
+    value: "ims"
+    type: IMS
+    bearer_bitmask: "14|20"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
+}
+configs {
+  config {
+    key: "ims.sip_over_ipsec_enabled_bool"
+    bool_value: false
+  }
+}
+last_updated {
+  seconds: 1750953745
+}

@@ -1,0 +1,17 @@
+canonical_name: "lycamobile_dk"
+version: 72000000001
+apns {
+  apn {
+    name: "lyca dk"
+    value: "data.lycamobile.dk"
+    type: DEFAULT
+    type: SUPL
+    user: "lmdk"
+    password: "plus"
+  }
+}
+configs {
+}
+last_updated {
+  seconds: 1747816813
+}
