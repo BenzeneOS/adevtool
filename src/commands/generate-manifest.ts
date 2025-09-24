@@ -8,12 +8,12 @@ import { OS_CHECKOUT_DIR } from '../config/paths'
 import { readFile } from '../util/fs'
 import { spawnAsync } from '../util/process'
 
-interface Remote {
+export interface Remote {
   name: string
   fetch: string
 }
 
-interface Project {
+export interface Project {
   path: string
   name: string
   groups?: string
@@ -21,7 +21,7 @@ interface Project {
   remote?: string
 }
 
-interface ManifestConfig {
+export interface ManifestConfig {
   aosp_revision: string
   revision: string
   additional_remotes: Remote[]

@@ -46,6 +46,10 @@ export class GitLsRemote {
   }
 }
 
+export async function spawnGit(repoPath: string, args: string[], isStderrLineAllowed?: (s: string) => boolean) {
+  return await spawnAsync('git', ['-C', repoPath, ...args], isStderrLineAllowed)
+}
+
 function getKeysForCommit(map: Map<string, string>, value: string) {
   return Array.from(map.entries())
     .filter(entry => entry[1].startsWith(value))

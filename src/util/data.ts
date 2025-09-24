@@ -40,3 +40,12 @@ export function assertNonNull<T>(o: T | null): T {
   }
   return o!
 }
+
+export function mapGet<K, V>(map: Map<K, V>, key: K) {
+  return assertDefined(map.get(key))
+}
+
+export async function filterAsync<T>(arr: readonly T[], predicate: (value: T) => Promise<boolean>): Promise<T[]> {
+  let bools = await Promise.all(arr.map(e => predicate(e)))
+  return arr.filter((_, idx) => bools[idx])
+}

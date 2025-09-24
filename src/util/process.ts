@@ -72,7 +72,7 @@ export async function spawnAsync(
             reject(new Error('unexpected stderr ' + stderr))
           } else {
             for (let line of stderr.split('\n')) {
-              if (!isStderrLineAllowed(line)) {
+              if (line.length > 0 && !isStderrLineAllowed(line)) {
                 reject(new Error('unexpected stderr line ' + line))
               }
             }
