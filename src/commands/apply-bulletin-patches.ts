@@ -8,7 +8,7 @@ import path from 'path'
 import xml2js from 'xml2js'
 import YAML from 'yaml'
 import { OS_CHECKOUT_DIR } from '../config/paths'
-import { assertDefined, filterAsync, mapGet } from '../util/data'
+import { assertDefined, filterAsync, mapGet, updateMultiMap } from '../util/data'
 import { isFile, readFile } from '../util/fs'
 import { spawnGit } from '../util/git'
 import { ManifestConfig } from './generate-manifest'
@@ -40,13 +40,19 @@ export class ApplyBulletinPatches extends Command {
 
     let manifestConfig = YAML.parse(await readFile(flags.osManifestConfig)) as ManifestConfig
     let baseAospTag = manifestConfig.aosp_revision
+    assert(baseAospTag.startsWith('android-'))
+    assert(baseAospTag.includes('.0.0_r'))
+    let baseAndroidVersion = baseAospTag.substring('android-'.length, baseAospTag.lastIndexOf('_'))
 
     let repoPatchesMap = new Map<string, string[]>()
+    let cveInfo = new Map<string, string[]>() // severity -> CVE list
 
-    // collect patches from all provided bulletin dirs
+    // collect patches and CVE info from all provided bulletin dirs
     for (let bulletinDir of flags.bulletinDir) {
-      let patchIndexFileName = (await fs.readdir(bulletinDir)).find(s => s.endsWith('-patches-index.json'))
-      let patchIndexFilePath = path.join(bulletinDir, assertDefined(patchIndexFileName))
+      let patchIndexFileName = assertDefined(
+        (await fs.readdir(bulletinDir)).find(s => s.endsWith('-patches-index.json')),
+      )
+      let patchIndexFilePath = path.join(bulletinDir, patchIndexFileName)
       let patchesIndex = JSON.parse(await readFile(patchIndexFilePath)) as SecurityBulletinPatchesIndex
       if (patchesIndex.patches === undefined) {
         console.log('no patches in ' + bulletinDir + ' for any Android version')
@@ -58,14 +64,41 @@ export class ApplyBulletinPatches extends Command {
         return
       }
       let patchesDir = path.join(bulletinDir, 'patches')
+      let repoShasMap = new Map<string, Set<string>>()
       for (let repoPatches of patches.projects) {
-        let repo = repoPatches.repo
+        let repo = assertDefined(repoPatches.repo)
+        assert(!repoShasMap.has(repo))
+        repoShasMap.set(repo, new Set(assertDefined(repoPatches.shas)))
         let patches = repoPatchesMap.get(repo)
         if (patches === undefined) {
           patches = []
           repoPatchesMap.set(repo, patches)
         }
         patches.push(...repoPatches.shas.map(sha => path.join(patchesDir, sha + '.patch')))
+      }
+
+      let bulletinFileName = patchIndexFileName.slice(0, -'-patches-index.json'.length) + '.json'
+      let bulletin = JSON.parse(await readFile(path.join(bulletinDir, bulletinFileName))) as BulletinInfo
+
+      for (let vuln of bulletin.vulnerabilities) {
+        let cve = vuln.CVE
+        if (cve === undefined || vuln.version_data === undefined) {
+          continue
+        }
+        let versionData = vuln.version_data[baseAndroidVersion]
+        if (versionData === undefined) {
+          continue
+        }
+        let branches = versionData.branches
+        assert(branches.length === 1)
+        for (let data of branches[0].projects) {
+          let repo = assertDefined(data.repo)
+          let shas = assertDefined(data.shas)
+          let appliedPatches = assertDefined(repoShasMap.get(repo))
+          assert(shas.find(sha => !appliedPatches.has(sha)) === undefined)
+        }
+        let severity = versionData.severity ?? 'Unknown'
+        updateMultiMap(cveInfo, severity, cve)
       }
     }
 
@@ -214,6 +247,15 @@ export class ApplyBulletinPatches extends Command {
     ].join('\n')
 
     await fs.writeFile(path.join(outDir, 'apply.sh'), applyScript, { mode: 0o700 })
+
+    let cveInfoStr =
+      Array.from(cveInfo.entries())
+        .map(([severity, cves]) => {
+          return severity + '\n' + cves.toSorted().join('\n')
+        })
+        .join('\n\n') + '\n'
+    await fs.writeFile(path.join(outDir, 'cve-info.txt'), cveInfoStr)
+
     console.log('Written patches and apply.sh script to ' + outDir)
   }
 }
@@ -237,6 +279,46 @@ interface SecurityBulletinPatches {
 }
 
 interface RepoPatches {
+  repo: string
+  shas: string[]
+}
+
+interface BulletinInfo {
+  title: string
+  bulletin_id: string
+  published: string
+  vulnerabilities: Vulnerability[]
+}
+
+interface Vulnerability {
+  bulletin_id: string
+  CVE?: string
+  area: string
+  component: string
+  subcomponent?: string
+  patch_level: string
+  android_id: string
+  type?: string
+  severity: string
+  aosp_versions: string[]
+  tech_details: string
+  fix_details?: string
+  version_data?: { [versionName: string]: VulnVersionData }
+}
+
+interface VulnVersionData {
+  type: string
+  severity: string
+  patch_links: string[]
+  branches: VulnVersionBranchData[]
+}
+
+interface VulnVersionBranchData {
+  name: string
+  projects: VulnProjectData[]
+}
+
+interface VulnProjectData {
   repo: string
   shas: string[]
 }
