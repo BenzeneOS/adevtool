@@ -110,8 +110,6 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
       "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
-
-      "vendor/apex/com.google.pixel.wifi.ext.apex",
     ],
     newFiles: [
       "vendor/lib64/libedgetpu_litert.so",
@@ -203,8 +201,6 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
       "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
-
-      "vendor/apex/com.google.pixel.wifi.ext.apex",
     ],
     newFiles: [
       "vendor/lib64/libedgetpu_litert.so",
@@ -295,8 +291,6 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
       "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
-
-      "vendor/apex/com.google.pixel.wifi.ext.apex",
     ],
     newFiles: [
       "vendor/lib64/libedgetpu_litert.so",
@@ -387,8 +381,6 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
       "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
-
-      "vendor/apex/com.google.pixel.wifi.ext.apex",
     ],
     newFiles: [
       "vendor/lib64/libedgetpu_litert.so",
@@ -477,8 +469,6 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
       "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
-
-      "vendor/apex/com.google.pixel.wifi.ext.apex",
     ],
     newFiles: [
       "vendor/lib64/libedgetpu_litert.so",
@@ -568,8 +558,6 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
       "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
-
-      "vendor/apex/com.google.pixel.wifi.ext.apex",
     ],
     newFiles: [
       "vendor/lib64/libedgetpu_litert.so",
@@ -658,7 +646,6 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
 
-      "vendor/apex/com.google.pixel.wifi.ext.apex",
     ],
     newFiles: [
       "vendor/lib64/libedgetpu_litert.so",
@@ -744,8 +731,6 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
       "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
-
-      "vendor/apex/com.google.pixel.wifi.ext.apex",
     ],
     newFiles: [
       "vendor/lib64/libedgetpu_litert.so",
@@ -830,8 +815,6 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/lib64/com.google.edgetpu_app_service-V3-ndk.so",
       "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
-
-      "vendor/apex/com.google.pixel.wifi.ext.apex",
     ],
     newFiles: [
     ],
@@ -871,8 +854,6 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/lib64/libedgetpu_util.so",
       "system_ext/lib64/com.google.edgetpu_app_service-V3-ndk.so",
       "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
-
-      "vendor/apex/com.google.pixel.wifi.ext.apex",
     ],
     newFiles: [
     ],
@@ -955,8 +936,6 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/lib64/com.google.edgetpu_app_service-V3-ndk.so",
       "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
-
-      "vendor/apex/com.google.pixel.wifi.ext.apex",
     ],
     newFiles: [
     ],
@@ -1040,8 +1019,6 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/lib64/com.google.edgetpu_app_service-V3-ndk.so",
       "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
-
-      "vendor/apex/com.google.pixel.wifi.ext.apex",
     ],
     newFiles: [
     ],
@@ -1125,8 +1102,6 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/lib64/com.google.edgetpu_app_service-V3-ndk.so",
       "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
-
-      "vendor/apex/com.google.pixel.wifi.ext.apex",
     ],
     newFiles: [
     ],
@@ -1169,7 +1144,6 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
       "system_ext/priv-app/OemRilService/OemRilService.apk",
       "vendor/apex/com.google.pixel.euicc.update.apex",
-
       "vendor/bin/hw/rild_exynos",
       "vendor/bin/hw/vendor.google.radioext@1.0-service",
       "vendor/lib64/com.google.pixel.modem.logmasklibrary-V1-ndk.so",
@@ -1203,8 +1177,6 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/lib64/com.google.edgetpu_app_service-V3-ndk.so",
       "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
-
-      "vendor/apex/com.google.pixel.wifi.ext.apex",
     ],
     newFiles: [
       "vendor/firmware/brcm/BTFW_D.hcd",
@@ -1281,8 +1253,6 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/lib64/com.google.edgetpu_app_service-V3-ndk.so",
       "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
-
-      "vendor/apex/com.google.pixel.wifi.ext.apex",
     ],
     newFiles: [
       "vendor/firmware/brcm/BTFW_D.hcd",
@@ -1359,8 +1329,6 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/lib64/com.google.edgetpu_app_service-V3-ndk.so",
       "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
-
-      "vendor/apex/com.google.pixel.wifi.ext.apex",
     ],
     newFiles: [
       "vendor/firmware/brcm/BTFW_D.hcd",
