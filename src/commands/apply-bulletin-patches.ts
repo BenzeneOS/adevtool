@@ -8,9 +8,10 @@ import path from 'path'
 import xml2js from 'xml2js'
 import YAML from 'yaml'
 import { OS_CHECKOUT_DIR } from '../config/paths'
-import { assertDefined, filterAsync, mapGet, updateMultiMap } from '../util/data'
-import { isFile, readFile } from '../util/fs'
+import { assertDefined, filterAsync, mapGet, updateMultiSet } from '../util/data'
+import { isDirectory, listFilesRecursive, readFile } from '../util/fs'
 import { spawnGit } from '../util/git'
+import { spawnAsyncStdin } from '../util/process'
 import { ManifestConfig } from './generate-manifest'
 
 export class ApplyBulletinPatches extends Command {
@@ -25,6 +26,8 @@ export class ApplyBulletinPatches extends Command {
     let { flags } = await this.parse(ApplyBulletinPatches)
 
     let projectNamePathMap = new Map<string, string>()
+    // reverse mapping
+    let repoPathProjectNameMap = new Map<string, string>()
     {
       let manifest = await xml2js.parseStringPromise(await readFile(flags.osManifestFile))
       let projects = manifest.manifest.project as XmlElement[]
@@ -35,6 +38,7 @@ export class ApplyBulletinPatches extends Command {
         }
         let path = proj.$.path
         projectNamePathMap.set(aospName, path)
+        repoPathProjectNameMap.set(path, aospName)
       }
     }
 
@@ -44,8 +48,7 @@ export class ApplyBulletinPatches extends Command {
     assert(baseAospTag.includes('.0.0_r'))
     let baseAndroidVersion = baseAospTag.substring('android-'.length, baseAospTag.lastIndexOf('_'))
 
-    let repoPatchesMap = new Map<string, string[]>()
-    let cveInfo = new Map<string, string[]>() // severity -> CVE list
+    let fullRepoPatchesMap = new Map<string, Patch[]>()
 
     // collect patches and CVE info from all provided bulletin dirs
     for (let bulletinDir of flags.bulletinDir) {
@@ -61,24 +64,22 @@ export class ApplyBulletinPatches extends Command {
       let patches = patchesIndex.patches[baseAospTag]
       if (patches === undefined) {
         console.log('no patches in ' + bulletinDir + ' for ' + baseAospTag)
-        return
+        continue
       }
-      let patchesDir = path.join(bulletinDir, 'patches')
-      let repoShasMap = new Map<string, Set<string>>()
+      let repoShasMap = new Map<string, string[]>()
+      let repoShasSetMap = new Map<string, Set<string>>()
       for (let repoPatches of patches.projects) {
         let repo = assertDefined(repoPatches.repo)
+        assert(!repoShasSetMap.has(repo))
+        repoShasSetMap.set(repo, new Set(assertDefined(repoPatches.shas)))
         assert(!repoShasMap.has(repo))
-        repoShasMap.set(repo, new Set(assertDefined(repoPatches.shas)))
-        let patches = repoPatchesMap.get(repo)
-        if (patches === undefined) {
-          patches = []
-          repoPatchesMap.set(repo, patches)
-        }
-        patches.push(...repoPatches.shas.map(sha => path.join(patchesDir, sha + '.patch')))
+        repoShasMap.set(repo, repoPatches.shas)
       }
 
       let bulletinFileName = patchIndexFileName.slice(0, -'-patches-index.json'.length) + '.json'
       let bulletin = JSON.parse(await readFile(path.join(bulletinDir, bulletinFileName))) as BulletinInfo
+
+      let cveInfoMap = new Map<string, Set<string>>() // patch SHA -> patch CVE infos
 
       for (let vuln of bulletin.vulnerabilities) {
         let cve = vuln.CVE
@@ -91,14 +92,53 @@ export class ApplyBulletinPatches extends Command {
         }
         let branches = versionData.branches
         assert(branches.length === 1)
+        let severity = versionData.severity ?? 'Unknown'
+        let cveInfo = [cve, CVE_INFO_SEVERITY_PREFIX + severity].join(CVE_INFO_ITEM_SEPARATOR)
         for (let data of branches[0].projects) {
           let repo = assertDefined(data.repo)
-          let shas = assertDefined(data.shas)
-          let appliedPatches = assertDefined(repoShasMap.get(repo))
-          assert(shas.find(sha => !appliedPatches.has(sha)) === undefined)
+          let presentShas = assertDefined(repoShasSetMap.get(repo))
+          for (let sha of assertDefined(data.shas)) {
+            assert(presentShas.has(sha), sha)
+            updateMultiSet(cveInfoMap, sha, cveInfo)
+          }
         }
-        let severity = versionData.severity ?? 'Unknown'
-        updateMultiMap(cveInfo, severity, cve)
+      }
+
+      let patchesDir = path.join(bulletinDir, 'patches')
+      for (let [repo, shas] of repoShasMap.entries()) {
+        let repoPatches: Patch[] = []
+        for (let sha of shas) {
+          let filePath = path.join(patchesDir, sha + '.patch')
+          let patch = await readFile(filePath)
+          let patchMessageStartMarker = '\n\n'
+          let patchMessageStart = patch.indexOf(patchMessageStartMarker)
+          assert(patchMessageStart > 0)
+          let patchHeader = patch.substring(0, patchMessageStart)
+          let cveInfoSet = cveInfoMap.get(sha)
+          let patchContents: string
+          if (cveInfoSet !== undefined) {
+            let cveInfoStr =
+              '\n' +
+              Array.from(cveInfoSet)
+                .sort()
+                .map(s => CVE_INFO_HEADER + s)
+                .join('')
+            patchContents = patchHeader + cveInfoStr + patch.substring(patchMessageStart)
+          } else {
+            patchContents = patch
+          }
+          repoPatches.push({
+            patchContents: patchContents,
+            srcFilePath: filePath,
+          })
+        }
+
+        let fullRepoPatches = fullRepoPatchesMap.get(repo)
+        if (fullRepoPatches === undefined) {
+          fullRepoPatches = []
+          fullRepoPatchesMap.set(repo, fullRepoPatches)
+        }
+        fullRepoPatches.push(...repoPatches)
       }
     }
 
@@ -112,9 +152,12 @@ export class ApplyBulletinPatches extends Command {
     }
     let baseRevision = forkRemoteName + '/' + revision
     let patchedRepos: PatchedRepo[] = []
-    let manualResolutionRequiredRepos: string[] = []
+    let manualResolutionRequiredRepos: [string, Patch[]][] = []
 
-    for (let [repoName, patches] of repoPatchesMap) {
+    for (let [repoName, patches] of fullRepoPatchesMap) {
+      if (patches.length === 0) {
+        continue
+      }
       let repoPath = mapGet(projectNamePathMap, repoName)
       console.log(chalk.bold(repoPath))
       try {
@@ -127,22 +170,61 @@ export class ApplyBulletinPatches extends Command {
         }
         await spawnGit(repoPath, ['remote', 'add', 'aosp', 'https://android.googlesource.com/' + repoName])
       }
-      await spawnGit(repoPath, ['fetch', '--quiet', 'aosp', 'tag', baseAospTag])
+
+      let baseAospRef = baseAospTag
+      await spawnGit(repoPath, ['fetch', '--quiet', 'aosp', 'tag', baseAospRef])
+
+      /*
+        let baseAndroidVersionShort = baseAndroidVersion.substring(0, baseAndroidVersion.indexOf('.'))
+        assert(baseAndroidVersionShort.length === 2)
+        let altBaseAospRef = `android${baseAndroidVersionShort}-security-release`
+        try {
+          await spawnGit(repoPath, ['fetch', '--quiet', 'aosp', altBaseAospRef])
+          baseAospRef = 'aosp/' + altBaseAospRef
+        } catch (e) {
+          await spawnGit(repoPath, ['fetch', '--quiet', 'aosp', 'tag', baseAospRef])
+        }
+      */
 
       await spawnGit(repoPath, ['checkout', '--quiet', 'FETCH_HEAD'])
 
-      for (let patch of patches) {
-        assert(await isFile(patch))
-        let out = await spawnGit(repoPath, ['am', '--whitespace=nowarn', patch])
-        assert(out.endsWith('\n'))
-        console.log(out.slice(0, -1))
+      let additionalPatches: Patch[] = []
+      for (let patchObj of patches) {
+        let patch = patchObj.patchContents
+        let subjectStartMarker = '\nSubject: '
+        let subjectStart = patch.indexOf(subjectStartMarker)
+        assert(subjectStart > 0)
+        subjectStart += subjectStartMarker.length
+        let headerEnd = patch.indexOf('\n\n')
+        assert(headerEnd > subjectStart)
+        let subject = patch.substring(subjectStart, headerEnd).replaceAll('\n', '')
+
+        let amOut
+        for (;;) {
+          try {
+            amOut = await spawnAsyncStdin(
+              'git',
+              ['-C', repoPath, 'am', '--whitespace=nowarn'],
+              Buffer.from(patch),
+              line => line === 'warning: reading patches from stdin/tty...',
+            )
+            break
+          } catch (e) {
+            console.log(`Unable to apply "${subject}": ${e}`)
+            await spawnGit(repoPath, ['am', '--abort'])
+            await confirm({ message: 'Try again?' })
+          }
+        }
+        assert(amOut.endsWith('\n'))
+        console.log(amOut.slice(0, -1))
       }
 
       if (!forkedAospRepos.has(repoPath)) {
-        if (spawnSync('git', ['-C', repoPath, 'diff', '--exit-code', 'HEAD', baseAospTag]).status !== 0) {
-          patchedRepos.push({ path: repoPath, baseRevision: baseAospTag })
+        if (spawnSync('git', ['-C', repoPath, 'diff', '--exit-code', 'HEAD', baseAospRef]).status !== 0) {
+          patchedRepos.push({ path: repoPath, baseRevision: baseAospRef })
+          console.log('Skipping rebasing ' + repoPath + " since it's not a fork")
         } else {
-          console.log(`${repoPath}: ${baseAospTag} is same as HEAD`)
+          console.log(`${repoPath}: ${baseAospRef} is same as HEAD`)
         }
       } else {
         await spawnGit(repoPath, ['fetch', '--quiet', forkRemoteName, revision])
@@ -166,7 +248,7 @@ export class ApplyBulletinPatches extends Command {
             console.log(`${baseRevision} is same as HEAD`)
           }
         } catch (e) {
-          manualResolutionRequiredRepos.push(repoPath)
+          manualResolutionRequiredRepos.push([repoPath, additionalPatches])
           console.log(e)
         }
       }
@@ -180,10 +262,10 @@ export class ApplyBulletinPatches extends Command {
             '\nComplete the rebase manually before proceeding.',
         )
         let proceed = await confirm({ message: 'Proceed?' })
-        manualResolutionRequiredRepos = await filterAsync(
-          manualResolutionRequiredRepos,
-          async repoPath => !(await spawnGit(repoPath, ['status'])).includes('nothing to commit, working tree clean'),
-        )
+        manualResolutionRequiredRepos = await filterAsync(manualResolutionRequiredRepos, async ([repoPath]) => {
+          let clean = (await spawnGit(repoPath, ['status'])).includes('nothing to commit, working tree clean')
+          return !clean
+        })
         if (manualResolutionRequiredRepos.length === 0) {
           if (proceed) {
             break
@@ -198,7 +280,7 @@ export class ApplyBulletinPatches extends Command {
           }
         }
       }
-      for (let repoPath of orig) {
+      for (let [repoPath] of orig) {
         if (spawnSync('git', ['-C', repoPath, 'diff', '--exit-code', 'HEAD', baseRevision]).status !== 0) {
           patchedRepos.push({ path: repoPath, baseRevision })
         } else {
@@ -206,6 +288,8 @@ export class ApplyBulletinPatches extends Command {
         }
       }
     }
+
+    console.log()
 
     await fs.mkdir(flags.outDir, { recursive: true })
     let outDir = await fs.realpath(flags.outDir)
@@ -224,11 +308,46 @@ export class ApplyBulletinPatches extends Command {
       ),
     )
 
-    await Promise.all(
-      patchedRepos.map(async e => {
-        spawnGit(e.path, ['checkout', '--quiet', e.baseRevision])
-      }),
-    )
+    await Promise.all(patchedRepos.map(async e => spawnGit(e.path, ['checkout', '--quiet', e.baseRevision])))
+
+    {
+      let cveInfoMap = new Map<string, Set<string>>() // severity -> CVEs
+
+      let patchPaths = await Array.fromAsync(listFilesRecursive(outDir))
+      await Promise.all(
+        patchPaths.map(async patchPath => {
+          assert(patchPath.endsWith('.patch'))
+          let patch = await readFile(patchPath)
+          let searchStartIdx = 0
+          for (;;) {
+            let cveInfoHeaderIdx = patch.indexOf(CVE_INFO_HEADER, searchStartIdx)
+            if (cveInfoHeaderIdx < searchStartIdx) {
+              return
+            }
+            let cveInfoStart = cveInfoHeaderIdx + CVE_INFO_HEADER.length
+            let cveInfoEnd = patch.indexOf('\n', cveInfoStart)
+            assert(cveInfoEnd > cveInfoStart)
+            let cveInfoStr = patch.substring(cveInfoStart, cveInfoEnd)
+            let cveInfo = cveInfoStr.split(CVE_INFO_ITEM_SEPARATOR)
+            assert(cveInfo.length === 2)
+            let [cve, severityStr] = cveInfo
+            assert(severityStr.startsWith(CVE_INFO_SEVERITY_PREFIX))
+            let severity = severityStr.substring(CVE_INFO_SEVERITY_PREFIX.length)
+            updateMultiSet(cveInfoMap, severity, cve)
+            searchStartIdx = cveInfoEnd
+          }
+        }),
+      )
+
+      let cveInfoStr =
+        Array.from(cveInfoMap.entries())
+          .map(([severity, cves]) => {
+            return severity + '\n' + Array.from(cves).toSorted().join('\n')
+          })
+          .toSorted()
+          .join('\n\n') + '\n'
+      await fs.writeFile(path.join(outDir, 'cve-info.txt'), cveInfoStr)
+    }
 
     let applyScript = [
       '#!/bin/bash',
@@ -256,16 +375,17 @@ export class ApplyBulletinPatches extends Command {
 
     await fs.writeFile(path.join(outDir, 'apply.sh'), applyScript, { mode: 0o700 })
 
-    let cveInfoStr =
-      Array.from(cveInfo.entries())
-        .map(([severity, cves]) => {
-          return severity + '\n' + cves.toSorted().join('\n')
-        })
-        .join('\n\n') + '\n'
-    await fs.writeFile(path.join(outDir, 'cve-info.txt'), cveInfoStr)
-
     console.log('Written patches and apply.sh script to ' + outDir)
   }
+}
+
+const CVE_INFO_HEADER = '\nCVE-Info: '
+const CVE_INFO_ITEM_SEPARATOR = ' | '
+const CVE_INFO_SEVERITY_PREFIX = 'Severity: '
+
+interface Patch {
+  patchContents: string // won't be same as contents of srcFilePath in most cases due to editing
+  srcFilePath: string
 }
 
 interface XmlElement {

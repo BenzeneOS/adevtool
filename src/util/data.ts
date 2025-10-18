@@ -18,6 +18,19 @@ export function setDifference<Value>(a: Set<Value>, b: Set<Value>) {
   return set
 }
 
+export function updateMultiSet<K, V>(map: Map<K, Set<V>>, key: K, value: V) {
+  let set = map.get(key)
+  if (set === undefined) {
+    set = new Set<V>()
+    map.set(key, set)
+  }
+  if (set.has(value)) {
+    return false
+  }
+  set.add(value)
+  return true
+}
+
 export function updateMultiMap<K, V>(map: Map<K, V[]>, key: K, value: V) {
   let cur = map.get(key)
   if (cur === undefined) {
