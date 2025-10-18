@@ -1,0 +1,5 @@
+device:
+  name: rango
+
+includes:
+  - common/gen10pixel.yml
