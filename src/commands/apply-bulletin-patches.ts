@@ -5,10 +5,11 @@ import chalk from 'chalk'
 import { promises as fs } from 'fs'
 import { spawnSync } from 'node:child_process'
 import path from 'path'
+import util from 'util'
 import xml2js from 'xml2js'
 import YAML from 'yaml'
 import { OS_CHECKOUT_DIR } from '../config/paths'
-import { assertDefined, filterAsync, mapGet, updateMultiSet } from '../util/data'
+import { assertDefined, filterAsync, mapGet, updateMultiMap, updateMultiSet } from '../util/data'
 import { isDirectory, listFilesRecursive, readFile } from '../util/fs'
 import { spawnGit } from '../util/git'
 import { spawnAsyncStdin } from '../util/process'
@@ -20,10 +21,23 @@ export class ApplyBulletinPatches extends Command {
     osManifestConfig: Flags.file({ default: path.join(OS_CHECKOUT_DIR, '.repo/manifests/config.yml') }),
     osManifestFile: Flags.file({ default: path.join(OS_CHECKOUT_DIR, '.repo/manifests/default.xml') }),
     outDir: Flags.file({ required: true }),
+    additionalPatchesDir: Flags.file(),
+    skippedPatchesDir: Flags.file(),
   }
 
   async run() {
     let { flags } = await this.parse(ApplyBulletinPatches)
+
+    let additionalPatchesDir = flags.additionalPatchesDir ?? path.join(path.dirname(flags.outDir), 'additional-patches')
+    let skippedPatchesDir = flags.skippedPatchesDir ?? path.join(path.dirname(flags.outDir), 'patches-to-skip')
+
+    let [additonalPatchesInfo, skippedPatchesInfo] = await Promise.all([
+      readPatchesDir(additionalPatchesDir),
+      readPatchesDir(skippedPatchesDir),
+    ])
+
+    console.log('Additional patches: ' + util.inspect(additonalPatchesInfo, false, Infinity))
+    console.log('Patches to skip: ' + util.inspect(skippedPatchesInfo, false, Infinity))
 
     let projectNamePathMap = new Map<string, string>()
     // reverse mapping
@@ -106,10 +120,19 @@ export class ApplyBulletinPatches extends Command {
 
       let patchesDir = path.join(bulletinDir, 'patches')
       for (let [repo, shas] of repoShasMap.entries()) {
+        let repoPath = mapGet(projectNamePathMap, repo)
+        let skippedPatchesArr = await Promise.all(
+          (skippedPatchesInfo.patchMap.get(repoPath) ?? []).map(async patchPath => readFile(patchPath)),
+        )
+        let skippedPatches = new Set(skippedPatchesArr)
+        assert(skippedPatches.size === skippedPatchesArr.length)
         let repoPatches: Patch[] = []
         for (let sha of shas) {
           let filePath = path.join(patchesDir, sha + '.patch')
           let patch = await readFile(filePath)
+          if (skippedPatches.has(patch)) {
+            continue
+          }
           let patchMessageStartMarker = '\n\n'
           let patchMessageStart = patch.indexOf(patchMessageStartMarker)
           assert(patchMessageStart > 0)
@@ -130,6 +153,7 @@ export class ApplyBulletinPatches extends Command {
           repoPatches.push({
             patchContents: patchContents,
             srcFilePath: filePath,
+            isAdditional: false,
           })
         }
 
@@ -140,6 +164,25 @@ export class ApplyBulletinPatches extends Command {
         }
         fullRepoPatches.push(...repoPatches)
       }
+    }
+
+    for (let [repoPath, patchPaths] of additonalPatchesInfo.patchMap) {
+      let repo = mapGet(repoPathProjectNameMap, repoPath)
+      let fullRepoPatches = fullRepoPatchesMap.get(repo)
+      if (fullRepoPatches === undefined) {
+        fullRepoPatches = []
+        fullRepoPatchesMap.set(repo, fullRepoPatches)
+      }
+      let patches = await Promise.all(
+        patchPaths.toSorted().map(async patchPath => {
+          return {
+            srcFilePath: patchPath,
+            patchContents: await readFile(patchPath),
+            isAdditional: true,
+          } as Patch
+        }),
+      )
+      fullRepoPatches.push(...patches)
     }
 
     let forkedAospRepos = new Set<string>(manifestConfig.forked_aosp_repos)
@@ -190,6 +233,10 @@ export class ApplyBulletinPatches extends Command {
 
       let additionalPatches: Patch[] = []
       for (let patchObj of patches) {
+        if (patchObj.isAdditional) {
+          additionalPatches.push(patchObj)
+          continue
+        }
         let patch = patchObj.patchContents
         let subjectStartMarker = '\nSubject: '
         let subjectStart = patch.indexOf(subjectStartMarker)
@@ -220,6 +267,8 @@ export class ApplyBulletinPatches extends Command {
       }
 
       if (!forkedAospRepos.has(repoPath)) {
+        await applyAdditionalPatches(repoPath, additionalPatches)
+
         if (spawnSync('git', ['-C', repoPath, 'diff', '--exit-code', 'HEAD', baseAospRef]).status !== 0) {
           patchedRepos.push({ path: repoPath, baseRevision: baseAospRef })
           console.log('Skipping rebasing ' + repoPath + " since it's not a fork")
@@ -242,6 +291,8 @@ export class ApplyBulletinPatches extends Command {
               return false
             },
           )
+          await applyAdditionalPatches(repoPath, additionalPatches)
+
           if (spawnSync('git', ['-C', repoPath, 'diff', '--exit-code', 'HEAD', baseRevision]).status !== 0) {
             patchedRepos.push({ path: repoPath, baseRevision })
           } else {
@@ -262,10 +313,16 @@ export class ApplyBulletinPatches extends Command {
             '\nComplete the rebase manually before proceeding.',
         )
         let proceed = await confirm({ message: 'Proceed?' })
-        manualResolutionRequiredRepos = await filterAsync(manualResolutionRequiredRepos, async ([repoPath]) => {
-          let clean = (await spawnGit(repoPath, ['status'])).includes('nothing to commit, working tree clean')
-          return !clean
-        })
+        manualResolutionRequiredRepos = await filterAsync(
+          manualResolutionRequiredRepos,
+          async ([repoPath, additionalPatches]) => {
+            let clean = (await spawnGit(repoPath, ['status'])).includes('nothing to commit, working tree clean')
+            if (clean) {
+              await applyAdditionalPatches(repoPath, additionalPatches)
+            }
+            return !clean
+          },
+        )
         if (manualResolutionRequiredRepos.length === 0) {
           if (proceed) {
             break
@@ -379,6 +436,19 @@ export class ApplyBulletinPatches extends Command {
   }
 }
 
+async function applyAdditionalPatches(repoPath: string, patches: Patch[]) {
+  for (let patchObj of patches) {
+    let amOut = await spawnAsyncStdin(
+      'git',
+      ['-C', repoPath, 'am', '--whitespace=nowarn'],
+      Buffer.from(patchObj.patchContents),
+      line => line === 'warning: reading patches from stdin/tty...',
+    )
+    assert(amOut.endsWith('\n'))
+    console.log('Additional patch: ' + amOut.slice(0, -1))
+  }
+}
+
 const CVE_INFO_HEADER = '\nCVE-Info: '
 const CVE_INFO_ITEM_SEPARATOR = ' | '
 const CVE_INFO_SEVERITY_PREFIX = 'Severity: '
@@ -386,6 +456,27 @@ const CVE_INFO_SEVERITY_PREFIX = 'Severity: '
 interface Patch {
   patchContents: string // won't be same as contents of srcFilePath in most cases due to editing
   srcFilePath: string
+  isAdditional: boolean
+}
+
+interface PatchesDir {
+  // repo path -> patches
+  patchMap: Map<string, string[]>
+}
+
+async function readPatchesDir(dirPath: string) {
+  if (!(await isDirectory(dirPath))) {
+    return { patchMap: new Map() } as PatchesDir
+  }
+
+  let patchMap = new Map<string, string[]>()
+  for await (let filePath of listFilesRecursive(dirPath)) {
+    if (!filePath.endsWith('.patch')) {
+      continue
+    }
+    updateMultiMap(patchMap, path.dirname(path.relative(dirPath, filePath)), filePath)
+  }
+  return { patchMap } as PatchesDir
 }
 
 interface XmlElement {
