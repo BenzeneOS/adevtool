@@ -211,9 +211,17 @@ export class ApplyBulletinPatches extends Command {
     let outDir = await fs.realpath(flags.outDir)
 
     await Promise.all(
-      patchedRepos.map(async e => {
-        spawnGit(e.path, ['format-patch', '--output-directory', path.join(outDir, e.path), e.baseRevision])
-      }),
+      patchedRepos.map(async e =>
+        spawnGit(e.path, [
+          'format-patch',
+          '--keep-subject',
+          '--zero-commit',
+          '--no-signature',
+          '--output-directory',
+          path.join(outDir, e.path),
+          e.baseRevision,
+        ]),
+      ),
     )
 
     await Promise.all(
