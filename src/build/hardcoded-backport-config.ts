@@ -15,7 +15,7 @@ export interface FirmwareBackportInfo {
   "modem-name": string
 }
 
-const ANDROID_16_QPR1_DEFAULT_BUILD_ID = "BP3A.250905.014"
+const ANDROID_16_QPR1_DEFAULT_BUILD_ID = "BP3A.251005.004.B1"
 
 // Find differences with e.g.
 //  diff -rq $DEVICE-$CURRENT_BUILD_ID/ $DEVICE-$BACKPORT_SOURCE_BUILD_ID/ | grep -i ril
@@ -826,7 +826,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
     },
   },
   "tangorpro": {
-    sourceBuildId: `${ANDROID_16_QPR1_DEFAULT_BUILD_ID}.A1`,
+    sourceBuildId: "BP3A.251005.004.A2",
     replaceDirectories: [
     ],
     replaceFiles: [
@@ -1113,7 +1113,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
     },
   },
   "bluejay": {
-    sourceBuildId: ANDROID_16_QPR1_DEFAULT_BUILD_ID,
+    sourceBuildId: "BP3A.250905.014",
     replaceDirectories: [
       "vendor/firmware/carrierconfig/",
       "product/etc/CarrierSettings/",
@@ -1189,7 +1189,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
     },
   },
   "raven": {
-    sourceBuildId: ANDROID_16_QPR1_DEFAULT_BUILD_ID,
+    sourceBuildId: "BP3A.250905.014",
     replaceDirectories: [
       "vendor/firmware/carrierconfig/",
       "product/etc/CarrierSettings/",
@@ -1265,7 +1265,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
     },
   },
   "oriole": {
-    sourceBuildId: ANDROID_16_QPR1_DEFAULT_BUILD_ID,
+    sourceBuildId: "BP3A.250905.014",
     replaceDirectories: [
       "vendor/firmware/carrierconfig/",
       "product/etc/CarrierSettings/",
