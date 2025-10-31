@@ -93,7 +93,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/lib64/modem_android_property_manager_impl.so",
       "vendor/lib64/modem_clock_manager_impl.so",
       "vendor/lib64/modem_log_dumper.so",
-      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so", 
+      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice-V1-ndk.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal-V1-ndk.so",
       "vendor/lib64/vendor.google.whitechapel.audio.extension-V5-ndk.so",
@@ -183,7 +183,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/lib64/modem_android_property_manager_impl.so",
       "vendor/lib64/modem_clock_manager_impl.so",
       "vendor/lib64/modem_log_dumper.so",
-      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so", 
+      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so",
 
@@ -273,7 +273,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/lib64/modem_android_property_manager_impl.so",
       "vendor/lib64/modem_clock_manager_impl.so",
       "vendor/lib64/modem_log_dumper.so",
-      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so", 
+      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so",
 
@@ -363,7 +363,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/lib64/modem_android_property_manager_impl.so",
       "vendor/lib64/modem_clock_manager_impl.so",
       "vendor/lib64/modem_log_dumper.so",
-      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so", 
+      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so",
 
@@ -451,7 +451,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/lib64/modem_android_property_manager_impl.so",
       "vendor/lib64/modem_clock_manager_impl.so",
       "vendor/lib64/modem_log_dumper.so",
-      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so", 
+      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so",
 
@@ -540,7 +540,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/lib64/modem_android_property_manager_impl.so",
       "vendor/lib64/modem_clock_manager_impl.so",
       "vendor/lib64/modem_log_dumper.so",
-      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so", 
+      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so",
 
@@ -627,7 +627,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/lib64/modem_android_property_manager_impl.so",
       "vendor/lib64/modem_clock_manager_impl.so",
       "vendor/lib64/modem_log_dumper.so",
-      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so", 
+      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so",
 
@@ -713,7 +713,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/lib64/modem_android_property_manager_impl.so",
       "vendor/lib64/modem_clock_manager_impl.so",
       "vendor/lib64/modem_log_dumper.so",
-      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so", 
+      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so",
 
@@ -797,7 +797,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/lib64/modem_android_property_manager_impl.so",
       "vendor/lib64/modem_clock_manager_impl.so",
       "vendor/lib64/modem_log_dumper.so",
-      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so", 
+      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so",
 
@@ -918,7 +918,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/lib64/modem_android_property_manager_impl.so",
       "vendor/lib64/modem_clock_manager_impl.so",
       "vendor/lib64/modem_log_dumper.so",
-      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so", 
+      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so",
 
@@ -1000,7 +1000,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/lib64/modem_android_property_manager_impl.so",
       "vendor/lib64/modem_clock_manager_impl.so",
       "vendor/lib64/modem_log_dumper.so",
-      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so", 
+      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so",
 
@@ -1083,7 +1083,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/lib64/modem_android_property_manager_impl.so",
       "vendor/lib64/modem_clock_manager_impl.so",
       "vendor/lib64/modem_log_dumper.so",
-      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so", 
+      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so",
 
@@ -1235,7 +1235,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/lib64/modem_android_property_manager_impl.so",
       "vendor/lib64/modem_clock_manager_impl.so",
       "vendor/lib64/modem_log_dumper.so",
-      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so", 
+      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so",
 
@@ -1311,7 +1311,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/lib64/modem_android_property_manager_impl.so",
       "vendor/lib64/modem_clock_manager_impl.so",
       "vendor/lib64/modem_log_dumper.so",
-      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so", 
+      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so",
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so",
 
