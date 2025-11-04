@@ -15,7 +15,7 @@ export interface FirmwareBackportInfo {
   "modem-name": string
 }
 
-const ANDROID_16_QPR1_DEFAULT_BUILD_ID = "BP3A.251005.004.B1"
+const ANDROID_16_QPR1_DEFAULT_BUILD_ID = "BP3A.251005.004.B2"
 
 // Find differences with e.g.
 //  diff -rq $DEVICE-$CURRENT_BUILD_ID/ $DEVICE-$BACKPORT_SOURCE_BUILD_ID/ | grep -i ril
@@ -122,7 +122,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
     },
   },
   "comet": {
-    sourceBuildId: ANDROID_16_QPR1_DEFAULT_BUILD_ID,
+    sourceBuildId: "BP3A.251005.004.B3",
     replaceDirectories: [
       "vendor/firmware/carrierconfig/",
       "vendor/firmware/uecapconfig/",
@@ -213,7 +213,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
     },
   },
   "komodo": {
-    sourceBuildId: ANDROID_16_QPR1_DEFAULT_BUILD_ID,
+    sourceBuildId: "BP3A.251005.004.B3",
     replaceDirectories: [
       "vendor/firmware/carrierconfig/",
       "vendor/firmware/uecapconfig/",
@@ -303,7 +303,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
     },
   },
   "caiman": {
-    sourceBuildId: ANDROID_16_QPR1_DEFAULT_BUILD_ID,
+    sourceBuildId: "BP3A.251005.004.B3",
     replaceDirectories: [
       "vendor/firmware/carrierconfig/",
       "vendor/firmware/uecapconfig/",
@@ -393,7 +393,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
     },
   },
   "tokay": {
-    sourceBuildId: ANDROID_16_QPR1_DEFAULT_BUILD_ID,
+    sourceBuildId: "BP3A.251005.004.B3",
     replaceDirectories: [
       "vendor/firmware/carrierconfig/",
       "vendor/firmware/uecapconfig/",
