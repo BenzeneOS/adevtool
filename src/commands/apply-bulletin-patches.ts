@@ -31,12 +31,12 @@ export class ApplyBulletinPatches extends Command {
     let additionalPatchesDir = flags.additionalPatchesDir ?? path.join(path.dirname(flags.outDir), 'additional-patches')
     let skippedPatchesDir = flags.skippedPatchesDir ?? path.join(path.dirname(flags.outDir), 'patches-to-skip')
 
-    let [additonalPatchesInfo, skippedPatchesInfo] = await Promise.all([
+    let [additionalPatchesInfo, skippedPatchesInfo] = await Promise.all([
       readPatchesDir(additionalPatchesDir),
       readPatchesDir(skippedPatchesDir),
     ])
 
-    console.log('Additional patches: ' + util.inspect(additonalPatchesInfo, false, Infinity))
+    console.log('Additional patches: ' + util.inspect(additionalPatchesInfo, false, Infinity))
     console.log('Patches to skip: ' + util.inspect(skippedPatchesInfo, false, Infinity))
 
     let projectNamePathMap = new Map<string, string>()
@@ -166,7 +166,7 @@ export class ApplyBulletinPatches extends Command {
       }
     }
 
-    for (let [repoPath, patchPaths] of additonalPatchesInfo.patchMap) {
+    for (let [repoPath, patchPaths] of additionalPatchesInfo.patchMap) {
       let repo = mapGet(repoPathProjectNameMap, repoPath)
       let fullRepoPatches = fullRepoPatchesMap.get(repo)
       if (fullRepoPatches === undefined) {
