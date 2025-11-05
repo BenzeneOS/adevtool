@@ -5,12 +5,13 @@ import chalk from 'chalk'
 import { promises as fs } from 'fs'
 import { spawnSync } from 'node:child_process'
 import path from 'path'
+import { unzip } from 'unzipit'
 import util from 'util'
 import xml2js from 'xml2js'
 import YAML from 'yaml'
 import { OS_CHECKOUT_DIR } from '../config/paths'
 import { assertDefined, filterAsync, mapGet, updateMultiMap, updateMultiSet } from '../util/data'
-import { isDirectory, listFilesRecursive, readFile } from '../util/fs'
+import { isDirectory, isFile, listFilesRecursive, readFile } from '../util/fs'
 import { spawnGit } from '../util/git'
 import { spawnAsyncStdin } from '../util/process'
 import { ManifestConfig } from './generate-manifest'
@@ -118,7 +119,14 @@ export class ApplyBulletinPatches extends Command {
         }
       }
 
+      let bulletinZipFileName = patchIndexFileName.slice(0, -'-index.json'.length) + '.zip'
+      let bulletinZipFilePath = path.join(bulletinDir, bulletinZipFileName)
+      let zipPatchMap: Map<string, string> | null = null // commit hash -> patch contents
+      if (await isFile(bulletinZipFilePath)) {
+        zipPatchMap = await readPatchesFromBulletinZip(bulletinZipFilePath, baseAospTag)
+      }
       let patchesDir = path.join(bulletinDir, 'patches')
+
       for (let [repo, shas] of repoShasMap.entries()) {
         let repoPath = mapGet(projectNamePathMap, repo)
         let skippedPatchesArr = await Promise.all(
@@ -128,8 +136,14 @@ export class ApplyBulletinPatches extends Command {
         assert(skippedPatches.size === skippedPatchesArr.length)
         let repoPatches: Patch[] = []
         for (let sha of shas) {
-          let filePath = path.join(patchesDir, sha + '.patch')
-          let patch = await readFile(filePath)
+          let patch: string
+          let filePath: string | undefined = undefined
+          if (zipPatchMap !== null) {
+            patch = mapGet(zipPatchMap, sha)
+          } else {
+            filePath = path.join(patchesDir, sha + '.patch')
+            patch = await readFile(filePath)
+          }
           if (skippedPatches.has(patch)) {
             continue
           }
@@ -309,7 +323,7 @@ export class ApplyBulletinPatches extends Command {
       for (;;) {
         console.log(
           '\nThe following repos have rebase conflicts:\n' +
-            manualResolutionRequiredRepos.join('\n') +
+            manualResolutionRequiredRepos.map(([repo]) => repo).join('\n') +
             '\nComplete the rebase manually before proceeding.',
         )
         let proceed = await confirm({ message: 'Proceed?' })
@@ -436,6 +450,30 @@ export class ApplyBulletinPatches extends Command {
   }
 }
 
+async function readPatchesFromBulletinZip(zipPath: string, baseAospTag: string) {
+  let zipInfo = await unzip(await fs.readFile(zipPath))
+  let patchPrefix = path.basename(zipPath, '.zip') + '/patches/' + baseAospTag + '/'
+  let res = new Map<string, string>()
+  for (let [name, zipEntry] of Object.entries(zipInfo.entries)) {
+    if (!name.startsWith(patchPrefix)) {
+      continue
+    }
+    let contents = await zipEntry.text()
+    let lineEnd = contents.indexOf('\n')
+    assert(lineEnd > 0, contents)
+    let firstLine = contents.slice(0, lineEnd)
+    assert(firstLine.length === 70, firstLine)
+    let prefix = 'From '
+    let suffix = ' Mon Sep 17 00:00:00 2001'
+    assert(firstLine.startsWith(prefix))
+    assert(firstLine.endsWith(suffix))
+    let commitHash = firstLine.slice(prefix.length, firstLine.length - suffix.length)
+    assert(commitHash.length === 40)
+    res.set(commitHash, contents)
+  }
+  return res
+}
+
 async function applyAdditionalPatches(repoPath: string, patches: Patch[]) {
   for (let patchObj of patches) {
     let amOut = await spawnAsyncStdin(
@@ -455,7 +493,7 @@ const CVE_INFO_SEVERITY_PREFIX = 'Severity: '
 
 interface Patch {
   patchContents: string // won't be same as contents of srcFilePath in most cases due to editing
-  srcFilePath: string
+  srcFilePath?: string
   isAdditional: boolean
 }
 
