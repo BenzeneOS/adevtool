@@ -1,20 +1,7 @@
-*-debug.log
-*-error.log
-/.nyc_output
-/dist
-/lib
-/package-lock.json
-/tmp
-node_modules
-
-# IDEA project
 /.idea/
-
-# Vendor output
-/vendor/
-
-# Downloads and extracted files
-*.zip
-/dl
-*.img
-/mount/
+/dist/
+!/dl/
+/dl/*
+!/dl/.find-ignore
+/lib/
+/node_modules/
