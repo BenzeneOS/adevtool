@@ -86,7 +86,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
 
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.build.expect.baseband=g5300i-250605-250630-B-13713258 \
+    ro.build.expect.baseband=g5300i-250605-251024-B-14327462 \
     ro.build.expect.bootloader=ripcurrent-16.3-13642541 \
     ro.hardware.egl=mali \
     ro.hardware.vulkan=mali \

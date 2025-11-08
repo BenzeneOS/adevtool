@@ -24,8 +24,8 @@ import {
   SelinuxPartResolutions,
 } from '../selinux/contexts'
 import { isFile, readFile } from '../util/fs'
-import { ALL_SYS_PARTITIONS } from '../util/partitions'
-import { deviceBackportConfig } from '../build/hardcoded-backport-config'
+import { ALL_SYS_PARTITIONS, Partition } from '../util/partitions'
+import { mapGet } from "../util/data";
 
 export interface PropResults {
   stockProps: PartitionProps
@@ -111,36 +111,35 @@ export async function updatePresigned(config: DeviceConfig, entries: BlobEntry[]
   )
 }
 
-function replaceWithHardcodedFirmwareProps(config: DeviceConfig, props: Map<string, string>) {
-  const firmwareInfo = deviceBackportConfig[config.device.name].firmware
-  if (!firmwareInfo) {
-    console.warn(`firmwareInfo is null, skipping firmware backport props for ${config.device.name}`)
-    return
-  }
-
-  for (let key of props.keys()) {
-    if (key == "ro.build.expect.bootloader") {
-        props.set("ro.build.expect.bootloader", firmwareInfo['version-bootloader'])
-    }
-
-    if (key == "ro.build.expect.baseband") {
-      props.set("ro.build.expect.baseband", firmwareInfo['version-baseband'])
-    }
-  }
-}
-
-export async function extractProps(config: DeviceConfig, customState: SystemState | null, stockSrc: string, maybeBackport?: boolean) {
+export async function extractProps(
+  config: DeviceConfig,
+  customState: SystemState | null,
+  stockSrc: string,
+  backportSrc?: string,
+) {
   let stockProps = await loadPartitionProps(stockSrc)
+  if (backportSrc !== undefined) {
+    let backportStockProps = await loadPartitionProps(backportSrc)
+    let backportVendor = mapGet(backportStockProps, Partition.Vendor)
+    let dstVendor = mapGet(stockProps, Partition.Vendor)
+    for (let prop of ['ro.build.expect.bootloader', 'ro.build.expect.baseband']) {
+      let orig = dstVendor.get(prop)
+      if (orig === undefined) {
+        assert(prop === 'ro.build.expect.baseband', prop)
+        continue
+      }
+      dstVendor.set(prop, mapGet(backportVendor, prop))
+    }
+  }
+
   let customProps = customState?.partitionProps ?? new Map<string, Map<string, string>>()
 
   // Filters
   for (let props of stockProps.values()) {
     filterKeys(config.filters.props, props)
-    replaceWithHardcodedFirmwareProps(config, props)
   }
   for (let props of customProps.values()) {
     filterKeys(config.filters.props, props)
-    replaceWithHardcodedFirmwareProps(config, props)
   }
 
   // Fingerprint for SafetyNet

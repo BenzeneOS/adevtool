@@ -213,7 +213,7 @@ async function doDevice(
   let propResults: PropResults | null = null
   if (config.generate.props) {
     if (verbose) console.log('Extracting properties')
-    propResults = await extractProps(config, customState, stockSrc)
+    propResults = await extractProps(config, customState, stockSrc, backportSourceDevicePath)
   }
 
   // 7. SELinux policies

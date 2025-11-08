@@ -84,7 +84,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     bluetooth.device_id.product_id=16652
 
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.build.expect.baseband=g5300q-250605-250630-B-13713258 \
+    ro.build.expect.baseband=g5300q-250605-251024-B-14327462 \
     ro.build.expect.bootloader=felix-16.3-13642542 \
     dalvik.vm.isa.arm.variant=cortex-a53 \
     dalvik.vm.isa.arm.features=default \

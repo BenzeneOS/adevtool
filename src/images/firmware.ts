@@ -15,10 +15,7 @@ export const ANDROID_INFO = 'android-info.txt'
 export type FirmwareImages = Map<string, Buffer>
 
 async function extractFactoryZipFirmware(path: string, images: FirmwareImages, config: DeviceConfig, backportPath?: string) {
-  if (deviceBackportConfig[config.device.name].firmware) {
-    if (!backportPath) {
-      throw new Error(`backportPath is null for ${config.device.name}`)
-    }
+  if (backportPath !== undefined) {
     path = backportPath
   }
 
@@ -41,10 +38,7 @@ async function extractFactoryZipFirmware(path: string, images: FirmwareImages, c
 }
 
 async function extractFactoryDirFirmware(path: string, images: FirmwareImages, config: DeviceConfig, backportPath?: string) {
-  if (deviceBackportConfig[config.device.name].firmware) {
-    if (!backportPath) {
-      throw new Error(`backportPath is null for ${config.device.name}`)
-    }
+  if (backportPath !== undefined) {
     path = backportPath
   }
 
@@ -104,13 +98,6 @@ export function generateAndroidInfo(
   radioVersion: string,
   stockAbOtaPartitions: string[],
 ) {
-
-  const backportFirmwareInfo = deviceBackportConfig[device].firmware
-  if (backportFirmwareInfo) {
-    blVersion = backportFirmwareInfo['version-bootloader']
-    radioVersion = backportFirmwareInfo['version-baseband']
-  }
-
   let android_info = `require board=${device}
 
 require version-bootloader=${blVersion}
