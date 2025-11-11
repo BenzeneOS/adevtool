@@ -5,14 +5,6 @@ export interface BackportConfig {
   replaceDirectories: string[]
   replaceFiles: string[]
   newFiles: string[]
-  firmware?: FirmwareBackportInfo
-}
-
-export interface FirmwareBackportInfo {
-  "version-bootloader": string
-  "version-baseband": string
-  "bootloader-name": string
-  "modem-name": string
 }
 
 const ANDROID_16_QPR1_DEFAULT_BUILD_ID = "BP3A.251005.004.B2"
