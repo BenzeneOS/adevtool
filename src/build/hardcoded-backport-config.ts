@@ -7,7 +7,7 @@ export interface BackportConfig {
   newFiles: string[]
 }
 
-const ANDROID_16_QPR1_DEFAULT_BUILD_ID = "BP3A.251005.004.B2"
+const ANDROID_16_QPR1_DEFAULT_BUILD_ID = "BP3A.251105.015"
 
 // Find differences with e.g.
 //  diff -rq $DEVICE-$CURRENT_BUILD_ID/ $DEVICE-$BACKPORT_SOURCE_BUILD_ID/ | grep -i ril
@@ -108,7 +108,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
     ],
   },
   "comet": {
-    sourceBuildId: "BP3A.251005.004.B3",
+    sourceBuildId: ANDROID_16_QPR1_DEFAULT_BUILD_ID,
     replaceDirectories: [
       "vendor/firmware/carrierconfig/",
       "vendor/firmware/uecapconfig/",
@@ -193,7 +193,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
     ],
   },
   "komodo": {
-    sourceBuildId: "BP3A.251005.004.B3",
+    sourceBuildId: ANDROID_16_QPR1_DEFAULT_BUILD_ID,
     replaceDirectories: [
       "vendor/firmware/carrierconfig/",
       "vendor/firmware/uecapconfig/",
@@ -277,7 +277,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
     ],
   },
   "caiman": {
-    sourceBuildId: "BP3A.251005.004.B3",
+    sourceBuildId: ANDROID_16_QPR1_DEFAULT_BUILD_ID,
     replaceDirectories: [
       "vendor/firmware/carrierconfig/",
       "vendor/firmware/uecapconfig/",
@@ -361,7 +361,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
     ],
   },
   "tokay": {
-    sourceBuildId: "BP3A.251005.004.B3",
+    sourceBuildId: ANDROID_16_QPR1_DEFAULT_BUILD_ID,
     replaceDirectories: [
       "vendor/firmware/carrierconfig/",
       "vendor/firmware/uecapconfig/",
@@ -764,7 +764,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
     ],
   },
   "tangorpro": {
-    sourceBuildId: "BP3A.251005.004.A2",
+    sourceBuildId: "BP3A.251105.013.A1",
     replaceDirectories: [
     ],
     replaceFiles: [
@@ -873,7 +873,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
     ],
   },
   "cheetah": {
-    sourceBuildId: ANDROID_16_QPR1_DEFAULT_BUILD_ID,
+    sourceBuildId: "BP3A.251005.004.B2",
     replaceDirectories: [
       "vendor/firmware/carrierconfig/",
       "vendor/firmware/uecapconfig/",
@@ -950,7 +950,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
     ],
   },
   "panther": {
-    sourceBuildId: ANDROID_16_QPR1_DEFAULT_BUILD_ID,
+    sourceBuildId: "BP3A.251005.004.B2",
     replaceDirectories: [
       "vendor/firmware/carrierconfig/",
       "vendor/firmware/uecapconfig/",
