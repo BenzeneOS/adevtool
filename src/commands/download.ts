@@ -1,6 +1,6 @@
 import { Command, Flags } from '@oclif/core'
 
-import { DEVICE_CONFIGS_FLAG, loadDeviceConfigs2, resolveBuildId } from '../config/device'
+import { DEVICE_CONFIGS_FLAG, loadDeviceConfigs, resolveBuildId } from '../config/device'
 import { IMAGE_DOWNLOAD_DIR } from '../config/paths'
 import { prepareDeviceImages } from '../frontend/source'
 import { ImageType, loadBuildIndex } from '../images/build-index'
@@ -39,7 +39,7 @@ export default class Download extends Command {
     let { flags } = await this.parse(Download)
 
     let index = loadBuildIndex()
-    let deviceConfigs = loadDeviceConfigs2(flags)
+    let deviceConfigs = loadDeviceConfigs(flags.devices)
 
     let images: DeviceImage[] = []
 
