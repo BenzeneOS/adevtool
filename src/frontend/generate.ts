@@ -24,8 +24,7 @@ import {
   SelinuxPartResolutions,
 } from '../selinux/contexts'
 import { isFile, readFile } from '../util/fs'
-import { ALL_SYS_PARTITIONS, Partition } from '../util/partitions'
-import { mapGet } from "../util/data";
+import { ALL_SYS_PARTITIONS } from '../util/partitions'
 
 export interface PropResults {
   stockProps: PartitionProps
@@ -111,27 +110,8 @@ export async function updatePresigned(config: DeviceConfig, entries: BlobEntry[]
   )
 }
 
-export async function extractProps(
-  config: DeviceConfig,
-  customState: SystemState | null,
-  stockSrc: string,
-  backportSrc?: string,
-) {
+export async function extractProps(config: DeviceConfig, customState: SystemState | null, stockSrc: string) {
   let stockProps = await loadPartitionProps(stockSrc)
-  if (backportSrc !== undefined) {
-    let backportStockProps = await loadPartitionProps(backportSrc)
-    let backportVendor = mapGet(backportStockProps, Partition.Vendor)
-    let dstVendor = mapGet(stockProps, Partition.Vendor)
-    for (let prop of ['ro.build.expect.bootloader', 'ro.build.expect.baseband']) {
-      let orig = dstVendor.get(prop)
-      if (orig === undefined) {
-        assert(prop === 'ro.build.expect.baseband', prop)
-        continue
-      }
-      dstVendor.set(prop, mapGet(backportVendor, prop))
-    }
-  }
-
   let customProps = customState?.partitionProps ?? new Map<string, Map<string, string>>()
 
   // Filters
@@ -214,9 +194,8 @@ export async function extractFirmware(
   dirs: VendorDirectories,
   stockProps: PartitionProps,
   factoryPath: string,
-  backportFactoryPath?: string,
 ) {
-  let fwImages = await extractFactoryFirmware(factoryPath, stockProps, config, backportFactoryPath)
+  let fwImages = await extractFactoryFirmware(factoryPath, stockProps)
   let fwPaths = await writeFirmwareImages(fwImages, dirs.firmware)
 
   // Generate android-info.txt from device and versions

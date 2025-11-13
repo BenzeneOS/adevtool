@@ -19,7 +19,6 @@ import { ALL_KNOWN_PARTITIONS, ALL_SYS_PARTITIONS, BOOT_PARTITIONS } from '../ut
 import { run, spawnAsync, spawnAsyncNoOut } from '../util/process'
 import { isSparseImage } from '../util/sparse'
 import { listZipFiles } from '../util/zip'
-import { deviceBackportConfig } from '../build/hardcoded-backport-config'
 
 export const WRAPPED_SOURCE_FLAGS = {
   stockSrc: Flags.string({
@@ -307,7 +306,6 @@ export async function prepareDeviceImages(
   devices: DeviceConfig[],
   // if not specified, current build ID is used for each device
   maybeBuildIds?: string[],
-  maybeBuildIdsForBackport?: boolean,
 ) {
   let allImages: DeviceImage[] = []
 
@@ -316,10 +314,6 @@ export async function prepareDeviceImages(
   for (let deviceConfig of devices) {
     for (let type of types) {
       let buildIds = maybeBuildIds ?? [deviceConfig.device.build_id]
-
-      if (maybeBuildIdsForBackport) {
-        buildIds.push(deviceBackportConfig[deviceConfig.device.name].sourceBuildId)
-      }
 
       for (let buildIdSpec of buildIds) {
         let buildId = resolveBuildId(buildIdSpec, deviceConfig)

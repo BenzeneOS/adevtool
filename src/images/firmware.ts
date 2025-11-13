@@ -6,19 +6,12 @@ import { PartitionProps } from '../blobs/props'
 import { getAbOtaPartitions } from '../frontend/generate'
 import { NodeFileReader } from '../util/zip'
 import { EntryType, FastbootPack } from './fastboot-pack'
-import { DeviceConfig } from '../config/device'
-import { deviceBackportConfig } from '../build/hardcoded-backport-config'
-import { config } from 'process'
 
 export const ANDROID_INFO = 'android-info.txt'
 
 export type FirmwareImages = Map<string, Buffer>
 
-async function extractFactoryZipFirmware(path: string, images: FirmwareImages, config: DeviceConfig, backportPath?: string) {
-  if (backportPath !== undefined) {
-    path = backportPath
-  }
-
+async function extractFactoryZipFirmware(path: string, images: FirmwareImages) {
   let reader = new NodeFileReader(path)
 
   try {
@@ -37,11 +30,7 @@ async function extractFactoryZipFirmware(path: string, images: FirmwareImages, c
   }
 }
 
-async function extractFactoryDirFirmware(path: string, images: FirmwareImages, config: DeviceConfig, backportPath?: string) {
-  if (backportPath !== undefined) {
-    path = backportPath
-  }
-
+async function extractFactoryDirFirmware(path: string, images: FirmwareImages) {
   for (let file of await fs.readdir(path)) {
     if (file.startsWith('bootloader-')) {
       let buf = await fs.readFile(`${path}/${file}`)
@@ -54,13 +43,13 @@ async function extractFactoryDirFirmware(path: string, images: FirmwareImages, c
 }
 
 // Path can be a directory or zip
-export async function extractFactoryFirmware(path: string, stockProps: PartitionProps, config: DeviceConfig, backportPath?: string) {
+export async function extractFactoryFirmware(path: string, stockProps: PartitionProps) {
   let images: FirmwareImages = new Map<string, Buffer>()
 
   if ((await fs.stat(path)).isDirectory()) {
-    await extractFactoryDirFirmware(path, images, config, backportPath)
+    await extractFactoryDirFirmware(path, images)
   } else {
-    await extractFactoryZipFirmware(path, images, config, backportPath)
+    await extractFactoryZipFirmware(path, images)
   }
 
   let abPartitions = new Set(getAbOtaPartitions(stockProps)!)
@@ -102,7 +91,7 @@ export function generateAndroidInfo(
 
 require version-bootloader=${blVersion}
 `
-  if (radioVersion != undefined && radioVersion.length > 0) {
+  if (radioVersion != undefined) {
     android_info += `require version-baseband=${radioVersion}\n`
   }
 
