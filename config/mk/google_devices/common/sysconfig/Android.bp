@@ -1,0 +1,7 @@
+prebuilt_etc {
+    name: "restrict-pixel-health-association",
+    src: "restrict-pixel-health-association.xml",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    filename_from_src: true,
+}

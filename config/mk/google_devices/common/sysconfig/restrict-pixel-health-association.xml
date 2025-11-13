@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- On stock Pixel OS, association is allowed to Private Compute Services which are unused on GrapheneOS.-->
+    <!-- Empty "allowed" value enables full association restrictions.-->
+    <allow-association target="com.google.android.pixel.health" allowed="" />
+</config>
