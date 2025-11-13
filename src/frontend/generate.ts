@@ -317,9 +317,6 @@ export async function writeEnvsetupCommands(config: DeviceConfig, dirs: VendorDi
   vars.set(`BUILD_ID_${product}`, config.device.build_id)
   vars.set(`PLATFORM_SECURITY_PATCH_${product}`, config.device.platform_security_patch_level_override)
 
-  // force KEEP_VNDK=true for ESR devices
-  if (product === 'bramble' || product === 'redfin') vars.set('KEEP_VNDK', 'true')
-
   let cmds: string[] = []
 
   for (let [k, v] of vars.entries()) {
