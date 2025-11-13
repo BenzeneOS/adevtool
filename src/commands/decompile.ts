@@ -211,7 +211,7 @@ function makeBuilder() {
 const PREFIX = '<?xml version="1.0" encoding="UTF-8"?>\n'
 
 function createRoot(moduleNames: string[]) {
-  let modules: unknown = {}
+  let modules: Record<string, unknown> = {}
   modules.module = moduleNames.map(n => {
     let filepath = `$PROJECT_DIR$/.idea/modules/${n}.iml`
     return {
@@ -244,7 +244,7 @@ function createMisc() {
 }
 
 function createIml(name: string) {
-  let component: unknown = {
+  let component: Record<string, unknown> = {
     $: { name: 'NewModuleRootManager', LANGUAGE_LEVEL: 'JDK_17', 'inherit-compiler-output': 'true' },
   }
   component['exclude-output'] = {}
