@@ -10,6 +10,6 @@
     <string name="screensaver_settings_summary_postured_and_charging">Ngenkathi imile futhi ishaja</string>
     <string name="screensaver_settings_summary_sleep">Ngenkathi ishaja</string>
     <string name="when_to_show_hubmode_charging">Ngenkathi ishaja</string>
-    <string name="when_to_show_hubmode_docked">Ngenkathi ishuthekiwe</string>
+    <string name="when_to_show_hubmode_docked">Ngenkathi ishuthekiwe futhi ishaja</string>
     <string name="when_to_show_hubmode_never">Akusoze</string>
 </resources>

@@ -1,0 +1,39 @@
+prebuilt_etc {
+    name: "adevtool_sysconfig_system_ext_permissions",
+    srcs: [ "system_ext/permissions/*.xml" ],
+    owner: "google_devices",
+    sub_dir: "permissions",
+    system_ext_specific: true,
+}
+
+prebuilt_etc {
+    name: "adevtool_sysconfig_product_default-permissions",
+    srcs: [ "product/default-permissions/*.xml" ],
+    owner: "google_devices",
+    sub_dir: "default-permissions",
+    product_specific: true,
+}
+
+prebuilt_etc {
+    name: "adevtool_sysconfig_product_sysconfig",
+    srcs: [ "product/sysconfig/*.xml" ],
+    owner: "google_devices",
+    sub_dir: "sysconfig",
+    product_specific: true,
+}
+
+prebuilt_etc {
+    name: "adevtool_sysconfig_product_permissions",
+    srcs: [ "product/permissions/*.xml" ],
+    owner: "google_devices",
+    sub_dir: "permissions",
+    product_specific: true,
+}
+
+prebuilt_etc {
+    name: "adevtool_sysconfig_vendor_permissions",
+    srcs: [ "vendor/permissions/*.xml" ],
+    owner: "google_devices",
+    sub_dir: "permissions",
+    soc_specific: true,
+}

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="config_countries_dynamic_routing_emergency_enabled">
+        <item>mk</item>
+        <item>al</item>
         <item>cz</item>
         <item>gr</item>
         <item>hr</item>
+        <item>me</item>
         <item>in</item>
         <item>il</item>
         <item>tw</item>
@@ -15,10 +18,13 @@
         <item>ba</item>
     </array>
     <array name="config_dynamic_routing_emergency_numbers">
+        <item>mk,,192,193,194,195,196</item>
+        <item>al,,125,126,127,128,129</item>
         <item>cz,01,156</item>
         <item>cz,03,156</item>
-        <item>gr,,100,108,166,199,1056</item>
+        <item>gr,,100,108,166,197,199,1056,11188,116000</item>
         <item>hr,,192,193,194,195,1987</item>
+        <item>me,,122,123,124</item>
         <item>in,,101,102,103,108</item>
         <item>il,,101,102</item>
         <item>tw,,110,119</item>

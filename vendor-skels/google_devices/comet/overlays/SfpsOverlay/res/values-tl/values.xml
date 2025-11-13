@@ -34,7 +34,7 @@ Idikit ang daliri sa button nang hindi ito pinipindot."</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Pindutin ang sensor mula sa ibang anggulo</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Igalaw ang daliri mo para ma-capture ang iba pang bahagi ng iyong fingerprint</string>
     <string name="security_settings_work_fingerprint_preference_title">Pag-unlock Gamit ang Fingerprint para sa trabaho</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Ituloy ang pag-set up</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Magpatuloy</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Nakakatulong itong ma-capture ang higit pa sa fingerprint mo para sa mas mahusay na experience sa pag-unlock</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Igalaw ang iyong daliri</string>
     <string name="suggested_fingerprint_lock_settings_title">Gamitin ang Pag-unlock gamit ang Fingerprint</string>

@@ -34,7 +34,7 @@
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">অন্য দিক থেকে সেন্সর টাচ করুন</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">ফিঙ্গারপ্রিন্টের বাকি অংশ ক্যাপচার করতে আঙুল সরান</string>
     <string name="security_settings_work_fingerprint_preference_title">"অফিসের জন্য 'ফিঙ্গারপ্রিন্ট আনলক'"</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">সেট-আপ চালিয়ে যান</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">চালিয়ে যান</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">এতে ফিঙ্গারপ্রিন্ট আরও ভালো ক্যাপচার করা যাবে ও আনলক করার আরও ভালো অভিজ্ঞতা পাবেন</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">আঙুল সরাতে থাকুন</string>
     <string name="suggested_fingerprint_lock_settings_title">ফিঙ্গারপ্রিন্ট আনলক ব্যবহার করুন</string>

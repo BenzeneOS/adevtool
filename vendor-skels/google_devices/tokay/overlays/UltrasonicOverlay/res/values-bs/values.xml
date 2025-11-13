@@ -7,6 +7,6 @@
 
 Radi najboljih rezultata koristite zaštitu ekrana koja ima certifikat Proizvedeno za Google. Moguće je da vaš otisak prsta neće funkcionirati s drugim zaštitama ekrana."</string>
     <string name="security_settings_udfps_enroll_fingertip_title">Nagnite prst i dodirnite jagodicom</string>
-    <string name="security_settings_udfps_enroll_left_edge_title">Nagnite prst i dodirnite lijevim rubom</string>
-    <string name="security_settings_udfps_enroll_right_edge_title">Nagnite prst ponovo i dodirnite desnim rubom</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Okrenite prst i dodirnite lijevim rubom</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Okrenite prst ponovo i dodirnite desnim rubom</string>
 </resources>

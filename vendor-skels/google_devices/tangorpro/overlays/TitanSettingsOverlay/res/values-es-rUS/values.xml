@@ -5,11 +5,11 @@
     <string name="dream_no_screen_saver_description">Para ahorrar energía, la pantalla se desactivará tras un período de inactividad</string>
     <string name="dream_no_screen_saver_preview_caption">Ecológico</string>
     <string name="dream_secondary_button_title">Omitir</string>
-    <string name="screensaver_settings_summary_dock_and_charging">Mientras está conectado y cargando</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Mientras está cargándose en la estación</string>
     <string name="screensaver_settings_summary_off">Muestra tus fotos, obras de arte, relojes y más contenido favorito cuando está inactivo</string>
-    <string name="screensaver_settings_summary_postured_and_charging">Mientras está vertical y cargando</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Mientras está vertical y cargándose</string>
     <string name="screensaver_settings_summary_sleep">Mientras está cargándose</string>
     <string name="when_to_show_hubmode_charging">Mientras se carga</string>
-    <string name="when_to_show_hubmode_docked">Cuando está en la estación de carga</string>
+    <string name="when_to_show_hubmode_docked">Mientras está cargándose en la estación</string>
     <string name="when_to_show_hubmode_never">Nunca</string>
 </resources>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="fingerprint_unlock_set_unlock_password">סיסמה • טביעת אצבע</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">קו ביטול נעילה • טביעת אצבע</string>
+    <string name="fingerprint_unlock_set_unlock_pattern">קו פתיחת נעילה • טביעת אצבע</string>
     <string name="fingerprint_unlock_set_unlock_pin">קוד אימות • טביעת אצבע</string>
-    <string name="fingerprint_unlock_skip_fingerprint">המשך בלי ביטול הנעילה בטביעת אצבע</string>
+    <string name="fingerprint_unlock_skip_fingerprint">המשך בלי פתיחת הנעילה בטביעת אצבע</string>
     <string name="fingerprint_unlock_title">"התכונה 'ביטול הנעילה בטביעת אצבע' מאפשרת לך לבטל את הנעילה של הטלפון באמצעות טביעת האצבע. מטעמי אבטחה, נדרשת נעילת מסך לגיבוי כדי להשתמש באפשרות הזו."</string>
     <string name="security_settings_fingerprint_bad_calibration">‏צריך ליצור קשר עם ספק תיקונים או להיכנס לכתובת g.co/pixel/fingerprintunlock.</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">הרשאה לבטל נעילה בטביעת אצבע</string>

@@ -10,6 +10,6 @@
     <string name="screensaver_settings_summary_postured_and_charging">Dik halda və şarj edildikdə</string>
     <string name="screensaver_settings_summary_sleep">Şarj edildikdə</string>
     <string name="when_to_show_hubmode_charging">Şarj edildikdə</string>
-    <string name="when_to_show_hubmode_docked">Doka taxılı ikən</string>
+    <string name="when_to_show_hubmode_docked">Taxıldıqda və şarj edildikdə</string>
     <string name="when_to_show_hubmode_never">Heç vaxt</string>
 </resources>

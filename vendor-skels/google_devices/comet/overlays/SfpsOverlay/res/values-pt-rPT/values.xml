@@ -34,7 +34,7 @@ Toque levemente no botão sem o premir."</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Toque no sensor de outro ângulo</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Mova o dedo para capturar outras áreas da impressão digital</string>
     <string name="security_settings_work_fingerprint_preference_title">Desbloqueio por impressão digital para o trabalho</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Continuar configuração</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Continuar</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Isto ajuda a capturar mais áreas da impressão digital para melhorar a experiência de desbloqueamento</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Mova o dedo</string>
     <string name="suggested_fingerprint_lock_settings_title">Usar Desbloqueio por impressão digital</string>

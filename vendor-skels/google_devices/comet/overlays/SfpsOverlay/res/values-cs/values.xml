@@ -34,7 +34,7 @@ Lehce se vypínače dotkněte, aniž byste ho stiskli."</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Dotkněte se snímače z jiného úhlu</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Pohybujte prstem, abyste zachytili jeho další části</string>
     <string name="security_settings_work_fingerprint_preference_title">Odemknutí otiskem prstu pro práci</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Pokračovat v nastavení</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Pokračovat</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Pomůže to zachytit větší část otisku prstu, aby odemykání bylo snazší</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Posuňte prst</string>
     <string name="suggested_fingerprint_lock_settings_title">Použijte odemknutí otiskem prstu</string>

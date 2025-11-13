@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="keyguard_indication_charging_time_charge_limit">%2$s • Punjenje će se završiti do %1$s</string>
-    <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Punjenje će završiti za %1$s</string>
-    <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • punjenje je završeno</string>
+    <string name="keyguard_indication_charging_time_charge_limit">%2$s • Punjenje će se dovršiti do %1$s</string>
+    <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Punjenje će se dovršiti za %1$s</string>
+    <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Punjenje je dovršeno</string>
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">ከዳሳሹ አጠገብ ያለውን ማያ ገጽዎ ያጽዱ</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">ማናቸውንም ጭረቶች፣ ጭምልቆችን ወይም ነጠብጣቦችን ለማስወገድ ማያ ገጽዎን ይጥረጉ። ይህ ይበልጥ ግልጽ የሆኑ የጣት አሻራ ምስሎችን ለመያዝ ይረዳል።</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">ከመቀጠልዎ በፊት ማያ ገጽዎን ያጽዱ</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"የማያ ገፅ መከላከያ ካለዎት ለምርጥ አፈጻጸም የጣት አሻራዎን ከማዋቀርዎ በፊት የማያ ገጽ መከላከያዎን ይተግብሩ።
+
+ለምርጥ ውጤቶች ለGoogle የተሰራ የእውቅና ማረጋገጫ ያለው የማያ ገፅ መከላከያ ይጠቀሙ። በሌሎች የማያ ገጽ መከላከያዎች አማካኝነት የጣት አሻራዎ ላይሰራ ይችላል።"</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">ጣትዎን ያዙሩት እና በጫፉ ይንኩ</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">ጣትዎን በማዞር በግራ ጠርዝ ይንኩ</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">እንደገና ያዙሩት እና በቀኝ ጠርዝ ይንኩ</string>
+</resources>

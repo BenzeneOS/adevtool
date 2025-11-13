@@ -5,6 +5,6 @@
     <string name="fast_pair_device_not_found_other_device_description">ఈ పరికరాన్ని మీ Pixel Tabletకు దగ్గరగా ఉంచి, ఆపై ట్రై చేయండి.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">ఇయర్‌బడ్స్ కేస్ తెరిచి, దాన్ని మీ Pixel Tabletకు దగ్గరగా ఉంచి, ఆపై మళ్లీ ట్రై చేయండి.</string>
     <string name="sound_dashboard_summary">వాల్యూమ్</string>
-    <string name="sound_dashboard_summary_with_dnd">వాల్యూమ్, అంతరాయం కలిగించవద్దు</string>
+    <string name="sound_dashboard_summary_with_dnd">వాల్యూమ్, డిస్టర్బ్ చేయవద్దు</string>
     <string name="sound_settings">సౌండ్</string>
 </resources>

@@ -13,7 +13,7 @@
 
 Αγγίξτε ελαφρώς το κουμπί χωρίς να το πιέσετε προς τα κάτω."</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_title">Αγγίξτε το κουμπί λειτουργίας</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title">Ρύθμιση Ξεκλείδ­ωμα με δακτυλ. αποτύπωμ.</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">Ρύθμιση Ξεκλειδώματος με δακτυλ. αποτ.</string>
     <string name="security_settings_fingerprint_enroll_repeat_title">Σηκώστε και μετά αγγίξτε. Μετακινείτε λίγο το δάκτυλο κάθε φορά.</string>
     <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay">Ανασηκώστε και αγγίξτε ξανά</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_message">Ο αισθητήρας δακτυλικών αποτυπωμάτων βρίσκεται στο κουμπί λειτουργίας.</string>
@@ -34,7 +34,7 @@
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Αγγίξτε τον αισθητήρα από άλλη γωνία</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Μετακινήστε το δάχτυλο για λήψη ολόκλ. αποτυπώματος</string>
     <string name="security_settings_work_fingerprint_preference_title">Ξεκλείδωμα με δακτυλικό αποτύπωμα για επαγγελματική χρήση</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Συνέχιση ρύθμισης</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Συνέχεια</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Για καλύτερη λήψη δακτυλικού αποτυπώματος και εύκολο ξεκλείδωμα</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Μετακινήστε το δάχτυλό σας</string>
     <string name="suggested_fingerprint_lock_settings_title">Χρήση Ξεκλειδώματος με δακτυλικό αποτύπωμα</string>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Tisztítsa meg a képernyőt az érzékelő mellett</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Törölgesse meg a képernyőt az esetleges foltok és egyéb piszkok eltávolításához. Így tisztább ujjlenyomatképet tud rögzíteni.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">A folytatás előtt tisztítsa meg a kijelzőt</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Ha van kijelzővédője, a legjobb teljesítmény érdekében még azelőtt helyezze fel, hogy beállítaná az ujjlenyomatát.
+
+A legjobb eredmény érdekében olyan kijelzővédőt használjon, amely Made for Google tanúsítvánnyal rendelkezik. Előfordulhat, hogy más kijelzővédők esetében az ujjlenyomat nem működik."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">Hajtsa be az ujját, és érintse meg az érzékelőt az ujja hegyével</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Fordítsa el az ujját, és érintse meg az ujja bal szélével</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Fordítsa el ismét az ujját, és érintse meg az ujja jobb szélével</string>
+</resources>

@@ -30,11 +30,13 @@
     <bool name="config_dreamsOnlyEnabledForDockUser">true</bool>
     <bool name="config_enableTimeoutToDockUserWhenDocked">true</bool>
     <bool name="config_keepDreamingWhenUnplugging">true</bool>
+    <bool name="config_lowLightDisplayBehaviorEnabledDefault">true</bool>
     <bool name="config_orderUnlockAndWake">true</bool>
     <bool name="config_resetScreenTimeoutOnUnexpectedDreamExit">true</bool>
     <bool name="config_skipActivityRelaunchWhenDocking">true</bool>
     <bool name="config_startDreamImmediatelyOnDock">false</bool>
     <integer name="config_dreamsBatteryLevelDrainCutoff">2</integer>
+    <integer name="config_lowLightDisplayBehaviorDefault">2</integer>
     <integer name="config_navBarInteractionMode">2</integer>
     <integer name="config_shortPressOnPowerBehavior">7</integer>
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="battery_missing_link_message">थप जान्नुहोस्</string>
-    <string name="charging_optimization_charge_label">%1$s - %2$s सम्ममा पूरा चार्ज हुन्छ</string>
+    <string name="charging_optimization_charge_label">%1$s - %2$s सम्ममा पूरा चार्ज हुने छ</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s - चार्ज पूरा भयो</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">चार्ज पूरा भयो</string>
-    <string name="charging_optimization_remaining_time_label">%1$s सम्ममा पूरा चार्ज हुन्छ</string>
+    <string name="charging_optimization_remaining_time_label">%1$s सम्ममा पूरा चार्ज हुने छ</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"&lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; मा गई Pixel फिंगरप्रिन्ट अनलकका बारेमा थप जान्नुहोस्।"</string>
     <string name="touch_sensitivity_summary">स्क्रिन प्रोटेक्टर प्रयोग गर्दा टच सेन्सिटिभिटी बढाउनुहोस् र टचले अझ राम्रोसँग काम गर्ने बनाउनुहोस्</string>
     <string name="touch_sensitivity_title">स्क्रिन प्रोटेक्टर मोड</string>

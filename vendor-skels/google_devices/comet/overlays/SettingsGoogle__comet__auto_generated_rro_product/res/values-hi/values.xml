@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="display_white_balance_summary">इससे डिसप्ले, डाइनैमिक तरीके से आस-पास की लाइट के हिसाब से वॉर्म या कूल टोन में बदल जाता है</string>
+    <string name="display_white_balance_summary">डिसप्ले आस-पास की लाइट के हिसाब से, अपने-आप वॉर्म या कूल टोन में बदल जाता है</string>
     <string name="display_white_balance_title">अडैप्टिव टोन</string>
     <string name="fingerprint_unlock_set_unlock_password">Pixel Imprint + पासवर्ड</string>
     <string name="fingerprint_unlock_set_unlock_pattern">Pixel Imprint + पैटर्न</string>

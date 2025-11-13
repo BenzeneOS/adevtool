@@ -1,0 +1,11 @@
+vintf_fragment {
+    name: "adevtool_vintf_fragment_system_ext_com.google.pixel.camera.services@1.0-service-google.xml",
+    src: "com.google.pixel.camera.services@1.0-service-google.xml",
+    system_ext_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_system_ext_vendor.google.edgetpu_app_service@1.0-service.xml",
+    src: "vendor.google.edgetpu_app_service@1.0-service.xml",
+    system_ext_specific: true,
+}

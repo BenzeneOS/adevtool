@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_missing_link_message">የበለጠ ለመረዳት</string>
+    <string name="charging_optimization_charge_label">%1$s - %2$s ላይ ኃይል መሙላት ተጠናቅቋል</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s - ኃይል መሙላት ተጠናቅቋል</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">ኃይል መሙላት ተጠናቅቋል</string>
+    <string name="charging_optimization_remaining_time_label">%1$s ላይ ኃይል መሙላት ተጠናቅቋል</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"&lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; ላይ ስለPixel በጣት አሻራ መክፈቻ የበለጠ ይወቁ።"</string>
+    <string name="touch_sensitivity_summary">የማያ ገፅ መከላከያን ሲጠቀሙ የንክኪ አደጋ ተጋላጭነትን ይጨምሩ እና ንክኪን ያሻሽሉ።</string>
+    <string name="touch_sensitivity_title">የማያ ገፅ መከላከያ ሁነታ</string>
+</resources>

@@ -1,0 +1,2 @@
+export BUILD_ID_frankel="BD3A.251105.010.E1"
+unset PLATFORM_SECURITY_PATCH_frankel

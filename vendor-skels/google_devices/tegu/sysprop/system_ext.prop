@@ -1,0 +1,2 @@
+remote_provisioning.use_cert_processor=false
+ro.audio.ihaladaptervendorextension_enabled=true

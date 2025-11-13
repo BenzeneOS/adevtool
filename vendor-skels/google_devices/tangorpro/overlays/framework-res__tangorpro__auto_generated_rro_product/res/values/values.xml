@@ -41,6 +41,7 @@
     <integer name="config_globalActionsKeyTimeout">750</integer>
     <integer name="config_longPressOnPowerDurationMs">750</integer>
     <integer name="config_maxDesktopWindowingActiveTasks">4</integer>
+    <integer name="config_maxDesktopWindowingDesks">4</integer>
     <string name="config_qualified_networks_service_package">com.android.qns</string>
     <string name="fingerprint_acquired_partial">Make sure your finger covers the sensor</string>
     <string name="fingerprint_acquired_power_press">To continue setup, lightly touch the sensor</string>

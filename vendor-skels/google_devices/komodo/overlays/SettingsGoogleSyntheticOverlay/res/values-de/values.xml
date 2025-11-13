@@ -3,7 +3,7 @@
     <string name="battery_missing_link_message">Weitere Informationen</string>
     <string name="charging_optimization_charge_label">%1$s – spätestens um %2$s vollständig geladen</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s – vollständig geladen</string>
-    <string name="charging_optimization_reach_limit_remaining_time_label">Vollständig geladen</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">Fertig geladen</string>
     <string name="charging_optimization_remaining_time_label">Spätestens um %1$s vollständig geladen</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Weitere Informationen zur Entsperrung per Fingerabdruck deines Pixel findest du unter &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="touch_sensitivity_summary">Bei Verwendung eines Displayschutzes die Berührungsempfindlichkeit erhöhen und die Touchreaktion verbessern</string>

@@ -1,0 +1,185 @@
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.authsecret-service.citadel.xml",
+    src: "android.hardware.authsecret-service.citadel.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.camera.provider@2.7-service-google-apex.xml",
+    src: "android.hardware.camera.provider@2.7-service-google-apex.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.contexthub-service.generic.xml",
+    src: "android.hardware.contexthub-service.generic.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.dumpstate-service.xml",
+    src: "android.hardware.dumpstate-service.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.health-service.gs201.xml",
+    src: "android.hardware.health-service.gs201.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.lights-service.tangorpro.xml",
+    src: "android.hardware.lights-service.tangorpro.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.neuralnetworks@service-darwinn-aidl.xml",
+    src: "android.hardware.neuralnetworks@service-darwinn-aidl.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.oemlock-service.citadel.xml",
+    src: "android.hardware.oemlock-service.citadel.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.power-service.pixel.xml",
+    src: "android.hardware.power-service.pixel.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.power.stats-service.pixel.xml",
+    src: "android.hardware.power.stats-service.pixel.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.security.keymint-service.citadel.xml",
+    src: "android.hardware.security.keymint-service.citadel.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.thermal-service.pixel.xml",
+    src: "android.hardware.thermal-service.pixel.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.usb-service.xml",
+    src: "android.hardware.usb-service.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.usb.gadget-service.xml",
+    src: "android.hardware.usb.gadget-service.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.weaver-service.citadel.xml",
+    src: "android.hardware.weaver-service.citadel.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_fingerprint-fpc42.xml",
+    src: "fingerprint-fpc42.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_flood_control.xml",
+    src: "flood_control.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_hwc3-default.xml",
+    src: "hwc3-default.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_manifest.xml",
+    src: "manifest.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_manifest_android.hardware.drm-service.castkey.xml",
+    src: "manifest_android.hardware.drm-service.castkey.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_manifest_aocx.xml",
+    src: "manifest_aocx.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_manifest_gralloc_aidl2.xml",
+    src: "manifest_gralloc_aidl2.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_manifest_input.processor-service.xml",
+    src: "manifest_input.processor-service.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_manifest_radioext.xml",
+    src: "manifest_radioext.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_memtrack.xml",
+    src: "memtrack.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_pixel-display-default.xml",
+    src: "pixel-display-default.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_qorvo.uwb-service.xml",
+    src: "qorvo.uwb-service.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_vendor.dolby.media.c2@1.0-service.xml",
+    src: "vendor.dolby.media.c2@1.0-service.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_vendor.google.battery_mitigation-default.xml",
+    src: "vendor.google.battery_mitigation-default.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_vendor.google.edgetpu_vendor_service@1.0-service.xml",
+    src: "vendor.google.edgetpu_vendor_service@1.0-service.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_vendor.google.google_battery-default.xml",
+    src: "vendor.google.google_battery-default.xml",
+    soc_specific: true,
+}

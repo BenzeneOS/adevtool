@@ -34,7 +34,7 @@ Thinta kancane inkinobho ngaphandle kokuyicindezela."</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Thinta inzwa kwenye i-engeli</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Hambisa umunwe wakho ukuze uthwebule ezinye izindawo zesigxivizo sakho somunwe</string>
     <string name="security_settings_work_fingerprint_preference_title">Ukuvula kwesingxivizo somunwe komsebenzi</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Qhubeka nokusetha</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Qhubeka</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Lokhu kusiza ukuthwebula izigxivizo zeminwe zakho eziningi ukuze uthole umuzwa ongcono wokuvula</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Hambisa umunwe wakho.</string>
     <string name="suggested_fingerprint_lock_settings_title">Sebenzisa Ukuvula Ngesigxivizo Somunwe</string>

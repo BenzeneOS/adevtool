@@ -34,7 +34,7 @@ Puudutage õrnalt nuppu, seda alla vajutamata."</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Puudutage andurit muu nurga all</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Liigutage sõrme sõrmejälje muude alade jäädvustamiseks</string>
     <string name="security_settings_work_fingerprint_preference_title">Sõrmejäljega avamine töö jaoks</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Jätka seadistamist</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Jätka</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">See aitab jäädvustada rohkem sõrmejälge, et lukust avamist parendada</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Liigutage sõrme</string>
     <string name="suggested_fingerprint_lock_settings_title">Sõrmejäljega avamise kasutamine</string>

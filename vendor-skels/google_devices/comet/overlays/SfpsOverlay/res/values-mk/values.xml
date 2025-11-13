@@ -34,7 +34,7 @@
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Допрете го сензорот од друг агол</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Движете го прстот за да снимите други делови од вашиот отпечаток</string>
     <string name="security_settings_work_fingerprint_preference_title">„Отклучување со отпечаток“ за работа</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Продолжете со поставувањето</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Продолжи</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Ова помага да се сними повеќе од отпечатокот за подобро доживување при отклучување</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Движете го прстот</string>
     <string name="suggested_fingerprint_lock_settings_title">Користете „Отклучување со отпечаток“</string>

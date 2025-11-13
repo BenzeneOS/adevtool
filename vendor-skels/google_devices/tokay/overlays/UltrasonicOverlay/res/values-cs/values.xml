@@ -7,6 +7,6 @@
 
 Nejlepších výsledků dosáhnete s ochranou displeje, která má certifikát Made for Google. S ostatními ochranami displeje nemusí otisk prstu fungovat."</string>
     <string name="security_settings_udfps_enroll_fingertip_title">Nakloňte prst a dotkněte se špičkou</string>
-    <string name="security_settings_udfps_enroll_left_edge_title">Otočte prst a dotkněte se levým okrajem</string>
-    <string name="security_settings_udfps_enroll_right_edge_title">Znovu prst otočte a dotkněte se pravým okrajem</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Natočte prst a dotkněte se snímače jeho levým okrajem</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Znovu prst natočte a dotkněte se snímače pravým okrajem</string>
 </resources>

@@ -3,9 +3,9 @@
     <string name="fingerprint_acquired_imager_dirty_udfps">Limpe a tela perto do sensor</string>
     <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Limpe a tela para remover manchas, borrões ou poeira. Isso ajuda a capturar imagens mais nítidas das impressões digitais.</string>
     <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Limpe a tela antes de continuar</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Para um melhor desempenho, coloque sua película (caso tenha uma) antes de configurar a impressão digital.
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Para melhores resultados, coloque sua película (caso tenha uma) antes de configurar a impressão digital.
 
-O ideal é usar uma película com o certificado Made For Google. Sua impressão digital pode não funcionar com outras películas."</string>
+O ideal é usar uma película com o certificado Made For Google. Sua digital pode não funcionar com outras opções."</string>
     <string name="security_settings_udfps_enroll_fingertip_title">Incline o dedo e toque com a ponta</string>
     <string name="security_settings_udfps_enroll_left_edge_title">Vire o dedo e toque com o lado esquerdo</string>
     <string name="security_settings_udfps_enroll_right_edge_title">Vire de novo e toque com o lado direito</string>

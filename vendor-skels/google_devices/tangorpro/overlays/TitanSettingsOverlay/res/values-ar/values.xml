@@ -2,7 +2,7 @@
 <resources>
     <string name="communal_settings_title">وضع الإرساء</string>
     <string name="dream_no_screen_saver_caption">بدون شاشة استراحة</string>
-    <string name="dream_no_screen_saver_description">لتوفير الطاقة، ستنطفئ الشاشة بعد فترة من عدم النشاط.</string>
+    <string name="dream_no_screen_saver_description">لتوفير الطاقة، ستنطفئ الشاشة بعد فترة من عدم النشاط</string>
     <string name="dream_no_screen_saver_preview_caption">صديق للبيئة</string>
     <string name="dream_secondary_button_title">التخطي</string>
     <string name="screensaver_settings_summary_dock_and_charging">أثناء الإرساء والشحن</string>
@@ -10,6 +10,6 @@
     <string name="screensaver_settings_summary_postured_and_charging">أثناء الشحن في وضع عمودي</string>
     <string name="screensaver_settings_summary_sleep">أثناء الشحن</string>
     <string name="when_to_show_hubmode_charging">أثناء الشحن</string>
-    <string name="when_to_show_hubmode_docked">في وضع الإرساء</string>
+    <string name="when_to_show_hubmode_docked">أثناء الإرساء والشحن</string>
     <string name="when_to_show_hubmode_never">أبدًا</string>
 </resources>

@@ -107,7 +107,7 @@
        EnableGloAutoSwitch="false"
        EnableNicAutoSwitch="true"
        EnableNavic="true"
+       ConstellationAutoSwitchOffNavOnly="true"
   />
 
 </glgps>
-

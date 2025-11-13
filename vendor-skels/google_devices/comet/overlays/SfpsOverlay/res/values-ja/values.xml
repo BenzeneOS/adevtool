@@ -13,14 +13,14 @@
 
 押し込まないように電源ボタンに軽く触れてください。"</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_title">電源ボタンに触れてください</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title">指紋認証をセットアップ</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">指紋認証をセットア⁠ッ⁠プ</string>
     <string name="security_settings_fingerprint_enroll_repeat_title">指を離して、タッチしてください。指を当てる場所は、少しずつ変えます。</string>
     <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay">指を離して、もう一度タッチ</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_message">指紋認証センサーは電源ボタンに内蔵されています。</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_title">センサーをタップしてください</string>
     <string name="security_settings_fingerprint_preference_title">指紋認証</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">さまざまな角度から指紋を撮影して一意のモデルを作成し、本人確認に使用します。</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">指紋認証を使用すると、画像を基に指紋モデルが更新されます。指紋モデルの作成に使用された画像が保存されることはありませんが、指紋モデルはスマートフォンに安全に保存されます。この情報が外部に送信されることは一切なく、処理はすべてスマートフォン上で安全に行われます。</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">指紋認証を使用すると、画像を基に指紋モデルが更新されます。指紋モデルの作成に使用された画像が保存されることはありませんが、指紋モデルはスマ⁠ー⁠トフ⁠ォ⁠ンに安全に保存されます。この情報が外部に送信されることは一切なく、処理はすべてスマ⁠ー⁠トフ⁠ォ⁠ン上で安全に行われます。</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">いつでも [設定] で指紋モデルを削除したり、指紋認証を OFF にしたりできます。指紋モデルは、削除するまでスマートフォンに保存されたままになります。</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">指紋認証は、お子様の指紋の固有モデルを作成し、本人確認に使用します。モデルの作成では、さまざまな角度から指紋の画像を撮影します。</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">指紋認証を使用すると、画像を基に指紋モデルが更新されます。お子様の指紋モデルの作成に使用された画像が保存されることはありませんが、指紋モデルはスマートフォンに安全に保存されます。この情報が外部に送信されることは一切なく、処理はすべてスマートフォン上で安全に行われます。</string>
@@ -34,8 +34,8 @@
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">別の角度からセンサーにタッチ</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">指をずらして他の部分を登録</string>
     <string name="security_settings_work_fingerprint_preference_title">仕事用の指紋認証</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">設定を続行</string>
-    <string name="setup_fingerprint_enroll_immobile_help_subtitle">指紋を正しく登録し、簡単にロック解除できます</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">続行</string>
+    <string name="setup_fingerprint_enroll_immobile_help_subtitle">指紋を正しく登録するために、指紋の位置を変えてください</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">指の位置をずらす</string>
     <string name="suggested_fingerprint_lock_settings_title">指紋認証の使用</string>
 </resources>

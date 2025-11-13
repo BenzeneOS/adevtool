@@ -7,9 +7,9 @@
     <string name="dream_secondary_button_title">Preskoči</string>
     <string name="screensaver_settings_summary_dock_and_charging">Na priključnoj stanici i tijekom punjenja</string>
     <string name="screensaver_settings_summary_off">U stanju mirovanja prikazuje omiljene fotografije, umjetnička djela, satove i drugo</string>
-    <string name="screensaver_settings_summary_postured_and_charging">Tijekom držanja uspravno i punjenja</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Tijekom punjenja u uspravnom položaju</string>
     <string name="screensaver_settings_summary_sleep">Tijekom punjenja</string>
-    <string name="when_to_show_hubmode_charging">Tijekom punjenja uređaja</string>
-    <string name="when_to_show_hubmode_docked">Kad je uređaj na priključnoj stanici</string>
+    <string name="when_to_show_hubmode_charging">Tijekom punjenja</string>
+    <string name="when_to_show_hubmode_docked">Na priključnoj stanici i tijekom punjenja</string>
     <string name="when_to_show_hubmode_never">Nikad</string>
 </resources>

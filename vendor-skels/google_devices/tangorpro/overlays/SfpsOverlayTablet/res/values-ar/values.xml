@@ -13,7 +13,7 @@
 
 المس الزر بخفة بدون الضغط عليه."</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_title">لمس زر التشغيل</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title">"إعداد ميزة \"فتح الجهاز ببصمة الإصبع\""</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">"ننصح بضبط ميزة \"فتح الجهاز ببصمة الإصبع\""</string>
     <string name="security_settings_fingerprint_enroll_repeat_title">ارفع إصبعك عن مستشعر بصمات الإصبع ثم المسه مرة أخرى وحرِّك إصبعك قليلاً في كل مرة</string>
     <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay">ارفع إصبعك ثم ضعه مرة أخرى.</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_message">توجد أداة استشعار بصمة الإصبع على زر التشغيل.</string>
@@ -34,7 +34,7 @@
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">المس الأداة من زاوية أخرى</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">حرِّك إصبعك لتسجيل بصمته كاملة</string>
     <string name="security_settings_work_fingerprint_preference_title">فتح قفل ملف العمل ببصمة الإصبع</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">مواصلة عملية الإعداد</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">متابعة</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">يساعد على تسجيل البصمة بكاملها لفتح القفل بسرعة</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">تحريك إصبعك</string>
     <string name="suggested_fingerprint_lock_settings_title">"استخدام ميزة \"فتح الجهاز ببصمة الإصبع\""</string>

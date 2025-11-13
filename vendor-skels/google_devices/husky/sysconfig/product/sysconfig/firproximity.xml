@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Configurations that should exist on devices that support FIR proximity sensors -->
+<config>
+    <!-- The Playstore visibility filter identifying a device supports FIR proximity sensors -->
+    <feature name="com.google.android.feature.FIR.PROXIMITY" />
+</config>

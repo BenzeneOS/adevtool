@@ -10,6 +10,6 @@
     <string name="screensaver_settings_summary_postured_and_charging">ቆሞ እና ኃይል በመሙላት ላይ ሳለ</string>
     <string name="screensaver_settings_summary_sleep">ባትሪ በመሙላት ላይ ሳለ</string>
     <string name="when_to_show_hubmode_charging">ባትሪ በመሙላት ላይ ሳለ</string>
-    <string name="when_to_show_hubmode_docked">ተተክሎ ሳለ</string>
+    <string name="when_to_show_hubmode_docked">ተተክሎ እና ኃይል በመሙላት ላይ እያለ</string>
     <string name="when_to_show_hubmode_never">በጭራሽ</string>
 </resources>

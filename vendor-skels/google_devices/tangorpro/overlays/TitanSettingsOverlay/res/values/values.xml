@@ -21,6 +21,7 @@
         <item>while_postured_only</item>
     </array>
     <bool name="config_show_glanceable_hub_toggle_setting">true</bool>
+    <bool name="config_show_restrict_to_wireless_charging">false</bool>
     <bool name="dream_setup_supported">true</bool>
     <bool name="has_dock_settings">true</bool>
     <dimen name="dream_item_min_column_width">210.0dp</dimen>
@@ -36,6 +37,6 @@
     <string name="screensaver_settings_summary_postured_and_charging">While upright and charging</string>
     <string name="screensaver_settings_summary_sleep">While charging</string>
     <string name="when_to_show_hubmode_charging">While charging</string>
-    <string name="when_to_show_hubmode_docked">While docked</string>
+    <string name="when_to_show_hubmode_docked">While docked and charging</string>
     <string name="when_to_show_hubmode_never">Never</string>
 </resources>

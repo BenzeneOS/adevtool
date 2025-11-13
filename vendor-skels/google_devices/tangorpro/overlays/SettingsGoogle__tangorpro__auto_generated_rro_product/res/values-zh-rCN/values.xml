@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="display_white_balance_summary">根据环境光将显示屏自动调整为更暖或更冷的色调</string>
-    <string name="display_white_balance_title">自适应色调</string>
+    <string name="display_white_balance_summary">根据环境光自动调整冷暖屏</string>
+    <string name="display_white_balance_title">自动调节色调</string>
     <string name="fingerprint_unlock_set_unlock_password">Pixel Imprint + 密码</string>
     <string name="fingerprint_unlock_set_unlock_pattern">Pixel Imprint + 图案</string>
     <string name="fingerprint_unlock_set_unlock_pin">Pixel Imprint + PIN 码</string>

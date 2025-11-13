@@ -1,0 +1,5 @@
+require board=frankel
+
+require version-bootloader=deepspace-1.0-13999461
+require version-baseband=g5400i-250625-251024-B-14327224
+require partition-exists=vendor_kernel_boot

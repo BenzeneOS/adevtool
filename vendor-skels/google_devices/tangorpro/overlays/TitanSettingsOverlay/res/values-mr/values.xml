@@ -5,11 +5,11 @@
     <string name="dream_no_screen_saver_description">ऊर्जेची बचत करण्यासाठी इनॅक्टिव्हिटीनंतर तुमचा स्क्रीन बंद होईल</string>
     <string name="dream_no_screen_saver_preview_caption">पर्यावरणस्नेही</string>
     <string name="dream_secondary_button_title">वगळा</string>
-    <string name="screensaver_settings_summary_dock_and_charging">डॉक केले असताना किंवा चार्ज करताना</string>
+    <string name="screensaver_settings_summary_dock_and_charging">डॉक केले असताना आणि चार्ज करताना</string>
     <string name="screensaver_settings_summary_off">आयडल असताना आवडते फोटो, आर्टवर्क, घड्याळे आणि आणखी बऱ्याच गोष्टी दाखवा</string>
     <string name="screensaver_settings_summary_postured_and_charging">सरळ ठेवलेले असताना आणि चार्ज करताना</string>
     <string name="screensaver_settings_summary_sleep">चार्ज करताना</string>
     <string name="when_to_show_hubmode_charging">चार्ज करताना</string>
-    <string name="when_to_show_hubmode_docked">डॉक केलेले असताना</string>
+    <string name="when_to_show_hubmode_docked">डॉक केले असताना आणि चार्ज करताना</string>
     <string name="when_to_show_hubmode_never">कधीही नाही</string>
 </resources>

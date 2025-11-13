@@ -34,7 +34,7 @@ Düyməyə yüngülcə toxunun, aşağı basmayın."</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Sensora başqa bucaqdan toxunun</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Digər hissələri çəkin</string>
     <string name="security_settings_work_fingerprint_preference_title">İş üçün Barmaq izi ilə kiliddən çıxarma</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Ayarlamağa davam edin</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Davam edin</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Yaxşı təcrübə üçün tam çəkin</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Barmağınızı hərəkət etdirin</string>
     <string name="suggested_fingerprint_lock_settings_title">Barmaq İzi ilə Kiliddən Çıxarma istifadə edin</string>

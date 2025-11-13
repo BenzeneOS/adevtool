@@ -34,7 +34,7 @@
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Додирните сензор из другог угла</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Померајте прст да би се снимиле друге области прста</string>
     <string name="security_settings_work_fingerprint_preference_title">Откључавање отиском прста за посао</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Настави са подешавањем</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Настави</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Омогућава боље откључавање</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Померите прст</string>
     <string name="suggested_fingerprint_lock_settings_title">Користите откључавање отиском прста</string>

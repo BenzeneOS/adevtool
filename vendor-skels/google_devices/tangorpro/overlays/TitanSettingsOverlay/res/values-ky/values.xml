@@ -10,6 +10,6 @@
     <string name="screensaver_settings_summary_postured_and_charging">Өйдө карап жана кубатталып жатканда</string>
     <string name="screensaver_settings_summary_sleep">Кубатталып жатканда</string>
     <string name="when_to_show_hubmode_charging">Кубатталып жатканда</string>
-    <string name="when_to_show_hubmode_docked">Док-станцияда</string>
+    <string name="when_to_show_hubmode_docked">Туташып жана кубатталып жатканда</string>
     <string name="when_to_show_hubmode_never">Эч качан</string>
 </resources>

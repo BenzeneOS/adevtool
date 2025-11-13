@@ -34,7 +34,7 @@ Jemne naň klepnite, ale nestláčajte ho."</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Dotknite sa senzora z iného uhla</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Posuňte prst a nasnímajte ďalšie odtlačky</string>
     <string name="security_settings_work_fingerprint_preference_title">Odomknutie odtlačkom prsta pre prácu</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Pokračovať v nastavení</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Pokračovať</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Nasnímate tak väčšinu odltačku, čím zlepšíte odomykanie</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Posuňte prst</string>
     <string name="suggested_fingerprint_lock_settings_title">Použitie odomknutia odtlačkom prsta</string>

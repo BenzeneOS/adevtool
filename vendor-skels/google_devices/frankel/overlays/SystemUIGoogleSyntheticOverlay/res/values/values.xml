@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="high_temp_dialog_help_url">https://support.google.com/pixelphone?p=overheat_emergency</string>
+    <string name="keyguard_indication_charging_time_charge_limit">%2$s • Done charging by %1$s</string>
+    <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Done charging in %1$s</string>
+    <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Done charging</string>
+    <string name="thermal_shutdown_dialog_help_url">https://support.google.com/pixelphone?p=overheat_shutdown</string>
+</resources>

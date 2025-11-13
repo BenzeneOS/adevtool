@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <feature name="com.google.android.feature.PIXEL_2017_EXPERIENCE"/>
+  <component-override package="com.android.settings">
+    <component class=".RegulatoryInfoDisplayActivity" enabled="true"/>
+  </component-override>
+  <feature name="com.google.android.feature.AER_OPTIMIZED"/>
+</config>

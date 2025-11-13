@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <array name="config_wifiRssiLevelThresholds">
+        <item>-99</item>
+        <item>-88</item>
+        <item>-77</item>
+        <item>-66</item>
+    </array>
     <array name="config_wifi_fatal_firmware_alert_error_code_list">
         <item>1</item>
         <item>2</item>
@@ -39,6 +45,7 @@
     <bool name="config_wifi_softap_acs_supported">true</bool>
     <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
     <bool name="config_wifi_softap_sae_supported">true</bool>
+    <bool name="config_wifi_subsystem_restart_bugreport_enabled">false</bool>
     <bool name="config_wifi_turn_off_during_emergency_call">true</bool>
     <integer name="config_wifiHardwareSoftapMaxClientCount">32</integer>
     <integer name="config_wifiInitialPartialScanMaxNewChannelsPerNetwork">3</integer>

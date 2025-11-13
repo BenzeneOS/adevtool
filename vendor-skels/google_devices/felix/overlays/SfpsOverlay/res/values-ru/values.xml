@@ -34,7 +34,7 @@
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Коснитесь левой стороной</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Коснитесь правой стороной</string>
     <string name="security_settings_work_fingerprint_preference_title">Разблокировка по отпечатку пальца для работы</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Продолжить настройку</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Продолжить</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Отпечаток будет более точным.</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Переместите палец</string>
     <string name="suggested_fingerprint_lock_settings_title">Использовать разблокировку по отпечатку пальца</string>

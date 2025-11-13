@@ -10,6 +10,6 @@
     <string name="screensaver_settings_summary_postured_and_charging">Tente eta kargatzen dagoenean</string>
     <string name="screensaver_settings_summary_sleep">Kargatzen ari denean</string>
     <string name="when_to_show_hubmode_charging">Kargatzen ari denean</string>
-    <string name="when_to_show_hubmode_docked">Oinarrian dagoenean</string>
+    <string name="when_to_show_hubmode_docked">Oinarrian kargatu bitartean</string>
     <string name="when_to_show_hubmode_never">Inoiz ez</string>
 </resources>

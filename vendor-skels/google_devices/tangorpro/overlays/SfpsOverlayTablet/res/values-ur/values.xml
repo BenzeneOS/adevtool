@@ -34,7 +34,7 @@
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">دوسرے زاویے سے سینسر کو چھوئیں</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">اپنے فنگر پرنٹ کے دیگر حصوں کو کیپچر کرنے کیلئے اپنی انگلی منتقل کریں</string>
     <string name="security_settings_work_fingerprint_preference_title">کام کیلئے فنگر پرنٹ اَن لاک</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">سیٹ اپ جاری رکھیں</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">جاری رکھیں</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">اس سے غیر مقفل کرنے کے بہتر تجربے کیلئے آپ کے فنگر پرنٹ کو زیادہ کیپچر کرنے میں مدد ملتی ہے</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">اپنی انگلی منتقل کریں</string>
     <string name="suggested_fingerprint_lock_settings_title">فنگر پرنٹ اَن لاک کا استعمال کریں</string>

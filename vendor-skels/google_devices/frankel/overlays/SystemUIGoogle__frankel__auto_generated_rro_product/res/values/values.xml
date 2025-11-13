@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_adaptive_touch_sensitivity_enabled">true</bool>
+    <bool name="config_minmode_enabled">true</bool>
+    <bool name="config_screen_protector_notification_enabled">true</bool>
+    <bool name="config_screen_protector_notification_v2">true</bool>
+    <bool name="config_screen_protector_notification_v2_1">true</bool>
+    <bool name="config_vibrateOnIconAnimation">true</bool>
+    <integer name="config_showTemperatureWarning">1</integer>
+    <integer name="config_showUsbPortAlarm">1</integer>
+    <string name="ambientcue_first_time_edu_text">Magic Cue uses AI to proactively suggest info and actions relevant to what you’re doing on screen</string>
+</resources>

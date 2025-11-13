@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_button_all_caps">false</bool>
+    <bool name="handle_view_downloads_intent">false</bool>
+    <bool name="show_search_bar">true</bool>
+    <color name="list_item_selected_background_color">@color/dynamic_color_surface_2_light</color>
+    <color name="primary">#ff1a73e8</color>
+    <dimen name="grid_item_radius">8.0dp</dimen>
+    <dimen name="search_chip_radius">8.0dp</dimen>
+    <style name="DocumentsTheme" parent="@android:style/Theme.DeviceDefault.DocumentsUI">
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified</item>
+        <item name="android:actionModeBackground">?android:attr/colorBackground</item>
+        <item name="android:actionBarSize">48.0dp</item>
+        <item name="android:strokeColor">#ffdadce0</item>
+        <item name="android:colorControlActivated">?android:attr/colorForeground</item>
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
+        <item name="android:navigationBarColor">?android:attr/colorBackground</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorSecondary">@*android:color/materialColorSecondary</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarDividerColor">?android:attr/strokeColor</item>
+    </style>
+</resources>

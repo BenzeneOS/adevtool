@@ -10,6 +10,6 @@
     <string name="screensaver_settings_summary_postured_and_charging">ထောင်ထားပြီး အားသွင်းနေစဉ်</string>
     <string name="screensaver_settings_summary_sleep">အားသွင်းနေစဉ်</string>
     <string name="when_to_show_hubmode_charging">အားသွင်းနေစဉ်</string>
-    <string name="when_to_show_hubmode_docked">အထိုင်၌ တပ်ထားစဉ်</string>
+    <string name="when_to_show_hubmode_docked">အထိုင်တွင် တပ်ဆင်ပြီး အားသွင်းနေစဉ်</string>
     <string name="when_to_show_hubmode_never">ဘယ်တော့မှ</string>
 </resources>

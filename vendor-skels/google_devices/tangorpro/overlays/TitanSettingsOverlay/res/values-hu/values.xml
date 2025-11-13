@@ -10,6 +10,6 @@
     <string name="screensaver_settings_summary_postured_and_charging">Álló helyzetben, töltés közben</string>
     <string name="screensaver_settings_summary_sleep">Töltés közben</string>
     <string name="when_to_show_hubmode_charging">Töltés közben</string>
-    <string name="when_to_show_hubmode_docked">Dokkolt állapotban</string>
+    <string name="when_to_show_hubmode_docked">Dokkolva, töltés közben</string>
     <string name="when_to_show_hubmode_never">Soha</string>
 </resources>

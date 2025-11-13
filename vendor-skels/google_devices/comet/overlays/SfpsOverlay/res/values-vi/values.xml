@@ -19,7 +19,7 @@ Hãy chạm nhẹ vào nút mà không nhấn nút xuống."</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_message">Cảm biến vân tay nằm trên nút nguồn.</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_title">Chạm vào cảm biến</string>
     <string name="security_settings_fingerprint_preference_title">Mở khóa bằng vân tay</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Tính năng Mở khóa bằng vân tay sẽ tạo một mẫu vân tay duy nhất để xác minh danh tính của bạn. Để tạo mẫu vân tay này trong khi thiết lập, bạn cần chụp ảnh vân tay của mình ở nhiều vị trí.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Tính năng Mở khóa bằng vân tay sẽ tạo một mẫu vân tay duy nhất để xác minh danh tính của bạn. Để tạo mẫu vân tay này trong khi thiết lập, bạn sẽ chụp ảnh vân tay của mình ở nhiều vị trí.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">Khi bạn dùng tính năng Mở khoá bằng vân tay, các hình ảnh sẽ được dùng để cập nhật mẫu vân tay của bạn. Các hình ảnh dùng để tạo mẫu vân tay không bao giờ được lưu trữ. Tuy nhiên, mẫu vân tay được lưu trữ an toàn trên điện thoại của bạn và chỉ lưu trên điện thoại đó. Toàn bộ quá trình xử lý sẽ diễn ra một cách an toàn trên điện thoại.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Bạn có thể xóa mẫu vân tay của mình hoặc tắt tính năng Mở khóa bằng vân tay bất cứ lúc nào trong phần Cài đặt. Các mẫu vân tay sẽ được lưu trữ trên điện thoại này cho đến khi bạn xoá đi.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Tính năng Mở khóa bằng vân tay sẽ tạo một mẫu vân tay duy nhất để xác minh danh tính của con bạn. Để tạo mẫu vân tay này trong khi thiết lập, con bạn cần chụp ảnh vân tay của mình ở nhiều vị trí.</string>
@@ -34,7 +34,7 @@ Hãy chạm nhẹ vào nút mà không nhấn nút xuống."</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Chạm vào cảm biến từ một góc khác</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Di chuyển ngón tay để ghi phần vân tay khác</string>
     <string name="security_settings_work_fingerprint_preference_title">Mở khóa bằng vân tay cho công việc</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Tiếp tục thiết lập</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Tiếp tục</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Ghi đủ vân tay, mở khoá dễ hơn</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Di chuyển ngón tay</string>
     <string name="suggested_fingerprint_lock_settings_title">Dùng tính năng Mở khóa bằng vân tay</string>

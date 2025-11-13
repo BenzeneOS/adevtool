@@ -10,6 +10,6 @@
     <string name="screensaver_settings_summary_postured_and_charging">При изправено положение и зареждане</string>
     <string name="screensaver_settings_summary_sleep">При зареждане</string>
     <string name="when_to_show_hubmode_charging">При зареждане</string>
-    <string name="when_to_show_hubmode_docked">При свързване с докинг станция</string>
+    <string name="when_to_show_hubmode_docked">При свързване с докинг станция и зареждане</string>
     <string name="when_to_show_hubmode_never">Никога</string>
 </resources>

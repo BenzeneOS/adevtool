@@ -10,6 +10,6 @@
     <string name="screensaver_settings_summary_postured_and_charging">While upright and charging</string>
     <string name="screensaver_settings_summary_sleep">While charging</string>
     <string name="when_to_show_hubmode_charging">While charging</string>
-    <string name="when_to_show_hubmode_docked">While docked</string>
+    <string name="when_to_show_hubmode_docked">While docked and charging</string>
     <string name="when_to_show_hubmode_never">Never</string>
 </resources>

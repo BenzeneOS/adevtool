@@ -7,7 +7,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">Pixel Imprint + PIN</string>
     <string name="fingerprint_unlock_skip_fingerprint">Nastavi bez postavljanja funkcije Pixel Imprint</string>
     <string name="fingerprint_unlock_title">S opcijom Pixel Imprint možete otključati telefon pomoću otiska prsta. Iz sigurnosnih razloga ova opcija zahtijeva alternativni način zaključavanja ekrana.</string>
-    <string name="fingerprint_v2_delete_message">Ovim se briše model otiska prsta povezan s ID-om %1$s pohranjenim na telefonu</string>
+    <string name="fingerprint_v2_delete_message">Ovim se briše model otiska prsta povezan s otiskom %1$s pohranjenim na telefonu.</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Dozvolite Pixel Imprint</string>
     <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"S funkcijom Pixel Imprint možete odobravati kupovine ili se prijavljivati u aplikacije pomoću otiska prsta.
 

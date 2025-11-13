@@ -2,7 +2,7 @@
 <resources>
     <string name="communal_settings_title">حالت متصل</string>
     <string name="dream_no_screen_saver_caption">بدون محافظ صفحه</string>
-    <string name="dream_no_screen_saver_description">برای صرفه‌جویی در مصرف انرژی، صفحه‌نمایش پس‌از عدم فعالیت خاموش خواهد شد</string>
+    <string name="dream_no_screen_saver_description">برای صرفه‌جویی در انرژی، صفحه نمایش با عدم فعالیت خاموش می‌شود</string>
     <string name="dream_no_screen_saver_preview_caption">سازگار با محیط زیست</string>
     <string name="dream_secondary_button_title">رد شدن</string>
     <string name="screensaver_settings_summary_dock_and_charging">هنگام شارژ شدن و متصل بودن به پایه</string>
@@ -10,6 +10,6 @@
     <string name="screensaver_settings_summary_postured_and_charging">وقتی صاف و درحال شارژ است</string>
     <string name="screensaver_settings_summary_sleep">هنگام شارژ شدن</string>
     <string name="when_to_show_hubmode_charging">هنگام شارژ شدن</string>
-    <string name="when_to_show_hubmode_docked">هنگام متصل بودن به پایه</string>
+    <string name="when_to_show_hubmode_docked">هنگام شارژ شدن و متصل بودن به پایه</string>
     <string name="when_to_show_hubmode_never">هرگز</string>
 </resources>

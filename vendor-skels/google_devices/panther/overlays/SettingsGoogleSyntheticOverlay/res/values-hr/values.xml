@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="battery_missing_link_message">Saznajte više</string>
-    <string name="charging_optimization_charge_label">%1$s – punjenje će biti završeno do %2$s</string>
+    <string name="charging_optimization_charge_label">%1$s – punjenje će se dovršiti do %2$s</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s – punjenje je dovršeno</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Punjenje je dovršeno</string>
-    <string name="charging_optimization_remaining_time_label">Punjenje će biti završeno do %1$s</string>
+    <string name="charging_optimization_remaining_time_label">Punjenje će se dovršiti do %1$s</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Saznajte više o otključavanju otiskom prsta na Pixelu na stranici &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="touch_sensitivity_summary">Povećava osjetljivost zaslona i poboljšava osjetljivost prilikom korištenja zaštite zaslona</string>
     <string name="touch_sensitivity_title">Način zaštite zaslona</string>

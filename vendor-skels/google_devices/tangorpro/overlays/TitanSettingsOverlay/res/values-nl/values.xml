@@ -2,7 +2,7 @@
 <resources>
     <string name="communal_settings_title">Hub-modus</string>
     <string name="dream_no_screen_saver_caption">Geen screensaver</string>
-    <string name="dream_no_screen_saver_description">Je scherm gaat uit na inactiviteit om energie te besparen</string>
+    <string name="dream_no_screen_saver_description">Je scherm gaat bij inactiviteit uit om energie te besparen</string>
     <string name="dream_no_screen_saver_preview_caption">Milieuvriendelijk</string>
     <string name="dream_secondary_button_title">Overslaan</string>
     <string name="screensaver_settings_summary_dock_and_charging">Tijdens gedockt opladen</string>
@@ -10,6 +10,6 @@
     <string name="screensaver_settings_summary_postured_and_charging">Tijdens rechtop opladen</string>
     <string name="screensaver_settings_summary_sleep">Tijdens opladen</string>
     <string name="when_to_show_hubmode_charging">Tijdens opladen</string>
-    <string name="when_to_show_hubmode_docked">Terwijl gedockt</string>
+    <string name="when_to_show_hubmode_docked">Tijdens gedockt opladen</string>
     <string name="when_to_show_hubmode_never">Nooit</string>
 </resources>

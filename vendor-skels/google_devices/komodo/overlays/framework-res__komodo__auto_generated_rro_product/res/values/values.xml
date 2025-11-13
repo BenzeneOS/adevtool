@@ -351,6 +351,7 @@
     <integer name="config_externalDisplayPeakRefreshRate">61</integer>
     <integer name="config_externalDisplayPeakWidth">1920</integer>
     <integer name="config_fingerprintMaxTemplatesPerUser">4</integer>
+    <integer name="config_maxDesktopWindowingActiveTasks">8</integer>
     <integer name="config_screenTimeoutOverride">10000</integer>
     <string name="config_qualified_networks_service_package">com.android.qns</string>
     <string name="fingerprint_error_bad_calibration">Can’t use fingerprint sensor. Visit a repair provider or g.co/pixel/fingerprintunlock</string>

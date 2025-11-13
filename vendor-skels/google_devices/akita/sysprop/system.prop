@@ -1,0 +1,5 @@
+persist.settings.large_screen_opt.enabled=false
+persist.settings.large_screen_opt_for_dp.enabled=true
+ro.camerax.extensions.enabled=true
+ro.gms.pixelmigrate.has_usb_a_to_c_adapter=true
+ro.launcher.blur.appLaunch=0

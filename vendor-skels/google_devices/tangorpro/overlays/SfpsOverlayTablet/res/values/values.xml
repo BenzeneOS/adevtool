@@ -41,7 +41,8 @@ Lightly touch the button without pressing it down."</string>
     <string name="security_settings_sfps_settings_rest_to_unlock_summary">@string/security_settings_sfps_enroll_finish_rest_to_unlock_desc</string>
     <string name="security_settings_sfps_settings_rest_to_unlock_title">@string/security_settings_sfps_enroll_finish_rest_to_unlock_title</string>
     <string name="security_settings_work_fingerprint_preference_title">Fingerprint Unlock for work</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Continue setup</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Continue</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue_fallback">Continue</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">This helps capture more of your fingerprint for a better unlocking experience</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Move your finger</string>
     <string name="suggested_fingerprint_lock_settings_title">Use Fingerprint Unlock</string>

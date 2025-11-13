@@ -10,6 +10,6 @@
     <string name="screensaver_settings_summary_postured_and_charging">Keď je kolmo a nabíja sa</string>
     <string name="screensaver_settings_summary_sleep">Keď sa nabíja</string>
     <string name="when_to_show_hubmode_charging">Keď sa nabíja</string>
-    <string name="when_to_show_hubmode_docked">Keď je v doku</string>
+    <string name="when_to_show_hubmode_docked">Keď je v doku a nabíja sa</string>
     <string name="when_to_show_hubmode_never">Nikdy</string>
 </resources>

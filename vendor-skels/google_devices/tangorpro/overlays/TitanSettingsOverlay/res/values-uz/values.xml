@@ -5,11 +5,11 @@
     <string name="dream_no_screen_saver_description">Quvvatni tejash uchun faolsizlikdan keyin ekran oʻchiriladi</string>
     <string name="dream_no_screen_saver_preview_caption">Tejamkor</string>
     <string name="dream_secondary_button_title">Tashlab ketish</string>
-    <string name="screensaver_settings_summary_dock_and_charging">Dokka ulanganda yoki quvvatlanganda</string>
+    <string name="screensaver_settings_summary_dock_and_charging">Dok-stansiyada quvvat olayotganda</string>
     <string name="screensaver_settings_summary_off">Kutish rejimida sevimli suratlar, sanʼat asarlari va soatlarni koʻrsatish</string>
-    <string name="screensaver_settings_summary_postured_and_charging">Tik va quvvat olayotganda</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Tik holatda quvvat olayotganda</string>
     <string name="screensaver_settings_summary_sleep">Quvvat olayotganda</string>
     <string name="when_to_show_hubmode_charging">Quvvat olayotganda</string>
-    <string name="when_to_show_hubmode_docked">Dok-stansiyaga ulanganda</string>
+    <string name="when_to_show_hubmode_docked">Dok-stansiyada quvvat olayotganda</string>
     <string name="when_to_show_hubmode_never">Hech qachon</string>
 </resources>

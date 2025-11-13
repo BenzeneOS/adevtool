@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <feature name="com.google.android.feature.PIXEL_EXPERIENCE"/>
+  <unavailable-feature name="android.hardware.type.automotive"/>
+  <unavailable-feature name="android.hardware.type.embedded"/>
+  <unavailable-feature name="android.hardware.type.pc"/>
+  <unavailable-feature name="android.hardware.type.television"/>
+  <unavailable-feature name="android.hardware.type.watch"/>
+  <unavailable-feature name="android.software.leanback"/>
+  <unavailable-feature name="android.software.leanback_only"/>
+</config>

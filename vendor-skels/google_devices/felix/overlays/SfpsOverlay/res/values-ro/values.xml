@@ -34,7 +34,7 @@ Atinge ușor butonul, fără a-l apăsa."</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Atinge senzorul din alt unghi</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Mișcă degetul pentru a captura alte părți ale amprentei</string>
     <string name="security_settings_work_fingerprint_preference_title">Deblocare cu amprenta pentru serviciu</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Continuă configurarea</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Continuă</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Astfel va fi scanată o parte mai mare a amprentei, pentru un răspuns mai precis la deblocare</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Mișcă degetul</string>
     <string name="suggested_fingerprint_lock_settings_title">Folosește Deblocarea cu amprenta</string>

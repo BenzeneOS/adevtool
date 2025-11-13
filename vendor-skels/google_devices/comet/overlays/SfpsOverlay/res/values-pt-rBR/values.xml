@@ -6,25 +6,25 @@
     <string name="fingerprint_unlock_set_unlock_password">Senha • Impressão digital</string>
     <string name="fingerprint_unlock_set_unlock_pattern">Padrão • Impressão digital</string>
     <string name="fingerprint_unlock_set_unlock_pin">PIN • Impressão digital</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Continuar sem o Desbloqueio por impressão digital</string>
-    <string name="fingerprint_unlock_title">Com o Desbloqueio por impressão digital, é possível desbloquear o smartphone usando sua impressão. Por razões de segurança, essa opção exige um bloqueio de tela alternativo.</string>
-    <string name="security_settings_fingerprint_enroll_consent_introduction_title">Permitir Desbloqueio por impressão digital</string>
+    <string name="fingerprint_unlock_skip_fingerprint">Continuar sem o desbloqueio por impressão digital</string>
+    <string name="fingerprint_unlock_title">Com o desbloqueio por impressão digital, é possível desbloquear o smartphone usando sua impressão. Por razões de segurança, essa opção exige um bloqueio de tela alternativo.</string>
+    <string name="security_settings_fingerprint_enroll_consent_introduction_title">Permitir desbloqueio por impressão digital</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"O sensor de impressão digital está localizado no botão liga/desliga.
 
 Toque no botão sem pressioná-lo."</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_title">Toque no botão liga/desliga</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title">Configurar Desbloqueio por impressão digital</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">Configurar o desbloqueio por impressão digital</string>
     <string name="security_settings_fingerprint_enroll_repeat_title">Tire e toque de novo. Mude ligeiramente a posição do dedo a cada toque.</string>
     <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay">Tire o dedo e toque de novo</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_message">O sensor de impressão digital fica no botão liga/desliga.</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_title">Toque no sensor</string>
     <string name="security_settings_fingerprint_preference_title">Desbloqueio por impressão digital</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">O desbloqueio por impressão digital cria um modelo único da sua digital para confirmar sua identidade. Para isso, é necessário capturar imagens do seu dedo em várias posições.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">"Usamos imagens da sua digital para o recurso \"Desbloqueio por impressão digital\". Elas nunca são armazenadas, mas o modelo fica salvo em segurança no smartphone. Todo o processamento acontece de forma segura no dispositivo."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Você pode excluir o modelo ou desativar o Desbloqueio por impressão digital a qualquer momento nas Configurações. Os modelos de impressão digital são armazenados no smartphone até serem excluídos.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">O Desbloqueio por impressão digital cria um modelo único da impressão digital da criança para confirmar a identidade dela. Para criar esse modelo durante a configuração, é necessário que ela capture imagens da própria impressão em várias posições.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">Quando a criança utiliza o recurso Desbloqueio por impressão digital, as imagens são usadas para atualizar o modelo de impressão digital dela. As imagens usadas para criar o modelo da criança nunca são armazenadas, mas ele fica salvo em segurança no smartphone, sem deixar o dispositivo. Todo o processamento ocorre de forma segura no smartphone.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Você e a criança podem excluir o modelo dela ou desativar o Desbloqueio por impressão digital a qualquer momento nas Configurações. Os modelos de impressão digital são armazenados no smartphone até serem excluídos.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">Usamos imagens da sua digital para o recurso desbloqueio por impressão digital. Elas nunca são armazenadas, mas o modelo fica salvo em segurança no smartphone. Todo o processamento acontece de forma segura no dispositivo.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Você pode excluir o modelo ou desativar o desbloqueio por impressão digital a qualquer momento nas Configurações. Os modelos de impressão digital são armazenados no smartphone até serem excluídos.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">O desbloqueio por impressão digital cria um modelo único da impressão digital da criança para confirmar a identidade dela. Para criar esse modelo durante a configuração, é necessário que ela capture imagens da própria impressão em várias posições.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">Quando a criança utiliza o recurso desbloqueio por impressão digital, as imagens são usadas para atualizar o modelo de impressão digital dela. As imagens usadas para criar o modelo da criança nunca são armazenadas, mas ele fica salvo em segurança no smartphone, sem deixar o dispositivo. Todo o processamento ocorre de forma segura no smartphone.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Você e a criança podem excluir o modelo dela ou desativar o desbloqueio por impressão digital a qualquer momento nas Configurações. Os modelos de impressão digital são armazenados no smartphone até serem excluídos.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Saiba mais em &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">O sensor de impressão digital fica no botão liga/desliga. É o menor botão na lateral do smartphone.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Mova um pouco o dedo a cada toque</string>
@@ -34,8 +34,8 @@ Toque no botão sem pressioná-lo."</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Toque no sensor de outro ângulo</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Mova o dedo para capturar outras partes da impressão digital</string>
     <string name="security_settings_work_fingerprint_preference_title">Desbloqueio por impressão digital para o trabalho</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Continuar configuração</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Continuar</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Isso melhora a captura da sua impressão digital e facilita o desbloqueio</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Mova o dedo</string>
-    <string name="suggested_fingerprint_lock_settings_title">Usar o Desbloqueio por impressão digital</string>
+    <string name="suggested_fingerprint_lock_settings_title">Usar o desbloqueio por impressão digital</string>
 </resources>

@@ -34,7 +34,7 @@ Kosketa painiketta kevyesti painamatta sitä alas."</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Kosketa sensoria eri kulmasta</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Liikuta sormea niin, että tallennat muut sormenjäljen alueet</string>
     <string name="security_settings_work_fingerprint_preference_title">Sormenjälkiavaus työkäyttöön</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Jatka käyttöönottoa</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Jatka</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Tallentamalla suuremman osan sormenjäljestä saat paremman avauskokemuksen</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Liikuta sormeasi</string>
     <string name="suggested_fingerprint_lock_settings_title">Käytä sormenjälkiavausta</string>

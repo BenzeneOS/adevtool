@@ -10,6 +10,6 @@
     <string name="screensaver_settings_summary_postured_and_charging">Saat tegak dan mengisi daya</string>
     <string name="screensaver_settings_summary_sleep">Saat mengisi daya</string>
     <string name="when_to_show_hubmode_charging">Saat mengisi daya</string>
-    <string name="when_to_show_hubmode_docked">Saat terpasang di dok</string>
+    <string name="when_to_show_hubmode_docked">Saat dipasang ke dok dan mengisi daya</string>
     <string name="when_to_show_hubmode_never">Tidak pernah</string>
 </resources>

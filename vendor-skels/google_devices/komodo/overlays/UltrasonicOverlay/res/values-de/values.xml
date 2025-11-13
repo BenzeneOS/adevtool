@@ -7,6 +7,6 @@
 
 Die besten Ergebnisse erzielst du mit „Made for Google“-zertifizierten Displayschutzprodukten. Bei anderen Displayschutzprodukten wird dein Fingerabdruck möglicherweise nicht erkannt."</string>
     <string name="security_settings_udfps_enroll_fingertip_title">Mit der Fingerspitze berühren</string>
-    <string name="security_settings_udfps_enroll_left_edge_title">Finger bewegen und mit der linken Seite berühren</string>
-    <string name="security_settings_udfps_enroll_right_edge_title">Finger erneut bewegen und mit der rechten Seite berühren</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Finger bewegen und mit der linken Seite auflegen</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Finger erneut bewegen und mit der rechten Seite auflegen</string>
 </resources>

@@ -34,7 +34,7 @@ Finoman érintse meg a gombot anélkül, hogy megnyomná."</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Érintse meg az érzékelőt más szögből</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Mozgassa az ujját a többi rész rögzítéséhez</string>
     <string name="security_settings_work_fingerprint_preference_title">Feloldás ujjlenyomattal munkaprofilnál</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Beállítás folytatása</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Tovább</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Így nagyobb ujjlenyomatrészt rögzíthet a rendszer, és egyszerűbb lesz a feloldás</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Mozgassa az ujját</string>
     <string name="suggested_fingerprint_lock_settings_title">A Feloldás ujjlenyomattal funkció használata</string>

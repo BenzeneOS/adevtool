@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">sạc, giới hạn, tối ưu hoá quá trình sạc, giới hạn sạc</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">Để giúp kéo dài thời lượng pin, điện thoại của bạn sẽ chỉ sạc đến {batteryLimitLevel}% pin. Điện thoại sẽ sạc đến mức 100% một lần trong khoảng một đến hai tuần để duy trì độ chính xác của báo cáo về mức pin.</string>
+    <string name="charging_optimization_summary_charge_limit">Giới hạn còn {batteryLimitLevel}%</string>
+    <string name="charging_optimization_summary_off">Đang tắt</string>
+    <string name="charging_optimization_title">Tối ưu hoá sạc pin</string>
+</resources>

@@ -253,11 +253,13 @@
     <bool name="config_enableMultiUserUI">true</bool>
     <bool name="config_enableNewAutoSelectNetworkUI">true</bool>
     <bool name="config_enableUdcSysfsUsbStateUpdate">true</bool>
+    <bool name="config_enterDesktopByDefaultOnFreeformDisplay">true</bool>
     <bool name="config_faceAuthDismissesKeyguard">false</bool>
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
     <bool name="config_hotswapCapable">true</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+    <bool name="config_screen_off_udfps_enabled">true</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_support_disable_satellite_while_enable_in_progress">false</bool>
@@ -320,6 +322,7 @@
     <integer name="config_stableDeviceDisplayHeight">2424</integer>
     <integer name="config_stableDeviceDisplayWidth">1080</integer>
     <integer name="config_wait_for_satellite_enabling_response_timeout_millis">240000</integer>
+    <integer name="max_allowed_data_mode">0</integer>
     <string name="config_displayLightSensorType">com.google.sensor.auto_brightness</string>
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
     <string name="config_dozeTapSensorType">com.google.sensor.single_touch</string>

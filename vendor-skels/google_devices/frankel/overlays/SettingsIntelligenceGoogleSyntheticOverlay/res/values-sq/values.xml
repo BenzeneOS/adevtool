@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">karikim, kufi, optimizimi i karikimit, kufiri i karikimit</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">Për të ndihmuar në zgjatjen e jetëgjatësisë së baterisë, bateria e telefonit do të karikohet vetëm deri në {batteryLimitLevel}%. Telefoni yt do të karikohet në 100% një herë çdo një ose dy javë për të ruajtur saktësinë e raportimit të nivelit të baterisë.</string>
+    <string name="charging_optimization_summary_charge_limit">Kufiri në {batteryLimitLevel}%</string>
+    <string name="charging_optimization_summary_off">Joaktiv</string>
+    <string name="charging_optimization_title">Optimizimi i karikimit</string>
+</resources>

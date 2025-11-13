@@ -61,7 +61,7 @@
     <string name="help_url_battery">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_battery;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_battery;end</string>
     <string name="help_url_battery_defender">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_batterydefender;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fpixelphone%2Fanswer%2F3333708;end</string>
     <string name="help_url_battery_missing">https://support.google.com/pixelphone/?p=p4xl_battery</string>
-    <string name="help_url_battery_replacement">https://g.co/pixel/4abattery</string>
+    <string name="help_url_battery_replacement">https://g.co/pixel/6abattery</string>
     <string name="help_url_bluetooth">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_bluetooth;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_bluetooth;end</string>
     <string name="help_url_caption">https://support.google.com/accessibility/android/answer/6006554</string>
     <string name="help_url_choose_lockscreen">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_lock;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_screenlock;end</string>

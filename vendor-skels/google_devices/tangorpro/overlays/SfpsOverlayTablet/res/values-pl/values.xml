@@ -34,7 +34,7 @@ Lekko kliknij przycisk, ale go nie naciskaj."</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Dotknij czujnika pod innym kątem</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Przesuń palec, aby zeskanować inną część odcisku palca</string>
     <string name="security_settings_work_fingerprint_preference_title">Odblokowywanie odciskiem palca w profilu służbowym</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Konfiguruj dalej</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Dalej</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Dzięki temu zeskanujesz większą część odcisku palca, a to ułatwi odblokowywanie</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Przesuń palec</string>
     <string name="suggested_fingerprint_lock_settings_title">Używaj odblokowywania odciskiem palca</string>

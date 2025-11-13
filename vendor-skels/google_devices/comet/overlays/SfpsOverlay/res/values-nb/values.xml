@@ -34,7 +34,7 @@ Trykk lett på knappen uten å trykke den ned."</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Trykk på sensoren fra en annen vinkel</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Beveg fingeren og registrer andre deler av fingeravtrykket</string>
     <string name="security_settings_work_fingerprint_preference_title">Opplåsing med fingeravtrykk for jobb</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Fortsett konfigureringen</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Fortsett</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Dette registrerer mer av fingeravtrykket og gir bedre opplåsing</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Flytt fingeren</string>
     <string name="suggested_fingerprint_lock_settings_title">Bruk opplåsing med fingeravtrykk</string>

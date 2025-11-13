@@ -34,7 +34,7 @@ Viegli pieskarieties pogai, to nenospiežot."</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Pieskarieties citā leņķī</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Groziet pirkstu, lai notvertu arī citas pirksta daļas</string>
     <string name="security_settings_work_fingerprint_preference_title">Autorizācija ar pirksta nospiedumu darba profilam</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">Turpināt iestatīšanu</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Turpināt</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">Atbloķēšana tā darbosies labāk</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">Pakustiniet pirkstu</string>
     <string name="suggested_fingerprint_lock_settings_title">Izmantot autorizāciju ar pirksta nospiedumu</string>

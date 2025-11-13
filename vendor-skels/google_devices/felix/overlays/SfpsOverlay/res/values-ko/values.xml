@@ -13,7 +13,7 @@
 
 버튼을 누르지 말고 가볍게 터치하세요."</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_title">전원 버튼 터치</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title">지문 잠금 해제를 설정하세요</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">지문 잠금 해제 설정</string>
     <string name="security_settings_fingerprint_enroll_repeat_title">손가락을 들었다가 터치하세요. 한 번 터치할 때마다 조금씩 손가락을 움직이세요.</string>
     <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay">손가락을 뗀 후 다시 터치하세요</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_message">지문 센서는 전원 버튼에 있습니다.</string>
@@ -34,7 +34,7 @@
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">다른 각도에서 센서를 터치하세요.</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">손가락을 움직여 지문의 다른 부분을 캡처하세요.</string>
     <string name="security_settings_work_fingerprint_preference_title">직장용 지문 잠금 해제</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">설정 계속</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">계속</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">이렇게 하면 지문을 더 많이 캡처해 더욱 잘 인식할 수 있습니다.</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">손가락을 움직이세요</string>
     <string name="suggested_fingerprint_lock_settings_title">지문 잠금 해제 사용</string>

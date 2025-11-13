@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Очистите экран в месте, где расположен сканер.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Уберите с экрана полосы, разводы и пятна. Это поможет получить более точные снимки отпечатка пальца.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Перед тем как продолжить, очистите экран</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Если вы планируете наклеить защитную пленку или стекло, рекомендуем сделать это перед тем, как добавить отпечаток пальца.
+
+Лучше всего использовать защитное стекло или пленку, сертифицированные по программе \"Сделано для Google\". Устройства с другими стеклами или пленками могут не распознавать отпечаток пальца."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">Коснитесь кончиком пальца</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Коснитесь левым краем пальца</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Теперь коснитесь правым краем</string>
+</resources>

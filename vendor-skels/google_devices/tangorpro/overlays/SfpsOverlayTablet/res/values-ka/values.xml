@@ -34,7 +34,7 @@
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">შეეხეთ სენსორს სხვა კუთხიდან</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">ამოძრავეთ თითი ანაბეჭდის სხვა ზონების აღსაბეჭდად</string>
     <string name="security_settings_work_fingerprint_preference_title">ანაბეჭდით განბლოკვა სამსახურისთვის</string>
-    <string name="setup_fingerprint_enroll_immobile_help_continue">დაყენების გაგრძელება</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">გაგრძელება</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">აღნიშნული გეხმარებათ თქვენი თითს ანაბეჭდის უმეტესი ნაწილის აღსაბეჭდად</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">გაამოძრავეთ თითი</string>
     <string name="suggested_fingerprint_lock_settings_title">ანაბეჭდით განბლოკვის გამოყენება</string>
