@@ -5,7 +5,7 @@ import * as unzipit from 'unzipit'
 import { PartitionProps } from '../blobs/props'
 import { getAbOtaPartitions } from '../frontend/generate'
 import { NodeFileReader } from '../util/zip'
-import { EntryType, FastbootPack } from './fastboot-pack'
+import { EntryType, parseFastbootPack } from './fastboot-pack'
 
 export const ANDROID_INFO = 'android-info.txt'
 
@@ -56,7 +56,7 @@ export async function extractFactoryFirmware(path: string, stockProps: Partition
 
   // Extract partitions from firmware FBPKs (fastboot packs)
   for (let [, fbpkBuf] of Array.from(images.entries())) {
-    let fastbootPack = FastbootPack.parse(fbpkBuf)
+    let fastbootPack = parseFastbootPack(fbpkBuf)
     for (let entry of fastbootPack.entries) {
       if (abPartitions.has(entry.name)) {
         assert(entry.type === EntryType.PartitionData, `unexpected entry type: ${entry.type}`)
