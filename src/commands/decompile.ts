@@ -5,8 +5,8 @@ import asyncPool from 'tiny-async-pool'
 import xml2js from 'xml2js'
 import { DEVICE_CONFIGS_FLAG_WITH_BUILD_ID, loadDeviceConfigs2 } from '../config/device'
 import { IMAGE_DOWNLOAD_DIR } from '../config/paths'
-import { prepareFactoryImages } from '../frontend/source'
-import { loadBuildIndex } from '../images/build-index'
+import { prepareDeviceImages, prepareFactoryImages } from '../frontend/source'
+import { ImageType, loadBuildIndex } from '../images/build-index'
 import { exists, listFilesRecursive } from '../util/fs'
 import { spawnAsync } from '../util/process'
 
@@ -16,6 +16,9 @@ export default class Decompile extends Command {
       description: 'max number of concurrent jadx decompilations',
       default: 8,
     }),
+    useOtaImage: Flags.boolean({
+      description: 'use OTA image instead of the factory image',
+    }),
     ...DEVICE_CONFIGS_FLAG_WITH_BUILD_ID,
   }
 
@@ -23,7 +26,10 @@ export default class Decompile extends Command {
     let { flags } = await this.parse(Decompile)
 
     let devices = await loadDeviceConfigs2(flags)
-    let images = await prepareFactoryImages(await loadBuildIndex(), devices)
+    let images = flags.useOtaImage
+      ? await prepareDeviceImages(await loadBuildIndex(), [ImageType.Ota], devices)
+      : await prepareFactoryImages(await loadBuildIndex(), devices)
+
     for (let img of images.values()) {
       let items: DecompiledItem[] = []
       let tasks: Promise<unknown>[] = []
