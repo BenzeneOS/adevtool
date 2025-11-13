@@ -12,6 +12,9 @@ filters:
       # DockSetup itself is not shipped
       - DockSetup__auto_generated_rro_
 
+sysprop_exclusions:
+  - ro.build.characteristics = tablet # TODO consider changing PRODUCT_CHARACTERISTICS := tablet,nosdcard to tablet instead
+
 sysconfig_exclusions:
   - |-
     <component-override package="com.android.systemui">

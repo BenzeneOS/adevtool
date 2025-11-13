@@ -44,7 +44,6 @@ persist.wm.extensions.activity_embedding_guard_with_android_15=false
 remote_provisioning.hostname=remoteprovisioning.googleapis.com
 ro.bluetooth.leaudio.le_audio_connection_by_default=false
 ro.bluetooth.leaudio_switcher.supported=true
-ro.build.characteristics=tablet
 ro.fuse.bpf.enabled=true
 ro.gwfcactivation.disabled_carriers=1492
 ro.odm.cast.ssid_suffix=ynn
