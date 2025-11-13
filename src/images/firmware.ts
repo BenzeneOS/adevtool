@@ -84,14 +84,14 @@ export async function writeFirmwareImages(images: FirmwareImages, fwDir: string)
 export function generateAndroidInfo(
   device: string,
   blVersion: string,
-  radioVersion: string,
+  radioVersion: string | undefined,
   stockAbOtaPartitions: string[],
 ) {
   let android_info = `require board=${device}
 
 require version-bootloader=${blVersion}
 `
-  if (radioVersion != undefined) {
+  if (radioVersion !== undefined) {
     android_info += `require version-baseband=${radioVersion}\n`
   }
 
