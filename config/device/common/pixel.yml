@@ -8,7 +8,6 @@ includes:
 device:
   vendor: google_devices
   system_fs_type: ext4
-  kernel_repo_url: https://android.googlesource.com/kernel/common
   has_cellular: true
   build_id: BP2A.250805.005
 

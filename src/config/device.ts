@@ -27,7 +27,6 @@ export interface DeviceConfig {
     vendor: string
     // file system type of OS partitions
     system_fs_type: FsType
-    kernel_repo_url: string
     build_id: string
     prev_build_id: string
     has_cellular: boolean
