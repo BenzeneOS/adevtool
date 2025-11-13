@@ -1,0 +1,75 @@
+sysconfig_inclusions:
+  - <allow-ignore-location-settings package="com.android.phone" attributionTag="telephony"/>
+  - |-
+    <component-override package="com.android.settings">
+      <component class=".RegulatoryInfoDisplayActivity" enabled="true"/>
+    </component-override>
+  - <feature name="android.hardware.bluetooth_le.channel_sounding"/>
+  - <feature name="android.hardware.nfc.uicc"/>
+  - <feature name="android.hardware.strongbox_keystore" version="300"/>
+  - <feature name="android.hardware.telephony.euicc"/>
+  - <feature name="android.hardware.telephony.euicc.mep"/>
+  - <feature name="android.hardware.telephony.satellite"/>
+  - <feature name="android.hardware.uwb"/>
+  - <feature name="android.hardware.vulkan.compute" version="0"/>
+  - <feature name="android.hardware.vulkan.level" version="1"/>
+  - <feature name="android.hardware.vulkan.version" version="4206592"/>
+  - <feature name="android.hardware.vulkan.version" version="4210688"/>
+  - <feature name="android.software.freeform_window_management"/>
+  - <feature name="android.software.opengles.deqp.level" version="132711169"/>
+  - <feature name="android.software.vulkan.deqp.level" version="132711169"/>
+  - <feature name="com.google.android.apps.dialer.SUPPORTED"/>
+  - <feature name="com.google.android.feature.AER_OPTIMIZED"/>
+  - <feature name="com.google.android.feature.FIR.PROXIMITY"/>
+  - <feature name="com.google.android.feature.GOOGLE_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_2017_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_2018_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_2019_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_2019_MIDYEAR_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_2020_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_2020_MIDYEAR_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_2021_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_2021_MIDYEAR_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_2022_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_2022_MIDYEAR_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_2023_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_2023_MIDYEAR_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_2024_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_2024_MIDYEAR_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_2025_MIDYEAR_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_TABLET_2023_EXPERIENCE"/>
+  - <feature name="com.google.pixel.camera.concurrent_foldable_dual_front"/>
+  - <feature name="vendor.android.hardware.camera.preview-dis.back"/>
+  - <feature name="vendor.android.hardware.camera.preview-dis.front"/>
+  - <library name="androidx.camera.extensions.impl" file="/system_ext/framework/com.google.android.camerax.extensions.jar"/>
+  - <library name="com.google.android.camera.experimental2021" file="/vendor/framework/com.google.android.camera.experimental2021.jar"/>
+  - <library name="com.google.android.camera.experimental2022" file="/vendor/framework/com.google.android.camera.experimental2022.jar"/>
+  - <library name="com.google.android.camera.experimental2022_system" file="/system_ext/framework/com.google.android.camera.experimental2022_system.jar"/>
+  - <library name="com.google.android.camera.experimental2023" file="/vendor/framework/com.google.android.camera.experimental2023.jar"/>
+  - <library name="com.google.android.camera.experimental2024" file="/vendor/framework/com.google.android.camera.experimental2024.jar"/>
+  - <library name="com.google.android.camera.experimental2024_system" file="/system_ext/framework/com.google.android.camera.experimental2024_system.jar"/>
+  - <library name="com.google.android.camera.extensions" file="/system_ext/framework/com.google.android.camera.extensions.jar"/>
+  - <library name="com.google.android.camerax.extensions" file="/system_ext/framework/com.google.android.camerax.extensions.jar"/>
+  - <library name="com.google.android.dialer.support" file="/product/framework/com.google.android.dialer.support.jar"/>
+  - <library name="com.google.input.gia.giaservicemanager" file="/system_ext/framework/com.google.input.gia.giaservicemanager.jar"/>
+  - <library name="com.google.pixel.camera.connectivity" file="/system_ext/framework/com.google.pixel.camera.connectivity.jar"/>
+  - <library name="com.google.pixel.camera.connectivity.impl" file="/system_ext/framework/com.google.pixel.camera.connectivity.jar"/>
+  - <library name="com.google.pixel.camera.services.cameraidremapper" file="/system_ext/framework/com.google.pixel.camera.services.cameraidremapper.jar"/>
+  - <library name="com.google.pixel.camera.services.cameraidremapper.impl" file="/system_ext/framework/com.google.pixel.camera.services.cameraidremapper.jar"/>
+  - <library name="com.google.pixel.camera.services.lyricconfigprovider" file="/system_ext/framework/com.google.pixel.camera.services.lyricconfigprovider.jar"/>
+  - <library name="com.google.pixel.camera.services.lyricconfigprovider.impl" file="/system_ext/framework/com.google.pixel.camera.services.lyricconfigprovider.jar"/>
+  - <library name="google-ril" file="/system_ext/framework/google-ril.jar"/>
+  - <library name="oemrilhook" file="/system_ext/framework/oemrilhook.jar"/>
+  - <library name="org.carconnectivity.android.digitalkey.timesync" file="/system_ext/framework/org.carconnectivity.android.digitalkey.timesync.jar"/>
+  - |-
+      <permission name="com.google.euiccpixel.permission.SECURE_ELEMENT">
+        <group gid="secure_element"/>
+      </permission>
+  - <unavailable-feature name="android.hardware.type.automotive"/>
+  - <unavailable-feature name="android.hardware.type.embedded"/>
+  - <unavailable-feature name="android.hardware.type.pc"/>
+  - <unavailable-feature name="android.hardware.type.television"/>
+  - <unavailable-feature name="android.hardware.type.watch"/>
+  - <unavailable-feature name="android.software.leanback"/>
+  - <unavailable-feature name="android.software.leanback_only"/>

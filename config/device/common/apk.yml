@@ -1,0 +1,824 @@
+package_inclusions:
+  com.android.safetyregulatoryinfo:
+    max_known_version: auto
+    include_uses_permissions:
+      - com.android.safetyregulatoryinfo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+  com.android.pixeldisplayservice:
+    max_known_version: 2
+    include_uses_permissions:
+      - android.permission.CAMERA_OPEN_CLOSE_LISTENER
+      - android.permission.CONTROL_DISPLAY_BRIGHTNESS
+      - android.permission.CREATE_USERS
+      - android.permission.DEVICE_POWER
+      - android.permission.INTERNAL_SYSTEM_WINDOW
+      - android.permission.READ_DEVICE_CONFIG
+      - android.permission.RECEIVE_BOOT_COMPLETED
+      - android.permission.RESTRICT_DISPLAY_MODES
+      - android.permission.STATUS_BAR_SERVICE
+      - android.permission.SYSTEM_ALERT_WINDOW
+      - android.permission.VIBRATE
+      - com.android.pixeldisplayservice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+    pregrantable_permissions:
+      - android.permission.INTERACT_ACROSS_USERS_FULL
+      - android.permission.MANAGE_USERS
+      - android.permission.ACCESS_CONTEXT_HUB
+
+  com.shannon.rcsservice:
+    max_known_version: 0
+    include_uses_permissions:
+      - android.permission.ACCESS_COARSE_LOCATION
+      - android.permission.ACCESS_FINE_LOCATION
+      - android.permission.ACCESS_NETWORK_STATE
+      - android.permission.BROADCAST_STICKY
+      - android.permission.CAMERA
+      - android.permission.CHANGE_NETWORK_STATE
+      - android.permission.INTERNET
+      - android.permission.MANAGE_EXTERNAL_STORAGE
+      - android.permission.RECEIVE_BOOT_COMPLETED
+      - android.permission.SYSTEM_ALERT_WINDOW
+      - android.permission.WRITE_CONTACTS
+      - android.permission.WRITE_EXTERNAL_STORAGE
+      - android.permission.WRITE_SETTINGS
+      - com.gsma.services.permission.RCS
+      - com.shannon.rcsservice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      - com.shannon.rcsservice.ext.permission.UCE
+      - com.shannon.rcsservice.permission.READ
+      - com.shannon.rcsservice.permission.WRITE
+    pregrantable_permissions:
+      - android.permission.CONNECTIVITY_INTERNAL
+      - android.permission.INTERACT_ACROSS_USERS
+      - android.permission.MODIFY_PHONE_STATE
+      - android.permission.NETWORK_SIGNAL_STRENGTH_WAKEUP
+      - android.permission.READ_PRECISE_PHONE_STATE
+      - android.permission.READ_PRIVILEGED_PHONE_STATE
+      - android.permission.SCHEDULE_EXACT_ALARM
+      - android.permission.WRITE_APN_SETTINGS
+
+  com.shannon.imsservice:
+    max_known_version: 0
+    include_uses_permissions:
+      - android.permission.ACCESS_BACKGROUND_LOCATION
+      - android.permission.ACCESS_COARSE_LOCATION
+      - android.permission.ACCESS_FINE_LOCATION
+      - android.permission.ACCESS_NETWORK_STATE
+      - android.permission.ACCESS_WIFI_STATE
+      - android.permission.BROADCAST_STICKY
+      - android.permission.CAMERA
+      - android.permission.CHANGE_NETWORK_STATE
+      - android.permission.INTERNET
+      - android.permission.SYSTEM_ALERT_WINDOW
+      - android.permission.WAKE_LOCK
+      - com.android.telephony.permission.USE_PIXELIMSMEDIA
+      - com.shannon.imsservice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+    pregrantable_permissions:
+      - android.permission.BIND_IMS_SERVICE
+      - android.permission.CONNECTIVITY_INTERNAL
+      - android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS
+      - android.permission.LOCAL_MAC_ADDRESS
+      - android.permission.LOCATION_BYPASS
+      - android.permission.MODIFY_PHONE_STATE
+      - android.permission.NETWORK_SIGNAL_STRENGTH_WAKEUP
+      - android.permission.READ_PRECISE_PHONE_STATE
+      - android.permission.READ_PRIVILEGED_PHONE_STATE
+      - android.permission.RENOUNCE_PERMISSIONS
+      - android.permission.WRITE_APN_SETTINGS
+    sysconfig_inclusions:
+      - <allow-ignore-location-settings attributionTag="*"/>
+
+  com.android.telephony.imsmedia:
+    max_known_version: auto
+    include_uses_permissions:
+      - android.permission.ACCESS_NETWORK_STATE
+      - android.permission.ACCESS_WIFI_STATE
+      - android.permission.CAMERA
+      - android.permission.INTERNET
+      - android.permission.READ_PHONE_STATE
+      - android.permission.RECORD_AUDIO
+      - android.permission.WAKE_LOCK
+      - com.android.telephony.imsmedia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      - com.google.android.apps.scone.connectivitymonitor.permission.WRITE_NIMBUS_DATA
+
+  com.shannon.qualifiednetworksservice:
+    max_known_version: 0
+    pregrantable_permissions:
+      - android.permission.CHANGE_NETWORK_STATE
+      - android.permission.MODIFY_PHONE_STATE
+      - android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      - android.permission.NETWORK_SIGNAL_STRENGTH_WAKEUP
+      - android.permission.READ_PRECISE_PHONE_STATE
+      - android.permission.READ_PRIVILEGED_PHONE_STATE
+      - android.permission.SCHEDULE_EXACT_ALARM
+      - android.permission.USE_EXACT_ALARM
+    include_uses_permissions:
+      - android.permission.ACCESS_BACKGROUND_LOCATION
+      - android.permission.ACCESS_COARSE_LOCATION
+      - android.permission.ACCESS_FINE_LOCATION
+      - android.permission.ACCESS_NETWORK_STATE
+      - android.permission.ACCESS_WIFI_STATE
+      - android.permission.INTERNET
+      - android.permission.READ_EXTERNAL_STORAGE
+      - android.permission.READ_PHONE_STATE
+      - android.permission.SYSTEM_ALERT_WINDOW
+      - com.shannon.permission.IWLAN_CONFIGURATION
+      - com.shannon.qualifiednetworksservice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+  com.android.qns:
+    max_known_version: auto
+    include_uses_permissions:
+      - com.google.android.permission.USE_GRIL
+    pregrantable_permissions:
+      - android.permission.ACCESS_COARSE_LOCATION
+      - android.permission.ACCESS_NETWORK_STATE
+      - android.permission.INTERNET
+      - android.permission.MODIFY_PHONE_STATE
+      - android.permission.NETWORK_SIGNAL_STRENGTH_WAKEUP
+      - android.permission.READ_PHONE_STATE
+      - android.permission.READ_PRECISE_PHONE_STATE
+      - android.permission.READ_PRIVILEGED_PHONE_STATE
+      - android.permission.USE_EXACT_ALARM
+
+  com.google.android.pixelnfc:
+    max_known_version: auto
+    include_uses_permissions:
+      - com.google.android.pixelnfc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+    flags:
+      - include_as_untrusted_app
+
+  com.samsung.slsi.telephony.oemril:
+    max_known_version: 2
+    include_uses_permissions:
+      - android.permission.READ_PHONE_STATE
+      - com.google.android.connectivitymonitor.permission.NOTIFY_PROCESS_CRASHED
+    pregrantable_permissions:
+      - android.permission.INTERACT_ACROSS_USERS
+      - android.permission.MODIFY_PHONE_STATE
+      - android.permission.READ_PRECISE_PHONE_STATE
+      - android.permission.READ_PRIVILEGED_PHONE_STATE
+      - android.permission.REBOOT
+
+  com.android.hbmsvmanager:
+    max_known_version: 2
+    include_uses_permissions:
+      - android.permission.CAMERA_OPEN_CLOSE_LISTENER
+      - android.permission.CONTROL_DISPLAY_BRIGHTNESS
+      - android.permission.CREATE_USERS
+      - android.permission.DEVICE_POWER
+      - android.permission.INTERNAL_SYSTEM_WINDOW
+      - android.permission.READ_DEVICE_CONFIG
+      - android.permission.RECEIVE_BOOT_COMPLETED
+      - android.permission.STATUS_BAR_SERVICE
+      - android.permission.SYSTEM_ALERT_WINDOW
+    pregrantable_permissions:
+      - android.permission.ACCESS_CONTEXT_HUB
+      - android.permission.INTERACT_ACROSS_USERS_FULL
+      - android.permission.MANAGE_USERS
+
+  com.google.android.apps.camera.services:
+    max_known_version: 408193
+    include_uses_permissions:
+      - android.permission.ACCESS_NETWORK_STATE
+      - android.permission.ACCESS_WIFI_STATE
+      - android.permission.FOREGROUND_SERVICE
+      - android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE
+      - android.permission.GET_PACKAGE_SIZE
+      - android.permission.HIGH_SAMPLING_RATE_SENSORS
+      - android.permission.RECEIVE_BOOT_COMPLETED
+      - android.permission.RECORD_AUDIO
+      - android.permission.SYSTEM_ALERT_WINDOW
+      - android.permission.WAKE_LOCK
+      - com.google.android.providers.gsf.permission.READ_GSERVICES
+    pregrantable_permissions:
+      - android.permission.CAMERA
+      - android.permission.CAPTURE_AUDIO_OUTPUT
+      - android.permission.POST_NOTIFICATIONS
+    remove_permissions:
+      # Pixel Camera Services currently doesn't use any of these permissions.
+      # [1] states that PCS (Pixel Camera Servicss) is planned "to be able act as a media
+      # app and use Exoplayer for playing recorded video files". This functionality is
+      # not implemented in the current release as of January 2024.
+      # [1] https://android.googlesource.com/device/google/gs-common/+/46d6a8821196ab313a5f28c009ce9b2548ea2569
+      - android.permission.BLUETOOTH_CONNECT
+      - android.permission.BLUETOOTH_SCAN
+      - android.permission.CHANGE_NETWORK_STATE
+      - android.permission.CHANGE_WIFI_STATE
+      - android.permission.INTERNET
+      - android.permission.INTERACT_ACROSS_USERS
+      - android.permission.MODIFY_AUDIO_ROUTING
+    flags:
+      # Pixel Camera Services is a privileged app, block it from interacting with unprivileged
+      # parts of sandboxed Google Play.
+      #
+      # Pixel Camera Services currently uses GmsCore only for telemetry (perf data reporting),
+      # and doesn't use Play Store, at least directly.
+      #
+      # Also, Play Store would be unable to update Pixel Camera Services if it was allowed to see
+      # it due to the fs-verity requirements for system package updates.
+      - isolate_from_gmscore_and_finsky
+
+  com.google.android.euicc:
+    max_known_version: 228506
+    include_uses_permissions:
+      - android.permission.ACCESS_NETWORK_STATE
+      - android.permission.CAMERA
+      - android.permission.FOREGROUND_SERVICE
+      - android.permission.INTERNET
+      - android.permission.QUERY_ALL_PACKAGES
+      - android.permission.RECEIVE_BOOT_COMPLETED
+      - android.permission.USE_BIOMETRIC
+      - android.permission.VIBRATE
+      - com.google.android.apps.scone.connectivitymonitor.permission.WRITE_NIMBUS_DATA
+      - com.google.android.euicc.permission.INTERNAL_BROADCAST
+      - com.google.android.providers.gsf.permission.READ_GSERVICES
+      - com.google.android.providers.gsf.permission.READ_GSERVICES
+      - com.google.android.setupwizard.SETUP_COMPAT_SERVICE
+      - com.qualcomm.permission.USE_QCRIL_MSG_TUNNEL
+    pregrantable_permissions:
+      - android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS
+      - android.permission.MODIFY_PHONE_STATE
+      - android.permission.POST_NOTIFICATIONS
+      - android.permission.READ_NETWORK_USAGE_HISTORY
+      - android.permission.READ_PRIVILEGED_PHONE_STATE
+      - android.permission.REAL_GET_TASKS
+      - android.permission.REBOOT
+      - android.permission.START_ACTIVITIES_FROM_BACKGROUND
+      - android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND
+      - android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS
+      - android.permission.WRITE_SECURE_SETTINGS
+      - com.android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS
+      - com.google.android.permission.USE_GRIL
+    remove_permissions:
+      # Carrier apps aren't shipped on GrapheneOS, these permissions are needed only to
+      # install/enable them
+      - android.permission.CHANGE_COMPONENT_ENABLED_STATE
+      - com.android.permission.INSTALL_EXISTING_PACKAGES
+    flags:
+      # EuiccGoogle is a privileged app, block it from interacting with unprivileged
+      # parts of sandboxed Google Play
+      - isolate_from_gmscore_and_finsky
+
+  com.google.android.euiccoverlay:
+    max_known_version: auto
+    include_uses_permissions:
+      - com.google.android.euiccoverlay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+  com.google.android.modem.pms:
+    max_known_version: 1
+    include_uses_permissions:
+      - android.permission.ACCESS_WIFI_STATE
+      - android.permission.CHANGE_WIFI_STATE
+      - android.permission.READ_PHONE_STATE
+      - android.permission.READ_PRIVILEGED_PHONE_STATE
+      - android.permission.RECEIVE_BOOT_COMPLETED
+
+  com.google.android.rilextension:
+     max_known_version: auto
+     include_uses_permissions:
+       - android.permission.RECEIVE_BOOT_COMPLETED
+     pregrantable_permissions:
+      - android.permission.READ_PHONE_STATE
+      - android.permission.READ_PRIVILEGED_PHONE_STATE
+
+  com.google.euiccpixel:
+    max_known_version: 20125
+    include_uses_permissions:
+      - com.google.android.c2dm.permission.RECEIVE
+      - com.google.android.providers.gsf.permission.READ_GSERVICES
+    pregrantable_permissions:
+      - android.permission.ACCESS_NETWORK_STATE
+      - android.permission.MODIFY_PHONE_STATE
+      - android.permission.NFC_SET_CONTROLLER_ALWAYS_ON
+      - android.permission.POST_NOTIFICATIONS
+      - android.permission.READ_PRIVILEGED_PHONE_STATE
+      - android.permission.RECEIVE_BOOT_COMPLETED
+      - android.permission.REBOOT
+      - android.permission.SECURE_ELEMENT_PRIVILEGED_OPERATION
+      - android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME
+      - android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS
+      - android.permission.WRITE_SECURE_SETTINGS
+      - com.google.euiccpixel.permission.SECURE_ELEMENT
+    remove_permissions:
+      # EuiccSupportPixel uses INTERNET perm only as part of its dev mode
+      - android.permission.INTERNET
+    flags:
+      # EuiccSupportPixel is a privileged package, block it from interacting with unprivileged
+      # parts of GMS
+      - isolate_from_user_apps
+
+  com.google.euiccpixel.permissions:
+    max_known_version: 1
+
+  com.google.pixel.camera.services:
+    max_known_version: 1
+    include_uses_permissions:
+      - android.permission.CAMERA_INJECT_EXTERNAL_CAMERA
+      - android.permission.CAMERA_OPEN_CLOSE_LISTENER
+      - android.permission.INTERACT_ACROSS_USERS
+      - android.permission.QUERY_ALL_PACKAGES
+
+  com.google.pixel.iwlan:
+    max_known_version: auto
+    include_uses_permissions:
+      - android.permission.ACCESS_COARSE_LOCATION
+      - android.permission.ACCESS_FINE_LOCATION
+      - android.permission.ACCESS_NETWORK_STATE
+      - android.permission.ACCESS_WIFI_STATE
+      - android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS
+      - android.permission.INTERNET
+      - android.permission.MANAGE_IPSEC_TUNNELS
+      - android.permission.READ_PHONE_STATE
+      - android.permission.READ_PRIVILEGED_PHONE_STATE
+      - android.permission.SCHEDULE_EXACT_ALARM
+      - android.permission.WAKE_LOCK
+    pregrantable_permissions:
+      - android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS
+      - android.permission.READ_PRIVILEGED_PHONE_STATE
+      - android.permission.SCHEDULE_EXACT_ALARM
+    sysconfig_inclusions:
+      - <allow-in-power-save/>
+
+  com.qorvo.uwb.vendorservice:
+    max_known_version: auto
+    pregrantable_permissions:
+      - android.permission.NFC_SET_CONTROLLER_ALWAYS_ON
+      - android.permission.WAKE_LOCK
+      - android.permission.WRITE_SECURE_SETTINGS
+
+  com.samsung.slsi.telephony.oem.oemrilhookservice:
+    max_known_version: 1
+    include_uses_permissions:
+      - com.google.android.connectivitymonitor.permission.NOTIFY_PROCESS_CRASHED
+
+installable_packages:
+  - com.android.chrome
+  - com.android.vending # Play Store
+  - com.google.android.aicore
+  - com.google.android.apps.adm # Find Hub
+  - com.google.android.apps.aiwallpapers
+  - com.google.android.apps.books
+  - com.google.android.apps.chromecast.app
+  - com.google.android.apps.docs
+  - com.google.android.apps.docs.editors.docs
+  - com.google.android.apps.docs.editors.sheets
+  - com.google.android.apps.docs.editors.slides
+  - com.google.android.apps.gmm
+  - com.google.android.apps.magicportrait
+  - com.google.android.gms
+  - com.google.android.apps.mediashell
+  - com.google.android.apps.maps
+  - com.google.android.apps.messaging
+  - com.google.android.apps.nbu.files
+  - com.google.android.apps.photos
+  - com.google.android.apps.pixel.agent
+  - com.google.android.apps.pixel.creativeassistant
+  - com.google.android.apps.pixel.customizationbundle
+  - com.google.android.apps.pixel.health
+  - com.google.android.apps.pixel.relationships
+  - com.google.android.apps.pixel.support
+  - com.google.android.apps.pixelmigrate
+  - com.google.android.apps.plus
+  - com.google.android.apps.privacy.wildlife
+  - com.google.android.apps.recorder
+  - com.google.android.apps.restore
+  - com.google.android.apps.safetyhub
+  - com.google.android.apps.safetyhub.hideapps
+  - com.google.android.apps.security.securityhub
+  - com.google.android.apps.tachyon
+  - com.google.android.apps.tips # Pixel Tips
+  - com.google.android.apps.wallpaper
+  - com.google.android.apps.wallpaper.nexus
+  - com.google.android.apps.wallpaper.pixel
+  - com.google.android.apps.wearables.maestro.companion # Google Pixel Buds
+  - com.google.android.apps.warp
+  - com.google.android.apps.weather
+  - com.google.android.apps.wellbeing # Digital Wellbeing
+  - com.google.android.apps.work.clouddpc
+  - com.google.android.apps.work.oobconfig
+  - com.google.android.apps.youtube.kids
+  - com.google.android.apps.youtube.music
+  - com.google.android.athome.globalkeyinterceptor
+  - com.google.android.calculator
+  - com.google.android.calendar
+  - com.google.android.contacts
+  - com.google.android.deskclock
+  - com.google.android.dialer
+  - com.google.android.gm # Gmail
+  - com.google.android.gms
+  - com.google.android.gms.dynamite_cronetdynamite
+  - com.google.android.gms.dynamite_dynamiteloader
+  - com.google.android.gms.dynamite_dynamitemodulesa
+  - com.google.android.gms.dynamite_dynamitemodulesc
+  - com.google.android.gms.dynamite_googlecertificates
+  - com.google.android.gms.dynamite_mapsdynamite
+  - com.google.android.gms.dynamite_measurementdynamite
+  - com.google.android.gms.location.history
+  - com.google.android.gms.optional_homegraph
+  - com.google.android.gms.optional_mlkit_barcode_ui
+  - com.google.android.gms.optional_usonia
+  - com.google.android.gms.optional_vision_barcode
+  - com.google.android.gms.policy_ads_fdr_dynamite
+  - com.google.android.gms.policy_sidecar_aps
+  - com.google.android.gms.policy_tflite_dynamite_dynamite
+  - com.google.android.gms.supervision
+  - com.google.android.GoogleCamera
+  - com.google.android.googlequicksearchbox # Google search app (GSA)
+  - com.google.android.googlequicksearchbox.nga_resources
+  - com.google.android.gsf
+  - com.google.android.inputmethod.latin # Gboard
+  - com.google.android.keep
+  - com.google.android.markup
+  - com.google.android.marvin.talkback
+  - com.google.android.projection.gearhead
+  - com.google.android.trichromelibrary
+  - com.google.android.tts
+  - com.google.android.tungsten.setupwraith
+  - com.google.android.webview
+  - com.google.android.wfcactivation # Wi-Fi Calling setup
+  - com.google.android.youtube
+  - com.google.ar.core # "Google Play Services for AR"
+  - com.ustwo.lwp
+
+package_exclusions:
+  - android.autoinstalls.config.google.nexus
+  - com.android.angle
+  - com.android.apex.cts.shim
+  - com.android.apps.tag
+  - com.android.auto.embedded.cts.verifier
+  - com.android.backupconfirm
+  - com.android.bips
+  - com.android.bluetooth
+  - com.android.bluetoothmidiservice
+  - com.android.bookmarkprovider
+  - com.android.calllogbackup
+  - com.android.cameraextensions
+  - com.android.cardock
+  - com.android.carrierdefaultapp
+  - com.android.cellbroadcastreceiver
+  - com.android.certinstaller
+  - com.android.companiondevicemanager
+  - com.android.connectivity.metrics
+  - com.android.credentialmanager
+  - com.android.cts.ctsshim
+  - com.android.cts.priv.ctsshim
+  - com.android.DeviceAsWebcam
+  - com.android.devicediagnostics
+  - com.android.devicelockcontroller
+  - com.android.dreams.basic
+  - com.android.dynsystem
+  - com.android.egg
+  - com.android.emergency
+  - com.android.externalstorage
+  - com.android.facelock
+  - com.android.frameworks.core.batterystatsviewer
+  - com.android.gallery3d
+  - com.android.google.gce.gceservice
+  - com.android.hotwordenrollment.okgoogle
+  - com.android.hotwordenrollment.tgoogle
+  - com.android.hotwordenrollment.xgoogle
+  - com.android.htmlviewer
+  - com.android.imsserviceentitlement
+  - com.android.inputdevices
+  - com.android.inputmethod.latin
+  - com.android.intentresolver
+  - com.android.jabara_terminal
+  - com.android.keychain
+  - com.android.localtransport
+  - com.android.location.fused
+  - com.android.managedprovisioning
+  - com.android.media.update
+  - com.android.mms.service
+  - com.android.mtp
+  - com.android.multiuser
+  - com.android.musicfx
+  - com.android.netspeed
+  - com.android.nfc
+  - com.android.omadm.service
+  - com.android.onemedia
+  - com.android.ons # OpportunisticNetworkService
+  - com.android.pacprocessor
+  - com.android.phone
+  - com.android.pixellogger
+  - com.android.printspooler
+  - com.android.privatespace # TODO investigate why it's not included despite being in AOSP
+  - com.android.providers.blockednumber
+  - com.android.providers.calendar
+  - com.android.providers.contactkeys
+  - com.android.providers.contacts
+  - com.android.providers.downloads
+  - com.android.providers.downloads.ui
+  - com.android.providers.media
+  - com.android.providers.partnerbookmarks
+  - com.android.providers.settings
+  - com.android.providers.telephony
+  - com.android.providers.userdictionary
+  - com.android.proxyhandler
+  - com.android.sdm.plugins.connmo
+  - com.android.sdm.plugins.dcmo # "Carrier OMA Device Management"
+  - com.android.sdm.plugins.diagmon
+  - com.android.sdm.plugins.usccdm
+  - com.android.se
+  - com.android.security.fsverity_metadata.system
+  - com.android.security.fsverity_metadata.system_ext
+  - com.android.server.telecom
+  - com.android.settings
+  - com.android.settingslib.robotests
+  - com.android.sharedstoragebackup
+  - com.android.shell
+  - com.android.simappdialog
+  - com.android.soundpicker
+  - com.android.statsd.dogfood
+  - com.android.statsd.loadtest
+  - com.android.stk
+  - com.android.systemui
+  - com.android.systemui.accessibility.accessibilitymenu
+  - com.android.systemui.clocks
+  - com.android.systemui.clocks.bignum
+  - com.android.systemui.clocks.calligraphy
+  - com.android.systemui.clocks.flex
+  - com.android.systemui.clocks.growth
+  - com.android.systemui.clocks.inflate
+  - com.android.systemui.clocks.metro
+  - com.android.systemui.clocks.numoverlap
+  - com.android.systemui.clocks.weather
+  - com.android.systemui.plugin.globalactions.wallet
+  - com.android.systemui.plugins
+  - com.android.systemui.shared
+  - com.android.traceur
+  - com.android.tv
+  - com.android.tv.provision
+  - com.android.virtualization.terminal
+  - com.android.vpndialogs
+  - com.android.vzwomatrigger
+  - com.android.wallpaper.livepicker
+  - com.android.wallpaperbackup
+  - com.android.yadayada
+  #- com.breel.wallpapers19
+  - com.google.ambient.streaming # Cross-Device Services
+  - com.google.android.accessibility.soundamplifier
+  - com.google.android.accessibility.switchaccess
+  - com.google.android.adbd
+  - com.google.android.adservices
+  - com.google.android.adservices.api
+  - com.google.android.apps.accessibility.voiceaccess
+  - com.google.android.apps.betterbug
+  - com.google.android.apps.betterbug.partners
+  - com.google.android.apps.camera.tools.propsetter
+  - com.google.android.apps.carrier.carrierwifi
+  - com.google.android.apps.carrier.log
+  - com.google.android.apps.cbrsnetworkmonitor
+  - com.google.android.apps.customization.pixel
+  - com.google.android.apps.diagnosticstool
+  - com.google.android.apps.dreamliner
+  - com.google.android.apps.emojiwallpaper
+  - com.google.android.apps.gcs # Google Connectivity Services
+  - com.google.android.apps.gmm.dev
+  - com.google.android.apps.gmm.fishfood
+  - com.google.android.apps.gmm.qp
+  - com.google.android.apps.googlecamera.fishfood
+  - com.google.android.apps.healthdata
+  - com.google.android.apps.helprtc # Google Support Services
+  - com.google.android.apps.internal.betterbug
+  - com.google.android.apps.kids.home
+  - com.google.android.apps.nest.castauth
+  - com.google.android.apps.nest.dockmanager.app
+  - com.google.android.apps.nexuslauncher
+  - com.google.android.apps.overlay
+  - com.google.android.apps.overlay.companion
+  - com.google.android.apps.pixel.dcservice
+  - com.google.android.apps.pixel.ensemble
+  - com.google.android.apps.pixel.familyspace
+  - com.google.android.apps.pixel.nowplaying
+  - com.google.android.apps.retaildemo.preload
+  - com.google.android.apps.scone # Adaptive Connectivity Services, see https://support.google.com/product-documentation/answer/12321563
+  - com.google.android.apps.setupwizard.searchselector
+  - com.google.android.apps.stargate
+  - com.google.android.apps.turbo # Device Health Services
+  - com.google.android.apps.tycho # Google Fi
+  - com.google.android.appsearch
+  - com.google.android.appsearch.apk
+  - com.google.android.art
+  - com.google.android.as
+  - com.google.android.as.oss # Private Compute Services
+  - com.google.android.asdiv
+  - com.google.android.avatarpicker
+  - com.google.android.backuptransport
+  - com.google.android.bluetooth
+  - com.google.android.brownoutdetection
+  - com.google.android.captiveportallogin
+  - com.google.android.carrier
+  - com.google.android.carrierlocation
+  - com.google.android.carriersetup
+  #- com.google.android.CatEngine # debug-build-only package
+  - com.google.android.cellbroadcast
+  - com.google.android.cellbroadcastreceiver
+  - com.google.android.cellbroadcastservice
+  - com.google.android.compos.payload
+  - com.google.android.configupdater
+  - com.google.android.connectivity.resources
+  - com.google.android.connectivitymonitor
+  - com.google.android.connectivitythermalpowermanager # Manages thermal throttling of cellular and Wi-Fi connectivity
+  - com.google.android.conscrypt
+  - com.google.android.desktop.setupwizard
+  - com.google.android.devicedropmonitor
+  - com.google.android.devicelockcontroller
+  - com.google.android.docksetup
+  - com.google.android.documentsui
+  - com.google.android.dreamlinerupdater
+  - com.google.android.edu.harnesssettings
+  - com.google.android.ext.services
+  - com.google.android.ext.shared
+  - com.google.android.extservices
+  - com.google.android.factoryota
+  - com.google.android.factorytest
+  - com.google.android.federatedcompute
+  - com.google.android.feedback
+  - com.google.android.flipendo # Extreme Battery Saver
+  - com.google.android.gnsspixelmonitor
+  - com.google.android.GoogleCameraEng
+  - com.google.android.grilservice
+  - com.google.android.hardwareinfo # collects detailed info about hardware components and their health and uploads them to Google. Runs each time device finishes booting
+  - com.google.android.health.connect.backuprestore
+  - com.google.android.healthconnect.controller
+  - com.google.android.hiddenmenu
+  - com.google.android.hotspot2.osulogin
+  #- com.google.android.ims # CarrierServices; its package is not included on stock OS but there are leftover sysconfigs
+  - com.google.android.iphealthmonitor
+  - com.google.android.ipsec
+  - com.google.android.iwlan
+  - com.google.android.media
+  - com.google.android.media.swcodec
+  - com.google.android.mediaprovider
+  - com.google.android.microdroid.empty_payload
+  - com.google.android.modulemetadata
+  - com.google.android.mosey
+  - com.google.android.networkstack
+  - com.google.android.networkstack.tethering
+  - com.google.android.neuralnetworks
+  - com.google.android.nfc
+  - com.google.android.odad # Google Play Protect Service
+  - com.google.android.ondevicepersonalization
+  - com.google.android.ondevicepersonalization.services
+  - com.google.android.onetimeinitializer # runs once each time OS build ID changes
+  - com.google.android.os.statsd
+  - com.google.android.packageinstaller
+  - com.google.android.partner.provisioning
+  - com.google.android.partnersetup
+  - com.google.android.pcs # Pixel Core Services TODO
+  - com.google.android.permission
+  - com.google.android.permissioncontroller
+  - com.google.android.photopicker
+  - com.google.android.pixel.setupwizard
+  - com.google.android.pixelsystemservice # TODO
+  - com.google.android.preloaded_drawable_viewer
+  - com.google.android.printservice.recommendation
+  - com.google.android.providers.media.module
+  - com.google.android.repairmode
+  - com.google.android.resolv
+  - com.google.android.retaildemo
+  - com.google.android.rkpdapp
+  - com.google.android.safetycenter.resources
+  - com.google.android.sampledeviceowner
+  - com.google.android.satellite
+  - com.google.android.scheduling
+  - com.google.android.sdkext
+  - com.google.android.sdksandbox
+  - com.google.android.sdksetup
+  - com.google.android.server.deviceconfig.resources
+  - com.google.android.settings.future.biometrics.faceenroll
+  - com.google.android.settings.intelligence
+  - com.google.android.setupwizard
+  - com.google.android.soundpicker
+  - com.google.android.storagemanager
+  - com.google.android.tag
+  - com.google.android.talk
+  - com.google.android.telephony
+  - com.google.android.tethering
+  - com.google.android.tetheringentitlement
+  - com.google.android.turboadapter
+  - com.google.android.tv.bugreportsender
+  - com.google.android.tv.frameworkpackagestubs
+  - com.google.android.tzdata4
+  - com.google.android.uvexposurereporter # talks to the uv_exposure context hub nanoapp
+  - com.google.android.uwb
+  - com.google.android.uwb.resources
+  - com.google.android.vendorloggingservice
+  - com.google.android.videos # Google TV
+  - com.google.android.virtualmachine.res
+  - com.google.android.volta
+  - com.google.android.wallpaper.effects
+  - com.google.android.wallpaper.weathereffects
+  - com.google.android.wifi
+  - com.google.android.wifi.dialog
+  - com.google.android.wifi.resources
+  - com.google.assistant.hubui
+  - com.google.audio.hearing.visualization.accessibility.scribe # Live Transcribe & Notification
+  - com.google.hardware.devicetools.astro
+  - com.google.intelligence.sense
+  - com.google.mainline.adservices
+  - com.google.mainline.primary.libs
+  - com.google.mainline.telemetry
+  - com.google.modemservice
+  - com.google.omadm.trigger
+  - com.google.oslo
+  - com.google.pixel.digitalkey.timesync
+  - com.google.pixel.exo
+  - com.google.pixel.gate.android.daemon
+  - com.google.pixel.gate.android.pysupport
+  - com.google.pixel.livewallpaper
+  - com.google.pixel.wallpapers23
+  - com.google.RilConfigService # TODO
+  - com.google.SSRestartDetector
+  - com.google.touch.touchinspector
+  - com.htc.omadm.trigger
+  - com.samsung.slsi.telephony.networktestmode
+  - com.samsung.slsi.telephony.satelliteservice
+  - com.samsung.slsi.telephony.silentlogging
+  - com.samsung.slsi.telephony.testmode
+  - com.samsung.slsi.telephony.uartswitch
+  - com.verizon.llkagent # provides StoreDemoModeService
+  - com.verizon.mips.services
+  - com.verizon.services
+  - com.vzw.apnlib
+
+
+# GrapheneOS APK path to stock OS package
+apk_map:
+  system/priv-app/PackageInstaller/PackageInstaller.apk:
+    stock_os_path: system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk
+    aosp_apk_name: com.android.packageinstaller
+  system_ext/priv-app/Settings/Settings.apk:
+    stock_os_path: system_ext/priv-app/SettingsGoogle/SettingsGoogle.apk
+    aosp_apk_name: com.android.settings
+  system_ext/priv-app/StorageManager/StorageManager.apk:
+    stock_os_path: system_ext/priv-app/StorageManagerGoogle/StorageManagerGoogle.apk
+    aosp_apk_name: com.android.storagemanager
+  system_ext/priv-app/SystemUI/SystemUI.apk:
+    stock_os_path: system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+    alt_stock_os_paths:
+      - system_ext/priv-app/SystemUITitan/SystemUITitan.apk
+    aosp_apk_name: com.android.systemui
+  system/priv-app/DocumentsUI/DocumentsUI.apk:
+    stock_os_path: system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk
+    aosp_apk_name: com.android.documentsui
+  product/priv-app/Contacts/Contacts.apk:
+    stock_os_path: product/app/GoogleContacts/GoogleContacts.apk
+    aosp_apk_name: com.android.contacts
+  system/app/CaptivePortalLogin/CaptivePortalLogin.apk:
+    stock_os_path: system/app/CaptivePortalLoginGoogle/CaptivePortalLoginGoogle.apk
+    aosp_apk_name: com.android.captiveportallogin
+  system_ext/priv-app/Launcher3QuickStep/Launcher3QuickStep.apk:
+    stock_os_path: system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk
+    aosp_apk_name: com.android.launcher3
+  system/priv-app/NetworkStack/NetworkStack.apk:
+    stock_os_path: system/priv-app/NetworkStackGoogle/NetworkStackGoogle.apk
+    aosp_apk_name: com.android.networkstack
+  system_ext/priv-app/EmergencyInfo/EmergencyInfo.apk:
+    stock_os_path: system_ext/app/EmergencyInfoGoogleNoUi/EmergencyInfoGoogleNoUi.apk
+    aosp_apk_name: com.android.emergency
+
+unique_base_apks:
+  - product/app/Auditor/Auditor.apk
+  - product/app/Calendar/Calendar.apk
+  - product/app/Camera/Camera.apk
+  - product/app/DeskClock/DeskClock.apk
+  - product/app/ExactCalculator/ExactCalculator.apk
+  - product/app/Gallery2/Gallery2.apk
+  - product/app/InfoApp/InfoApp.apk
+  - product/app/LatinIME/LatinIME.apk
+  - product/app/Messaging/Messaging.apk
+  - product/app/ModuleMetadata/ModuleMetadata.apk
+  - product/app/Music/Music.apk
+  - product/app/PdfViewerGOS/PdfViewerGOS.apk
+  - product/app/PhotoTable/PhotoTable.apk
+  - product/app/ThemesStub/ThemesStub.apk
+  - product/app/TrichromeChrome/TrichromeChrome.apk
+  - product/app/TrichromeLibrary/TrichromeLibrary.apk
+  - product/app/TrichromeWebView/TrichromeWebView.apk
+  - product/app/VanadiumConfig/VanadiumConfig.apk
+  - product/priv-app/AppStore/AppStore.apk
+  - product/priv-app/Dialer/Dialer.apk
+  - product/priv-app/SettingsIntelligence/SettingsIntelligence.apk
+  - product/priv-app/StatementService/StatementService.apk # TODO
+  - system/app/AppCompatConfig/AppCompatConfig.apk
+  - system/app/ExtShared/ExtShared.apk
+  - system/app/GmsCompat/GmsCompat.apk
+  - system/app/GmsCompatConfig/GmsCompatConfig.apk
+  - system/app/GmsCompatLib/GmsCompatLib.apk
+  - system/app/LocalContactsBackup/LocalContactsBackup.apk
+  - system/app/PrintRecommendationService/PrintRecommendationService.apk
+  - system/app/talkback/talkback.apk
+  - system/priv-app/LogViewer/LogViewer.apk
+  - system/priv-app/NetworkLocation/NetworkLocation.apk
+  - system/priv-app/Seedvault/Seedvault.apk
+  - system/priv-app/Tag/Tag.apk
+  - system/priv-app/Updater/Updater.apk
+  - system_ext/priv-app/AvatarPicker/AvatarPicker.apk
+  - system_ext/priv-app/CarrierConfig2/CarrierConfig2.apk
+  - system_ext/priv-app/SetupWizard2/SetupWizard2.apk
+  - system_ext/priv-app/StatementService/StatementService.apk
+  - system_ext/priv-app/ThemePicker/ThemePicker.apk
+  - system_ext/priv-app/WallpaperCropper/WallpaperCropper.apk
+
+apex_map:
+  system/apex/com.android.tzdata.apex:
+   stock_os_path: system/apex/com.google.android.tzdata6.apex

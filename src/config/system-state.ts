@@ -1,13 +1,14 @@
 import path from 'path'
 import { loadPartitionProps, PartitionProps } from '../blobs/props'
-import { loadPartVintfInfo, PartitionVintfInfo } from '../blobs/vintf'
-import { minimizeModules, parseModuleInfo, SoongModuleInfo } from '../build/soong-info'
-import { parsePartContexts, SelinuxPartContexts } from '../selinux/contexts'
-import { updateMultiMap } from '../util/data'
+import { loadSystemServerClassPaths } from '../processor/classpath'
+import { loadSepolicy } from '../processor/sepolicy'
+import { loadSysconfigs } from '../processor/sysconfig'
+import { loadVintf } from '../processor/vintf'
 import { readFile } from '../util/fs'
-import { ALL_SYS_PARTITIONS } from '../util/partitions'
+import { PathResolver } from '../util/partitions'
+import { Sepolicy } from './device'
 
-const STATE_VERSION = 6
+const STATE_VERSION = 7
 
 export interface SystemState {
   deviceInfo: {
@@ -16,19 +17,23 @@ export interface SystemState {
 
   partitionFiles: { [part: string]: Array<string> }
   partitionProps: PartitionProps
-  partitionSecontexts: SelinuxPartContexts
-  partitionVintfInfo: PartitionVintfInfo
 
-  moduleInfo: SoongModuleInfo
+  partitionVintfCompatMatrices: Map<string, string[]>
+  partitionVintfManifests: Map<string, string[]>
+  sysConfigs: string[]
+
+  sepolicy: { [part: string]: Sepolicy }
+
+  systemServerClassPaths: string[]
+
+  extraModules: string[]
 }
 
 type SerializedSystemState = {
   version: number
 } & SystemState
 
-export function serializeSystemState(state: SystemState, systemRoot: string) {
-  state.moduleInfo = minimizeModules(state.moduleInfo, systemRoot)
-
+export function serializeSystemState(state: SystemState) {
   let diskState = {
     version: STATE_VERSION,
     ...state,
@@ -65,47 +70,50 @@ export function parseSystemState(json: string) {
   return diskState as SystemState
 }
 
-export async function collectSystemState(device: string, systemRoot: string) {
-  let moduleInfoPath = path.join(systemRoot, 'module-info.json')
+export async function parseAllimagesFileList(pathResolver: PathResolver) {
+  let partitionFiles: { [part: string]: string[] } = {}
+  let fileList = await readFile(path.join(pathResolver.basePath, 'allimages-file-list.txt'))
+
+  let filePaths = fileList.split(' ')
+
+  for (let filePath of filePaths) {
+    let partPath = pathResolver.backResolve(filePath)
+    if (partPath === null) {
+      continue
+    }
+
+    let arr = partitionFiles[partPath.partition]
+    if (arr === undefined) {
+      arr = []
+      partitionFiles[partPath.partition] = arr
+    }
+    arr.push(partPath.relPath)
+  }
+  return partitionFiles
+}
+
+export async function collectSystemState(device: string, pathResolver: PathResolver) {
   let state = {
     deviceInfo: {
       name: device,
     },
-    partitionFiles: {},
   } as SystemState
 
-  // Files
-  let fileList = await readFile(path.join(systemRoot, 'allimages-file-list.txt'))
+  let partitionFiles = parseAllimagesFileList(pathResolver)
+  let partitionProps = loadPartitionProps(pathResolver, null, false)
+  let vintf = loadVintf(pathResolver)
+  let sysconfigs = loadSysconfigs(pathResolver)
+  let sepolicy = loadSepolicy(pathResolver)
 
-  let topLevelDirs = new Map<string, string[]>()
+  let systemServerClassPaths = loadSystemServerClassPaths(pathResolver)
 
-  let requiredPrefix = systemRoot + '/'
-  for (let filePath of fileList.split(' ')) {
-    if (!filePath.startsWith(requiredPrefix)) {
-      continue
-    }
-    let relPath = filePath.substring(requiredPrefix.length)
-    let slashIdx = relPath.indexOf('/')
-    if (slashIdx < 0) {
-      // this is a top-level file
-      continue
-    }
-    let dir = relPath.substring(0, slashIdx)
-    updateMultiMap(topLevelDirs, dir, relPath)
-  }
-
-  for (let partition of ALL_SYS_PARTITIONS) {
-    let filePaths = topLevelDirs.get(partition)
-    if (filePaths !== undefined) {
-      state.partitionFiles[partition] = filePaths.sort((a, b) => a.localeCompare(b))
-    }
-  }
-
-  state.partitionProps = await loadPartitionProps(systemRoot)
-  // SELinux contexts
-  state.partitionSecontexts = await parsePartContexts(systemRoot)
-  state.partitionVintfInfo = await loadPartVintfInfo(systemRoot)
-  state.moduleInfo = parseModuleInfo(await readFile(moduleInfoPath))
+  state.partitionFiles = await partitionFiles
+  state.partitionProps = await partitionProps
+  state.partitionVintfCompatMatrices = (await vintf).compatMatrices
+  state.partitionVintfManifests = (await vintf).manifests
+  state.sysConfigs = await sysconfigs
+  state.sepolicy = await sepolicy
+  state.systemServerClassPaths = await systemServerClassPaths
 
   return state
 }

@@ -1,14 +1,8 @@
 device:
   name: comet
 
-platform:
-  product_makefile: device/google/comet/aosp_comet.mk
-  extra_product_system_server_jars:
-    - system_ext:comet-services
-
 includes:
   - common/gen9pixel.yml
-  - common/gs-wireless-charger.yml
 
 filters:
   overlay_inclusions:

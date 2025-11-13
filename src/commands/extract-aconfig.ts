@@ -16,7 +16,7 @@ import {
 } from '../proto-ts/build/make/tools/aconfig/aconfig_protos/protos/aconfig'
 import { assertDefined } from '../util/data'
 import { exists, isDirectory, isFile } from '../util/fs'
-import { partitionRelativePath, REGULAR_SYS_PARTITIONS } from '../util/partitions'
+import { partitionRelativePath, PathResolver, REGULAR_SYS_PARTITIONS } from '../util/partitions'
 
 export default class ExtractAconfig extends Command {
   static flags = {
@@ -45,8 +45,10 @@ export default class ExtractAconfig extends Command {
 
     let flagDecoder = new FlagDecoder(baseDir, flagSet)
 
+    let pathResolver = new PathResolver(images.unpackedFactoryImageDir)
+
     for (let partition of REGULAR_SYS_PARTITIONS) {
-      let flagsPath = path.join(images.unpackedFactoryImageDir, partitionRelativePath(partition), FLAGS_PROTO_REL_PATH)
+      let flagsPath = pathResolver.resolve(partition, FLAGS_PROTO_REL_PATH)
       let job = async () => {
         if (await isFile(flagsPath)) {
           await flagDecoder.decodeFile(flagsPath)

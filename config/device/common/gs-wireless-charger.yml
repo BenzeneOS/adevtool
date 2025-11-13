@@ -1,3 +1,0 @@
-platform:
-  extra_product_makefiles:
-    - device/google/gs-common/wireless_charger/wireless_charger.mk

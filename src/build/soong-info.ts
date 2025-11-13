@@ -1,7 +1,9 @@
 import assert from 'assert'
+import { PseudoPath } from '../blobs/file-list'
+import { PathResolver } from '../util/partitions'
 
 export interface BaseTargetModuleInfo {
-  installed: Array<string>
+  installed: Array<PseudoPath>
   module_name?: string
 }
 
@@ -37,7 +39,7 @@ export function parseModuleInfo(info: string) {
   return new Map(Object.entries(JSON.parse(info))) as SoongModuleInfo
 }
 
-export function minimizeModules(info: SoongModuleInfo, systemRoot: string) {
+export function minimizeModules(info: SoongModuleInfo, pathResolver: PathResolver) {
   let res = new Map<string, BaseTargetModuleInfo>()
   for (let [key, module_] of info.entries()) {
     let m = module_ as TargetModuleInfo
@@ -53,16 +55,16 @@ export function minimizeModules(info: SoongModuleInfo, systemRoot: string) {
       continue
     }
 
-    let requiredPrefix = systemRoot + '/'
+    let requiredPrefix = pathResolver.basePath + '/'
 
     let installed = []
     for (let p of m.installed) {
       if (!p.startsWith(requiredPrefix) || p.endsWith('.vdex') || p.endsWith('.odex')) {
         continue
       }
-      let relPath = p.substring(requiredPrefix.length)
-      if (!relPath.startsWith('data/')) {
-        installed.push(relPath)
+      let partPath = pathResolver.backResolve(p)
+      if (partPath !== null) {
+        installed.push(partPath.asPseudoPath())
       }
     }
 

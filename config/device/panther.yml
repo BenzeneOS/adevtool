@@ -1,9 +1,6 @@
 device:
   name: panther
-
-platform:
-  product_makefile: device/google/pantah/aosp_panther.mk
+  build_id: BP3A.251005.004.B2
 
 includes:
   - common/gen7pixel.yml
-  - common/gs-wireless-charger.yml

@@ -1,5 +1,4 @@
 import { promises as fs } from 'fs'
-import * as unzipit from 'unzipit'
 
 // https://greggman.github.io/unzipit/#loadafileasanarraybuffer
 export class NodeFileReader {
@@ -30,16 +29,5 @@ export class NodeFileReader {
     let data = new Uint8Array(length)
     await fh.read(data, 0, length, offset)
     return data
-  }
-}
-
-export async function listZipFiles(path: string) {
-  let reader = new NodeFileReader(path)
-
-  try {
-    let { entries } = await unzipit.unzip(reader)
-    return Object.keys(entries)
-  } finally {
-    await reader.close()
   }
 }

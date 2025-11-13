@@ -1,0 +1,197 @@
+filters:
+  file_exclusions:
+    suffix:
+      - .fsv_meta # fs-verity metadata
+      - .odex
+      - .prof
+      - .vdex
+
+    prefix:
+      - product/media/audio/alarms/
+      - product/media/audio/notifications/
+      - product/media/audio/ringtones/
+      - product/media/audio/ui/
+      - product/tts/google/
+      - product/usr/share/ime/google/d3_lms/ # Google keyboard localization
+      - product/usr/srec/
+      - recovery/res/images/ # TODO confirm that all are present in AOSP
+      - system_dlkm/lib/modules/
+      - vendor/lib/modules/
+      - vendor_dlkm/etc/16kb/
+      - vendor_dlkm/etc/debug_
+      - vendor_dlkm/etc/kasan/
+      - vendor_dlkm/lib/modules/
+
+    match:
+      - product/etc/ambient/matcher_tah.leveldb # used by ambient music recognizer
+      - product/etc/firmware/music_detector.descriptor
+      - product/etc/firmware/music_detector.sound_model
+      - product/etc/firmware/music_detector.sound_model_2
+      - product/etc/firmware/music_detector.sound_model_tflite
+      - product/etc/fonts_customization.xml
+      - product/etc/fstab.postinstall # setups the system_other partition which is not used on GrapheneOS
+      - product/etc/init/init.repair_mode.rc
+      - product/etc/preferred-apps/google.xml # used to make proprietary Google apps default handlers of various intents
+      - product/etc/res/raw/content_protection/package_name_blocklist.txt
+      - product/etc/security/fsverity/gms_fsverity_cert.der
+      - product/etc/security/fsverity/play_store_fsi_cert.der
+      - product/fonts/ArbutusSlab-Regular.ttf
+      - product/fonts/Barlow-Bold.ttf
+      - product/fonts/Barlow-Medium.ttf
+      - product/fonts/BigShouldersText-Bold.ttf
+      - product/fonts/BigShouldersText-ExtraBold.ttf
+      - product/fonts/Fraunces-Regular.ttf
+      - product/fonts/Fraunces-SemiBold.ttf
+      - product/fonts/GoogleSans-Italic.ttf
+      - product/fonts/GoogleSans-Regular.ttf
+      - product/fonts/GoogleSansClock-Regular.ttf
+      - product/fonts/GoogleSansFlex-Regular.ttf
+      - product/fonts/GoogleSansFlexClock-Regular.ttf
+      - product/fonts/Karla-Regular.ttf
+      - product/fonts/Lato-Bold.ttf
+      - product/fonts/Lato-BoldItalic.ttf
+      - product/fonts/Lato-Italic.ttf
+      - product/fonts/Lato-Medium.ttf
+      - product/fonts/Lato-MediumItalic.ttf
+      - product/fonts/Lato-Regular.ttf
+      - product/fonts/Lustria-Regular.ttf
+      - product/fonts/Rubik-Bold.ttf
+      - product/fonts/Rubik-BoldItalic.ttf
+      - product/fonts/Rubik-Italic.ttf
+      - product/fonts/Rubik-Medium.ttf
+      - product/fonts/Rubik-MediumItalic.ttf
+      - product/fonts/Rubik-Regular.ttf
+      - product/fonts/ZillaSlab-Medium.ttf
+      - product/fonts/ZillaSlab-MediumItalic.ttf
+      - product/fonts/ZillaSlab-SemiBold.ttf
+      - product/fonts/ZillaSlab-SemiBoldItalic.ttf
+      - product/framework/com.google.android.dialer.support.jar
+      - product/framework/libhwinfo.jar
+      - product/media/bootanimation-dark.zip
+      - product/media/bootanimation.zip
+      - product/priv-app/DMService/lib/arm/libdmengine.so
+      - product/priv-app/DMService/lib/arm/libdmjavaplugin.so
+      - product/priv-app/DMService/lib/arm64/libdmengine.so
+      - product/priv-app/DMService/lib/arm64/libdmjavaplugin.so
+      - product/wallpaper/image/default_wallpaper_BLK
+      - product/wallpaper/image/default_wallpaper_BUE
+      - product/wallpaper/image/default_wallpaper_GLD
+      - product/wallpaper/image/default_wallpaper_GRN
+      - product/wallpaper/image/default_wallpaper_GRY
+      - product/wallpaper/image/default_wallpaper_HAZ
+      - product/wallpaper/image/default_wallpaper_PNK
+      - product/wallpaper/image/default_wallpaper_PPL
+      - product/wallpaper/image/default_wallpaper_RED
+      - product/wallpaper/image/default_wallpaper_SLV
+      - product/wallpaper/image/default_wallpaper_WHT
+      - product/wallpaper/image/default_wallpaper_YEL
+      - recovery/adb_keys # symlink
+      - recovery/bin # symlink
+      - recovery/bugreports # symlink
+      - recovery/d # symlink
+      - recovery/default.prop # symlink
+      - recovery/etc # symlink
+      - recovery/init # symlink
+      - recovery/odm/app # symlink
+      - recovery/odm/bin # symlink
+      - recovery/odm/etc # symlink
+      - recovery/odm/firmware # symlink
+      - recovery/odm/framework # symlink
+      - recovery/odm/lib # symlink
+      - recovery/odm/lib64 # symlink
+      - recovery/odm/overlay # symlink
+      - recovery/odm/priv-app # symlink
+      - recovery/odm/usr # symlink
+      - recovery/odm_dlkm/etc # symlink
+      - recovery/prop.default
+      - recovery/vendor_dlkm/etc # symlink
+      - system/apex/com.google.android.adbd.apex
+      - system/apex/com.google.android.adservices.apex
+      - system/apex/com.google.android.appsearch.apex
+      - system/apex/com.google.android.art.apex
+      - system/apex/com.google.android.bt.apex
+      - system/apex/com.google.android.cellbroadcast.apex
+      - system/apex/com.google.android.configinfrastructure.apex
+      - system/apex/com.google.android.conscrypt.apex
+      - system/apex/com.google.android.crashrecovery.apex
+      - system/apex/com.google.android.devicelock.apex
+      - system/apex/com.google.android.extservices.apex
+      - system/apex/com.google.android.healthfitness.apex
+      - system/apex/com.google.android.ipsec.apex
+      - system/apex/com.google.android.media.apex
+      - system/apex/com.google.android.media.swcodec.apex
+      - system/apex/com.google.android.mediaprovider.apex
+      - system/apex/com.google.android.neuralnetworks.apex
+      - system/apex/com.google.android.nfcservices.apex
+      - system/apex/com.google.android.ondevicepersonalization.apex
+      - system/apex/com.google.android.os.statsd.apex
+      - system/apex/com.google.android.permission.apex
+      - system/apex/com.google.android.profiling.apex
+      - system/apex/com.google.android.resolv.apex
+      - system/apex/com.google.android.rkpd.apex
+      - system/apex/com.google.android.scheduling.apex
+      - system/apex/com.google.android.sdkext.apex
+      - system/apex/com.google.android.tethering.apex
+      - system/apex/com.google.android.tzdata6.apex
+      - system/apex/com.google.android.uprobestats.apex
+      - system/apex/com.google.android.uwb.apex
+      - system/apex/com.google.android.virt.apex
+      - system/apex/com.google.android.wifi.apex
+      - system/app/GoogleBluetoothLegacyMigration/GoogleBluetoothLegacyMigration.apk
+      - system/bin/tradeinmode
+      - system/etc/init/tradeinmode.rc
+      - system/etc/security/cacerts/53a1b57a.0 # Chunghwa Telecom, https://security.googleblog.com/2025/05/sustaining-digital-certificate-security-chrome-root-store-changes.html
+      - system/etc/security/cacerts/60afe812.0 # NetLock, https://security.googleblog.com/2025/05/sustaining-digital-certificate-security-chrome-root-store-changes.html
+      - system/etc/security/cacerts/9d6523ce.0 # Chunghwa Telecom, https://security.googleblog.com/2025/05/sustaining-digital-certificate-security-chrome-root-store-changes.html
+      - system/framework/tradeinmode.jar
+      - system_ext/apex/com.android.hardware.biometrics.face.virtual.apex
+      - system_ext/apex/com.android.hardware.biometrics.fingerprint.virtual.apex
+      - system_ext/apex/com.google.android.compos.apex
+      - system_ext/app/EmergencyInfoGoogleNoUi/EmergencyInfoGoogleNoUi.apk
+      - system_ext/bin/bluetooth_gci # used by Device Connectivity Services (com.google.android.apps.pixel.dcservice) which is not shipped
+      - system_ext/etc/init/bluetooth_gci.rc
+      - system_ext/etc/init/init.repair_mode.rc
+      - system_ext/etc/init/init.sota.rc # Irrelevant OTA updater
+      - system_ext/framework/com.android.hotwordenrollment.common.util.jar
+      - system_ext/framework/org.carconnectivity.android.digitalkey.timesync.jar
+      - system_ext/framework/RadioConfigLib.jar
+      - system_ext/priv-app/SettingsGoogle/SettingsGoogle.apk
+      - system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+      - system_ext/priv-app/SystemUITitan/SystemUITitan.apk
+      - system_ext/priv-app/TurboAdapter/lib/arm64/libpowerstatshaldataprovider.so
+      - vendor/apex/com.google.android.hardware.biometrics.face.apex # Unused Face Unlock stuff
+      - vendor/bin/hw/android.hardware.biometrics.face-service.22.pixel
+      - vendor/bin/sscoredump
+      - vendor/boot_otas/boot_ota_16k.zip
+      - vendor/boot_otas/boot_ota_4k.zip
+      - vendor/etc/faceauth_pipeline_input_pixel_22
+      - vendor/etc/init/android.hardware.biometrics.face-service.22.pixel.rc
+      - vendor/etc/init/init.faceauth.rc
+      - vendor/etc/init/init.sscoredump.rc
+      - vendor/firmware/faceauth_p22.app
+      - vendor/lib64/com.google.face.debug-V1-ndk.so
+      - vendor/lib64/com.google.face.debug-V2-ndk.so
+      - vendor/lib64/libface_common_camera.so
+      - vendor/lib64/libface_common_capture.so
+      - vendor/lib64/libface_common_debug.so
+      - vendor/lib64/libface_common_fake_camera.so
+      - vendor/lib64/libface_common_frame.so
+      - vendor/lib64/libface_common_log.so
+      - vendor/lib64/libface_common_perf.so
+      - vendor/lib64/libface_common_task.so
+      - vendor/lib64/libface_common_thread.so
+      - vendor/lib64/libface_common_trustzone.so
+      - vendor/lib64/libface_common_user.so
+      - vendor/lib64/libface_common_user_proto.so
+      - vendor/lib64/libface_common_util.so
+      - vendor/lib64/libface_hal_trusty_tuscany.so
+      - vendor/lib64/libface_tuscany_cache_manager.so
+      - vendor/lib64/libface_tuscany_cache_proto.so
+      - vendor/lib64/libface_tuscany_proxy_util_trusty.so
+      - vendor/lib64/libface_tuscany_sensor_trusty.so
+      - vendor/lib64/libface_tuscany_trusty_debug_host.so
+      - vendor_boot/bootconfig
+      - vendor_boot/vendor_ramdisk00
+      - vendor_ramdisk/avb/q-developer-gsi.avbpubkey
+      - vendor_ramdisk/avb/r-developer-gsi.avbpubkey
+      - vendor_ramdisk/avb/s-developer-gsi.avbpubkey

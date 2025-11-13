@@ -1,18 +1,5 @@
 import assert from 'assert'
-import child_process, { exec as execCb } from 'child_process'
-import util from 'util'
-
-const exec = util.promisify(execCb)
-
-export async function run(command: string) {
-  // TODO: stop using shell
-  let { stdout } = await exec(command)
-  return stdout.trim()
-}
-
-export async function aapt2(path: string, ...args: Array<string>) {
-  return await run(`${path} ${args.join(' ')}`)
-}
+import child_process from 'child_process'
 
 export async function spawnAsyncNoOut(
   command: string,
@@ -33,7 +20,6 @@ export async function spawnAsyncStdin(
   return stdout
 }
 
-// Returns stdout. If there's stderr output, all lines of it should pass the isStderrLineAllowed check
 export async function spawnAsync(
   command: string,
   args: ReadonlyArray<string>,
@@ -41,10 +27,24 @@ export async function spawnAsync(
   stdinData?: Buffer,
   allowedExitCodes: number[] = [0],
 ) {
-  let proc = child_process.spawn(command, args)
+  return (await spawnAsync2({ command, args, isStderrLineAllowed, stdinData, allowedExitCodes })).toString()
+}
 
-  if (stdinData !== undefined) {
-    proc.stdin.write(stdinData)
+export interface SpawnCmd {
+  command: string
+  args: ReadonlyArray<string>
+  isStderrLineAllowed?: (s: string) => boolean
+  stdinData?: Buffer
+  handleStdoutBuffer?: (buf: Buffer) => void
+  allowedExitCodes?: number[]
+}
+
+// Returns stdout. If there's stderr output, all lines of it should pass the isStderrLineAllowed check
+export async function spawnAsync2(cmd: SpawnCmd) {
+  let proc = child_process.spawn(cmd.command, cmd.args)
+
+  if (cmd.stdinData !== undefined) {
+    proc.stdin.write(cmd.stdinData)
     proc.stdin.end()
   }
 
@@ -52,8 +52,14 @@ export async function spawnAsync(
     let stdoutBufs: Buffer[] = []
     let stderrBufs: Buffer[] = []
 
+    let handleStdoutBuffer =
+      cmd.handleStdoutBuffer ??
+      (buf => {
+        stdoutBufs.push(buf)
+      })
+
     proc.stdout.on('data', data => {
-      stdoutBufs.push(data)
+      handleStdoutBuffer(data)
     })
     proc.stderr.on('data', data => {
       stderrBufs.push(data)
@@ -66,24 +72,48 @@ export async function spawnAsync(
         stderr = Buffer.concat(stderrBufs).toString()
       }
 
+      let allowedExitCodes = cmd.allowedExitCodes ?? [0]
+
       if (code !== null && allowedExitCodes.includes(code)) {
         if (stderr.length > 0) {
-          if (isStderrLineAllowed === undefined) {
+          if (cmd.isStderrLineAllowed === undefined) {
             reject(new Error('unexpected stderr ' + stderr))
           } else {
             for (let line of stderr.split('\n')) {
-              if (line.length > 0 && !isStderrLineAllowed(line)) {
+              if (line.length > 0 && !cmd.isStderrLineAllowed(line)) {
                 reject(new Error('unexpected stderr line ' + line))
               }
             }
           }
         }
-        resolve(Buffer.concat(stdoutBufs).toString())
+        resolve(Buffer.concat(stdoutBufs))
       } else {
         reject(new Error(proc.spawnargs + ' returned ' + code + (stderr.length > 0 ? ', stderr: ' + stderr : '')))
       }
     })
   })
 
-  return promise as Promise<string>
+  return promise as Promise<Buffer>
+}
+
+export function lastLine(buf: Buffer) {
+  let str = buf.toString()
+  let end = -1
+  for (let i = buf.length - 1; i >= 0; --i) {
+    if (str.charAt(i) !== '\n') {
+      end = i + 1
+      break
+    }
+  }
+  let start = 0
+  if (end > 0) {
+    for (let i = end - 1; i >= 0; --i) {
+      if (str.charAt(i) === '\n') {
+        start = i + 1
+        break
+      }
+    }
+    return str.slice(start, end)
+  }
+  return ''
 }

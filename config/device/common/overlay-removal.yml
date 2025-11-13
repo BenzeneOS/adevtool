@@ -52,7 +52,9 @@ filters:
     match:
       - "android:array/config_notificationMsgPkgsAllowedAsConvos =\ " # already empty in fw/base
       - "android:string/config_secondaryLocationTimeZoneProviderPackageName =\ "
+      - android:array/config_accessComputerControlKnownSigners = 1975B2F17177BC89A5DFF31F9E64A6CAE281A53DC1D1D59B1D147FE1C82AFA00;7075F275C3B82619A37B1FA393B8F9D793F0B3F55148C6251AA959C340BB74B4;103938EE4537E59E8EE792F654504FB8346FC6B346D0BBC4415FC339FCFC8EC1
       - android:array/config_allowedSecureInstantAppSettings = advertising_id;limit_ad_tracking
+      - android:array/config_appFunctionsDeviceSettingsPackages = com.android.settings;com.google.android.permission;com.google.android.apps.wellbeing
       - android:array/config_backupHealthConnectDataAndSettingsKnownSigners = 4F59009D33D5B8C60E4B14623A771EBA08E5C02D2F0A124DE8D184AA9DAF00B4;5F2391277B1DBD489000467E4C2FA6AF802430080457DCE2F618992E9DFB5402;3B062A8FD947C2574749F6609E51D29C4C86525248DD94A3D5D6CD8C338A4D84
       - android:array/config_batteryPackageTypeService = com.google.android.gms
       - android:array/config_companionDeviceCerts = 48:ED:00:58:D1:B6:63:8E:39:A6:E4:C2:DF:1C:4D:5F:DF:59:3F:69:6B:F3:1B:09:A8:8F:93:14:1E:AF:60:0F
@@ -105,6 +107,7 @@ filters:
       - android:array/config_primaryCredentialProviderService = com.google.android.gms/.auth.api.credentials.credman.service.PasswordAndPasskeyService
       - android:array/config_priorityOnlyDndExemptPackages
       - android:array/config_priorityOnlyDndExemptPackages = com.google.android.dialer;com.android.server.telecom;android;com.android.systemui
+      - android:array/config_priorityOnlyDndExemptPackages = com.google.android.dialer;com.android.server.telecom;android;com.android.systemui;com.google.android.soundpicker
       - android:array/config_profcollectOnCameraOpenedSkipPackages = com.google.android.as
       - android:array/config_rawContactsEligibleDefaultAccountTypes = com.google
       - android:array/config_restoreHealthConnectDataAndSettingsKnownSigners = 4F59009D33D5B8C60E4B14623A771EBA08E5C02D2F0A124DE8D184AA9DAF00B4;5F2391277B1DBD489000467E4C2FA6AF802430080457DCE2F618992E9DFB5402;3B062A8FD947C2574749F6609E51D29C4C86525248DD94A3D5D6CD8C338A4D84
@@ -134,6 +137,8 @@ filters:
       - android:bool/config_enableNetworkLocationOverlay = true
       - android:bool/config_enablePrimaryLocationTimeZoneProvider = true
       - android:bool/config_enableSecondaryLocationTimeZoneProvider = false
+      - android:bool/config_fusedLocationOverlayUnstableFallback = true # TODO investigate
+      - android:bool/config_gnssLocationOverlayUnstableFallback = true # TODO investigate
       - android:bool/config_honor_data_retry_timer_for_emergency_network = true
       - android:bool/config_isDesktopModeDevOptionSupported = true
       - android:bool/config_isDesktopModeSupported = false
@@ -310,6 +315,7 @@ filters:
       - android:string/config_pointing_ui_class = com.google.android.apps.scone.satellite.pointingui.ui.PointingUiActivity
       - android:string/config_pointing_ui_package = com.google.android.apps.scone
       - android:string/config_powerSaveModeChangedListenerPackage = com.google.android.flipendo
+      - android:string/config_preferredSystemImageEditor = com.google.android.apps.pixel.creativeassistant/com.google.android.apps.pixel.creativeassistant.ExternalEditActivity
       - android:string/config_primaryLocationTimeZoneProviderPackageName = com.google.android.gms
       - android:string/config_recentsComponentName = com.google.android.apps.nexuslauncher/com.android.quickstep.RecentsActivity
       - android:string/config_retailDemoPackage = com.google.android.retaildemo
@@ -354,11 +360,14 @@ filters:
       - android:string/harmful_app_warning_title|*
       - android:string/identity_check_settings_action = com.google.android.gms.personalsafety.settings.IDENTITY_CHECK_SWITCH
       - android:string/identity_check_settings_package_name = com.google.android.gms
+      - android:string/proximity_provider_service_class_name = com.google.android.crossdeviceaccessservice.primary.proximityprovider.service.ProximityProviderService
+      - android:string/proximity_provider_service_package_name = com.google.android.crossdeviceaccessservice
       - android:string/safety_protection_display_text|*
       - android:string/satellite_access_config_file = /vendor/etc/telephony/satellite_access_config.json
       - android:string/widget_default_class_name = com.android.alarmclock.DigitalAppWidgetProvider
       - android:string/widget_default_package_name = com.google.android.deskclock
       - android:xml/bookmarks|*
+      - android:xml/config_user_types = a80a67de0ac28e3c37645320faf4ba537f154b5e93ac7feb765bde55859ca5f4
       - android:xml/overlays|*
       - com.android.bips:color/iconColor|*
       - com.android.captiveportallogin/CaptivePortalLoginConfig:color/app_icon_background_color|*
@@ -479,7 +488,9 @@ filters:
       - com.android.settings:array/datausage_hiding_carrier_service_carrier_id = 1802;2032;2126;2146;10008
       - com.android.settings:array/datausage_hiding_carrier_service_package_names = com.verizon.mips.services;com.verizon.llkagent;com.verizon.obdm;com.verizon.obdm_permissions;com.verizon.services;com.vzw.apnlib
       - com.android.settings:array/display_over_apps_permission_change_exempt = com.google.android.apps.scone
+      - com.android.settings:array/slice_allowlist_package_names = com.google.android.gms;com.google.android.googlequicksearchbox
       - com.android.settings:array/slice_allowlist_package_names = com.google.android.gms;com.google.android.googlequicksearchbox;com.google.android.apps.search.assistant.surfaces.voice.devapp
+      - com.android.settings:array/slice_allowlist_package_names_for_dev = com.google.android.apps.search.assistant.surfaces.voice.devapp
       - com.android.settings:bool/config_auto_rotate_face_detection_available|*
       - com.android.settings:bool/config_early_screen_timeout_detector_enabled = true
       - com.android.settings:bool/config_show_communal_settings = true
@@ -494,9 +505,12 @@ filters:
       - com.android.simappdialog:string/install_carrier_app_image_content_description|* # "Illustration featuring Google Play logo"
       - com.android.storagemanager:bool/config_hspa_data_distinguishable|*
       - com.android.storagemanager:bool/config_showMin3G|*
+      - com.android.storagemanager:drawable/ic_5g_plus_mobiledata_updated|*
       - com.android.storagemanager:drawable/ic_5g_plus_mobiledata|*
       - com.android.storagemanager:string/data_connection_5g_plus|*
       - com.android.systemui.accessibility.accessibilitymenu:color/assistant_color|*
+      - com.android.systemui.accessibility.accessibilitymenu:drawable/$a11ymenu_intro__0 = 17a6267d1bc144ead449ada35b2b5806cf6d92771f9038d5566461a6de7998cc
+      - com.android.systemui.accessibility.accessibilitymenu:drawable/$ic_logo_a11y_assistant__0 = 0ff9230fa088f1e32081634ae6cf13c2707aad4aa3cbe1abd5a89e0bc87f5d9a
       - com.android.systemui.accessibility.accessibilitymenu:drawable/a11ymenu_intro|*
       - com.android.systemui.accessibility.accessibilitymenu:drawable/ic_logo_a11y_assistant|*
       - com.android.systemui.accessibility.accessibilitymenu:string/assistant_utterance|* # "Google Assistant"
@@ -533,7 +547,9 @@ filters:
       - com.android.systemui:string/config_screenshotEditor = com.google.android.markup/com.google.android.markup.AnnotateActivity
       - com.android.systemui:string/config_screenshotFilesApp = com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity # Google Files app
       - com.android.systemui:string/quick_settings_tiles_default|*
+      - com.android.systemui:string/quick_settings_tiles_new_default|*
       - com.android.traceur:bool/config_hspa_data_distinguishable|*
       - com.android.traceur:bool/config_showMin3G|*
+      - com.android.traceur:drawable/ic_5g_plus_mobiledata_updated|*
       - com.android.traceur:drawable/ic_5g_plus_mobiledata|*
       - com.android.traceur:string/data_connection_5g_plus|*

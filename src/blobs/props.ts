@@ -1,6 +1,16 @@
-import { exists, readFile } from '../util/fs'
+import assert from 'assert'
+import path from 'path'
+import { DeviceConfig } from '../config/device'
+import { assertDefined, mapGet } from '../util/data'
+import { isFile, readFile } from '../util/fs'
 import { parseLines } from '../util/parse'
-import { ALL_SYS_PARTITIONS } from '../util/partitions'
+import {
+  ALL_SYS_PARTITIONS,
+  Partition,
+  partitionRelativePath,
+  PathResolver,
+  PathResolverContext,
+} from '../util/partitions'
 
 export type PartitionProps = Map<string, Map<string, string>>
 
@@ -19,35 +29,88 @@ export function parseProps(file: string) {
   let props = new Map<string, string>()
   for (let line of parseLines(file)) {
     let [key, value] = line.split('=', 2)
+    if (value === undefined) {
+      switch (line) {
+        // a bug in sysprop files on tangorpro and felix
+        case 'setprop':
+          continue
+        // a bug in sysprop files on rango
+        case 'ro.vendor.primarydisplay.xrr.vrr.expected_present.headsup_ns':
+          continue
+        default:
+          throw new Error('unexpected line in sysprop file: ' + line)
+      }
+    }
     props.set(key, value)
   }
 
   return props
 }
 
-export async function loadPartitionProps(sourceRoot: string) {
+export async function loadPartitionProps(
+  pathResolver: PathResolver,
+  config: DeviceConfig | null = null,
+  isForPrepModule: boolean = false,
+) {
   let partProps = new Map<string, Map<string, string>>() as PartitionProps
 
   for (let partition of ALL_SYS_PARTITIONS) {
-    let propPath = `${sourceRoot}/${partition}/build.prop`
-    if (partition == 'system' && !(await exists(propPath))) {
-      // System-as-root
-      propPath = `${sourceRoot}/system/system/build.prop`
+    let relPath: string
+    switch (partition) {
+      case Partition.System:
+      case Partition.Vendor:
+        relPath = 'build.prop'
+        break
+      case Partition.Odm:
+      case Partition.OdmDlkm:
+      case Partition.Product:
+      case Partition.SystemDlkm:
+      case Partition.SystemExt:
+      case Partition.VendorDlkm:
+        relPath = 'etc/build.prop'
+        break
+      case Partition.Recovery:
+        relPath = 'prop.default'
+        break
+      default:
+        continue
     }
-    // Android 12: some ext partitions have props in etc/build.prop
-    if (!(await exists(propPath))) {
-      propPath = `${sourceRoot}/${partition}/etc/build.prop`
-    }
-    if (!(await exists(propPath))) {
+    let propPath = pathResolver.resolve(partition, relPath)
+    if (partition === Partition.SystemDlkm && !(await isFile(propPath))) {
       continue
     }
-
     let props = parseProps(await readFile(propPath))
+    if (
+      !isForPrepModule &&
+      config !== null &&
+      config.device.backport_base_firmware &&
+      pathResolver.context === PathResolverContext.UNPACKED_IMAGE &&
+      partition === Partition.Vendor
+    ) {
+      let overlayPropsPath = path.join(
+        assertDefined(pathResolver.overlay?.basePath, pathResolver.basePath),
+        partitionRelativePath(partition, PathResolverContext.UNPACKED_IMAGE),
+        'build.prop',
+      )
+      let overlayProps = parseProps(await readFile(overlayPropsPath))
+      let overlaidProps = [BOOTLOADER_VERSION_PROP]
+      if (config.device.has_cellular) {
+        overlaidProps.push(BASEBAND_VERSION_PROP)
+        // overlaidProps.push('ro.vendor.build.svn')
+      }
+      for (let prop of overlaidProps) {
+        assert(props.has(prop))
+        props.set(prop, mapGet(overlayProps, prop))
+      }
+    }
     partProps.set(partition, props)
   }
 
   return partProps
 }
+
+export const BOOTLOADER_VERSION_PROP = 'ro.build.expect.bootloader'
+export const BASEBAND_VERSION_PROP = 'ro.build.expect.baseband'
 
 export function diffPartitionProps(partPropsRef: PartitionProps, partPropsNew: PartitionProps) {
   let partChanges = new Map<string, PropChanges>()
@@ -84,19 +147,4 @@ export function diffPartitionProps(partPropsRef: PartitionProps, partPropsNew: P
   }
 
   return partChanges
-}
-
-export function filterPropKeys(props: Map<string, string>, filters: PropFilters) {
-  let excludeKeys = new Set(filters.keys)
-  for (let key of props.keys()) {
-    if (excludeKeys.has(key) || filters.prefixes?.find(p => key.startsWith(p)) != undefined) {
-      props.delete(key)
-    }
-  }
-}
-
-export function filterPartPropKeys(partProps: PartitionProps, filters: PropFilters) {
-  for (let props of partProps.values()) {
-    filterPropKeys(props, filters)
-  }
 }

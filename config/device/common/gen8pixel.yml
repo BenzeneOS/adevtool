@@ -1,7 +1,5 @@
 includes:
   - pixel.yml
-  - gs.yml
 
-platform:
-  sepolicy_dirs:
-    - device/google/zuma-sepolicy
+device:
+  platform: zuma

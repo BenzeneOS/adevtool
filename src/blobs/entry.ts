@@ -1,45 +1,24 @@
-import { EXT_PARTITIONS } from '../util/partitions'
+import { BriefPackageInfo } from '../proto-ts/frameworks/base/tools/aapt2/BriefPackageInfo'
+import { Partition } from '../util/partitions'
+import { PartPath } from './file-list'
 
 export interface BlobEntry {
-  // Android partition
-  partition: string
-  // Sub-partition path
-  path: string
-  // Combined partition path without "system/"
-  srcPath: string
+  partPath: PartPath
 
   // Path to copy file from on host (default = srcDir/srcPath)
   diskSrcPath?: string
 
-  // Whether to keep the original signature (for APKs only)
-  isPresigned: boolean
-  // Whether to force creating a named dependency module
-  isNamedDependency: boolean
+  apkInfo?: BriefPackageInfo
+  apkSigningMode?: ApkSigningMode
 
   // Whether to force Kati
   disableSoong?: boolean
 }
 
-export function partPathToSrcPath(partition: string, path: string) {
-  if (EXT_PARTITIONS.has(partition)) {
-    return `${partition}/${path}`
-  }
-  // system
-  return `${partition}/${partition}/${path}`
-}
-
-export function srcPathToPartPath(srcPath: string) {
-  let pathParts = srcPath.split('/')
-  let partition = pathParts[0]
-  let path: string
-  if (EXT_PARTITIONS.has(partition)) {
-    path = pathParts.slice(1).join('/')
-  } else {
-    partition = 'system'
-    path = srcPath
-  }
-
-  return [partition, path]
+export enum ApkSigningMode {
+  DO_NOT_RESIGN, // i.e. presigned
+  RESIGN_WITH_PLATFORM_CERT,
+  RESIGN_WITH_RELEASEKEY_CERT,
 }
 
 export function blobNeedsSoong(entry: BlobEntry, ext: string) {
@@ -48,18 +27,18 @@ export function blobNeedsSoong(entry: BlobEntry, ext: string) {
     return false
   }
 
-  // Explicit named dependency = Soong
-  if (entry.isNamedDependency) {
-    return true
+  let relPath = entry.partPath.relPath
+  if (entry.partPath.partition === Partition.Recovery && relPath.startsWith('system/')) {
+    relPath = relPath.slice('system/'.length)
   }
 
   // On Android 12, Soong is required for ELF files (executables and libraries)
-  if (entry.path.startsWith('bin/') || ext == '.so') {
+  if (relPath.startsWith('bin/') || ext == '.so') {
     return true
   }
 
   // Soong is also required for APKs, framework JARs, and vintf XMLs
-  if (ext == '.apk' || ext == '.jar' || (entry.path.startsWith('etc/vintf/') && ext == '.xml')) {
+  if (ext == '.apk' || ext == '.jar' || (relPath.startsWith('etc/vintf/') && ext == '.xml')) {
     return true
   }
 

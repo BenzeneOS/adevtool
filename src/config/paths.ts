@@ -1,10 +1,10 @@
-import promiseSpawn from '@npmcli/promise-spawn'
 import assert from 'assert'
 import { Mutex } from 'async-mutex'
 import { readFile, writeFile } from 'node:fs/promises'
 import path from 'path'
 import { isFile } from '../util/fs'
-import { spawnAsync } from '../util/process'
+import { log, logElapsedTime, markTime, StatusLine } from '../util/log'
+import { lastLine, spawnAsync, spawnAsync2 } from '../util/process'
 
 export const OS_CHECKOUT_DIR = getOsCheckoutDir()
 
@@ -73,27 +73,45 @@ export async function getHostBinPath(programName: string) {
       return progPath
     }
 
-    let knownPrograms = ['aapt2', 'aprotoc', 'arsclib', 'debugfs', 'fsck.erofs', 'lz4', 'ota_extractor', 'toybox']
+    let knownPrograms = [
+      'aapt2',
+      'apksigner',
+      'aprotoc',
+      'arsclib',
+      'debugfs',
+      'dispol',
+      'fsck.erofs',
+      'lz4',
+      'ota_extractor',
+      'toybox',
+    ]
     if (!knownPrograms.includes(programName)) {
       throw new Error('unknown program: ' + programName)
     }
 
     if (await isFile(progPath)) {
-      console.log('\nRebuilding adevtool dependencies...')
-      console.log('Rebuild can be skipped by setting ADEVTOOL_SKIP_DEP_BUILD env variable to 1\n')
-    } else {
-      console.log('\nBuilding adevtool dependencies...\n')
+      log('\nRebuilding adevtool dependencies...')
+      log('Rebuild can be skipped by setting ADEVTOOL_SKIP_DEP_BUILD env variable to 1')
     }
 
-    let label = '\nBuild completed in'
-    console.time(label)
+    let start = markTime()
+
+    let statusPrefix = 'building adevtool dependencies: '
+    using statusLine = new StatusLine(statusPrefix)
+
     // Currently program name and build target name match
-    await promiseSpawn(
-      path.join(ADEVTOOL_DIR, 'scripts/run-build.sh'),
-      ['sdk_phone64_x86_64', outDir, ...knownPrograms],
-      { stdio: 'inherit' },
-    )
-    console.timeEnd(label)
+    await spawnAsync2({
+      command: path.join(ADEVTOOL_DIR, 'scripts/run-build.sh'),
+      args: ['sdk_phone64_x86_64', outDir, ...knownPrograms],
+      handleStdoutBuffer(buf: Buffer) {
+        statusLine.set(statusPrefix + lastLine(buf))
+      },
+      isStderrLineAllowed(line: string) {
+        return line.endsWith('setpriority(5): Permission denied')
+      },
+    })
+
+    logElapsedTime(start, 'adevtool dependency build completed in')
 
     if (!(await isFile(progPath))) {
       throw new Error(programName + ' is missing after successful build')

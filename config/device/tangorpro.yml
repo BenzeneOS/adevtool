@@ -1,9 +1,7 @@
 device:
   name: tangorpro
   has_cellular: false
-
-platform:
-  product_makefile: device/google/tangorpro/aosp_tangorpro.mk
+  build_id: BP3A.251105.013.A1
 
 includes:
   - common/gen7pixel.yml
@@ -13,3 +11,49 @@ filters:
     prefix:
       # DockSetup itself is not shipped
       - DockSetup__auto_generated_rro_
+
+sysconfig_exclusions:
+  - |-
+    <component-override package="com.android.systemui">
+      <component class=".dreams.DreamOverlayService" enabled="true"/>
+      <component class="com.google.android.systemui.lowlightclock.LowLightClockDreamService" enabled="true"/>
+    </component-override>
+
+sysconfig_inclusions:
+  - |-
+    <component-override package="com.android.dreams.basic">
+      <component class="com.android.dreams.basic.Colors" enabled="false"/>
+    </component-override>
+  - |-
+    <component-override package="com.android.settings">
+      <component class="com.google.android.settings.dream.DreamSetupActivity" enabled="true"/>
+    </component-override>
+  - <feature name="android.hardware.audio.output"/>
+  - <feature name="android.hardware.camera"/>
+  - <feature name="android.hardware.location"/>
+  - <feature name="android.hardware.location.network"/>
+  - <feature name="android.hardware.microphone"/>
+  - <feature name="android.hardware.screen.landscape"/>
+  - <feature name="android.hardware.screen.portrait"/>
+  - <feature name="android.hardware.security.model.compatible"/>
+  - <feature name="android.software.activities_on_secondary_displays"/>
+  - <feature name="android.software.app_widgets"/>
+  - <feature name="android.software.autofill"/>
+  - <feature name="android.software.backup"/>
+  - <feature name="android.software.cant_save_state"/>
+  - <feature name="android.software.companion_device_setup"/>
+  - <feature name="android.software.controls"/>
+  - <feature name="android.software.cts"/>
+  - <feature name="android.software.device_admin"/>
+  - <feature name="android.software.home_screen"/>
+  - <feature name="android.software.input_methods"/>
+  - <feature name="android.software.managed_users"/>
+  - <feature name="android.software.picture_in_picture"/>
+  - <feature name="android.software.print"/>
+  - <feature name="android.software.secure_lock_screen"/>
+  - <feature name="android.software.telecom"/>
+  - <feature name="android.software.voice_recognizers"/>
+
+unique_base_apks:
+  - product/priv-app/ImsServiceEntitlement/ImsServiceEntitlement.apk
+  - system_ext/priv-app/CarrierConfig/CarrierConfig.apk

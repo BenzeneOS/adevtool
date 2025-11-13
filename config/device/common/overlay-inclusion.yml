@@ -70,7 +70,7 @@ filters:
       - android:array/config_dockExtconStateMapping = 4,USB=1;3
       - android:array/config_dozeTapSensorPostureMapping = ;com.google.sensor.single_touch;com.google.sensor.touch_gesture;com.google.sensor.touch_gesture
       - android:array/config_foldedDeviceStates = 0
-      - android:array/config_forceSlowJpegModeList = com.facebook.orca;com.skype.raider
+      - android:array/config_forceSlowJpegModeList = com.facebook.orca;com.skype.raider;com.tencent.mm
       - android:array/config_halfFoldedDeviceStates = 1
       - android:array/config_highAmbientBrightnessThresholdsOfFixedRefreshRate = 50000
       - android:array/config_highDisplayBrightnessThresholdsOfFixedRefreshRate = 128
@@ -167,6 +167,7 @@ filters:
       - android:bool/config_enableProximityService = true
       - android:bool/config_enableTimeoutToDockUserWhenDocked = true
       - android:bool/config_enableUdcSysfsUsbStateUpdate = true
+      - android:bool/config_enterDesktopByDefaultOnFreeformDisplay = true
       - android:bool/config_faceAuthDismissesKeyguard = false
       - android:bool/config_faceAuthDismissesKeyguard = true
       - android:bool/config_faceAuthDismissesKeyguard|*
@@ -203,6 +204,7 @@ filters:
       - android:bool/config_letterboxIsSplitScreenAspectRatioForUnresizableAppsEnabled = true
       - android:bool/config_letterboxIsVerticalReachabilityEnabled = true
       - android:bool/config_lidControlsSleep = true
+      - android:bool/config_lowLightDisplayBehaviorEnabledDefault = true
       - android:bool/config_LTE_eri_for_network_name|*
       - android:bool/config_matchSecondaryInternalDisplaysOrientationToReverseDefaultDisplay = true
       - android:bool/config_mobile_data_capable = false
@@ -222,6 +224,8 @@ filters:
       - android:bool/config_reverseDefaultRotation = true
       - android:bool/config_ringtoneVibrationSettingsSupported = true
       - android:bool/config_safetyProtectionEnabled = true
+      - android:bool/config_screen_off_udfps_default_on = false
+      - android:bool/config_screen_off_udfps_enabled = true
       - android:bool/config_setColorTransformAccelerated = true
       - android:bool/config_settingsHelpLinksEnabled = true
       - android:bool/config_showMenuShortcutsWhenKeyboardPresent = true
@@ -376,7 +380,9 @@ filters:
       - android:integer/config_letterboxActivityCornersRadius = -1
       - android:integer/config_letterboxActivityCornersRadius = 64
       - android:integer/config_longPressOnPowerDurationMs|*
+      - android:integer/config_lowLightDisplayBehaviorDefault = 2
       - android:integer/config_maxDesktopWindowingActiveTasks|*
+      - android:integer/config_maxDesktopWindowingDesks = 4
       - android:integer/config_maximumCallLogEntriesPerSim = 1000
       - android:integer/config_mobile_mtu|mcc311-mnc490 = 1422
       - android:integer/config_mobile_mtu|mcc311-mnc870 = 1422
@@ -416,6 +422,7 @@ filters:
       - android:integer/config_vibrationWaveformRampDownDuration = 50
       - android:integer/config_volte_replacement_rat|mcc310-mnc410 = 3
       - android:integer/config_wait_for_satellite_enabling_response_timeout_millis|*
+      - android:integer/max_allowed_data_mode = 0 # TODO investigate
       - android:raw/fallback_categories|* # default app categories (ApplicationInfo.CATEGORY) used if neither the package nor installer sets anything
       - android:string/android_start_title|*
       - android:string/android_upgrading_title|*
@@ -711,6 +718,7 @@ filters:
       - com.android.settings:bool/config_show_glanceable_hub_toggle_setting = true
       - com.android.settings:bool/config_show_mobile_plan = false
       - com.android.settings:bool/config_show_premium_sms = false
+      - com.android.settings:bool/config_show_restrict_to_wireless_charging = false
       - com.android.settings:bool/config_show_sim_info = false
       - com.android.settings:bool/config_show_sim_info = true
       - com.android.settings:bool/config_show_smooth_display = true
@@ -750,6 +758,7 @@ filters:
       - com.android.settings:dimen/sfps_enrollment_finished_icon_max_size|*
       - com.android.settings:dimen/udfps_lottie_padding_top|*
       - com.android.settings:dimen/udfps_lottie_translate_y|*
+      - com.android.settings:drawable/ic_5g_plus_mobiledata_updated|*
       - com.android.settings:drawable/ic_5g_plus_mobiledata|*
       - com.android.settings:drawable/ic_app_aspect_ratio_3_2|*
       - com.android.settings:drawable/ic_app_aspect_ratio_4_3|*
@@ -804,11 +813,11 @@ filters:
       - com.android.settings:raw/user_aspect_ratio_education|*
       - com.android.settings:raw/warranty_mapping|*
       - com.android.settings:string/battery_missing_link_message|*
+      - com.android.settings:string/battery_tip_early_replacement_summary|*
+      - com.android.settings:string/battery_tip_replacement_summary|*
       - com.android.settings:string/biometrics_unlock_set_unlock_password|*
       - com.android.settings:string/biometrics_unlock_set_unlock_pattern|*
       - com.android.settings:string/biometrics_unlock_set_unlock_pin|*
-      - com.android.settings:string/battery_tip_early_replacement_summary|*
-      - com.android.settings:string/battery_tip_replacement_summary|*
       - com.android.settings:string/charge_cycle_count|*
       - com.android.settings:string/charge_limit_indexing_keywords|*
       - com.android.settings:string/charging_optimization_charge_label|*
@@ -992,6 +1001,7 @@ filters:
       - com.android.settings:string/setting_auto_rotate_folded|*
       - com.android.settings:string/setting_auto_rotate_unfolded|*
       - com.android.settings:string/settingslib_learn_more_text|*
+      - com.android.settings:string/setup_fingerprint_enroll_immobile_help_continue_fallback = Continue
       - com.android.settings:string/setup_fingerprint_enroll_immobile_help_continue|*
       - com.android.settings:string/setup_fingerprint_enroll_immobile_help_subtitle|*
       - com.android.settings:string/setup_fingerprint_enroll_immobile_help_title|*
@@ -1042,6 +1052,7 @@ filters:
       - com.android.systemui:array/proximity_sensor_secondary_posture_mapping|*
       - com.android.systemui:bool/can_use_one_handed_bouncer|*
       - com.android.systemui:bool/config_adaptive_touch_sensitivity_enabled = true
+      - com.android.systemui:bool/config_allowLowLightBehaviorWhenLocked = true
       - com.android.systemui:bool/config_battery_index_enabled = true
       - com.android.systemui:bool/config_charge_limit_discovery_enabled = true
       - com.android.systemui:bool/config_communalServiceEnabled = true
@@ -1161,6 +1172,7 @@ filters:
       - com.android.systemui:dimen/weather_clock_smartspace_scale|*
       - com.android.systemui:dimen/weather_clock_smartspace_translateX|*
       - com.android.systemui:dimen/weather_clock_smartspace_translateY|*
+      - com.android.systemui:drawable/ic_5g_plus_mobiledata_updated|*
       - com.android.systemui:drawable/ic_5g_plus_mobiledata|*
       - com.android.systemui:drawable/rounded_corner_bottom_secondary|*
       - com.android.systemui:drawable/rounded_corner_bottom|*

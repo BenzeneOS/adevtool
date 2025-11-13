@@ -2,7 +2,7 @@ import { Args, Command, Flags } from '@oclif/core'
 import chalk from 'chalk'
 
 import { diffLists, listPart } from '../blobs/file-list'
-import { ALL_SYS_PARTITIONS } from '../util/partitions'
+import { ALL_SYS_PARTITIONS, PathResolver } from '../util/partitions'
 
 export default class DiffFiles extends Command {
   static description = 'find missing system files compared to a reference system'
@@ -34,17 +34,20 @@ export default class DiffFiles extends Command {
     } = await this.parse(DiffFiles)
 
     for (let partition of ALL_SYS_PARTITIONS) {
-      let filesRef = await listPart(partition, sourceRef)
+      let filesRef = await listPart(partition, new PathResolver(sourceRef))
       if (filesRef == null) {
         continue
       }
 
-      let filesNew = (await listPart(partition, sourceNew)) ?? []
+      let filesNew = (await listPart(partition, new PathResolver(sourceNew))) ?? []
 
       this.log(chalk.bold(partition))
 
-      let newAdded = diffLists(filesRef, filesNew)
-      let newRemoved = diffLists(filesNew, filesRef)
+      let relPathsRef = filesRef.map(e => e.relPath)
+      let relPathsNew = filesNew.map(e => e.relPath)
+
+      let newAdded = diffLists(relPathsRef, relPathsNew)
+      let newRemoved = diffLists(relPathsNew, relPathsRef)
 
       newRemoved.forEach(f => this.log(chalk.red(`    ${f}`)))
       if (all) {

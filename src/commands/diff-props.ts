@@ -2,6 +2,7 @@ import { Args, Command, Flags } from '@oclif/core'
 import chalk from 'chalk'
 
 import { diffPartitionProps, loadPartitionProps, PartitionProps } from '../blobs/props'
+import { PathResolver } from '../util/partitions'
 
 const BUILD_KEY_PATTERN = /^ro(?:\.(?:system|system_ext|product|vendor|odm|vendor_dlkm|odm_dlkm))?\.build\..+$/
 
@@ -53,8 +54,8 @@ export default class DiffProps extends Command {
       args: { sourceRef, sourceNew },
     } = await this.parse(DiffProps)
 
-    let propsRef = await loadPartitionProps(sourceRef)
-    let propsNew = await loadPartitionProps(sourceNew)
+    let propsRef = await loadPartitionProps(new PathResolver(sourceRef))
+    let propsNew = await loadPartitionProps(new PathResolver(sourceNew))
 
     // Remove build props?
     if (!includeBuild) {

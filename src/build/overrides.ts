@@ -1,26 +1,14 @@
-import { setIntersection } from '../util/data'
-import { parseLines } from '../util/parse'
+import { PseudoPath } from '../blobs/file-list'
+import { mapSet, setIntersection } from '../util/data'
 import { SoongModuleInfo } from './soong-info'
 
 export interface OverrideModules {
   modules: Array<string>
-  builtPaths: Array<string>
-  missingPaths: Array<string>
+  builtPaths: Array<PseudoPath>
+  missingPaths: Array<PseudoPath>
 }
 
-export function parseOverrides(list: string) {
-  let overrides = new Set<string>()
-
-  for (let line of parseLines(list)) {
-    // Accept Kati output or plain paths
-    let path = line.replace(/^.*?warning: (?:overriding|ignoring old) commands for target `(.+)'$/, (_, path) => path)
-    overrides.add(path)
-  }
-
-  return overrides
-}
-
-export function findOverrideModules(overridePaths: Iterable<string>, modulesMap: SoongModuleInfo) {
+export function findOverrideModules(overridePseudoPaths: Array<PseudoPath>, modulesMap: SoongModuleInfo) {
   // Build index of multilib modules
   let multilibs = new Set<string>()
   for (let [name, module] of modulesMap.entries()) {
@@ -34,15 +22,20 @@ export function findOverrideModules(overridePaths: Iterable<string>, modulesMap:
   }
 
   // Build installed path->module index
-  let pathMap = new Map<string, [string, string]>()
+  let pathMap = new Map<PseudoPath, [string, string]>()
   for (let [key, module] of modulesMap.entries()) {
-    if (module.installed !== undefined) {
-      for (let path of module.installed) {
-        let moduleName = module.module_name
-        if (moduleName === undefined) {
-          moduleName = key
-        }
-        pathMap.set(path, [key, moduleName])
+    for (let pseudoPath of module.installed) {
+      let moduleName = module.module_name
+      if (moduleName === undefined) {
+        moduleName = key
+      }
+      pathMap.set(pseudoPath, [key, moduleName])
+      let suffix = '.prebuilt.xml'
+      if (pseudoPath.endsWith(suffix) && pseudoPath.includes('/etc/permissions/')) {
+        // see comment in frameworks/native/data/etc/Android.bp
+        let altPseudoPath = pseudoPath.slice(0, -suffix.length) + '.xml'
+        // use mapSet to make sure altPseudoPath doesn't override regular pseudoPath
+        mapSet(pathMap, altPseudoPath, [key, moduleName])
       }
     }
   }
@@ -54,9 +47,9 @@ export function findOverrideModules(overridePaths: Iterable<string>, modulesMap:
   // Defer multlib modules (these are module_names without _32 or :32/:64)
   let multilib32 = new Set<string>()
   let multilib64 = new Set<string>()
-  for (let path of overridePaths) {
-    let value = pathMap.get(path)
-    if (value != null) {
+  for (let pseudoPath of overridePseudoPaths) {
+    let value = pathMap.get(pseudoPath)
+    if (value !== undefined) {
       let [key, module] = value
 
       if (multilibs.has(module)) {
@@ -74,9 +67,9 @@ export function findOverrideModules(overridePaths: Iterable<string>, modulesMap:
       }
 
       // Always add the path
-      builtPaths.push(path)
+      builtPaths.push(pseudoPath)
     } else {
-      missingPaths.push(path)
+      missingPaths.push(pseudoPath)
     }
   }
 
@@ -97,7 +90,7 @@ export function findOverrideModules(overridePaths: Iterable<string>, modulesMap:
   multilib64.forEach(m => buildModules.add(`${m}:64`))
 
   return {
-    modules: Array.from(buildModules).sort((a, b) => a.localeCompare(b)),
+    modules: Array.from(buildModules).sort(),
     builtPaths,
     missingPaths,
   } as OverrideModules

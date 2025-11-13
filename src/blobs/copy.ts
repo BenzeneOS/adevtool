@@ -1,27 +1,27 @@
 import { promises as fs } from 'fs'
 import path from 'path'
 
+import assert from 'assert'
 import { readFile } from '../util/fs'
+import { Partition, PathResolver } from '../util/partitions'
 import { BlobEntry } from './entry'
 
-export async function copyBlobs(entries: Iterable<BlobEntry>, srcDir: string, destDir: string) {
-  for (let entry of entries) {
-    let outPath = `${destDir}/${entry.srcPath}`
-    let srcPath = entry.diskSrcPath ?? `${srcDir}/${entry.srcPath}`
+export async function copyBlobs(entries: Iterable<BlobEntry>, pathResolver: PathResolver, destDir: string) {
+  let promises = Array.from(entries).map(async entry => {
+    let outPath = `${destDir}/${entry.partPath.asPseudoPath()}`
+    // todo
+    let srcPath = entry.partPath.resolve(pathResolver)
 
     // Symlinks are created at build time, not copied
     let stat = await fs.lstat(srcPath)
     if (stat.isSymbolicLink()) {
-      continue
+      return
     }
 
-    // Create directory structure
-    await fs.mkdir(path.dirname(outPath), { recursive: true })
-
-    let patched: string | undefined = undefined
+    let patched: string | undefined
 
     // Some files need patching
-    if (entry.path.endsWith('.xml')) {
+    if (entry.partPath.relPath.endsWith('.xml')) {
       let xml = await readFile(srcPath)
       // Fix Qualcomm XMLs
       if (xml.startsWith('<?xml version="2.0"')) {
@@ -43,26 +43,51 @@ export async function copyBlobs(entries: Iterable<BlobEntry>, srcDir: string, de
       }
     }
 
-    patched = await maybePatch(entry, srcPath)
+    if (patched === undefined) {
+      patched = await maybePatch(entry, srcPath)
+    }
+
+    // Create directory structure
+    await fs.mkdir(path.dirname(outPath), { recursive: true })
 
     if (patched !== undefined) {
       await fs.writeFile(outPath, patched)
     } else {
       await fs.copyFile(srcPath, outPath)
     }
-  }
+  })
+  await Promise.all(promises)
 }
 
 async function maybePatch(entry: BlobEntry, srcPath: string) {
-  if (entry.partition === 'vendor') {
-    switch (entry.path) {
-      case 'etc/gnss/ca.pem':
-        return patchGnssCert(await readFile(srcPath))
-      case 'etc/gnss/gps.xml':
-        return patchGpsXml(await readFile(srcPath))
-      case 'etc/gnss/gps.cfg':
-        return patchGpsCfg(await readFile(srcPath))
+  let relPath = entry.partPath.relPath
+  switch (entry.partPath.partition) {
+    case Partition.Vendor: {
+      switch (relPath) {
+        case 'etc/gnss/ca.pem':
+          return patchGnssCert(await readFile(srcPath))
+        case 'etc/gnss/gps.xml':
+          return patchGpsXml(await readFile(srcPath))
+        case 'etc/gnss/gps.cfg':
+          return patchGpsCfg(await readFile(srcPath))
+      }
+      if (relPath.startsWith('etc/fstab')) {
+        return patchFstab(await readFile(srcPath))
+      }
+      break
     }
+    case Partition.Recovery: {
+      switch (relPath) {
+        case 'system/etc/recovery.fstab':
+          return patchFstab(await readFile(srcPath))
+      }
+      break
+    }
+    case Partition.VendorRamdisk:
+      if (relPath.startsWith('system/etc/fstab')) {
+        return patchFstab(await readFile(srcPath))
+      }
+      break
   }
   return undefined
 }
@@ -117,6 +142,30 @@ function patchGnssCert(orig: string) {
     '/q4AaOeMSQ+2b1tbFfLn\n' +
     '-----END CERTIFICATE-----\n'
   )
+}
+
+function patchFstab(orig: string) {
+  let replacements = new Map<string, string>([
+    // use wrapped key encryption in FIPS mode
+    ['fileencryption=aes-256-xts,', 'fileencryption=::inlinecrypt_optimized+wrappedkey_v0,'],
+    ['metadata_encryption=aes-256-xts,', 'metadata_encryption=:wrappedkey_v0,'],
+    // enable regular AVB for dlkm images
+    ['avb_keys=no_such_key,', ''],
+  ])
+  return replaceLines(orig, line => {
+    for (let e of replacements) {
+      line = line.replace(e[0], e[1])
+    }
+    let avbPrefix = ',avb='
+    let avbPrefixIdx = line.indexOf(avbPrefix)
+    if (avbPrefixIdx > 0) {
+      let end = line.indexOf(',', avbPrefixIdx + avbPrefix.length)
+      assert(end > avbPrefixIdx)
+      // disable chained vbmeta
+      line = line.replace(line.substring(avbPrefixIdx, end), ',avb=vbmeta')
+    }
+    return line
+  })
 }
 
 function patchGpsXml(orig: string) {

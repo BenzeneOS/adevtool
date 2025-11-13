@@ -1,3 +1,5 @@
+import assert from 'assert'
+
 export function setIntersection<Value>(a: Set<Value>, b: Set<Value>) {
   let set = new Set<Value>()
   for (let value of a) {
@@ -40,22 +42,56 @@ export function updateMultiMap<K, V>(map: Map<K, V[]>, key: K, value: V) {
   }
 }
 
-export function assertDefined<T>(o: T | undefined): T {
-  if (o === undefined) {
-    throw new Error('value is undefined')
+export function updateMultiMapObj<V>(map: Record<string, V[]>, key: string, value: V) {
+  let cur = map[key]
+  if (cur === undefined) {
+    map[key] = [value]
+  } else {
+    cur.push(value)
   }
-  return o!
+}
+
+export function assertDefined<T>(o: T | undefined, message?: string): T {
+  if (message !== undefined) {
+    assert(o !== undefined, message)
+  } else {
+    if (o === undefined) {
+      throw new Error('value is undefined')
+    }
+  }
+  return o
 }
 
 export function assertNonNull<T>(o: T | null): T {
   if (o === null) {
     throw new Error('value is null')
   }
-  return o!
+  return o
 }
 
 export function mapGet<K, V>(map: Map<K, V>, key: K) {
-  return assertDefined(map.get(key))
+  let res = map.get(key)
+  if (res === undefined) {
+    throw new Error('no value for ' + key)
+  }
+  return res
+}
+
+export function mapSet<K, V>(map: Map<K, V>, key: K, val: V) {
+  assert(!map.has(key), key as string)
+  map.set(key, val)
+}
+export function objGet<V>(obj: Record<string, V>, key: string) {
+  let res = obj[key]
+  if (res == undefined) {
+    throw new Error('no value for ' + key)
+  }
+  return res
+}
+
+export function objSet<V>(obj: Record<string, V>, key: string, val: V) {
+  assert(obj[key] === undefined, key)
+  obj[key] = val
 }
 
 export async function filterAsync<T>(arr: readonly T[], predicate: (value: T) => Promise<boolean>): Promise<T[]> {

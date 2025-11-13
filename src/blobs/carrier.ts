@@ -5,6 +5,7 @@ import path from 'path'
 
 import assert from 'assert'
 import { createWriteStream, promises as fs } from 'fs'
+import { parseInt } from 'lodash'
 import { promises as stream } from 'stream'
 import { DeviceConfig } from '../config/device'
 import { CARRIER_SETTINGS_DIR, getHostBinPath, OS_CHECKOUT_DIR } from '../config/paths'
@@ -17,12 +18,14 @@ import { Request } from '../proto-ts/vendor/adevtool/assets/request'
 import { Response } from '../proto-ts/vendor/adevtool/assets/response'
 import { exists, listFilesRecursive, TMP_PREFIX } from '../util/fs'
 import { spawnAsyncStdin } from '../util/process'
+import { log } from '../util/log'
 
 const PROTO_PATH = `${OS_CHECKOUT_DIR}/packages/apps/CarrierConfig2/src/com/google/carrier`
 
 export async function fetchUpdateConfig(
   device: string,
   build_id: string,
+  sdkVersion: string,
   debug: boolean,
 ): Promise<Map<string, string>> {
   const requestData: Request = {
@@ -30,7 +33,7 @@ export async function fetchUpdateConfig(
       info: {
         int: 4,
         deviceInfo: {
-          apilevel: 36,
+          apilevel: parseInt(sdkVersion),
           name: device,
           buildId: build_id,
           name1: device,
@@ -51,16 +54,16 @@ export async function fetchUpdateConfig(
   }
   const tmpDir = await fs.mkdtemp(path.join(os.tmpdir(), TMP_PREFIX))
   if (debug) {
-    console.log(`tmpDir: ${tmpDir}`)
+    log(`tmpDir: ${tmpDir}`)
     const outFile = path.join(tmpDir, 'requestData')
-    console.log(`requestData: ${outFile}`)
+    log(`requestData: ${outFile}`)
     await fs.writeFile(outFile, JSON.stringify(Request.toJSON(requestData), null, 4))
   }
   const encodedRequest = Request.encode(requestData).finish()
   if (debug) {
     const reqFile = path.join(tmpDir, 'encodedRequestData')
     await fs.writeFile(reqFile, encodedRequest)
-    console.log(`encodedRequestData: ${reqFile}`)
+    log(`encodedRequestData: ${reqFile}`)
   }
   const options = {
     method: 'POST',
@@ -77,7 +80,7 @@ export async function fetchUpdateConfig(
   const pbResponse = await response.buffer()
   if (debug) {
     const tmpOutFile = path.join(tmpDir, 'encodedResponse')
-    console.log(`encodedResponse: ${tmpOutFile}`)
+    log(`encodedResponse: ${tmpOutFile}`)
     await fs.writeFile(tmpOutFile, pbResponse)
   }
   let result = new Map<string, string>()
@@ -95,7 +98,7 @@ export async function fetchUpdateConfig(
 
 export async function downloadAllConfigs(config: Map<string, string>, outDir: string, debug: boolean) {
   if (config.get('is_pixel') === 'no_ota' || config.size <= 2) {
-    console.log(chalk.grey(`No updates are available for ${path.parse(outDir).base}`))
+    log(chalk.grey(`No updates are available for ${path.parse(outDir).base}`))
     return
   }
   await fs.rm(outDir, { force: true, recursive: true })
@@ -111,7 +114,7 @@ export async function downloadAllConfigs(config: Map<string, string>, outDir: st
       let baseUrl = config.get('carrier_settings_url')!
       url = baseUrl.replace(/%2\$s/i, entry).replace(/%3\$d/i, version)
     }
-    if (debug) console.log(url)
+    if (debug) log(url)
     assert(url.includes('pixel'), `invalid url: ${url}`)
 
     let tmpOutFile = path.join(outDir, `${entry}.pb.tmp`)
@@ -122,9 +125,9 @@ export async function downloadAllConfigs(config: Map<string, string>, outDir: st
     if (resp.ok) {
       await stream.pipeline(resp.body!, createWriteStream(tmpOutFile))
       await fs.rename(tmpOutFile, outFile)
-      console.log(`Downloaded ${entry}-${version} to ${path.relative(OS_CHECKOUT_DIR, outFile)}`)
+      log(`Downloaded ${entry}-${version} to ${path.relative(OS_CHECKOUT_DIR, outFile)}`)
     } else {
-      console.log(chalk.red(`Failed to download ${entry}-${version}\nurl: ${url}`))
+      log(chalk.red(`Failed to download ${entry}-${version}\nurl: ${url}`))
     }
   }
 }

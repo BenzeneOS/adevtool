@@ -1,9 +1,5 @@
 device:
   name: caiman
 
-platform:
-  product_makefile: device/google/caimito/aosp_caiman.mk
-
 includes:
   - common/gen9pixel.yml
-  - common/gs-wireless-charger.yml

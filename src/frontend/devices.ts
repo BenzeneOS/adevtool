@@ -1,4 +1,5 @@
 import chalk from 'chalk'
+import { log } from '../util/log'
 
 export async function forEachDevice<Device>(
   devices: Device[],
@@ -13,14 +14,14 @@ export async function forEachDevice<Device>(
       jobs.push(job)
     } else {
       if (devices.length > 1) {
-        console.log(`${chalk.bold(chalk.blueBright(deviceKey(device)))}`)
+        log(`${chalk.bold(chalk.blueBright(deviceKey(device)))}`)
       }
       await job
     }
   }
 
   if (parallel && devices.length >= 2) {
-    console.log('Devices: ' + devices.map(d => deviceKey(d)).join(' | '))
+    log('Devices: ' + devices.map(d => deviceKey(d)).join(' | '))
   }
 
   await Promise.all(jobs)

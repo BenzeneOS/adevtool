@@ -1,293 +1,22 @@
-import { Flags } from '@oclif/core'
 import assert from 'assert'
 import { createReadStream, promises as fs } from 'fs'
 import { FileHandle, FileReadOptions } from 'fs/promises'
 import hasha from 'hasha'
-import ora from 'ora'
 import path from 'path'
 import { pipeline } from 'stream/promises'
 import yauzl from 'yauzl-promise'
 import { DeviceBuildId, DeviceConfig, FsType, getDeviceBuildId, resolveBuildId } from '../config/device'
+import { log, StatusLine } from '../util/log'
 
+import { Semaphore } from 'async-mutex'
+import * as zlib from 'node:zlib'
 import { ADEVTOOL_DIR, getHostBinPath, IMAGE_DOWNLOAD_DIR, OS_CHECKOUT_DIR } from '../config/paths'
 import { BuildIndex, ImageType } from '../images/build-index'
 import { DeviceImage } from '../images/device-image'
-import { downloadMissingDeviceImages } from '../images/download'
-import { maybePlural, withSpinner } from '../util/cli'
-import { createSubTmp, exists, isDirectory, listFilesRecursive, mount, TempState, withTempDir } from '../util/fs'
-import { ALL_KNOWN_PARTITIONS, ALL_SYS_PARTITIONS, BOOT_PARTITIONS } from '../util/partitions'
-import { run, spawnAsync, spawnAsyncNoOut } from '../util/process'
-import { isSparseImage } from '../util/sparse'
-import { listZipFiles } from '../util/zip'
-
-export const WRAPPED_SOURCE_FLAGS = {
-  stockSrc: Flags.string({
-    char: 's',
-    description:
-      'path to (extracted) factory images, (mounted) images, (extracted) OTA package, OTA payload, or directory containing any such files (optionally under device and/or build ID directory)',
-    required: true,
-  }),
-  buildId: Flags.string({
-    char: 'b',
-    description: 'stock OS build ID, defaults to build_id value from device config',
-  }),
-  useTemp: Flags.boolean({
-    char: 't',
-    description: 'use a temporary directory for all extraction (prevents reusing extracted files across runs)',
-    default: false,
-  }),
-}
-
-export interface WrappedSource {
-  src: string | null
-  factoryPath: string | null
-}
-
-async function containsParts(src: string, suffix = '') {
-  // If any sys partitions are present
-  for (let part of ALL_SYS_PARTITIONS) {
-    let path = `${src}/${part}${suffix}`
-    try {
-      if (await exists(path)) {
-        return true
-      }
-    } catch {
-      // ENOENT
-    }
-  }
-
-  return false
-}
-
-class SourceResolver {
-  constructor(
-    readonly device: string,
-    readonly buildId: string | null,
-    readonly useTemp: boolean,
-    readonly tmp: TempState,
-    readonly spinner: ora.Ora,
-  ) {}
-
-  // Dummy TempState that just returns the path, but with managed mountpoints
-  private createStaticTmp(path: string) {
-    return {
-      ...this.tmp,
-      dir: path,
-    } as TempState
-  }
-
-  // Dynamically switch between static and real sub-temp, depending on useTemp
-  private async createDynamicTmp(tmpPath: string, absPath: string) {
-    if (this.useTemp) {
-      return await createSubTmp(this.tmp, tmpPath)
-    }
-    return this.createStaticTmp(absPath)
-  }
-
-  private async mountImg(img: string, dest: string) {
-    // Convert sparse image to raw
-    if (await isSparseImage(img)) {
-      this.spinner.text = `converting sparse image: ${img}`
-      let sparseTmp = await this.createDynamicTmp(`sparse_img/${path.basename(path.dirname(img))}`, path.dirname(img))
-
-      let rawImg = `${sparseTmp.dir}/${path.basename(img)}.raw`
-      await run(`simg2img ${img} ${rawImg}`)
-      await fs.rm(img)
-      img = rawImg
-    }
-
-    this.spinner.text = `mounting: ${img}`
-    await mount(img, dest)
-    this.tmp.mounts.push(dest)
-  }
-
-  private async mountParts(src: string, mountTmp: TempState, suffix = '.img') {
-    let mountRoot = mountTmp.dir
-
-    for (let part of ALL_SYS_PARTITIONS) {
-      let img = `${src}/${part}${suffix}`
-      if (await exists(img)) {
-        let partPath = `${mountRoot}/${part}`
-        await fs.mkdir(partPath)
-        await this.mountImg(img, partPath)
-      }
-    }
-  }
-
-  private async wrapLeafFile(file: string, factoryPath: string | null): Promise<WrappedSource> {
-    let imagesTmp = await this.createDynamicTmp(`src_images/${path.basename(file)}`, path.dirname(file))
-
-    // Extract images from OTA payload
-    if (path.basename(file) == 'payload.bin') {
-      this.spinner.text = `extracting OTA images: ${file}`
-      await run(`cd ${imagesTmp.dir}; payload-dumper-go ${file}`)
-      if (file.startsWith(this.tmp.dir)) {
-        await fs.rm(file)
-      }
-
-      let extractedDir = (await fs.readdir(imagesTmp.dir))[0]
-      let imagesPath = `${imagesTmp.dir}/${extractedDir}`
-      return await this.searchLeafDir(imagesPath, factoryPath)
-    }
-
-    let files = await listZipFiles(file)
-
-    let imagesEntry = files.find(f => f.includes('/image-') && f.endsWith('.zip'))
-    if (imagesEntry != undefined) {
-      // Factory images
-
-      // Extract nested images zip
-      this.spinner.text = `extracting factory images: ${file}`
-      let imagesFile = `${imagesTmp.dir}/${imagesEntry}`
-      await run(`unzip -od ${imagesTmp.dir} ${file}`)
-      return await this.wrapLeafFile(imagesFile, file)
-    }
-    if (files.find(f => f == 'payload.bin') != undefined) {
-      // OTA package
-
-      // Extract update_engine payload
-      this.spinner.text = `extracting OTA payload: ${file}`
-      let payloadFile = `${imagesTmp.dir}/payload.bin`
-      await run(`unzip -od ${imagesTmp.dir} ${file} payload.bin`)
-      return await this.wrapLeafFile(payloadFile, factoryPath)
-    }
-    if (files.find(f => f.endsWith('.img') && ALL_SYS_PARTITIONS.has(f.replace('.img', '')))) {
-      // Images zip
-
-      // Extract image files
-      this.spinner.text = `extracting images: ${file}`
-      await run(`unzip -od ${imagesTmp.dir} ${file}`)
-      if (file.startsWith(this.tmp.dir)) {
-        await fs.rm(file)
-      }
-      return await this.searchLeafDir(imagesTmp.dir, factoryPath)
-    }
-    throw new Error(`File '${file}' has unknown format`)
-  }
-
-  private async searchLeafDir(src: string, factoryPath: string | null): Promise<WrappedSource> {
-    if (!(await exists(src))) {
-      return {
-        src: null,
-        factoryPath: null,
-      }
-    }
-
-    if (await containsParts(src)) {
-      // Root of mounted images
-      return { src, factoryPath }
-    }
-    if (await containsParts(src, '.img.raw')) {
-      // Mount raw images: <images>.img.raw
-
-      // Mount the images
-      let mountTmp = await createSubTmp(this.tmp, `sysroot/${path.basename(src)}`)
-      await this.mountParts(src, mountTmp, '.img.raw')
-      return { src: mountTmp.dir, factoryPath: factoryPath || src }
-    }
-    if (await containsParts(src, '.img')) {
-      // Mount potentially-sparse images: <images>.img
-
-      // Mount the images
-      let mountTmp = await createSubTmp(this.tmp, `sysroot/${path.basename(src)}`)
-      await this.mountParts(src, mountTmp)
-      return { src: mountTmp.dir, factoryPath: factoryPath || src }
-    }
-    if (this.device != null && this.buildId != null) {
-      let imagesZip = `${src}/image-${this.device}-${this.buildId}.zip`
-      if (await exists(imagesZip)) {
-        // Factory images - nested images package: image-$device-$buildId.zip
-        return await this.wrapLeafFile(imagesZip, factoryPath || src)
-      }
-
-      let newFactoryPath = (await fs.readdir(src)).find(f => f.startsWith(`${this.device}-${this.buildId}-factory-`))
-      if (newFactoryPath != undefined) {
-        // Factory images zip
-        return await this.wrapLeafFile(`${src}/${newFactoryPath}`, newFactoryPath)
-      }
-    }
-
-    return {
-      src: null,
-      factoryPath: null,
-    }
-  }
-
-  async wrapSystemSrc(src: string) {
-    let stat = await fs.stat(src)
-    if (stat.isDirectory()) {
-      // Directory
-
-      let tryDirs = [
-        ...((this.buildId != null && [
-          `${src}/${this.buildId}`,
-          `${src}/${this.device}/${this.buildId}`,
-          `${src}/${this.buildId}/${this.device}`,
-        ]) ||
-          []),
-        `${src}/${this.device}`,
-        src,
-      ]
-
-      // Also try to find extracted factory images first: device-buildId
-      if (this.buildId != null) {
-        tryDirs = [...tryDirs.map(p => `${p}/${this.device}-${this.buildId}`), ...tryDirs]
-      }
-
-      for (let dir of tryDirs) {
-        let { src: wrapped, factoryPath } = await this.searchLeafDir(dir, null)
-        if (wrapped != null) {
-          this.spinner.text = wrapped.startsWith(this.tmp.dir) ? path.relative(this.tmp.dir, wrapped) : wrapped
-          return { src: wrapped, factoryPath }
-        }
-      }
-
-      throw new Error(`No supported source format found in '${src}'`)
-    } else if (stat.isFile()) {
-      // File
-
-      // Attempt to extract factory images or OTA
-      let { src: wrapped, factoryPath } = await this.wrapLeafFile(src, null)
-      if (wrapped != null) {
-        this.spinner.text = wrapped.startsWith(this.tmp.dir) ? path.relative(this.tmp.dir, wrapped) : wrapped
-        return { src: wrapped, factoryPath }
-      }
-    }
-
-    throw new Error(`Source '${src}' has unknown type`)
-  }
-}
-
-export async function wrapSystemSrc(
-  src: string,
-  device: string,
-  buildId: string | null,
-  useTemp: boolean,
-  tmp: TempState,
-  spinner: ora.Ora,
-): Promise<WrappedSource> {
-  let resolver = new SourceResolver(device, buildId, useTemp, tmp, spinner)
-  return await resolver.wrapSystemSrc(src)
-}
-
-export async function withWrappedSrc<Return>(
-  stockSrc: string,
-  device: string,
-  buildId: string | undefined,
-  useTemp: boolean,
-  callback: (stockSrc: string) => Promise<Return>,
-) {
-  return await withTempDir(async tmp => {
-    // Prepare stock system source
-    let wrapBuildId = buildId == undefined ? null : buildId
-    let wrapped = await withSpinner('Extracting stock system source', spinner =>
-      wrapSystemSrc(stockSrc, device, wrapBuildId, useTemp, tmp, spinner),
-    )
-    let wrappedSrc = wrapped.src!
-
-    return await callback(wrappedSrc)
-  })
-}
+import { downloadDeviceImage } from '../images/download'
+import { exists, isDirectory, isFile, listFilesRecursive } from '../util/fs'
+import { UNPACKABLE_BOOT_PARTITION_IMAGES, UNPACKABLE_PARTITION_IMAGES } from '../util/partitions'
+import { spawnAsync, spawnAsyncNoOut } from '../util/process'
 
 export interface DeviceImages {
   factoryImage: DeviceImage
@@ -307,13 +36,18 @@ export async function prepareDeviceImages(
   // if not specified, current build ID is used for each device
   maybeBuildIds?: string[],
 ) {
-  let allImages: DeviceImage[] = []
-
   let imagesMap = new Map<DeviceBuildId, DeviceImages>()
 
   for (let deviceConfig of devices) {
     for (let type of types) {
-      let buildIds = maybeBuildIds ?? [deviceConfig.device.build_id]
+      let buildIds = maybeBuildIds
+      if (buildIds === undefined) {
+        buildIds = [deviceConfig.device.build_id]
+        let backportBuildId = deviceConfig.device.backport_build_id
+        if (backportBuildId !== undefined) {
+          buildIds.push(backportBuildId)
+        }
+      }
 
       for (let buildIdSpec of buildIds) {
         let buildId = resolveBuildId(buildIdSpec, deviceConfig)
@@ -333,51 +67,54 @@ export async function prepareDeviceImages(
           map.set(deviceImage.type, deviceImage)
         }
         imagesMap.set(deviceBuildId, images)
-        allImages.push(deviceImage)
       }
     }
   }
 
-  await downloadMissingDeviceImages(allImages)
+  let jobs = Array.from(imagesMap.values()).map(images =>
+    (async () => {
+      let imageToUnpack: DeviceImage | null = null
+      if (images.factoryImage !== undefined && !images.factoryImage.isGrapheneOsImage()) {
+        imageToUnpack = images.factoryImage
+      } else if (images.otaImage !== undefined) {
+        imageToUnpack = images.otaImage
+      }
 
-  let jobs: Promise<unknown>[] = []
-  let destinationDirNames: string[] = []
+      if (imageToUnpack === null) {
+        return
+      }
 
-  for (let images of imagesMap.values()) {
-    let imageToUnpack: DeviceImage | null = null
-    if (images.factoryImage !== undefined && !images.factoryImage.isGrapheneOsImage()) {
-      imageToUnpack = images.factoryImage
-    } else if (images.otaImage !== undefined) {
-      imageToUnpack = images.otaImage
-    }
+      using statusLine = new StatusLine('')
 
-    if (imageToUnpack === null) {
-      continue
-    }
+      if (!(await imageToUnpack.isPresent())) {
+        await downloadDeviceImage(imageToUnpack, statusLine)
+      }
 
-    let dirName = getUnpackedImageDirName(imageToUnpack)
-    let dir = path.join(IMAGE_DOWNLOAD_DIR, 'unpacked', dirName)
-    images.unpackedFactoryImageDir = dir
+      let dirName = getUnpackedImageDirName(imageToUnpack)
+      let dir = path.join(IMAGE_DOWNLOAD_DIR, 'unpacked', dirName)
+      images.unpackedFactoryImageDir = dir
 
-    if (await isDirectory(path.join(dir, UNPACKED_APEXES_DIR_NAME))) {
-      continue
-    }
+      if (await isDirectory(path.join(dir, BASE_FIRMWARE_DIR))) {
+        return
+      }
 
-    destinationDirNames.push(dirName)
+      if (unpackSemaphore.isLocked()) {
+        statusLine.set('pending unpack of ' + imageToUnpack.toString())
+      }
 
-    jobs.push(unpackImage(imageToUnpack, dir))
-  }
-
-  if (jobs.length > 0) {
-    console.log(`Unpacking image${maybePlural(destinationDirNames)}: ${destinationDirNames.join(', ')}`)
-    let label = 'Unpack completed in'
-    console.time(label)
-    await Promise.all(jobs)
-    console.timeEnd(label)
-  }
+      await unpackSemaphore.runExclusive(async () => {
+        statusLine.set('unpacking ' + imageToUnpack.toString())
+        await unpackImage(imageToUnpack, dir)
+      })
+    })(),
+  )
+  await Promise.all(jobs)
 
   return imagesMap
 }
+
+const unpackConcurrency = parseInt(process.env['ADEVTOOL_UNPACK_CONCURRENCY'] ?? '10')
+const unpackSemaphore = new Semaphore(unpackConcurrency)
 
 async function unpackImage(imageToUnpack: DeviceImage, destDir: string) {
   if (await isDirectory(destDir)) {
@@ -406,12 +143,14 @@ async function unpackImage(imageToUnpack: DeviceImage, destDir: string) {
 
   await fs.rename(destTmpDir, destDir)
 
-  console.log('unpacked ' + getUnpackedImageDirName(imageToUnpack))
+  log('unpacked ' + getUnpackedImageDirName(imageToUnpack))
 }
 
 function getUnpackedImageDirName(image: DeviceImage) {
   return image.deviceConfig.device.name + '-' + image.buildId
 }
+
+export const BASE_FIRMWARE_DIR = 'base-firmware'
 
 async function unpackFactoryImage(factoryImagePath: string, image: DeviceImage, out: string) {
   assert(image.type === ImageType.Factory)
@@ -428,14 +167,29 @@ async function unpackFactoryImage(factoryImagePath: string, image: DeviceImage, 
     }
   }
 
+  let baseFwDir = path.join(out, BASE_FIRMWARE_DIR)
+  await fs.mkdir(baseFwDir)
+
   let fd = await fs.open(factoryImagePath, 'r')
   try {
     let fdSize = (await fd.stat()).size
     let outerZip = await yauzl.fromReader(new FdReader(fd, 0, fdSize), fdSize)
 
+    let jobs = []
+
     for await (let entryP of outerZip) {
       let entry: yauzl.Entry = entryP
       let entryName = entry.filename
+
+      if (entryName.endsWith('.img')) {
+        jobs.push(
+          (async () => {
+            let dstFilePath = path.join(baseFwDir, path.basename(entryName))
+            await pipeline(await outerZip.openReadStream(entry), (await fs.open(dstFilePath, 'w')).createWriteStream())
+          })(),
+        )
+        continue
+      }
 
       let isInnerZip = false
 
@@ -468,17 +222,13 @@ async function unpackFactoryImage(factoryImagePath: string, image: DeviceImage, 
         entry.uncompressedSize,
       )
 
-      let promises = []
-
       let fsType = image.deviceConfig.device.system_fs_type
 
       for await (let innerEntry of innerZip) {
-        promises.push(unpackFsImageZipEntry(innerEntry, fsType, out))
+        jobs.push(unpackFsImageZipEntry(innerEntry, fsType, out))
       }
-
-      await Promise.all(promises)
-      return
     }
+    await Promise.all(jobs)
   } finally {
     await fd.close()
   }
@@ -553,6 +303,8 @@ async function unpackApexes(unpackedPartitionDir: string, baseUnpackedImageDir: 
   await Promise.all(jobs)
 }
 
+export const MKBOOTIMG_ARGS_FILE_NAME = 'mkbootimg_args'
+
 async function unpackApex(apexPath: string, dstPath: string) {
   await fs.mkdir(dstPath, { recursive: true })
 
@@ -607,7 +359,7 @@ async function unpackBootImage(fsImagePath: string, destinationDir: string) {
   imgInfo = imgInfo.replaceAll(destinationDir + '/', '')
 
   let jobs: Promise<unknown>[] = []
-  jobs.push(fs.writeFile(path.join(destinationDir, 'mkbootimg_args'), imgInfo))
+  jobs.push(fs.writeFile(path.join(destinationDir, MKBOOTIMG_ARGS_FILE_NAME), imgInfo))
 
   for await (let file of listFilesRecursive(destinationDir)) {
     let basename = path.basename(file)
@@ -657,7 +409,7 @@ async function unpackFsImageZipEntry(entry: yauzl.Entry, fsType: FsType, unpacke
 
   let fsImageBaseName = path.basename(fsImageName, expectedExt)
 
-  if (!ALL_KNOWN_PARTITIONS.has(fsImageBaseName)) {
+  if (!UNPACKABLE_PARTITION_IMAGES.has(fsImageBaseName)) {
     return
   }
 
@@ -682,14 +434,14 @@ async function unpackFsImage(fsImagePath: string, fsType: FsType, baseDestinatio
 
   let fsImageBaseName = path.basename(fsImageName, expectedExt)
 
-  if (!ALL_KNOWN_PARTITIONS.has(fsImageBaseName)) {
+  if (!UNPACKABLE_PARTITION_IMAGES.has(fsImageBaseName)) {
     return false
   }
 
   let destinationDir = path.join(baseDestinationDir, fsImageBaseName)
   await fs.mkdir(destinationDir)
 
-  if (BOOT_PARTITIONS.has(fsImageBaseName)) {
+  if (UNPACKABLE_BOOT_PARTITION_IMAGES.has(fsImageBaseName)) {
     await unpackBootImage(fsImagePath, destinationDir)
     return true
   }
@@ -700,11 +452,60 @@ async function unpackFsImage(fsImagePath: string, fsType: FsType, baseDestinatio
     assert(fsType === FsType.EROFS)
     await unpackErofs(fsImagePath, destinationDir)
   }
+
+  // unpack compressed APKs
+  await Promise.all(
+    ['app', 'priv-app'].map(async appsDirName => {
+      let appsDirPath = path.join(destinationDir, appsDirName)
+      if (!(await isDirectory(appsDirPath))) {
+        return
+      }
+      let jobs: Promise<void>[] = []
+      for (let filePath of await Array.fromAsync(listFilesRecursive(appsDirPath))) {
+        let suffix = '.apk.gz'
+        if (!filePath.endsWith(suffix)) {
+          //log(filePath)
+          continue
+        }
+        jobs.push(
+          (async () => {
+            let parts = path.relative(destinationDir, filePath).split('/')
+            assert(parts.length === 3, filePath)
+            let fileName = parts[2]
+            let appName = fileName.slice(0, -suffix.length)
+            assert(parts[0] === appsDirName)
+            assert(parts[1] === appName)
+
+            // remove stub APK
+            let appStubName = appName + '-Stub'
+            let appStubDir = path.join(destinationDir, appsDirName, appStubName)
+            let stubApk = path.join(appStubDir, appStubName + '.apk')
+            assert(await isFile(stubApk))
+            await fs.rm(stubApk)
+            assert((await Array.fromAsync(listFilesRecursive(appStubDir))).length === 0)
+            await fs.rmdir(appStubDir)
+
+            let dstFilePath = filePath.slice(0, -'.gz'.length)
+            assert(!(await exists(dstFilePath)), dstFilePath)
+
+            await pipeline(
+              (await fs.open(filePath, 'r')).createReadStream(),
+              zlib.createGunzip(),
+              (await fs.open(dstFilePath, 'w')).createWriteStream(),
+            )
+            await fs.rm(filePath)
+          })(),
+        )
+      }
+      await Promise.all(jobs)
+    }),
+  )
+
   await unpackApexes(destinationDir, baseDestinationDir)
   return true
 }
 
-const UNPACKED_APEXES_DIR_NAME = 'unpacked_apexes'
+export const UNPACKED_APEXES_DIR_NAME = 'unpacked_apexes'
 
 export function getUnpackedApexesDir(images: DeviceImages) {
   return path.join(images.unpackedFactoryImageDir, UNPACKED_APEXES_DIR_NAME)

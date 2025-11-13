@@ -1,3 +1,521 @@
 includes:
   - pixel.yml
-  - gs.yml
+
+device:
+  platform: laguna
+  build_id: BD3A.251105.010.E1
+
+package_exclusions:
+  - com.google.android.apps.bard # Gemini
+  - com.google.android.apps.credentialmanager # Google Password Manager
+  - com.google.android.apps.pixel.psi # PixelSense / Device Intelligence
+  - com.google.android.apps.pixel.subzero
+
+kernel_cmdline_inclusions:
+  - aoc_core.aoc_enable_gsa_boot=1
+  - init_on_alloc=0
+  - init_on_free=1
+  - vh_sched.load_sequential=1
+
+sepolicy_inclusions:
+  system_ext:
+    contexts:
+      system_ext_property_contexts:
+        - persist.fingerprint.screenprotector.config u:object_r:fingerprint_sp_prop:s0 exact string
+  vendor:
+    contexts:
+      vendor_file_contexts:
+        - /(vendor|system/vendor)/bin/etraced u:object_r:etraced_exec:s0
+        - /data/vendor/android.hardware.camera.provider@2.7-service-google(/.*)? u:object_r:vendor_camera_data_file:s0
+        - /dev/block/by-name/rdbl u:object_r:rdbl_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/abl_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/bl31_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/bl_data u:object_r:vendor_bootlogs_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/boot_[ab] u:object_r:boot_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/cap_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/cpm_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/dbc_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/dbl_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/devinfo u:object_r:devinfo_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/dpm_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/dram_init_0_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/dram_init_1_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/dram_init_2_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/dram_init_3_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/dram_init_4_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/dram_init_5_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/dram_init_6_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/dram_init_7_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/dram_init_8_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/dram_init_9_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/dram_phy_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/dram_train_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/dtbo_[ab] u:object_r:dtbo_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/efs u:object_r:efs_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/efs_backup u:object_r:efs_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/frp u:object_r:frp_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/gc_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/gdmc_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/gsa_bl1_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/gsa_fw_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/init_boot_[ab] u:object_r:boot_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/metadata u:object_r:metadata_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/mfg_data u:object_r:mfg_data_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/misc u:object_r:misc_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/modem_[ab] u:object_r:modem_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/modem_userdata u:object_r:modem_userdata_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/persist u:object_r:persist_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/pvmfw_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/super u:object_r:super_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/trusty_persist u:object_r:tee_persist_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/trusty_userdata u:object_r:tee_userdata_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/tzsw_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/ufs_internal u:object_r:ufs_internal_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/userdata u:object_r:userdata_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/vbmeta_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/vbmeta_system_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/vbmeta_vendor_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/vendor_boot_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/block/platform/3c400000\.ufs/by-name/vendor_kernel_boot_[ab] u:object_r:custom_ab_block_device:s0
+        - /dev/dri/card[0-9] u:object_r:graphics_device:s0
+        - /dev/dri/renderD128 u:object_r:gpu_device:s0
+        - /dev/dri/renderD[0-9]* u:object_r:gpu_device:s0
+        - /dev/esim_tracer u:object_r:radio_device:s0
+        - /dev/iif u:object_r:iif_device:s0
+        - /dev/logbuffer_tty1 u:object_r:logbuffer_device:s0
+        - /dev/lwis-.* u:object_r:lwis_device:s0
+        - /dev/pvr_sync u:object_r:gpu_device:s0
+        - /dev/ttyS1 u:object_r:hci_attach_dev:s0
+        - /dev/vpu u:object_r:video_device:s0
+        - /sys/devices/platform/([0-9A-Fa-f])+.gsa-ns/log_intermediate u:object_r:sysfs_gsa:s0
+        - /sys/devices/platform/([0-9A-Fa-f])+.gsa-ns/log_main u:object_r:sysfs_gsa:s0
+        - /sys/devices/platform/([0-9A-Fa-f])+.gsa-ns/rom_patch u:object_r:sysfs_gsa:s0
+        - /sys/devices/platform/9000000.aoc/.*/wakeup.* u:object_r:sysfs_wakeup:s0
+        - /vendor/bin/dump/dump_bootlogs_bldr u:object_r:dump_bootlogs_bldr_exec:s0
+        - /vendor/bin/dump/dump_chip_info u:object_r:dump_chip_info_exec:s0
+        - /vendor/bin/dump/dump_clocks u:object_r:dump_clocks_exec:s0
+        - /vendor/bin/dump/dump_display_userdebug\.sh u:object_r:dump_pixel_display_userdebug_exec:s0
+        - /vendor/bin/dump/dump_dwc3\.sh u:object_r:dump_dwc3_exec:s0
+        - /vendor/bin/dump/dump_gsa u:object_r:dump_gsa_exec:s0
+        - /vendor/bin/dump/dump_interrupts_traces u:object_r:dump_interrupts_traces_exec:s0
+        - /vendor/bin/dump/dump_mailbox u:object_r:dump_mailbox_exec:s0
+        - /vendor/bin/dump/dump_pixel_display u:object_r:dump_pixel_display_exec:s0
+        - /vendor/bin/dump/dump_telemetry u:object_r:dump_telemetry_exec:s0
+        - /vendor/bin/dump/dump_uwb u:object_r:dump_uwb_exec:s0
+        - /vendor/bin/hw/android\.hardware\.composer\.drm-hwc3-service u:object_r:hal_graphics_composer_default_exec:s0
+        - /vendor/bin/hw/android\.hardware\.gatekeeper@1\.0-service\.software u:object_r:hal_gatekeeper_default_exec:s0
+        - /vendor/bin/hw/android\.hardware\.health-service\.laguna u:object_r:hal_health_default_exec:s0
+        - /vendor/bin/hw/android\.hardware\.samsung\.uwb-service u:object_r:hal_uwb_vendor_default_exec:s0
+        - /vendor/bin/hw/google\.hardware\.media\.c2@3\.0-service u:object_r:mediacodec_google_exec:s0
+        - /vendor/bin/hw/init.h2omg.sh u:object_r:h2omg_vendor_exec:s0
+        - /vendor/bin/hw/init_rdbl\.sh u:object_r:init_rdbl_exec:s0
+        - /vendor/bin/hw/pixel\.gralloc\.allocator-V[1-2]-service u:object_r:hal_graphics_allocator_default_exec:s0
+        - /vendor/bin/hw/vendor\.google\.plat_security-service u:object_r:hal_plat_security_exec:s0
+        - /vendor/bin/shared_modem_platform u:object_r:shared_modem_platform_exec:s0
+        - /vendor/lib64/hw/android\.hardware\.graphics\.mapper@4\.0-impl-pixel\.so u:object_r:same_process_hal_file:s0
+        - /vendor/lib64/hw/vulkan.powervr\.so u:object_r:same_process_hal_file:s0
+        - /vendor/lib64/libIMGegl\.so u:object_r:same_process_hal_file:s0
+        - /vendor/lib64/libPVROCL\.so u:object_r:same_process_hal_file:s0
+        - /vendor/lib64/libPixelGrallocProperties\.so u:object_r:same_process_hal_file:s0
+        - /vendor/lib64/libcustomer_gralloc_ddk_api\.so u:object_r:same_process_hal_file:s0
+        - /vendor/lib64/libedgetpu_litert\.so u:object_r:same_process_hal_file:s0
+        - /vendor/lib64/libsrv_um\.so u:object_r:same_process_hal_file:s0
+        - /vendor/lib64/libufwriter\.so u:object_r:same_process_hal_file:s0
+        - /vendor/lib64/libusc\.so u:object_r:same_process_hal_file:s0
+
+      vendor_property_contexts:
+        - persist.vendor.display.primary. u:object_r:vendor_display_prop:s0
+        - persist.vendor.pixel_gralloc.compression u:object_r:vendor_pixel_gralloc_prop:s0
+        - persist.vendor.pixel_gralloc.compression.camera u:object_r:vendor_pixel_gralloc_prop:s0
+        - persist.vendor.pixel_gralloc.compression.cpu u:object_r:vendor_pixel_gralloc_prop:s0
+        - persist.vendor.pixel_gralloc.compression.dpu u:object_r:vendor_pixel_gralloc_prop:s0
+        - persist.vendor.pixel_gralloc.compression.gpu u:object_r:vendor_pixel_gralloc_prop:s0
+        - persist.vendor.pixel_gralloc.compression.tpu u:object_r:vendor_pixel_gralloc_prop:s0
+        - persist.vendor.pixel_gralloc.compression.video_decoder u:object_r:vendor_pixel_gralloc_prop:s0
+        - persist.vendor.pixel_gralloc.compression.video_encoder u:object_r:vendor_pixel_gralloc_prop:s0
+        - ro.vendor.camera. u:object_r:vendor_camera_prop:s0
+        - ro.vendor.display. u:object_r:vendor_display_prop:s0
+        - ro.vendor.primarydisplay. u:object_r:vendor_display_prop:s0
+        - ro.vendor.secondarydisplay. u:object_r:vendor_display_prop:s0
+        - vendor.sys.usb.adb.disabled u:object_r:vendor_usb_config_prop:s0
+
+      vendor_service_contexts:
+        - com.google.input.ITwoshayFileDumpService/touchflow_default u:object_r:twoshay_file_dump_service:s0
+        - com.google.input.ITwoshayFileDumpService/touchflow_outer u:object_r:twoshay_file_dump_service:s0
+        - com.google.input.ITwoshayFileDumpService/twoshay u:object_r:twoshay_file_dump_service:s0
+        - telephony.oem.oemrilhook u:object_r:radio_service:s0
+        - vendor.google.plat_security.ISecureTimestamp/default u:object_r:hal_plat_security_service:s0
+        - vendor.google.plat_security.ITrustyDecrypt/default u:object_r:hal_plat_security_service:s0
+
+    mac_permissions_entries:
+      - |-
+        <signer signature="308205c8308203b0a003020102021408f8cf733273e15bef8c518f6ba9524aa1c70d45300d06092a864886f70d01010b05003074310b3009060355040613025553311330110603550408130a43616c69666f726e6961311630140603550407130d4d6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e632e3110300e060355040b1307416e64726f69643110300e06035504031307416e64726f69643020170d3234303831393138313032395a180f32303534303831393138313032395a3074310b3009060355040613025553311330110603550408130a43616c69666f726e6961311630140603550407130d4d6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e632e3110300e060355040b1307416e64726f69643110300e06035504031307416e64726f696430820222300d06092a864886f70d01010105000382020f003082020a0282020100ace99ad6ed0adb2946dc8f26b0f3508c7270a542b2ec32020dc9d9389438f1f448831b730e7a70891ea5d175ed29aebceaec2ff5a7f84de6051dafac55291e1765e3b6c489a35d9c7206d814915c1d6c9df4dc719a69fc472334b90e363b38928cf86cabe4942eac990a9b1f295731fbced8cf9403b0d543510285a61a66be8399f6547061ccf27b9d7de0c20d3397b483c3292e19ac2213401085ee43bb584ea78ff888462ce34fa58d7f6eff7e7d39273f9583b5cb2fd32dfd2b4de4d0ffe1526ce9ac526792f1680bf922efbd5a1023093be1bf010e2e816b30f797ed1e88a2b52711cd4a62c20620d0e2c93aa284c2545610362d88126dd082dfa56857fd3b4115ed6fd0cddfce9b682c4d62578a87a45d5f50f73f1ddc328597fc4d2d761708e6592c98aa96dfa58a0e4ea742f035eaf4ac19e8473da4bee98833700012bc7e8fc3a8e4e734a8230bfef0bdbff0b736eee2c85b25c331a8e7274ad06b831a301034913249775ff428e1e734461ef68e411b7ca6550c7db6e09a709151f8bdcc2b51746471cac475ad3d6b9b15c11d62b5d6f33748ae6cbd0550cb3716e1319b22e89356b6f62c3bda6bbfe2f869f74f7f0a7dc520f3d09483a417e68c4758fd23bf3f62c0794002ac1bf34cfe7e3f4cf4f80949739482eae29dd965f16d7b5da69f5a84898c970cebd0a0e9d777294acd436d32f68a965e73671743f1470203010001a350304e300c0603551d13040530030101ff301d0603551d0e0416041486fb590f5c1ad81b3e19b50eaadce159993e6b03301f0603551d2304183016801486fb590f5c1ad81b3e19b50eaadce159993e6b03300d06092a864886f70d01010b050003820201000dd3f32d5808f4e46253b2ef8c2d8374e1ced79dc2a3f0bce768c48128966a1702dbdb0e149887019a9b45fdac11a8ad5b8989d0ce6d7a776b3c3e0a10d8731a04f46a55c2f2ca2c7025c7101415b47c94fc7fbf31bbda65f386f4e50d1ab9b273a680c68668a5ea6b45f47953e5f45a39c22342a27232c154e13d7754d78371caca9e9cc294425199cda4e6efc529717ae9f5c0e4bde08b80a01387e76a2c334a67622715c62c80059f164e29e7b83ea83729e52a0f0753afea72368e5c31c1bb14fd4acb67d7e5097c6ca5d27fbef1df1d5678035d172c62aa8cc5a03edb3e0918152623a5339bd8d7b4d06bfa014446f564fd2de3b0142d4564791e4db663b1d05a8d28a9528a4d687ab7fc16a15d85111154d4dcb658a15786ca493ed57619890ddf90bd9717ffc678cffd9c6d1b0aabc1f32fa5f1c0efebc34a6002b828a9d28ba9d6f2532b640500658260d2ed3ec6d1d18c35ba9a1b03fe9755a4f29744b044b07764490f705efd917bebf8a1f63f13342f72f2a01e46f998b2afb63b10dbc1f6b2ff22fe7b3e6a93f7138f232eec8664e805d31ca5e76e540debd50b299d4bba19d0bfafb97cbe7793ab9160d4bcb97c814ca1cc93241a436f8379b4172c48ebe882468a51d064c9cf0a141df09fc70bbdf82c7a878ae080f63a6d80f48e37b32ccaafe4e4c97851110fafc46e7bf63fbfd8a0fb42bf77badc955deb">
+          <seinfo value="pms"/>
+        </signer>
+
+sysconfig_exclusions:
+  - |-
+    <permission name="com.google.android.aicore.permission.VENDOR_INTELLIGENCE">
+      <group gid="vendor_intelligence"/>
+    </permission>
+  - <allow-association target="com.google.android.apps.pixel.psi" allowed="com.google.android.as"/>
+  - <allow-association target="com.google.android.apps.pixel.psi" allowed="com.google.android.as.oss"/>
+  - <allow-association target="com.google.android.apps.pixel.psi" allowed="com.google.android.providers.media.module"/>
+  - <allow-association target="com.google.android.apps.pixel.psi" allowed="com.google.android.settings.intelligence"/>
+  - <allow-association target="com.google.android.as" allowed="com.google.android.apps.pixel.psi"/>
+  - <allow-association target="com.google.android.as.oss" allowed="com.android.systemui"/>
+  - <allow-association target="com.google.android.as.oss" allowed="com.google.android.apps.messaging"/>
+  - <allow-association target="com.google.android.as.oss" allowed="com.google.android.apps.pixel.psi"/>
+  - <allow-association target="com.google.android.as.oss" allowed="com.google.android.apps.pixel.subzero"/>
+  - <allow-association target="com.google.android.as.oss" allowed="com.google.android.apps.weather"/>
+  - <allow-association target="com.google.android.as.oss" allowed="com.google.android.dialer"/>
+  - |-
+    <privapp-permissions package="com.android.phone">
+      <permission name="android.permission.NETWORK_FACTORY"/>
+    </privapp-permissions>
+
+sysconfig_inclusions:
+  - |-
+    <privapp-permissions package="com.google.android.modem.pms">
+      <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+      <permission name="android.permission.READ_PHONE_STATE"/>
+      <permission name="android.permission.ACCESS_WIFI_STATE"/>
+      <permission name="android.permission.CHANGE_WIFI_STATE"/>
+    </privapp-permissions>
+
+  - <feature name="com.google.android.feature.GEMINI_EXPERIENCE"/>
+  - <feature name="com.google.android.feature.PIXEL_2025_EXPERIENCE"/>
+  - <library name="com.google.android.camera.experimental2025" file="/vendor/framework/com.google.android.camera.experimental2025.jar"/>
+
+sysprop_inclusions:
+  - bluetooth.core.le.rpa_offload = true
+  - bluetooth.gd.start_timeout = 4000
+  - debug.renderengine.backend = skiaglthreaded
+  - debug.stagefright.c2-poolmask = 458752
+  - media.c2.remove_rendering_depth = true
+  - persist.bluetooth.finder.supported = true
+  - persist.fsck.disable_linear_lookup = on
+  - persist.sys.sf.color_mode = 9 # TODO investigate
+  - persist.vendor.audio.force.fm.enabled = false
+  - persist.vendor.gps.indoor.enabled = true
+  - persist.vendor.radio.config.carrier_config_dir = /mnt/vendor/modem_img/images/default/confpack
+  - persist.vendor.vibrator.hal.pwle.frequency.min_hz = 50.0
+  - persist.vendor.vibrator.hal.pwle.v2_supported = 1
+  - remote_provisioning.strongbox.rkp_only = 1
+  - remote_provisioning.tee.rkp_only = 1
+  - ro.appsearch.feature.enable_isolated_storage = true
+  - ro.bluetooth.leaudio_broadcast_switcher.supported = true
+  - ro.hardware.egl = powervr
+  - ro.hardware.vulkan = powervr
+
+  - ro.telephony.default_network = 26
+
+  - ro.vendor.primarydisplay.google-flea.temperature_path = /dev/thermal/tz-by-name/disp0_therm/temp
+  - ro.vendor.vibrator.hal.dvl.lra.non.f0.v = 4.4
+  - ro.vendor.vibrator.hal.dvl.peq.coefficients = FF270,E007BB,100704,F0068C,1FF845,100000
+  - vendor.google.silicon.enable_iif_for_isolated_app = 1
+  - vendor.google.silicon.enable_iif_for_priv_app = 1
+  - persist.bluetooth.leaudio_sw_offload = true
+  - persist.vendor.audio.leaudio_sw_offload = true
+  - persist.vendor.bluetooth.thread_dispatcher.enabled = true
+  - ro.camera.notify_nfc = 1
+  - ro.vendor.primarydisplay.thermal.skin_temperature_worker_period_ms = 30000
+  - ro.vendor.primarydisplay.xrr.blocking_zone.min_refresh_rate_by_nits = 5:120
+  - ro.vendor.primarydisplay.xrr.feat_present_timeout_enabled = true
+  - ro.vendor.primarydisplay.xrr.feat_refresh_rate_throttling_enabled = true
+  - ro.vendor.primarydisplay.xrr.feat_te2_manager_enabled = true
+  - ro.vendor.primarydisplay.xrr.vrr_expected_present.headsup_ns = 30000000
+  - ro.vendor.primarydisplay.xrr.vrr_expected_present.timeout_ns = 500000000
+
+sysprop_exclusions:
+  - ro.appsearch.feature.enable_isolated_storage = true # TODO
+  - ro.product.ab_ota_partitions = abl,bl31,boot,cap,cpm,dbc,dbl,dram_init_0,dram_init_1,dram_init_2,dram_init_3,dram_init_4,dram_init_5,dram_init_6,dram_init_7,dram_init_8,dram_init_9,dram_phy,dtbo,gc,gdmc,gsa_bl1,gsa_fw,init_boot,modem,product,pvmfw,system,system_dlkm,system_ext,tzsw,vbmeta,vbmeta_system,vbmeta_vendor,vendor,vendor_boot,vendor_dlkm,vendor_kernel_boot
+  - ro.vendor.build.ab_ota_partitions = abl,bl31,boot,cap,cpm,dbc,dbl,dram_init_0,dram_init_1,dram_init_2,dram_init_3,dram_init_4,dram_init_5,dram_init_6,dram_init_7,dram_init_8,dram_init_9,dram_phy,dtbo,gc,gdmc,gsa_bl1,gsa_fw,init_boot,modem,product,pvmfw,system,system_dlkm,system_ext,tzsw,vbmeta,vbmeta_system,vbmeta_vendor,vendor,vendor_boot,vendor_dlkm,vendor_kernel_boot
+  - com.google.android.setupwizard.complianceDate = 2025-03-01
+  - ro.config.alarm_alert = Fresh_morning.ogg
+  - ro.config.notification_sound = Kernel.ogg
+  - ro.config.ringtone = The_next_adventure.ogg
+  - setupwizard.feature.device_info_icon_enabled = true
+  - setupwizard.feature.enable_gil_logging = true
+  - setupwizard.feature.enable_minors_setup_flow = true
+  - setupwizard.feature.enable_parental_notice_activity = true
+  - setupwizard.feature.enhanced_setup_design_metrics = true
+  - setupwizard.feature.is_suw_onboarding_contract_enabled = true
+  - setupwizard.feature.joined_up_loading = true
+  - setupwizard.feature.locale_agnostic_enabled = true
+
+vintf_inclusions:
+  - com.google.input.ITwoshayFileDumpService/touchflow_default
+  - com.google.input.ITwoshayFileDumpService/touchflow_outer
+  - com.google.input.ITwoshayFileDumpService/twoshay
+  - vendor.google.plat_security.ISecureTimestamp/default
+  - vendor.google.plat_security.ITrustyDecrypt/default
+
+filters:
+  overlay_inclusions:
+    match:
+      - android:bool/config_enterDesktopByDefaultOnFreeformDisplay = true
+      - android:array/config_angleAllowList = com.dreamgames.royalmatch;com.dts.freefiremax;com.dxx.firenow;com.gramgames.mergedragons;com.ludo.king;com.mojang.minecraftpe;com.my.defense;com.nintendo.zaka;com.os.airforce;com.playrix.fishdomdd.gplay;io.teslatech.callbreak;jp.konami.prospia;net.peakgames.toonblast
+      - android:array/config_ambientThresholdLevels = 1;2;3;4;5;6;7;8;9;10;11;13;15;17;19;20;22;25;27;30;32;35;37;40;50;60;70;80;90;100;200;300;400;500;600;700;800;900;1000;2000;3000;4000
+      - android:bool/config_screen_off_udfps_default_on = true
+      - android:bool/config_screen_off_udfps_enabled = true
+      - android:integer/config_displayWhiteBalanceColorTemperatureFilterHorizon = 1000
+      - android:integer/config_displayWhiteBalanceColorTemperatureSensorRate = 100
+      - android:integer/config_displayWhiteBalanceTransitionTimeDecrease = 8000
+      - android:integer/config_displayWhiteBalanceTransitionTimeIncrease = 3000
+      - android:integer/config_nightDisplayColorTemperatureDefault = 3339
+      - android:bool/config_evenDimmerEnabled = true
+      - android:bool/config_useRoundIcon = true
+      - android:integer/config_externalDisplayPeakHeight = 2160
+      - android:integer/config_externalDisplayPeakWidth = 3840
+      - com.android.systemui:dimen/volume_panel_corner_radius = 52.0dp
+      - com.android.settings:array/sp_config_001_first_party_hals = 08282300;082e2700;08342300;083a2700;08402900;08462300;084c2300;08522900;08582100;085e2300;086a2300;08702300;08762300;087c2300;08822300;08882300;088e2300
+      - com.android.settings:array/sp_config_001_ui_model_names = ZAGG Glass;OtterBox Premium Glass;Case-Mate Glass;Power Support Glass;dBrand Prism Glass;Mous Tempered Glass;ZAGG XTR4;ZAGG Glass Elite Privacy;Spigen Glass tR EZ Fit;Belkin InvisiGlass;UAG Glass Shield;BigBen Standard;BigBen Mineral Strong;BigBen Organic Strong;Casefinite Glass;Fellowes Duraglass Glass;SBS Clear Glass
+      - com.android.settings:raw/fingerprint_sp_apply_2024 = 06aa1321a5d862f14c1fa75b5f9b26f78039be91a500f323368c781f6ffd372c
+      - com.android.settings:raw/udfps_edu_lottie|*
+      - com.android.telephony.imsmedia:bool/power_hint_enabled = true
+      - com.android.systemui:bool/config_screen_protector_notification_v2_1 = true
+      - android:bool/config_dozeSupportsAodWallpaper = true
+      - com.android.connectivity.resources/ServiceConnectivityResourcesConfig:bool/config_thread_country_code_enabled = false
+      - com.android.connectivity.resources/ServiceConnectivityResourcesConfig:bool/config_thread_default_enabled = true
+      - com.android.uwb.resources/UwbCustomization:bool/enable_random_hopmodekey = true
+      - com.android.uwb.resources/UwbCustomization:bool/is_antenna_mode_config_supported = true
+      - android:array/config_availableEMValueOptions = 0;1
+      - com.android.settings:array/sp_config_001_first_party_hals = 082a2300;08302700;08362300;083c2700;08422900;08482300;084e2300;08542900;085a2100;08602300;086c2300;08722300;08782300;087e2300;08842300;088a2300;08902300
+
+  overlay_keys:
+    match:
+      - android:bool/config_pinnerHomeApp = true
+      - android:array/theming_defaults = WHT|SPRITZ|#CFC6B4;BLK|SPRITZ|#404945;GRY|SPRITZ|#9A9EAD;GRN|TONAL_SPOT|#B6CF90;PPL|EXPRESSIVE|#BAC3FF;YEL|EXPRESSIVE|#DDEB78;BUE|VIBRANT|#6F9BFF;RED|VIBRANT|#FF6F7F;*|TONAL_SPOT|home_wallpaper
+      - com.android.nfc/NfcCustomization:array/tag_intent_blocked_app_list = com.google.android.tag
+      - android:string/config_systemVendorIntelligence = com.google.android.apps.pixel.psi
+      - android:string/config_fingerprintFrrTargetComponent = com.android.settings/com.google.android.settings.biometrics.frr.ui.view.FrrNotificationActivity
+
+  file_exclusions:
+    match:
+      - vendor/bin/storage_intelligence.sh
+      - vendor/etc/init/storage.intelligence.rc
+
+  file_inclusions:
+    match:
+      - vendor/apex/com.google.muzel.hardware.threadnetwork.apex
+      - vendor/bin/dump/dump_uwb
+      - vendor/bin/hw/android.hardware.samsung.uwb-service
+      - vendor/etc/displayconfig/display_aical_google-bzea.pb
+      - vendor/etc/displayconfig/display_cgc_inference_google-bzea.tflite
+      - vendor/etc/displayconfig/display_cgc_pool_google-bzea.bin
+      - vendor/etc/displayconfig/display_colorcal_desc_data_google-bzea.pb
+      - vendor/etc/displayconfig/display_hbm_regamma_inference_google-bzea.tflite
+      - vendor/etc/displayconfig/display_hbm_regamma_pool_google-bzea.bin
+      - vendor/etc/displayconfig/display_nbm_regamma_inference_google-bzea.tflite
+      - vendor/etc/displayconfig/display_nbm_regamma_pool_google-bzea.bin
+      - vendor/etc/displayconfig/display_sharpness_google-bzea_0.pb
+      - vendor/etc/init/android.hardware.samsung.uwb-service.rc
+      - vendor/etc/init/hw/init.blazer.rc
+      - vendor/etc/panel_ctrl_google-bzea_cal0.pb
+      - vendor/etc/thread_power_limits_CA.csv
+      - vendor/etc/thread_power_limits_EU.csv
+      - vendor/etc/thread_power_limits_JP.csv
+      - vendor/etc/thread_power_limits_US.csv
+      - vendor/etc/thread_power_limits.csv
+      - vendor/etc/uwb/samsung_uwb_cal_region-ce.json
+      - vendor/etc/uwb/samsung_uwb_cal_region-default.json
+      - vendor/etc/uwb/samsung_uwb_cal_region-fcc.json
+      - vendor/etc/uwb/samsung_uwb_cal_region-jp.json
+      - vendor/etc/uwb/samsung_uwb_cal_region-tw.json
+      - vendor/etc/uwb/samsung_uwb_hal_conf.json
+      - vendor/etc/uwb/samsung_uwb_region.json
+      - vendor/firmware/CPS4041_A0_01.bin
+      - vendor/firmware/u100FactoryInitFw_test.bin
+      - vendor/firmware/u100FactoryInitFw.bin
+      - vendor/firmware/u100FwUpdate_test.bin
+      - vendor/firmware/u100FwUpdate.bin
+      -
+      - system_ext/bin/userdata_alias_remove
+      - system_ext/etc/init/userdata.alias.remove.rc
+      - system_ext/lib64/vendor.google.whitechapel.audio.extension-V6-ndk.so
+      - system_ext/priv-app/EuiccSupportPixel-P23/DKA_0302_25.up
+      - system_ext/priv-app/PixelModemService/PixelModemService.apk
+      - vendor/bin/dump/dump_bootlogs_bldr
+      - vendor/bin/dump/dump_chip_info
+      - vendor/bin/dump/dump_dwc3.sh
+      - vendor/bin/dump/dump_gsa
+      - vendor/bin/dump/dump_interrupts_traces
+      - vendor/bin/dump/dump_mailbox
+      - vendor/bin/dump/dump_pixel_display
+      - vendor/bin/dump/dump_telemetry
+      - vendor/bin/hw/android.hardware.composer.drm-hwc3-service
+      - vendor/bin/hw/android.hardware.health-service.laguna
+      - vendor/bin/hw/google.hardware.media.c2@3.0-service
+      - vendor/bin/hw/init_rdbl.sh
+      - vendor/bin/hw/init.h2omg.sh
+      - vendor/bin/hw/pixel.gralloc.allocator-V2-service
+      - vendor/bin/hw/vendor.google.plat_security-service
+      - vendor/bin/pvrhwperfd
+      - vendor/bin/storage_intelligence.sh
+      - vendor/etc/audio/apmg3/downlink_bluetooth_headset_config.pb
+      - vendor/etc/audio/apmg3/downlink_dock_config.pb
+      - vendor/etc/audio/apmg3/downlink_external_speaker_config.pb
+      - vendor/etc/audio/apmg3/downlink_handset_config.pb
+      - vendor/etc/audio/apmg3/downlink_handset_hac_config.pb
+      - vendor/etc/audio/apmg3/downlink_speaker_config.pb
+      - vendor/etc/audio/apmg3/downlink_wired_headset_config.pb
+      - vendor/etc/audio/apmg3/uplink_bluetooth_headset_aec_off_config.pb
+      - vendor/etc/audio/apmg3/uplink_bluetooth_headset_aec_on_config.pb
+      - vendor/etc/audio/apmg3/uplink_dock_aec_off_config.pb
+      - vendor/etc/audio/apmg3/uplink_dock_aec_on_config.pb
+      - vendor/etc/audio/apmg3/uplink_external_speaker_aec_off_config.pb
+      - vendor/etc/audio/apmg3/uplink_external_speaker_aec_on_config.pb
+      - vendor/etc/audio/apmg3/uplink_handset_aec_off_config.pb
+      - vendor/etc/audio/apmg3/uplink_handset_aec_on_config.pb
+      - vendor/etc/audio/apmg3/uplink_handset_hac_aec_off_config.pb
+      - vendor/etc/audio/apmg3/uplink_handset_hac_aec_on_config.pb
+      - vendor/etc/audio/apmg3/uplink_speaker_aec_off_config.pb
+      - vendor/etc/audio/apmg3/uplink_speaker_aec_on_config.pb
+      - vendor/etc/audio/apmg3/uplink_wired_headset_aec_off_config.pb
+      - vendor/etc/audio/apmg3/uplink_wired_headset_aec_on_config.pb
+      - vendor/etc/audio/bluenote/exported.xml
+      - vendor/etc/audio/bluenote/recording.gatf
+      - vendor/etc/audio/bluenote/smartfeature.gstf
+      - vendor/etc/audio/compensation/compens_spk_l.conf
+      - vendor/etc/audio/compensation/compens_spk_r.conf
+      - vendor/etc/audio/compensation/default_mic_compensation.bin
+      - vendor/etc/audio/config/audio_platform_configuration.xml
+      - vendor/etc/audio/config/audio_policy_volumes.xml
+      - vendor/etc/audio/config/default_volume_tables.xml
+      - vendor/etc/audio/config/mixer_paths.xml
+      - vendor/etc/audio/fortemedia/BLUETOOTH.dat
+      - vendor/etc/audio/fortemedia/HANDSET.dat
+      - vendor/etc/audio/fortemedia/HANDSFREE.dat
+      - vendor/etc/audio/fortemedia/HEADSET.dat
+      - vendor/etc/audio/fortemedia/mcps.dat
+      - vendor/etc/audio/spatializer/base
+      - vendor/etc/audio/spatializer/mode_2_ch
+      - vendor/etc/audio/spatializer/mode_6_ch
+      - vendor/etc/audio/spatializer/mode_xaural
+      - vendor/etc/audio/waves/waves_config_nx.ini
+      - vendor/etc/audio/waves/waves_config.ini
+      - vendor/etc/audio/waves/waves_preset_nx.mps
+      - vendor/etc/audio/waves/waves_preset.mps
+      - vendor/etc/bluetooth/firmware_config.json
+      - vendor/etc/bluetooth/hal_config.json
+      - vendor/etc/chre/location.napp_header
+      - vendor/etc/chre/location.so
+      - vendor/etc/displayconfig/display_aical_google-flea.pb
+      - vendor/etc/displayconfig/display_aical_google-fleb.pb
+      - vendor/etc/displayconfig/display_cgc_inference_google-flea.tflite
+      - vendor/etc/displayconfig/display_cgc_inference_google-fleb.tflite
+      - vendor/etc/displayconfig/display_cgc_pool_google-flea.bin
+      - vendor/etc/displayconfig/display_cgc_pool_google-fleb.bin
+      - vendor/etc/displayconfig/display_colorcal_desc_data_google-flea.pb
+      - vendor/etc/displayconfig/display_colorcal_desc_data_google-fleb.pb
+      - vendor/etc/displayconfig/display_hbm_regamma_inference_google-flea.tflite
+      - vendor/etc/displayconfig/display_hbm_regamma_inference_google-fleb.tflite
+      - vendor/etc/displayconfig/display_hbm_regamma_pool_google-flea.bin
+      - vendor/etc/displayconfig/display_hbm_regamma_pool_google-fleb.bin
+      - vendor/etc/displayconfig/display_nbm_regamma_inference_google-flea.tflite
+      - vendor/etc/displayconfig/display_nbm_regamma_inference_google-fleb.tflite
+      - vendor/etc/displayconfig/display_nbm_regamma_pool_google-flea.bin
+      - vendor/etc/displayconfig/display_nbm_regamma_pool_google-fleb.bin
+      - vendor/etc/displayconfig/display_sharpness_google-flea_0.pb
+      - vendor/etc/displayconfig/display_sharpness_google-fleb_0.pb
+      - vendor/etc/displayconfig/ltm_td_common.pb
+      - vendor/etc/displayconfig/smoothcal_lut_data-google-flea.txt
+      - vendor/etc/displayconfig/smoothcal_lut_data-google-fleb.txt
+      - vendor/etc/fstab.gem5
+      - vendor/etc/fstab.laguna
+      - vendor/etc/fstab.laguna-fips
+      - vendor/etc/future_vt_prediction_model.tflite
+      - vendor/etc/init/android.hardware.health-service.laguna.rc
+      - vendor/etc/init/drm_hwc3.rc
+      - vendor/etc/init/google.hardware.media.c2@3.0-service.rc
+      - vendor/etc/init/hw/init.frankel.rc
+      - vendor/etc/init/hw/init.laguna.rc
+      - vendor/etc/init/hw/init.laguna.usb.rc
+      - vendor/etc/init/init_rdbl.rc
+      - vendor/etc/init/init.h2omg.rc
+      - vendor/etc/init/init.interrupts.rc
+      - vendor/etc/init/init.mailbox.rc
+      - vendor/etc/init/pixel.gralloc.allocator-V2-service.rc
+      - vendor/etc/init/pixelstats-vendor.laguna.rc
+      - vendor/etc/init/storage.intelligence.rc
+      - vendor/etc/init/vendor.google.plat_security-service.rc
+      - vendor/etc/Khronos/OpenCL/vendors/IMG.icd
+      - vendor/etc/powervr.ini
+      - vendor/etc/thermal_info_config_stats.json
+      - vendor/etc/thermal_info_config_throttling.json
+      - vendor/etc/thermal_info_config_vt.json
+      - vendor/etc/thermal_info_config_wingboard.json
+      - vendor/firmware/CPS4041_A0_02.bin
+      - vendor/firmware/CPS4041_BL.bin
+      - vendor/firmware/CPS8200.signed.bin
+      - vendor/firmware/cs35l43-dsp1-spk-prot.bin
+      - vendor/firmware/cs35l43-dsp1-spk-prot.wmfw
+      - vendor/firmware/focaltech_testconf_b.ini
+      - vendor/firmware/focaltech_ts_fw_b.bin
+      - vendor/firmware/google/edgetpu-buenos.fw
+      - vendor/firmware/google/gxp-ganymede.fw
+      - vendor/firmware/gxp_ganymede_fw_core0
+      - vendor/firmware/gxp_ganymede_fw_core1
+      - vendor/firmware/gxp_ganymede_fw_core2
+      - vendor/firmware/laguna_pcie_phy_fw.bin
+      - vendor/firmware/R-cs35l43-dsp1-spk-prot.bin
+      - vendor/firmware/R-cs35l43-dsp1-spk-prot.wmfw
+      - vendor/firmware/rdbl.img
+      - vendor/firmware/rgx.fw.signed.71.2.2448.1212
+      - vendor/firmware/rgx.sh.71.2.2448.1212
+      - vendor/firmware/seurat.bin
+      - vendor/firmware/tx_mcu.signed.bin
+      - vendor/firmware/usb_phy_fw_2.27.0.bin
+      - vendor/firmware/usb_phy_fw.bin
+      - vendor/framework/com.google.android.camera.experimental2025.jar
+      - vendor/lib64/android.hardware.power.stats-impl.laguna.so
+      - vendor/lib64/egl/libEGL_powervr.so
+      - vendor/lib64/egl/libGLESv1_CM_powervr.so
+      - vendor/lib64/egl/libGLESv2_powervr.so
+      - vendor/lib64/hw/vulkan.powervr.so
+      - vendor/lib64/libaconfig_display_pixel_hwc_flags.so
+      - vendor/lib64/libcustomer_gralloc_ddk_api.so
+      - vendor/lib64/libedgetpu_litert.so
+      - vendor/lib64/libgc2_av1_enc.so
+      - vendor/lib64/libgc2_avc_dec.so
+      - vendor/lib64/libgc2_avc_enc.so
+      - vendor/lib64/libgc2_dec.so
+      - vendor/lib64/libgc2_enc.so
+      - vendor/lib64/libgc2_hevc_dec.so
+      - vendor/lib64/libgc2_hevc_enc.so
+      - vendor/lib64/libgc2_vdi_vpu.so
+      - vendor/lib64/libgc2_vp9_dec.so
+      - vendor/lib64/libIMGegl.so
+      - vendor/lib64/libMAM_Google_Pixel_Android.so
+      - vendor/lib64/libPixelGrallocProperties.so
+      - vendor/lib64/libPVROCL.so
+      - vendor/lib64/libPVRScopeServices.so
+      - vendor/lib64/libsrv_um.so
+      - vendor/lib64/libstreset25.so
+      - vendor/lib64/libufwriter.so
+      - vendor/lib64/libusc.so
+      - vendor/lib64/vendor.google.gnss_ext-V1-ndk.so
+      - vendor/lib64/vendor.google.plat_security-V1-ndk.so
+      - vendor_ramdisk/system/etc/fstab.gem5
+      - vendor_ramdisk/system/etc/fstab.laguna
+      - vendor_ramdisk/system/etc/fstab.laguna-fips
+      - recovery/lib/firmware/usb_phy_fw_2.27.0.bin
+      - recovery/lib/firmware/usb_phy_fw.bin
+      - recovery/serial-test
+      - recovery/system/bin/hw/android.hardware.health-service.laguna_recovery
+      - recovery/system/etc/init/android.hardware.health-service.laguna_recovery.rc
+      - recovery/system/etc/vintf/manifest/android.hardware.health-service.laguna.xml
+      - vendor/etc/displayconfig/display_aical_google-mtea.pb
+      - vendor/etc/displayconfig/display_cgc_inference_google-mtea.tflite
+      - vendor/etc/displayconfig/display_cgc_pool_google-mtea.bin
+      - vendor/etc/displayconfig/display_colorcal_desc_data_google-mtea.pb
+      - vendor/etc/displayconfig/display_hbm_regamma_inference_google-mtea.tflite
+      - vendor/etc/displayconfig/display_hbm_regamma_pool_google-mtea.bin
+      - vendor/etc/displayconfig/display_nbm_regamma_inference_google-mtea.tflite
+      - vendor/etc/displayconfig/display_nbm_regamma_pool_google-mtea.bin
+      - vendor/etc/displayconfig/display_sharpness_google-mtea_0.pb
+      - vendor/etc/init/hw/init.mustang.rc
+      - vendor/etc/panel_ctrl_google-mtea_cal0.pb
+      - vendor/firmware/CPS4041_A0_03.bin
+      - vendor/firmware/CPS4041_A0_05.bin

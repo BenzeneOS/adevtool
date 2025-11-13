@@ -3,6 +3,7 @@ import chalk from 'chalk'
 import { CopyOptions, promises as fs } from 'fs'
 import path from 'path'
 
+import assert from 'assert'
 import { createVendorDirs, VendorDirectories, writeVersionCheckFile } from '../blobs/build'
 import {
   decodeConfigs,
@@ -13,7 +14,9 @@ import {
 } from '../blobs/carrier'
 import { copyBlobs } from '../blobs/copy'
 import { BlobEntry } from '../blobs/entry'
+import { PseudoPath } from '../blobs/file-list'
 import { processOverlays } from '../blobs/overlays2'
+import { BuildSystemPackages } from '../build/make'
 import {
   DEVICE_CONFIGS_FLAG_WITH_BUILD_ID,
   DeviceBuildId,
@@ -33,21 +36,22 @@ import { forEachDevice } from '../frontend/devices'
 import {
   enumerateFiles,
   extractFirmware,
-  extractProps,
-  extractVintfManifests,
   generateBuildFiles,
+  getSdkVersion,
   loadCustomState,
-  PropResults,
-  resolveOverrides,
-  resolveSepolicyDirs,
+  processProps,
   updatePresigned,
   writeEnvsetupCommands,
 } from '../frontend/generate'
 import { writeReadme } from '../frontend/readme'
 import { DeviceImages, prepareDeviceImages } from '../frontend/source'
 import { BuildIndex, ImageType, loadBuildIndex } from '../images/build-index'
-import { SelinuxPartResolutions } from '../selinux/contexts'
+import { processApks } from '../processor/apk-processor'
+import { processSepolicy } from '../processor/sepolicy'
+import { processSysconfig } from '../processor/sysconfig'
+import { processVintf } from '../processor/vintf'
 import { gitDiff } from '../util/cli'
+import { mapGet } from '../util/data'
 import {
   DIR_SPEC_PLACEHOLDER,
   FileTreeComparison,
@@ -57,110 +61,93 @@ import {
   parseFileTreeSpecYaml,
 } from '../util/file-tree-spec'
 import { exists, listFilesRecursive } from '../util/fs'
+import { log } from '../util/log'
+import { PathResolver } from '../util/partitions'
+
+interface DeviceInfo {
+  sdkVersion: string
+}
 
 async function doDevice(
   dirs: VendorDirectories,
   config: DeviceConfig,
-  stockSrc: string,
+  pathResolver: PathResolver,
   customSrc: string,
-  factoryPath: string | undefined,
-  skipCopy: boolean,
   verbose: boolean,
 ) {
   // customSrc can point to a (directory containing) system state JSON
   let customState = await loadCustomState(config, customSrc)
 
-  // Each step will modify this. Key = combined part path
-  let namedEntries = new Map<string, BlobEntry>()
+  // Each step will modify this
+  let namedEntries = new Map<PseudoPath, BlobEntry>()
 
-  // 1. Diff files
-  if (verbose) console.log('Enumerating files')
-  await enumerateFiles(config.filters.files, config.filters.dep_files, namedEntries, customState, stockSrc)
+  if (verbose) log('Extracting properties')
+  let propResults = await processProps(config, customState, pathResolver)
 
-  // 2. Overrides
-  let buildPkgs: string[] = []
-  if (config.generate.overrides) {
-    if (verbose) console.log('Replacing blobs with buildable modules')
-    let builtModules = await resolveOverrides(config, customState, namedEntries)
-    buildPkgs.push(...builtModules)
-  }
+  if (verbose) log('Enumerating files')
+  let sdkVersion = getSdkVersion(propResults)
+  let enumerateFilesRes = await enumerateFiles(
+    config,
+    config.filters.file_exclusions,
+    config.filters.file_inclusions,
+    namedEntries,
+    customState.partitionFiles,
+    pathResolver,
+    sdkVersion,
+  )
+  assert(enumerateFilesRes !== null)
+
+  let apkProcessorResult = processApks(config, enumerateFilesRes.apkInfos, sdkVersion, pathResolver, customState, dirs)
+
   // After this point, we only need entry objects
   let entries = Array.from(namedEntries.values())
 
-  // 3. Presigned
-  if (config.generate.presigned) {
-    if (verbose) console.log('Marking apps as presigned')
-    await updatePresigned(config, entries, stockSrc)
-  }
+  let sysconfigModules = processSysconfig(config, pathResolver, apkProcessorResult, customState, dirs)
 
-  // 5. Extract
-  // Copy blobs (this has its own spinner)
-  if (config.generate.files && !skipCopy) {
-    await copyBlobs(entries, stockSrc, dirs.proprietary)
-  }
+  if (verbose) log('Processing sepolicy')
+  let sepolicyDirs = processSepolicy(config, customState, pathResolver, apkProcessorResult, dirs)
 
-  // 6. Props
-  let propResults: PropResults | null = null
-  if (config.generate.props) {
-    if (verbose) console.log('Extracting properties')
-    propResults = await extractProps(config, customState, stockSrc, backportSourceDevicePath)
-  }
+  if (verbose) log('Processing overlays')
+  let overlayPkgs = processOverlays(config, dirs, pathResolver.basePath)
 
-  // 7. SELinux policies
-  let sepolicyResolutions: SelinuxPartResolutions | null = null
-  if (config.generate.sepolicy_dirs) {
-    if (verbose) console.log('Adding missing SELinux policies')
-    sepolicyResolutions = await resolveSepolicyDirs(config, customState, dirs, stockSrc)
-  }
+  if (verbose) log('Marking apps as presigned')
+  let updatePresignedPromise = updatePresigned(entries, pathResolver, sdkVersion)
 
-  // 8. Overlays
-  if (config.generate.overlays) {
-    if (verbose) console.log('Processing overlays')
-    let overlayPkgs = await processOverlays(config, dirs, stockSrc)
-    buildPkgs.push(...overlayPkgs)
-  }
+  if (verbose) log('Copying blobs')
+  let copyBlobsPromise = copyBlobs(entries, pathResolver, dirs.proprietary)
 
-  // 9. vintf manifests
-  let vintfManifestPaths: Map<string, string> | null = null
-  if (config.generate.vintf) {
-    if (verbose) console.log('Extracting vintf manifests')
-    vintfManifestPaths = await extractVintfManifests(customState, dirs, stockSrc)
-  }
+  if (verbose) log('Extracting vintf manifests')
+  let vintfPaths = processVintf(config, pathResolver, customState, dirs)
 
-  // 10. Firmware
-  let fwPaths: Array<string> | null = null
-  if (config.generate.factory_firmware && factoryPath != undefined) {
-    if (propResults == null) {
-      throw new Error('Factory firmware extraction depends on properties')
-    }
+  if (verbose) log('Extracting firmware')
+  let fwPaths = extractFirmware(config, dirs, propResults.stockProps, pathResolver)
 
-    if (verbose) console.log('Extracting firmware')
-    fwPaths = await extractFirmware(config, dirs, propResults!.stockProps, factoryPath!)
-  }
+  let buildPkgs: BuildSystemPackages[] = [
+    { type: 'AOSP overrides for missing proprietary files', names: customState.extraModules },
+    { type: 'sysconfig', names: await sysconfigModules },
+    { type: 'APK parser config', names: [(await apkProcessorResult).parserConfigModuleName] },
+    { type: 'generated overlays', names: await overlayPkgs },
+  ]
 
-  let vendorLinkerConfig = config.platform.vendor_linker_config
-  let vendorLinkerConfigPath: string | null = null
-  if (Object.keys(vendorLinkerConfig).length > 0) {
-    let json = JSON.stringify(vendorLinkerConfig, null, 4)
-    vendorLinkerConfigPath = path.join(dirs.proprietary, 'linker-config-adevtool.json')
-    await fs.writeFile(vendorLinkerConfigPath, json)
-  }
+  await copyBlobsPromise
+  await updatePresignedPromise
 
-  // 11. Build files
   await generateBuildFiles(
     config,
     dirs,
     entries,
     buildPkgs,
     propResults,
-    fwPaths,
-    vintfManifestPaths,
-    vendorLinkerConfigPath,
-    sepolicyResolutions,
-    stockSrc,
+    await fwPaths,
+    await vintfPaths,
+    await sepolicyDirs,
+    pathResolver,
+    customState,
   )
 
-  await Promise.all([writeEnvsetupCommands(config, dirs), writeReadme(config, dirs, propResults)])
+  await Promise.all([writeEnvsetupCommands(config, dirs), writeReadme(config, dirs, await propResults)])
+
+  return { sdkVersion } as DeviceInfo
 }
 
 export default class GenerateFull extends Command {
@@ -173,15 +160,6 @@ export default class GenerateFull extends Command {
       description: 'path to AOSP build output directory (out/) or (directory containing) JSON state file',
       default: COLLECTED_SYSTEM_STATE_DIR,
     }),
-    factoryPath: Flags.string({
-      char: 'f',
-      description: 'path to stock factory images zip (for extracting firmware if stockSrc is not factory images)',
-    }),
-    skipCopy: Flags.boolean({
-      char: 'k',
-      description: 'skip file copying and only generate build files',
-      default: false,
-    }),
     parallel: Flags.boolean({
       char: 'p',
       description: 'generate devices in parallel',
@@ -192,7 +170,9 @@ export default class GenerateFull extends Command {
       description:
         'update vendor module FileTreeSpec in vendor-specs/ instead of requiring it to be equal to the reference (current) spec',
     }),
-
+    noVerify: Flags.boolean({
+      description: 'skip comparison against the reference FileTreeSpec',
+    }),
     doNotReplaceCarrierSettings: Flags.boolean({
       description: `do not replace carrier settings with updated ones from ${CARRIER_SETTINGS_DIR}`,
     }),
@@ -207,24 +187,37 @@ export default class GenerateFull extends Command {
 
     let devices = await loadDeviceConfigs2(flags)
     let index: BuildIndex = await loadBuildIndex()
-    let images: Map<DeviceBuildId, DeviceImages> = await prepareDeviceImages(index, [ImageType.Factory], devices)
 
     await forEachDevice(
       devices,
       flags.parallel,
       async config => {
-        let deviceImages = images.get(getDeviceBuildId(config))!
-        let stockSrc = deviceImages.unpackedFactoryImageDir
-        let factoryPath = deviceImages.factoryImage.getPath()
+        let images: Map<DeviceBuildId, DeviceImages> = await prepareDeviceImages(index, [ImageType.Factory], [config])
+        let deviceImages = mapGet(images, getDeviceBuildId(config))
+        let pathResolver = new PathResolver(deviceImages.unpackedFactoryImageDir)
+        let backportBuildId = config.device.backport_build_id
+        if (backportBuildId !== undefined) {
+          let backportDeviceImages = mapGet(images, getDeviceBuildId(config, backportBuildId))
+          pathResolver.overlay = {
+            basePath: backportDeviceImages.unpackedFactoryImageDir,
+            dirOverlays: config.backport_dirs,
+            fileOverlays: Object.fromEntries(Object.entries(config.backport_files).map(([k, v]) => [k, new Set(v)])),
+          }
+        }
         // Prepare output directories
         let vendorDirs = await createVendorDirs(config.device.vendor, config.device.name)
 
-        await doDevice(vendorDirs, config, stockSrc, flags.customSrc, factoryPath, flags.skipCopy, flags.verbose)
+        let deviceInfo = await doDevice(vendorDirs, config, pathResolver, flags.customSrc, flags.verbose)
 
         if (!flags.doNotReplaceCarrierSettings) {
           if (flags.updateSpec && config.device.has_cellular && !flags.doNotDownloadCarrierSettings) {
-            this.log(chalk.bold(`Downloading carrier settings updates`))
-            const csUpdateConfig = await fetchUpdateConfig(config.device.name, config.device.build_id, false)
+            log(chalk.bold(`Downloading carrier settings updates`))
+            const csUpdateConfig = await fetchUpdateConfig(
+              config.device.name,
+              config.device.build_id,
+              deviceInfo.sdkVersion,
+              false,
+            )
             await downloadAllConfigs(csUpdateConfig, getCarrierSettingsUpdatesDir(config), false)
           }
 
@@ -232,7 +225,7 @@ export default class GenerateFull extends Command {
           const dstCsDir = getCarrierSettingsVendorDir(vendorDirs)
           if (await exists(srcCsDir)) {
             if (flags.verbose) {
-              this.log(`Updating carrier settings from ${path.relative(OS_CHECKOUT_DIR, srcCsDir)}`)
+              log(`Updating carrier settings from ${path.relative(OS_CHECKOUT_DIR, srcCsDir)}`)
             }
             const srcVersions = await getVersionsMap(srcCsDir)
             const dstVersions = await getVersionsMap(dstCsDir)
@@ -244,7 +237,7 @@ export default class GenerateFull extends Command {
               const srcVer = srcVersions.get(carrierName) ?? 0
               const dstVer = dstVersions.get(carrierName) ?? 0
               if (srcVer < dstVer) {
-                if (flags.verbose) console.log(`skipping copying ${file} due to older version (${srcVer}<${dstVer})`)
+                if (flags.verbose) log(`skipping copying ${file} due to older version (${srcVer}<${dstVer})`)
                 continue
               }
               const destFile = path.join(dstCsDir, path.basename(file))
@@ -263,18 +256,20 @@ export default class GenerateFull extends Command {
             path.join(getVendorModuleSkelDir(config), 'proprietary', CARRIER_SETTINGS_FACTORY_PATH),
           )
         } else {
-          try {
-            if (flags.verbose) {
-              this.log('Verifying FileTreeSpec')
+          if (!flags.noVerify) {
+            try {
+              if (flags.verbose) {
+                log('Verifying FileTreeSpec')
+              }
+              await compareToReferenceFileTreeSpec(vendorDirs, config)
+            } catch (e) {
+              await fs.rm(vendorDirs.out, { recursive: true })
+              throw e
             }
-            await compareToReferenceFileTreeSpec(vendorDirs, config)
-          } catch (e) {
-            await fs.rm(vendorDirs.out, { recursive: true })
-            throw e
           }
         }
-        await writeVersionCheckFile(config, vendorDirs)
-        this.log('Generated vendor module at ' + vendorDirs.out)
+        await writeVersionCheckFile(config, vendorDirs, flags.noVerify)
+        log('Generated vendor module at ' + vendorDirs.out)
       },
       config => config.device.name,
     )
@@ -306,41 +301,38 @@ async function compareToReferenceFileTreeSpec(vendorDirs: VendorDirectories, con
     }
 
     let skelFile = path.join(vendorSkelDir, changedEntry)
-    if (OVERRIDDEN_SKEL_EXTS.has(path.extname(skelFile))) {
-      skelFile += SOONG_IGNORE_EXT
-    }
     if (await exists(skelFile)) {
       gitDiffs.push(gitDiff(skelFile, path.resolve(vendorDirs.out, changedEntry)))
     }
   }
 
   for await (let diff of gitDiffs) {
-    console.log(diff)
+    log(diff)
   }
 
   if (cmp.changedEntries.length > 0) {
-    console.log(chalk.bold('\nChanged entries:'))
+    log(chalk.bold('\nChanged entries:'))
     for (let e of cmp.changedEntries) {
-      console.log(e + ': ' + cmp.a.get(e) + ' -> ' + cmp.b.get(e))
+      log(e + ': ' + cmp.a.get(e) + ' -> ' + cmp.b.get(e))
     }
   }
 
   if (cmp.newEntries.size > 0) {
-    console.log(chalk.bold(`\nNew entries:`))
+    log(chalk.bold(`\nNew entries:`))
     for (let [k, v] of cmp.newEntries) {
-      console.log(k + ': ' + v)
+      log(k + ': ' + v)
     }
   }
 
   if (cmp.missingEntries.size > 0) {
-    console.log(chalk.bold('\nMissing entries:'))
+    log(chalk.bold('\nMissing entries:'))
     for (let [k, v] of cmp.missingEntries) {
-      console.log(k + ': ' + v)
+      log(k + ': ' + v)
     }
   }
 
   if (cmp.numDiffs() != 0) {
-    console.log('\n')
+    log('\n')
     throw new Error(`Vendor module for ${
       config.device.name
     } doesn't match its FileTreeSpec in ${getVendorModuleTreeSpecFile(config)}.
@@ -354,7 +346,7 @@ async function writeVendorFileTreeSpec(dirs: VendorDirectories, config: DeviceCo
   let dstFile = getVendorModuleTreeSpecFile(config)
   await fs.mkdir(path.parse(dstFile).dir, { recursive: true })
   await fs.writeFile(dstFile, fileTreeSpecToYaml(await fileTreeSpec))
-  if (verbose) console.log('Updated FileTreeSpec at ' + dstFile)
+  if (verbose) log('Updated FileTreeSpec at ' + dstFile)
 }
 
 // see readme in vendor-skels/ dir
@@ -405,16 +397,6 @@ async function copyVendorSkel(dirs: VendorDirectories, config: DeviceConfig) {
 
   await fs.rm(skelDir, { force: true, recursive: true })
   await fs.cp(dirs.out, skelDir, copyOptions)
-
-  let renames: Promise<void>[] = []
-
-  for await (let file of listFilesRecursive(skelDir)) {
-    let ext = path.extname(file)
-    if (OVERRIDDEN_SKEL_EXTS.has(ext)) {
-      renames.push(fs.rename(file, file + SOONG_IGNORE_EXT))
-    }
-  }
-  await Promise.all(renames)
 }
 
 function getVendorModuleTreeSpecFile(config: DeviceConfig) {
@@ -428,7 +410,3 @@ function getVendorModuleSkelDir(config: DeviceConfig) {
 function getCarrierSettingsVendorDir(dirs: VendorDirectories) {
   return path.join(dirs.proprietary, CARRIER_SETTINGS_FACTORY_PATH)
 }
-
-// soong detects .bp, .mk files everywhere in OS checkout dir, add '.skip' suffix to the ones in vendor-skels/ dir
-const OVERRIDDEN_SKEL_EXTS = new Set(['.bp', '.mk'])
-const SOONG_IGNORE_EXT = '.skip'

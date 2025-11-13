@@ -6,6 +6,8 @@ import { Flags } from '@oclif/core'
 import assert from 'assert'
 import path from 'path'
 
+import { ApkProcessorResult } from '../processor/apk-processor'
+import { DisassembledSepolicy } from '../processor/sepolicy'
 import { loadAndMergeConfig } from './config-loader'
 import { FilterMode, Filters, SerializedFilters } from './filters'
 import { DEVICE_CONFIG_DIR } from './paths'
@@ -24,10 +26,13 @@ export interface DeviceConfig {
   // Required
   device: {
     name: string
+    platform: string
     vendor: string
     // file system type of OS partitions
     system_fs_type: FsType
     build_id: string
+    backport_build_id: string | undefined
+    backport_base_firmware?: boolean
     prev_build_id: string
     has_cellular: boolean
     // ignored when undefined
@@ -36,25 +41,7 @@ export interface DeviceConfig {
 
   platform: {
     namespaces: string[]
-    sepolicy_dirs: string[]
-    product_makefile: string // required
-    // not included in makefile for state collection build (generate-prep)
     extra_product_makefiles: string[]
-    extra_product_system_server_jars: string[]
-    vendor_linker_config: object
-  }
-
-  generate: {
-    overrides: boolean
-    presigned: boolean
-    files: boolean
-    props: boolean
-    sepolicy_dirs: boolean
-    overlays: boolean
-    vintf: boolean
-    factory_firmware: boolean
-    ota_firmware: boolean // not yet implemented
-    products: boolean
   }
 
   // Not part of the final config
@@ -63,18 +50,85 @@ export interface DeviceConfig {
   synthetic_overlays: SyntheticOverlaySpec[]
 
   filters: {
-    props: Filters
     overlay_keys: Filters
     overlay_inclusions: Filters
-    overlay_values: Filters
     overlay_files: Filters
     partitions: Filters
-    presigned: Filters
-    sepolicy_dirs: Filters
-    dep_files: Filters
-    files: Filters
-    deprivileged_apks: Filters
+    file_exclusions: Filters
+    file_inclusions: Filters
   }
+
+  package_exclusions: string[]
+
+  vintf_exclusions: string[]
+  vintf_inclusions: string[]
+
+  vintf_manifest_inclusions: { [part: string]: string[] }
+  vintf_manifest_exclusions: { [part: string]: string[] }
+  vintf_compat_matrix_inclusions: { [part: string]: string[] }
+  vintf_compat_matrix_exclusions: { [part: string]: string[] }
+
+  sepolicy_exclusions: { [part: string]: Sepolicy }
+  sepolicy_inclusions: { [part: string]: Sepolicy }
+
+  sysprop_exclusions: string[]
+  sysprop_inclusions: string[]
+
+  sysconfig_exclusions: string[]
+  sysconfig_inclusions: string[]
+
+  kernel_cmdline_exclusions: string[]
+  kernel_cmdline_inclusions: string[]
+
+  replacement_module_exclusions: string[]
+  replacement_module_inclusions: string[]
+
+  package_inclusions: { [pkgName: string]: PackageInclusionConfig }
+  // Packages that are excluded from the system image, but are allowed to be installed manually.
+  // Certificate digest will be checked agains the system image version before installation.
+  installable_packages: string[]
+
+  backport_dirs: { [part: string]: string[] }
+  backport_files: { [part: string]: string[] }
+
+  apk_map: { [apk_path: string]: ApkMapping }
+  apex_map: { [apex_path: string]: ApexMapping }
+  unique_base_apks: string[]
+  unique_base_apexes: string[]
+}
+
+export interface ApkMapping {
+  stock_os_path: string
+  alt_stock_os_paths?: string[]
+  aosp_apk_name: string
+}
+
+export interface ApexMapping {
+  stock_os_path: string
+  stock_to_aosp_apk_name_mapping: { [stock_apk_name: string]: string }
+}
+
+export function getExcludedPackages(config: DeviceConfig) {
+  return new Set(config.package_exclusions.concat(config.installable_packages))
+}
+
+export function getExcludedPackagesMinusBasePackages(config: DeviceConfig, apkProcessorResult: ApkProcessorResult) {
+  let res = new Set(config.package_exclusions.concat(config.installable_packages))
+  let presentBasePackages = apkProcessorResult.presentBasePackages
+  for (let pkg of presentBasePackages) {
+    res.delete(pkg)
+  }
+  return res
+}
+
+export interface Sepolicy {
+  contexts: { [fileName: string]: string[] }
+  mac_permissions_entries: string[]
+  types: { [name: string]: string[] } // type name -> type attributes
+  typeAttrNames: string[]
+  cil: string[]
+  recoveryOnlyPolicy: string[]
+  disassembled: DisassembledSepolicy
 }
 
 // synthetic overlay is created by copying resources from a regular (non-overlay) package
@@ -86,6 +140,28 @@ interface SyntheticOverlaySpec {
   targetPackage: string
   targetName?: string
   resourcesToInclude: Map<string, string[]>
+}
+
+export interface PackageInclusionConfig {
+  max_known_version?: string
+  flags?: string[]
+  include_uses_permissions?: string[]
+  pregrantable_permissions?: string[]
+  remove_permissions?: string[]
+  sysconfig_inclusions?: string[]
+  sysconfig_exclusions?: string[]
+}
+
+export interface PackagePermsConfig {
+  pregrantablePerms: Set<string>
+  removePerms: Set<string>
+}
+
+export function getPackagePermsConfig(pic: PackageInclusionConfig) {
+  return {
+    pregrantablePerms: new Set(pic.pregrantable_permissions ?? []),
+    removePerms: new Set(pic.remove_permissions ?? []),
+  } as PackagePermsConfig
 }
 
 interface DeviceListConfig {
@@ -115,37 +191,52 @@ const DEFAULT_CONFIG_BASE = {
   type: ConfigType.Device,
   platform: {
     namespaces: [],
-    sepolicy_dirs: [],
     extra_product_makefiles: [],
-    extra_product_system_server_jars: [],
-    vendor_linker_config: {},
-  },
-  generate: {
-    overrides: true,
-    presigned: true,
-    files: true,
-    props: true,
-    sepolicy_dirs: true,
-    overlays: true,
-    vintf: true,
-    factory_firmware: true,
-    ota_firmware: true,
-    products: true,
   },
   synthetic_overlays: [],
   filters: {
-    props: structuredClone(EMPTY_FILTERS),
     overlay_keys: structuredClone(EMPTY_FILTERS),
     overlay_inclusions: structuredClone(EMPTY_FILTERS),
-    overlay_values: structuredClone(EMPTY_FILTERS),
     overlay_files: structuredClone(EMPTY_FILTERS),
     partitions: structuredClone(EMPTY_FILTERS),
-    presigned: structuredClone(EMPTY_INCLUDE_FILTERS),
-    sepolicy_dirs: structuredClone(EMPTY_FILTERS),
-    dep_files: structuredClone(EMPTY_INCLUDE_FILTERS),
-    files: structuredClone(EMPTY_FILTERS),
-    deprivileged_apks: structuredClone(EMPTY_INCLUDE_FILTERS),
+    file_exclusions: structuredClone(EMPTY_FILTERS),
+    file_inclusions: structuredClone(EMPTY_INCLUDE_FILTERS),
   },
+  package_exclusions: [],
+
+  vintf_interface_exclusions: [],
+  vintf_interface_inclusions: [],
+
+  vintf_manifest_inclusions: {},
+  vintf_manifest_exclusions: {},
+  vintf_compat_matrix_exclusions: {},
+  vintf_compat_matrix_inclusions: {},
+
+  selinux_config_exclusions: {},
+  selinux_config_inclusions: {},
+
+  sysconfig_exclusions: [],
+  sysconfig_inclusions: [],
+
+  sysprop_exclusions: [],
+  sysprop_inclusions: [],
+
+  kernel_cmdline_exclusions: [],
+  kernel_cmdline_inclusions: [],
+
+  replacement_module_exclusions: [],
+  replacement_module_inclusions: [],
+
+  package_inclusions: {},
+  installable_packages: [],
+
+  backport_dirs: {},
+  backport_files: {},
+
+  apk_map: {},
+  apex_map: {},
+  unique_base_apks: [],
+  unique_base_apexes: [],
 }
 
 export type DeviceBuildId = string

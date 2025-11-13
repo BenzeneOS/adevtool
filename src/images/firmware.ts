@@ -1,58 +1,58 @@
 import assert from 'assert'
 import { promises as fs } from 'fs'
-import * as unzipit from 'unzipit'
 
-import { PartitionProps } from '../blobs/props'
+import path from 'path'
+import { BASEBAND_VERSION_PROP, BOOTLOADER_VERSION_PROP, PartitionProps } from '../blobs/props'
+import { DeviceConfig } from '../config/device'
 import { getAbOtaPartitions } from '../frontend/generate'
-import { NodeFileReader } from '../util/zip'
+import { BASE_FIRMWARE_DIR } from '../frontend/source'
+import { assertDefined, mapGet } from '../util/data'
+import { Partition, PathResolver } from '../util/partitions'
 import { EntryType, parseFastbootPack } from './fastboot-pack'
-
-export const ANDROID_INFO = 'android-info.txt'
 
 export type FirmwareImages = Map<string, Buffer>
 
-async function extractFactoryZipFirmware(path: string, images: FirmwareImages) {
-  let reader = new NodeFileReader(path)
+async function extractFactoryDirFirmware(
+  config: DeviceConfig,
+  stockProps: PartitionProps,
+  pathResolver: PathResolver,
+  images: FirmwareImages,
+) {
+  let basePath =
+    config.device.backport_base_firmware === true
+      ? assertDefined(pathResolver.overlay?.basePath)
+      : pathResolver.basePath
 
-  try {
-    let { entries } = await unzipit.unzip(reader)
+  let baseFwDirPath = path.join(basePath, BASE_FIRMWARE_DIR)
+  let vendorProps = mapGet(stockProps, Partition.Vendor)
 
-    // Find images
-    for (let [name, entry] of Object.entries(entries)) {
-      if (name.includes('/bootloader-')) {
-        images.set('bootloader.img', Buffer.from(await entry.arrayBuffer()))
-      } else if (name.includes('/radio-')) {
-        images.set('radio.img', Buffer.from(await entry.arrayBuffer()))
-      }
-    }
-  } finally {
-    await reader.close()
-  }
-}
+  let blVersion = mapGet(vendorProps, BOOTLOADER_VERSION_PROP)
 
-async function extractFactoryDirFirmware(path: string, images: FirmwareImages) {
-  for (let file of await fs.readdir(path)) {
-    if (file.startsWith('bootloader-')) {
-      let buf = await fs.readFile(`${path}/${file}`)
-      images.set('bootloader.img', buf)
-    } else if (file.startsWith('radio-')) {
-      let buf = await fs.readFile(`${path}/${file}`)
-      images.set('radio.img', buf)
-    }
+  images.set(
+    'bootloader.img',
+    await fs.readFile(path.join(baseFwDirPath, `bootloader-${config.device.name}-${blVersion}.img`)),
+  )
+
+  let basebandVersion = vendorProps.get(BASEBAND_VERSION_PROP)
+  if (basebandVersion !== undefined) {
+    images.set(
+      'radio.img',
+      await fs.readFile(path.join(baseFwDirPath, `radio-${config.device.name}-${basebandVersion.toLowerCase()}.img`)),
+    )
   }
 }
 
 // Path can be a directory or zip
-export async function extractFactoryFirmware(path: string, stockProps: PartitionProps) {
+export async function extractFactoryFirmware(
+  config: DeviceConfig,
+  stockProps: PartitionProps,
+  pathResolver: PathResolver,
+) {
   let images: FirmwareImages = new Map<string, Buffer>()
 
-  if ((await fs.stat(path)).isDirectory()) {
-    await extractFactoryDirFirmware(path, images)
-  } else {
-    await extractFactoryZipFirmware(path, images)
-  }
+  await extractFactoryDirFirmware(config, stockProps, pathResolver, images)
 
-  let abPartitions = new Set(getAbOtaPartitions(stockProps)!)
+  let abPartitions = new Set(assertDefined(getAbOtaPartitions(stockProps)))
 
   // Extract partitions from firmware FBPKs (fastboot packs)
   for (let [, fbpkBuf] of Array.from(images.entries())) {
@@ -81,21 +81,19 @@ export async function writeFirmwareImages(images: FirmwareImages, fwDir: string)
   return paths
 }
 
-export function generateAndroidInfo(
-  device: string,
-  blVersion: string,
-  radioVersion: string | undefined,
-  stockAbOtaPartitions: string[],
-) {
+export function generateAndroidInfo(device: string, stockProps: PartitionProps) {
+  let vendorProps = mapGet(stockProps, Partition.Vendor)
+
   let android_info = `require board=${device}
 
-require version-bootloader=${blVersion}
+require version-bootloader=${mapGet(vendorProps, BOOTLOADER_VERSION_PROP)}
 `
+  let radioVersion = vendorProps.get(BASEBAND_VERSION_PROP)
   if (radioVersion !== undefined) {
     android_info += `require version-baseband=${radioVersion}\n`
   }
 
-  if (stockAbOtaPartitions.includes('vendor_kernel_boot')) {
+  if (assertDefined(getAbOtaPartitions(stockProps)).includes('vendor_kernel_boot')) {
     android_info += 'require partition-exists=vendor_kernel_boot\n'
   }
 

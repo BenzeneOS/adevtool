@@ -1,0 +1,552 @@
+sysprop_inclusions:
+  - aaudio.hw_burst_min_usec = 2000
+  - aaudio.mmap_exclusive_policy = 2
+  - aaudio.mmap_policy = 2
+  - aoj.feature.contract = true
+  - aoj.feature.dimension_logging =
+  - aoj.feature.node_logging = true
+  - aoj.feature.ui_logging =
+  - audio.spatializer.effect.util_clamp_min = 300
+  - bluetooth.ble.allow_enc_with_bredr = true
+  - bluetooth.core.le_audio.codec_extension_aidl.enabled = true
+  - bluetooth.device.class_of_device = 90,2,12
+  - bluetooth.device.class_of_device = 90,65,16
+  - bluetooth.device.class_of_device = 90,66,12
+  - bluetooth.device_id.product_id
+  - bluetooth.hci.timeout_milliseconds = 5000
+  - bluetooth.hfp.swb.supported = false
+  - bluetooth.hfp.swb.supported = true
+  - bluetooth.leaudio.dual_bidirection_swb.supported
+  - bluetooth.leaudio.toggle_visible_for_asha = false
+  - bluetooth.profile.a2dp.source.enabled = true
+  - bluetooth.profile.asha.central.enabled = true
+  - bluetooth.profile.avrcp.target.enabled = true
+  - bluetooth.profile.bap.broadcast.assist.enabled = true
+  - bluetooth.profile.bap.broadcast.source.enabled = true
+  - bluetooth.profile.bap.unicast.client.enabled = false
+  - bluetooth.profile.bap.unicast.client.enabled = true
+  - bluetooth.profile.bas.client.enabled = true
+  - bluetooth.profile.ccp.server.enabled = false
+  - bluetooth.profile.ccp.server.enabled = true
+  - bluetooth.profile.csip.set_coordinator.enabled = false
+  - bluetooth.profile.csip.set_coordinator.enabled = true
+  - bluetooth.profile.gatt.enabled = true
+  - bluetooth.profile.gmap.enabled = true
+  - bluetooth.profile.hap.client.enabled = false
+  - bluetooth.profile.hap.client.enabled = true
+  - bluetooth.profile.hap.enabled_by_default = false
+  - bluetooth.profile.hap.enabled_by_default = true
+  - bluetooth.profile.hfp.ag.enabled = true
+  - bluetooth.profile.hid.device.enabled = true
+  - bluetooth.profile.hid.host.enabled = true
+  - bluetooth.profile.map.server.enabled = false
+  - bluetooth.profile.map.server.enabled = true
+  - bluetooth.profile.mcp.server.enabled = false
+  - bluetooth.profile.mcp.server.enabled = true
+  - bluetooth.profile.opp.enabled = true
+  - bluetooth.profile.pan.nap.enabled = true
+  - bluetooth.profile.pan.panu.enabled = true
+  - bluetooth.profile.pbap.server.enabled = false
+  - bluetooth.profile.pbap.server.enabled = true
+  - bluetooth.profile.sap.server.enabled = false
+  - bluetooth.profile.sap.server.enabled = true
+  - bluetooth.profile.vcp.controller.enabled = false
+  - bluetooth.profile.vcp.controller.enabled = true
+  - bluetooth.server.automatic_turn_on = true
+  - camera.enable_landscape_to_portrait = true
+  - charging_string.apply_lotx = true
+  - charging_string.apply_v2 = true
+  - dalvik.vm.dex2oat64.enabled = true
+  - dalvik.vm.heapgrowthlimit = 256m
+  - dalvik.vm.heapmaxfree = 32m
+  - dalvik.vm.heapminfree = 8m
+  - dalvik.vm.heapsize = 512m
+  - dalvik.vm.heapstartsize = 16m
+  - dalvik.vm.heaptargetutilization = 0.5
+  - debug.bugle.enable_emergency_satellite_messaging
+  - debug.c2.use_dmabufheaps = 1
+  - debug.hwc.winupdate = 1
+  - debug.hwui.use_hint_manager = true
+  - debug.mali.disable_backend_affinity = true
+  - debug.renderengine.graphite_preview_optin = true
+  - debug.sf.dim_in_gamma_in_enhanced_screenshots = 1
+  - debug.sf.disable_backpressure = 0
+  - debug.sf.early.app.duration = 16600000
+  - debug.sf.early.sf.duration = 16600000
+  - debug.sf.earlyGl.app.duration = 16600000
+  - debug.sf.earlyGl.sf.duration = 16600000
+  - debug.sf.enable_adpf_cpu_hint = true
+  - debug.sf.enable_gl_backpressure = 1
+  - debug.sf.enable_sdr_dimming = 1
+  - debug.sf.frame_rate_multiple_threshold = 120
+  - debug.sf.hdcp_negotiation = 1
+  - debug.sf.hdcp_support = 1
+  - debug.sf.ignore_hwc_physical_display_orientation
+  - debug.sf.ignore_hwc_physical_display_orientation = true
+  - debug.sf.late.app.duration = 16600000
+  - debug.sf.late.sf.duration = 10500000
+  - debug.sf.layer_caching_active_layer_timeout_ms = 1000
+  - debug.sf.set_idle_timer_ms_4619827677550801152 = 80
+  - debug.sf.set_idle_timer_ms_4619827677550801153 = 1000
+  - debug.sf.support_kernel_idle_timer_4619827677550801152 = true
+  - debug.sf.support_kernel_idle_timer_4619827677550801153 = false
+  - debug.sf.treat_170m_as_sRGB = 1
+  - debug.sf.use_phase_offsets_as_durations = 1
+  - debug.slsi_platform = 1
+  - debug.stagefright.c2-poolmask = 1507328
+  - debug.stagefright.c2inputsurface = -1
+  - debug.stagefright.ccodec_delayed_params = 1
+  - drm.service.enabled = true
+  - dumpstate.strict_run = false
+  - enable_one_pane_in_embedded_activity = true
+  - euicc.seamless_transfer_enabled_in_non_qs = true
+  - framework_watchdog.fatal_count = 3
+  - framework_watchdog.fatal_window.second = 600
+  - graphics.gpu.profiler.support = true
+  - hypervisor.memory_reclaim.supported = 1
+  - log.tag.QFP = 3
+  - masterclear.allow_retain_esim_profiles_after_fdr = true
+  - media.c2.dmabuf.padding = 512
+  - media.c2.hal.selection = aidl
+  - media.mediadrmservice.enable = true
+  - persist.bluetooth.a2dp_aac.vbr_supported = true
+  - persist.bluetooth.a2dp_offload.cap = sbc-aac-aptx-aptxhd-ldac
+  - persist.bluetooth.a2dp_offload.cap = sbc-aac-aptx-aptxhd-ldac-opus
+  - persist.bluetooth.a2dp_offload.disabled = false
+  - persist.bluetooth.bqr.event_mask = 30
+  - persist.bluetooth.bqr.event_mask = 94
+  - persist.bluetooth.bqr.event_mask = 295006
+  - persist.bluetooth.bqr.event_mask = 295262
+  - persist.bluetooth.bqr.min_interval_ms = 500
+  - persist.bluetooth.bqr.vnd_quality_mask = 16
+  - persist.bluetooth.bqr.vnd_trace_mask = 0
+  - persist.bluetooth.firmware.selection = BCM.hcd
+  - persist.bluetooth.firmware.selection = BTFW.hcd
+  - persist.bluetooth.leaudio.allow_list
+  - persist.bluetooth.leaudio.notify.idle.during.call = true
+  - persist.bluetooth.leaudio.toggle_visible = false
+  - persist.bluetooth.leaudio.toggle_visible = true
+  - persist.bluetooth.leaudio_offload.disabled = false
+  - persist.bluetooth.opus.enabled = true
+  - persist.bluetooth.thread_dispatcher.enabled = false
+  - persist.bluetooth.vendor.btsnoop = false
+  - persist.device_config.configuration.disable_rescue_party = true
+  - persist.fingerprint.ghbm
+  - persist.fsck.disable_linear_lookup = on
+  - persist.modem.esim_profiles_exist
+  - persist.radio.multisim.config = dsds
+  - persist.radio.reboot_on_modem_change = false
+  - persist.settings.large_screen_opt.enabled = false
+  - persist.settings.large_screen_opt.enabled = true
+  - persist.settings.large_screen_opt_for_dp.enabled = true
+  - persist.sys.fuse.passthrough.enable = true
+  - persist.sys.hdcp_checking
+  - persist.sys.hdcp_checking = drm-only
+  - persist.uwb.enable_uci_stack = 1
+  - persist.vendor.aoc.firmware.disable_monitor_mode = true
+  - persist.vendor.aoc.status_request_timed_out
+  - persist.vendor.app.audio.
+  - persist.vendor.app.audio.gsenet.version = 1
+  - persist.vendor.audio.
+  - persist.vendor.audio.cca.enabled = false
+  - persist.vendor.audio.cca.unsupported = false
+  - persist.vendor.audio.spatializer.speaker_enabled = true
+  - persist.vendor.audio.speech_enhancement.enable = 1
+  - persist.vendor.camera.
+  - persist.vendor.camera.1080P_60fps_binning = true
+  - persist.vendor.camera.adjust_backend_min_freq_for_1p_front_video_1080p_30fps = 1
+  - persist.vendor.camera.adjust_backend_min_freq_for_video_120fps = 1
+  - persist.vendor.camera.adjust_cam_uclamp_min_for_1p_rear_video_60fps = 1
+  - persist.vendor.camera.allow_external_binning_setting = true
+  - persist.vendor.camera.bypass_sensor_binning_resolution_condition = 1
+  - persist.vendor.camera.debug.bypass_csi_link_crc_error = true
+  - persist.vendor.camera.debug.bypass_csi_link_error = true
+  - persist.vendor.camera.exif_reveal_make_model = true
+  - persist.vendor.camera.extended_launch_boost = 1
+  - persist.vendor.camera.fixed_fps_range_boost = 1
+  - persist.vendor.camera.front_720P_always_binning = true
+  - persist.vendor.camera.increase_thread_priority_nodes_stop = true
+  - persist.vendor.camera.multicam_streaming_boost = 1
+  - persist.vendor.camera.ois_with_system_imu = true
+  - persist.vendor.camera.optimized_tnr_freq = 1
+  - persist.vendor.camera.pbcs.debug.
+  - persist.vendor.camera.raise_buf_allocation_priority = 1
+  - persist.vendor.camera.rls_range_supported = false
+  - persist.vendor.camera.rls_supported = false
+  - persist.vendor.camera.start_cpu_throttling_at_moderate_thermal = 1
+  - persist.vendor.cbd.
+  - persist.vendor.config.
+  - persist.vendor.debug_level
+  - persist.vendor.display.
+  - persist.vendor.display.primary.boot_config
+  - persist.vendor.display.primary.boot_config = 1008x2244@120:120
+  - persist.vendor.enable.thermal.genl = true
+  - persist.vendor.fingerprint.disable.fake.override = none
+  - persist.vendor.gps.
+  - persist.vendor.gps.hal.service.name = vendor
+  - persist.vendor.ims.
+  - persist.vendor.ims_tiss.
+  - persist.vendor.intelligence
+  - persist.vendor.modem.
+  - persist.vendor.modem.extensive_logging_enabled = false
+  - persist.vendor.nfc.
+  - persist.vendor.nfc.antenna.
+  - persist.vendor.primarydisplay.
+  - persist.vendor.pulsar
+  - persist.vendor.qfp.
+  - persist.vendor.qfp.enable_setprop = 0
+  - persist.vendor.radio.
+  - persist.vendor.radio.bootwithlpm
+  - persist.vendor.radio.config.carrier_config_dir = /vendor/firmware/carrierconfig
+  - persist.vendor.radio.multisim_switch_support = true
+  - persist.vendor.radio.volte_mif_off
+  - persist.vendor.ril.
+  - persist.vendor.ril.camp_on_earlier = 1
+  - persist.vendor.ril.crash_handling_mode = 2
+  - persist.vendor.ril.db_ecc.id.type = 5
+  - persist.vendor.ril.db_ecc.use.iccid_to_plmn = 1
+  - persist.vendor.ril.ecc.use.xml = 1
+  - persist.vendor.ril.enable_set_screen_state = 1
+  - persist.vendor.ril.log.base_dir = /data/vendor/radio/sit-ril
+  - persist.vendor.ril.log.chunk_size = 5242880
+  - persist.vendor.ril.log.num_file = 3
+  - persist.vendor.ril.log_mask = 3
+  - persist.vendor.ril.radioexternal_hal_type = aidl
+  - persist.vendor.ril.radioexternal_hal_type = hidl
+  - persist.vendor.ril.support_nr_ds = 0
+  - persist.vendor.ril.support_nr_ds = 1
+  - persist.vendor.ril.use_radio_hal = 1.6
+  - persist.vendor.ril.use_radio_hal = 2.0
+  - persist.vendor.ril.use_radio_hal = 2.1
+  - persist.vendor.ril.use_radio_hal = 2.2
+  - persist.vendor.se.
+  - persist.vendor.service.bdroid.
+  - persist.vendor.service.bdroid.fwsnoop = false
+  - persist.vendor.service.bdroid.soclog = false
+  - persist.vendor.shutdown.
+  - persist.vendor.sys.
+  - persist.vendor.sys.crash_rcu
+  - persist.vendor.sys.diag.
+  - persist.vendor.sys.dm.
+  - persist.vendor.sys.modem.
+  - persist.vendor.sys.modem.logging.br_num = 5
+  - persist.vendor.sys.modem.logging.enable = true
+  - persist.vendor.sys.silentlog
+  - persist.vendor.sys.silentlog.tcp = On
+  - persist.vendor.sys.ssr.
+  - persist.vendor.tcpdump.capture.len
+  - persist.vendor.testing_battery_profile
+  - persist.vendor.testing_battery_profile = 2
+  - persist.vendor.udfps.
+  - persist.vendor.udfps.als_feed_forward_supported = true
+  - persist.vendor.udfps.auth_filter.mt_filter.enabled = true
+  - persist.vendor.udfps.auto_exposure_compensation_supported = true
+  - persist.vendor.udfps.boost_whole_auth_path_supported = true
+  - persist.vendor.udfps.capture_retrying_acquired_msg_supported = false
+  - persist.vendor.udfps.fps_touch_handler.handle_down_up_events = true
+  - persist.vendor.udfps.fps_touch_handler_supported = true
+  - persist.vendor.udfps.fth.touch_resolution_scaling_factor = 10
+  - persist.vendor.udfps.lhbm_controlled_in_hal_supported = true
+  - persist.vendor.udfps.max_touch_filter_supported = true
+  - persist.vendor.udfps.set_lhbm_in_advance = true
+  - persist.vendor.usb.
+  - persist.vendor.usb.displayport.enabled = 1
+  - persist.vendor.verbose_logging_enabled
+  - persist.vendor.verbose_logging_enabled = false
+  - persist.vendor.vibrator.hal.
+  - persist.vendor.vibrator.hal.chirp.enabled = 0
+  - persist.vendor.vibrator.hal.context.cooldowntime = 1600
+  - persist.vendor.vibrator.hal.context.enable = false
+  - persist.vendor.vibrator.hal.context.fade = true
+  - persist.vendor.vibrator.hal.context.scale = 40
+  - persist.vendor.vibrator.hal.context.scale = 60
+  - persist.vendor.vibrator.hal.context.settlingtime = 5000
+  - persist.vendor.wifi.logger.start
+  - persist.vendor.wifi.sniffer.
+  - persist.wm.extensions.activity_embedding_guard_with_android_15 = false
+  - pixel_legal_joint_permission = true
+  - pixel_legal_joint_permission_v2 = true
+  - pixelsystemservice.device.contextualawarenessbool
+  - remote_provisioning.hostname = remoteprovisioning.googleapis.com
+  - remote_provisioning.use_cert_processor = false
+  - ro.arm64.memtag.bootctl_device_policy_manager = true
+  - ro.audio.ihaladaptervendorextension_enabled = true
+  - ro.audio.monitorRotation = true
+  - ro.audio.multi_usb_mode = true
+  - ro.audio.offload_wakelock = false
+  - ro.audio.spatializer_enabled = true
+  - ro.audio.spatializer_transaural_enabled_default = false
+  - ro.bluetooth.a2dp_offload.supported = true
+  - ro.bluetooth.finder.supported = true
+  - ro.bluetooth.leaudio.le_audio_connection_by_default = false
+  - ro.bluetooth.leaudio.le_audio_connection_by_default = true
+  - ro.bluetooth.leaudio_offload.supported = true
+  - ro.bluetooth.leaudio_switcher.supported = false
+  - ro.bluetooth.leaudio_switcher.supported = true
+  - ro.boot.ramdump
+  - ro.bootanim.set_orientation_4619827677550801152
+  - ro.bootanim.set_orientation_4619827677550801152 = ORIENTATION_270
+  - ro.build.characteristics = tablet
+  - ro.build.device_family
+  - ro.build.expect.baseband
+  - ro.build.expect.bootloader
+  - ro.camerax.extensions.enabled = true
+  - ro.chipname
+  - ro.config.assistant_vol_min = 1
+  - ro.config.media_vol_steps = 20
+  - ro.config.media_vol_steps = 25
+  - ro.config.vc_call_vol_steps = 7
+  - ro.crypto.metadata_init_delete_all_keys.enabled = true
+  - ro.crypto.volume.options = aes-256-xts:aes-256-hctr2
+  - ro.egl.blobcache.multifile = true
+  - ro.egl.blobcache.multifile_limit = 33554432
+  - ro.frp.pst = /dev/block/by-name/frp
+  - ro.fuse.bpf.enabled = true
+  - ro.gms.dck.eligible_wcc = 2
+  - ro.gms.dck.eligible_wcc = 3
+  - ro.gms.dck.se_capability = 1
+  - ro.gms.pixelmigrate.has_usb_a_to_c_adapter = true
+  - ro.gwfcactivation.disabled_carriers = 1492
+  - ro.hardware.chipname
+  - ro.hardware.egl = mali
+  - ro.hardware.vulkan = mali
+  - ro.hotword.visual_query_service_enabled = true
+  - ro.incremental.enable = true
+  - ro.launcher.blur.appLaunch = 0
+  - ro.lmk.filecache_min_kb = 153600
+  - ro.lmk.kill_timeout_ms = 50
+  - ro.lmk.stall_limit_critical = 40
+  - ro.lmk.swap_free_low_percentage = 7
+  - ro.mediatek.platform
+  - ro.odm.build.media_performance_class = 31
+  - ro.odm.build.media_performance_class = 33
+  - ro.odm.build.media_performance_class = 34
+  - ro.odm.build.media_performance_class = 35
+  - ro.odm.cast.ssid_suffix
+  - ro.odm.cast.ssid_suffix = ynn
+  - ro.oem_unlock_supported = 1
+  - ro.opa.eligible_device = true # TODO: check whether this fixes Google Assistant ceasing to work after reboot
+  - ro.opengles.version = 196610
+  - ro.postinstall.fstab.prefix = /product
+  - ro.preventative_fsck = 1
+  - ro.quick_start.device_id
+  - ro.quick_start.oem_id = 00e0
+  - ro.recovery.ui.margin_height = 165
+  - ro.soc.manufacturer
+  - ro.soc.model
+  - ro.support_hide_display_cutout = true
+  - ro.support_one_handed_mode = false
+  - ro.support_one_handed_mode = true
+  - ro.surface_flinger.display_primary_blue
+  - ro.surface_flinger.display_primary_green
+  - ro.surface_flinger.display_primary_red
+  - ro.surface_flinger.display_primary_white
+  - ro.surface_flinger.display_update_imminent_timeout_ms = 50
+  - ro.surface_flinger.enable_frame_rate_override = true
+  - ro.surface_flinger.enable_layer_caching = true
+  - ro.surface_flinger.has_HDR_display = true
+  - ro.surface_flinger.has_wide_color_display = true
+  - ro.surface_flinger.ignore_hdr_camera_layers = true
+  - ro.surface_flinger.max_frame_buffer_acquired_buffers = 3
+  - ro.surface_flinger.primary_display_orientation = ORIENTATION_0
+  - ro.surface_flinger.prime_shader_cache.ultrahdr = 1
+  - ro.surface_flinger.protected_contents = true
+  - ro.surface_flinger.set_display_power_timer_ms = 1000
+  - ro.surface_flinger.set_idle_timer_ms = 0
+  - ro.surface_flinger.set_idle_timer_ms = 80
+  - ro.surface_flinger.set_idle_timer_ms = 1000
+  - ro.surface_flinger.set_idle_timer_ms = 1500
+  - ro.surface_flinger.set_touch_timer_ms = 200
+  - ro.surface_flinger.support_kernel_idle_timer = true
+  - ro.surface_flinger.supports_background_blur = 1
+  - ro.surface_flinger.use_color_management = true
+  - ro.surface_flinger.use_content_detection_for_refresh_rate = true
+  - ro.surface_flinger.wcg_composition_dataspace = 143261696
+  - ro.telephony.default_network = 27
+  - ro.thermal_warmreset = true # TODO consider removing this since warm resets are forbidden at kernel level
+  - ro.usb.uvc.enabled = true
+  - ro.vendor.bluetooth.emb_wp_mode = false
+  - ro.vendor.bluetooth.evb_bdaddr = 22:22:22:33:44:55
+  - ro.vendor.bluetooth.wipower = false
+  - ro.vendor.bt.bdaddr_path = /proc/device-tree/chosen/config/bt_addr
+  - ro.vendor.build.svn
+  - ro.vendor.camera.extensions.package = com.google.android.apps.camera.services
+  - ro.vendor.camera.extensions.service = com.google.android.apps.camera.services.extensions.service.PixelExtensions
+  - ro.vendor.cbd.modem_removable = 1
+  - ro.vendor.cbd.modem_type = s5100sit
+  - ro.vendor.config.
+  - ro.vendor.ddk.set.afbc = 1
+  - ro.vendor.display.read_temp_interval = 30
+  - ro.vendor.dolby.dax.version = DAX3_G_3.7.3.0_r1
+  - ro.vendor.fingerprint.ta.name = g7a.app
+  - ro.vendor.fingerprint.ta.name = g7.app
+  - ro.vendor.flood.
+  - ro.vendor.gps.atom.enabled = true
+  - ro.vendor.gps.pps.enabled = true
+  - ro.vendor.gpu.dataspace = 1
+  - ro.vendor.hwc.drm.device
+  - ro.vendor.persist.status
+  - ro.vendor.primarydisplay.blocking_zone.min_refresh_rate_by_nits
+  - ro.vendor.primarydisplay.blocking_zone.min_refresh_rate_by_nits = 5:120,:1
+  - ro.vendor.primarydisplay.blocking_zone.min_refresh_rate_by_nits = 15:10,:1
+  - ro.vendor.primarydisplay.blocking_zone.min_refresh_rate_by_nits = 20:120,30:60,:1
+  - ro.vendor.primarydisplay.google-ak3b.temperature_path = /dev/thermal/tz-by-name/display_therm/temp
+  - ro.vendor.primarydisplay.google-tg4a.temperature_path = /dev/thermal/tz-by-name/disp_therm/temp
+  - ro.vendor.primarydisplay.google-tk4c.temperature_path = /dev/thermal/tz-by-name/disp_therm/temp
+  - ro.vendor.primarydisplay.powerstats.entity_name
+  - ro.vendor.primarydisplay.powerstats.entity_name = Inner-Display
+  - ro.vendor.primarydisplay.preferred_mode
+  - ro.vendor.primarydisplay.vrr.expected_present.headsup_ns
+  - ro.vendor.primarydisplay.vrr.expected_present.timeout_ns
+  - ro.vendor.primarydisplay.xrr.version
+  - ro.vendor.primarydisplay.xrr.version = 2.1
+  - ro.vendor.secondarydisplay.blocking_zone.min_refresh_rate_by_nits
+  - ro.vendor.sjtag_ap_is_unlocked
+  - ro.vendor.sjtag_gsa_is_unlocked
+  - ro.vendor.sys.
+  - ro.vendor.sys.modem.
+  - ro.vendor.sys.modem.logging.loc = /data/vendor/slog
+  - ro.vendor.touch.dump.
+  - ro.vendor.touch.dump.proc
+  - ro.vendor.touch.dump.sys
+  - ro.vendor.trusty.storage.fs_ready
+  - ro.vendor.uwb.calibration.
+  - ro.vendor.uwb.calibration.calibrationpaths = /vendor/etc/uwb/calib_paths
+  - ro.vendor.vibrator.hal.
+  - ro.vendor.vibrator.hal.chirp.enabled = 1
+  - ro.vendor.vibrator.hal.device.mass
+  - ro.vendor.vibrator.hal.f0.comp.enabled
+  - ro.vendor.vibrator.hal.gpio.num = 44
+  - ro.vendor.vibrator.hal.gpio.shift = 2
+  - ro.vendor.vibrator.hal.loc.coeff
+  - ro.vendor.vibrator.hal.loc.coeff.folded
+  - ro.vendor.vibrator.hal.long.frequency.shift = 0
+  - ro.vendor.vibrator.hal.long.frequency.shift = 15
+  - ro.vendor.vibrator.hal.redc.comp.enabled = 0
+  - ro.vendor.wifi.sap.interface = wlan1
+  - ro.zram.first_wb_delay_mins = 1440
+  - ro.zram.mark_idle_delay_mins = 60
+  - ro.zram.periodic_wb_delay_hours = 24
+  - ro.zram_backing_device_min_free_mb = 1536
+  - suspend.max_sleep_time_millis = 40000
+  - suspend.short_suspend_backoff_enabled = true
+  - suspend.short_suspend_threshold_millis = 2000
+  - suspend.short_suspend_threshold_millis = 5000
+  - sys.usb.ffs.io_uring_enabled = true
+  - telephony.active_modems.max_count = 2
+  - telephony.ril.modem_bin_status
+  - telephony.ril.ntn_demo_mode
+  - telephony.ril.silent_reset
+  - telephony.TnNtn.image_switch
+  - vendor.all.devices.ready
+  - vendor.all.modules.ready
+  - vendor.aoc.firmware.version
+  - vendor.audio.hapticgenerator.distortion.output.gain
+  - vendor.audio_hal.aidl.enable
+  - vendor.audio_hal.aidl.enable = true
+  - vendor.audio_hal.device.serialno
+  - vendor.audio_hal.period_multiplier
+  - vendor.battery.defender.
+  - vendor.battery_mitigation.aidl.enable = true
+  - vendor.brownout.br.feasible
+  - vendor.brownout.mitigation.ready
+  - vendor.brownout_reason
+  - vendor.camera.
+  - vendor.camera.allow_sensor_binning_aspect_ratio_to_override_itp_output = false
+  - vendor.camera.debug.
+  - vendor.camera.debug.enable_blending_node = false
+  - vendor.camera.debug.enable_software_post_sharpen_node = false
+  - vendor.camera.fatp.
+  - vendor.camera.pbcs.debug.
+  - vendor.camera.support_specific_stream_aspect_ratio = 0.75
+  - vendor.cbd.
+  - vendor.chre.multiclient_hal
+  - vendor.common.modules.ready
+  - vendor.config.
+  - vendor.config.debug.
+  - vendor.device.modules.ready
+  - vendor.display.0.brightness.acl.default = 0
+  - vendor.display.0.brightness.acl.default = 1
+  - vendor.display.0.brightness.dimming.usage = 1
+  - vendor.display.0.brightness.dimming.usage = 2
+  - vendor.display.1.brightness.dimming.usage = 2
+  - vendor.display.async_off.supported = true
+  - vendor.display.cabc.supported = 1
+  - vendor.display.dynamic_recomposition = 1
+  - vendor.display.lbe.supported = 1
+  - vendor.display.png.premultiplied = true
+  - vendor.display.preferred_mode
+  - vendor.display.secondary_early_wakeup_node = /sys/devices/platform/1c241000.drmdecon/early_wakeup
+  - vendor.dynamic_sensor.
+  - vendor.edgetpu.cpu_scheduler.
+  - vendor.edgetpu.cpu_scheduler.policy = FIFO
+  - vendor.edgetpu.cpu_scheduler.priority = 99
+  - vendor.edgetpu.runtime.
+  - vendor.edgetpu.service.
+  - vendor.edgetpu.tflite_delegate.
+  - vendor.edgetpu.tflite_delegate.force_disable_io_coherency = 0
+  - vendor.fingerprint.
+  - vendor.gf.
+  - vendor.gf.debug.timer.threshold = 1,400,400,400,600,600,600
+  - vendor.google.silicon.
+  - vendor.google.silicon.enable_iif_for_priv_app = 1
+  - vendor.gps.
+  - vendor.gril.
+  - vendor.gxp.
+  - vendor.hwc.dpp.downscale = 2
+  - vendor.hwc.dpp.downscale = 4
+  - vendor.mali.
+  - vendor.mali.base_protected_max_core_count = 4
+  - vendor.mali.base_protected_tls_max = 67108864
+  - vendor.mali.debug.config = /vendor/etc/mali/debug.config
+  - vendor.mali.platform.config = /vendor/etc/mali/platform.config
+  - vendor.mali.platform_agt_frequency_khz = 24576
+  - vendor.media.omx = 0
+  - vendor.mfgapi.touchpanel.permission
+  - vendor.modem.
+  - vendor.nos.citadel.version
+  - vendor.perf.allow_experiments
+  - vendor.pktrouter
+  - vendor.pktrouter = 1
+  - vendor.powerhal.
+  - vendor.powerhal.adpf.rate = 16666666
+  - vendor.powerhal.apf_disabled = false
+  - vendor.powerhal.apf_enabled = true
+  - vendor.primarydisplay.fixed_te2.default_rate_hz = 120
+  - vendor.primarydisplay.lhbm.frames_to_reach_peak_brightness = 0
+  - vendor.primarydisplay.lhbm.frames_to_reach_peak_brightness = 2
+  - vendor.primarydisplay.op.hs_hz = 120
+  - vendor.primarydisplay.op.ns_hz = 60
+  - vendor.primarydisplay.op.ns_hz = 120
+  - vendor.primarydisplay.op.ns_min_dbv = 1172
+  - vendor.primarydisplay.op.peak_refresh_rate = 60
+  - vendor.qcom.bluetooth.soc = hastings
+  - vendor.radio.
+  - vendor.radio.ril.
+  - vendor.ril.
+  - vendor.rild.libpath = libsitril.so
+  - vendor.sys.
+  - vendor.sys.diag.
+  - vendor.sys.dmd.
+  - vendor.sys.exynos.modempath
+  - vendor.sys.exynos.slog.
+  - vendor.sys.modem.
+  - vendor.sys.modem_reset
+  - vendor.sys.rild_reset
+  - vendor.sys.silentlog.
+  - vendor.thermal.
+  - vendor.touch.gti0.
+  - vendor.touch.gti1.
+  - vendor.usb.
+  - vendor.uwb.calibration.country_code
+  - vendor.wifi.perf_diag.start
+  - vendor.wifi.sniffer.start
+  - vendor.wlan.driver.version
+  - vendor.wlan.firmware.version
+  - vendor.wlcservice.fwupdate.tx
+  - vendor.wlcservice.start
+  - vendor.wlcservice.test.authentication
+  - vendor.zram.size = 3g
+  - vendor.zram.size = 50p
+  - wifi.aware.interface = wifi-aware0
+  - zygote.critical_window.minute = 10

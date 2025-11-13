@@ -9,4 +9,4 @@ export BUILD_DATETIME=1751155200
 export BUILD_NUMBER=2025062900
 export OUT_DIR=$2
 lunch ${1}-cur-user
-m adevtool-state-collection-inputs
+m "${@:3}"

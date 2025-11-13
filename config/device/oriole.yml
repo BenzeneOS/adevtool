@@ -1,15 +1,5 @@
 device:
   name: oriole
-  build_id: BP2A.250605.031.A5
-
-platform:
-  product_makefile: device/google/raviole/aosp_oriole.mk
 
 includes:
   - common/gen6pixel.yml
-  - common/gs-wireless-charger.yml
-
-filters:
-  sepolicy_dirs:
-    match:
-      - hardware/google/pixel-sepolicy/vibrator/cs40l26

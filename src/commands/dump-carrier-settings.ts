@@ -9,6 +9,7 @@ import { forEachDevice } from '../frontend/devices'
 import { prepareFactoryImages } from '../frontend/source'
 import { BuildIndex, loadBuildIndex } from '../images/build-index'
 import { exists } from '../util/fs'
+import { log } from '../util/log'
 
 export default class DumpCarrierSettings extends Command {
   static description = 'generate protoc dumps of configs from factory image.'
@@ -44,7 +45,7 @@ export default class DumpCarrierSettings extends Command {
           assert(await exists(stockCsPath))
           await decodeConfigs(stockCsPath, outDir)
         } else {
-          this.log(`${config.device.name} is not supported due to lack of cellular connectivity`)
+          log(`${config.device.name} is not supported due to lack of cellular connectivity`)
         }
       },
       config => `${config.device.name} ${config.device.build_id}`,

@@ -1,7 +1,12 @@
 import util from 'util'
 
-import { BlobEntry, partPathToSrcPath } from '../blobs/entry'
+import assert from 'assert'
+import { ApkSigningMode, BlobEntry } from '../blobs/entry'
+import { PartPath } from '../blobs/file-list'
+import { DeviceConfig } from '../config/device'
+import { assertDefined, objGet } from '../util/data'
 import { SOONG_HEADER } from '../util/headers'
+import { Partition } from '../util/partitions'
 
 export const SPECIAL_FILE_EXTENSIONS = new Set(['.so', '.apk', '.jar', '.xml', '.apex'])
 
@@ -46,11 +51,14 @@ export interface ScriptModule {
 export interface ApkModule {
   apk: string
   certificate?: string
-  presigned?: boolean
+  preprocessed?: boolean
   privileged?: boolean
-  dex_preopt: {
+  default_dev_cert?: boolean
+  dex_preopt?: {
     enabled: boolean
   }
+  uses_libs?: string[]
+  optional_uses_libs?: string[]
 }
 
 export interface ApexModule {
@@ -89,6 +97,7 @@ export interface SoongNamespace {}
 export type SoongModuleSpecific = {
   // This is used initially, but deleted before serialization
   _type?: string
+  overrides?: string[]
 } & (
   | SharedLibraryModule
   | ExecutableModule
@@ -113,6 +122,10 @@ export type SoongModule = {
   product_specific?: boolean
   soc_specific?: boolean
   device_specific?: boolean
+  recovery?: boolean
+  ramdisk?: boolean
+  install_in_root?: boolean
+  no_full_install?: boolean
 
   // This is used initially, but deleted before serialization
   _entry?: BlobEntry
@@ -126,7 +139,7 @@ export interface SoongBlueprint {
 
 function getRelativeInstallPath(entry: BlobEntry, pathParts: Array<string>, installDir: string) {
   if (pathParts[0] != installDir) {
-    throw new Error(`File ${entry.srcPath} is not in ${installDir}`)
+    throw new Error(`File ${entry.partPath.asPseudoPath()} is not in ${installDir}`)
   }
 
   let subpath = pathParts.slice(1, -1).join('/')
@@ -134,13 +147,24 @@ function getRelativeInstallPath(entry: BlobEntry, pathParts: Array<string>, inst
 }
 
 export function blobToSoongModule(
+  config: DeviceConfig,
   name: string,
   ext: string,
   vendor: string,
   entry: BlobEntry,
   entrySrcPaths: Set<string>,
+  dexOnlyLibraries: Set<string>,
 ) {
-  let pathParts = entry.path.split('/')
+  let partition = entry.partPath.partition
+  let pathParts = entry.partPath.relPath.split('/')
+  let installInRoot = false
+  if (partition === Partition.Recovery || partition === Partition.VendorRamdisk) {
+    if (pathParts[0] === 'system') {
+      pathParts = pathParts.slice(1)
+    } else {
+      installInRoot = true
+    }
+  }
 
   // Type and info is based on file extension
   let moduleSpecific: SoongModuleSpecific
@@ -151,7 +175,7 @@ export function blobToSoongModule(
 
     moduleSpecific = {
       _type: 'sh_binary',
-      src: entry.srcPath,
+      src: entry.partPath.asPseudoPath(),
       ...(relPath && { sub_dir: relPath }),
     }
   } else if (ext == '.xml') {
@@ -159,7 +183,7 @@ export function blobToSoongModule(
 
     moduleSpecific = {
       _type: 'prebuilt_etc_xml',
-      src: entry.srcPath,
+      src: entry.partPath.asPseudoPath(),
       filename_from_src: true,
       ...(relPath && { sub_dir: relPath }),
     }
@@ -169,8 +193,8 @@ export function blobToSoongModule(
 
     moduleSpecific = {
       _type: 'cc_prebuilt_binary',
-      srcs: [entry.srcPath],
-      ...(name != pathParts.at(-1) && { stem: pathParts.at(-1) }),
+      srcs: [entry.partPath.asPseudoPath()],
+      ...(name !== pathParts.at(-1) && { stem: pathParts.at(-1) }),
       ...(relPath && { relative_install_path: relPath }),
       check_elf_files: false,
       prefer: true,
@@ -178,12 +202,21 @@ export function blobToSoongModule(
         none: true,
       },
     }
+    // TODO extend state collection to handle this
+    if (name.startsWith('android.hardware.health-service.')) {
+      if (partition === Partition.Vendor) {
+        moduleSpecific.overrides = ['charger']
+      } else {
+        assert(partition === Partition.Recovery)
+        moduleSpecific.overrides = ['charger.recovery']
+      }
+    }
   } else if (pathParts[0] == 'dsp') {
     let relPath = getRelativeInstallPath(entry, pathParts, 'dsp')
 
     moduleSpecific = {
       _type: 'prebuilt_dsp',
-      src: entry.srcPath,
+      src: entry.partPath.asPseudoPath(),
       filename_from_src: true,
       ...(relPath && { sub_dir: relPath }),
     }
@@ -192,7 +225,7 @@ export function blobToSoongModule(
 
     moduleSpecific = {
       _type: 'prebuilt_etc',
-      src: entry.srcPath,
+      src: entry.partPath.asPseudoPath(),
       filename_from_src: true,
       ...(relPath && { sub_dir: relPath }),
     }
@@ -206,7 +239,7 @@ export function blobToSoongModule(
     } else if (libDir == 'lib64') {
       curArch = '64'
     } else {
-      throw new Error(`File ${entry.srcPath} is in unknown lib dir ${libDir}`)
+      throw new Error(`File ${entry.partPath.asPseudoPath()} is in unknown lib dir ${libDir}`)
     }
     // Save current lib arch before changing to 'both' for multilib
     let arch = curArch
@@ -217,7 +250,7 @@ export function blobToSoongModule(
     // Check for the other arch
     let otherLibDir = arch == '32' ? 'lib64' : 'lib'
     let otherPartPath = [otherLibDir, ...pathParts.slice(1)].join('/')
-    let otherSrcPath = partPathToSrcPath(entry.partition, otherPartPath)
+    let otherSrcPath = new PartPath(partition, otherPartPath).asPseudoPath()
     if (entrySrcPaths.has(otherSrcPath)) {
       // Both archs are present
       arch = 'both'
@@ -225,7 +258,7 @@ export function blobToSoongModule(
 
     // For single-arch
     let targetSrcs = {
-      srcs: [entry.srcPath],
+      srcs: [entry.partPath.asPseudoPath()],
     } as TargetSrcs
 
     // For multi-arch
@@ -245,7 +278,7 @@ export function blobToSoongModule(
     let origFileName = pathParts.at(-1)?.replace(/\.so$/, '')
     moduleSpecific = {
       _type: TYPE_SHARED_LIBRARY,
-      ...(name != origFileName && { stem: origFileName }),
+      ...(name !== origFileName && { stem: origFileName }),
       ...(relPath && { relative_install_path: relPath }),
       target: {
         ...(arch == '32' && { android_arm: targetSrcs }),
@@ -263,42 +296,97 @@ export function blobToSoongModule(
       },
     }
   } else if (ext == '.apk') {
-    moduleSpecific = {
+    let apkModule = {
       _type: TYPE_APK,
-      apk: entry.srcPath,
-      ...((entry.isPresigned && { presigned: true, preprocessed: true }) || { certificate: 'platform' }),
-      ...(entry.path.startsWith('priv-app/') && { privileged: true }),
-      dex_preopt: {
-        enabled: false,
-      },
+      apk: entry.partPath.asPseudoPath(),
+    } as ApkModule
+    let apkInfo = assertDefined(entry.apkInfo)
+    if (apkInfo.usesLibrary.concat(apkInfo.optionalUsesLibrary).find(lib => dexOnlyLibraries.has(lib)) !== undefined) {
+      // TODO investigate whether keeping dex_preopt is possible for prebuilt uses-libraries
+      apkModule.dex_preopt = { enabled: false }
+    } else {
+      if (apkInfo.usesLibrary.length > 0) {
+        apkModule.uses_libs = apkInfo.usesLibrary
+      }
+      if (apkInfo.optionalUsesLibrary.length > 0) {
+        apkModule.optional_uses_libs = apkInfo.optionalUsesLibrary
+      }
+      apkModule.dex_preopt = { enabled: true }
     }
+    if (entry.apkSigningMode !== undefined) {
+      switch (entry.apkSigningMode) {
+        case ApkSigningMode.DO_NOT_RESIGN:
+          apkModule.preprocessed = true
+          break
+        case ApkSigningMode.RESIGN_WITH_PLATFORM_CERT:
+          apkModule.certificate = 'platform'
+          break
+        case ApkSigningMode.RESIGN_WITH_RELEASEKEY_CERT: {
+          apkModule.default_dev_cert = true
+          break
+        }
+      }
+    }
+    if (entry.partPath.relPath.startsWith('priv-app/')) {
+      let res = objGet(config.package_inclusions, apkInfo.packageName)
+      if (res.flags?.includes('include_as_untrusted_app') !== true) {
+        apkModule.privileged = true
+      }
+    }
+    moduleSpecific = apkModule
   } else if (ext == '.jar') {
     moduleSpecific = {
       _type: 'dex_import',
-      jars: [entry.srcPath],
+      jars: [entry.partPath.asPseudoPath()],
     }
   } else if (ext == '.apex') {
     moduleSpecific = {
       _type: 'prebuilt_apex',
-      src: entry.srcPath,
+      src: entry.partPath.asPseudoPath(),
       prefer: true,
     }
   } else {
-    throw new Error(`File ${entry.srcPath} has unknown extension ${ext}`)
+    throw new Error(`File ${entry.partPath.asPseudoPath()} has unknown extension ${ext}`)
   }
 
-  return {
+  let sm = {
     name,
     owner: vendor,
     ...moduleSpecific,
+    ...(installInRoot && { install_in_root: true }),
     _entry: entry,
-
-    // Partition flag
-    ...(entry.partition == 'system_ext' && { system_ext_specific: true }),
-    ...(entry.partition == 'product' && { product_specific: true }),
-    ...(entry.partition == 'vendor' && { soc_specific: true }),
-    ...(entry.partition == 'odm' && { device_specific: true }),
   } as SoongModule
+  appendPartitionProps(sm, partition)
+  return sm
+}
+
+export function appendPartitionProps(sm: SoongModule, part: Partition) {
+  switch (part) {
+    case Partition.SystemExt:
+      sm.system_ext_specific = true
+      break
+    case Partition.Product:
+      sm.product_specific = true
+      break
+    case Partition.Vendor:
+      sm.soc_specific = true
+      break
+    case Partition.Odm:
+      sm.device_specific = true
+      break
+    case Partition.Recovery:
+      sm.recovery = true
+      break
+    case Partition.InitBoot:
+      sm.ramdisk = true
+      sm.install_in_root = true
+      sm.no_full_install = true
+      break
+    case Partition.Root:
+      sm.install_in_root = true
+      sm.no_full_install = true
+      break
+  }
 }
 
 export function serializeModule(module: SoongModule) {

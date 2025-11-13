@@ -1,0 +1,33 @@
+kernel_cmdline_exclusions:
+  - dyndbg="func alloc_contig_dump_pages +p"
+  - kasan=off
+kernel_cmdline_inclusions:
+  - androidboot.console=ttySAC0
+  - arm_smmu_v3_kvm.atomic_pages=5897
+  - at24.write_timeout=100
+  - bootconfig
+  - cgroup.memory=nokmem
+  - cgroup_disable=memory
+  - cma_sysfs.experimental=Y
+  - console=ttySAC0,115200
+  - disable_dma32=on
+  - earlycon=exynos4210,0x10870000
+  - earlycon=exynos4210,0x10A00000
+  - exynos_drm.load_sequential=1
+  - exynos_mfc.load_sequential=1
+  - fips140.load_sequential=1
+  - g2d.load_sequential=1
+  - log_buf_len=1024K
+  - page_pinner=on
+  - panel-samsung-ana6707-f10.load_sequential=1
+  - pcie-exynos-core.load_sequential=1
+  - printk.devkmsg=on
+  - rcu_nocbs=all
+  - rcupdate.rcu_expedited=1
+  - rcutree.enable_rcu_lazy
+  - s2mpg12-regulator.load_sequential=1
+  - samsung_iommu_v9.load_sequential=1
+  - stack_depot_disable=off
+  - swiotlb=1024
+  - swiotlb=noforce
+  - sysctl.kernel.sched_pelt_multiplier=4

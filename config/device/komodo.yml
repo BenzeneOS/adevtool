@@ -1,9 +1,5 @@
 device:
   name: komodo
 
-platform:
-  product_makefile: device/google/caimito/aosp_komodo.mk
-
 includes:
   - common/gen9pixel.yml
-  - common/gs-wireless-charger.yml

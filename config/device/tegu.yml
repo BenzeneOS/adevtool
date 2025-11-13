@@ -1,9 +1,6 @@
 device:
   name: tegu
 
-platform:
-  product_makefile: device/google/tegu/aosp_tegu.mk
-
 includes:
   - common/gen9pixel.yml
-  - common/gs-wireless-charger.yml
+

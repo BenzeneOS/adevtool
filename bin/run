@@ -27,6 +27,8 @@ if (!validCwd) {
 
 process.env.PATH = cwd + '/prebuilts/build-tools/path/linux-x86:' + cwd + '/prebuilts/jdk/jdk21/linux-x86/bin:' + process.env.PATH
 
+process.env.UV_THREADPOOL_SIZE = require('os').cpus().length.toString()
+
 void (async () => {
   const oclif = await import('@oclif/core')
   await oclif.execute({ dir: __dirname, development: true })

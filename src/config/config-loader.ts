@@ -1,6 +1,7 @@
 import _ from 'lodash'
 import path from 'path'
 import YAML from 'yaml'
+import { log } from '../util/log'
 
 import { readFile } from '../util/fs'
 import { parseFilters, SerializedFilters } from './filters'
@@ -45,7 +46,14 @@ export async function loadAndMergeConfig(configPath: string, baseConfig: Readonl
   if (merged.filters !== undefined) {
     // Parse filters
     merged.filters = Object.fromEntries(
-      Object.entries(merged.filters).map(([group, filters]) => [group, parseFilters(filters as SerializedFilters)]),
+      Object.entries(merged.filters).map(([group, filters]) => {
+        try {
+          return [group, parseFilters(filters as SerializedFilters)]
+        } catch (e) {
+          log(`failed to parse ${group} filters`)
+          throw e
+        }
+      }),
     )
   }
 

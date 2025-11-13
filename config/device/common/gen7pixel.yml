@@ -1,13 +1,11 @@
-platform:
-  sepolicy_dirs:
-    - device/google/gs201-sepolicy
-
 includes:
   - pixel.yml
-  - gs.yml
+
+device:
+  platform: gs201
 
 filters:
-  files:
+  file_exclusions:
     prefix:
       - product/lib/
       - system/framework/arm/

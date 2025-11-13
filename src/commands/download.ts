@@ -6,6 +6,7 @@ import { prepareDeviceImages } from '../frontend/source'
 import { ImageType, loadBuildIndex } from '../images/build-index'
 import { DeviceImage } from '../images/device-image'
 import { downloadDeviceImages } from '../images/download'
+import { log } from '../util/log'
 
 export default class Download extends Command {
   static description =
@@ -47,7 +48,14 @@ export default class Download extends Command {
 
     for (let config of await deviceConfigs) {
       for (let type of types) {
-        let buildIds = flags.buildId ?? [config.device.build_id]
+        let buildIds = flags.buildId
+        if (buildIds === undefined) {
+          buildIds = [config.device.build_id]
+          let backport = config.device.backport_build_id
+          if (backport !== undefined) {
+            buildIds.push(backport)
+          }
+        }
 
         for (let buildIdStr of buildIds) {
           let buildId = resolveBuildId(buildIdStr, config)
@@ -64,13 +72,13 @@ export default class Download extends Command {
     }
 
     for (let image of images) {
-      this.log(`${image.toString()}: '${image.getPath()}'`)
+      log(`${image.toString()}: '${image.getPath()}'`)
     }
 
     if (flags.unpack) {
       for (let image of images) {
         if (image.isGrapheneOsImage() && image.type === ImageType.Factory) {
-          this.log(
+          log(
             'Skipping unpack of ' +
               image.fileName +
               ', since optimized factory images are currently not supported. ' +
@@ -82,7 +90,7 @@ export default class Download extends Command {
       let imageMap = prepareDeviceImages(await index, types, await deviceConfigs, flags.buildId)
 
       for (let [deviceBuildId, deviceImages] of await imageMap) {
-        this.log(`${deviceBuildId}: '${deviceImages.unpackedFactoryImageDir}'`)
+        log(`${deviceBuildId}: '${deviceImages.unpackedFactoryImageDir}'`)
       }
     }
   }
