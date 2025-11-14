@@ -1,9 +1,13 @@
 replacement_module_exclusions:
+  - android.hardware.wifi.hostapd.xml # external/wpa_supplicant_8/hostapd | vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
+  - android.hardware.wifi.supplicant.xml # external/wpa_supplicant_8/wpa_supplicant/aidl/vendor | vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml
   - fstab.cf.f2fs.cts.recovery # device/google/cuttlefish/shared/config | recovery/system/etc/recovery.fstab
+  - libwpa_client # external/wpa_supplicant_8/wpa_supplicant | vendor/lib64/libwpa_client.so
   - q-developer-gsi.avbpubkey # system/core/rootdir/avb | vendor_ramdisk/avb/q-developer-gsi.avbpubkey
   - r-developer-gsi.avbpubkey # system/core/rootdir/avb | vendor_ramdisk/avb/r-developer-gsi.avbpubkey
   - s-developer-gsi.avbpubkey # system/core/rootdir/avb | vendor_ramdisk/avb/s-developer-gsi.avbpubkey
   - QuickAccessWallet # packages/apps/QuickAccessWallet | system_ext/priv-app/QuickAccessWallet/QuickAccessWallet.apk
+  - wpa_supplicant # wpa_supplicant build is configured by unavailable soong variables
 
 replacement_module_inclusions:
   - aidl_audio_set_configurations_bfbs # hardware/interfaces/bluetooth/audio/utils | vendor/etc/aidl/le_audio/aidl_audio_set_configurations.bfbs
@@ -244,12 +248,10 @@ replacement_module_inclusions:
   - android.hardware.wifi.common-V2-ndk.vendor # hardware/interfaces/wifi/common/aidl | vendor/lib64/android.hardware.wifi.common-V2-ndk.so
   - android.hardware.wifi.direct.prebuilt.xml # frameworks/native/data/etc | vendor/etc/permissions/android.hardware.wifi.direct.prebuilt.xml
   - android.hardware.wifi.hostapd-V3-ndk.vendor # hardware/interfaces/wifi/hostapd/aidl | vendor/lib64/android.hardware.wifi.hostapd-V3-ndk.so
-  - android.hardware.wifi.hostapd.xml # external/wpa_supplicant_8/hostapd | vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
   - android.hardware.wifi.passpoint.prebuilt.xml # frameworks/native/data/etc | vendor/etc/permissions/android.hardware.wifi.passpoint.prebuilt.xml
   - android.hardware.wifi.prebuilt.xml # frameworks/native/data/etc | vendor/etc/permissions/android.hardware.wifi.prebuilt.xml
   - android.hardware.wifi.rtt.prebuilt.xml # frameworks/native/data/etc | vendor/etc/permissions/android.hardware.wifi.rtt.prebuilt.xml
   - android.hardware.wifi.supplicant-V4-ndk.vendor # hardware/interfaces/wifi/supplicant/aidl | vendor/lib64/android.hardware.wifi.supplicant-V4-ndk.so
-  - android.hardware.wifi.supplicant.xml # external/wpa_supplicant_8/wpa_supplicant/aidl/vendor | vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml
   - android.hidl.allocator@1.0-service # system/libhidl/transport/allocator/1.0/default | system_ext/bin/hw/android.hidl.allocator@1.0-service,system_ext/etc/init/android.hidl.allocator@1.0-service.rc
   - android.hidl.allocator@1.0-service.xml # system/libhidl/transport/allocator/1.0/default | system_ext/etc/vintf/manifest/android.hidl.allocator@1.0-service.xml
   - android.hidl.allocator@1.0.vendor # system/libhidl/transport/allocator/1.0 | vendor/lib64/android.hidl.allocator@1.0.so
@@ -407,7 +409,6 @@ replacement_module_inclusions:
   - libusbhost.vendor # system/core/libusbhost | vendor/lib64/libusbhost.so
   - libutilscallstack.vendor # system/core/libutils | vendor/lib64/libutilscallstack.so
   - libvisualizeraidl # frameworks/av/media/libeffects/visualizer | vendor/lib64/soundfx/libvisualizeraidl.so
-  - libwpa_client # external/wpa_supplicant_8/wpa_supplicant | vendor/lib64/libwpa_client.so
   - libxml2.vendor # external/libxml2 | vendor/lib64/libxml2.so
   - libz.vendor_ramdisk # external/zlib | vendor_ramdisk/system/lib64/libz.so
   - libziparchive.vendor # system/libziparchive | vendor/lib64/libziparchive.so
@@ -446,7 +447,6 @@ replacement_module_inclusions:
   - vendor_service_contexts.recovery # system/sepolicy/contexts | recovery/vendor_service_contexts
   - vndservice # frameworks/native/cmds/service | vendor/bin/vndservice
   - vndservicemanager # frameworks/native/cmds/servicemanager | vendor/bin/vndservicemanager,vendor/etc/init/vndservicemanager.rc
-  - wpa_supplicant # external/wpa_supplicant_8/wpa_supplicant | vendor/bin/hw/wpa_supplicant
   - ZillaSlab-Medium.ttf # external/google-fonts/zilla-slab | product/fonts/ZillaSlab-Medium.ttf
   - ZillaSlab-MediumItalic.ttf # external/google-fonts/zilla-slab | product/fonts/ZillaSlab-MediumItalic.ttf
   - ZillaSlab-SemiBold.ttf # external/google-fonts/zilla-slab | product/fonts/ZillaSlab-SemiBold.ttf

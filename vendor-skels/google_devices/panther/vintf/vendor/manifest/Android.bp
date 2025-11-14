@@ -94,6 +94,18 @@ vintf_fragment {
     soc_specific: true,
 }
 
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.wifi.hostapd.xml",
+    src: "android.hardware.wifi.hostapd.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.wifi.supplicant.xml",
+    src: "android.hardware.wifi.supplicant.xml",
+    soc_specific: true,
+}
+
 vintf_fragment { name: "adevtool_vintf_fragment_vendor_dmd.xml", src: "dmd.xml", soc_specific: true }
 
 vintf_fragment {

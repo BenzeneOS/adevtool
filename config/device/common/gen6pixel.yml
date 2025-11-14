@@ -110,6 +110,7 @@ filters:
       - vendor/lib/libsueznanoappclients.so
       - vendor/lib/libusf.so
       - vendor/lib/libvendorgraphicbuffer.so
+      - vendor/lib/libwpa_client.so
       - vendor/lib/modem_android_property_manager.so
       - vendor/lib/modem_android_property_manager_impl.so
       - vendor/lib/modem_clock_manager.so

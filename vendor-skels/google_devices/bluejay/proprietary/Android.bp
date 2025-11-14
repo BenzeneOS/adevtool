@@ -1088,6 +1088,17 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    name: "wpa_supplicant",
+    owner: "google_devices",
+    srcs: [ "vendor/bin/hw/wpa_supplicant" ],
+    relative_install_path: "hw",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
     name: "init.camera.set-interrupts-ownership",
     owner: "google_devices",
     srcs: [ "vendor/bin/init.camera.set-interrupts-ownership" ],
@@ -2721,6 +2732,20 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: { srcs: [ "vendor/lib/libvendorgraphicbuffer.so" ] },
         android_arm64: { srcs: [ "vendor/lib64/libvendorgraphicbuffer.so" ] }
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libwpa_client",
+    owner: "google_devices",
+    target: {
+        android_arm: { srcs: [ "vendor/lib/libwpa_client.so" ] },
+        android_arm64: { srcs: [ "vendor/lib64/libwpa_client.so" ] }
     },
     compile_multilib: "both",
     check_elf_files: false,

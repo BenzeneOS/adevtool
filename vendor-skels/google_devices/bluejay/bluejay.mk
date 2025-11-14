@@ -60,6 +60,8 @@ PRODUCT_PACKAGES += \
     adevtool_vintf_fragment_vendor_android.hardware.usb.gadget-service.xml \
     adevtool_vintf_fragment_vendor_android.hardware.vibrator-service.cs40l26.xml \
     adevtool_vintf_fragment_vendor_android.hardware.weaver-service.citadel.xml \
+    adevtool_vintf_fragment_vendor_android.hardware.wifi.hostapd.xml \
+    adevtool_vintf_fragment_vendor_android.hardware.wifi.supplicant.xml \
     adevtool_vintf_fragment_vendor_dmd.xml \
     adevtool_vintf_fragment_vendor_fingerprint-goodix.xml \
     adevtool_vintf_fragment_vendor_flood_control.xml \
@@ -294,12 +296,10 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.common-V2-ndk.vendor:64 \
     android.hardware.wifi.direct.prebuilt.xml \
     android.hardware.wifi.hostapd-V3-ndk.vendor:64 \
-    android.hardware.wifi.hostapd.xml \
     android.hardware.wifi.passpoint.prebuilt.xml \
     android.hardware.wifi.prebuilt.xml \
     android.hardware.wifi.rtt.prebuilt.xml \
     android.hardware.wifi.supplicant-V4-ndk.vendor:64 \
-    android.hardware.wifi.supplicant.xml \
     android.hidl.allocator@1.0.vendor \
     android.hidl.memory.token@1.0.vendor:64 \
     android.hidl.safe_union@1.0.vendor \
@@ -404,7 +404,6 @@ PRODUCT_PACKAGES += \
     libtrusty.recovery \
     libui.vendor:64 \
     libunwindstack.vendor:64 \
-    libwpa_client \
     libxml2.vendor \
     libziparchive.vendor \
     nfc-service-default.xml \
@@ -431,8 +430,7 @@ PRODUCT_PACKAGES += \
     vendor_property_contexts.recovery \
     vendor_service_contexts.recovery \
     vndservice \
-    vndservicemanager \
-    wpa_supplicant
+    vndservicemanager
 
 # sysconfig
 PRODUCT_PACKAGES += \
@@ -749,6 +747,7 @@ PRODUCT_PACKAGES += \
     libusf \
     libvendor.goodix.hardware.biometrics.fingerprint@2.1 \
     libvendorgraphicbuffer \
+    libwpa_client \
     mapper.pixel \
     misc_writer \
     modem_android_property_manager \
@@ -814,7 +813,8 @@ PRODUCT_PACKAGES += \
     vendor_chre_atoms_log \
     vendor_chre_metrics-cpp \
     vulkan.mali \
-    wfc-pkt-router
+    wfc-pkt-router \
+    wpa_supplicant
 
 # inclusion of symlinks
 PRODUCT_PACKAGES += \

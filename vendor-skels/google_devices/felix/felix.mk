@@ -61,6 +61,8 @@ PRODUCT_PACKAGES += \
     adevtool_vintf_fragment_vendor_android.hardware.usb.gadget-service.xml \
     adevtool_vintf_fragment_vendor_android.hardware.vibrator-service.cs40l26-private.xml \
     adevtool_vintf_fragment_vendor_android.hardware.weaver-service.citadel.xml \
+    adevtool_vintf_fragment_vendor_android.hardware.wifi.hostapd.xml \
+    adevtool_vintf_fragment_vendor_android.hardware.wifi.supplicant.xml \
     adevtool_vintf_fragment_vendor_dmd.xml \
     adevtool_vintf_fragment_vendor_fingerprint-fpc42.xml \
     adevtool_vintf_fragment_vendor_flood_control.xml \
@@ -311,12 +313,10 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.common-V2-ndk.vendor \
     android.hardware.wifi.direct.prebuilt.xml \
     android.hardware.wifi.hostapd-V3-ndk.vendor \
-    android.hardware.wifi.hostapd.xml \
     android.hardware.wifi.passpoint.prebuilt.xml \
     android.hardware.wifi.prebuilt.xml \
     android.hardware.wifi.rtt.prebuilt.xml \
     android.hardware.wifi.supplicant-V4-ndk.vendor \
-    android.hardware.wifi.supplicant.xml \
     android.hidl.allocator@1.0.vendor \
     android.hidl.safe_union@1.0.vendor \
     android.hidl.token@1.0-utils.vendor \
@@ -431,7 +431,6 @@ PRODUCT_PACKAGES += \
     libui.vendor \
     libunwindstack.vendor \
     libusbhost.vendor \
-    libwpa_client \
     libxml2.vendor \
     libz.vendor_ramdisk \
     libziparchive.vendor \
@@ -460,8 +459,7 @@ PRODUCT_PACKAGES += \
     vendor_property_contexts.recovery \
     vendor_service_contexts.recovery \
     vndservice \
-    vndservicemanager \
-    wpa_supplicant
+    vndservicemanager
 
 # sysconfig
 PRODUCT_PACKAGES += \
@@ -805,6 +803,7 @@ PRODUCT_PACKAGES += \
     libutils-default \
     libvendorgraphicbuffer \
     libwlcproto_aidl-default \
+    libwpa_client \
     mapper.pixel \
     misc_writer \
     modem_android_property_manager \
@@ -883,7 +882,8 @@ PRODUCT_PACKAGES += \
     vendor_chre_metrics-cpp \
     vice \
     vulkan.mali \
-    wfc-pkt-router
+    wfc-pkt-router \
+    wpa_supplicant
 
 # inclusion of symlinks
 PRODUCT_PACKAGES += \

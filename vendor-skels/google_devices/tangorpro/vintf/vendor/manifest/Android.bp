@@ -89,6 +89,18 @@ vintf_fragment {
 }
 
 vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.wifi.hostapd.xml",
+    src: "android.hardware.wifi.hostapd.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_android.hardware.wifi.supplicant.xml",
+    src: "android.hardware.wifi.supplicant.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
     name: "adevtool_vintf_fragment_vendor_fingerprint-fpc42.xml",
     src: "fingerprint-fpc42.xml",
     soc_specific: true,
