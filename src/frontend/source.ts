@@ -161,7 +161,7 @@ async function unpackFactoryImage(factoryImagePath: string, image: DeviceImage, 
     // Fixing it for this particular case is not worth the complexity increase
   } else {
     if (image.skipSha256Check) {
-      console.warn(`skipping SHA-256 check for ${image.fileName}, SHA-256: ${sha256}`)
+      log(`skipping SHA-256 check for ${image.fileName}, SHA-256: ${sha256}`)
     } else {
       throw new Error(`SHA-256 mismatch for '${image.fileName}': expected ${image.sha256} got ${sha256}`)
     }
