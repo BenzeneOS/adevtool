@@ -149,7 +149,7 @@ export async function processSepolicy(
       })
 
     let typesJob = (async () => {
-      let parsedCil = await parseCil(selinuxDir, part)
+      let parsedCil = await parseCilFile(selinuxDir, part)
       let customTypeAttrs = customSepolicy.types
       let typeLines: string[] = []
       let definedAttrs = new Set<string>(
@@ -183,8 +183,6 @@ export async function processSepolicy(
 
       let customCilLines = new Set<string>(customSepolicy.cil)
 
-      let cil = cilLines.filter(l => !customCilLines.has(l)).join('\n')
-
       let writes: Promise<void>[] = []
       if (typeLines.length > 0) {
         let dirPath = sepolicyPubDirPath !== null ? sepolicyPubDirPath : sepolicyDirPath
@@ -197,6 +195,9 @@ export async function processSepolicy(
           })(),
         )
       }
+      let filteredCilLines = cilLines.filter(l => !customCilLines.has(l))
+      let cil = filteredCilLines.join('\n')
+
       if (cil.length > 0) {
         writes.push(
           (async () => {
@@ -204,6 +205,22 @@ export async function processSepolicy(
             writtenAny = true
           })(),
         )
+        if (part === Partition.Vendor) {
+          let version = await readFile(path.join(selinuxDir, 'plat_sepolicy_vers.txt'))
+          assert(version.endsWith('\n'), version)
+          version = version.slice(0, -1)
+          assert(!version.includes('\n'), version)
+          let typeSuffix = '_' + version
+          let allExpr = (await parseCil(filteredCilLines)).allExprs
+          let mapper = (token: string) => {
+            if (token.endsWith(typeSuffix)) {
+              return token.slice(0, -typeSuffix.length)
+            }
+            return token
+          }
+          let recoveryExtCil = allExpr.map(e => stringifyCilSexpr(e as unknown[], mapper)).join('\n')
+          writes.push(mkdirAndWriteFile(sepolicyDirPath, 'sepolicy_ext_recovery.cil', recoveryExtCil))
+        }
       }
       await Promise.all(writes)
     })()
@@ -284,15 +301,20 @@ function fileNamePrefix(part: Partition) {
   return part === Partition.System ? 'plat' : part
 }
 
-async function parseCil(selinuxDir: string, part: Partition) {
-  let parser = await require('s-expression')
+async function parseCilFile(selinuxDir: string, part: Partition) {
   let cilFilePath = path.join(selinuxDir, fileNamePrefix(part) + '_sepolicy.cil')
+  return parseCil((await readFile(cilFilePath)).split('\n'))
+}
+
+async function parseCil(cil: string[]) {
+  let parser = await require('s-expression')
+
   let typeattrExprs: unknown[][] = []
   let otherExprs: unknown[][] = []
   let allExprs: unknown[][] = []
   let types: string[] = []
   let typeAttrNames: string[] = []
-  for (let line of (await readFile(cilFilePath)).split('\n')) {
+  for (let line of cil) {
     if (line.length == 0 || line.startsWith(';')) {
       continue
     }
@@ -386,7 +408,7 @@ export async function loadSepolicy(pathResolver: PathResolver) {
         .map(el => stringifyXml([el]))
     })()
 
-    let parsedCilJob = parseCil(selinuxDir, part)
+    let parsedCilJob = parseCilFile(selinuxDir, part)
 
     let contextsArr = (await Promise.all(contextsJob)) as [string, string[]][]
     let contexts: { [fileName: string]: string[] } = {}
