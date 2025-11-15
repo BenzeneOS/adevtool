@@ -299,7 +299,6 @@ async function parseCil(selinuxDir: string, part: Partition) {
     let expr = parser(line) as string[]
     assert(expr !== undefined, line)
     allExprs.push(expr)
-    stringifySexpr(expr, null)
     switch (expr[0]) {
       case 'type':
         assert(expr.length === 2)
