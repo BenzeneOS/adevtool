@@ -45,3 +45,8 @@ export async function isDirectory(path: string) {
 export async function readFile(path: string) {
   return await fs.readFile(path, { encoding: 'utf8' })
 }
+
+export async function mkdirAndWriteFile(dirPath: string, fileName: string, content: string | Buffer) {
+  await fs.mkdir(dirPath, { recursive: true })
+  await fs.writeFile(path.join(dirPath, fileName), content)
+}

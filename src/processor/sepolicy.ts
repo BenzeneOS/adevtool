@@ -8,7 +8,7 @@ import { getHostBinPath } from '../config/paths'
 import { SystemState } from '../config/system-state'
 import { assertDefined, assertNonNull, updateMultiMapObj } from '../util/data'
 import { EntryFilterSpec, filterEntries, FilterResult } from '../util/exact-filter'
-import { readFile } from '../util/fs'
+import { mkdirAndWriteFile, readFile } from '../util/fs'
 import { log } from '../util/log'
 import { parseLines } from '../util/parse'
 import { EXT_SYS_PARTITIONS, Partition, PathResolver, REGULAR_SYS_PARTITIONS } from '../util/partitions'
@@ -138,13 +138,12 @@ export async function processSepolicy(
         })
 
         if (filteredLines.length > 0) {
-          await fs.mkdir(sepolicyDirPath, { recursive: true })
           let name = contextsFileName
           let prefix = fileNamePrefix(part)
           if (name.startsWith(prefix + '_')) {
             name = name.slice(prefix.length + 1)
           }
-          await fs.writeFile(path.join(sepolicyDirPath, name), filteredLines.join('\n'))
+          await mkdirAndWriteFile(sepolicyDirPath, name, filteredLines.join('\n'))
           writtenAny = true
         }
       })
@@ -189,11 +188,9 @@ export async function processSepolicy(
       let writes: Promise<void>[] = []
       if (typeLines.length > 0) {
         let dirPath = sepolicyPubDirPath !== null ? sepolicyPubDirPath : sepolicyDirPath
-        let filePath = path.join(dirPath, 'types.te')
         writes.push(
           (async () => {
-            await fs.mkdir(dirPath, { recursive: true })
-            await fs.writeFile(filePath, typeLines.join('\n'))
+            await mkdirAndWriteFile(dirPath, 'types.te', typeLines.join('\n'))
             if (dirPath === sepolicyPubDirPath) {
               writtenAnyPublic = true
             }
@@ -201,11 +198,9 @@ export async function processSepolicy(
         )
       }
       if (cil.length > 0) {
-        let filePath = path.join(sepolicyDirPath, 'sepolicy_ext.cil')
         writes.push(
           (async () => {
-            await fs.mkdir(sepolicyDirPath, { recursive: true })
-            await fs.writeFile(filePath, cil)
+            await mkdirAndWriteFile(sepolicyDirPath, 'sepolicy_ext.cil', cil)
             writtenAny = true
           })(),
         )
@@ -222,8 +217,7 @@ export async function processSepolicy(
       let customRecovery = new Set(custom.recovery)
       let recoveryBody = disassembled.recovery.filter(e => !customRecovery.has(e)).join('\n')
       let recovery = 'recovery_only(`\n' + recoveryBody + "\n')"
-      await fs.mkdir(sepolicyDirPath, { recursive: true })
-      await fs.writeFile(path.join(sepolicyDirPath, 'recovery_sepolicy_ext.te'), recovery)
+      await mkdirAndWriteFile(sepolicyDirPath, 'recovery_sepolicy_ext.te', recovery)
     })()
 
     let macPermsJob = (async () => {
