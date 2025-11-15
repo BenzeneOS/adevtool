@@ -1,7 +1,7 @@
 import { promises as fs } from 'fs'
 import path from 'path'
 
-import { VendorDirectories } from '../blobs/build'
+import { PROPRIETARY_DIR_IN_ROOT_SOONG_NAMESPACE, VendorDirectories } from '../blobs/build'
 import { ApkSigningMode, BlobEntry, blobNeedsSoong } from '../blobs/entry'
 import { listPart, PartPath, PseudoPath } from '../blobs/file-list'
 import { loadPartitionProps, PartitionProps } from '../blobs/props'
@@ -358,6 +358,7 @@ export async function generateBuildFiles(
   entries: BlobEntry[],
   buildPkgs: BuildSystemPackages[],
   propResults: PropResults,
+  productSystemServerJars: string[],
   fwPaths: string[] | null,
   vintfPaths: Map<string, VintfPaths> | null,
   sepolicyDirs: SepolicyDirs | null,
@@ -375,7 +376,9 @@ export async function generateBuildFiles(
   // Create Soong modules, Make rules, and symlink modules
   let copyFiles: string[] = []
   let symlinks: Symlink[] = []
-  let namedModules = new Map<string, SoongModule>()
+  let allNamedModules = new Map<string, SoongModule>()
+  let localNamespaceModules: SoongModule[] = []
+  let rootNamespaceModules: SoongModule[] = []
 
   // Conflict resolution: all candidate modules with the same name, plus counters
   let conflictModules = new Map<string, SoongModule[]>()
@@ -408,7 +411,9 @@ export async function generateBuildFiles(
   entryLoop: for (let entry of entries) {
     if (entry.partPath.partition === Partition.Recovery) {
       switch (entry.partPath.relPath) {
+        // handled by TARGET_RECOVERY_FSTAB
         case 'system/etc/recovery.fstab':
+        // handled by TARGET_RECOVERY_WIPE
         case 'system/etc/recovery.wipe':
           continue
       }
@@ -448,7 +453,7 @@ export async function generateBuildFiles(
       // If already exists: skip if it's the other arch variant of a library in
       // the same partition AND has the same name (incl. ext), otherwise rename the
       // module to avoid conflict
-      if (namedModules.has(name)) {
+      if (allNamedModules.has(name)) {
         for (let conflictModule of conflictModules.get(name)!) {
           if (
             conflictModule._type == TYPE_SHARED_LIBRARY &&
@@ -477,7 +482,12 @@ export async function generateBuildFiles(
         entrySrcPaths,
         dexOnlyLibraries,
       )
-      namedModules.set(resolvedName, module)
+      allNamedModules.set(resolvedName, module)
+      if (entry.useRootSoongNamespace === true) {
+        rootNamespaceModules.push(module)
+      } else {
+        localNamespaceModules.push(module)
+      }
 
       // Save all conflicting modules for conflict resolution
       if (conflictModules.get(name)?.push(module) === undefined) {
@@ -494,7 +504,7 @@ export async function generateBuildFiles(
 
   let packages: BuildSystemPackages[] = []
   packages.push(...buildPkgs)
-  packages.push({ type: 'file-based packages', names: Array.from(namedModules.keys()).sort() })
+  packages.push({ type: 'file-based packages', names: Array.from(allNamedModules.keys()).sort() })
 
   if (symlinks.length > 0) {
     packages.push({ type: 'inclusion of symlinks', names: ['device_symlinks'] })
@@ -502,21 +512,24 @@ export async function generateBuildFiles(
 
   let writes: Promise<void>[] = []
 
-  writes.push(
-    fs.writeFile(
-      `${dirs.out}/Android.bp`,
-      serializeBlueprint({
-        namespace: true,
-      }),
-    ),
-  )
-
-  if (namedModules.size > 0) {
+  if (localNamespaceModules.length > 0) {
     writes.push(
       fs.writeFile(
         path.join(dirs.proprietary, 'Android.bp'),
         serializeBlueprint({
-          modules: Array.from(namedModules.values()),
+          namespace: true,
+          modules: localNamespaceModules,
+        }),
+      ),
+    )
+  }
+
+  if (rootNamespaceModules.length > 0) {
+    writes.push(
+      fs.writeFile(
+        path.join(dirs.out, PROPRIETARY_DIR_IN_ROOT_SOONG_NAMESPACE, 'Android.bp'),
+        serializeBlueprint({
+          modules: rootNamespaceModules,
         }),
       ),
     )
@@ -525,7 +538,19 @@ export async function generateBuildFiles(
   writes.push(genModulesMakefile(config, symlinks, fwPaths, dirs))
   writes.push(genBoardMakefile(config, sepolicyDirs, propResults, fwPaths, dirs, pathResolver, customState === null))
 
-  writes.push(genProductMakefile(config, packages, copyFiles, vintfPaths, propResults, dirs, pathResolver, customState))
+  writes.push(
+    genProductMakefile(
+      config,
+      packages,
+      copyFiles,
+      vintfPaths,
+      propResults,
+      productSystemServerJars,
+      dirs,
+      pathResolver,
+      customState,
+    ),
+  )
 
   await Promise.all(writes)
 }

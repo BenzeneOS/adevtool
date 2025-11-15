@@ -9,7 +9,12 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/tangorpro/device.mk)
 
-PRODUCT_SOONG_NAMESPACES += vendor/google_devices/tangorpro
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google_devices/tangorpro/apk-parser-config \
+    vendor/google_devices/tangorpro/overlays \
+    vendor/google_devices/tangorpro/proprietary \
+    vendor/google_devices/tangorpro/sysconfig \
+    vendor/google_devices/tangorpro/vintf
 
 PRODUCT_NAME := tangorpro
 PRODUCT_DEVICE := tangorpro

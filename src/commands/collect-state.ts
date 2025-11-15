@@ -279,7 +279,7 @@ async function generatePrep(config: DeviceConfig, deviceImages: DeviceImages) {
   let propResults = await processProps(config, null, pathResolver, true)
   delete propResults.missingProps
 
-  await generateBuildFiles(config, dirs, [], [], propResults, null, null, null, pathResolver, null)
+  await generateBuildFiles(config, dirs, [], [], propResults, [], null, null, null, pathResolver, null)
 
   await writeEnvsetupCommands(config, dirs)
   await writeVersionCheckFile(config, dirs)

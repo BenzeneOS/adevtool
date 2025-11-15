@@ -9,7 +9,12 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/comet/device.mk)
 
-PRODUCT_SOONG_NAMESPACES += vendor/google_devices/comet
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google_devices/comet/apk-parser-config \
+    vendor/google_devices/comet/overlays \
+    vendor/google_devices/comet/proprietary \
+    vendor/google_devices/comet/sysconfig \
+    vendor/google_devices/comet/vintf
 
 PRODUCT_NAME := comet
 PRODUCT_DEVICE := comet

@@ -2,13 +2,13 @@ import assert from 'assert'
 import { promises as fs } from 'fs'
 import path from 'path'
 import { VendorDirectories } from '../blobs/build'
-import { appendPartitionProps, serializeModule, SoongModule } from '../build/soong'
+import { appendPartitionProps, serializeBlueprint, serializeModule, SoongModule } from '../build/soong'
 import { DeviceConfig } from '../config/device'
 import { SystemState } from '../config/system-state'
 import { maybePlural } from '../util/cli'
 import { assertNonNull } from '../util/data'
 import { FilterResult, getExclusions, getInclusions } from '../util/exact-filter'
-import { isDirectory, isFile } from '../util/fs'
+import { isDirectory, isFile, mkdirAndWriteFile } from '../util/fs'
 import { log } from '../util/log'
 import { Partition, PathResolver, REGULAR_SYS_PARTITIONS } from '../util/partitions'
 import { getRootElementChildrenAsStrings, getXmlProp, getXmlText, processXml, ProcessXmlCmd } from '../util/xml'
@@ -28,6 +28,7 @@ export async function processVintf(
   let interfaceExclusions = new Set(deviceConfig.vintf_exclusions)
   let interfaceInclusions = new Set(deviceConfig.vintf_inclusions)
   let unknownInterfaces = new Set<string>()
+  let rootDstDir = path.join(dirs.out, 'vintf')
   let partJobs = Array.from(REGULAR_SYS_PARTITIONS).map(async partition => {
     let vintfDirPath = pathResolver.resolve(partition, 'etc/vintf')
 
@@ -37,7 +38,7 @@ export async function processVintf(
       manifestFragments: [],
     }
 
-    let dstDirPath = path.join(dirs.out, 'vintf', partition)
+    let dstDirPath = path.join(rootDstDir, partition)
 
     let compatMatrixJob = (async () => {
       const fileName = compatMatrixFileName(partition)
@@ -170,6 +171,7 @@ export async function processVintf(
     log('unknown vintf interface' + maybePlural(arr) + ':')
     arr.forEach(e => log('  - ' + e))
   }
+  await mkdirAndWriteFile(rootDstDir, 'Android.bp', serializeBlueprint({ namespace: true }))
   return new Map(vintfPathsMap)
 }
 

@@ -9,7 +9,12 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/komodo/device.mk)
 
-PRODUCT_SOONG_NAMESPACES += vendor/google_devices/komodo
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google_devices/komodo/apk-parser-config \
+    vendor/google_devices/komodo/overlays \
+    vendor/google_devices/komodo/proprietary \
+    vendor/google_devices/komodo/sysconfig \
+    vendor/google_devices/komodo/vintf
 
 PRODUCT_NAME := komodo
 PRODUCT_DEVICE := komodo

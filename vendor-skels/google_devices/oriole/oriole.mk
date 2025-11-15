@@ -9,7 +9,12 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/oriole/device.mk)
 
-PRODUCT_SOONG_NAMESPACES += vendor/google_devices/oriole
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google_devices/oriole/apk-parser-config \
+    vendor/google_devices/oriole/overlays \
+    vendor/google_devices/oriole/proprietary \
+    vendor/google_devices/oriole/sysconfig \
+    vendor/google_devices/oriole/vintf
 
 PRODUCT_NAME := oriole
 PRODUCT_DEVICE := oriole

@@ -9,7 +9,12 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/caiman/device.mk)
 
-PRODUCT_SOONG_NAMESPACES += vendor/google_devices/caiman
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google_devices/caiman/apk-parser-config \
+    vendor/google_devices/caiman/overlays \
+    vendor/google_devices/caiman/proprietary \
+    vendor/google_devices/caiman/sysconfig \
+    vendor/google_devices/caiman/vintf
 
 PRODUCT_NAME := caiman
 PRODUCT_DEVICE := caiman

@@ -9,7 +9,12 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/husky/device.mk)
 
-PRODUCT_SOONG_NAMESPACES += vendor/google_devices/husky
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google_devices/husky/apk-parser-config \
+    vendor/google_devices/husky/overlays \
+    vendor/google_devices/husky/proprietary \
+    vendor/google_devices/husky/sysconfig \
+    vendor/google_devices/husky/vintf
 
 PRODUCT_NAME := husky
 PRODUCT_DEVICE := husky

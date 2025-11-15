@@ -8,9 +8,11 @@ import { spawnAsync } from '../util/process'
 
 export interface VendorDirectories {
   out: string
-  proprietary: string
+  proprietary: string // local namespace
   firmware: string
 }
+
+export const PROPRIETARY_DIR_IN_ROOT_SOONG_NAMESPACE = 'proprietary-root-soong-ns'
 
 export async function createVendorDirs(vendor: string, device: string) {
   let root = process.env['ADEVTOOL_VENDOR_DIR_ROOT'] ?? 'vendor'

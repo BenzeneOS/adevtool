@@ -1,10 +1,9 @@
-Android.bp: c9ffd08891ecb53ae8e9094354e795dd69f8739b43792c4ad4b3bc7c768affcf
 Android.mk: 4ba6db989b4ea4e9ff478f3271b9d797044fee017d3205929a57f3f2b998f2f5
 AndroidProducts.mk: aa6bababa524b5adeca2c786503833b5e8421f9d5171bf66bc0ba713db8d2b5a
 BoardConfig.mk: ca94d6e8d7e86abac897760cc835205cc5e86923613e1ce4c81918d2a6319957
 README.md: ad79d5f6cf61cb3020bb84e30b61675ce6f1bdcdaebd52ef6e97fec19901df15
 apk-parser-config: dir
-apk-parser-config/Android.bp: 3cb8f013ac9f2c4ba1734f839a7553d5a22b690a8f1341a8102d992028aff2b0
+apk-parser-config/Android.bp: 6d6401321d50122166ac7cd71142453a4e2e217812b514b04b8e958d24532585
 apk-parser-config/apk-parser-config.pb: 2c1443859daa69a7f4b303d2d98f6b99e634afd731a6e4077c2a77520b3b343d
 cmds-for-envsetup.sh: 8dfbc2a63a40c1e0ac60ad4a2a3dc6df8f23d7b21cb5b96433006c7591ab43b1
 firmware: dir
@@ -21,6 +20,7 @@ firmware/pbl.img: 38f1e4fafd387a99e2168c99fa1acf346d6aefc05387100ea1a1176bb734fb
 firmware/radio.img: 80b3b644246f96892465e1dc3fec708e4081781cbd641b5091dad8bc79998003
 firmware/tzsw.img: d624777820d6951ec2daa8a4c0669bb4c7e2075b123b64331dd5404f0db2e48c
 overlays: dir
+overlays/Android.bp: c9ffd08891ecb53ae8e9094354e795dd69f8739b43792c4ad4b3bc7c768affcf
 overlays/CellBroadcastReceiverOverlay: dir
 overlays/CellBroadcastReceiverOverlay/Android.bp: 90c1015a21b82abab7edd19f3cd7efbb2fac6228e60265fc308485c546d78a14
 overlays/CellBroadcastReceiverOverlay/AndroidManifest.xml: 5a1176315ec513a96e55b969036de43b826176f525ddc218b5bc229a9be510bb
@@ -2442,7 +2442,7 @@ overlays/framework-res__raven__auto_generated_rro_vendor/res/xml/irq_device_map.
 overlays/framework-res__raven__auto_generated_rro_vendor/res/xml/power_profile.xml: 6a4d1721591a858eeac821cb91f447a0cdf90986113668dbfd16ac709966a067
 overlays/overlay-modules.txt: ddbb293223b9df8942e08870f99b2c960a36f5c4ca49ca5fed02c05425c3b6cf
 proprietary: dir
-proprietary/Android.bp: 8cb2d2ac3d86b7d77b1338e3cc9ece90b2073c795e11bb3f3652765665286458
+proprietary/Android.bp: 0e66474c971e248845afdd41473b0f3ad5482fb1301fc3537f9f991e0103fcfe
 proprietary/linker.config-vendor.json: 673d2d1521788e6e0661125037e59d8e56eac514b89b4d24df01083a5a42e986
 proprietary/product: dir
 proprietary/product/etc: dir
@@ -4758,7 +4758,7 @@ proprietary/vendor_ramdisk/system: dir
 proprietary/vendor_ramdisk/system/etc: dir
 proprietary/vendor_ramdisk/system/etc/fstab.gs101: 06d94291a0bdaf437b54b861418b2c759e9ac1310de1bb44dddd9f6b7bc5e0f8
 proprietary/vendor_ramdisk/system/etc/fstab.gs101-fips: 06d94291a0bdaf437b54b861418b2c759e9ac1310de1bb44dddd9f6b7bc5e0f8
-raven.mk: 0971d7b949416b58e9cf96146556e4858734aeb311e331f47838eb1eee11edf7
+raven.mk: 2a2f8a1e00643686befc4955d5d4ddfb3abc06ea5ee23727363e328f435014e4
 sepolicy: dir
 sepolicy/product: dir
 sepolicy/product/private: dir
@@ -4788,7 +4788,7 @@ sepolicy/vendor/service_contexts: 1ef0a60a99f832c5b31f70230b85288ea1839b96249c68
 sepolicy/vendor/types.te: 89d1f565d6fc6e2536701d93877e4cc762644e1faa5a1d4e68d308666d972376
 sepolicy/vendor/vndservice_contexts: 99809e651265265a5373a7285105324717fd5921b8c5031c44256c5e164aeb0d
 sysconfig: dir
-sysconfig/Android.bp: 95196155a71c99deadb3dbfde569adddf6c9256e6f15ae6c6fda26b848b5344d
+sysconfig/Android.bp: 168325f4638fb4a007f1be6d7542aa9124b4b8034885b51f1495b565f9994a17
 sysconfig/product: dir
 sysconfig/product/default-permissions: dir
 sysconfig/product/default-permissions/default-permissions.xml: d7fbe7e60926dde54688d9307b0c4afeee8134eb4c0e9ab74464c41f3b3b7688
@@ -4852,6 +4852,7 @@ sysprop/system.prop: deefea374038350b365fee65506f6fe878666b030f0cec4291407fd7771
 sysprop/system_ext.prop: f5f80996789dc76e6c934959234b19b2be20ebcf5f6cb1765bbaa300e470c66f
 sysprop/vendor.prop: 86f18f8632e0926abac5f7c965550573753b1e12939fcb60ab74dc5d0f42f61b
 vintf: dir
+vintf/Android.bp: c9ffd08891ecb53ae8e9094354e795dd69f8739b43792c4ad4b3bc7c768affcf
 vintf/product: dir
 vintf/product/compatibility_matrix.xml: 756ad1752111957a73f69230521de2e8c9692208435481bbd7545aae1566dd4f
 vintf/system: dir

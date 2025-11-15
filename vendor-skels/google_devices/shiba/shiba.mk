@@ -9,7 +9,12 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/shiba/device.mk)
 
-PRODUCT_SOONG_NAMESPACES += vendor/google_devices/shiba
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google_devices/shiba/apk-parser-config \
+    vendor/google_devices/shiba/overlays \
+    vendor/google_devices/shiba/proprietary \
+    vendor/google_devices/shiba/sysconfig \
+    vendor/google_devices/shiba/vintf
 
 PRODUCT_NAME := shiba
 PRODUCT_DEVICE := shiba

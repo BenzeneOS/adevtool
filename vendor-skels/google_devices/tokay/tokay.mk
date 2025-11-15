@@ -9,7 +9,12 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/tokay/device.mk)
 
-PRODUCT_SOONG_NAMESPACES += vendor/google_devices/tokay
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google_devices/tokay/apk-parser-config \
+    vendor/google_devices/tokay/overlays \
+    vendor/google_devices/tokay/proprietary \
+    vendor/google_devices/tokay/sysconfig \
+    vendor/google_devices/tokay/vintf
 
 PRODUCT_NAME := tokay
 PRODUCT_DEVICE := tokay

@@ -9,7 +9,12 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/felix/device.mk)
 
-PRODUCT_SOONG_NAMESPACES += vendor/google_devices/felix
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google_devices/felix/apk-parser-config \
+    vendor/google_devices/felix/overlays \
+    vendor/google_devices/felix/proprietary \
+    vendor/google_devices/felix/sysconfig \
+    vendor/google_devices/felix/vintf
 
 PRODUCT_NAME := felix
 PRODUCT_DEVICE := felix

@@ -9,7 +9,12 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/bluejay/device.mk)
 
-PRODUCT_SOONG_NAMESPACES += vendor/google_devices/bluejay
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google_devices/bluejay/apk-parser-config \
+    vendor/google_devices/bluejay/overlays \
+    vendor/google_devices/bluejay/proprietary \
+    vendor/google_devices/bluejay/sysconfig \
+    vendor/google_devices/bluejay/vintf
 
 PRODUCT_NAME := bluejay
 PRODUCT_DEVICE := bluejay

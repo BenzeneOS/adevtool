@@ -9,7 +9,12 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/akita/device.mk)
 
-PRODUCT_SOONG_NAMESPACES += vendor/google_devices/akita
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google_devices/akita/apk-parser-config \
+    vendor/google_devices/akita/overlays \
+    vendor/google_devices/akita/proprietary \
+    vendor/google_devices/akita/sysconfig \
+    vendor/google_devices/akita/vintf
 
 PRODUCT_NAME := akita
 PRODUCT_DEVICE := akita

@@ -181,7 +181,7 @@ export async function processApks(
 
   await Promise.all([
     fs.writeFile(dstFile, ApkParserConfig.encode(apc).finish()),
-    fs.writeFile(path.join(dstDir, 'Android.bp'), serializeBlueprint({ modules: [soongModule] })),
+    fs.writeFile(path.join(dstDir, 'Android.bp'), serializeBlueprint({ namespace: true, modules: [soongModule] })),
   ])
 
   let apkToInfoMap = new Map<string, BriefPackageInfo>()

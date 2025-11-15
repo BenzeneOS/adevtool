@@ -1,18 +1,19 @@
 import assert from 'assert'
-import { promises as fs } from 'fs'
 import { readFile } from 'node:fs/promises'
 import path from 'path'
+import { serializeBlueprint } from '../build/soong'
 import { DeviceConfig } from '../config/device'
 import { Filters } from '../config/filters'
 import { getHostBinPath } from '../config/paths'
+import { mkdirAndWriteFile } from '../util/fs'
+import { log } from '../util/log'
 import { spawnAsyncStdin } from '../util/process'
 import { VendorDirectories } from './build'
-import { log } from '../util/log'
 
 export async function processOverlays(config: DeviceConfig, dirs: VendorDirectories, stockSrc: string) {
   let arsclibPath = await getHostBinPath('arsclib')
   let overlaysDir = path.join(dirs.out, 'overlays')
-  await fs.mkdir(overlaysDir)
+  await mkdirAndWriteFile(overlaysDir, 'Android.bp', serializeBlueprint({ namespace: true }))
 
   let moduleListPath = path.join(overlaysDir, 'overlay-modules.txt')
 

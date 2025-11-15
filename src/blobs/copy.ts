@@ -1,14 +1,18 @@
 import { promises as fs } from 'fs'
-import path from 'path'
 
 import assert from 'assert'
+import path from 'path'
 import { readFile } from '../util/fs'
 import { Partition, PathResolver } from '../util/partitions'
 import { BlobEntry } from './entry'
 
-export async function copyBlobs(entries: Iterable<BlobEntry>, pathResolver: PathResolver, destDir: string) {
+export async function copyBlobs(
+  entries: Iterable<BlobEntry>,
+  pathResolver: PathResolver,
+  destDirLocalNamespace: string,
+  destDirRootNamespace: string,
+) {
   let promises = Array.from(entries).map(async entry => {
-    let outPath = `${destDir}/${entry.partPath.asPseudoPath()}`
     let srcPath = entry.partPath.resolve(pathResolver)
 
     // Symlinks are created at build time, not copied
@@ -46,7 +50,8 @@ export async function copyBlobs(entries: Iterable<BlobEntry>, pathResolver: Path
       patched = await maybePatch(entry, srcPath)
     }
 
-    // Create directory structure
+    let destDir = entry.useRootSoongNamespace === true ? destDirRootNamespace : destDirLocalNamespace
+    let outPath = path.join(destDir, entry.partPath.asPseudoPath())
     await fs.mkdir(path.dirname(outPath), { recursive: true })
 
     if (patched !== undefined) {

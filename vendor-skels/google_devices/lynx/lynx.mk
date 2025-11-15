@@ -9,7 +9,12 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/lynx/device.mk)
 
-PRODUCT_SOONG_NAMESPACES += vendor/google_devices/lynx
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google_devices/lynx/apk-parser-config \
+    vendor/google_devices/lynx/overlays \
+    vendor/google_devices/lynx/proprietary \
+    vendor/google_devices/lynx/sysconfig \
+    vendor/google_devices/lynx/vintf
 
 PRODUCT_NAME := lynx
 PRODUCT_DEVICE := lynx

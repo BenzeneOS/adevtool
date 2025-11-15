@@ -9,7 +9,12 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/tegu/device.mk)
 
-PRODUCT_SOONG_NAMESPACES += vendor/google_devices/tegu
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google_devices/tegu/apk-parser-config \
+    vendor/google_devices/tegu/overlays \
+    vendor/google_devices/tegu/proprietary \
+    vendor/google_devices/tegu/sysconfig \
+    vendor/google_devices/tegu/vintf
 
 PRODUCT_NAME := tegu
 PRODUCT_DEVICE := tegu

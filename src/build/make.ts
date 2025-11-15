@@ -11,7 +11,6 @@ import { SystemState } from '../config/system-state'
 import { PropResults } from '../frontend/generate'
 import { MKBOOTIMG_ARGS_FILE_NAME } from '../frontend/source'
 import { generateAndroidInfo } from '../images/firmware'
-import { processSystemServerClassPaths } from '../processor/classpath'
 import { SepolicyDirs } from '../processor/sepolicy'
 import { VintfPaths } from '../processor/vintf'
 import { LinkerConfig } from '../proto-ts/build/soong/linkerconfig/proto/linker_config'
@@ -152,6 +151,7 @@ export async function genProductMakefile(
   copyFiles: string[],
   vintfPathsMap: Map<string, VintfPaths> | null,
   propResults: PropResults,
+  productSystemServerJars: string[],
   dirs: VendorDirectories,
   pathResolver: PathResolver,
   customState: SystemState | null,
@@ -187,7 +187,14 @@ endif`)
     blocks.push(`include ${mk}`)
   }
 
-  blocks.push('PRODUCT_SOONG_NAMESPACES += ' + dirs.out)
+  addContBlock(blocks, 'PRODUCT_SOONG_NAMESPACES', [
+    // TODO pass namespaces from places where these parts are generated
+    path.join(dirs.out, 'apk-parser-config'),
+    path.join(dirs.out, 'overlays'),
+    path.join(dirs.out, 'proprietary'),
+    path.join(dirs.out, 'sysconfig'),
+    path.join(dirs.out, 'vintf'),
+  ])
 
   let productProps = mapGet(propResults.stockProps, Partition.Product)
 
@@ -320,7 +327,7 @@ PRODUCT_MANUFACTURER := ${mapGet(productProps, 'ro.product.product.manufacturer'
       blocks.push(block)
     }
 
-    addContBlock(blocks, 'PRODUCT_SYSTEM_SERVER_JARS', await processSystemServerClassPaths(pathResolver, customState))
+    addContBlock(blocks, 'PRODUCT_SYSTEM_SERVER_JARS', productSystemServerJars)
   }
 
   let missingProps = propResults.missingProps

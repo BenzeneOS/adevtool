@@ -9,7 +9,12 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/raven/device.mk)
 
-PRODUCT_SOONG_NAMESPACES += vendor/google_devices/raven
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google_devices/raven/apk-parser-config \
+    vendor/google_devices/raven/overlays \
+    vendor/google_devices/raven/proprietary \
+    vendor/google_devices/raven/sysconfig \
+    vendor/google_devices/raven/vintf
 
 PRODUCT_NAME := raven
 PRODUCT_DEVICE := raven

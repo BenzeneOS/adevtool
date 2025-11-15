@@ -13,6 +13,8 @@ export interface BlobEntry {
 
   // Whether to force Kati
   disableSoong?: boolean
+
+  useRootSoongNamespace?: boolean
 }
 
 export enum ApkSigningMode {

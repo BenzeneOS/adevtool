@@ -4,7 +4,12 @@ import { CopyOptions, promises as fs } from 'fs'
 import path from 'path'
 
 import assert from 'assert'
-import { createVendorDirs, VendorDirectories, writeVersionCheckFile } from '../blobs/build'
+import {
+  createVendorDirs,
+  PROPRIETARY_DIR_IN_ROOT_SOONG_NAMESPACE,
+  VendorDirectories,
+  writeVersionCheckFile,
+} from '../blobs/build'
 import {
   decodeConfigs,
   downloadAllConfigs,
@@ -63,6 +68,7 @@ import {
 import { exists, listFilesRecursive } from '../util/fs'
 import { log } from '../util/log'
 import { PathResolver } from '../util/partitions'
+import { processSystemServerClassPaths } from '../processor/classpath'
 
 interface DeviceInfo {
   sdkVersion: string
@@ -113,8 +119,16 @@ async function doDevice(
   if (verbose) log('Marking apps as presigned')
   let updatePresignedPromise = updatePresigned(entries, pathResolver, sdkVersion)
 
+  // modifies entries array, needs await
+  let productSystemServerJars: string[] = await processSystemServerClassPaths(entries, pathResolver, customState)
+
   if (verbose) log('Copying blobs')
-  let copyBlobsPromise = copyBlobs(entries, pathResolver, dirs.proprietary)
+  let copyBlobsPromise = copyBlobs(
+    entries,
+    pathResolver,
+    dirs.proprietary,
+    path.join(dirs.out, PROPRIETARY_DIR_IN_ROOT_SOONG_NAMESPACE),
+  )
 
   if (verbose) log('Extracting vintf manifests')
   let vintfPaths = processVintf(config, pathResolver, customState, dirs)
@@ -138,6 +152,7 @@ async function doDevice(
     entries,
     buildPkgs,
     propResults,
+    productSystemServerJars,
     await fwPaths,
     await vintfPaths,
     await sepolicyDirs,

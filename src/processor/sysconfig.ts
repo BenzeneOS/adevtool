@@ -2,7 +2,7 @@ import assert from 'assert'
 import { promises as fs } from 'fs'
 import path from 'path'
 import { VendorDirectories } from '../blobs/build'
-import { appendPartitionProps, serializeModule, SoongModule } from '../build/soong'
+import { appendPartitionProps, serializeBlueprint, SoongModule } from '../build/soong'
 import { DeviceConfig, getExcludedPackagesMinusBasePackages, getPackagePermsConfig } from '../config/device'
 import { SystemState } from '../config/system-state'
 import { assertDefined } from '../util/data'
@@ -196,7 +196,7 @@ export async function processSysconfig(
     }
   }
   if (soongModules.length > 0) {
-    let file = soongModules.map(m => serializeModule(m)).join('\n\n')
+    let file = serializeBlueprint({ namespace: true, modules: soongModules })
     await fs.writeFile(path.join(rootOutDir, 'Android.bp'), file)
   }
   return moduleNames

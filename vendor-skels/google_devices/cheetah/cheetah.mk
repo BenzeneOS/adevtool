@@ -9,7 +9,12 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/cheetah/device.mk)
 
-PRODUCT_SOONG_NAMESPACES += vendor/google_devices/cheetah
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google_devices/cheetah/apk-parser-config \
+    vendor/google_devices/cheetah/overlays \
+    vendor/google_devices/cheetah/proprietary \
+    vendor/google_devices/cheetah/sysconfig \
+    vendor/google_devices/cheetah/vintf
 
 PRODUCT_NAME := cheetah
 PRODUCT_DEVICE := cheetah

@@ -9,7 +9,12 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/panther/device.mk)
 
-PRODUCT_SOONG_NAMESPACES += vendor/google_devices/panther
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google_devices/panther/apk-parser-config \
+    vendor/google_devices/panther/overlays \
+    vendor/google_devices/panther/proprietary \
+    vendor/google_devices/panther/sysconfig \
+    vendor/google_devices/panther/vintf
 
 PRODUCT_NAME := panther
 PRODUCT_DEVICE := panther
