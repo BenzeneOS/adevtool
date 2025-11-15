@@ -1,7 +1,7 @@
 Android.bp: c9ffd08891ecb53ae8e9094354e795dd69f8739b43792c4ad4b3bc7c768affcf
 Android.mk: 4ba6db989b4ea4e9ff478f3271b9d797044fee017d3205929a57f3f2b998f2f5
 AndroidProducts.mk: aa6bababa524b5adeca2c786503833b5e8421f9d5171bf66bc0ba713db8d2b5a
-BoardConfig.mk: ca94d6e8d7e86abac897760cc835205cc5e86923613e1ce4c81918d2a6319957
+BoardConfig.mk: f65c4be4db90aabd7993be213cace7a5e33aa57fda685f104fbdca67880cb206
 README.md: ad79d5f6cf61cb3020bb84e30b61675ce6f1bdcdaebd52ef6e97fec19901df15
 apk-parser-config: dir
 apk-parser-config/Android.bp: 3cb8f013ac9f2c4ba1734f839a7553d5a22b690a8f1341a8102d992028aff2b0
@@ -2442,7 +2442,7 @@ overlays/framework-res__raven__auto_generated_rro_vendor/res/xml/irq_device_map.
 overlays/framework-res__raven__auto_generated_rro_vendor/res/xml/power_profile.xml: 6a4d1721591a858eeac821cb91f447a0cdf90986113668dbfd16ac709966a067
 overlays/overlay-modules.txt: ddbb293223b9df8942e08870f99b2c960a36f5c4ca49ca5fed02c05425c3b6cf
 proprietary: dir
-proprietary/Android.bp: b5eff329db664dc820cf5fae3ab352043efdfd4a3181e7607e1fe7acbb563ec8
+proprietary/Android.bp: b098b1a407cb4626ef87bc8549ee6696bd65094f6960c51ecd1390072d15c683
 proprietary/linker.config-vendor.json: 673d2d1521788e6e0661125037e59d8e56eac514b89b4d24df01083a5a42e986
 proprietary/product: dir
 proprietary/product/etc: dir
@@ -4755,7 +4755,7 @@ proprietary/vendor_ramdisk/system: dir
 proprietary/vendor_ramdisk/system/etc: dir
 proprietary/vendor_ramdisk/system/etc/fstab.gs101: 06d94291a0bdaf437b54b861418b2c759e9ac1310de1bb44dddd9f6b7bc5e0f8
 proprietary/vendor_ramdisk/system/etc/fstab.gs101-fips: 06d94291a0bdaf437b54b861418b2c759e9ac1310de1bb44dddd9f6b7bc5e0f8
-raven.mk: ef8ccf960218b8a401640de6be09e7a59c9be6c7546f2458e60cd99a8bbf900e
+raven.mk: 383ec7d9eac53d6b50861e50193ca8e22408838b8801601f1bec6eedcbf4a034
 sepolicy: dir
 sepolicy/product: dir
 sepolicy/product/private: dir

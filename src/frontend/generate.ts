@@ -387,6 +387,24 @@ export async function generateBuildFiles(
       .map(entry => path.basename(entry.partPath.relPath, '.jar')),
   )
 
+  let multiPartLibraries = new Set<string>()
+  {
+    let libs = new Set<string>()
+    for (let entry of entries) {
+      let relPath = entry.partPath.relPath
+      if (!relPath.endsWith('.so')) {
+        continue
+      }
+
+      if (libs.has(relPath)) {
+        let name = path.basename(relPath).slice(0, -'.so'.length)
+        multiPartLibraries.add(name)
+      } else {
+        libs.add(relPath)
+      }
+    }
+  }
+
   entryLoop: for (let entry of entries) {
     if (entry.partPath.partition === Partition.Recovery) {
       switch (entry.partPath.relPath) {
@@ -420,10 +438,10 @@ export async function generateBuildFiles(
       // Module name = file name, excluding extension if it was used
       let baseExt = SPECIAL_FILE_EXTENSIONS.has(ext) ? ext : undefined
       let name = path.basename(entry.partPath.relPath, baseExt)
-      if (baseExt === '.so') {
+      if (baseExt === '.so' && entry.partPath.partition !== Partition.Vendor && multiPartLibraries.has(name)) {
         // same-name libraries can be present on more than one partition, suffix module name of non-vendor/ libraries
         // with partition name to avoid duplicate module definitions
-        name = `adevtool_${name}__${entry.partPath.partition}`
+        name = `${name}.${entry.partPath.partition}`
       }
       let resolvedName = name
 
