@@ -400,7 +400,7 @@ export async function loadSepolicy(pathResolver: PathResolver) {
     let config = {
       types: parsedCil.typeAttrs,
       typeAttrNames: parsedCil.typeAttrNames,
-      cil: parsedCil.allExprs.map(e => stringifySexpr(e as unknown[], null)),
+      cil: parsedCil.allExprs.map(e => stringifyCilSexpr(e as unknown[], null)),
       contexts,
       mac_permissions_entries: await macPermsJob,
       disassembled,
@@ -482,10 +482,20 @@ function renameBaseTypeattrs(cil: ParsedCil) {
     }
   }
 
-  return cil.otherExprs.map(e => stringifySexpr(e, map))
+  return cil.otherExprs.map(e => stringifyCilSexpr2(e, map))
 }
 
-function stringifySexpr(obj: unknown[], map: Map<string, string> | null) {
+function stringifyCilSexpr2(obj: unknown[], map: Map<string, string>) {
+  let mapper = (token: string) => {
+    let res = map.get(token)
+    return res !== undefined ? res : token
+  }
+  return stringifyCilSexpr(obj, mapper)
+}
+
+const CIL_SYMBOL_REGEX = new RegExp('^[a-zA-Z0-9.@=/\\-_$%+!|&ˆ:]+$')
+
+function stringifyCilSexpr(obj: unknown[], mapper: ((token: string) => string) | null) {
   let s = '('
   let first = true
   for (let entry of obj) {
@@ -493,16 +503,17 @@ function stringifySexpr(obj: unknown[], map: Map<string, string> | null) {
       s += ' '
     }
     if (Array.isArray(entry)) {
-      s += stringifySexpr(entry, map)
+      s += stringifyCilSexpr(entry, mapper)
     } else {
-      let entryStr = entry as string
-      if (map !== null) {
-        let mapped = map.get(entryStr)
-        if (mapped !== undefined) {
-          entryStr = mapped
-        }
+      let token = entry as string
+
+      if (mapper !== null) {
+        token = mapper(token)
       }
-      s += entryStr
+      if (!token.match(CIL_SYMBOL_REGEX)) {
+        token = '"' + token + '"'
+      }
+      s += token
     }
     first = false
   }
