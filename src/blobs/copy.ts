@@ -9,7 +9,6 @@ import { BlobEntry } from './entry'
 export async function copyBlobs(entries: Iterable<BlobEntry>, pathResolver: PathResolver, destDir: string) {
   let promises = Array.from(entries).map(async entry => {
     let outPath = `${destDir}/${entry.partPath.asPseudoPath()}`
-    // todo
     let srcPath = entry.partPath.resolve(pathResolver)
 
     // Symlinks are created at build time, not copied

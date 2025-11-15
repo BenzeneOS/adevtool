@@ -319,7 +319,6 @@ async function runStateCollectionBuild(
       logElapsedTime(buildStart, `${device} phase ${phase} state collection build took`)
       break
     } catch (e) {
-      // todo error.log
       logElapsedTime(buildStart, `${device} phase ${phase} state collection build failed in`)
       let stderr = e.message as string
       if (stderr !== undefined) {
