@@ -7,6 +7,8 @@ synthetic_overlays:
       bool:
         - config_show_smooth_display
         - config_show_touch_sensitivity
+      drawable:
+        - quickly_open_camera
       integer:
         - config_vibration_supported_intensity_levels
       raw:
