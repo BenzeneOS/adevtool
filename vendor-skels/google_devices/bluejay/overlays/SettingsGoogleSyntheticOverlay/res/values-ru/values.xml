@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="battery_missing_link_message">Подробнее…</string>
+    <string name="battery_tip_early_replacement_summary">Батарея прошла 375 циклов зарядки. Когда число циклов достигнет 400, она может начать перегреваться, поэтому ее емкость и эффективность зарядки будут снижены. Рекомендуем заменить батарею. Чтобы узнать больше, перейдите по ссылке &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt;.</string>
+    <string name="battery_tip_replacement_summary">Емкость батареи и эффективность зарядки снижены из-за возможной проблемы с перегревом. Рекомендуем заменить батарею. Чтобы узнать больше, перейдите по ссылке &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt;.</string>
+    <string name="battery_tip_replacement_title">Рекомендуем заменить батарею</string>
+    <string name="charge_cycle_count">Число циклов зарядки</string>
     <string name="charging_optimization_charge_label">%1$s - Зарядка завершится к %2$s</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s, зарядка завершена</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Зарядка завершена</string>

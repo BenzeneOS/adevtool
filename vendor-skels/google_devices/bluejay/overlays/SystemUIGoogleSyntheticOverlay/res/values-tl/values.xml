@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="battery_health_notify_learn_more">Matuto pa</string>
+    <string name="battery_management_action">Tingnan ang bilang ng cycle</string>
+    <string name="battery_replacement_early_notify_des">Nasa 375 cycle ng pag-charge ang iyong baterya. Dahil sa potensyal na isyu sa pag-overheat ng baterya, kapag umabot na sa 400 cycle ng pag-charge ang baterya mo, mababawasan ang kapasidad ng baterya at performance ng pag-charge at inirerekomenda ang pagpapalit ng baterya. Available ang mga opsyon sa suporta, bumisita sa &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; para sa higit pang impormasyon.</string>
+    <string name="battery_replacement_notify_des">Dahil sa potensyal na isyu sa pag-overheat ng baterya, nabawasan ang kapasidad ng baterya at performance ng pag-charge, at inirerekomenda ang pagpapalit ng baterya. Available ang mga opsyon sa suporta, bumisita sa &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; para sa higit pang impormasyon.</string>
+    <string name="battery_replacement_notify_title">Inirerekomendang palitan ang baterya</string>
     <string name="keyguard_indication_charging_time_charge_limit">%2$s • Matatapos mag-charge bago mag-%1$s</string>
     <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Matatapos mag-charge sa loob ng %1$s</string>
     <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Tapos nang mag-charge</string>

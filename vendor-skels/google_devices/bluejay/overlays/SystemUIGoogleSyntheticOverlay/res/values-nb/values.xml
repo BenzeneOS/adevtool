@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="battery_health_notify_learn_more">Finn ut mer</string>
+    <string name="battery_management_action">Se antall sykluser</string>
+    <string name="battery_replacement_early_notify_des">Batteriet har vært gjennom 375 ladesykluser. På grunn av et potensielt problem med overoppheting av batteriet reduseres batterikapasiteten og ladeeffekten når batteriet har 400 ladesykluser, og du bør bytte batteriet. Det finnes tilgjengelige støttealternativer. Gå til &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; for å finne ut mer.</string>
+    <string name="battery_replacement_notify_des">På grunn av et potensielt problem med overoppheting av batteriet er batterikapasiteten og ladeytelsen redusert, og du bør bytte batteriet. Det finnes tilgjengelige støttealternativer. Gå til &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; for å finne ut mer.</string>
+    <string name="battery_replacement_notify_title">Du bør bytte batteriet</string>
     <string name="keyguard_indication_charging_time_charge_limit">%2$s • Ferdig ladet innen %1$s</string>
     <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Ferdig ladet om %1$s</string>
     <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Ferdig ladet</string>

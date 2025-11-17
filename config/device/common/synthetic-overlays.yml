@@ -1,7 +1,7 @@
 synthetic_overlays:
-  - sourcePaths:
+  SettingsGoogleSyntheticOverlay:
+    sourcePaths:
       - system_ext/priv-app/SettingsGoogle/SettingsGoogle.apk
-    moduleName: SettingsGoogleSyntheticOverlay
     targetPackage: com.android.settings
     resourcesToInclude:
       bool:
@@ -141,9 +141,9 @@ synthetic_overlays:
         - touch_sensitivity_summary
         - touch_sensitivity_title
 
-  - sourcePaths:
+  SettingsIntelligenceGoogleSyntheticOverlay:
+    sourcePaths:
       - product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk
-    moduleName: SettingsIntelligenceGoogleSyntheticOverlay
     targetPackage: com.android.settings
     resourcesToInclude:
       string:
@@ -153,10 +153,10 @@ synthetic_overlays:
         - charging_optimization_summary_off
         - charging_optimization_title
 
-  - sourcePaths:
+  SystemUIGoogleSyntheticOverlay:
+    sourcePaths:
       - system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
       - system_ext/priv-app/SystemUITitan/SystemUITitan.apk
-    moduleName: SystemUIGoogleSyntheticOverlay
     targetPackage: com.android.systemui
     resourcesToInclude:
       string:

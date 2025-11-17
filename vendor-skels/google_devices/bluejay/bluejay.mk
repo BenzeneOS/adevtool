@@ -474,7 +474,6 @@ PRODUCT_PACKAGES += \
     SafetyRegulatoryInfo__bluejay__auto_generated_rro_product \
     SettingsGoogleBluejayOverlay \
     SettingsGoogleSyntheticOverlay \
-    SettingsGoogleSyntheticOverlayBluejay \
     SettingsGoogle__bluejay__auto_generated_rro_product \
     SettingsGoogle__bluejay__auto_generated_rro_vendor \
     SettingsIntelligenceGoogleSyntheticOverlay \
@@ -485,7 +484,6 @@ PRODUCT_PACKAGES += \
     SettingsProvider__bluejay__auto_generated_rro_product \
     SystemUIGXOverlay \
     SystemUIGoogleSyntheticOverlay \
-    SystemUIGoogleSyntheticOverlayBluejay \
     SystemUIGoogle__bluejay__auto_generated_rro_product \
     SystemUIGoogle__bluejay__auto_generated_rro_vendor \
     TeleService__bluejay__auto_generated_rro_product \

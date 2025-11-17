@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="battery_missing_link_message">অধিক জানক</string>
+    <string name="battery_tip_early_replacement_summary">আপোনাৰ বেটাৰীটো চাৰ্জৰ চক্ৰ ৩৭৫ত উপনীত হৈছে। বেটাৰী অধিক গৰম হোৱাৰ এটা সম্ভাৱ্য সমস্যাৰ বাবে, আপোনাৰ বেটাৰীটো চাৰ্জৰ চক্ৰ ৪০০ত উপনীত হ’লে বেটাৰীৰ বহনক্ষমতা আৰু চাৰ্জিঙৰ কাৰ্যদক্ষতা হ্ৰাস পাব আৰু বেটাৰী সলনি কৰিবলৈ চুপাৰিছ কৰা হৈছে। সহায়ক বিকল্পসমূহ উপলব্ধ, অধিক তথ্যৰ বাবে &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt;লৈ যাওক।</string>
+    <string name="battery_tip_replacement_summary">বেটাৰী অধিক গৰম হোৱাৰ এটা সম্ভাৱ্য সমস্যাৰ বাবে, বেটাৰীৰ বহনক্ষমতা আৰু চাৰ্জিঙৰ কাৰ্যদক্ষতা হ্ৰাস পায় আৰু বেটাৰী সলনি কৰিবলৈ চুপাৰিছ কৰা হৈছে। সহায়ক বিকল্পসমূহ উপলব্ধ, অধিক তথ্যৰ বাবে &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt;লৈ যাওক।</string>
+    <string name="battery_tip_replacement_title">বেটাৰী সলনি কৰিবলৈ চুপাৰিছ কৰা হৈছে</string>
+    <string name="charge_cycle_count">চাৰ্জৰ চক্ৰৰ গণনা</string>
     <string name="charging_optimization_charge_label">%1$s - %2$sলৈকে চাৰ্জিং সম্পূৰ্ণ হ’ব</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s • চাৰ্জিং সম্পূৰ্ণ হৈছে</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">চাৰ্জিং সম্পূৰ্ণ হৈছে</string>

@@ -47,7 +47,7 @@ export interface DeviceConfig {
   // Not part of the final config
   // includes: string[]
 
-  synthetic_overlays: SyntheticOverlaySpec[]
+  synthetic_overlays: { [moduleName: string]: SyntheticOverlaySpec }
 
   filters: {
     overlay_keys: Filters
@@ -193,7 +193,7 @@ const DEFAULT_CONFIG_BASE = {
     namespaces: [],
     extra_product_makefiles: [],
   },
-  synthetic_overlays: [],
+  synthetic_overlays: {},
   filters: {
     overlay_keys: structuredClone(EMPTY_FILTERS),
     overlay_inclusions: structuredClone(EMPTY_FILTERS),

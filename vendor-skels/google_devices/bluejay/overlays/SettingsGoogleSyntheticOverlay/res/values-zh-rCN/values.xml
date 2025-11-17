@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="battery_missing_link_message">了解详情</string>
+    <string name="battery_tip_early_replacement_summary">您的电池已达到 375 次充电周期。由于电池可能存在过热问题，当电池达到 400 次充电周期时，电池容量和充电性能会降低，届时建议更换电池。有多个支持选项供您使用，详见 &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt;。</string>
+    <string name="battery_tip_replacement_summary">由于电池可能存在过热问题，电池容量和充电性能会降低，建议更换电池。有多个支持选项供您使用，详见 &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt;。</string>
+    <string name="battery_tip_replacement_title">建议更换电池</string>
+    <string name="charge_cycle_count">充电周期计数</string>
     <string name="charging_optimization_charge_label">%1$s - %2$s 前充满电</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s - 充电完成</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">充电完成</string>

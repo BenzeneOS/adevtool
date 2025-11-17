@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="battery_missing_link_message">ស្វែងយល់បន្ថែម</string>
+    <string name="battery_tip_early_replacement_summary">ថ្មរបស់អ្នកបានឈានដល់វដ្ដសាកថ្ម 375 ហើយ។ ដោយសារបញ្ហាឡើងកម្ដៅថ្មខ្លាំងដែលអាចកើតឡើង នៅពេលថ្មរបស់អ្នកឈានដល់វដ្ដសាកថ្ម 400 វដ្ដ កាប៉ាស៊ីតេបន្ទុករបស់ថ្ម និងប្រតិបត្តិការ​សាកថ្មនឹងថយចុះ ហើយការប្ដូរថ្មត្រូវបានណែនាំ។ អាចប្រើជម្រើសជំនួយបាន សូមចូលទៅកាន់ &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; ដើម្បីទទួលបានព័ត៌មានបន្ថែម។</string>
+    <string name="battery_tip_replacement_summary">ដោយសារបញ្ហាឡើងកម្ដៅថ្មខ្លាំងដែលអាចកើតឡើង កាប៉ាស៊ីតេបន្ទុករបស់ថ្ម និងប្រតិបត្តិការ​សាកថ្មនឹងថយចុះ ហើយការប្ដូរថ្មត្រូវបានណែនាំ។ អាចប្រើជម្រើសជំនួយបាន សូមចូលទៅកាន់ &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; ដើម្បីទទួលបានព័ត៌មានបន្ថែម។</string>
+    <string name="battery_tip_replacement_title">ការប្ដូរថ្មត្រូវបានណែនាំ</string>
+    <string name="charge_cycle_count">ចំនួនវដ្ដសាកថ្ម</string>
     <string name="charging_optimization_charge_label">%1$s - សាកថ្មពេញក្នុងរយៈពេល %2$s</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s - សាកថ្មពេញ</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">សាកថ្មពេញ</string>

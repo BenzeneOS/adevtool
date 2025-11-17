@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="battery_missing_link_message">بیشتر بدانید</string>
+    <string name="battery_tip_early_replacement_summary">‏باتری شما به چرخه شارژ ۳۷۵ رسیده است. باتوجه‌به مشکل احتمالی گرم شدن بیش‌ازحد باتری، وقتی باتری شما به چرخه ۴۰۰ شارژ برسد، ظرفیت باتری و عملکرد شارژ کاهش می‌یابد و توصیه می‌شود آن را تعویض کنید. گزینه‌های پشتیبانی دردسترس‌اند. برای اطلاعات بیشتر به &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; مراجعه کنید.</string>
+    <string name="battery_tip_replacement_summary">‏باتوجه‌به مشکل احتمالی گرم شدن بیش‌ازحد باتری، ظرفیت باتری و عملکرد شارژ کاهش یافته است و توصیه می‌شود آن را تعویض کنید. گزینه‌های پشتیبانی دردسترس‌اند. برای اطلاعات بیشتر به &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; مراجعه کنید.</string>
+    <string name="battery_tip_replacement_title">تعویض باتری توصیه می‌شود</string>
+    <string name="charge_cycle_count">تعداد چرخه شارژ</string>
     <string name="charging_optimization_charge_label">‫%1$s - شارژ تا %2$s تمام می‌شود</string>
     <string name="charging_optimization_reach_limit_charge_label">‫%1$s - شارژ کامل شد</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">شارژ کامل شد</string>

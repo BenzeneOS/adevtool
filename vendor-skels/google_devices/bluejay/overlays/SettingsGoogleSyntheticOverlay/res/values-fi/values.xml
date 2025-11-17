@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="battery_missing_link_message">Lue lisää</string>
+    <string name="battery_tip_early_replacement_summary">Akku on saavuttanut 375 lataussykliä. Akun mahdollisen ylikuumenemisen vuoksi akun kapasiteetti ja latausteho heikkenevät, kun akku saavuttaa 400 lataussykliä, ja akun vaihtamista suositellaan. Löydät tukivaihtoehdot ja lisätietoa osoitteesta &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt;.</string>
+    <string name="battery_tip_replacement_summary">Akun mahdollisen ylikuumenemisen vuoksi akun kapasiteetti ja latausteho heikkenevät, ja akun vaihtamista suositellaan. Löydät tukivaihtoehdot ja lisätietoa osoitteesta &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt;.</string>
+    <string name="battery_tip_replacement_title">Akun vaihtamista suositellaan</string>
+    <string name="charge_cycle_count">Lataussyklien määrä</string>
     <string name="charging_optimization_charge_label">%1$s – Lataus valmis %2$s mennessä</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s – Lataus valmis</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Lataus valmis</string>

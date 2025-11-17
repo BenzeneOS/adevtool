@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="battery_missing_link_message">Uzzināt vairāk</string>
+    <string name="battery_tip_early_replacement_summary">Jūsu akumulators ir sasniedzis 375 uzlādes ciklus. Iespējamas akumulatora pārkaršanas problēmas dēļ, kad akumulators sasniegs 400 uzlādes ciklus, akumulatora ietilpība un uzlādes veiktspēja samazināsies un būs ieteicams nomainīt akumulatoru. Ir pieejamas atbalsta iespējas. Lai iegūtu plašāku informāciju, apmeklējiet vietni &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt;.</string>
+    <string name="battery_tip_replacement_summary">Iespējamas akumulatora pārkaršanas problēmas dēļ akumulatora ietilpība un uzlādes veiktspēja ir samazinājusies un ir ieteicams nomainīt akumulatoru. Ir pieejamas atbalsta iespējas. Lai iegūtu plašāku informāciju, apmeklējiet vietni &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt;.</string>
+    <string name="battery_tip_replacement_title">Ieteicams nomainīt akumulatoru</string>
+    <string name="charge_cycle_count">Uzlādes ciklu skaits</string>
     <string name="charging_optimization_charge_label">%1$s — uzlāde tiks pabeigta līdz plkst. %2$s</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s — uzlāde pabeigta.</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Uzlāde pabeigta.</string>

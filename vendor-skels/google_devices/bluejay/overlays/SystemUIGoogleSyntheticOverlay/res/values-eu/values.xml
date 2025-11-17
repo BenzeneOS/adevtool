@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="battery_health_notify_learn_more">Lortu informazio gehiago</string>
+    <string name="battery_management_action">Ikusi ziklo kopurua</string>
+    <string name="battery_replacement_early_notify_des">Bateriak 375 karga-ziklo izan ditu. Bateria gehiegi berotzeagatiko arazoak egongo direnez agian, 400 karga-ziklotara heltzen denean bateriaren ahalmena eta kargatzeko prozesuaren errendimendua txikiagotuko dira, eta bateria aldatzea gomendatzen da. Laguntza-aukerak daude. Informazio gehiago lortzeko, joan &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; helbidera.</string>
+    <string name="battery_replacement_notify_des">Bateria gehiegi berotzeagatiko arazoak egongo direnez agian, bateriaren ahalmena eta kargatzeko prozesuaren errendimendua txikiagotzen dira, eta bateria aldatzea gomendatzen da. Laguntza-aukerak daude. Informazio gehiago lortzeko, joan &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; helbidera.</string>
+    <string name="battery_replacement_notify_title">Bateria aldatzea gomendatzen da</string>
     <string name="keyguard_indication_charging_time_charge_limit">%2$s • Ordu honetan egongo da guztiz kargatuta: %1$s</string>
     <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s barru amaituko da kargatzen</string>
     <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Guztiz kargatu da</string>

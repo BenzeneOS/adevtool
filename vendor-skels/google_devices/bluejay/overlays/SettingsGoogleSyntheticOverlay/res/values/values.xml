@@ -4,6 +4,10 @@
     <bool name="config_show_touch_sensitivity">true</bool>
     <integer name="config_vibration_supported_intensity_levels">3</integer>
     <string name="battery_missing_link_message">Learn more</string>
+    <string name="battery_tip_early_replacement_summary">Your battery has reached 375 charge cycles. Due to a potential battery overheating issue, when your battery reaches 400 charge cycles the battery capacity and charging performance will be reduced and battery replacement is recommended. Support options are available, visit &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; for more information.</string>
+    <string name="battery_tip_replacement_summary">Due to a potential battery overheating issue, battery capacity and charging performance are reduced, and battery replacement is recommended. Support options are available, visit &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; for more information.</string>
+    <string name="battery_tip_replacement_title">Battery replacement recommended</string>
+    <string name="charge_cycle_count">Charge cycle count</string>
     <string name="charging_optimization_charge_label">%1$s - Done charging by %2$s</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s - Done charging</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Done charging</string>

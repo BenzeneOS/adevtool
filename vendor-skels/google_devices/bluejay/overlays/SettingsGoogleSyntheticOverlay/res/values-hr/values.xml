@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="battery_missing_link_message">Saznajte više</string>
+    <string name="battery_tip_early_replacement_summary">Vaša baterija dosegla je 375 ciklusa punjenja. Zbog potencijalnog problema s pregrijavanjem baterije, kada baterija dosegne 400 ciklusa punjenja, kapacitet baterije i brzina punjenja smanjit će se, pa se preporučuje zamjena baterije. Dostupne su opcije podrške. Više informacija potražite na &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt;.</string>
+    <string name="battery_tip_replacement_summary">Zbog potencijalnog problema s pregrijavanjem baterije smanjeni su kapacitet baterije i brzina punjenja, pa se preporučuje zamjena baterije. Dostupne su opcije podrške. Više informacija potražite na &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt;.</string>
+    <string name="battery_tip_replacement_title">Preporučuje se zamjena baterije</string>
+    <string name="charge_cycle_count">Broj ciklusa punjenja</string>
     <string name="charging_optimization_charge_label">%1$s – punjenje će se dovršiti do %2$s</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s – punjenje je dovršeno</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Punjenje je dovršeno</string>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="battery_missing_link_message">Μάθετε περισσότερα</string>
+    <string name="battery_tip_early_replacement_summary">Η μπαταρία σας έχει συμπληρώσει 375 κύκλους φόρτισης. Λόγω πιθανού προβλήματος υπερθέρμανσης της μπαταρίας, όταν η μπαταρία συμπληρώσει 400 κύκλους φόρτισης, η χωρητικότητα μπαταρίας και η απόδοση φόρτισης θα μειωθούν και συνιστάται η αντικατάστασή της. Υπάρχουν διαθέσιμες επιλογές υποστήριξης. Επισκεφτείτε τη διεύθυνση &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; για περισσότερες πληροφορίες.</string>
+    <string name="battery_tip_replacement_summary">Λόγω πιθανού προβλήματος υπερθέρμανσης της μπαταρίας, η χωρητικότητα μπαταρίας και η απόδοση φόρτισης θα μειωθούν και συνιστάται η αντικατάστασή της. Υπάρχουν διαθέσιμες επιλογές υποστήριξης. Επισκεφτείτε τη διεύθυνση &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; για περισσότερες πληροφορίες.</string>
+    <string name="battery_tip_replacement_title">Συνιστάται αντικατάσταση της μπαταρίας</string>
+    <string name="charge_cycle_count">Πλήθος κύκλων φόρτισης</string>
     <string name="charging_optimization_charge_label">%1$s - Ολοκλήρωση φόρτισης έως τις %2$s</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s – Η φόρτιση ολοκληρώθηκε</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Η φόρτιση ολοκληρώθηκε</string>

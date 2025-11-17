@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="battery_health_notify_learn_more">Läs mer</string>
+    <string name="battery_management_action">Se antal cykler</string>
+    <string name="battery_replacement_early_notify_des">Batteriet har nått 375 laddningscykler. På grund av ett potentiellt problem med överhettning av batteriet minskar batterikapaciteten och laddningsprestandan när batteriet når 400 laddningscykler. Vi rekommenderar att du byter ut batteriet. Läs mer om tillgängliga supportalternativ på &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt;.</string>
+    <string name="battery_replacement_notify_des">På grund av ett potentiellt problem med överhettning av batteriet har batterikapaciteten och laddningsprestandan minskat. Vi rekommenderar att du byter ut batteriet. Läs mer om tillgängliga supportalternativ på &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt;.</string>
+    <string name="battery_replacement_notify_title">Batteribyte rekommenderas</string>
     <string name="keyguard_indication_charging_time_charge_limit">%2$s • Har laddats klart kl. %1$s</string>
     <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Laddas klart om %1$s</string>
     <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • har laddats</string>

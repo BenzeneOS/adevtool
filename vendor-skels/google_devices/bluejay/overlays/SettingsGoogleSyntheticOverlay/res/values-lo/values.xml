@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="battery_missing_link_message">ສຶກສາເພີ່ມເຕີມ</string>
+    <string name="battery_tip_early_replacement_summary">ແບັດເຕີຣີຂອງທ່ານຮອດ 375 ຮອບການສາກໄຟແລ້ວ. ເນື່ອງຈາກບັນຫາຄວາມຮ້ອນເກີນຂອງແບັດເຕີຣີ, ເມື່ອແບັດເຕີຣີຂອງທ່ານຮອດ 400 ຮອບການສາກໄຟ, ຄວາມຈຸແບັດເຕີຣີ ແລະ ປະສິດທິພາບການສາກໄຟຈະຫຼຸດລົງ ແລະ ແນະນຳໃຫ້ປ່ຽນແບັດເຕີຣີໃໝ່. ມີຕົວເລືອກການສະໜັບສະໜູນໃຫ້, ເຂົ້າເບິ່ງ &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ.</string>
+    <string name="battery_tip_replacement_summary">ເນື່ອງຈາກບັນຫາຄວາມຮ້ອນເກີນຂອງແບັດເຕີຣີ, ຄວາມຈຸແບັດເຕີຣີ ແລະ ປະສິດທິພາບການສາກໄຟຫຼຸດລົງ ແລະ ແນະນຳໃຫ້ປ່ຽນແບັດເຕີຣີໃໝ່. ມີຕົວເລືອກການສະໜັບສະໜູນໃຫ້, ເຂົ້າເບິ່ງ &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ.</string>
+    <string name="battery_tip_replacement_title">ແນະນຳໃຫ້ປ່ຽນແບັດເຕີຣີ</string>
+    <string name="charge_cycle_count">ຈຳນວນຮອບການສາກໄຟ</string>
     <string name="charging_optimization_charge_label">%1$s - ຈະສາກໄຟເຕັມພາຍໃນ %2$s</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s - ສາກສຳເລັດແລ້ວ</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">ສາກສຳເລັດແລ້ວ</string>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="battery_missing_link_message">Нэмэлт мэдээлэл авах</string>
+    <string name="battery_tip_early_replacement_summary">Таны батарей 375-р цэнэглэх мөчлөгт хүрлээ. Батарей хэт халж болзошгүй асуудлын улмаас таны батарей 400-р цэнэглэх мөчлөгт хүрэх үед батарейн багтаамж, цэнэглэх явц багасах бөгөөд батарейг солихыг зөвлөдөг. Янз бүрийн аргаар тусламж авч болно. Нэмэлт мэдээлэл авах бол &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; URL-д зочилно уу.</string>
+    <string name="battery_tip_replacement_summary">Батарей хэт халж болзошгүй асуудлын улмаас батарейн багтаамж, цэнэглэх явц багасах бөгөөд батарейг солихыг зөвлөдөг. Янз бүрийн аргаар тусламж авч болно. Нэмэлт мэдээлэл авах бол &lt;u&gt;g.co/pixel/6abattery&lt;/u&gt; URL-д зочилно уу.</string>
+    <string name="battery_tip_replacement_title">Батарейг солихыг зөвлөж байна</string>
+    <string name="charge_cycle_count">Цэнэглэх мөчлөгийн тоо</string>
     <string name="charging_optimization_charge_label">%1$s - %2$s гэхэд цэнэглэж дуусна</string>
     <string name="charging_optimization_reach_limit_charge_label">%1$s - Цэнэглэж дууслаа</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Цэнэглэж дууслаа</string>

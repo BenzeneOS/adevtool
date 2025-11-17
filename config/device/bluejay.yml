@@ -10,10 +10,7 @@ filters:
       - vendor/bin/resku_rescue_kicker
 
 synthetic_overlays:
-  - sourcePaths:
-      - system_ext/priv-app/SettingsGoogle/SettingsGoogle.apk
-    moduleName: SettingsGoogleSyntheticOverlayBluejay
-    targetPackage: com.android.settings
+  SettingsGoogleSyntheticOverlay:
     resourcesToInclude:
       string:
         - battery_tip_early_replacement_summary
@@ -22,10 +19,7 @@ synthetic_overlays:
         - charge_cycle_count
         - help_url_battery_replacement
 
-  - sourcePaths:
-      - system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
-    moduleName: SystemUIGoogleSyntheticOverlayBluejay
-    targetPackage: com.android.systemui
+  SystemUIGoogleSyntheticOverlay:
     resourcesToInclude:
       string:
         - battery_health_notify_learn_more
