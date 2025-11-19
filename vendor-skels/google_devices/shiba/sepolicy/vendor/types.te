@@ -599,5 +599,11 @@ type vendor_uwb_calibration_prop, property_type, system_property_type, system_pu
 type vendor_trusty_storage_prop, property_type, vendor_property_type, vendor_internal_property_type;
 type hal_uwb_vendor_service, service_manager_type, hal_service_type;
 type rls_service, vndservice_manager_type;
+typeattribute dumpstate hal_confirmationui_client;
+typeattribute dumpstate hal_telephony_client;
+typeattribute dumpstate hal_uwb_client;
+typeattribute pixelsystemservice_app halclientdomain;
+typeattribute pixelsystemservice_app hal_fingerprint_client;
+typeattribute pixelsystemservice_app hal_power_stats_client;
 attribute hal_shared_modem_platform_client;
 attribute hal_face_debug_client;

@@ -66,7 +66,9 @@ export async function processSepolicy(
   let excludedPackages = getExcludedPackagesMinusBasePackages(deviceConfig, apkProcResult)
   let syspropExclusions = new Set(deviceConfig.sysprop_exclusions)
   let syspropInclusions = new Set(deviceConfig.sysprop_inclusions)
-  let partJobs = Array.from(EXT_SYS_PARTITIONS).map(async part => {
+  let typeAttrs = new Map<string, Set<string>>()
+
+  for (let part of EXT_SYS_PARTITIONS) {
     let selinuxDir = getSelinuxDir(part, pathResolver)
     let exclusions = getPartSepolicy(deviceConfig.sepolicy_exclusions, part)
     let inclusions = getPartSepolicy(deviceConfig.sepolicy_inclusions, part)
@@ -155,6 +157,14 @@ export async function processSepolicy(
       let definedAttrs = new Set<string>(
         customSepolicy.typeAttrNames.concat(...customState.sepolicy[Partition.System].typeAttrNames),
       )
+      let typeSuffix: string | null = null
+      if (part === Partition.Vendor) {
+        let version = await readFile(path.join(selinuxDir, 'plat_sepolicy_vers.txt'))
+        assert(version.endsWith('\n'), version)
+        version = version.slice(0, -1)
+        assert(!version.includes('\n'), version)
+        typeSuffix = '_' + version
+      }
       for (let [type, attrs] of Object.entries(parsedCil.typeAttrs)) {
         for (let attr of attrs) {
           if (!definedAttrs.has(attr)) {
@@ -163,13 +173,38 @@ export async function processSepolicy(
           }
         }
         let customAttrs = customTypeAttrs[type]
-        if (customAttrs === undefined) {
-          typeLines.push('type ' + type + (attrs.length > 0 ? ', ' + attrs.join(', ') : '') + ';')
+        let typeStr = type
+        if (typeSuffix !== null && type.endsWith(typeSuffix)) {
+          typeStr = type.slice(0, -typeSuffix.length)
+        }
+        let attrsSet = typeAttrs.get(typeStr)
+        if (attrsSet === undefined) {
+          attrsSet = new Set<string>()
+          typeAttrs.set(typeStr, attrsSet)
+          let systemAttrs = customState.sepolicy[Partition.System].types[typeStr]
+          if (systemAttrs !== undefined) {
+            for (let attr of systemAttrs) {
+              attrsSet.add(attr)
+            }
+          }
+        }
+        if (customAttrs !== undefined) {
+          for (let attr of customAttrs) {
+            attrsSet.add(attr)
+          }
+        }
+        if (attrsSet.size === 0) {
+          typeLines.push('type ' + typeStr + (attrs.length > 0 ? ', ' + attrs.join(', ') : '') + ';')
+          for (let attr of attrs) {
+            attrsSet.add(attr)
+          }
         } else {
-          let set = new Set(attrs)
-          customAttrs.forEach(a => set.delete(a))
-          for (let a of set) {
-            typeLines.push('typeattribute ' + type + ' ' + a + ';')
+          for (let attr of attrs) {
+            if (attrsSet.has(attr)) {
+              continue
+            }
+            attrsSet.add(attr)
+            typeLines.push('typeattribute ' + typeStr + ' ' + attr + ';')
           }
         }
       }
@@ -262,18 +297,13 @@ export async function processSepolicy(
 
     await Promise.all(contextsJobs.concat(...[macPermsJob, typesJob, sepolicyExtJob]))
 
-    let actions: (() => void)[] = []
     if (writtenAny) {
-      actions.push(() => (sepolicyDirs.dirs[part] = sepolicyDirPath))
+      sepolicyDirs.dirs[part] = sepolicyDirPath
     }
     if (writtenAnyPublic) {
-      actions.push(() => (sepolicyDirs.publicDirs[part] = assertNonNull(sepolicyPubDirPath)))
+      sepolicyDirs.publicDirs[part] = assertNonNull(sepolicyPubDirPath)
     }
-    return actions
-  })
-  let actions = await Promise.all(partJobs)
-  // make sepolicy dir order deterministic
-  actions.forEach(arr => arr.forEach(action => action()))
+  }
   return sepolicyDirs
 }
 
@@ -368,14 +398,9 @@ async function parseCil(cil: string[]) {
 
   for (let expr of typeattrExprs) {
     let attr = expr[1] as string
-    if (attr.startsWith('base_typeattr_')) {
-      continue
-    }
+    assert(!attr.startsWith('base_typeattr_'))
     assert(Array.isArray(expr[2]))
     for (let domain of expr[2]) {
-      if (!typesSet.has(domain)) {
-        continue
-      }
       updateMultiMapObj(typeAttrs, domain, attr)
     }
   }
