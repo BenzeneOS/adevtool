@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">lataus, raja, latauksen optimointi, latausraja</string>
+    <string name="charging_optimization_footer_charge_limit">Puhelin latautuu vain {batteryLimitLevel} prosenttiin asti akunkäyttöiän pidentämiseksi. Puhelin latautuu täyteen kerran viikossa tai kahdessa, jotta akun varaustason raportointi pysyy tarkkana.</string>
+    <string name="charging_optimization_summary_charge_limit">Rajoita {batteryLimitLevel} prosenttiin</string>
+    <string name="charging_optimization_summary_off">Pois päältä</string>
+    <string name="charging_optimization_title">Latauksen optimointi</string>
+</resources>

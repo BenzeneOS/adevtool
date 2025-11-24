@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">ఛార్జింగ్, పరిమితి, ఛార్జింగ్ ఆప్టిమైజేషన్, ఛార్జ్ పరిమితి</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">బ్యాటరీ లైఫ్ ఎక్స్‌టెండ్ చేయడంలో సహాయపడటానికి, మీ ఫోన్ {batteryLimitLevel}% బ్యాటరీకి మాత్రమే ఛార్జ్ చేయబడుతుంది. బ్యాటరీ స్థాయి రిపోర్టింగ్ ఖచ్చితత్వాన్ని నిర్వహించడానికి మీ ఫోన్ ప్రతి ఒకటి నుండి రెండు వారాలకు ఒకసారి 100% ఛార్జ్ చేయబడుతుంది.</string>
+    <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}%కు పరిమితం చేయండి</string>
+    <string name="charging_optimization_summary_off">ఆఫ్ చేయండి</string>
+    <string name="charging_optimization_title">ఛార్జింగ్ ఆప్టిమైజేషన్</string>
+</resources>

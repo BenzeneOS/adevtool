@@ -1,0 +1,11 @@
+<!--
+    Input:
+        hardware/google/display/common/hwc/pixel/pixel_display/pixel-display-secondary.xml
+-->
+<manifest version="9.0" type="device">
+    <hal format="aidl">
+        <name>com.google.hardware.pixel.display</name>
+        <version>16</version>
+        <fqname>IDisplay/secondary</fqname>
+    </hal>
+</manifest>

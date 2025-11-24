@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_missing_link_message">Funda kabanzi</string>
+    <string name="charging_optimization_charge_label">%1$s - Idedile eeukushaja ngo-%2$s</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s - Iqedile ukushaja</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">Iqedile ukushaja</string>
+    <string name="charging_optimization_remaining_time_label">Iqedile ukushaja ngo-%1$s</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Funda kabanzi ngokuvula ngesigxivizo somunwe sePixel ku-&lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
+    <string name="touch_sensitivity_summary">Nyusa ukuzwela kokuthinta futhi uthuthukise ukuthinta lapho usebenzisa isivikeli sesikrini</string>
+    <string name="touch_sensitivity_title">Imodi yesivikeli sesikrini</string>
+</resources>

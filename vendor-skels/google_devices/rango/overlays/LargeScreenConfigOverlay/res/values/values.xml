@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_allowRotationResolver">false</bool>
+    <bool name="config_appCompatUserAppAspectRatioFullscreenIsEnabled">true</bool>
+    <bool name="config_appCompatUserAppAspectRatioSettingsIsEnabled">true</bool>
+    <bool name="config_enableMultiUserUI">true</bool>
+    <bool name="config_isCameraCompatControlForStretchedIssuesEnabled">true</bool>
+    <bool name="config_isCompatFakeFocusEnabled">true</bool>
+    <bool name="config_isWindowManagerCameraCompatTreatmentEnabled">true</bool>
+    <bool name="config_letterboxIsDisplayRotationImmersiveAppCompatPolicyEnabled">true</bool>
+    <bool name="config_letterboxIsEducationEnabled">true</bool>
+    <bool name="config_letterboxIsEnabledForTranslucentActivities">true</bool>
+    <bool name="config_letterboxIsHorizontalReachabilityEnabled">true</bool>
+    <bool name="config_letterboxIsPolicyForIgnoringRequestedOrientationEnabled">true</bool>
+    <bool name="config_letterboxIsSplitScreenAspectRatioForUnresizableAppsEnabled">true</bool>
+    <bool name="config_letterboxIsVerticalReachabilityEnabled">true</bool>
+    <bool name="config_showUserSwitcherByDefault">true</bool>
+    <dimen name="config_fixedOrientationLetterboxAspectRatio">1.333</dimen>
+    <dimen name="config_letterboxVerticalPositionMultiplier">0.5</dimen>
+    <integer name="config_letterboxActivityCornersRadius">-1</integer>
+</resources>

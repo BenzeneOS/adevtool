@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_missing_link_message">Más información</string>
+    <string name="charging_optimization_charge_label">%1$s: la carga terminará a las %2$s</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s: carga completada</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">Carga completada</string>
+    <string name="charging_optimization_remaining_time_label">La carga terminará a las %1$s</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Más información sobre Desbloqueo con huella digital de Pixel en &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
+    <string name="touch_sensitivity_summary">Aumenta la sensibilidad táctil y mejora el control táctil si se está utilizando un protector de pantalla</string>
+    <string name="touch_sensitivity_title">Modo Protector de pantalla</string>
+</resources>

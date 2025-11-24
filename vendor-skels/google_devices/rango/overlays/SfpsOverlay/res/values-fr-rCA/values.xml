@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>Repositionnez le doigt. Vous avez déjà touché cette zone de votre empreinte digitale.</item>
+    </array>
+    <string name="fingerprint_unlock_set_unlock_password">Mot de passe • Empreinte digitale</string>
+    <string name="fingerprint_unlock_set_unlock_pattern">Schéma • Empreinte digitale</string>
+    <string name="fingerprint_unlock_set_unlock_pin">NIP • Empreinte digitale</string>
+    <string name="fingerprint_unlock_skip_fingerprint">Continuer sans le Déverrouillage par empreinte digitale</string>
+    <string name="fingerprint_unlock_title">"Grâce au déverrouillage par empreinte digitale, vous pouvez déverrouiller votre téléphone avec votre empreinte digitale. Pour plus de sécurité, cette option exige un verrouillage d'écran secondaire."</string>
+    <string name="frr_notification_reset_fingerprint_description">Cela peut parfois résoudre des problèmes</string>
+    <string name="security_settings_fingerprint_enroll_consent_introduction_title">Autoriser déverrouillage par empreinte</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message">"Le capteur d'empreintes digitales se trouve sur l'interrupteur.
+
+Touchez légèrement le bouton sans l'enfoncer."</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_title">"Touchez l'interrupteur"</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">Déverrouillage par empreinte digitale</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title">Touchez le doigt. Bougez-le un peu chaque fois.</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay">Levez le doigt, touchez encore</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_message">"Le capteur d'empreintes digitales est situé sur l'interrupteur."</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_title">Toucher le capteur à la place</string>
+    <string name="security_settings_fingerprint_preference_title">Déverrouillage par empreinte digitale</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">"Le Déverrouillage par empreinte digitale crée un modèle unique de votre empreinte digitale pour confirmer qu'il s'agit bien de vous. Pour créer ce modèle durant la configuration, l'appareil vous demandera de capturer des images de votre empreinte digitale dans différentes positions."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">"Lorsque vous utilisez le Déverrouillage par empreinte digitale, les images sont utilisées pour mettre à jour votre modèle d'empreinte digitale. Les images utilisées pour créer votre modèle d'empreinte digitale ne sont jamais stockées, contrairement au modèle, qui est stocké de façon sécuritaire sur votre téléphone et ne le quitte jamais. Tous les traitements sont sécurisés sur votre téléphone."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">"Vous pouvez supprimer votre modèle d'empreinte digitale ou désactiver le Déverrouillage par empreinte digitale en tout temps dans les paramètres. Les modèles d'empreinte digitale sont stockés sur le téléphone jusqu'à ce que vous les supprimiez."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">"Le déverrouillage par empreinte digitale crée un modèle unique de l'empreinte digitale de votre enfant pour confirmer qu'il s'agit bien de lui. Pour créer ce modèle durant la configuration, l'appareil lui demandera de capturer des images de son empreinte digitale dans différentes positions."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">"Lorsque votre enfant utilise le déverrouillage par empreinte digitale, les images sont utilisées pour mettre à jour son modèle d'empreinte digitale. Les images utilisées pour créer le modèle d'empreinte digitale de votre enfant ne sont jamais stockées, contrairement au modèle, qui est stocké de façon sécuritaire sur le téléphone et ne le quitte jamais. Tous les traitements sont sécurisés sur le téléphone."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">"Vous et votre enfant pouvez supprimer le modèle de son empreinte digitale ou désactiver le Déverrouillage par empreinte digitale en tout temps dans les paramètres. Les modèles d'empreinte digitale sont stockés sur le téléphone jusqu'à ce qu'ils soient supprimés."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Apprenez-en plus à la page &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
+    <string name="security_settings_sfps_enroll_find_sensor_message">"Le capteur d'empreintes digitales est situé sur l'interrupteur. Il s'agit du bouton le plus court sur le côté du téléphone."</string>
+    <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Déplacez le doigt chaque fois</string>
+    <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Bougez pour analyser votre empreinte</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">"Cela diminue les risques de déverrouillage accidentel. Lorsque ce paramètre est désactivé, le déverrouillage s'effectue en touchant brièvement le capteur."</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Maintenir le doigt sur le capteur pour déverrouiller</string>
+    <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">"Touchez le capteur d'un autre angle"</string>
+    <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">"Déplacez le doigt pour capter plus de l'empreinte"</string>
+    <string name="security_settings_work_fingerprint_preference_title">Déverrouillage par empreinte digitale pour le travail</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Continuer</string>
+    <string name="setup_fingerprint_enroll_immobile_help_subtitle">"Pour capter plus de l'empreinte, pour un meilleur déverrouillage"</string>
+    <string name="setup_fingerprint_enroll_immobile_help_title">Déplacer votre doigt</string>
+    <string name="suggested_fingerprint_lock_settings_title">Utiliser le déverrouillage par empreinte digitale</string>
+</resources>

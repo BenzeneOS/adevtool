@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>ଆଙ୍ଗୁଠିକୁ ରିପୋଜିସନ କରନ୍ତୁ। ଆପଣଙ୍କ ଟିପଚିହ୍ନର ଏହି ଏରିଆ ସହିତ ଆପଣ ପୂର୍ବରୁ ସ୍ପର୍ଶ କରିଛନ୍ତି।</item>
+    </array>
+    <string name="fingerprint_unlock_set_unlock_password">ପାସୱାର୍ଡ • ଟିପଚିହ୍ନ</string>
+    <string name="fingerprint_unlock_set_unlock_pattern">ପାଟର୍ନ • ଟିପଚିହ୍ନ</string>
+    <string name="fingerprint_unlock_set_unlock_pin">PIN • ଟିପଚିହ୍ନ</string>
+    <string name="fingerprint_unlock_skip_fingerprint">ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଅନଲକ ବିନା ଜାରି ରଖନ୍ତୁ</string>
+    <string name="fingerprint_unlock_title">ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଅନଲକ ସହ, ଆପଣ ଆପଣଙ୍କ ଟିପଚିହ୍ନ ବ୍ୟବହାର କରି ଆପଣଙ୍କର ଫୋନକୁ ଅନଲକ କରିପାରିବେ। ସୁରକ୍ଷା ପାଇଁ, ଏହି ବିକଳ୍ପ ନିମନ୍ତେ ଏକ ବେକଅପ ସ୍କ୍ରିନ ଲକ ଆବଶ୍ୟକ।</string>
+    <string name="frr_notification_reset_fingerprint_description">ଏହା ବେଳେବେଳେ ସମସ୍ୟାର ସମାଧାନ କରିପାରେ</string>
+    <string name="security_settings_fingerprint_enroll_consent_introduction_title">ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଅନଲକକୁ ଅନୁମତି ଦିଅନ୍ତୁ</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message">"ଟିପଚିହ୍ନ ସେନ୍ସର ପାୱାର ବଟନରେ ଅଛି।
+
+ବଟନକୁ ତଳକୁ ନ ଦବାଇ ଏହାକୁ ଧୀରେ ସ୍ପର୍ଶ କରନ୍ତୁ।"</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_title">ପାୱାର ବଟନକୁ ସ୍ପର୍ଶ କରନ୍ତୁ</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଅନଲକ ସେଟ ଅପ କରନ୍ତୁ</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title">"ଉଠାନ୍ତୁ, ତା'ପରେ ସ୍ପର୍ଶ କରନ୍ତୁ। ପ୍ରତ୍ୟେକ ଥର ଆପଣଙ୍କ ଆଙ୍ଗୁଠିକୁ ସାମାନ୍ୟ ମୁଭ କରନ୍ତୁ।"</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay">"ଉଠାନ୍ତୁ, ତା'ପରେ ପୁଣି ସ୍ପର୍ଶ କରନ୍ତୁ"</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_message">ଟିପଚିହ୍ନ ସେନ୍ସର ପାୱାର ବଟନରେ ଅଛି।</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_title">ଏହା ପରିବର୍ତ୍ତେ ସେନ୍ସରକୁ ସ୍ପର୍ଶ କରନ୍ତୁ</string>
+    <string name="security_settings_fingerprint_preference_title">ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଅନଲକ</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">ଏହା ଆପଣ ଅଟନ୍ତି ବୋଲି ଯାଞ୍ଚ କରିବାକୁ ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଅନଲକ ଆପଣଙ୍କ ଟିପଚିହ୍ନର ଏକ ସ୍ୱତନ୍ତ୍ର ମଡେଲ ତିଆରି କରେ। ସେଟଅପ ସମୟରେ ଏହି ଟିପଚିହ୍ନ ମଡେଲ ତିଆରି କରିବାକୁ, ଆପଣ ବିଭିନ୍ନ ପୋଜିସନରୁ ଆପଣଙ୍କ ଟିପଚିହ୍ନର ଇମେଜ ନେବେ।</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">ଆପଣ ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଅନଲକ ବ୍ୟବହାର କରିବା ସମୟରେ, ଆପଣଙ୍କ ଟିପଚିହ୍ନ ମଡେଲକୁ ଅପଡେଟ କରିବା ପାଇଁ ଇମେଜଗୁଡ଼ିକୁ ବ୍ୟବହାର କରାଯାଏ। ଆପଣଙ୍କ ଟିପଚିହ୍ନ ମଡେଲ ତିଆରି କରିବା ପାଇଁ ବ୍ୟବହୃତ ଇମେଜଗୁଡ଼ିକୁ କେବେ ବି ଷ୍ଟୋର କରାଯାଏ ନାହିଁ, କିନ୍ତୁ ଟିପଚିହ୍ନ ମଡେଲକୁ ଆପଣଙ୍କ ଫୋନରେ ସୁରକ୍ଷିତ ଭାବେ ଷ୍ଟୋର କରାଯାଏ ଏବଂ କେବେ ବି ଫୋନରୁ କାଢ଼ି ଦିଆଯାଏ ନାହିଁ। ସମସ୍ତ ପ୍ରକ୍ରିୟାକରଣ ସୁରକ୍ଷିତ ଭାବେ ଆପଣଙ୍କ ଫୋନରେ କରାଯାଏ।</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">ଆପଣ ଆପଣଙ୍କ ଟିପଚିହ୍ନ ମଡେଲକୁ ଡିଲିଟ କରିପାରିବେ କିମ୍ବା ଯେ କୌଣସି ସମୟରେ ସେଟିଂସରେ ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଅନଲକକୁ ବନ୍ଦ କରିପାରିବେ। ଟିପଚିହ୍ନ ମଡେଲଗୁଡ଼ିକୁ ଆପଣ ଡିଲିଟ ନକରିବା ପର୍ଯ୍ୟନ୍ତ ସେଗୁଡ଼ିକ ଫୋନରେ ଷ୍ଟୋର ହୋଇ ରହିଥାଏ।</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">"ଏହା ଆପଣଙ୍କ ପିଲା ଅଟେ ବୋଲି ଯାଞ୍ଚ କରିବା ପାଇଁ ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଅନଲକ୍ ତା'ର ଟିପଚିହ୍ନର ଏକ ସ୍ୱତନ୍ତ୍ର ମଡେଲ୍ ତିଆରି କରିଥାଏ। ସେଟଅପ୍ ସମୟରେ ଏହି ଟିପଚିହ୍ନ ମଡେଲ୍ ତିଆରି କରିବାକୁ, ସେ ବିଭିନ୍ନ ଅବସ୍ଥିତିରୁ ତା'ର ଟିପଚିହ୍ନର ଛବି ନେବ।"</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">ସେ ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଅନଲକ ବ୍ୟବହାର କରିବା ସମୟରେ, ତା’ର ଟିପଚିହ୍ନ ମଡେଲକୁ ଅପଡେଟ କରିବା ପାଇଁ ଇମେଜଗୁଡ଼ିକୁ ବ୍ୟବହାର କରାଯାଏ। ଆପଣଙ୍କ ପିଲାର ଟିପଚିହ୍ନ ମଡେଲ ତିଆରି କରିବା ପାଇଁ ବ୍ୟବହୃତ ଇମେଜଗୁଡ଼ିକୁ କେବେ ବି ଷ୍ଟୋର କରାଯାଏ ନାହିଁ, କିନ୍ତୁ ଟିପଚିହ୍ନ ମଡେଲକୁ ଫୋନରେ ସୁରକ୍ଷିତ ଭାବେ ଷ୍ଟୋର କରାଯାଇଥାଏ ଏବଂ ଏହାକୁ କେବେ ବି ଫୋନରୁ କାଢ଼ି ଦିଆଯାଏ ନାହିଁ। ସମସ୍ତ ପ୍ରକ୍ରିୟାକରଣ ସୁରକ୍ଷିତ ଭାବେ ଫୋନରେ କରାଯାଇଥାଏ।</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">"ଆପଣ ଏବଂ ଆପଣଙ୍କ ପିଲା ତା'ର ଟିପଚିହ୍ନ ମଡେଲକୁ ଡିଲିଟ କରିପାରିବେ କିମ୍ବା ଯେ କୌଣସି ସମୟରେ ସେଟିଂସରେ ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଅନଲକ ବନ୍ଦ କରିପାରିବେ। ଟିପଚିହ୍ନ ମଡେଲଗୁଡ଼ିକୁ ଡିଲିଟ ନକରିବା ପର୍ଯ୍ୟନ୍ତ ସେଗୁଡ଼ିକ ଫୋନରେ ଷ୍ଟୋର ହୋଇ ରହିଥାଏ।"</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"&lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;ରେ ଅଧିକ ଜାଣନ୍ତୁ।"</string>
+    <string name="security_settings_sfps_enroll_find_sensor_message">ଟିପଚିହ୍ନ ସେନ୍ସର ପାୱାର ବଟନରେ ଅଛି। ଏହା ଫୋନର ପାର୍ଶ୍ୱରେ ଥିବା ଛୋଟ ବଟନ ଅଟେ।</string>
+    <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">ପ୍ରତି ଥର ଆଙ୍ଗୁଠିକୁ ଟିକେ ମୁଭ କର</string>
+    <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">ନିଜ ଟିପଚିହ୍ନର ଅନ୍ୟ ଏରିଆ କେପଚର କରିବାକୁ ମୁଭ କରିବା ଜାରି ରଖ</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">ଭୁଲବଶତଃ ଅନଲକ ହେବା ସମ୍ଭାବନାକୁ ଏହା କମ୍ କରେ। ଏହି ସେଟିଂ ବନ୍ଦ ହେଲେ, ସେନ୍ସରକୁ ଅଳ୍ପ ସମୟ ପାଇଁ ସ୍ପର୍ଶ କରିବା ଦ୍ୱାରା ଡିଭାଇସ ଅନଲକ ହେବ।</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">ଅନଲକ କରିବାକୁ ସେନ୍ସରକୁ ଦବାଇ ଧରି ରଖନ୍ତୁ</string>
+    <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">ସେନ୍ସରକୁ ଅନ୍ୟ ଏକ କୋଣରୁ ସ୍ପର୍ଶ କର</string>
+    <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">ଆପଣଙ୍କ ଟିପଚିହ୍ନର ଅନ୍ୟ ଏରିଆ କେପଚର କରିବାକୁ ଆଙ୍ଗୁଠିକୁ ମୁଭ କର</string>
+    <string name="security_settings_work_fingerprint_preference_title">ୱାର୍କ ପାଇଁ ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଅନଲକ</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">ଜାରି ରଖନ୍ତୁ</string>
+    <string name="setup_fingerprint_enroll_immobile_help_subtitle">ଅନଲକ କରିବାର ଏକ ଉତ୍ତମ ଅନୁଭୂତି ପାଇଁ ଆପଣଙ୍କ ଟିପଚିହ୍ନର ଅଧିକାଂଶ ଭାଗ କେପଚର କରିବାରେ ଏହା ସାହାଯ୍ୟ କରେ</string>
+    <string name="setup_fingerprint_enroll_immobile_help_title">ଆପଣଙ୍କ ଆଙ୍ଗୁଠିକୁ ମୁଭ କରନ୍ତୁ</string>
+    <string name="suggested_fingerprint_lock_settings_title">ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଅନଲକ ବ୍ୟବହାର କରନ୍ତୁ</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">uzlāde, ierobežojums, uzlādes optimizācija, uzlādes ierobežojums</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">Lai paildzinātu akumulatora darbmūžu, jūsu tālrunis tiks uzlādēts tikai līdz šādam akumulatora uzlādes līmenim: {batteryLimitLevel}%. Ik pēc vienas vai divām nedēļām tālrunis tiks uzlādēts līdz 100%, lai nodrošinātu rādītā akumulatora uzlādes līmeņa precizitāti.</string>
+    <string name="charging_optimization_summary_charge_limit">Veikt uzlādi tikai līdz {batteryLimitLevel}%</string>
+    <string name="charging_optimization_summary_off">Izslēgta</string>
+    <string name="charging_optimization_title">Uzlādes optimizācija</string>
+</resources>

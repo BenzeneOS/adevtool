@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">טעינה, מגבלה, הגבלה, אופטימיזציה של טעינה, מגבלת הטעינה</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">כדי לשפר את משך חיי הסוללה, הטלפון ייטען רק עד רמה של {batteryLimitLevel}%. הטלפון ייטען ל-100% פעם אחת בכל שבוע עד שבועיים כדי לשמור על דיוק הדיווח לגבי רמת הטעינה.</string>
+    <string name="charging_optimization_summary_charge_limit">הגבלת הטעינה ל-{batteryLimitLevel}%</string>
+    <string name="charging_optimization_summary_off">מושבתת</string>
+    <string name="charging_optimization_title">אופטימיזציה של הטעינה</string>
+</resources>

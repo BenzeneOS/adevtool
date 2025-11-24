@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>@string/fingerprint_acquired_immobile</item>
+    </array>
+</resources>

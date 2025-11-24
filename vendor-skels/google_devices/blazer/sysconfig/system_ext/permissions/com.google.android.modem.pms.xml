@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2024 Google Inc. All Rights Reserved-->
+<permissions>
+    <privapp-permissions package="com.google.android.modem.pms">
+
+        <!-- Permission for checking modem restart conditions -->
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.READ_PHONE_STATE"/>
+        <permission name="android.permission.ACCESS_WIFI_STATE"/>
+        <permission name="android.permission.CHANGE_WIFI_STATE"/>
+    </privapp-permissions>
+</permissions>

@@ -9,7 +9,12 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/frankel/device.mk)
 
-PRODUCT_SOONG_NAMESPACES += vendor/google_devices/frankel
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google_devices/frankel/apk-parser-config \
+    vendor/google_devices/frankel/overlays \
+    vendor/google_devices/frankel/proprietary \
+    vendor/google_devices/frankel/sysconfig \
+    vendor/google_devices/frankel/vintf
 
 PRODUCT_NAME := frankel
 PRODUCT_DEVICE := frankel
@@ -66,6 +71,8 @@ PRODUCT_PACKAGES += \
     adevtool_vintf_fragment_vendor_android.hardware.usb.gadget-service.xml \
     adevtool_vintf_fragment_vendor_android.hardware.vibrator-service.cs40l26.xml \
     adevtool_vintf_fragment_vendor_android.hardware.weaver-service.citadel.xml \
+    adevtool_vintf_fragment_vendor_android.hardware.wifi.hostapd.xml \
+    adevtool_vintf_fragment_vendor_android.hardware.wifi.supplicant.xml \
     adevtool_vintf_fragment_vendor_dmd.xml \
     adevtool_vintf_fragment_vendor_drm_hwc3.xml \
     adevtool_vintf_fragment_vendor_flood_control.xml \
@@ -304,12 +311,10 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.common-V2-ndk.vendor \
     android.hardware.wifi.direct.prebuilt.xml \
     android.hardware.wifi.hostapd-V3-ndk.vendor \
-    android.hardware.wifi.hostapd.xml \
     android.hardware.wifi.passpoint.prebuilt.xml \
     android.hardware.wifi.prebuilt.xml \
     android.hardware.wifi.rtt.prebuilt.xml \
     android.hardware.wifi.supplicant-V4-ndk.vendor \
-    android.hardware.wifi.supplicant.xml \
     android.hidl.allocator@1.0-service \
     android.hidl.allocator@1.0-service.xml \
     android.hidl.memory.token@1.0.vendor \
@@ -422,7 +427,6 @@ PRODUCT_PACKAGES += \
     libunwindstack.vendor \
     libutilscallstack.vendor \
     libvisualizeraidl \
-    libwpa_client \
     libxml2.vendor \
     libz.vendor_ramdisk \
     libziparchive.vendor \
@@ -452,8 +456,7 @@ PRODUCT_PACKAGES += \
     vendor_property_contexts.recovery \
     vendor_service_contexts.recovery \
     vndservice \
-    vndservicemanager \
-    wpa_supplicant
+    vndservicemanager
 
 # sysconfig
 PRODUCT_PACKAGES += \
@@ -529,233 +532,14 @@ PRODUCT_PACKAGES += \
     PixelModemService \
     PixelNfc \
     PixelQualifiedNetworksService \
+    PixelVibratorFlagsL26 \
     ShannonIms \
     ShannonRcs \
-    adevtool_PixelVibratorFlagsL26__vendor \
-    adevtool_activity__vendor \
-    adevtool_aidb_recorder__vendor \
-    adevtool_ambient_volume__vendor \
-    adevtool_android.hardware.authsecret-impl.nos__vendor \
-    adevtool_android.hardware.fastboot@1.1-impl.pixel__recovery \
-    adevtool_android.hardware.oemlock-impl.nos__vendor \
-    adevtool_android.hardware.power.stats-impl.laguna__vendor \
-    adevtool_android.hardware.power.stats-impl.pixel__vendor \
-    adevtool_android.hardware.security.keymint-impl.nos__vendor \
-    adevtool_android.hardware.vibrator-impl.cs40l26__vendor \
-    adevtool_android.hardware.weaver-bridge.nos__vendor \
-    adevtool_android.hardware.weaver-impl.nos__vendor \
-    adevtool_android.hardware.weaver2-impl.nos__vendor \
-    adevtool_aoc_aconfig_flags_c_lib__vendor \
-    adevtool_aocx-V2-ndk__vendor \
-    adevtool_ar_bridge__vendor \
-    adevtool_blue__vendor \
-    adevtool_capo__vendor \
-    adevtool_cc__vendor \
-    adevtool_columbus__vendor \
-    adevtool_columbus_lite__vendor \
-    adevtool_com.google.edgetpu.tachyon-ndk__vendor \
-    adevtool_com.google.edgetpu_app_service-V4-ndk__system_ext \
-    adevtool_com.google.edgetpu_app_service-V4-ndk__vendor \
-    adevtool_com.google.edgetpu_vendor_service-V2-ndk__system_ext \
-    adevtool_com.google.edgetpu_vendor_service-V2-ndk__vendor \
-    adevtool_com.google.hardware.biometrics.fingerprint.fingerprint-ext-V2-ndk__vendor \
-    adevtool_com.google.hardware.pixel.display-V15-ndk__vendor \
-    adevtool_com.google.hardware.pixel.display-V16-ndk__vendor \
-    adevtool_com.google.input-V2-ndk__vendor \
-    adevtool_com.google.input-V6-ndk__vendor \
-    adevtool_com.google.pixel.modem.logmasklibrary-V1-ndk__vendor \
-    adevtool_dck_gating__vendor \
-    adevtool_drop__vendor \
-    adevtool_fake_gxp_telemetry_reader__vendor \
-    adevtool_fake_libtachyon_core__vendor \
-    adevtool_gesture__vendor \
-    adevtool_gxp_metrics_logger__vendor \
-    adevtool_gxp_telemetry_reader__vendor \
-    adevtool_hardware.google.bluetooth.bt_channel_avoidance@1.0__vendor \
-    adevtool_hardware.google.ril_ext-V1-ndk__vendor \
-    adevtool_health__vendor \
-    adevtool_imu_cal__vendor \
-    adevtool_ip_health__vendor \
-    adevtool_lassen_dmd_constants__vendor \
-    adevtool_libEGL_powervr__vendor \
-    adevtool_libGLESv1_CM_powervr__vendor \
-    adevtool_libGLESv2_powervr__vendor \
-    adevtool_libIMGegl__vendor \
-    adevtool_libMAM_Google_Pixel_Android__vendor \
-    adevtool_libNX_Google_Pixel_Android__vendor \
-    adevtool_libOpenCL-pixel__vendor \
-    adevtool_libOpenCL__vendor \
-    adevtool_libPVROCL__vendor \
-    adevtool_libPVRScopeServices__vendor \
-    adevtool_libPixelGrallocProperties__vendor \
-    adevtool_lib_aion_buffer__vendor \
-    adevtool_lib_reader__vendor \
-    adevtool_libaconfig_display_pixel_hwc_flags__vendor \
-    adevtool_libaoc__vendor \
-    adevtool_libc2filterplugin__vendor \
-    adevtool_libcodec2_soft_ddpdec__vendor \
-    adevtool_libcodec2_store_dolby__vendor \
-    adevtool_libcustomer_gralloc_ddk_api__vendor \
-    adevtool_libcustomgnss__vendor \
-    adevtool_libdapparamstorage__vendor \
-    adevtool_libdarwinn_hal__vendor \
-    adevtool_libdeccfg__vendor \
-    adevtool_libdeeptouch__vendor \
-    adevtool_libdisplaycolor__vendor \
-    adevtool_libdisplaypanel__vendor \
-    adevtool_libdisppower-pixel__vendor \
-    adevtool_libdmengine__product \
-    adevtool_libdmjavaplugin__product \
-    adevtool_libdump__vendor \
-    adevtool_libedgetpu_client.google__vendor \
-    adevtool_libedgetpu_litert__vendor \
-    adevtool_libedgetpu_tachyon.google__vendor \
-    adevtool_libedgetpu_tflite_compiler__vendor \
-    adevtool_libedgetpu_util__vendor \
-    adevtool_libfvsam_prm_parser__vendor \
-    adevtool_libgc2_av1_dec__vendor \
-    adevtool_libgc2_av1_enc__vendor \
-    adevtool_libgc2_avc_dec__vendor \
-    adevtool_libgc2_avc_enc__vendor \
-    adevtool_libgc2_base__vendor \
-    adevtool_libgc2_dec__vendor \
-    adevtool_libgc2_enc__vendor \
-    adevtool_libgc2_hal_flags__vendor \
-    adevtool_libgc2_hevc_dec__vendor \
-    adevtool_libgc2_hevc_enc__vendor \
-    adevtool_libgc2_log__vendor \
-    adevtool_libgc2_store__vendor \
-    adevtool_libgc2_utils__vendor \
-    adevtool_libgc2_vdi_vpu__vendor \
-    adevtool_libgc2_vp9_dec__vendor \
-    adevtool_libgooglerilaudio__vendor \
-    adevtool_libgooglerilmemmonitor__vendor \
-    adevtool_libgpudataproducer__vendor \
-    adevtool_libgril_oem-google__vendor \
-    adevtool_libgxp__vendor \
-    adevtool_libhwjpeg__vendor \
-    adevtool_libion_google__vendor \
-    adevtool_libjson__vendor \
-    adevtool_libmahalcontroller__vendor \
-    adevtool_libmedia_ecoservice__vendor \
-    adevtool_libmediaadaptor__system_ext \
-    adevtool_libmemtrack-pixel__vendor \
-    adevtool_libmetrics_logger__vendor \
-    adevtool_libmodem_ml_svc_proto__vendor \
-    adevtool_libmodem_svc_proto_legacy_soong__vendor \
-    adevtool_libmosey_daemon_ffi__vendor \
-    adevtool_libnos__vendor \
-    adevtool_libnos_citadeld_proxy__vendor \
-    adevtool_libnos_client_citadel__vendor \
-    adevtool_libnos_datagram__vendor \
-    adevtool_libnos_datagram_citadel__vendor \
-    adevtool_libnos_feature__vendor \
-    adevtool_libnos_transport__vendor \
-    adevtool_libnosprotos__vendor \
-    adevtool_liboemcrypto__vendor \
-    adevtool_liboemservice__vendor \
-    adevtool_libperfmgr__vendor \
-    adevtool_libpixelatoms_defs__vendor \
-    adevtool_libpixeldisplaymanager_jni__system_ext \
-    adevtool_libpixelhealth__vendor \
-    adevtool_libpixelimsmedia__system_ext \
-    adevtool_libpixelstats__vendor \
-    adevtool_libpowerstatshaldataprovider__system_ext \
-    adevtool_libqfp-service__vendor \
-    adevtool_libqfpsuez__vendor \
-    adevtool_libqfstrusty_intf__vendor \
-    adevtool_librecovery_ui_ext__recovery \
-    adevtool_libril-aidl__vendor \
-    adevtool_libril_gfeature__vendor \
-    adevtool_libril_sitril__vendor \
-    adevtool_librtxproto_aidl-default__vendor \
-    adevtool_libsensorsuez__vendor \
-    adevtool_libsighandler__vendor \
-    adevtool_libsit_oem__vendor \
-    adevtool_libsit_oem_proto__vendor \
-    adevtool_libsitril-audio__vendor \
-    adevtool_libsitril-client__vendor \
-    adevtool_libsitril-gps__vendor \
-    adevtool_libsitril-ims__vendor \
-    adevtool_libsitril__vendor \
-    adevtool_libspatialaudio__vendor \
-    adevtool_libspeechenhancer__vendor \
-    adevtool_libsrv_um__vendor \
-    adevtool_libstreset25__vendor \
-    adevtool_libsueznanoappclients__vendor \
-    adevtool_libtachyon_core__vendor \
-    adevtool_libtachyon_dsp_core__vendor \
-    adevtool_libthermal_tflite_wrapper__vendor \
-    adevtool_libtouchflow__vendor \
-    adevtool_libufwriter__vendor \
-    adevtool_libusc__vendor \
-    adevtool_libusf__vendor \
-    adevtool_libutils-default__vendor \
-    adevtool_libwlcproto_aidl-default__vendor \
-    adevtool_location__vendor \
-    adevtool_mapper.pixel__vendor \
-    adevtool_modem_android_property_manager__vendor \
-    adevtool_modem_android_property_manager_impl__vendor \
-    adevtool_modem_clock_manager__vendor \
-    adevtool_modem_clock_manager_impl__vendor \
-    adevtool_modem_log_constants__vendor \
-    adevtool_modem_log_dumper__vendor \
-    adevtool_modem_ml_pw_rpc_gen__vendor \
-    adevtool_modemml-tflite-service-aidl-V1-ndk__vendor \
-    adevtool_motiondetector__vendor \
-    adevtool_nearby__vendor \
-    adevtool_nos_app_avb__vendor \
-    adevtool_nos_app_keymaster__vendor \
-    adevtool_nos_app_weaver__vendor \
-    adevtool_pixel-power-ext-V1-ndk__vendor \
-    adevtool_pixel_stateresidency_provider_aidl_interface-ndk__vendor \
-    adevtool_pixelatoms-cpp__vendor \
-    adevtool_pixelpowerstats_provider_aidl_interface-cpp__vendor \
-    adevtool_sd__vendor \
-    adevtool_sensorcollector__vendor \
-    adevtool_sensors.usf__vendor \
-    adevtool_system_signal_hub__vendor \
-    adevtool_time_sync__vendor \
-    adevtool_uv_exposure__vendor \
-    adevtool_vendor-pixelatoms-cpp__vendor \
-    adevtool_vendor.google.aam-V3-ndk__vendor \
-    adevtool_vendor.google.battery_mitigation-V1-ndk__vendor \
-    adevtool_vendor.google.battery_mitigation.service_static__vendor \
-    adevtool_vendor.google.bluetooth_ext-V1-ndk__vendor \
-    adevtool_vendor.google.bluetooth_ext-V3-ndk__vendor \
-    adevtool_vendor.google.gnss_ext-V1-ndk__vendor \
-    adevtool_vendor.google.google_battery-V4-ndk__vendor \
-    adevtool_vendor.google.plat_security-V1-ndk__vendor \
-    adevtool_vendor.google.whitechapel.audio.audioext@4.0__system_ext \
-    adevtool_vendor.google.whitechapel.audio.audioext@4.0__vendor \
-    adevtool_vendor.google.whitechapel.audio.extension-V5-ndk__vendor \
-    adevtool_vendor.google.whitechapel.audio.extension-V6-ndk__system_ext \
-    adevtool_vendor.google.whitechapel.audio.extension-V6-ndk__vendor \
-    adevtool_vendor.google.whitechapel.audio.hal.utils.adaptedinfo.repeated_thread__vendor \
-    adevtool_vendor.google.whitechapel.audio.hal.utils.adaptedinfo__vendor \
-    adevtool_vendor.google.whitechapel.audio.hal.utils.aoc__vendor \
-    adevtool_vendor.google.whitechapel.audio.hal.utils.bluenote__vendor \
-    adevtool_vendor.google.whitechapel.audio.hal.utils.pipe__vendor \
-    adevtool_vendor.google.whitechapel.audio.hal.utils.soundcardstate__vendor \
-    adevtool_vendor.google.whitechapel.audio.hal.utils__vendor \
-    adevtool_vendor.google.wireless_charger-V4-ndk__vendor \
-    adevtool_vendor.google.wireless_charger.service-V2-ndk__vendor \
-    adevtool_vendor.qti.hardware.fingerprint.aidl-V1-ndk__vendor \
-    adevtool_vendor.radio.base__vendor \
-    adevtool_vendor.radio.protocol.sit.base__vendor \
-    adevtool_vendor.radio.protocol.sit.json__vendor \
-    adevtool_vendor.radio.protocol.sit.stream__vendor \
-    adevtool_vendor.samsung_slsi.telephony.hardware.oemservice-V1-ndk__vendor \
-    adevtool_vendor.samsung_slsi.telephony.hardware.oemservice@1.0__system_ext \
-    adevtool_vendor.samsung_slsi.telephony.hardware.oemservice@1.0__vendor \
-    adevtool_vendor.samsung_slsi.telephony.hardware.radioExternal-V1-ndk__vendor \
-    adevtool_vendor.samsung_slsi.telephony.hardware.radioExternal@1.0__system_ext \
-    adevtool_vendor_chre_atoms_log__vendor \
-    adevtool_vendor_chre_metrics-cpp__vendor \
-    adevtool_vice__vendor \
-    adevtool_vulkan.powervr__vendor \
-    adevtool_wallaby__vendor \
+    activity \
+    aidb_recorder \
+    ambient_volume \
     android.hardware.audio.service-aidl.aoc \
+    android.hardware.authsecret-impl.nos \
     android.hardware.authsecret-service.citadel \
     android.hardware.bluetooth-service.bcmbtlinux \
     android.hardware.boot-service.default-pixel \
@@ -765,6 +549,7 @@ PRODUCT_PACKAGES += \
     android.hardware.contexthub-service.generic \
     android.hardware.dumpstate-service \
     android.hardware.edgetpu.logging@service-edgetpu-logging \
+    android.hardware.fastboot@1.1-impl.pixel \
     android.hardware.gnss-service \
     android.hardware.gnss-service.pixel \
     android.hardware.gxp.logging@service-gxp-logging \
@@ -774,39 +559,68 @@ PRODUCT_PACKAGES += \
     android.hardware.input.processor-service \
     android.hardware.memtrack-service.pixel \
     android.hardware.neuralnetworks@service-darwinn-aidl \
+    android.hardware.oemlock-impl.nos \
     android.hardware.oemlock-service.citadel \
     android.hardware.power-service.pixel-libperfmgr \
+    android.hardware.power.stats-impl.laguna \
+    android.hardware.power.stats-impl.pixel \
     android.hardware.power.stats-service.pixel \
     android.hardware.secure_element-service.uicc \
+    android.hardware.security.keymint-impl.nos \
     android.hardware.security.keymint-service.citadel \
     android.hardware.thermal-service.pixel \
     android.hardware.usb-service \
     android.hardware.usb.gadget-service \
+    android.hardware.vibrator-impl.cs40l26 \
     android.hardware.vibrator-service.cs40l26 \
+    android.hardware.weaver-bridge.nos \
+    android.hardware.weaver-impl.nos \
     android.hardware.weaver-service.citadel \
+    android.hardware.weaver2-impl.nos \
+    aoc_aconfig_flags_c_lib \
     aocd \
+    aocx-V2-ndk \
     aocxd \
+    ar_bridge \
     battery_mitigation \
     bipchmgr \
+    blue \
+    capo \
     cbd \
+    cc \
     citadel_updater \
     citadeld \
+    columbus \
+    columbus_lite \
     com.google.android.camera.experimental2025 \
     com.google.android.camera.extensions \
     com.google.android.camerax.extensions \
     com.google.android.modem.pms.lib \
     com.google.android.widevine-13130248 \
+    com.google.edgetpu.tachyon-ndk \
     com.google.edgetpu.tachyon-service \
+    com.google.edgetpu_app_service-V4-ndk \
+    com.google.edgetpu_app_service-V4-ndk.system_ext \
+    com.google.edgetpu_vendor_service-V2-ndk \
+    com.google.edgetpu_vendor_service-V2-ndk.system_ext \
+    com.google.hardware.biometrics.fingerprint.fingerprint-ext-V2-ndk \
+    com.google.hardware.pixel.display-V15-ndk \
+    com.google.hardware.pixel.display-V16-ndk \
+    com.google.input-V2-ndk \
+    com.google.input-V6-ndk \
     com.google.input.gia.giaservicemanager \
     com.google.pixel.camera.connectivity \
     com.google.pixel.camera.hal \
     com.google.pixel.camera.services.cameraidremapper \
     com.google.pixel.camera.services.lyricconfigprovider \
     com.google.pixel.euicc.update \
+    com.google.pixel.modem.logmasklibrary-V1-ndk \
     com.google.pixel.wifi.ext \
     copy_efs_files_to_data \
+    dck_gating \
     disable_contaminant_detection.sh \
     dmd \
+    drop \
     dump_aoc \
     dump_bootlogs_bldr \
     dump_chip_info \
@@ -831,29 +645,175 @@ PRODUCT_PACKAGES += \
     dump_touch.sh \
     dump_tpu \
     dump_trusty.sh \
+    fake_gxp_telemetry_reader \
+    fake_libtachyon_core \
     flood.control.hal \
+    gesture \
     gia \
     gnss_test \
     gnssd \
     google-ril \
     google.hardware.media.c2@3.0-service \
     gs_watchdogd \
+    gxp_metrics_logger \
+    gxp_telemetry_reader \
+    hardware.google.bluetooth.bt_channel_avoidance@1.0 \
+    hardware.google.ril_ext-V1-ndk \
+    health \
     hostapd \
+    imu_cal \
     init.camera.set-interrupts-ownership \
     init.h2omg.sh \
     init.radio.sh \
     init_citadel \
     init_rdbl.sh \
     insmod.sh \
+    ip_health \
+    lassen_dmd_constants \
+    libEGL_powervr \
+    libGLESv1_CM_powervr \
+    libGLESv2_powervr \
+    libIMGegl \
+    libMAM_Google_Pixel_Android \
+    libNX_Google_Pixel_Android \
+    libOpenCL \
+    libOpenCL-pixel \
+    libPVROCL \
+    libPVRScopeServices \
+    libPixelGrallocProperties \
+    lib_aion_buffer \
+    lib_reader \
+    libaconfig_display_pixel_hwc_flags \
+    libaoc \
+    libc2filterplugin \
+    libcodec2_soft_ddpdec \
+    libcodec2_store_dolby \
+    libcustomer_gralloc_ddk_api \
+    libcustomgnss \
+    libdapparamstorage \
+    libdarwinn_hal \
+    libdeccfg \
+    libdeeptouch \
+    libdisplaycolor \
+    libdisplaypanel \
+    libdisppower-pixel \
+    libdmengine \
+    libdmjavaplugin \
+    libdump \
+    libedgetpu_client.google \
+    libedgetpu_litert \
+    libedgetpu_tachyon.google \
+    libedgetpu_tflite_compiler \
+    libedgetpu_util \
+    libfvsam_prm_parser \
+    libgc2_av1_dec \
+    libgc2_av1_enc \
+    libgc2_avc_dec \
+    libgc2_avc_enc \
+    libgc2_base \
+    libgc2_dec \
+    libgc2_enc \
+    libgc2_hal_flags \
+    libgc2_hevc_dec \
+    libgc2_hevc_enc \
+    libgc2_log \
+    libgc2_store \
+    libgc2_utils \
+    libgc2_vdi_vpu \
+    libgc2_vp9_dec \
+    libgooglerilaudio \
+    libgooglerilmemmonitor \
+    libgpudataproducer \
+    libgril_oem-google \
+    libgxp \
+    libhwjpeg \
+    libion_google \
+    libjson \
+    libmahalcontroller \
+    libmedia_ecoservice \
+    libmediaadaptor \
+    libmemtrack-pixel \
+    libmetrics_logger \
+    libmodem_ml_svc_proto \
+    libmodem_svc_proto_legacy_soong \
+    libmosey_daemon_ffi \
+    libnos \
+    libnos_citadeld_proxy \
+    libnos_client_citadel \
+    libnos_datagram \
+    libnos_datagram_citadel \
+    libnos_feature \
+    libnos_transport \
+    libnosprotos \
+    liboemcrypto \
+    liboemservice \
+    libperfmgr \
+    libpixelatoms_defs \
+    libpixeldisplaymanager_jni \
+    libpixelhealth \
+    libpixelimsmedia \
+    libpixelstats \
+    libpowerstatshaldataprovider \
+    libqfp-service \
+    libqfpsuez \
+    libqfstrusty_intf \
+    librecovery_ui_ext \
+    libril-aidl \
+    libril_gfeature \
+    libril_sitril \
+    librtxproto_aidl-default \
+    libsensorsuez \
+    libsighandler \
+    libsit_oem \
+    libsit_oem_proto \
+    libsitril \
+    libsitril-audio \
+    libsitril-client \
+    libsitril-gps \
+    libsitril-ims \
+    libspatialaudio \
+    libspeechenhancer \
+    libsrv_um \
+    libstreset25 \
+    libsueznanoappclients \
+    libtachyon_core \
+    libtachyon_dsp_core \
+    libthermal_tflite_wrapper \
+    libtouchflow \
+    libufwriter \
+    libusc \
+    libusf \
+    libutils-default \
+    libwlcproto_aidl-default \
+    libwpa_client \
+    location \
+    mapper.pixel \
     misc_writer \
+    modem_android_property_manager \
+    modem_android_property_manager_impl \
+    modem_clock_manager \
+    modem_clock_manager_impl \
+    modem_log_constants \
+    modem_log_dumper \
     modem_logging_control \
+    modem_ml_pw_rpc_gen \
     modem_ml_svc_sit \
+    modemml-tflite-service-aidl-V1-ndk \
     mosey_server \
+    motiondetector \
+    nearby \
+    nos_app_avb \
+    nos_app_keymaster \
+    nos_app_weaver \
     oemrilhook \
     pcie_power_control \
     pixel-experiments-recovery.sh \
+    pixel-power-ext-V1-ndk \
     pixel.gralloc.allocator-V2-service \
     pixel_irq_load_balancer \
+    pixel_stateresidency_provider_aidl_interface-ndk \
+    pixelatoms-cpp \
+    pixelpowerstats_provider_aidl_interface-cpp \
     pixelstats-vendor \
     predump_gti0.sh \
     predump_touch.sh \
@@ -863,25 +823,70 @@ PRODUCT_PACKAGES += \
     rfsd \
     ril-extension \
     rild_exynos \
+    sd \
     sendhint \
+    sensorcollector \
+    sensors.usf \
     shared_modem_platform \
     storage_init.sh \
+    system_signal_hub \
     thermal_symlinks \
+    time_sync \
     touch_gti_ical \
     trusty_metricsd \
     twoshay \
     usf_stats \
+    uv_exposure \
+    vendor-pixelatoms-cpp \
     vendor.dolby.media.c2@1.0-service \
+    vendor.google.aam-V3-ndk \
     vendor.google.aam-service \
+    vendor.google.battery_mitigation-V1-ndk \
+    vendor.google.battery_mitigation.service_static \
+    vendor.google.bluetooth_ext-V1-ndk \
+    vendor.google.bluetooth_ext-V3-ndk \
     vendor.google.edgetpu_app_service@1.0-service \
     vendor.google.edgetpu_vendor_service@1.0-service \
+    vendor.google.gnss_ext-V1-ndk \
+    vendor.google.google_battery-V4-ndk \
     vendor.google.google_battery-service \
+    vendor.google.plat_security-V1-ndk \
     vendor.google.plat_security-service \
     vendor.google.radioext@1.0-service \
+    vendor.google.whitechapel.audio.audioext@4.0 \
+    vendor.google.whitechapel.audio.audioext@4.0.system_ext \
+    vendor.google.whitechapel.audio.extension-V5-ndk \
+    vendor.google.whitechapel.audio.extension-V6-ndk \
+    vendor.google.whitechapel.audio.extension-V6-ndk.system_ext \
     vendor.google.whitechapel.audio.hal.parserservice \
+    vendor.google.whitechapel.audio.hal.utils \
+    vendor.google.whitechapel.audio.hal.utils.adaptedinfo \
+    vendor.google.whitechapel.audio.hal.utils.adaptedinfo.repeated_thread \
+    vendor.google.whitechapel.audio.hal.utils.aoc \
+    vendor.google.whitechapel.audio.hal.utils.bluenote \
+    vendor.google.whitechapel.audio.hal.utils.pipe \
+    vendor.google.whitechapel.audio.hal.utils.soundcardstate \
+    vendor.google.wireless_charger-V4-ndk \
     vendor.google.wireless_charger-default \
+    vendor.google.wireless_charger.service-V2-ndk \
     vendor.google.wireless_charger.service-default \
-    wfc-pkt-router
+    vendor.qti.hardware.fingerprint.aidl-V1-ndk \
+    vendor.radio.base \
+    vendor.radio.protocol.sit.base \
+    vendor.radio.protocol.sit.json \
+    vendor.radio.protocol.sit.stream \
+    vendor.samsung_slsi.telephony.hardware.oemservice-V1-ndk \
+    vendor.samsung_slsi.telephony.hardware.oemservice@1.0 \
+    vendor.samsung_slsi.telephony.hardware.oemservice@1.0.system_ext \
+    vendor.samsung_slsi.telephony.hardware.radioExternal-V1-ndk \
+    vendor.samsung_slsi.telephony.hardware.radioExternal@1.0 \
+    vendor_chre_atoms_log \
+    vendor_chre_metrics-cpp \
+    vice \
+    vulkan.powervr \
+    wallaby \
+    wfc-pkt-router \
+    wpa_supplicant
 
 # inclusion of symlinks
 PRODUCT_PACKAGES += \

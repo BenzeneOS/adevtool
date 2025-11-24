@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_carrier_use_rac">
+        <item>2397</item>
+        <item>25</item>
+        <item>28</item>
+        <item>19</item>
+        <item>22</item>
+        <item>29</item>
+        <item>20</item>
+        <item>23</item>
+        <item>1452</item>
+    </array>
+    <array name="enabled_networks_except_gsm_values">
+        <item>"10"</item>
+        <item>"0"</item>
+    </array>
+    <array name="enabled_networks_values">
+        <item>"10"</item>
+        <item>"0"</item>
+        <item>"1"</item>
+    </array>
+    <array name="sp_config_001_first_party_hals">
+        <item>082a2300</item>
+        <item>"08362300"</item>
+        <item>083c2700</item>
+        <item>"08422900"</item>
+        <item>"08482300"</item>
+        <item>084e2300</item>
+        <item>"08542900"</item>
+        <item>085a2100</item>
+        <item>086c2300</item>
+        <item>"08722300"</item>
+        <item>"08782300"</item>
+        <item>087e2300</item>
+        <item>"08842300"</item>
+        <item>"08902300"</item>
+    </array>
+    <array name="sp_config_001_ui_model_names">
+        <item>ZAGG Glass</item>
+        <item>Case-Mate Ultra Glass</item>
+        <item>SoftBank Selection Glass</item>
+        <item>dBrand Prism 2.0</item>
+        <item>Mous Tempered Glass</item>
+        <item>ZAGG XTR4</item>
+        <item>ZAGG Glass Elite Privacy</item>
+        <item>Spigen Glas tR EZ Fit</item>
+        <item>UAG Glass Shield</item>
+        <item>BigBen Standard</item>
+        <item>BigBen Mineral Strong</item>
+        <item>BigBen Organic Strong</item>
+        <item>Casefinite Glass</item>
+        <item>SBS Clear Glass</item>
+    </array>
+    <bool name="config_adaptive_touch_sensitivity_enabled">true</bool>
+    <bool name="config_screen_protector_notification_v2">true</bool>
+    <color name="icon_accent">@*android:color/accent_device_default_light</color>
+    <string name="display_white_balance_summary">Dynamically adapts the display to warmer or cooler tones based on ambient lighting</string>
+    <string name="display_white_balance_title">Adaptive tone</string>
+    <string name="fingerprint_unlock_set_unlock_password">Pixel Imprint + Password</string>
+    <string name="fingerprint_unlock_set_unlock_pattern">Pixel Imprint + Pattern</string>
+    <string name="fingerprint_unlock_set_unlock_pin">Pixel Imprint + PIN</string>
+    <string name="fingerprint_unlock_skip_fingerprint">Continue without Pixel Imprint</string>
+    <string name="fingerprint_unlock_title">With Pixel Imprint, you can unlock your phone using your fingerprint. For security, this option requires a backup screen lock.</string>
+    <string name="security_settings_fingerprint_enroll_consent_introduction_title">Allow Pixel Imprint</string>
+    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"With Pixel Imprint, you can use your fingerprint to authorize purchases or sign in to apps.
+
+Be careful whose fingerprints you add. Any fingerprints added will be able to do these things.
+
+Note: You can’t use your fingerprint to unlock this device. For more information, contact your organization’s admin."</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">Set up Pixel Imprint</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
+    <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
+    <string name="suggested_fingerprint_lock_settings_summary">Use Pixel Imprint to unlock your phone</string>
+</resources>

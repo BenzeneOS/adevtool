@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Исчистете го екранот во близина на сензорот</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Избришете го екранот за да ги отстраните сите траги, флеки и дамки. Така ќе снимите почисти отпечатоци.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Исчистете го екранот пред да продолжите</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Ако имате заштитник на екранот, за најдобра функционалност залепете го заштитникот на екранот пред да го поставите вашиот отпечаток.
+
+За најдобри резултати, користете заштитник на екранот сертифициран со „Создадено за Google“. Вашиот отпечаток може да не функционира со други заштитници на екранот."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">Навалете го прстот и допрете со врвот</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Свртете го прстот и допрете со левиот раб</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Свртете го пак и допрете со десниот раб</string>
+</resources>

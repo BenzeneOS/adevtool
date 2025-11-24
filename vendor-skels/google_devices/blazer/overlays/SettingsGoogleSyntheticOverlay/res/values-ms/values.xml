@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_missing_link_message">Ketahui lebih lanjut</string>
+    <string name="charging_optimization_charge_label">%1$s - Pengecasan selesai pada %2$s</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s - Pengecasan selesai</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">Pengecasan selesai</string>
+    <string name="charging_optimization_remaining_time_label">Pengecasan selesai pada %1$s</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Ketahui lebih lanjut tentang buka kunci cap jari Pixel di &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
+    <string name="touch_sensitivity_summary">Tingkatkan kepekaan sentuhan dan tingkatkan sentuhan semasa menggunakan pelindung skrin</string>
+    <string name="touch_sensitivity_title">Mod pelindung skrin</string>
+</resources>

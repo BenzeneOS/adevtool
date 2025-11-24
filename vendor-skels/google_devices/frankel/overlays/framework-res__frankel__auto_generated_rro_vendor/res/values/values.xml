@@ -403,8 +403,6 @@
     <bool name="config_enterDesktopByDefaultOnFreeformDisplay">true</bool>
     <bool name="config_faceAuthDismissesKeyguard">false</bool>
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
-    <bool name="config_fusedLocationOverlayUnstableFallback">true</bool>
-    <bool name="config_gnssLocationOverlayUnstableFallback">true</bool>
     <bool name="config_hotswapCapable">true</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>

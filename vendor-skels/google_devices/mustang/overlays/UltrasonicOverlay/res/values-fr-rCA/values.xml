@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">"Nettoyez l'écran près du capteur"</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">"Essuyez votre écran pour éliminer toute trace ou tache. Cela permet de capturer des images d'empreintes digitales plus claires."</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Nettoyez votre écran avant de continuer</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Si vous avez un protecteur d'écran, appliquez-le avant de configurer votre empreinte digitale pour une performance optimale.
+
+Pour de meilleurs résultats, utilisez un protecteur d'écran certifié Fait pour Google. Votre empreinte digitale peut ne pas être reconnue avec d'autres protecteurs d'écran."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">Inclinez votre doigt et touchez avec la pointe</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Tournez votre doigt et touchez avec le côté gauche</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Tournez-le à nouveau et touchez avec le côté droit</string>
+</resources>

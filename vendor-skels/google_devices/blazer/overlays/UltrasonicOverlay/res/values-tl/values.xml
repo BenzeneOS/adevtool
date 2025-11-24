@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Linisin ang iyong screen malapit sa sensor</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Punasan ang iyong screen para alisin ang anumang bahid, dumi, o mantsa. Makakatulong itong makakuha ng mas malilinaw na larawan ng fingerprint.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Linisin ang iyong screen bago magpatuloy</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Kung may screen protector ka, ilagay ang iyong screen protector bago i-set up ang fingerprint mo para sa pinakamahusay na performance.
+
+Para sa pinakamahuhusay na resulta, gumamit ng screen protector na certified na Made for Google. Posibleng hindi gumana ang iyong fingerprint gamit ang iba pang screen protector."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">I-tilt ang iyong daliri at pumindot gamit ang dulo</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Igalaw ang daliri at pumindot gamit ang kaliwang gilid</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Igalaw ulit at pumindot gamit ang kanang gilid</string>
+</resources>

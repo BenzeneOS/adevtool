@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>Flyt din finger en smule. Dette område af dit fingeraftryk er allerede registreret.</item>
+    </array>
+    <string name="fingerprint_unlock_set_unlock_password">Adgangskode • Fingeraftryk</string>
+    <string name="fingerprint_unlock_set_unlock_pattern">Mønster • Fingeraftryk</string>
+    <string name="fingerprint_unlock_set_unlock_pin">Pinkode • Fingeraftryk</string>
+    <string name="fingerprint_unlock_skip_fingerprint">Fortsæt uden fingeroplåsning</string>
+    <string name="fingerprint_unlock_title">Når du bruger fingeroplåsning, kan du låse din telefon op ved hjælp af dit fingeraftryk. Af hensyn til sikkerheden kræver denne mulighed en alternativ skærmlås.</string>
+    <string name="frr_notification_reset_fingerprint_description">Dette kan nogle gange løse problemer</string>
+    <string name="security_settings_fingerprint_enroll_consent_introduction_title">Tillad fingeroplåsning</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message">"Fingeraftrykssensoren sidder på afbryderknappen.
+
+Sæt fingeren på knappen uden at trykke."</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_title">Sæt fingeren på afbryderknappen</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">Konfigurer finger­oplåsning</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title">Løft, og berør igen. Flyt fingeren en smule hver gang.</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay">Løft, og tryk igen</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_message">Fingeraftrykssensoren sidder på afbryderknappen.</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_title">Sæt fingeren på sensoren i stedet</string>
+    <string name="security_settings_fingerprint_preference_title">Fingeroplåsning</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Fingeroplåsning opretter en unik model af dit fingeraftryk, så din identitet kan verificeres. Du opretter denne fingeraftryksmodel under konfigurationen ved at tage billeder af dit fingeraftryk fra forskellige vinkler.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">Når du bruger fingeroplåsning, bruges billederne til at opdatere din fingeraftryksmodel. De billeder, der bruges til at oprette din fingeraftryksmodel, gemmes aldrig, men fingeraftryksmodellen gemmes på sikker vis på din telefon, og den forlader aldrig telefonen. Al behandling sker på sikker vis på din telefon.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Du kan til enhver tid slette din fingeraftryksmodel eller deaktivere fingeroplåsning i Indstillinger. Fingeraftryksmodeller gemmes på telefonen, indtil du sletter dem.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Fingeroplåsning opretter en unik model af dit barns fingeraftryk, så barnets identitet kan verificeres. For at oprette denne fingeraftryksmodel under konfigurationen skal dit barn tage billeder af sit fingeraftryk fra forskellige vinkler.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">Når dit barn bruger fingeroplåsning, bruges billederne til at opdatere barnets fingeraftryksmodel. De billeder, der bruges til at oprette dit barns fingeraftryksmodel, gemmes aldrig, men fingeraftryksmodellen gemmes på sikker vis på telefonen, og den forlader aldrig telefonen. Al behandling sker på sikker vis på telefonen.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Du og dit barn kan til enhver tid slette barnets fingeraftryksmodel eller deaktivere fingeroplåsning i Indstillinger. Fingeraftryksmodeller gemmes på telefonen, indtil de slettes.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Få flere oplysninger på &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
+    <string name="security_settings_sfps_enroll_find_sensor_message">Fingeraftrykssensoren sidder på afbryderknappen. Det er den mindste knap på siden af telefonen.</string>
+    <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Flyt fingeren en smule hver gang</string>
+    <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Fortsæt med at flytte fingeren for at registrere andre områder af dit fingeraftryk</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Det gør det sværere at komme til at låse op ved et uheld. Når denne indstilling er deaktiveret, kan du låse op ved at trykke på sensoren.</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Tryk på sensoren for at låse op</string>
+    <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Tryk på sensoren fra en anden vinkel</string>
+    <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Flyt din finger for at registrere andre områder af dit fingeraftryk</string>
+    <string name="security_settings_work_fingerprint_preference_title">Fingeroplåsning til arbejdsprofil</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">Fortsæt</string>
+    <string name="setup_fingerprint_enroll_immobile_help_subtitle">På den måde registreres en større del af dit fingeraftryk, hvilket forbedrer oplåsningsoplevelsen</string>
+    <string name="setup_fingerprint_enroll_immobile_help_title">Flyt din finger</string>
+    <string name="suggested_fingerprint_lock_settings_title">Brug fingeroplåsning</string>
+</resources>

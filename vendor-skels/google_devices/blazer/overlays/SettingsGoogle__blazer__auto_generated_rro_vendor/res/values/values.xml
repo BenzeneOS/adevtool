@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_network_selection_list_aggregation_enabled">true</bool>
+    <bool name="config_show_connectivity_helper_call_quality">true</bool>
+    <bool name="config_show_connectivity_helper_d2d">true</bool>
+    <bool name="config_show_mobile_plan">false</bool>
+</resources>

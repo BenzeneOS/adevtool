@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Notīriet ekrānu sensora tuvumā</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Notīriet ekrānu, lai uz tā nebūtu švīku vai traipu. Tādējādi kamera varēs uzņemt skaidrākus pirksta nospieduma attēlus.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Notīriet savu ekrānu, pirms turpināt</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Ja jums ir ekrāna aizsargplēve, ieteicams to uzklāt pirms pirksta nospieduma iestatīšanas, lai panāktu optimālu darbību.
+
+Lai iegūtu vislabākos rezultātus, izmantojiet ekrāna aizsargplēvi, kurai ir “Made for Google” sertifikāts. Ar citām ekrāna aizsargplēvēm pirksta nospieduma atpazīšanas funkcija var nedarboties."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">Paceliet pirkstu un pieskarieties ar pirkstgalu</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Pagrieziet pirkstu un pieskarieties ar tā kreiso malu</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Vēlreiz pagrieziet pirkstu un pieskarieties ar tā labo malu</string>
+</resources>

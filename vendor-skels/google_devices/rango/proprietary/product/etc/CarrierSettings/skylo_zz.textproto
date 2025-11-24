@@ -1,0 +1,22 @@
+canonical_name: "skylo_zz"
+version: 71000000002
+apns {
+  apn {
+    name: "Skylo"
+    value: "pixel.ntn"
+    type: DEFAULT
+    user_visible: false
+    user_editable: false
+    14: 4
+    15: 4
+  }
+}
+configs {
+  config {
+    key: "satellite_nidd_apn_name_string"
+    text_value: "pixel.ntn"
+  }
+}
+last_updated {
+  seconds: 1730898298
+}

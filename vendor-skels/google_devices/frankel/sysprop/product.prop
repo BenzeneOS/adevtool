@@ -77,5 +77,4 @@ ro.thermal_warmreset=true
 ro.vendor.camera.extensions.package=com.google.android.apps.camera.services
 ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
 ro.zram_backing_device_min_free_mb=1536
-setupwizard.feature.enable_parental_setup=true
 vendor.powerhal.adpf.rate=16666666

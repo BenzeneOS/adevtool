@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="cap_sensor_support">true</bool>
+    <bool name="ignore_twoshay_protective_case_enabled">true</bool>
+</resources>

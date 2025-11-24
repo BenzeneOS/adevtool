@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Rengjør skjermen nær sensoren</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Tørk av skjermen for å fjerne striper, smuss eller flekker. Dette bidrar til å registrere tydeligere fingeravtrykkbilder.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Rengjør skjermen før du fortsetter</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Hvis du har en skjermbeskytter, får du best ytelse ved å sette den på før du konfigurerer fingeravtrykket.
+
+Du får best resultat ved å bruke en skjermbeskytter som er Made For Google-sertifisert. Fingeravtrykket ditt fungerer muligens ikke med andre skjermbeskyttere."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">Endre vinkelen på fingeren, og ta på sensoren med fingertuppen</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Snu fingeren og ta på sensoren med den venstre siden</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Snu fingeren igjen, og ta på sensoren med den høyre siden</string>
+</resources>

@@ -1,0 +1,4 @@
+persist.settings.large_screen_opt_for_dp.enabled=true
+ro.camerax.extensions.enabled=true
+ro.launcher.blur.appLaunch=0
+ro.view.vrr.velocity_threshold=120@0

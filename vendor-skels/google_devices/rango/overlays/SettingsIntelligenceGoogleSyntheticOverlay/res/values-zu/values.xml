@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">iyashaja, umkhawulo, ukulinganisela ukushaja, umkhawulo wokushaja</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">Ukusiza ukunweba ukuphila kwebhethri, ifoni yakho izoshaja ibhethri lifike ku-{batteryLimitLevel}% kuphela. Ifoni yakho izoshaja ifike ku-100% kanye njalo evikini elilodwa noma amabili ukuze igcine ukunemba kokubika kwezinga lebhethri.</string>
+    <string name="charging_optimization_summary_charge_limit">Khawulela ku-{batteryLimitLevel}%</string>
+    <string name="charging_optimization_summary_off">Kuvaliwe</string>
+    <string name="charging_optimization_title">Ukulungiselela ukushaja</string>
+</resources>

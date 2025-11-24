@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>விரலை இடம் மாற்றவும். இந்தப் பகுதியை ஏற்கெனவே தொட்டுவிட்டீர்கள்.</item>
+    </array>
+    <string name="fingerprint_unlock_set_unlock_password">கடவுச்சொல் • கைரேகை</string>
+    <string name="fingerprint_unlock_set_unlock_pattern">பேட்டர்ன் • கைரேகை</string>
+    <string name="fingerprint_unlock_set_unlock_pin">பின் (PIN) • கைரேகை</string>
+    <string name="fingerprint_unlock_skip_fingerprint">கைரேகை அன்லாக் அம்சம் இல்லாமல் தொடர்க</string>
+    <string name="fingerprint_unlock_title">கைரேகை அன்லாக் அம்சத்தின் மூலம் உங்கள் கைரேகையைப் பயன்படுத்தி மொபைலை அன்லாக் செய்யலாம். பாதுகாப்பிற்காக, இதனுடன் மற்றுமொரு திரைப் பூட்டையும் அமைக்கவும்.</string>
+    <string name="frr_notification_reset_fingerprint_description">இது சில நேரங்களில் சிக்கல்களைச் சரிசெய்யலாம்</string>
+    <string name="security_settings_fingerprint_enroll_consent_introduction_title">கைரேகை அன்லாக் அம்சத்தை அனுமதித்தல்</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message">"கைரேகை சென்சார் உங்கள் பவர் பட்டனில் உள்ளது.
+
+அதை அழுத்தாமல் லேசாகத் தொடவும்."</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_title">பவர் பட்டனைத் தொடவும்</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">கைரேகை அன்லாக் அம்சத்தை அமைத்திடுங்கள்</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title">விரலை எடுத்துவிட்டு, தொடவும். ஒவ்வொரு முறையும் உங்கள் விரலைச் சிறிது நகர்த்துங்கள்.</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay">விரலெடுத்து, பிறகு தொடவும்</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_message">"'கைரேகை சென்சார்' பவர் பட்டனில் உள்ளது."</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_title">சென்சாரைத் தொடுங்கள்</string>
+    <string name="security_settings_fingerprint_preference_title">கைரேகை அன்லாக்</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">நீங்கள்தான் என்பதை உறுதிப்படுத்த, கைரேகை அன்லாக் அம்சமானது உங்கள் கைரேகையின் தனித்துவமான பதிவை உருவாக்கிடும். அமைவின்போது இந்தக் கைரேகைப் பதிவை உருவாக்க, வெவ்வேறு நிலைகளில் உங்கள் கைரேகையைப் படமெடுப்பீர்கள்.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">கைரேகை அன்லாக் அம்சத்தைப் பயன்படுத்தும்போது உங்கள் கைரேகைப் பதிவைச் சேர்க்க படங்கள் பயன்படுத்தப்படும். கைரேகைப் பதிவை உருவாக்கப் பயன்படுத்தப்படும் படங்கள் ஒருபோதும் சேமிக்கப்படாது. ஆனால் கைரேகைப் பதிவு உங்கள் மொபைலில் பாதுகாப்பாகச் சேமிக்கப்படும், அது ஒருபோதும் பகிரப்படாது. செயலாக்கம் முழுவதும் உங்கள் மொபைலிலேயே பாதுகாப்பாக நடைபெறும்.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">"உங்கள் கைரேகைப் பதிவை நீக்கலாம் அல்லது அமைப்புகளில் எப்போது வேண்டுமானாலும் 'கைரேகை அன்லாக்' அம்சத்தை ஆஃப் செய்யலாம். கைரேகைப் பதிவுகளை நீங்கள் நீக்கும் வரை அவை மொபைலிலேயே சேமிக்கப்பட்டிருக்கும்."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">உங்கள் பிள்ளைதான் என்பதை உறுதிப்படுத்த, கைரேகை அன்லாக் அம்சமானது அவரது கைரேகையின் தனித்துவமான பதிவை உருவாக்கிடும். அமைவின்போது இந்தக் கைரேகைப் பதிவை உருவாக்க, அவர் தனது கைரேகையை வெவ்வேறு நிலைகளில் படமெடுப்பார்.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">கைரேகை அன்லாக் அம்சத்தை உங்கள் பிள்ளை பயன்படுத்தும்போது அவரது கைரேகைப் பதிவைச் சேர்க்க படங்கள் பயன்படுத்தப்படும். உங்கள் பிள்ளையின் கைரேகைப் பதிவை உருவாக்குவதற்குப் பயன்படுத்தப்படும் படங்கள் ஒருபோதும் சேமிக்கப்படாது. ஆனால் கைரேகைப் பதிவு பாதுகாப்பாக மொபைலில் சேமிக்கப்படும், அது ஒருபோதும் பகிரப்படாது. செயலாக்கம் முழுவதும் மொபைலிலேயே பாதுகாப்பாக நடைபெறும்.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">அமைப்புகளில் எப்போது வேண்டுமானாலும் நீங்களும் உங்கள் பிள்ளையும் அவர்களின் கைரேகைப் பதிவை நீக்கலாம், கைரேகை அன்லாக் அம்சத்தை ஆஃப் செய்யலாம். நீக்கப்படும் வரை கைரேகைப் பதிவுகள் மொபைலிலேயே சேமிக்கப்பட்டிருக்கும்.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"மேலும் அறிந்துகொள்ள &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; இணைப்பிற்குச் செல்லுங்கள்."</string>
+    <string name="security_settings_sfps_enroll_find_sensor_message">பவர் பட்டனில் கைரேகை சென்சார் உள்ளது. இது மொபைலின் பக்கவாட்டில் உள்ள சிறிய பட்டன் ஆகும்.</string>
+    <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">ஒவ்வொரு முறையும் விரலைச் சிறிது நகர்த்துங்கள்</string>
+    <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">கைரேகையின் பிற பகுதிகளைப் பதிவுசெய்ய தொடர்ந்து நகர்த்துங்கள்</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">இது தற்செயலாக அன்லாக் செய்யப்படுவதைக் குறைக்கும். இந்த அமைப்பு முடக்கத்தில் இருக்கும்போது சென்சாரை லேசாகத் தொட்டாலே அன்லாக் ஆகிவிடும்.</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">அன்லாக் செய்ய சென்சாரைப் பயன்படுத்தவும்</string>
+    <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">மற்றொரு கோணத்திலிருந்து சென்சாரைத் தொடுங்கள்</string>
+    <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">கைரேகையின் பிற பகுதிகளைப் பதிவுசெய்ய விரலை நகர்த்துங்கள்</string>
+    <string name="security_settings_work_fingerprint_preference_title">பணிக் கணக்குக்கான கைரேகை அன்லாக்</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">தொடர்க</string>
+    <string name="setup_fingerprint_enroll_immobile_help_subtitle">சிறந்த அன்லாக் செய்யும் அனுபவத்திற்கு இது உங்கள் கைரேகையைத் துல்லியமாகப் பதிவுசெய்ய உதவும்</string>
+    <string name="setup_fingerprint_enroll_immobile_help_title">உங்கள் விரலை நகர்த்துங்கள்</string>
+    <string name="suggested_fingerprint_lock_settings_title">கைரேகை அன்லாக்கைப் பயன்படுத்துதல்</string>
+</resources>

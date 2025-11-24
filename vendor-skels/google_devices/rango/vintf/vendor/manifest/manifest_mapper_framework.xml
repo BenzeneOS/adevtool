@@ -1,0 +1,10 @@
+<!--
+    Input:
+        hardware/google/graphics/rdo/GrallocHAL/src/interfaces/mapper/stable-c/manifest_mapper_framework.xml
+-->
+<manifest version="9.0" type="device">
+    <hal format="native">
+        <name>mapper</name>
+        <fqname>@5.0/pixel</fqname>
+    </hal>
+</manifest>

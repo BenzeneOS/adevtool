@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$s前完成充電</string>
+    <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s內完成充電</string>
+    <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • 完成充電</string>
+</resources>

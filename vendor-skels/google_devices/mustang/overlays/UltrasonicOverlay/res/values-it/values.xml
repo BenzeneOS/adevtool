@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Pulisci lo schermo vicino al sensore</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">"Pulisci lo schermo per rimuovere eventuali striature, sbavature o macchie. Ciò consente di acquisire immagini più chiare dell'impronta."</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Pulisci lo schermo prima di procedere</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">"Se hai una protezione per lo schermo, applicala prima di configurare l'impronta per ottimizzare le prestazioni.
+
+Per ottenere i migliori risultati, usa una protezione per lo schermo con certificazione Made For Google. Con altre protezioni per lo schermo la tua impronta potrebbe non funzionare."</string>
+    <string name="security_settings_udfps_enroll_fingertip_title">Inclina il dito e tocca con la punta</string>
+    <string name="security_settings_udfps_enroll_left_edge_title">Inclina il dito e tocca con il bordo sinistro</string>
+    <string name="security_settings_udfps_enroll_right_edge_title">Inclinalo di nuovo e tocca con il bordo destro</string>
+</resources>

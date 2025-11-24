@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>बोटाचे स्थान बदला. तुम्ही तुमच्या फिंगरप्रिंटच्या या भागाला आधीच स्पर्श केला आहे.</item>
+    </array>
+    <string name="fingerprint_unlock_set_unlock_password">पासवर्ड • फिंगरप्रिंट</string>
+    <string name="fingerprint_unlock_set_unlock_pattern">पॅटर्न • फिंगरप्रिंट</string>
+    <string name="fingerprint_unlock_set_unlock_pin">पिन • फिंगरप्रिंट</string>
+    <string name="fingerprint_unlock_skip_fingerprint">फिंगरप्रिंट अनलॉक शिवाय पुढे सुरू ठेवा</string>
+    <string name="fingerprint_unlock_title">फिंगरप्रिंट अनलॉक यासह, तुम्ही तुमची फिंगरप्रिंट वापरून तुमचे डिव्हाइस अनलॉक करू शकता. सुरक्षेसाठी, या पर्यायाकरिता बॅकअप स्क्रीन लॉक आवश्यक आहे.</string>
+    <string name="frr_notification_reset_fingerprint_description">यामुळे काहीवेळा समस्यांचे निराकरण होऊ शकते</string>
+    <string name="security_settings_fingerprint_enroll_consent_introduction_title">फिंगरप्रिंट अनलॉक ला अनुमती देणे</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message">"पॉवर बटणवर फिंगरप्रिंट सेन्सर आहे.
+
+ बटण खाली न दाबता त्याला हलकेच स्पर्श करा."</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_title">पॉवर बटणला स्पर्श करा</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">फिंगरप्रिंट अनलॉक सेट करा</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title">उचला, त्यानंतर स्पर्श करा. प्रत्येक वेळी तुमचे बोट किंचित हलवा.</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay">उचला व पुन्हा स्पर्श करा</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_message">फिंगरप्रिंट सेन्सर पॉवर बटणावर आहे.</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_title">त्याऐवजी सेन्सरला हात लावा</string>
+    <string name="security_settings_fingerprint_preference_title">फिंगरप्रिंट अनलॉक</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">ते तुम्हीच आहात याची पडताळणी करण्यासाठी फिंगरप्रिंट अनलॉक हे तुमच्या फिंगरप्रिंटचे युनिक मॉडेल तयार करते. सेटअपदरम्यान हे फिंगरप्रिंट मॉडेल तयार करण्यासाठी, तुम्ही तुमच्या फिंगरप्रिंटच्या वेगवेगळ्या स्थितीमधील इमेज घ्याल.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">तुम्ही फिंगरप्रिंट अनलॉक वापरता, तेव्हा तुमचे फिंगरप्रिंट मॉडेल अपडेट करण्यासाठी इमेज वापरल्या जातात. तुमचे फिंगरप्रिंट मॉडेल तयार करण्यासाठी वापरलेल्या इमेज कधीही स्टोअर केल्या जात नाहीत, पण फिंगरप्रिंट मॉडेल तुमच्या फोनवर सुरक्षितरीत्या स्टोअर केले जाते आणि ते तुमच्या फोनमध्येच राहते. तुमच्या फोनवर सर्व प्रक्रिया सुरक्षितरीत्या होते.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">तुम्ही तुमचे फिंगरप्रिंट मॉडेल हटवू शकता किंवा सेटिंग्ज मध्ये कधीही फिंगरप्रिंट अनलॉक बंद करू शकता. तुम्ही हटवेपर्यंत फिंगरप्रिंट मॉडेल ही फोनवर स्टोअर केली जातात.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">फिंगरप्रिंट अनलॉक हे तुमच्या लहान मुलाची, ते तेच आहेत याची पडताळणी करण्यासाठी तुमच्या लहान मुलाच्या फिंगरप्रिंटचे युनिक मॉडेल तयार करते. सेटअपदरम्यान हे फिंगरप्रिंट मॉडेल तयार करण्यासाठी, ते त्यांच्या फिंगरप्रिंटच्या वेगवेगळ्या स्थितीमधील इमेज घेतील.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">ते फिंगरप्रिंट अनलॉक वापरतात, तेव्हा त्यांचे फिंगरप्रिंट मॉडेल अपडेट करण्यासाठी इमेज वापरल्या जातात. तुमच्या लहान मुलाचे फिंगरप्रिंट मॉडेल तयार करण्यासाठी वापरलेल्या इमेज कधीही स्टोअर केल्या जात नाहीत, पण फिंगरप्रिंट मॉडेल फोनवर सुरक्षितपणे स्टोअर केले जाते आणि ते कायम फोनमध्येच राहते. फोनवर सर्व प्रक्रिया सुरक्षितरीत्या होते.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">तुम्ही आणि तुमचे लहान मूल त्यांचे फिंगरप्रिंट मॉडेल हटवू शकता किंवा सेटिंग्ज मध्ये फिंगरप्रिंट अनलॉक कधीही बंद करू शकता. फिंगरप्रिंट मॉडेल हटवली जात नाहीत तोपर्यंत ती फोनमध्ये स्टोअर केली जातात.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"&lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; येथे अधिक जाणून घ्या."</string>
+    <string name="security_settings_sfps_enroll_find_sensor_message">फिंगरप्रिंट सेन्सर हे पॉवर बटणावर आहे. हे फोनच्या बाजूला असलेले लहान बटण आहे.</string>
+    <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">दरवेळी तुमचे बोट किंचित हलवा</string>
+    <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">फिंगरप्रिंटचा इतर भाग कॅप्चर करण्यासाठी हलवत रहा</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">हे चुकून अनलॉक होण्याची शक्यता कमी करते. हे सेटिंग बंद केलेले असते, तेव्हा सेन्सरला हलका स्पर्श झाला तरी अनलॉक होईल.</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">अनलॉक करण्यासाठी सेन्सर सुरू ठेवा</string>
+    <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">दुसऱ्या कोनातून सेन्सरला स्पर्श करा</string>
+    <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">फिंगरप्रिंटचा आणखी भाग कॅप्चर करण्यासाठी बोट हलवा</string>
+    <string name="security_settings_work_fingerprint_preference_title">कार्य प्रोफाइलसाठी फिंगरप्रिंट अनलॉक</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">सुरू ठेवा</string>
+    <string name="setup_fingerprint_enroll_immobile_help_subtitle">उत्तम अनलॉक अनुभवासाठी हे तुमची फिंगरप्रिंट आणखी स्पष्टपणे कॅप्चर करण्यात मदत करते</string>
+    <string name="setup_fingerprint_enroll_immobile_help_title">तुमचे बोट हलवा</string>
+    <string name="suggested_fingerprint_lock_settings_title">फिंगरप्रिंट अनलॉक वापरा</string>
+</resources>

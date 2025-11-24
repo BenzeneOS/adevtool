@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fingerprint_acquired_vendor">
+        <item>আঙুলিৰ স্থান সলনি কৰক। আপুনি আপোনাৰ ফিংগাৰপ্ৰিণ্টৰ এই ঠাইখিনি ইতিমধ্যে স্পৰ্শ কৰিছে।</item>
+    </array>
+    <string name="fingerprint_unlock_set_unlock_password">পাছৱৰ্ড • ফিংগাৰপ্ৰিণ্ট</string>
+    <string name="fingerprint_unlock_set_unlock_pattern">আৰ্হি • ফিংগাৰপ্ৰিণ্ট</string>
+    <string name="fingerprint_unlock_set_unlock_pin">পিন • ফিংগাৰপ্ৰিণ্ট</string>
+    <string name="fingerprint_unlock_skip_fingerprint">ফিংগাৰপ্ৰিণ্ট আনলকৰ অবিহনে অব্যাহত ৰাখক</string>
+    <string name="fingerprint_unlock_title">আপুনি ফিংগাৰপ্ৰিন্ট আনলকৰ জৰিয়তে আপোনাৰ ফিংগাৰপ্ৰিণ্ট ব্যৱহাৰ কৰি আপোনাৰ ফ’নটো আনলক কৰিব পাৰে। সুৰক্ষাৰ বাবে এই বিকল্পটোক এটা বেক আপ স্ক্ৰীন লকৰ প্ৰয়োজন।</string>
+    <string name="frr_notification_reset_fingerprint_description">এইটোৱে কেতিয়াবা সমস্যাসমূহ সমাধান কৰিব পাৰে</string>
+    <string name="security_settings_fingerprint_enroll_consent_introduction_title">ফিংগাৰপ্ৰিণ্ট আনলকৰ অনুমতি দিয়ক</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message">"ফিংগাৰপ্ৰিণ্ট ছেন্সৰটো পাৱাৰ বুটামটোত আছে।
+
+এইটো নিটিপাকৈ বুটামটোত লাহেকৈ স্পৰ্শ কৰক।"</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_title">পাৱাৰ বুটামটো স্পৰ্শ কৰক</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">ফিংগাৰপ্ৰিণ্ট আনলক ছেট আপ কৰক</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title">উঠাওক, তাৰ পাছত স্পৰ্শ কৰক। প্ৰতিবাৰেই আপোনাৰ আঙুলিটো অলপ লৰচৰ কৰক।</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay">ওপৰলৈ উঠাই পুনৰ স্পৰ্শ কৰক</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_message">ফিংগাৰপ্ৰিণ্ট ছেন্সৰটো পাৱাৰ বুটামটোত আছে।</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_title">তাৰ পৰিৱৰ্তে ছেন্সৰটো স্পৰ্শ কৰক</string>
+    <string name="security_settings_fingerprint_preference_title">ফিংগাৰপ্ৰিণ্ট আনলক</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">ফিংগাৰপ্ৰিণ্ট আনলক সুবিধাটোৱে এইয়া আপুনিয়েই বুলি সত্যাপন কৰিবলৈ আপোনাৰ ফিংগাৰপ্ৰিণ্টৰ এটা অদ্বিতীয় মডেল সৃষ্টি কৰে। ছেটআপৰ সময়ত এই ফিংগাৰপ্ৰিণ্টৰ মডেলটো সৃষ্টি কৰিবলৈ, আপুনি ভিন্ন দিশৰ পৰা নিজৰ ফিংগাৰপ্ৰিণ্টটোৰ প্ৰতিচ্ছবি ল’ব লাগিব।</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">আপুনি ফিংগাৰপ্ৰিণ্টৰ দ্বাৰা আনলক কৰাৰ সুবিধাটো ব্যৱহাৰ কৰাৰ সময়ত, আপোনাৰ ফিংগাৰপ্ৰিণ্টৰ মডেলটো আপডে’ট কৰিবলৈ প্ৰতিচ্ছবিসমূহ ব্যৱহাৰ কৰা হয়। আপোনাৰ ফিংগাৰপ্ৰিণ্টৰ মডেলটো সৃষ্টি কৰিবলৈ ব্যৱহাৰ কৰা প্ৰতিচ্ছবি কেতিয়াও ষ্ট’ৰ কৰা নহয়, কিন্তু ফিংগাৰপ্ৰিণ্টৰ মডেলটো আপোনাৰ ফ’নত সুৰক্ষিতভাৱে ষ্ট’ৰ কৰা হয় আৰু সেইয়া কেতিয়াও ফ’নটোৰ পৰা আঁতৰি নাযায়। আটাইবোৰ প্ৰক্ৰিয়া আপোনাৰ ফ’নত সুৰক্ষিতভাৱে সম্পাদন কৰা হয়।</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">আপুনি যিকোনো সময়তে ছেটিঙলৈ গৈ আপোনাৰ ফিংগাৰপ্ৰিণ্টৰ মডেলটো মচিব পাৰে অথবা  ফিংগাৰপ্ৰিণ্টেৰে আনলক কৰাৰ সুবিধাটো অফ কৰিব পাৰে। আপুনি নমচা পৰ্যন্ত ফিংগাৰপ্ৰিণ্টৰ মডেলসমূহ ফ’নটোত ষ্ট’ৰ কৰি ৰখা হয়।</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">ফিংগাৰপ্ৰিণ্ট আনলক সুবিধাটোৱে সেইয়া তেৱেঁই বুলি সত্যাপন কৰিবলৈ আপোনাৰ শিশুৰ ফিংগাৰপ্ৰিণ্টৰ এটা অদ্বিতীয় মডেল সৃষ্টি কৰে। ছেটআপৰ সময়ত এই ফিংগাৰপ্ৰিণ্টৰ মডেলটো সৃষ্টি কৰিবলৈ, তেওঁ ভিন্ন দিশৰ পৰা নিজৰ ফিংগাৰপ্ৰিণ্টটোৰ প্ৰতিচ্ছবি ল’ব লাগিব।</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">তেওঁ ফিংগাৰপ্ৰিণ্টৰ দ্বাৰা আনলক কৰাৰ সুবিধাটো ব্যৱহাৰ কৰাৰ সময়ত, তেওঁৰ ফিংগাৰপ্ৰিণ্টৰ মডেলটো আপডে’ট কৰিবলৈ প্ৰতিচ্ছবিসমূহ ব্যৱহাৰ কৰা হয়। আপোনাৰ শিশুৰ ফিংগাৰপ্ৰিণ্টৰ মডেলটো সৃষ্টি কৰিবলৈ ব্যৱহাৰ কৰা প্ৰতিচ্ছবি কেতিয়াও ষ্ট’ৰ কৰা নহয়, কিন্তু ফিংগাৰপ্ৰিণ্টৰ মডেলটো ফ’নটোত সুৰক্ষিতভাৱে ষ্ট’ৰ কৰা হয় আৰু সেইয়া কেতিয়াও ফ’নটোৰ পৰা আঁতৰি নাযায়। আটাইবোৰ প্ৰক্ৰিয়া আপোনাৰ ফ’নটোত সুৰক্ষিতভাৱে সম্পাদন কৰা হয়।</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">আপুনি আৰু আপোনাৰ শিশুৱে যিকোনো সময়তে ছেটিঙলৈ গৈ তেওঁৰ ফিংগাৰপ্ৰিণ্টৰ মডেলটো মচিব পাৰে অথবা ফিংগাৰপ্ৰিণ্ট আনলক সুবিধাটো অফ কৰিব পাৰে। ফিংগাৰপ্ৰিণ্টৰ মডেলসমূহ মচি নেপেলোৱালৈকে ফ’নটোত ষ্ট’ৰ হৈ থাকে।</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"&lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;ত অধিক জানক।"</string>
+    <string name="security_settings_sfps_enroll_find_sensor_message">ফিংগাৰপ্ৰিণ্ট ছেন্সৰটো পাৱাৰ বুটামটোত আছে। এইটো হৈছে আপোনাৰ ফ’নটোৰ কাষৰফালে থকা চুটি বুটামটো।</string>
+    <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">প্ৰতিবাৰে আঙুলিটো অলপ লৰচৰ কৰক</string>
+    <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">নিজৰ ফিংগাৰপ্ৰিণ্টৰ আন ঠাইবোৰ কেপচাৰ কৰিবলৈ লৰচৰ কৰি থাকক</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">এইটোৱে দুৰ্ঘটনাবশতঃ আনলক হোৱাৰ সম্ভাৱনা কম কৰে। এই ছেটিংটো অফ হৈ থাকিলে, ছেন্সৰটো লাহেকৈ চুই দিলে আনলক হ’ব।</string>
+    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">আনলক কৰিবলৈ ছেন্সৰটো স্পৰ্শ কৰি ধৰি ৰাখক</string>
+    <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">অন্য ফালৰ পৰা ছেন্সৰটো স্পৰ্শ কৰক</string>
+    <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">নিজৰ ফিংগাৰপ্ৰিণ্টৰ আন ঠাইবোৰ কেপচাৰ কৰিবলৈ আঙুলিটো লৰচৰ কৰক</string>
+    <string name="security_settings_work_fingerprint_preference_title">কৰ্মস্থানৰ বাবে ফিংগাৰপ্ৰিণ্ট আনলক</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue">অব্যাহত ৰাখক</string>
+    <string name="setup_fingerprint_enroll_immobile_help_subtitle">আনলক কৰাৰ উন্নত অভিজ্ঞতা দিবলৈ ই আপোনাৰ অধিক ফিংগাৰপ্ৰিণ্ট কেচপাৰ কৰাত সহায় কৰে</string>
+    <string name="setup_fingerprint_enroll_immobile_help_title">আপোনাৰ আঙুলি লৰচৰ কৰক</string>
+    <string name="suggested_fingerprint_lock_settings_title">ফিংগাৰপ্ৰিন্ট আনলক ব্যৱহাৰ কৰক</string>
+</resources>

@@ -20,8 +20,6 @@ BOARD_KERNEL_CMDLINE += \
     cma_sysfs.experimental=Y \
     cgroup_disable=memory \
     cgroup.memory=nokmem \
-    init_on_alloc=0 \
-    init_on_free=1 \
     rcupdate.rcu_expedited=1 \
     rcu_nocbs=all \
     rcutree.enable_rcu_lazy \

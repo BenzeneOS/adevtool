@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_limit_indexing_keywords">የኃይል መሙያ፣ ገደብ፣ የኃይል መሙያ ማመቻቸት፣ የኃይል መሙያ ገደብ</string>
+    <string formatted="false" name="charging_optimization_footer_charge_limit">የባትሪ የዕድሜ ዘመንን ለማራዘም እንዲያግዝ የእርስዎ ስልክ ኃይል የሚሞላው እስከ {batteryLimitLevel}% ባትሪ ድረስ ብቻ ነው። የባትሪ ደረጃን የሪፖርት ማድረግ ትክክለኛነትን ለማስጠበቅ ስልክዎ በየአንድ ወይም ሁለት ሳምንታት አንድ ጊዜ 100% ይሞላል።</string>
+    <string name="charging_optimization_summary_charge_limit">ወደ {batteryLimitLevel}% ገድበው</string>
+    <string name="charging_optimization_summary_off">አጥፋ</string>
+    <string name="charging_optimization_title">የኃይል መሙላት ማትባት</string>
+</resources>

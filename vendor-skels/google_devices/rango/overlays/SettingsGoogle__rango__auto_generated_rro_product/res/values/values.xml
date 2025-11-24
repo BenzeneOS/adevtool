@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_carrier_use_rac">
+        <item>2397</item>
+        <item>25</item>
+        <item>28</item>
+        <item>19</item>
+        <item>22</item>
+        <item>29</item>
+        <item>20</item>
+        <item>23</item>
+        <item>1452</item>
+    </array>
+    <array name="config_settableAutoRotationDeviceStatesDescriptions">
+        <item>@string/setting_auto_rotate_folded</item>
+        <item>@null</item>
+        <item>@string/setting_auto_rotate_unfolded</item>
+        <item>@null</item>
+    </array>
+    <array name="config_sfps_enroll_stage_thresholds">
+        <item>"0"</item>
+        <item>"0.05"</item>
+        <item>"0.47"</item>
+        <item>"0.58"</item>
+    </array>
+    <array name="config_userAspectRatioOverrideEntries">
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    <array name="config_userAspectRatioOverrideValues">
+        <item>0</item>
+        <item>6</item>
+        <item>5</item>
+        <item>1</item>
+    </array>
+    <array name="enabled_networks_except_gsm_values">
+        <item>"10"</item>
+        <item>"0"</item>
+    </array>
+    <array name="enabled_networks_values">
+        <item>"10"</item>
+        <item>"0"</item>
+        <item>"1"</item>
+    </array>
+    <array name="entryvalues_font_size">
+        <item>"1.0"</item>
+        <item>"1.05"</item>
+        <item>"1.1"</item>
+        <item>"1.20"</item>
+        <item>"1.30"</item>
+        <item>"1.50"</item>
+        <item>"1.80"</item>
+        <item>"2.0"</item>
+    </array>
+    <bool name="config_adaptive_touch_sensitivity_enabled">true</bool>
+    <bool name="config_screen_protector_notification_v2">true</bool>
+    <color name="icon_accent">@*android:color/accent_device_default_light</color>
+    <dimen name="immobile_dialog_height">246.0dp</dimen>
+    <dimen name="immobile_dialog_width">406.0dp</dimen>
+    <fraction name="display_density_max_scale">138.49792%</fraction>
+    <integer name="config_activity_embed_split_min_cur_dp">600</integer>
+    <string name="display_white_balance_summary">Dynamically adapts the display to warmer or cooler tones based on ambient lighting</string>
+    <string name="display_white_balance_title">Adaptive tone</string>
+    <string name="emission_frequency_summary">Adjust emission frequency to improve viewing experience for sensitive eyes. This only applies to the inner screen when unfolded.</string>
+    <string name="fingerprint_unlock_set_unlock_password">Pixel Imprint + Password</string>
+    <string name="fingerprint_unlock_set_unlock_pattern">Pixel Imprint + Pattern</string>
+    <string name="fingerprint_unlock_set_unlock_pin">Pixel Imprint + PIN</string>
+    <string name="fingerprint_unlock_skip_fingerprint">Continue without Pixel Imprint</string>
+    <string name="fingerprint_unlock_title">With Pixel Imprint, you can unlock your phone using your fingerprint. For security, this option requires a backup screen lock.</string>
+    <string name="security_settings_fingerprint_enroll_consent_introduction_title">Allow Pixel Imprint</string>
+    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"With Pixel Imprint, you can use your fingerprint to authorize purchases or sign in to apps.
+
+Be careful whose fingerprints you add. Any fingerprints added will be able to do these things.
+
+Note: You can’t use your fingerprint to unlock this device. For more information, contact your organization’s admin."</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">Set up Pixel Imprint</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
+    <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
+    <string name="setting_auto_rotate_folded">Auto-rotate when folded</string>
+    <string name="setting_auto_rotate_unfolded">Auto-rotate when unfolded</string>
+    <string name="suggested_fingerprint_lock_settings_summary">Use Pixel Imprint to unlock your phone</string>
+</resources>
