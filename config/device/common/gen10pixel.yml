@@ -113,17 +113,22 @@ sepolicy_inclusions:
         - /vendor/bin/hw/init_rdbl\.sh u:object_r:init_rdbl_exec:s0
         - /vendor/bin/hw/pixel\.gralloc\.allocator-V[1-2]-service u:object_r:hal_graphics_allocator_default_exec:s0
         - /vendor/bin/hw/vendor\.google\.plat_security-service u:object_r:hal_plat_security_exec:s0
+        - /vendor/bin/mosey_server u:object_r:mosey_server_exec:s0
+        - /vendor/bin/pixel_irq_load_balancer u:object_r:pixel_irq_load_balancer_exec:s0
         - /vendor/bin/shared_modem_platform u:object_r:shared_modem_platform_exec:s0
         - /vendor/lib64/hw/android\.hardware\.graphics\.mapper@4\.0-impl-pixel\.so u:object_r:same_process_hal_file:s0
         - /vendor/lib64/hw/vulkan.powervr\.so u:object_r:same_process_hal_file:s0
-        - /vendor/lib64/libIMGegl\.so u:object_r:same_process_hal_file:s0
-        - /vendor/lib64/libPVROCL\.so u:object_r:same_process_hal_file:s0
-        - /vendor/lib64/libPixelGrallocProperties\.so u:object_r:same_process_hal_file:s0
         - /vendor/lib64/libcustomer_gralloc_ddk_api\.so u:object_r:same_process_hal_file:s0
         - /vendor/lib64/libedgetpu_litert\.so u:object_r:same_process_hal_file:s0
+        - /vendor/lib64/libIMGegl\.so u:object_r:same_process_hal_file:s0
+        - /vendor/lib64/libPixelGrallocProperties\.so u:object_r:same_process_hal_file:s0
+        - /vendor/lib64/libPVROCL\.so u:object_r:same_process_hal_file:s0
         - /vendor/lib64/libsrv_um\.so u:object_r:same_process_hal_file:s0
         - /vendor/lib64/libufwriter\.so u:object_r:same_process_hal_file:s0
         - /vendor/lib64/libusc\.so u:object_r:same_process_hal_file:s0
+        - /vendor/bin/dump/dump_pixel_second_display u:object_r:dump_pixel_second_display_exec:s0
+        - /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.goodix u:object_r:hal_fingerprint_capacitance_exec:s0
+        - /vendor/bin/rango_init_thermal_config u:object_r:init_thermal_config_exec:s0
 
       vendor_property_contexts:
         - persist.vendor.display.primary. u:object_r:vendor_display_prop:s0
@@ -145,6 +150,7 @@ sepolicy_inclusions:
         - com.google.input.ITwoshayFileDumpService/touchflow_default u:object_r:twoshay_file_dump_service:s0
         - com.google.input.ITwoshayFileDumpService/touchflow_outer u:object_r:twoshay_file_dump_service:s0
         - com.google.input.ITwoshayFileDumpService/twoshay u:object_r:twoshay_file_dump_service:s0
+        - com.google.pixel.moseyservice.IMoseyService/default u:object_r:mosey_service:s0
         - telephony.oem.oemrilhook u:object_r:radio_service:s0
         - vendor.google.plat_security.ISecureTimestamp/default u:object_r:hal_plat_security_service:s0
         - vendor.google.plat_security.ITrustyDecrypt/default u:object_r:hal_plat_security_service:s0
@@ -188,55 +194,69 @@ sysconfig_inclusions:
   - <feature name="com.google.android.feature.GEMINI_EXPERIENCE"/>
   - <feature name="com.google.android.feature.PIXEL_2025_EXPERIENCE"/>
   - <library name="com.google.android.camera.experimental2025" file="/vendor/framework/com.google.android.camera.experimental2025.jar"/>
+  - <library name="com.google.android.modem.pms.lib" file="/system_ext/framework/com.google.android.modem.pms.lib.jar"/>
 
 sysprop_inclusions:
   - bluetooth.core.le.rpa_offload = true
   - bluetooth.gd.start_timeout = 4000
   - debug.renderengine.backend = skiaglthreaded
+  - debug.sf.disable_transparent_region_hint = true
+  - debug.sf.set_idle_timer_ms_4619827677550801153 = 1500
   - debug.stagefright.c2-poolmask = 458752
   - media.c2.remove_rendering_depth = true
   - persist.bluetooth.finder.supported = true
+  - persist.bluetooth.leaudio_sw_offload = true
   - persist.fsck.disable_linear_lookup = on
-  - persist.sys.sf.color_mode = 9 # TODO investigate
+  - persist.sys.sf.color_mode = 9 # DISPLAY_P3 color mode
   - persist.vendor.audio.force.fm.enabled = false
+  - persist.vendor.audio.leaudio_sw_offload = true
+  - persist.vendor.bluetooth.thread_dispatcher.enabled = true
   - persist.vendor.gps.indoor.enabled = true
   - persist.vendor.radio.config.carrier_config_dir = /mnt/vendor/modem_img/images/default/confpack
   - persist.vendor.vibrator.hal.pwle.frequency.min_hz = 50.0
+  - persist.vendor.vibrator.hal.pwle.frequency.min_hz = 60.0
   - persist.vendor.vibrator.hal.pwle.v2_supported = 1
   - remote_provisioning.strongbox.rkp_only = 1
   - remote_provisioning.tee.rkp_only = 1
   - ro.appsearch.feature.enable_isolated_storage = true
   - ro.bluetooth.leaudio_broadcast_switcher.supported = true
+  - ro.camera.notify_nfc = 1
   - ro.hardware.egl = powervr
   - ro.hardware.vulkan = powervr
-
   - ro.telephony.default_network = 26
-
   - ro.vendor.primarydisplay.google-flea.temperature_path = /dev/thermal/tz-by-name/disp0_therm/temp
-  - ro.vendor.vibrator.hal.dvl.lra.non.f0.v = 4.4
-  - ro.vendor.vibrator.hal.dvl.peq.coefficients = FF270,E007BB,100704,F0068C,1FF845,100000
-  - vendor.google.silicon.enable_iif_for_isolated_app = 1
-  - vendor.google.silicon.enable_iif_for_priv_app = 1
-  - persist.bluetooth.leaudio_sw_offload = true
-  - persist.vendor.audio.leaudio_sw_offload = true
-  - persist.vendor.bluetooth.thread_dispatcher.enabled = true
-  - ro.camera.notify_nfc = 1
   - ro.vendor.primarydisplay.thermal.skin_temperature_worker_period_ms = 30000
   - ro.vendor.primarydisplay.xrr.blocking_zone.min_refresh_rate_by_nits = 5:120
   - ro.vendor.primarydisplay.xrr.feat_present_timeout_enabled = true
   - ro.vendor.primarydisplay.xrr.feat_refresh_rate_throttling_enabled = true
   - ro.vendor.primarydisplay.xrr.feat_te2_manager_enabled = true
+  - ro.vendor.primarydisplay.xrr.vrr.expected_present.timeout_ns = 500000000
   - ro.vendor.primarydisplay.xrr.vrr_expected_present.headsup_ns = 30000000
   - ro.vendor.primarydisplay.xrr.vrr_expected_present.timeout_ns = 500000000
+  - ro.vendor.secondarydisplay.google-rgeb.temperature_path = /dev/thermal/tz-by-name/outer_disp_therm/temp
+  - ro.vendor.secondarydisplay.preferred_mode = 1080x2364x120@120
+  - ro.vendor.secondarydisplay.xrr.version = 1.1
+  - ro.vendor.touch.gti0.resample_latency.enabled = true
+  - ro.vendor.touch.gti0.resample_latency_us
+  - ro.vendor.touch.gti1.resample_latency.enabled = true
+  - ro.vendor.touch.gti1.resample_latency_us
+  - ro.vendor.vibrator.hal.dvl.lra.non.f0.v = 4.4
+  - ro.vendor.vibrator.hal.dvl.lra.non.f0.v = 2.28
+  - ro.vendor.vibrator.hal.dvl.peq.coefficients = FE5E7,E00CFA,100EE9,F00B2F,1FF306,100000
+  - ro.vendor.vibrator.hal.dvl.peq.coefficients = FF270,E007BB,100704,F0068C,1FF845,100000
+  - ro.view.vrr.velocity_threshold = 120@0
+  - vendor.google.silicon.enable_iif_for_isolated_app = 1
+  - vendor.google.silicon.enable_iif_for_priv_app = 1
+
 
 sysprop_exclusions:
-  - ro.appsearch.feature.enable_isolated_storage = true # TODO
-  - ro.product.ab_ota_partitions = abl,bl31,boot,cap,cpm,dbc,dbl,dram_init_0,dram_init_1,dram_init_2,dram_init_3,dram_init_4,dram_init_5,dram_init_6,dram_init_7,dram_init_8,dram_init_9,dram_phy,dtbo,gc,gdmc,gsa_bl1,gsa_fw,init_boot,modem,product,pvmfw,system,system_dlkm,system_ext,tzsw,vbmeta,vbmeta_system,vbmeta_vendor,vendor,vendor_boot,vendor_dlkm,vendor_kernel_boot
-  - ro.vendor.build.ab_ota_partitions = abl,bl31,boot,cap,cpm,dbc,dbl,dram_init_0,dram_init_1,dram_init_2,dram_init_3,dram_init_4,dram_init_5,dram_init_6,dram_init_7,dram_init_8,dram_init_9,dram_phy,dtbo,gc,gdmc,gsa_bl1,gsa_fw,init_boot,modem,product,pvmfw,system,system_dlkm,system_ext,tzsw,vbmeta,vbmeta_system,vbmeta_vendor,vendor,vendor_boot,vendor_dlkm,vendor_kernel_boot
   - com.google.android.setupwizard.complianceDate = 2025-03-01
+  - ro.appsearch.feature.enable_isolated_storage = true # TODO
   - ro.config.alarm_alert = Fresh_morning.ogg
   - ro.config.notification_sound = Kernel.ogg
   - ro.config.ringtone = The_next_adventure.ogg
+  - ro.product.ab_ota_partitions = abl,bl31,boot,cap,cpm,dbc,dbl,dram_init_0,dram_init_1,dram_init_2,dram_init_3,dram_init_4,dram_init_5,dram_init_6,dram_init_7,dram_init_8,dram_init_9,dram_phy,dtbo,gc,gdmc,gsa_bl1,gsa_fw,init_boot,modem,product,pvmfw,system,system_dlkm,system_ext,tzsw,vbmeta,vbmeta_system,vbmeta_vendor,vendor,vendor_boot,vendor_dlkm,vendor_kernel_boot
+  - ro.vendor.build.ab_ota_partitions = abl,bl31,boot,cap,cpm,dbc,dbl,dram_init_0,dram_init_1,dram_init_2,dram_init_3,dram_init_4,dram_init_5,dram_init_6,dram_init_7,dram_init_8,dram_init_9,dram_phy,dtbo,gc,gdmc,gsa_bl1,gsa_fw,init_boot,modem,product,pvmfw,system,system_dlkm,system_ext,tzsw,vbmeta,vbmeta_system,vbmeta_vendor,vendor,vendor_boot,vendor_dlkm,vendor_kernel_boot
   - setupwizard.feature.device_info_icon_enabled = true
   - setupwizard.feature.enable_gil_logging = true
   - setupwizard.feature.enable_minors_setup_flow = true
@@ -245,6 +265,8 @@ sysprop_exclusions:
   - setupwizard.feature.is_suw_onboarding_contract_enabled = true
   - setupwizard.feature.joined_up_loading = true
   - setupwizard.feature.locale_agnostic_enabled = true
+  - setupwizard.feature.quick_start_betocq_tests_passed = true
+  - setupwizard.theme = glif_expressive
 
 vintf_inclusions:
   - com.google.input.ITwoshayFileDumpService/touchflow_default
@@ -256,88 +278,87 @@ vintf_inclusions:
 filters:
   overlay_inclusions:
     match:
-      - android:bool/config_enterDesktopByDefaultOnFreeformDisplay = true
-      - android:array/config_angleAllowList = com.dreamgames.royalmatch;com.dts.freefiremax;com.dxx.firenow;com.gramgames.mergedragons;com.ludo.king;com.mojang.minecraftpe;com.my.defense;com.nintendo.zaka;com.os.airforce;com.playrix.fishdomdd.gplay;io.teslatech.callbreak;jp.konami.prospia;net.peakgames.toonblast
       - android:array/config_ambientThresholdLevels = 1;2;3;4;5;6;7;8;9;10;11;13;15;17;19;20;22;25;27;30;32;35;37;40;50;60;70;80;90;100;200;300;400;500;600;700;800;900;1000;2000;3000;4000
+      - android:array/config_angleAllowList = com.dreamgames.royalmatch;com.dts.freefiremax;com.dxx.firenow;com.gramgames.mergedragons;com.ludo.king;com.mojang.minecraftpe;com.my.defense;com.nintendo.zaka;com.os.airforce;com.playrix.fishdomdd.gplay;io.teslatech.callbreak;jp.konami.prospia;net.peakgames.toonblast
+      - android:array/config_angleAllowList = com.dreamgames.royalmatch;com.dts.freefiremax;com.dxx.firenow;com.gramgames.mergedragons;com.ludo.king;com.mojang.minecraftpe;com.my.defense;com.nintendo.zaka;com.os.airforce;com.playrix.fishdomdd.gplay;io.teslatech.callbreak;jp.konami.prospia;net.peakgames.toonblast;com.yottagames.gameofmafia;com.Sunborn.SnqxExilium.Glo;com.haoplay.game.and.exilium;com.rockstargames.gtasa;com.h73.jhqyna;com.sega.CrazyTaxiplayhaven;en.haoplay.and.rm
+      - android:array/config_availableEMValueOptions = 0;1
+      - android:bool/config_cv_available = true
+      - android:bool/config_dozeSupportsAodWallpaper = true
+      - android:bool/config_enterDesktopByDefaultOnFreeformDisplay = true
+      - android:bool/config_evenDimmerEnabled = true
       - android:bool/config_screen_off_udfps_default_on = true
       - android:bool/config_screen_off_udfps_enabled = true
+      - android:bool/config_useRoundIcon = true
+      - android:dimen/taskbar_stashed_size = 36.0dp
       - android:integer/config_displayWhiteBalanceColorTemperatureFilterHorizon = 1000
       - android:integer/config_displayWhiteBalanceColorTemperatureSensorRate = 100
       - android:integer/config_displayWhiteBalanceTransitionTimeDecrease = 8000
       - android:integer/config_displayWhiteBalanceTransitionTimeIncrease = 3000
-      - android:integer/config_nightDisplayColorTemperatureDefault = 3339
-      - android:bool/config_evenDimmerEnabled = true
-      - android:bool/config_useRoundIcon = true
       - android:integer/config_externalDisplayPeakHeight = 2160
       - android:integer/config_externalDisplayPeakWidth = 3840
-      - com.android.systemui:dimen/volume_panel_corner_radius = 52.0dp
-      - com.android.settings:array/sp_config_001_first_party_hals = 08282300;082e2700;08342300;083a2700;08402900;08462300;084c2300;08522900;08582100;085e2300;086a2300;08702300;08762300;087c2300;08822300;08882300;088e2300
-      - com.android.settings:array/sp_config_001_ui_model_names = ZAGG Glass;OtterBox Premium Glass;Case-Mate Glass;Power Support Glass;dBrand Prism Glass;Mous Tempered Glass;ZAGG XTR4;ZAGG Glass Elite Privacy;Spigen Glass tR EZ Fit;Belkin InvisiGlass;UAG Glass Shield;BigBen Standard;BigBen Mineral Strong;BigBen Organic Strong;Casefinite Glass;Fellowes Duraglass Glass;SBS Clear Glass
-      - com.android.settings:raw/fingerprint_sp_apply_2024 = 06aa1321a5d862f14c1fa75b5f9b26f78039be91a500f323368c781f6ffd372c
-      - com.android.settings:raw/udfps_edu_lottie|*
-      - com.android.telephony.imsmedia:bool/power_hint_enabled = true
-      - com.android.systemui:bool/config_screen_protector_notification_v2_1 = true
-      - android:bool/config_dozeSupportsAodWallpaper = true
+      - android:integer/config_nightDisplayColorTemperatureDefault = 3339
       - com.android.connectivity.resources/ServiceConnectivityResourcesConfig:bool/config_thread_country_code_enabled = false
       - com.android.connectivity.resources/ServiceConnectivityResourcesConfig:bool/config_thread_default_enabled = true
+      - com.android.pixeldisplayservice:array/config_compensation_temperature_conditions_1 = 4.0;6.0
+      - com.android.pixeldisplayservice:array/config_compensation_temperature_conditions_2 = 4.0
+      - com.android.settings:array/config_sfps_enroll_stage_thresholds = 0;0.05;0.47;0.58
+      - com.android.settings:array/sp_config_001_first_party_hals|*
+      - com.android.settings:array/sp_config_001_ui_model_names|*
+      - com.android.settings:raw/fingerprint_sp_apply_2024 = 06aa1321a5d862f14c1fa75b5f9b26f78039be91a500f323368c781f6ffd372c
+      - com.android.settings:raw/udfps_edu_lottie|*
+      - com.android.settings:string/doze_always_on_wallpaper_description|*
+      - com.android.settings:string/doze_always_on_wallpaper_title|*
+      - com.android.settings:string/emission_frequency_summary|*
+      - com.android.settings:string/frr_notification_reset_fingerprint_description|*
+      - com.android.systemui:array/config_doze_brightness_sensor_to_wallpaper_scrim_opacity = -1;51;0;0;0
+      - com.android.systemui:bool/config_minmode_enabled = true
+      - com.android.systemui:bool/config_screen_protector_notification_v2_1 = true
+      - com.android.systemui:dimen/volume_panel_corner_radius = 52.0dp
+      - com.android.telephony.imsmedia:bool/power_hint_enabled = true
       - com.android.uwb.resources/UwbCustomization:bool/enable_random_hopmodekey = true
       - com.android.uwb.resources/UwbCustomization:bool/is_antenna_mode_config_supported = true
-      - android:array/config_availableEMValueOptions = 0;1
-      - com.android.settings:array/sp_config_001_first_party_hals = 082a2300;08302700;08362300;083c2700;08422900;08482300;084e2300;08542900;085a2100;08602300;086c2300;08722300;08782300;087e2300;08842300;088a2300;08902300
+      - com.google.android.grilservice/GrilRadioCustomizable:bool/ignore_twoshay_protective_case_enabled = true
 
   overlay_keys:
     match:
-      - android:bool/config_pinnerHomeApp = true
       - android:array/theming_defaults = WHT|SPRITZ|#CFC6B4;BLK|SPRITZ|#404945;GRY|SPRITZ|#9A9EAD;GRN|TONAL_SPOT|#B6CF90;PPL|EXPRESSIVE|#BAC3FF;YEL|EXPRESSIVE|#DDEB78;BUE|VIBRANT|#6F9BFF;RED|VIBRANT|#FF6F7F;*|TONAL_SPOT|home_wallpaper
-      - com.android.nfc/NfcCustomization:array/tag_intent_blocked_app_list = com.google.android.tag
+      - android:bool/config_pinnerHomeApp = true
       - android:string/config_systemVendorIntelligence = com.google.android.apps.pixel.psi
-      - android:string/config_fingerprintFrrTargetComponent = com.android.settings/com.google.android.settings.biometrics.frr.ui.view.FrrNotificationActivity
+      - com.android.nfc/NfcCustomization:array/tag_intent_blocked_app_list = com.google.android.tag
 
   file_exclusions:
     match:
-      - vendor/bin/storage_intelligence.sh
-      - vendor/etc/init/storage.intelligence.rc
+      - vendor/bin/storage_intelligence.sh # TODO
+      - vendor/etc/init/storage.intelligence.rc # TODO
+      - product/wallpaper/image/fallback_green_dark.jpg
+      - product/wallpaper/image/fallback_green.jpg
+      - product/wallpaper/image/fallback_sterling_dark.jpg
+      - product/wallpaper/image/fallback_sterling.jpg
+      - product/wallpaper/image/front_green_dark.jpg
+      - product/wallpaper/image/front_green.jpg
+      - product/wallpaper/image/front_sterling_dark.jpg
+      - product/wallpaper/image/front_sterling.jpg
+      - product/wallpaper/video/green_dark.mp4
+      - product/wallpaper/video/green.mp4
+      - product/wallpaper/video/sterling_dark.mp4
+      - product/wallpaper/video/sterling.mp4
 
   file_inclusions:
     match:
-      - vendor/apex/com.google.muzel.hardware.threadnetwork.apex
-      - vendor/bin/dump/dump_uwb
-      - vendor/bin/hw/android.hardware.samsung.uwb-service
-      - vendor/etc/displayconfig/display_aical_google-bzea.pb
-      - vendor/etc/displayconfig/display_cgc_inference_google-bzea.tflite
-      - vendor/etc/displayconfig/display_cgc_pool_google-bzea.bin
-      - vendor/etc/displayconfig/display_colorcal_desc_data_google-bzea.pb
-      - vendor/etc/displayconfig/display_hbm_regamma_inference_google-bzea.tflite
-      - vendor/etc/displayconfig/display_hbm_regamma_pool_google-bzea.bin
-      - vendor/etc/displayconfig/display_nbm_regamma_inference_google-bzea.tflite
-      - vendor/etc/displayconfig/display_nbm_regamma_pool_google-bzea.bin
-      - vendor/etc/displayconfig/display_sharpness_google-bzea_0.pb
-      - vendor/etc/init/android.hardware.samsung.uwb-service.rc
-      - vendor/etc/init/hw/init.blazer.rc
-      - vendor/etc/panel_ctrl_google-bzea_cal0.pb
-      - vendor/etc/thread_power_limits_CA.csv
-      - vendor/etc/thread_power_limits_EU.csv
-      - vendor/etc/thread_power_limits_JP.csv
-      - vendor/etc/thread_power_limits_US.csv
-      - vendor/etc/thread_power_limits.csv
-      - vendor/etc/uwb/samsung_uwb_cal_region-ce.json
-      - vendor/etc/uwb/samsung_uwb_cal_region-default.json
-      - vendor/etc/uwb/samsung_uwb_cal_region-fcc.json
-      - vendor/etc/uwb/samsung_uwb_cal_region-jp.json
-      - vendor/etc/uwb/samsung_uwb_cal_region-tw.json
-      - vendor/etc/uwb/samsung_uwb_hal_conf.json
-      - vendor/etc/uwb/samsung_uwb_region.json
-      - vendor/firmware/CPS4041_A0_01.bin
-      - vendor/firmware/u100FactoryInitFw_test.bin
-      - vendor/firmware/u100FactoryInitFw.bin
-      - vendor/firmware/u100FwUpdate_test.bin
-      - vendor/firmware/u100FwUpdate.bin
-      -
+      - recovery/lib/firmware/usb_phy_fw.bin
+      - recovery/lib/firmware/usb_phy_fw_2.27.0.bin
+      - recovery/serial-test
+      - recovery/system/bin/hw/android.hardware.health-service.laguna_recovery
+      - recovery/system/etc/init/android.hardware.health-service.laguna_recovery.rc
+      - recovery/system/etc/vintf/manifest/android.hardware.health-service.laguna.xml
       - system_ext/bin/userdata_alias_remove
       - system_ext/etc/init/userdata.alias.remove.rc
+      - system_ext/framework/com.google.android.modem.pms.lib.jar
       - system_ext/lib64/vendor.google.whitechapel.audio.extension-V6-ndk.so
       - system_ext/priv-app/EuiccSupportPixel-P23/DKA_0302_25.up
+      - system_ext/priv-app/EuiccSupportPixel-P23/esim-full-v1-security.img
       - system_ext/priv-app/PixelModemService/PixelModemService.apk
+      - vendor/apex/com.google.muzel.hardware.threadnetwork.apex
       - vendor/bin/dump/dump_bootlogs_bldr
       - vendor/bin/dump/dump_chip_info
       - vendor/bin/dump/dump_dwc3.sh
@@ -346,13 +367,17 @@ filters:
       - vendor/bin/dump/dump_mailbox
       - vendor/bin/dump/dump_pixel_display
       - vendor/bin/dump/dump_telemetry
+      - vendor/bin/dump/dump_uwb
       - vendor/bin/hw/android.hardware.composer.drm-hwc3-service
       - vendor/bin/hw/android.hardware.health-service.laguna
+      - vendor/bin/hw/android.hardware.samsung.uwb-service
       - vendor/bin/hw/google.hardware.media.c2@3.0-service
-      - vendor/bin/hw/init_rdbl.sh
       - vendor/bin/hw/init.h2omg.sh
+      - vendor/bin/hw/init_rdbl.sh
       - vendor/bin/hw/pixel.gralloc.allocator-V2-service
       - vendor/bin/hw/vendor.google.plat_security-service
+      - vendor/bin/mosey_server
+      - vendor/bin/pixel_irq_load_balancer
       - vendor/bin/pvrhwperfd
       - vendor/bin/storage_intelligence.sh
       - vendor/etc/audio/apmg3/downlink_bluetooth_headset_config.pb
@@ -395,32 +420,50 @@ filters:
       - vendor/etc/audio/spatializer/mode_2_ch
       - vendor/etc/audio/spatializer/mode_6_ch
       - vendor/etc/audio/spatializer/mode_xaural
-      - vendor/etc/audio/waves/waves_config_nx.ini
       - vendor/etc/audio/waves/waves_config.ini
-      - vendor/etc/audio/waves/waves_preset_nx.mps
+      - vendor/etc/audio/waves/waves_config_nx.ini
       - vendor/etc/audio/waves/waves_preset.mps
+      - vendor/etc/audio/waves/waves_preset_nx.mps
       - vendor/etc/bluetooth/firmware_config.json
       - vendor/etc/bluetooth/hal_config.json
       - vendor/etc/chre/location.napp_header
       - vendor/etc/chre/location.so
+      - vendor/etc/displayconfig/display_aical_google-bzea.pb
       - vendor/etc/displayconfig/display_aical_google-flea.pb
       - vendor/etc/displayconfig/display_aical_google-fleb.pb
+      - vendor/etc/displayconfig/display_aical_google-mtea.pb
+      - vendor/etc/displayconfig/display_cgc_inference_google-bzea.tflite
       - vendor/etc/displayconfig/display_cgc_inference_google-flea.tflite
       - vendor/etc/displayconfig/display_cgc_inference_google-fleb.tflite
+      - vendor/etc/displayconfig/display_cgc_inference_google-mtea.tflite
+      - vendor/etc/displayconfig/display_cgc_pool_google-bzea.bin
       - vendor/etc/displayconfig/display_cgc_pool_google-flea.bin
       - vendor/etc/displayconfig/display_cgc_pool_google-fleb.bin
+      - vendor/etc/displayconfig/display_cgc_pool_google-mtea.bin
+      - vendor/etc/displayconfig/display_colorcal_desc_data_google-bzea.pb
       - vendor/etc/displayconfig/display_colorcal_desc_data_google-flea.pb
       - vendor/etc/displayconfig/display_colorcal_desc_data_google-fleb.pb
+      - vendor/etc/displayconfig/display_colorcal_desc_data_google-mtea.pb
+      - vendor/etc/displayconfig/display_hbm_regamma_inference_google-bzea.tflite
       - vendor/etc/displayconfig/display_hbm_regamma_inference_google-flea.tflite
       - vendor/etc/displayconfig/display_hbm_regamma_inference_google-fleb.tflite
+      - vendor/etc/displayconfig/display_hbm_regamma_inference_google-mtea.tflite
+      - vendor/etc/displayconfig/display_hbm_regamma_pool_google-bzea.bin
       - vendor/etc/displayconfig/display_hbm_regamma_pool_google-flea.bin
       - vendor/etc/displayconfig/display_hbm_regamma_pool_google-fleb.bin
+      - vendor/etc/displayconfig/display_hbm_regamma_pool_google-mtea.bin
+      - vendor/etc/displayconfig/display_nbm_regamma_inference_google-bzea.tflite
       - vendor/etc/displayconfig/display_nbm_regamma_inference_google-flea.tflite
       - vendor/etc/displayconfig/display_nbm_regamma_inference_google-fleb.tflite
+      - vendor/etc/displayconfig/display_nbm_regamma_inference_google-mtea.tflite
+      - vendor/etc/displayconfig/display_nbm_regamma_pool_google-bzea.bin
       - vendor/etc/displayconfig/display_nbm_regamma_pool_google-flea.bin
       - vendor/etc/displayconfig/display_nbm_regamma_pool_google-fleb.bin
+      - vendor/etc/displayconfig/display_nbm_regamma_pool_google-mtea.bin
+      - vendor/etc/displayconfig/display_sharpness_google-bzea_0.pb
       - vendor/etc/displayconfig/display_sharpness_google-flea_0.pb
       - vendor/etc/displayconfig/display_sharpness_google-fleb_0.pb
+      - vendor/etc/displayconfig/display_sharpness_google-mtea_0.pb
       - vendor/etc/displayconfig/ltm_td_common.pb
       - vendor/etc/displayconfig/smoothcal_lut_data-google-flea.txt
       - vendor/etc/displayconfig/smoothcal_lut_data-google-fleb.txt
@@ -429,26 +472,48 @@ filters:
       - vendor/etc/fstab.laguna-fips
       - vendor/etc/future_vt_prediction_model.tflite
       - vendor/etc/init/android.hardware.health-service.laguna.rc
+      - vendor/etc/init/android.hardware.samsung.uwb-service.rc
       - vendor/etc/init/drm_hwc3.rc
       - vendor/etc/init/google.hardware.media.c2@3.0-service.rc
+      - vendor/etc/init/hw/init.blazer.rc
       - vendor/etc/init/hw/init.frankel.rc
       - vendor/etc/init/hw/init.laguna.rc
       - vendor/etc/init/hw/init.laguna.usb.rc
-      - vendor/etc/init/init_rdbl.rc
+      - vendor/etc/init/hw/init.mustang.rc
       - vendor/etc/init/init.h2omg.rc
       - vendor/etc/init/init.interrupts.rc
       - vendor/etc/init/init.mailbox.rc
+      - vendor/etc/init/init.pixel_irq_load_balancer.rc
+      - vendor/etc/init/init_rdbl.rc
+      - vendor/etc/init/mosey.rc
       - vendor/etc/init/pixel.gralloc.allocator-V2-service.rc
       - vendor/etc/init/pixelstats-vendor.laguna.rc
       - vendor/etc/init/storage.intelligence.rc
       - vendor/etc/init/vendor.google.plat_security-service.rc
       - vendor/etc/Khronos/OpenCL/vendors/IMG.icd
+      - vendor/etc/panel_ctrl_google-bzea_cal0.pb
+      - vendor/etc/panel_ctrl_google-mtea_cal0.pb
       - vendor/etc/powervr.ini
       - vendor/etc/thermal_info_config_stats.json
       - vendor/etc/thermal_info_config_throttling.json
       - vendor/etc/thermal_info_config_vt.json
       - vendor/etc/thermal_info_config_wingboard.json
+      - vendor/etc/thread_power_limits.csv
+      - vendor/etc/thread_power_limits_CA.csv
+      - vendor/etc/thread_power_limits_EU.csv
+      - vendor/etc/thread_power_limits_JP.csv
+      - vendor/etc/thread_power_limits_US.csv
+      - vendor/etc/uwb/samsung_uwb_cal_region-ce.json
+      - vendor/etc/uwb/samsung_uwb_cal_region-default.json
+      - vendor/etc/uwb/samsung_uwb_cal_region-fcc.json
+      - vendor/etc/uwb/samsung_uwb_cal_region-jp.json
+      - vendor/etc/uwb/samsung_uwb_cal_region-tw.json
+      - vendor/etc/uwb/samsung_uwb_hal_conf.json
+      - vendor/etc/uwb/samsung_uwb_region.json
+      - vendor/firmware/CPS4041_A0_01.bin
       - vendor/firmware/CPS4041_A0_02.bin
+      - vendor/firmware/CPS4041_A0_03.bin
+      - vendor/firmware/CPS4041_A0_05.bin
       - vendor/firmware/CPS4041_BL.bin
       - vendor/firmware/CPS8200.signed.bin
       - vendor/firmware/cs35l43-dsp1-spk-prot.bin
@@ -468,8 +533,12 @@ filters:
       - vendor/firmware/rgx.sh.71.2.2448.1212
       - vendor/firmware/seurat.bin
       - vendor/firmware/tx_mcu.signed.bin
-      - vendor/firmware/usb_phy_fw_2.27.0.bin
+      - vendor/firmware/u100FactoryInitFw.bin
+      - vendor/firmware/u100FactoryInitFw_test.bin
+      - vendor/firmware/u100FwUpdate.bin
+      - vendor/firmware/u100FwUpdate_test.bin
       - vendor/firmware/usb_phy_fw.bin
+      - vendor/firmware/usb_phy_fw_2.27.0.bin
       - vendor/framework/com.google.android.camera.experimental2025.jar
       - vendor/lib64/android.hardware.power.stats-impl.laguna.so
       - vendor/lib64/egl/libEGL_powervr.so
@@ -490,6 +559,7 @@ filters:
       - vendor/lib64/libgc2_vp9_dec.so
       - vendor/lib64/libIMGegl.so
       - vendor/lib64/libMAM_Google_Pixel_Android.so
+      - vendor/lib64/libmosey_daemon_ffi.so
       - vendor/lib64/libPixelGrallocProperties.so
       - vendor/lib64/libPVROCL.so
       - vendor/lib64/libPVRScopeServices.so
@@ -502,22 +572,52 @@ filters:
       - vendor_ramdisk/system/etc/fstab.gem5
       - vendor_ramdisk/system/etc/fstab.laguna
       - vendor_ramdisk/system/etc/fstab.laguna-fips
-      - recovery/lib/firmware/usb_phy_fw_2.27.0.bin
-      - recovery/lib/firmware/usb_phy_fw.bin
-      - recovery/serial-test
-      - recovery/system/bin/hw/android.hardware.health-service.laguna_recovery
-      - recovery/system/etc/init/android.hardware.health-service.laguna_recovery.rc
-      - recovery/system/etc/vintf/manifest/android.hardware.health-service.laguna.xml
-      - vendor/etc/displayconfig/display_aical_google-mtea.pb
-      - vendor/etc/displayconfig/display_cgc_inference_google-mtea.tflite
-      - vendor/etc/displayconfig/display_cgc_pool_google-mtea.bin
-      - vendor/etc/displayconfig/display_colorcal_desc_data_google-mtea.pb
-      - vendor/etc/displayconfig/display_hbm_regamma_inference_google-mtea.tflite
-      - vendor/etc/displayconfig/display_hbm_regamma_pool_google-mtea.bin
-      - vendor/etc/displayconfig/display_nbm_regamma_inference_google-mtea.tflite
-      - vendor/etc/displayconfig/display_nbm_regamma_pool_google-mtea.bin
-      - vendor/etc/displayconfig/display_sharpness_google-mtea_0.pb
-      - vendor/etc/init/hw/init.mustang.rc
-      - vendor/etc/panel_ctrl_google-mtea_cal0.pb
-      - vendor/firmware/CPS4041_A0_03.bin
-      - vendor/firmware/CPS4041_A0_05.bin
+      - vendor/etc/audio/compensation/compens_spk_l_1.conf
+      - vendor/etc/audio/compensation/compens_spk_l_2.conf
+      - vendor/etc/audio/compensation/compens_spk_r_1.conf
+      - vendor/etc/audio/compensation/compens_spk_r_2.conf
+      - vendor/etc/displayconfig/display_aical_google-rgea.pb
+      - vendor/etc/displayconfig/display_aical_google-rgeb.pb
+      - vendor/etc/displayconfig/display_cgc_inference_google-rgea.tflite
+      - vendor/etc/displayconfig/display_cgc_inference_google-rgeb.tflite
+      - vendor/etc/displayconfig/display_cgc_pool_google-rgea.bin
+      - vendor/etc/displayconfig/display_cgc_pool_google-rgeb.bin
+      - vendor/etc/displayconfig/display_colorcal_desc_data_google-rgea.pb
+      - vendor/etc/displayconfig/display_colorcal_desc_data_google-rgeb.pb
+      - vendor/etc/displayconfig/display_hbm_regamma_inference_google-rgea.tflite
+      - vendor/etc/displayconfig/display_hbm_regamma_inference_google-rgeb.tflite
+      - vendor/etc/displayconfig/display_hbm_regamma_pool_google-rgea.bin
+      - vendor/etc/displayconfig/display_hbm_regamma_pool_google-rgeb.bin
+      - vendor/etc/displayconfig/display_nbm_regamma_inference_google-rgea.tflite
+      - vendor/etc/displayconfig/display_nbm_regamma_inference_google-rgeb.tflite
+      - vendor/etc/displayconfig/display_nbm_regamma_pool_google-rgea.bin
+      - vendor/etc/displayconfig/display_nbm_regamma_pool_google-rgeb.bin
+      - vendor/etc/displayconfig/display_sharpness_google-rgea_0.pb
+      - vendor/etc/displayconfig/display_sharpness_google-rgeb_1.pb
+      - vendor/etc/displayconfig/smoothcal_lut_data-google-rgeb.txt
+      - vendor/etc/init/hw/init.rango.rc
+      - vendor/etc/libnfc-hal-st_evt.conf
+      - vendor/etc/panel_ctrl_google-rgea_cal0.pb
+      - vendor/etc/vt_estimation_model_bottom_spk.tflite
+      - vendor/etc/vt_estimation_model_top_spk.tflite
+      - vendor/firmware/3626.app
+      - vendor/firmware/CPS4041_A0_04.bin
+      - vendor/firmware/cs35l43-delta-1-spk-prot.bin
+      - vendor/firmware/cs35l43-delta-2-spk-prot.bin
+      - vendor/firmware/cs35l43-delta-3-spk-prot.bin
+      - vendor/firmware/cs35l43-delta-4-spk-prot.bin
+      - vendor/firmware/cs35l43-delta-5-spk-prot.bin
+      - vendor/firmware/cs35l43-delta-6-spk-prot.bin
+      - vendor/firmware/cs35l43-delta-7-spk-prot.bin
+      - vendor/firmware/cs35l43-delta-8-spk-prot.bin
+      - vendor/firmware/st_fts_afe5.ubin
+      - vendor/firmware/st_fts_c13.ubin
+      - vendor/firmware/st54l_conf_evt.bin
+      - vendor/firmware/stm_fts_production_limits_c13.csv
+      - vendor/firmware/u100Fw_test.bin
+      - vendor/firmware/u100Fw.bin
+      - vendor/lib64/goodix_sfps_suez.so
+      - vendor/lib64/goodixbinderservice-aidl-V1-ndk.so
+      - vendor/lib64/goodixfingerprint.so
+      - vendor/lib64/libgf_ca.so
+      - vendor/bin/dump/dump_pixel_second_display

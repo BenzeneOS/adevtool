@@ -248,6 +248,8 @@ filters:
       - android:string/config_emergency_dialer_package = com.google.android.apps.safetyhub
       - android:string/config_feedbackIntentExtraKey = EXTRA_FEEDBACK_PSD_KEYS
       - android:string/config_feedbackIntentNameKey = EXTRA_FEEDBACK_PSD_VALUES
+      - android:string/config_fingerprintFrrTargetComponent = com.android.settings/com.google.android.settings.biometrics.combination.ui.view.FrrCommonNotificationActivity
+      - android:string/config_fingerprintFrrTargetComponent = com.android.settings/com.google.android.settings.biometrics.frr.ui.view.FrrNotificationActivity
       - android:string/config_gnssLocationProviderPackageName = com.google.android.gms
       - android:string/config_headlineFontFamilyMedium = google-sans-medium
       - android:string/config_headlineFontFeatureSettings = ss03
@@ -530,6 +532,7 @@ filters:
       - com.android.systemui:drawable/saving_24|*
       - com.android.systemui:drawable/unsaved_24|*
       - com.android.systemui:integer/config_keyguardRefreshRate
+      - com.android.systemui:string/ambientcue_first_time_edu_text|*
       - com.android.systemui:string/branded_monitoring_description_app_personal|*
       - com.android.systemui:string/config_action_service = com.google.android.apps.pixel.agent/.app.service.PearlActionService
       - com.android.systemui:string/config_cameraProtectionExcludedPackages = com.google.android.as
