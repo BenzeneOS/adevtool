@@ -11,10 +11,12 @@ package_exclusions:
   - com.google.android.apps.pixel.psi # PixelSense / Device Intelligence
   - com.google.android.apps.pixel.subzero
 
-kernel_cmdline_inclusions:
-  - aoc_core.aoc_enable_gsa_boot=1
+kernel_cmdline_exclusions:
   - init_on_alloc=0
   - init_on_free=1
+
+kernel_cmdline_inclusions:
+  - aoc_core.aoc_enable_gsa_boot=1
   - vh_sched.load_sequential=1
 
 sepolicy_inclusions:
