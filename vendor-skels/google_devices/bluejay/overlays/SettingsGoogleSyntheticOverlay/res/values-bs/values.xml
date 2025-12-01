@@ -9,6 +9,8 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s – punjenje je gotovo</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Punjenje je gotovo</string>
     <string name="charging_optimization_remaining_time_label">Punjenje će biti gotovo do %1$s</string>
+    <string name="emission_frequency_summary">Podesite frekvenciju emisije da poboljšate iskustvo gledanja za osjetljive oči</string>
+    <string name="emission_frequency_title">Podesi osvijetljenost za osjetljive oči</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Saznajte više o otključavanju otiskom prsta na Pixelu na &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="touch_sensitivity_summary">Povećajte osjetljivost na dodir i poboljšajte dodir kada koristite zaštitu ekrana</string>
     <string name="touch_sensitivity_title">Način rada sa zaštitom ekrana</string>

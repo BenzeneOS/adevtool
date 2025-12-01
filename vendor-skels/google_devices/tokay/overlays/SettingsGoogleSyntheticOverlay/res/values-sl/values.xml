@@ -5,6 +5,8 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s – Polnjenje je končano</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Polnjenje je končano</string>
     <string name="charging_optimization_remaining_time_label">Polnjenje bo končano do %1$s</string>
+    <string name="emission_frequency_summary">Prilagodite frekvenco oddajanja svetlobe, da izboljšate izkušnjo gledanja, če imate občutljive oči</string>
+    <string name="emission_frequency_title">Prilagoditev svetlosti za občutljive oči</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Več o odklepanju s prstnim odtisom v telefonu Pixel preberite na &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="touch_sensitivity_summary">Povečanje občutljivosti na dotik in izboljšanje zaznavanja dotikov pri uporabi zaščite zaslona</string>
     <string name="touch_sensitivity_title">Način z zaščito zaslona</string>

@@ -5,6 +5,8 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s – зареждането завърши</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Зареждането завърши</string>
     <string name="charging_optimization_remaining_time_label">Ще се зареди до %1$s</string>
+    <string name="emission_frequency_summary">Коригиране на честотата на емисионната способност с цел подобряване на изживяването при гледане за чувствителни очи</string>
+    <string name="emission_frequency_title">Коригиране на яркостта за чувствителни очи</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Научете повече за функцията на Pixel за отключване с отпечатък на адрес &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="touch_sensitivity_summary">Увеличаване на чувствителността и подобряване на точността при докосване, когато използвате защитен слой на екрана</string>
     <string name="touch_sensitivity_title">Режим при защитен слой на екрана</string>

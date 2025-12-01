@@ -5,6 +5,8 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - ચાર્જિંગ થઈ ગયું</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">પૂરું ચાર્જિંગ થઈ ગયું</string>
     <string name="charging_optimization_remaining_time_label">%1$s સુધીમાં પૂરું ચાર્જિંગ થઈ જશે</string>
+    <string name="emission_frequency_summary">સંવેદનશીલ આંખો માટે જોવાનો અનુભવ બહેતર બનાવવા ઉત્સર્જનની ફ્રિકવન્સી ગોઠવો</string>
+    <string name="emission_frequency_title">સંવેદનશીલ આંખો માટે બ્રાઇટનેસ ગોઠવો</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Pixelની ફિંગરપ્રિન્ટ અનલૉક કરવાની સુવિધા વિશે &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; પર વધુ જાણો."</string>
     <string name="touch_sensitivity_summary">સ્ક્રીનગાર્ડનો ઉપયોગ કરતી વખતે, ટચની સંવેદિતા વધારીને ટચને બહેતર બનાવો</string>
     <string name="touch_sensitivity_title">સ્ક્રીનગાર્ડ મોડ</string>

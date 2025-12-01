@@ -5,6 +5,8 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - बैटरी चार्ज हो गई है</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">बैटरी चार्ज हो गई है</string>
     <string name="charging_optimization_remaining_time_label">%1$s तक बैटरी चार्ज हो जाएगी</string>
+    <string name="emission_frequency_summary">संवेदनशील आंखों के लिए, इमीशन फ़्रीक्वेंसी को अडजस्ट करें. इससे वीडियो देखने का बेहतर अनुभव मिलेगा</string>
+    <string name="emission_frequency_title">संवेदनशील आंखों के लिए, स्क्रीन की रोशनी अडजस्ट करें</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Pixel की फ़िंगरप्रिंट अनलॉक सुविधा के बारे में ज़्यादा जानने के लिए, &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; पर जाएं."</string>
     <string name="touch_sensitivity_summary">स्क्रीन प्राेटेक्टर का इस्तेमाल करके टच सेंसिटिविटी बढ़ाएं और टच की सुविधा को बेहतर बनाएं</string>
     <string name="touch_sensitivity_title">स्क्रीन प्राेटेक्टर मोड</string>

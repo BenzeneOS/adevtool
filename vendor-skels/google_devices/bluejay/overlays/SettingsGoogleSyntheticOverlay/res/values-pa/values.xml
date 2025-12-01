@@ -9,6 +9,8 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - ਚਾਰਜਿੰਗ ਪੂਰੀ ਹੋ ਗਈ</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">ਚਾਰਜਿੰਗ ਪੂਰੀ ਹੋ ਗਈ</string>
     <string name="charging_optimization_remaining_time_label">%1$s ਤੱਕ ਚਾਰਜਿੰਗ ਦੀ ਪ੍ਰਕਿਰਿਆ ਪੂਰੀ ਹੋ ਜਾਵੇਗੀ</string>
+    <string name="emission_frequency_summary">ਸੰਵੇਦਨਸ਼ੀਲ ਅੱਖਾਂ ਵਾਲੇ ਲੋਕਾਂ ਵਾਸਤੇ ਦੇਖਣ ਦਾ ਅਨੁਭਵ ਬਿਹਤਰ ਬਣਾਉਣ ਲਈ ਨਿਕਾਸੀ ਸੰਬੰਧੀ ਵਾਰਵਾਰਤਾ ਨੂੰ ਵਿਵਸਥਿਤ ਕਰੋ</string>
+    <string name="emission_frequency_title">ਸੰਵੇਦਨਸ਼ੀਲ ਅੱਖਾਂ ਵਾਲੇ ਲੋਕਾਂ ਕਈ ਚਮਕ ਨੂੰ ਵਿਵਸਥਿਤ ਕਰੋ</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Pixel ਦੀ ਫਿੰਗਰਪ੍ਰਿੰਟ ਅਣਲਾਕ ਵਿਸ਼ੇਸ਼ਤਾ ਬਾਰੇ &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; 'ਤੇ ਹੋਰ ਜਾਣੋ।"</string>
     <string name="touch_sensitivity_summary">ਸਪਰਸ਼ ਸੰਵੇਦਨਸ਼ੀਲਤਾ ਵਧਾਓ ਅਤੇ ਸਕ੍ਰੀਨ ਗਾਰਡ ਵਰਤਣ ਦੌਰਾਨ ਸਪਰਸ਼ ਨੂੰ ਬਿਹਤਰ ਬਣਾਓ</string>
     <string name="touch_sensitivity_title">ਸਕ੍ਰੀਨ ਗਾਰਡ ਮੋਡ</string>

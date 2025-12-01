@@ -9,6 +9,8 @@
     <string name="charging_optimization_reach_limit_charge_label">‫%1$s - شارژ کامل شد</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">شارژ کامل شد</string>
     <string name="charging_optimization_remaining_time_label">شارژ تا %1$s تمام می‌شود</string>
+    <string name="emission_frequency_summary">تنظیم فرکانس انتشار به‌منظور بهبود تجربه مشاهده برای چشم‌های حساس</string>
+    <string name="emission_frequency_title">تنظیم روشنایی برای چشم‌های حساس</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"‏درباره «قفل‌گشایی با اثر انگشت Pixel» در &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; اطلاعات بیشتری کسب کنید."</string>
     <string name="touch_sensitivity_summary">افزایش حساسیت لمس و بهبود لمس هنگام استفاده از محافظ صفحه‌نمایش</string>
     <string name="touch_sensitivity_title">حالت محافظ صفحه‌نمایش</string>

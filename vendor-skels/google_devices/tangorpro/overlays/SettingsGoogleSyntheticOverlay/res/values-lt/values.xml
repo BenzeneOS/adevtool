@@ -5,6 +5,8 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s – įkrovimas baigtas</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Įkrovimas baigtas</string>
     <string name="charging_optimization_remaining_time_label">Įkrovimas bus baigtas %1$s</string>
+    <string name="emission_frequency_summary">Reguliuokite spinduliavimo dažnį, kad pagerintumėte žiūrėjimo patirtį jautrioms akims</string>
+    <string name="emission_frequency_title">Koreguoti šviesumą jautrioms akims</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Sužinokite daugiau apie „Pixel“ atrakinimą piršto atspaudu adresu &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="touch_sensitivity_summary">Padidinkite palietimo jautrumą ir pagerinkite atsaką į palietimą, kai naudojate apsauginį ekrano stiklą</string>
     <string name="touch_sensitivity_title">Apsauginio ekrano stiklo režimas</string>

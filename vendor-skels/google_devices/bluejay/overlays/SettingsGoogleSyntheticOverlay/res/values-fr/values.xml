@@ -9,6 +9,8 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - Fin de la recharge</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Fin de la recharge</string>
     <string name="charging_optimization_remaining_time_label">Fin de la recharge à %1$s</string>
+    <string name="emission_frequency_summary">"Ajuster la fréquence d'émission afin d'améliorer l'expérience de visionnage pour les yeux sensibles"</string>
+    <string name="emission_frequency_title">Ajuster la luminosité pour les yeux sensibles</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"En savoir plus sur le déverrouillage par empreinte digitale du Pixel : &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;"</string>
     <string name="touch_sensitivity_summary">"Augmenter la sensibilité tactile et améliorer le toucher quand une protection d'écran est utilisée"</string>
     <string name="touch_sensitivity_title">"Mode Protection d'écran"</string>

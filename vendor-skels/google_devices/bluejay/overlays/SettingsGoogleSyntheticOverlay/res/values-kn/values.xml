@@ -9,6 +9,8 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - ಚಾರ್ಜಿಂಗ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">ಚಾರ್ಜಿಂಗ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
     <string name="charging_optimization_remaining_time_label">%1$s ಸಮಯಕ್ಕೆ ಚಾರ್ಜಿಂಗ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+    <string name="emission_frequency_summary">ಸೂಕ್ಷ್ಮ ದೃಷ್ಟಿ ಹೊಂದಿರುವವರಿಗೆ ಸುಧಾರಿತ ವೀಕ್ಷಣೆಯ ಅನುಭವವನ್ನು ನೀಡುವುದಕ್ಕಾಗಿ ರಿಫ್ರೆಶ್ ರೇಟ್ ಅನ್ನು ಅಡ್ಜಸ್ಟ್ ಮಾಡಿ</string>
+    <string name="emission_frequency_title">ಸೂಕ್ಷ್ಮ ದೃಷ್ಟಿ ಹೊಂದಿರುವವರಿಗಾಗಿ ಬ್ರೈಟ್‌ನೆಸ್ ಅನ್ನು ಅಡ್ಜಸ್ಟ್ ಮಾಡಿ</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"&lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; ನಲ್ಲಿ Pixel ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಅನ್‌ಲಾಕ್ ಕುರಿತು ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ."</string>
     <string name="touch_sensitivity_summary">ಸ್ಕ್ರೀನ್ ಗಾರ್ಡ್ ಅನ್ನು ಬಳಸುವಾಗ ಟಚ್‌ ಸ್ಕ್ರೀನ್‌ನ ಸಂವೇದನೆಯನ್ನು ಹೆಚ್ಚಿಸಿ ಮತ್ತು ಟಚ್‌ ಸ್ಕ್ರೀನ್‌ನ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಸುಧಾರಿಸಿ</string>
     <string name="touch_sensitivity_title">ಸ್ಕ್ರೀನ್ ಗಾರ್ಡ್ ಮೋಡ್</string>

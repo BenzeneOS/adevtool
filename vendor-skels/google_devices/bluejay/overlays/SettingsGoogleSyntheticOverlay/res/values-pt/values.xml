@@ -9,6 +9,8 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s (carregamento concluído)</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Carregamento concluído</string>
     <string name="charging_optimization_remaining_time_label">Carga total às %1$s</string>
+    <string name="emission_frequency_summary">Ajuste a frequência da emissão para melhorar a visualização para olhos sensíveis</string>
+    <string name="emission_frequency_title">Ajustar o brilho para olhos sensíveis</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Saiba mais sobre o desbloqueio por impressão digital do Pixel em &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="touch_sensitivity_summary">Aumenta a sensibilidade ao toque e otimiza o uso com películas</string>
     <string name="touch_sensitivity_title">Modo película</string>

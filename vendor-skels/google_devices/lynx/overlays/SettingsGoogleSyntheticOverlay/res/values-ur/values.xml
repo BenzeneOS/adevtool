@@ -5,6 +5,8 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - چارجنگ مکمل ہو گئی</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">چارجنگ مکمل ہو گئی</string>
     <string name="charging_optimization_remaining_time_label">‫%1$s تک چارج مکمل ہو گیا</string>
+    <string name="emission_frequency_summary">حساس آنکھوں کے لیے دیکھنے کے تجربے کو بہتر بنانے کے لیے اخراج کی فریکوئنسی کو ایڈجسٹ کریں</string>
+    <string name="emission_frequency_title">حساس آنکھوں کے لیے چمک کو ایڈجسٹ کریں</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"‏&lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; پر Pixel فنگر پرنٹ اَن لاک کے بارے میں مزید جانیں۔"</string>
     <string name="touch_sensitivity_summary">اسکرین پروٹیکٹر استعمال کرتے وقت ٹچ کی حساسیت میں اضافہ کریں اور ٹچ کو بہتر بنائیں</string>
     <string name="touch_sensitivity_title">اسکرین پروٹیکٹر موڈ</string>

@@ -9,6 +9,8 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - အားသွင်းပြီးပါပြီ</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">အားသွင်းပြီးပါပြီ</string>
     <string name="charging_optimization_remaining_time_label">%1$s တွင် အားသွင်းမှုပြီးမည်</string>
+    <string name="emission_frequency_summary">အထိခိုက်မခံသော မျက်လုံးများအတွက် ကြည့်ရှုမှုပိုကောင်းစေရန် ထုတ်လွှတ်မှုကြိမ်နှုန်းကို ချိန်ညှိနိုင်သည်</string>
+    <string name="emission_frequency_title">အထိခိုက်မခံသော မျက်လုံးများအတွက် တောက်ပမှုချိန်ညှိရန်</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Pixel လက်ဗွေသုံး လော့ခ်ဖွင့်ခြင်းအကြောင်း ဤတွင်ပိုမိုလေ့လာနိုင်သည်- &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;"</string>
     <string name="touch_sensitivity_summary">ဖန်သားပြင် အကာအကွယ်ကို သုံးချိန်တွင် ထိတွေ့မှုအာရုံခံနိုင်စွမ်း မြင့်စေသည်</string>
     <string name="touch_sensitivity_title">ဖန်သားပြင် အကာအကွယ်မုဒ်</string>

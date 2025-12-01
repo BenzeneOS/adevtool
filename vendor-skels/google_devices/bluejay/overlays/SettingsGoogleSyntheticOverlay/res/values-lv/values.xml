@@ -9,6 +9,8 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s — uzlāde pabeigta.</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Uzlāde pabeigta.</string>
     <string name="charging_optimization_remaining_time_label">Uzlāde tiks pabeigta līdz plkst. %1$s</string>
+    <string name="emission_frequency_summary">Pielāgojiet emisijas frekvenci, lai uzlabotu skatīšanās pieredzi cilvēkiem ar jutīgām acīm.</string>
+    <string name="emission_frequency_title">Pielāgot spilgtumu jutīgām acīm</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Uzziniet vairāk par Pixel autorizāciju ar pirksta nospiedumu vietnē &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="touch_sensitivity_summary">Palielināt skārienjutību un uzlabot skārienievadi caur ekrāna aizsargplēvi</string>
     <string name="touch_sensitivity_title">Ekrāna aizsargplēves režīms</string>

@@ -5,6 +5,8 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s – Полнењето е завршено</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Полнењето е завршено</string>
     <string name="charging_optimization_remaining_time_label">Ќе се наполни до %1$s</string>
+    <string name="emission_frequency_summary">Приспособете ја фреквенцијата на емисиите за да го подобрите доживувањето при гледање за чувствителни очи</string>
+    <string name="emission_frequency_title">Приспособете ја осветленоста за чувствителни очи</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Дознајте повеќе за „Отклучување со отпечаток“ на Pixel на &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="touch_sensitivity_summary">Зголемете ја чувствителноста на допир и подобрете го допирот кога користите заштитник на екранот</string>
     <string name="touch_sensitivity_title">Режим за заштитник на екранот</string>

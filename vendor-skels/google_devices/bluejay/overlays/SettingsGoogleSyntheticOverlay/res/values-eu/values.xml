@@ -9,6 +9,8 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - Guztiz kargatu da</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Guztiz kargatu da</string>
     <string name="charging_optimization_remaining_time_label">Ordu honetan egongo da guztiz kargatuta: %1$s</string>
+    <string name="emission_frequency_summary">Doitu emisioen maiztasuna, begi sentikorretarako hobea izan dadin</string>
+    <string name="emission_frequency_title">Doitu argitasuna begi sentikorretarako</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Lortu informazio gehiago hatz-marka bidez desblokeatzeko Pixel-en eginbideari buruz hemen: &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="touch_sensitivity_summary">Handitu ukipen-sentikortasuna eta hobetu ukipena pantaila babesteko osagarri bat erabiltzean</string>
     <string name="touch_sensitivity_title">Pantaila babesteko osagarriaren modua</string>

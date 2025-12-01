@@ -5,6 +5,8 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s – Η φόρτιση ολοκληρώθηκε</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Η φόρτιση ολοκληρώθηκε</string>
     <string name="charging_optimization_remaining_time_label">Ολοκλήρωση φόρτισης έως τις %1$s</string>
+    <string name="emission_frequency_summary">Προσαρμόστε τη συχνότητα εκπομπής, για να βελτιώσετε την εμπειρία προβολής για ευαίσθητα μάτια</string>
+    <string name="emission_frequency_title">Προσαρμογή φωτεινότητας για ευαίσθητα μάτια</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Μάθετε περισσότερα για το Ξεκλείδωμα με δακτυλικό αποτύπωμα του Pixel στη διεύθυνση &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="touch_sensitivity_summary">Αυξήστε την ευαισθησία αφής και βελτιώστε την αφή όταν χρησιμοποιείτε προστατευτικό οθόνης</string>
     <string name="touch_sensitivity_title">Λειτουργία προστατευτικού οθόνης</string>

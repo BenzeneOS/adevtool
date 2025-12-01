@@ -8,6 +8,8 @@
     <string name="charging_optimization_reach_limit_charge_label">%1$s - Done charging</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">Done charging</string>
     <string name="charging_optimization_remaining_time_label">Done charging by %1$s</string>
+    <string name="emission_frequency_summary">Adjust emission frequency to improve viewing experience for sensitive eyes</string>
+    <string name="emission_frequency_title">Adjust brightness for sensitive eyes</string>
     <string name="help_uri_5g_dsds">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=pixel_5G_and_DSDS;end</string>
     <string name="help_uri_about">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_about;end</string>
     <string name="help_uri_about_phone_v2">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_about_device;end</string>

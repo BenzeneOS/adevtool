@@ -5,6 +5,8 @@
     <string name="charging_optimization_reach_limit_charge_label">已充電 %1$s</string>
     <string name="charging_optimization_reach_limit_remaining_time_label">充電完成</string>
     <string name="charging_optimization_remaining_time_label">%1$s 前充電完成</string>
+    <string name="emission_frequency_summary">調整發光頻率，為視覺敏感者提供更舒適的觀看體驗</string>
+    <string name="emission_frequency_title">調整亮度 (適合視覺敏感者)</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"如要進一步瞭解 Pixel 指紋解鎖功能，請前往 &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;。"</string>
     <string name="touch_sensitivity_summary">提升使用螢幕保護貼時的觸控靈敏度，並改善觸控回應效果</string>
     <string name="touch_sensitivity_title">螢幕保護貼模式</string>
