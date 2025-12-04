@@ -27,7 +27,7 @@ export interface ManifestConfig {
   additional_remotes: Remote[]
   additional_projects: Project[]
   additional_non_manifest_repos: string[]
-  forked_aosp_repos: string[]
+  forked_aosp_repos: { [remoteName: string]: string[] }
   clone_depth_1_aosp_repos: string[]
   removed_aosp_repos: string
 }
@@ -92,19 +92,20 @@ export class GenerateManifest extends Command {
       projects = projects.filter(p => !removedAospRepos.has(p.$.path))
     }
     let cloneDepth1AospRepos = new Set(config.clone_depth_1_aosp_repos)
-    let forkedAospRepos = new Set(config.forked_aosp_repos)
+    let forkedAospRepos = makeAospForkMap(config)
     let forks: string[] = []
     for (let proj of projects) {
       let path = proj.$.path
       if (cloneDepth1AospRepos.has(path)) {
         proj.$['clone-depth'] = '1'
       }
-      if (forkedAospRepos.has(path)) {
+      let forkRemoteName = forkedAospRepos.get(path)
+      if (forkRemoteName !== undefined) {
         let name = proj.$.name
         let forkName = name.replaceAll('/', '_')
         proj.$.name = forkName
         forks.push(forkName)
-        proj.$.remote = config.additional_remotes[0].name
+        proj.$.remote = forkRemoteName
         proj.$['aosp-name'] = name
       }
     }
@@ -180,4 +181,14 @@ async function updateScript(config: ManifestConfig, forks: string[]) {
       .join('\n') +
     dstFile.substring(indepEnd)
   await fs.writeFile(dstFilePath, dstFile)
+}
+
+export function makeAospForkMap(config: ManifestConfig) {
+  let res = new Map<string, string>()
+  for (let [remoteName, repos] of Object.entries(config.forked_aosp_repos)) {
+    for (let repo of repos) {
+      res.set(repo, remoteName)
+    }
+  }
+  return res
 }

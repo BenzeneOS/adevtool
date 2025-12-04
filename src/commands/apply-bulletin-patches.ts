@@ -14,7 +14,7 @@ import { assertDefined, filterAsync, mapGet, updateMultiMap, updateMultiSet } fr
 import { isDirectory, isFile, listFilesRecursive, readFile } from '../util/fs'
 import { spawnGit } from '../util/git'
 import { spawnAsyncStdin } from '../util/process'
-import { ManifestConfig } from './generate-manifest'
+import { makeAospForkMap, ManifestConfig } from './generate-manifest'
 
 export class ApplyBulletinPatches extends Command {
   static flags = {
@@ -199,15 +199,13 @@ export class ApplyBulletinPatches extends Command {
       fullRepoPatches.push(...patches)
     }
 
-    let forkedAospRepos = new Set<string>(manifestConfig.forked_aosp_repos)
-    let forkRemoteName = manifestConfig.additional_remotes[0].name
+    let forkedAospRepos = makeAospForkMap(manifestConfig)
 
     let revision = manifestConfig.revision
     let prefix = 'refs/heads/'
     if (revision.startsWith(prefix)) {
       revision = revision.substring(prefix.length)
     }
-    let baseRevision = forkRemoteName + '/' + revision
     let patchedRepos: PatchedRepo[] = []
     let manualResolutionRequiredRepos: [string, Patch[]][] = []
 
@@ -280,7 +278,8 @@ export class ApplyBulletinPatches extends Command {
         console.log(amOut.slice(0, -1))
       }
 
-      if (!forkedAospRepos.has(repoPath)) {
+      let forkRemoteName = forkedAospRepos.get(repoPath)
+      if (forkRemoteName === undefined) {
         await applyAdditionalPatches(repoPath, additionalPatches)
 
         if (spawnSync('git', ['-C', repoPath, 'diff', '--exit-code', 'HEAD', baseAospRef]).status !== 0) {
@@ -290,6 +289,7 @@ export class ApplyBulletinPatches extends Command {
           console.log(`${repoPath}: ${baseAospRef} is same as HEAD`)
         }
       } else {
+        let baseRevision = forkRemoteName + '/' + revision
         await spawnGit(repoPath, ['fetch', '--quiet', forkRemoteName, revision])
 
         try {
@@ -352,6 +352,7 @@ export class ApplyBulletinPatches extends Command {
         }
       }
       for (let [repoPath] of orig) {
+        // TODO store baseRevision above and retrieve it here
         if (spawnSync('git', ['-C', repoPath, 'diff', '--exit-code', 'HEAD', baseRevision]).status !== 0) {
           patchedRepos.push({ path: repoPath, baseRevision })
         } else {
