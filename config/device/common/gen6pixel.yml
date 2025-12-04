@@ -3,7 +3,6 @@ includes:
 
 device:
   platform: gs101
-  build_id: BP3A.250905.014
 
 filters:
   file_exclusions:

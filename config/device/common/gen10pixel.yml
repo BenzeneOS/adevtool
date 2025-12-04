@@ -3,7 +3,6 @@ includes:
 
 device:
   platform: laguna
-  build_id: BD3A.251105.010.E1
 
 package_exclusions:
   - com.google.android.apps.bard # Gemini

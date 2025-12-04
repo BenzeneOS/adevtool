@@ -20,7 +20,7 @@ device:
   vendor: google_devices
   system_fs_type: ext4
   has_cellular: true
-  build_id: BP3A.251105.015
+  build_id: BP4A.251205.006
   backport_base_firmware: false
 
 filters:

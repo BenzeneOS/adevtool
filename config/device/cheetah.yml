@@ -1,6 +1,5 @@
 device:
   name: cheetah
-  build_id: BP3A.251005.004.B2
 
 includes:
   - common/gen7pixel.yml
