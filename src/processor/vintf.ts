@@ -41,31 +41,41 @@ export async function processVintf(
     let dstDirPath = path.join(rootDstDir, partition)
 
     let compatMatrixJob = (async () => {
-      const fileName = compatMatrixFileName(partition)
-      let matrixFile = path.join(vintfDirPath, fileName)
-      if (!(await isFile(matrixFile))) {
+      if (partition === Partition.System) {
         return
       }
+      if (!(await isDirectory(vintfDirPath))) {
+        return
+      }
+      for (let de of await fs.readdir(vintfDirPath, { withFileTypes: true })) {
+        if (!de.name.includes('compatibility_matrix')) {
+          continue
+        }
+        assert(de.isFile())
+        let fileName = de.name
 
-      let exclusions = getExclusions(
-        deviceConfig.vintf_compat_matrix_exclusions,
-        customState.partitionVintfCompatMatrices,
-        partition,
-      )
-      let inclusions = getInclusions(deviceConfig.vintf_compat_matrix_inclusions, partition)
+        let matrixFile = path.join(vintfDirPath, fileName)
 
-      let cmd = getProcessCompatMatrixCmd(
-        exclusions,
-        inclusions,
-        interfaceExclusions,
-        interfaceInclusions,
-        unknownInterfaces,
-        matrixFile,
-        dstDirPath,
-        fileName,
-        partition,
-      )
-      vintfPaths.compatMatrices.push(...(await processXml(cmd)))
+        let exclusions = getExclusions(
+          deviceConfig.vintf_compat_matrix_exclusions,
+          customState.partitionVintfCompatMatrices,
+          partition,
+        )
+        let inclusions = getInclusions(deviceConfig.vintf_compat_matrix_inclusions, partition)
+
+        let cmd = getProcessCompatMatrixCmd(
+          exclusions,
+          inclusions,
+          interfaceExclusions,
+          interfaceInclusions,
+          unknownInterfaces,
+          matrixFile,
+          dstDirPath,
+          fileName,
+          partition,
+        )
+        vintfPaths.compatMatrices.push(...(await processXml(cmd)))
+      }
     })()
 
     let manifestJob = (async () => {

@@ -35,7 +35,7 @@ const SEPOLICY_PUBLIC_PARTITION_VARS: { [part: string]: string } = {
 }
 
 const VINTF_COMPAT_MATRIX_VARS: { [part: string]: string } = {
-  system: 'DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE',
+  system_ext: 'DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE',
   product: 'DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE',
   vendor: 'DEVICE_MATRIX_FILE',
 }
