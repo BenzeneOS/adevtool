@@ -7,6 +7,8 @@ vintf_manifest_inclusions:
       </sepolicy>
 
 vintf_inclusions:
+  - vendor.google.ambience_hub.IAmbienceHubConsumerManager/default
+  - vendor.google.ambience_hub.IAmbienceHubProducerManager/default
   - android.frameworks.displayservice::IDisplayService/default
   - android.frameworks.schedulerservice::ISchedulingPolicyService/default
   - android.frameworks.sensorservice::ISensorManager/default

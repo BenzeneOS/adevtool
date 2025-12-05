@@ -126,6 +126,7 @@ package_inclusions:
   com.android.qns:
     max_known_version: auto
     include_uses_permissions:
+      - com.google.android.apps.scone.connectivitymonitor.permission.WRITE_NIMBUS_DATA
       - com.google.android.permission.USE_GRIL
     pregrantable_permissions:
       - android.permission.ACCESS_COARSE_LOCATION
@@ -175,7 +176,7 @@ package_inclusions:
       - android.permission.MANAGE_USERS
 
   com.google.android.apps.camera.services:
-    max_known_version: 408193
+    max_known_version: 421585
     include_uses_permissions:
       - android.permission.ACCESS_NETWORK_STATE
       - android.permission.ACCESS_WIFI_STATE
@@ -217,7 +218,7 @@ package_inclusions:
       - isolate_from_gmscore_and_finsky
 
   com.google.android.euicc:
-    max_known_version: 228506
+    max_known_version: 230031
     include_uses_permissions:
       - android.permission.ACCESS_NETWORK_STATE
       - android.permission.CAMERA
@@ -280,7 +281,7 @@ package_inclusions:
       - android.permission.READ_PRIVILEGED_PHONE_STATE
 
   com.google.euiccpixel:
-    max_known_version: 20125
+    max_known_version: 20175
     include_uses_permissions:
       - com.google.android.c2dm.permission.RECEIVE
       - com.google.android.providers.gsf.permission.READ_GSERVICES
@@ -702,6 +703,7 @@ package_exclusions:
   - com.google.android.uwb
   - com.google.android.uwb.resources
   - com.google.android.vendorloggingservice
+  - com.google.android.verifier
   - com.google.android.videos # Google TV
   - com.google.android.virtualmachine.res
   - com.google.android.volta

@@ -148,8 +148,8 @@ synthetic_overlays:
     resourcesToInclude:
       string:
         - charge_limit_indexing_keywords
-        - charging_optimization_footer_charge_limit
-        - charging_optimization_summary_charge_limit
+        - charging_optimization_entry_summary_charge_limit
+        - charging_optimization_footer_message_charge_limit
         - charging_optimization_summary_off
         - charging_optimization_title
 

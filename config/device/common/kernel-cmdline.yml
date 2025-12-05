@@ -2,6 +2,7 @@ kernel_cmdline_exclusions:
   - dyndbg="func alloc_contig_dump_pages +p"
   - kasan=off
 kernel_cmdline_inclusions:
+  - android_arch_task_struct_size=512
   - androidboot.console=ttySAC0
   - arm_smmu_v3_kvm.atomic_pages=5897
   - at24.write_timeout=100
@@ -25,6 +26,7 @@ kernel_cmdline_inclusions:
   - rcu_nocbs=all
   - rcupdate.rcu_expedited=1
   - rcutree.enable_rcu_lazy
+  - rodata=on
   - s2mpg12-regulator.load_sequential=1
   - samsung_iommu_v9.load_sequential=1
   - stack_depot_disable=off

@@ -8,6 +8,7 @@ sysprop_inclusions:
   - aoj.feature.ui_logging =
   - audio.spatializer.effect.util_clamp_min = 300
   - bluetooth.ble.allow_enc_with_bredr = true
+  - bluetooth.core.le.dsa_transport_preference = iso-sw,le-acl
   - bluetooth.core.le_audio.codec_extension_aidl.enabled = true
   - bluetooth.device.class_of_device = 90,2,12
   - bluetooth.device.class_of_device = 90,65,16
@@ -57,6 +58,7 @@ sysprop_inclusions:
   - charging_string.apply_lotx = true
   - charging_string.apply_v2 = true
   - dalvik.vm.dex2oat64.enabled = true
+  - dalvik.vm.enable_time_based_gc_trigger = true
   - dalvik.vm.heapgrowthlimit = 256m
   - dalvik.vm.heapmaxfree = 32m
   - dalvik.vm.heapminfree = 8m
@@ -109,14 +111,27 @@ sysprop_inclusions:
   - media.c2.dmabuf.padding = 512
   - media.c2.hal.selection = aidl
   - media.mediadrmservice.enable = true
+  - mm.zram.maintenance.first_delay_seconds = 86400
+  - mm.zram.maintenance.periodic_delay_seconds = 86400
+  - mmd.zram.comp_algorithm = lz77eh
+  - mmd.zram.enabled = true
+  - mmd.zram.size = 3221225472
+  - mmd.zram.size = 50%
+  - mmd.zram.writeback.device_size = 1073741824
+  - mmd.zram.writeback.enabled = true
+  - mmd.zram.writeback.huge_idle.enabled = false
+  - mmd.zram.writeback.idle.enabled = true
+  - mmd.zram.writeback.limit.enabled = false
+  - mmd.zram.writeback.max_idle_seconds = 86400
+  - mmd.zram.writeback.min_idle_seconds = 0
   - persist.bluetooth.a2dp_aac.vbr_supported = true
   - persist.bluetooth.a2dp_offload.cap = sbc-aac-aptx-aptxhd-ldac
   - persist.bluetooth.a2dp_offload.cap = sbc-aac-aptx-aptxhd-ldac-opus
   - persist.bluetooth.a2dp_offload.disabled = false
-  - persist.bluetooth.bqr.event_mask = 30
-  - persist.bluetooth.bqr.event_mask = 94
   - persist.bluetooth.bqr.event_mask = 295006
   - persist.bluetooth.bqr.event_mask = 295262
+  - persist.bluetooth.bqr.event_mask = 30
+  - persist.bluetooth.bqr.event_mask = 94
   - persist.bluetooth.bqr.min_interval_ms = 500
   - persist.bluetooth.bqr.vnd_quality_mask = 16
   - persist.bluetooth.bqr.vnd_trace_mask = 0
@@ -127,6 +142,7 @@ sysprop_inclusions:
   - persist.bluetooth.leaudio.toggle_visible = false
   - persist.bluetooth.leaudio.toggle_visible = true
   - persist.bluetooth.leaudio_offload.disabled = false
+  - persist.bluetooth.leaudio_sw_offload = true
   - persist.bluetooth.opus.enabled = true
   - persist.bluetooth.thread_dispatcher.enabled = false
   - persist.bluetooth.vendor.btsnoop = false
@@ -150,8 +166,10 @@ sysprop_inclusions:
   - persist.vendor.audio.
   - persist.vendor.audio.cca.enabled = false
   - persist.vendor.audio.cca.unsupported = false
+  - persist.vendor.audio.leaudio_sw_offload = true
   - persist.vendor.audio.spatializer.speaker_enabled = true
   - persist.vendor.audio.speech_enhancement.enable = 1
+  - persist.vendor.bluetooth.bluetooth_hal.enabled = true
   - persist.vendor.camera.
   - persist.vendor.camera.1080P_60fps_binning = true
   - persist.vendor.camera.adjust_backend_min_freq_for_1p_front_video_1080p_30fps = 1
@@ -261,6 +279,7 @@ sysprop_inclusions:
   - persist.vendor.vibrator.hal.context.scale = 40
   - persist.vendor.vibrator.hal.context.scale = 60
   - persist.vendor.vibrator.hal.context.settlingtime = 5000
+  - persist.vendor.vibrator.hal.pwle.svc.mode = 255
   - persist.vendor.wifi.logger.start
   - persist.vendor.wifi.sniffer.
   - persist.wm.extensions.activity_embedding_guard_with_android_15 = false
@@ -353,9 +372,9 @@ sysprop_inclusions:
   - ro.surface_flinger.protected_contents = true
   - ro.surface_flinger.set_display_power_timer_ms = 1000
   - ro.surface_flinger.set_idle_timer_ms = 0
-  - ro.surface_flinger.set_idle_timer_ms = 80
   - ro.surface_flinger.set_idle_timer_ms = 1000
   - ro.surface_flinger.set_idle_timer_ms = 1500
+  - ro.surface_flinger.set_idle_timer_ms = 80
   - ro.surface_flinger.set_touch_timer_ms = 200
   - ro.surface_flinger.support_kernel_idle_timer = true
   - ro.surface_flinger.supports_background_blur = 1
@@ -376,20 +395,23 @@ sysprop_inclusions:
   - ro.vendor.cbd.modem_type = s5100sit
   - ro.vendor.config.
   - ro.vendor.ddk.set.afbc = 1
+  - ro.vendor.display.ambience.enable = true
+  - ro.vendor.display.ambience.idle_timeout_ms = 100
   - ro.vendor.display.read_temp_interval = 30
   - ro.vendor.dolby.dax.version = DAX3_G_3.7.3.0_r1
-  - ro.vendor.fingerprint.ta.name = g7a.app
   - ro.vendor.fingerprint.ta.name = g7.app
+  - ro.vendor.fingerprint.ta.name = g7a.app
   - ro.vendor.flood.
   - ro.vendor.gps.atom.enabled = true
   - ro.vendor.gps.pps.enabled = true
   - ro.vendor.gpu.dataspace = 1
   - ro.vendor.hwc.drm.device
   - ro.vendor.persist.status
+  - ro.vendor.primarydisplay.ambience.histogram_cols = 4
   - ro.vendor.primarydisplay.blocking_zone.min_refresh_rate_by_nits
-  - ro.vendor.primarydisplay.blocking_zone.min_refresh_rate_by_nits = 5:120,:1
   - ro.vendor.primarydisplay.blocking_zone.min_refresh_rate_by_nits = 15:10,:1
   - ro.vendor.primarydisplay.blocking_zone.min_refresh_rate_by_nits = 20:120,30:60,:1
+  - ro.vendor.primarydisplay.blocking_zone.min_refresh_rate_by_nits = 5:120,:1
   - ro.vendor.primarydisplay.google-ak3b.temperature_path = /dev/thermal/tz-by-name/display_therm/temp
   - ro.vendor.primarydisplay.google-tg4a.temperature_path = /dev/thermal/tz-by-name/disp_therm/temp
   - ro.vendor.primarydisplay.google-tk4c.temperature_path = /dev/thermal/tz-by-name/disp_therm/temp
@@ -398,6 +420,7 @@ sysprop_inclusions:
   - ro.vendor.primarydisplay.preferred_mode
   - ro.vendor.primarydisplay.vrr.expected_present.headsup_ns
   - ro.vendor.primarydisplay.vrr.expected_present.timeout_ns
+  - ro.vendor.primarydisplay.xrr.has_proximity_sensor = true
   - ro.vendor.primarydisplay.xrr.version
   - ro.vendor.primarydisplay.xrr.version = 2.1
   - ro.vendor.secondarydisplay.blocking_zone.min_refresh_rate_by_nits
@@ -413,8 +436,16 @@ sysprop_inclusions:
   - ro.vendor.uwb.calibration.
   - ro.vendor.uwb.calibration.calibrationpaths = /vendor/etc/uwb/calib_paths
   - ro.vendor.vibrator.hal.
+  - ro.vendor.vibrator.hal.bl.factor = 0.98
+  - ro.vendor.vibrator.hal.bl.factor = 1.1
   - ro.vendor.vibrator.hal.chirp.enabled = 1
+  - ro.vendor.vibrator.hal.damping.q.factor = 13.9
+  - ro.vendor.vibrator.hal.damping.q.factor = 9.27
   - ro.vendor.vibrator.hal.device.mass
+  - ro.vendor.vibrator.hal.dvl.lra.f0.v = 1.2
+  - ro.vendor.vibrator.hal.dvl.lra.f0.v = 1.4
+  - ro.vendor.vibrator.hal.dvl.q.factor = 3
+  - ro.vendor.vibrator.hal.dvl.q.factor = 4
   - ro.vendor.vibrator.hal.f0.comp.enabled
   - ro.vendor.vibrator.hal.gpio.num = 44
   - ro.vendor.vibrator.hal.gpio.shift = 2
@@ -422,12 +453,14 @@ sysprop_inclusions:
   - ro.vendor.vibrator.hal.loc.coeff.folded
   - ro.vendor.vibrator.hal.long.frequency.shift = 0
   - ro.vendor.vibrator.hal.long.frequency.shift = 15
+  - ro.vendor.vibrator.hal.lra.max.voltage = 11
   - ro.vendor.vibrator.hal.redc.comp.enabled = 0
   - ro.vendor.wifi.sap.interface = wlan1
   - ro.zram.first_wb_delay_mins = 1440
   - ro.zram.mark_idle_delay_mins = 60
   - ro.zram.periodic_wb_delay_hours = 24
   - ro.zram_backing_device_min_free_mb = 1536
+  - setupwizard.theme = glif_expressive # TODO consider moving it to base OS
   - suspend.max_sleep_time_millis = 40000
   - suspend.short_suspend_backoff_enabled = true
   - suspend.short_suspend_threshold_millis = 2000
@@ -516,8 +549,8 @@ sysprop_inclusions:
   - vendor.primarydisplay.lhbm.frames_to_reach_peak_brightness = 0
   - vendor.primarydisplay.lhbm.frames_to_reach_peak_brightness = 2
   - vendor.primarydisplay.op.hs_hz = 120
-  - vendor.primarydisplay.op.ns_hz = 60
   - vendor.primarydisplay.op.ns_hz = 120
+  - vendor.primarydisplay.op.ns_hz = 60
   - vendor.primarydisplay.op.ns_min_dbv = 1172
   - vendor.primarydisplay.op.peak_refresh_rate = 60
   - vendor.qcom.bluetooth.soc = hastings

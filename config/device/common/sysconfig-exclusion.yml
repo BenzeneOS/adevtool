@@ -8,6 +8,11 @@ sysconfig_exclusions:
   - <allow-association target="com.google.android.as" allowed="com.android.providers.media"/>
   - <allow-association target="com.google.android.as" allowed="com.android.providers.telephony"/>
   - <allow-association target="com.google.android.as" allowed="com.android.systemui"/>
+  - <allow-association target="com.google.android.apps.pixel.nowplaying" allowed="com.google.android.as"/>
+  - <allow-association target="com.google.android.apps.pixel.nowplaying" allowed="com.google.android.as.oss"/>
+  - <allow-association target="com.google.android.as" allowed="com.google.android.apps.pixel.nowplaying"/>
+  - <allow-association target="com.google.android.as.oss" allowed="com.google.android.apps.pixel.nowplaying"/>
+  - <allow-association target="com.google.android.glasses.secure" allowed="com.google.android.as.oss"/>
   - <allow-association target="com.google.android.as" allowed="com.google.android.as.oss"/>
   - <allow-association target="com.google.android.as" allowed="com.google.android.bluetooth"/>
   - <allow-association target="com.google.android.as" allowed="com.google.android.bluetooth.services"/>

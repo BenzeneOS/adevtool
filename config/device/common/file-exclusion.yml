@@ -131,6 +131,7 @@ filters:
       - system/apex/com.google.android.rkpd.apex
       - system/apex/com.google.android.scheduling.apex
       - system/apex/com.google.android.sdkext.apex
+      - system/apex/com.google.android.telephonycore.apex
       - system/apex/com.google.android.tethering.apex
       - system/apex/com.google.android.tzdata6.apex
       - system/apex/com.google.android.uprobestats.apex

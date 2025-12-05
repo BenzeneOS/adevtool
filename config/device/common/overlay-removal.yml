@@ -29,6 +29,7 @@ filters:
       - FaceEnroll
       - Flipendo
       - GoogleDeviceLockControllerOverlay
+      - IdentityCheckOverlay
       - PixelSetupWizardOverlay
       - PixelSupport
       - RepairMode__
@@ -53,12 +54,16 @@ filters:
       - "android:array/config_notificationMsgPkgsAllowedAsConvos =\ " # already empty in fw/base
       - "android:string/config_secondaryLocationTimeZoneProviderPackageName =\ "
       - android:array/config_accessComputerControlKnownSigners = 1975B2F17177BC89A5DFF31F9E64A6CAE281A53DC1D1D59B1D147FE1C82AFA00;7075F275C3B82619A37B1FA393B8F9D793F0B3F55148C6251AA959C340BB74B4;103938EE4537E59E8EE792F654504FB8346FC6B346D0BBC4415FC339FCFC8EC1
+      - android:array/config_accessComputerControlKnownSigners = 1975B2F17177BC89A5DFF31F9E64A6CAE281A53DC1D1D59B1D147FE1C82AFA00;7075F275C3B82619A37B1FA393B8F9D793F0B3F55148C6251AA959C340BB74B4;B8EAA018CA7394FD47A3FA7F1FEB7A6C570CD55D9FE968BC3829062B6656AE32;103938EE4537E59E8EE792F654504FB8346FC6B346D0BBC4415FC339FCFC8EC1
       - android:array/config_allowedSecureInstantAppSettings = advertising_id;limit_ad_tracking
+      - android:array/config_appFunctionDeviceSettingsPackages = com.android.settings;com.google.android.permissioncontroller;com.google.android.apps.wellbeing
       - android:array/config_appFunctionsDeviceSettingsPackages = com.android.settings;com.google.android.permission;com.google.android.apps.wellbeing
       - android:array/config_backupHealthConnectDataAndSettingsKnownSigners = 4F59009D33D5B8C60E4B14623A771EBA08E5C02D2F0A124DE8D184AA9DAF00B4;5F2391277B1DBD489000467E4C2FA6AF802430080457DCE2F618992E9DFB5402;3B062A8FD947C2574749F6609E51D29C4C86525248DD94A3D5D6CD8C338A4D84
       - android:array/config_batteryPackageTypeService = com.google.android.gms
+      - android:array/config_biometric_protected_package_names = com.google.android.crossdeviceaccessservice
       - android:array/config_companionDeviceCerts = 48:ED:00:58:D1:B6:63:8E:39:A6:E4:C2:DF:1C:4D:5F:DF:59:3F:69:6B:F3:1B:09:A8:8F:93:14:1E:AF:60:0F
       - android:array/config_companionDevicePackages = com.google.android.apps.wear.companion
+      - android:array/config_defaultAppFunctionAgentAllowlist = com.google.android.googlequicksearchbox
       - android:array/config_defaultCloudSearchServices = com.android.vending/com.google.android.finsky.cloudsearch.PlayCloudSearchService;com.android.chrome/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService;com.chrome.canary/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService;com.chrome.dev/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService;com.chrome.beta/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService
       - android:array/config_defaultFirstUserRestrictions = no_oem_unlock
       - android:array/config_defaultPinnerServiceFiles|*
@@ -78,18 +83,18 @@ filters:
       - android:array/config_locationProviderPackageNames = com.google.android.gms;com.android.location.fused
       - android:array/config_loggable_dream_prefixes = com.google.;com.android.
       - android:array/config_mobile_hotspot_provision_app|mcc204-mnc4 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
-      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc4 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
-      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc30 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
-      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc70 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
-      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc90 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - android:array/config_mobile_hotspot_provision_app|mcc310-mnc120 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - android:array/config_mobile_hotspot_provision_app|mcc310-mnc150 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - android:array/config_mobile_hotspot_provision_app|mcc310-mnc170 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - android:array/config_mobile_hotspot_provision_app|mcc310-mnc280 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc30 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - android:array/config_mobile_hotspot_provision_app|mcc310-mnc380 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc4 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - android:array/config_mobile_hotspot_provision_app|mcc310-mnc410 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - android:array/config_mobile_hotspot_provision_app|mcc310-mnc560 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - android:array/config_mobile_hotspot_provision_app|mcc310-mnc680 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc70 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - android:array/config_mobile_hotspot_provision_app|mcc310-mnc90 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - android:array/config_mobile_hotspot_provision_app|mcc311-mnc180 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - android:array/config_mobile_hotspot_provision_app|mcc311-mnc480 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - android:array/config_mobile_hotspot_provision_app|mcc311-mnc490 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
@@ -229,16 +234,20 @@ filters:
       - android:string/config_defaultRotationResolverService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiRotationResolverService
       - android:string/config_defaultSearchSelectorPackageName = com.google.android.apps.setupwizard.searchselector
       - android:string/config_defaultSearchUiService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSearchUiService
+      - android:string/config_defaultSelectToSpeakService = com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService
       - android:string/config_defaultSmartspaceService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService
       - android:string/config_defaultSms = com.google.android.apps.messaging
       - android:string/config_defaultSupervisionProfileOwnerComponent = com.google.android.gms/.kids.account.receiver.ProfileOwnerReceiver
       - android:string/config_defaultSystemCaptionsManagerService = com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService
       - android:string/config_defaultTextClassifierPackage = com.google.android.as
       - android:string/config_defaultTranslationService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiTranslationService
+      - android:string/config_defaultVoiceAccessService = com.google.android.apps.accessibility.voiceaccess/com.google.android.apps.accessibility.voiceaccess.JustSpeakService
       - android:string/config_defaultWallet = com.google.android.gms
       - android:string/config_defaultWallpaperEffectsGenerationService = com.google.android.as/com.google.android.apps.miphone.aiai.app.wallpapereffects.AiAiWallpaperEffectsGenerationService
       - android:string/config_defaultWearableSensingService = com.google.android.glasses.core/com.google.android.projection.core.secure.TrustedAmbientSensingService
       - android:string/config_defaultWellbeingPackage = @string/config_systemWellbeing
+      - android:string/config_developerVerificationPolicyDelegatePackageName = com.google.android.gms
+      - android:string/config_developerVerificationServiceProviderPackageName = com.google.android.verifier
       - android:string/config_deviceConfiguratorPackageName = com.google.android.gms
       - android:string/config_devicePolicyManagement = com.google.android.apps.work.clouddpc:23962F4B43B9857638EA66F4D419518EAE282491ACDA4B94707BD59003C45E58
       - android:string/config_devicePolicyManagementUpdater = com.google.android.gms
@@ -263,18 +272,18 @@ filters:
       - android:string/config_intrusionDetectionEventTransport = com.google.android.gms/.intrusiondetection.service.IntrusionDetectionEventTransportService
       - android:string/config_loggable_dream_prefixes|*
       - android:string/config_mobile_hotspot_provision_app_no_ui|mcc204-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
-      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
-      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc30 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
-      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc70 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
-      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc90 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc120 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc150 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc170 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc280 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc30 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc380 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc410 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc560 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc680 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc70 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - android:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc90 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - android:string/config_mobile_hotspot_provision_app_no_ui|mcc311-mnc180 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - android:string/config_mobile_hotspot_provision_app_no_ui|mcc311-mnc480 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - android:string/config_mobile_hotspot_provision_app_no_ui|mcc311-mnc490 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
@@ -287,18 +296,18 @@ filters:
       - android:string/config_mobile_hotspot_provision_app_no_ui|mcc313-mnc130 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - android:string/config_mobile_hotspot_provision_app_no_ui|mcc313-mnc140 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - android:string/config_mobile_hotspot_provision_response|mcc204-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
-      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
-      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc30 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
-      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc70 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
-      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc90 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - android:string/config_mobile_hotspot_provision_response|mcc310-mnc120 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - android:string/config_mobile_hotspot_provision_response|mcc310-mnc150 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - android:string/config_mobile_hotspot_provision_response|mcc310-mnc170 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - android:string/config_mobile_hotspot_provision_response|mcc310-mnc280 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc30 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - android:string/config_mobile_hotspot_provision_response|mcc310-mnc380 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - android:string/config_mobile_hotspot_provision_response|mcc310-mnc410 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - android:string/config_mobile_hotspot_provision_response|mcc310-mnc560 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - android:string/config_mobile_hotspot_provision_response|mcc310-mnc680 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc70 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - android:string/config_mobile_hotspot_provision_response|mcc310-mnc90 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - android:string/config_mobile_hotspot_provision_response|mcc311-mnc180 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - android:string/config_mobile_hotspot_provision_response|mcc311-mnc480 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - android:string/config_mobile_hotspot_provision_response|mcc311-mnc490 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
@@ -366,6 +375,7 @@ filters:
       - android:string/proximity_provider_service_package_name = com.google.android.crossdeviceaccessservice
       - android:string/safety_protection_display_text|*
       - android:string/satellite_access_config_file = /vendor/etc/telephony/satellite_access_config.json
+      - android:string/trusted_location_settings_action = com.google.android.gms.significantplaces.settings.TRUSTED_PLACES_SETTINGS
       - android:string/widget_default_class_name = com.android.alarmclock.DigitalAppWidgetProvider
       - android:string/widget_default_package_name = com.google.android.deskclock
       - android:xml/bookmarks|*
@@ -382,18 +392,18 @@ filters:
       - com.android.documentsui/DocumentsUICustomization:string/trusted_quick_viewer_package = com.google.android.apps.docs
       - com.android.managedprovisioning/ManagedProvisioning:xml/overlays|*
       - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc204-mnc4 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
-      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc4 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
-      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc30 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
-      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc70 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
-      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc90 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc120 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc150 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc170 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc280 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc30 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc380 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc4 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc410 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc560 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc680 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc70 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
+      - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc310-mnc90 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc311-mnc180 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc311-mnc480 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc311-mnc490 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
@@ -408,18 +418,18 @@ filters:
       - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc313-mnc790 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - com.android.networkstack.tethering/TetheringConfig:array/config_mobile_hotspot_provision_app|mcc440-mnc20 = com.google.android.tetheringentitlement;com.google.android.tetheringentitlement.CarrierEntitlementActivity
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc204-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
-      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
-      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc30 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
-      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc70 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
-      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc90 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc120 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc150 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc170 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc280 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc30 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc380 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc410 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc560 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc680 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc70 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc310-mnc90 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc311-mnc180 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc311-mnc480 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc311-mnc490 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
@@ -434,18 +444,18 @@ filters:
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc313-mnc790 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_app_no_ui|mcc440-mnc20 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc204-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
-      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
-      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc30 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
-      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc70 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
-      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc90 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc120 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc150 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc170 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc280 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc30 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc380 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc4 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc410 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc560 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc680 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc70 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
+      - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc310-mnc90 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc311-mnc180 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc311-mnc480 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
       - com.android.networkstack.tethering/TetheringConfig:string/config_mobile_hotspot_provision_response|mcc311-mnc490 = com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT
@@ -499,10 +509,10 @@ filters:
       - com.android.settings:bool/config_suw_support_face_enroll|*
       - com.android.settings:xml/overlays|*
       - com.android.simappdialog:bool/show_sim_app_dialog_illo = true
+      - com.android.simappdialog:drawable/$illo_sim_app_dialog__0|*
       - com.android.simappdialog:drawable/$illo_sim_app_dialog__1|*
       - com.android.simappdialog:drawable/$illo_sim_app_dialog__2|*
       - com.android.simappdialog:drawable/$illo_sim_app_dialog__3|*
-      - com.android.simappdialog:drawable/$illo_sim_app_dialog__0|*
       - com.android.simappdialog:drawable/illo_sim_app_dialog|*
       - com.android.simappdialog:string/install_carrier_app_image_content_description|* # "Illustration featuring Google Play logo"
       - com.android.storagemanager:bool/config_hspa_data_distinguishable|*

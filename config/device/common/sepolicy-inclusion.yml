@@ -20,14 +20,20 @@ sepolicy_inclusions:
         - /system_ext/bin/convert_to_ext4\.sh u:object_r:convert-to-ext4-sh_exec:s0
         - /system_ext/bin/gs_watchdogd u:object_r:gs_watchdogd_exec:s0
         - /system_ext/bin/hw/vendor\.google\.whitechapel\.audio\.hal\.parserservice u:object_r:hal_audio_parameter_parser_exec:s0
+        - /system_ext/bin/hw/vendor\.google\.edgetpu_app_service@1\.0-service u:object_r:edgetpu_app_server_exec:s0
       system_ext_seapp_contexts:
+        - user=_app isPrivApp=true name=com.google.android.rilextension domain=rilextensionservice_app levelFrom=all
+        - user=_app isPrivApp=true name=com.shannon.rcsservice domain=vendor_rcs_app levelFrom=all
+        - user=_app isPrivApp=true name=com.shannon.rcsservice:shannonrcsservice domain=vendor_rcs_service_app levelFrom=all
         - user=_app isPrivApp=true name=com.google.android.euicc domain=euicc_app type=privapp_data_file levelFrom=user
         - user=_app isPrivApp=true seinfo=uwb name=com.qorvo.uwb.vendorservice domain=uwb_vendor_app type=uwb_vendor_data_file levelFrom=all
         - user=_app seinfo=platform name=com.android.hbmsvmanager domain=hbmsvmanager_app type=app_data_file levelFrom=all
         - user=_app seinfo=platform name=com.android.pixeldisplayservice domain=pixeldisplayservice_app type=app_data_file levelFrom=all
         - user=_app seinfo=platform name=com.android.systemui domain=systemui_app type=app_data_file levelFrom=all
+        - user=_app isPrivApp=true name=com.shannon.rcsservice:shannonrcsservice domain=vendor_rcs_app levelFrom=all
         - user=_app seinfo=platform name=com.android.systemui:* domain=systemui_app type=app_data_file levelFrom=all
       system_ext_service_contexts:
+        - com.google.edgetpu.IEdgeTpuAppService/default u:object_r:edgetpu_app_service:s0
         - android.media.audio.IHalAdapterVendorExtension/default u:object_r:hal_audio_parameter_parser_service:s0
     mac_permissions_entries:
       - |-
@@ -36,7 +42,25 @@ sepolicy_inclusions:
         </signer>
   vendor:
     contexts:
+      vendor_property_contexts:
+        - vendor.display. u:object_r:vendor_display_prop:s0
+        - persist.vendor.fingerprint. u:object_r:vendor_fingerprint_prop:s0
       vendor_file_contexts:
+        - /data/vendor/trusty/coverage(/.*)? u:object_r:trusty_coverage_data_file:s0
+        - /vendor/bin/hw/vendor\.google\.ambience_hub-service u:object_r:ambience_hub_default_exec:s0
+        - /vendor/bin/hw/vendor\.google\.google_battery.ekf.service u:object_r:hal_googlebattery_ekf_exec:s0
+        - /vendor/bin/trusty-coverage-controller u:object_r:trusty_coverage_controller_exec:s0
+        - /data/vendor/sensors(/.*)? u:object_r:sensor_data_file:s0
+        - /dev/acd-chre_data_rx_nonwake u:object_r:aoc_device:s0
+        - /dev/acd-com.google.usf.a3 u:object_r:aoc_device:s0
+        - /dev/acd-com.google.usf.a3.non_wake_up u:object_r:aoc_device:s0
+        - /dev/acd-com.google.usf.sc u:object_r:aoc_device:s0
+        - /dev/acd-com.google.usf.sc.non_wake_up u:object_r:aoc_device:s0
+        - /dev/logbuffer_btwakelock0 u:object_r:logbuffer_device:s0
+        - /dev/logbuffer_btwakelock1 u:object_r:logbuffer_device:s0
+        - /vendor/bin/hw/android\.hardware\.dumpstate\.3-service u:object_r:hal_dumpstate_default_exec:s0
+        - /vendor/bin/hw/cs40l26_vibrator_server u:object_r:hal_vibrator_default_exec:s0
+        - /vendor/lib64/com\.google\.edgetpu_app_service-V[1-6]-ndk\.so u:object_r:same_process_hal_file:s0
         - /(vendor|sustem/vendor)/bin/hw/android\.hardware\.confirmationui@1\.0-service u:object_r:hal_confirmationui_default_exec:s0
         - /(vendor|system/vendor)/bin/bipchmgr u:object_r:bipchmgr_exec:s0
         - /(vendor|system/vendor)/bin/cbd u:object_r:cbd_exec:s0
@@ -972,6 +996,8 @@ sepolicy_inclusions:
         - /vendor/lib64/pixel-power-ext-V1-ndk\.so u:object_r:same_process_hal_file:s0
         - /vendor/lib64/vendor-pixelatoms-cpp\.so u:object_r:same_process_hal_file:s0
         - /vendor_dlkm/lib/modules/.*\.ko u:object_r:vendor_kernel_modules:s0
+        - /dev/edgetpu-limited u:object_r:edgetpu_device:s0
+        - /dev/logbuffer_bms_vimon u:object_r:logbuffer_device:s0
       vendor_hwservice_contexts:
         - com.fingerprints42.extension::IFingerprintEngineering u:object_r:hal_fingerprint_capacitance_ext_hwservice:s0
         - com.fingerprints42.extension::IFingerprintSensorTest u:object_r:hal_fingerprint_capacitance_ext_hwservice:s0
@@ -999,7 +1025,6 @@ sepolicy_inclusions:
       vendor_seapp_contexts:
         - user=_app isPrivApp=true name=.ShannonImsService domain=vendor_ims_app levelFrom=all
         - user=_app isPrivApp=true name=com.google.android.grilservice domain=grilservice_app levelFrom=all
-        - user=_app isPrivApp=true name=com.google.android.rilextension domain=rilextensionservice_app levelFrom=all
         - user=_app isPrivApp=true name=com.google.pixel.digitalkey.timesync domain=vendor_cccdktimesync_app type=app_data_file levelFrom=
         - user=_app isPrivApp=true name=com.google.pixel.digitalkey.timesync domain=vendor_cccdktimesync_app type=app_data_file levelFrom=all
         - user=_app isPrivApp=true name=com.samsung.slsi.telephony.oemril domain=oemrilservice_app levelFrom=all
@@ -1017,6 +1042,8 @@ sepolicy_inclusions:
         - user=_app isPrivApp=true seinfo=uwb name=com.qorvo.uwb.vendorservice domain=uwb_vendor_app type=uwb_vendor_data_file levelFrom=all
         - user=radio isPrivApp=true seinfo=platform name=com.google.RilConfigService domain=ril_config_service_app type=app_data_file
       vendor_service_contexts:
+        - vendor.google.ambience_hub.IAmbienceHubConsumerManager/default u:object_r:hal_ambience_hub_service:s0
+        - vendor.google.ambience_hub.IAmbienceHubProducerManager/default u:object_r:hal_ambience_hub_service:s0
         - android.hardware.drm.IDrmFactory/castkey u:object_r:hal_drm_service:s0
         - android.hardware.drm.IDrmFactory/widevine u:object_r:hal_drm_service:s0
         - android.hardware.gnss.IGnss/vendor u:object_r:hal_gnss_service:s0
