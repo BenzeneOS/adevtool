@@ -3,6 +3,5 @@ type: device-list
 devices:
   - felix.yml
   - tangorpro.yml
-  - lynx.yml
   - cheetah.yml
   - panther.yml
