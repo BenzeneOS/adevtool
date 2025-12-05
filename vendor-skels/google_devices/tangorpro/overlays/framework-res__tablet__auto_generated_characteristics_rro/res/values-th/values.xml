@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">เข้าถึงการตั้งค่านี้ใน %1$s ของคุณไม่ได้ โปรดลองเข้าถึงในแท็บเล็ตแทน</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">การตั้งค่าแท็บเล็ตไม่พร้อมใช้งาน</string>
     <string name="battery_saver_charged_notification_summary">แท็บเล็ตมีแบตเตอรี่เพียงพอ ไม่มีการจำกัดฟีเจอร์แล้ว</string>
+    <string name="biometric_dialog_secondary_display_toast">ยืนยันว่าเป็นคุณในแท็บเล็ตเพื่อดำเนินการต่อ</string>
     <string name="default_audio_route_name">แท็บเล็ต</string>
     <string name="enable_explore_by_touch_warning_message">"%1$s ต้องการเปิดใช้งาน \"สำรวจโดยการแตะ\" เมื่อเปิดใช้งานแล้ว คุณสามารถฟังหรือดูคำอธิบายของสิ่งที่อยู่ใต้นิ้วข​​องคุณ หรือใช้ท่าทางสัมผัสต่างๆ เพื่อโต้ตอบกับแท็บเล็ตได้"</string>
     <string name="global_actions">ตัวเลือกของแท็บเล็ต</string>

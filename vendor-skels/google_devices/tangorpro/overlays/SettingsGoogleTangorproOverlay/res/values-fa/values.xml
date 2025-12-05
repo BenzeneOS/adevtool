@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">‏این دستگاه را به Pixel Tablet نزدیک‌تر کنید و دوباره امتحان کنید.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">‏قاب هدفون توگوشی را باز و به Pixel Tablet نزدیک‌تر کنید، سپس دوباره امتحان کنید.</string>
     <string name="sound_dashboard_summary">میزان صدا</string>
-    <string name="sound_dashboard_summary_with_dnd">میزان صدا، «مزاحم نشوید»</string>
     <string name="sound_settings">صدا</string>
 </resources>

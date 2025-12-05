@@ -26,7 +26,6 @@
     <bool name="config_wifiEnablePartialInitialScan">true</bool>
     <bool name="config_wifiEnableStaDfsChannelForPeerNetwork">true</bool>
     <bool name="config_wifiEnableStaIndoorChannelForPeerNetwork">false</bool>
-    <bool name="config_wifiFrameworkSoftApDisableBridgedModeShutdownIdleInstanceWhenCharging">true</bool>
     <bool name="config_wifiMinConfirmationDurationSendNetworkScoreEnabled">true</bool>
     <bool name="config_wifiSaeH2eSupported">true</bool>
     <bool name="config_wifiSaeUpgradeOffloadEnabled">true</bool>

@@ -1,5 +1,5 @@
 canonical_name: "simyo_es"
-version: 72000000006
+version: 73000000008
 apns {
   apn {
     name: "internet simyo"
@@ -42,7 +42,8 @@ configs {
   config {
     key: "carrier_certificate_string_array"
     text_array {
-      item: "B67AFFCDA89E3193B1595036D7C6CDBE22BE5CA24C9F6CF93FC6B48F91D7310D:com.orange.phone,com.orange.miorange,com.orange.bluu.jazztel,com.orange.miamena,com.orange.update"
+      item: "ea37f9873dfee6b6612f41f1cc88f37edb9150388bf810a73087ce58786d2251:com.simyo,com.simyo.staging"
+      item: "dfbd378c05733f6e85ed6f048c97c587282eb41bc8e0eb0a4734b7bb85827597:com.simyo.debug,com.simyo.staging.debug"
     }
   }
   config {
@@ -121,8 +122,9 @@ configs {
             key: "imsvoice.amr_codec_attribute_modeset_int_array"
             int_array {
               item: 0
-              item: 3
-              item: 6
+              item: 2
+              item: 4
+              item: 7
             }
           }
         }
@@ -134,8 +136,9 @@ configs {
             key: "imsvoice.amr_codec_attribute_modeset_int_array"
             int_array {
               item: 0
-              item: 3
-              item: 6
+              item: 2
+              item: 4
+              item: 7
             }
           }
           config {
@@ -378,5 +381,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1730276150
+  seconds: 1757476321
 }

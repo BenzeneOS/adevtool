@@ -1,5 +1,5 @@
 canonical_name: "boosttmo_us"
-version: 72000000018
+version: 73000000018
 apns {
   apn {
     name: "Internet"
@@ -671,6 +671,10 @@ configs {
     int_value: 3
   }
   config {
+    key: "vonr_setting_visibility_bool"
+    bool_value: false
+  }
+  config {
     key: "wfc_carrier_name_override_by_pnn_bool"
     bool_value: true
   }
@@ -702,12 +706,6 @@ configs {
     }
   }
 }
-vendor_configs {
-  client {
-    name: "modem"
-    value: "\nv\n\027OEM_GCONFIG_PARIS_MODEL\022XZzU0MDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==\"\001\000\nA\n6PSS.AIMS.HANDLE.UNREL.SDP|DS.PSS.AIMS.HANDLE.UNREL.SDP\022\004Ag==\"\001\000\nx\n\031OEM_GCONFIG_PARIS_VERSION\022XZzU0MDBfdG1vYmlsZV8yMDBfMjAyNTA5MTAxMjQ4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==\"\001\005"
-  }
-}
 last_updated {
-  seconds: 1757596179
+  seconds: 1752617326
 }

@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">نمی‌توان در %1$s به این مورد دسترسی داشت. دسترسی به آن را در رایانه لوحی‌تان امتحان کنید.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">تنظیمات رایانه لوحی دردسترس نیست</string>
     <string name="battery_saver_charged_notification_summary">رایانه لوحی به‌اندازه کافی شارژ دارد. ویژگی‌ها دیگر محدود نمی‌شوند.</string>
+    <string name="biometric_dialog_secondary_display_toast">برای ادامه دادن، هویتتان را در رایانه لوحی درستی‌سنجی کنید</string>
     <string name="default_audio_route_name">رایانهٔ لوحی</string>
     <string name="enable_explore_by_touch_warning_message">%1$s می‌خواهد «کاوش با لمس» را فعال کند. وقتی «کاوش با لمس» فعال است، می‌توانید توضیحاتی را برای آنچه که زیر انگشت شما است مشاهده کرده یا بشنوید یا برای استفاده از رایانهٔ لوحی از حرکات استفاده کنید.</string>
     <string name="global_actions">گزینه‌های رایانهٔ لوحی</string>

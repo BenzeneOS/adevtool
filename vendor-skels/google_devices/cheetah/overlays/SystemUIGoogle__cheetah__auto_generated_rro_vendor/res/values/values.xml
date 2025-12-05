@@ -31,6 +31,7 @@
     <dimen name="status_bar_padding_top">1.0px</dimen>
     <dimen name="system_icons_keyguard_padding_end">6.5dp</dimen>
     <dimen name="system_icons_super_container_avatarless_margin_end">26.0px</dimen>
+    <integer name="config_keyguardRefreshRate">120</integer>
     <integer name="config_lockIconLongPress">100</integer>
     <string name="config_frontBuiltInDisplayCutoutProtection">M 662,72 a 57,57 0 1 0 114,0 a 57,57 0 1 0 -114,0 Z</string>
     <string name="config_protectedCameraId">1</string>

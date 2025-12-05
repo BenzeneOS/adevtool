@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Μεταφέρετε αυτή τη συσκευή πιο κοντά στο Pixel Tablet και δοκιμάστε ξανά.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Ανοίξτε τη θήκη για ακουστικά ψείρες, μεταφέρετε την πιο κοντά στο Pixel Tablet και έπειτα δοκιμάστε ξανά.</string>
     <string name="sound_dashboard_summary">Ένταση ήχου</string>
-    <string name="sound_dashboard_summary_with_dnd">Ένταση ήχου, λειτουργία Μην ενοχλείτε</string>
     <string name="sound_settings">Ήχος</string>
 </resources>

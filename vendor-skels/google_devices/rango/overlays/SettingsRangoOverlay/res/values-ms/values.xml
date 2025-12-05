@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">Hiasan latar skrin kunci boleh dilihat pada paparan dalaman apabila telefon dibuka lipatan</string>
+    <string name="doze_always_on_wallpaper_title">Tunjukkan hiasan latar pada paparan dalaman</string>
+</resources>

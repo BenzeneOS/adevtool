@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">આને તમારા %1$s પર ઍક્સેસ કરી શકાતી નથી. તેના બદલે તમારા ટૅબ્લેટ પર પ્રયાસ કરો.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">ટૅબ્લેટ સેટિંગ ઉપલબ્ધ નથી</string>
     <string name="battery_saver_charged_notification_summary">ટૅબ્લેટમાં પૂરતો ચાર્જ છે. સુવિધાઓ હવે મર્યાદિત નથી.</string>
+    <string name="biometric_dialog_secondary_display_toast">આગળ વધવા માટે તમારા ટૅબ્લેટ પર તમે જ હોવાની ચકાસણી કરો</string>
     <string name="default_audio_route_name">ટેબ્લેટ</string>
     <string name="enable_explore_by_touch_warning_message">%1$s ટચ દ્વારા અન્વેષણ કરવાને સક્ષમ કરવા માંગે છે. જ્યારે ટચ દ્વારા અન્વેષણ ચાલુ હોય ત્યારે તમે તમારી આંગળી નીચે જે છે તેનું વર્ણન જોઈ અથવા સાંભળી શકો છો અથવા ટેબ્લેટ સાથે ક્રિયાપ્રતિક્રિયા કરવા માટે હાવભાવ ભજવી શકો છો.</string>
     <string name="global_actions">ટેબ્લેટ વિકલ્પો</string>

@@ -1,5 +1,5 @@
 canonical_name: "telstra_au"
-version: 72000000020
+version: 73000000021
 apns {
   apn {
     name: "Telstra Broadband"
@@ -59,7 +59,7 @@ configs {
   }
   config {
     key: "carrier_default_wfc_ims_roaming_mode_int"
-    int_value: 1
+    int_value: 2
   }
   config {
     key: "carrier_metered_apn_types_strings"
@@ -372,5 +372,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1747816749
+  seconds: 1761338177
 }

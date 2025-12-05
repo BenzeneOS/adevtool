@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Mută dispozitivul mai aproape de Pixel Tablet și reîncearcă.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Deschide husa pentru căști intraauriculare și mut-o mai aproape de Pixel Tablet, apoi reîncearcă.</string>
     <string name="sound_dashboard_summary">Volum</string>
-    <string name="sound_dashboard_summary_with_dnd">Volum, Nu deranja</string>
     <string name="sound_settings">Sunet</string>
 </resources>

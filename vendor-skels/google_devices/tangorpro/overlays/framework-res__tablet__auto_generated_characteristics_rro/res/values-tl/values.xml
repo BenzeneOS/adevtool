@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Hindi ito maa-access sa iyong %1$s. Subukan na lang sa iyong tablet.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Hindi available ang mga setting ng tablet</string>
     <string name="battery_saver_charged_notification_summary">May sapat na charge ang tablet. Hindi na pinaghihigpitan ang mga feature.</string>
+    <string name="biometric_dialog_secondary_display_toast">I-verify sa iyong tablet na ikaw ito para magpatuloy</string>
     <string name="default_audio_route_name">Tablet</string>
     <string name="enable_explore_by_touch_warning_message">Nais i-enable ng %1$s ang Explore by Touch. Kapag naka-on ang Explore by Touch, maaari mong marinig o makita ang mga paglalarawan ng nasa ilalim ng iyong daliri o maaari kang magsagawa ng mga galaw upang makipag-ugnayan sa tablet.</string>
     <string name="global_actions">Mga pagpipilian sa tablet</string>

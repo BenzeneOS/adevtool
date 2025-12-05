@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">চার্জিং, সীমা, চার্জিং অপ্টিমাইজেশন, চার্জের সীমা</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">ব্যাটারির আয়ু বাড়াতে, আপনার ফোনের শুধুমাত্র {batteryLimitLevel}% ব্যাটারি চার্জ হবে। ব্যাটারির লেভেল সম্পর্কে রিপোর্ট করার যথার্থতা বজায় রাখতে আপনার ফোন প্রতি এক থেকে দুই সপ্তাহে একবার ১০০% চার্জ করা হবে।</string>
-    <string name="charging_optimization_summary_charge_limit">চার্জের সীমা {batteryLimitLevel}%</string>
+    <string name="charging_optimization_entry_summary_charge_limit">%1$s-এ সীমিত</string>
+    <string name="charging_optimization_footer_message_charge_limit">ব্যাটারির আয়ু বাড়াতে, আপনার ফোনের শুধুমাত্র %1$s ব্যাটারি চার্জ হবে। ব্যাটারির লেভেল সম্পর্কে রিপোর্ট করার যথার্থতা বজায় রাখতে আপনার ফোন প্রতি এক থেকে দুই সপ্তাহে একবার %2$s চার্জ করা হবে।</string>
     <string name="charging_optimization_summary_off">বন্ধ আছে</string>
     <string name="charging_optimization_title">চার্জিং অপ্টিমাইজেশন</string>
 </resources>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">ການສາກໄຟ, ຂີດຈຳກັດ, ການປັບປຸງການສາກໄຟ, ຂີດຈຳກັດການສາກໄຟ</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">ເພື່ອຊ່ວຍຍືດອາຍຸການນຳໃຊ້ແບັດເຕີຣີ, ໂທລະສັບຂອງທ່ານຈະສາກແບັດເຕີຣີຮອດ {batteryLimitLevel}% ເທົ່ານັ້ນ. ໂທລະສັບຂອງທ່ານຈະສາກຮອດ 100% ທຸກໆ 1-2 ອາທິດເພື່ອຮັກສາຄວາມຖືກຕ້ອງໃນການລາຍງານລະດັບແບັດເຕີຣີ.</string>
-    <string name="charging_optimization_summary_charge_limit">ຈຳກັດໄວ້ຢູ່ທີ່ {batteryLimitLevel}%</string>
+    <string name="charging_optimization_entry_summary_charge_limit">ຈຳກັດເປັນ %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">ເພື່ອຊ່ວຍຍືດອາຍຸການນຳໃຊ້ແບັດເຕີຣີ, ໂທລະສັບຂອງທ່ານຈະສາກແບັດເຕີຣີຮອດ %1$s ເທົ່ານັ້ນ. ໂທລະສັບຂອງທ່ານຈະສາກຮອດ %2$s ທຸກໆ 1 ຫາ 2 ອາທິດເພື່ອຮັກສາຄວາມຖືກຕ້ອງໃນການລາຍງານລະດັບແບັດເຕີຣີ.</string>
     <string name="charging_optimization_summary_off">ປິດ</string>
     <string name="charging_optimization_title">ການເພີ່ມປະສິດທິພາບການສາກໄຟ</string>
 </resources>

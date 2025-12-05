@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">Wallpaper layar kunci dapat dilihat di layar dalam saat ponsel dibentangkan</string>
+    <string name="doze_always_on_wallpaper_title">Tampilkan wallpaper di layar dalam</string>
+</resources>

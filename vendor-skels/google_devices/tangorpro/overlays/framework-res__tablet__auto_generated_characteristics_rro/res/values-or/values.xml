@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">ଏହାକୁ ଆପଣଙ୍କ %1$sରେ ଆକ୍ସେସ କରାଯାଇପାରିବ ନାହିଁ। ଏହା ପରିବର୍ତ୍ତେ ଆପଣଙ୍କ ଟାବଲେଟରେ ଚେଷ୍ଟା କରନ୍ତୁ।</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">ଟାବଲେଟ ସେଟିଂସ ଉପଲବ୍ଧ ନାହିଁ</string>
     <string name="battery_saver_charged_notification_summary">ଟାବଲେଟରେ ଯଥେଷ୍ଟ ଚାର୍ଜ ଅଛି। ଫିଚରଗୁଡ଼ିକ ଆଉ ପ୍ରତିବନ୍ଧିତ ନୁହେଁ।</string>
+    <string name="biometric_dialog_secondary_display_toast">ଜାରି ରଖିବା ପାଇଁ ଆପଣଙ୍କ ଟାବଲେଟରେ ଏହା ଆପଣ ବୋଲି ଯାଞ୍ଚ କରନ୍ତୁ</string>
     <string name="default_audio_route_name">ଟାବଲେଟ୍‌</string>
     <string name="enable_explore_by_touch_warning_message">%1$s ’ସ୍ପର୍ଶ କରି ଏକ୍ସପ୍ଲୋର୍ କରନ୍ତୁ’ ସକ୍ଷମ କରିବାକୁ ଚାହେଁ। ’ସ୍ପର୍ଶ କରି ଏକ୍ସପ୍ଲୋର୍ କରନ୍ତୁ’ ଅନ୍‌ ଥିବାବେଳେ, ଆପଣଙ୍କ ଆଙ୍ଗୁଠି ତଳେ କ’ଣ ଅଛି, ତାହାର ବ୍ୟାଖ୍ୟା ଦେଖିପାରିବେ କିମ୍ବା ଟାବ୍‍ଲେଟ୍‍ ସହ କଥାବାର୍ତ୍ତା କରିବାକୁ ଜେଶ୍ଚର୍‌ କରିପାରିବେ।</string>
     <string name="global_actions">ଟାବଲେଟ ବିକଳ୍ପ</string>

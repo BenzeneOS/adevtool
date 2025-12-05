@@ -1,5 +1,5 @@
 canonical_name: "48_ie"
-version: 71000000001
+version: 73000000001
 apns {
   apn {
     name: "48 Internet"

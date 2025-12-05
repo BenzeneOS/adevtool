@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">لا يمكن الوصول إلى هذه الإعدادات على %1$s. بدلاً من ذلك، جرِّب استخدام جهازك اللوحي.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">إعدادات الجهاز اللوحي غير متاحة</string>
     <string name="battery_saver_charged_notification_summary">تم شحن الجهاز اللوحي بدرجة كافية وتفعيل الميزات مرة أخرى</string>
+    <string name="biometric_dialog_secondary_display_toast">يجب إثبات هويتك على جهازك اللوحي للمتابعة</string>
     <string name="default_audio_route_name">الجهاز اللوحي</string>
     <string name="enable_explore_by_touch_warning_message">‏يريد %1$s تفعيل ميزة Explore by Touch. عند تفعيل ميزة Explore by Touch، سيكون بإمكانك سماع أو مشاهدة أوصاف لما تحت إصبعك أو إجراء إيماءات للتفاعل مع الجهاز اللوحي.</string>
     <string name="global_actions">خيارات الجهاز اللوحي</string>

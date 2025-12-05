@@ -33,8 +33,10 @@ BOARD_KERNEL_CMDLINE += \
     swiotlb=1024 \
     cgroup.memory=nokmem \
     disable_dma32=on \
+    rodata=on \
     at24.write_timeout=100 \
     log_buf_len=1024K \
+    android_arch_task_struct_size=512 \
     bootconfig
 
 BOARD_INIT_BOOT_HEADER_VERSION := 4

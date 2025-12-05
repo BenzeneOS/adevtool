@@ -1,5 +1,5 @@
 canonical_name: "tmobile_cz"
-version: 72000000598
+version: 73000000600
 apns {
   apn {
     name: "IMS"
@@ -79,7 +79,7 @@ configs {
   }
   config {
     key: "imsemergency.emergency_registration_timer_millis_int"
-    int_value: 3000
+    int_value: 5000
   }
   config {
     key: "imsss.ut_iptype_roaming_int"
@@ -234,9 +234,13 @@ configs {
   }
   config {
     key: "wfc_spn_format_idx_int"
-    int_value: 1
+    int_value: 4
+  }
+  config {
+    key: "wfc_spn_use_root_locale"
+    bool_value: true
   }
 }
 last_updated {
-  seconds: 1747816737
+  seconds: 1756276427
 }

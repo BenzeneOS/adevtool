@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Perkelkite šį įrenginį arčiau „Pixel Tablet“ ir bandykite dar kartą.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Atidarykite ausinių dėklą ir perkelkite arčiau „Pixel Tablet“, tada bandykite dar kartą.</string>
     <string name="sound_dashboard_summary">Garsumas</string>
-    <string name="sound_dashboard_summary_with_dnd">Garsumas, netrukdymo režimas</string>
     <string name="sound_settings">Garsas</string>
 </resources>

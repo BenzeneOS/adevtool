@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Паднясіце гэту прыладу бліжэй да Pixel Tablet і паўтарыце спробу.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Адкрыйце чахол для навушнікаў, паднясіце яго бліжэй да Pixel Tablet і паўтарыце спробу.</string>
     <string name="sound_dashboard_summary">Гучнасць</string>
-    <string name="sound_dashboard_summary_with_dnd">"Гучнасць, рэжым \"Не турбаваць\""</string>
     <string name="sound_settings">Гук</string>
 </resources>

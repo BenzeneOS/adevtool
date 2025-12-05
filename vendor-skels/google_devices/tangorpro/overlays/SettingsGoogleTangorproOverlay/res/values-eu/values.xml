@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Hurbildu gailua Pixel Tablet-era eta saiatu berriro.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Ireki aurikularretarako kutxa eta hurbil ezazu Pixel Tablet-era. Gero, saiatu berriro.</string>
     <string name="sound_dashboard_summary">Bolumena</string>
-    <string name="sound_dashboard_summary_with_dnd">Bolumena, ez molestatzeko modua</string>
     <string name="sound_settings">Soinua</string>
 </resources>

@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Nu se poate accesa pe %1$s. Încearcă pe tabletă.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Setările pentru tabletă sunt indisponibile</string>
     <string name="battery_saver_charged_notification_summary">Tableta este încărcată suficient. Funcțiile nu mai sunt limitate.</string>
+    <string name="biometric_dialog_secondary_display_toast">Confirmă-ți identitatea pe tabletă pentru a continua</string>
     <string name="default_audio_route_name">Tabletă</string>
     <string name="enable_explore_by_touch_warning_message">%1$s vrea să activeze funcția Explorează prin atingere. Când e activată, poți auzi sau vedea descrieri pentru ceea ce se află sub degetul tău sau poți face gesturi pentru a interacționa cu tableta.</string>
     <string name="global_actions">Opțiuni tablet PC</string>

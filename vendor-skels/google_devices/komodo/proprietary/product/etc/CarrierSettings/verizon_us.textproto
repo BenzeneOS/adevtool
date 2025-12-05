@@ -1,5 +1,5 @@
 canonical_name: "verizon_us"
-version: 72000000024
+version: 73000000026
 apns {
   apn {
     name: "Verizon"
@@ -158,6 +158,10 @@ configs {
   config {
     key: "allow_metered_network_for_cert_download_bool"
     bool_value: true
+  }
+  config {
+    key: "avoid_bad_wifi_bool"
+    bool_value: false
   }
   config {
     key: "boosted_lte_earfcns_string_array"
@@ -1105,6 +1109,7 @@ configs {
   config {
     key: "qns.enable_minimum_guarding_timer_after_connected_apn_string_array"
     text_array {
+      item: "ims"
       item: "emergency"
     }
   }
@@ -1422,6 +1427,10 @@ configs {
     int_value: 3
   }
   config {
+    key: "vonr_enabled_bool"
+    bool_value: true
+  }
+  config {
     key: "vt_upgrade_supported_for_downgraded_rtt_call"
     bool_value: false
   }
@@ -1460,5 +1469,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1749144181
+  seconds: 1752617326
 }

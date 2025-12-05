@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">充電, 制限, 充電の最適化, 充電の制限</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">バッテリーを長持ちさせるために、スマートフォンのバッテリーを {batteryLimitLevel}% まで充電します。バッテリー残量を正確に表示するために、1～2 週間に 1 回、スマートフォンを 100% まで充電します。</string>
-    <string name="charging_optimization_summary_charge_limit">充電の上限: {batteryLimitLevel}%</string>
+    <string name="charging_optimization_entry_summary_charge_limit">%1$s に制限</string>
+    <string name="charging_optimization_footer_message_charge_limit">バッテリーを長持ちさせるために、スマートフォンのバッテリーを %1$s まで充電します。ただし、バッテリー残量を正確に表示するために、1～2 週間に 1 回はスマートフォンを %2$s まで充電します。</string>
     <string name="charging_optimization_summary_off">OFF</string>
     <string name="charging_optimization_title">充電の最適化</string>
 </resources>

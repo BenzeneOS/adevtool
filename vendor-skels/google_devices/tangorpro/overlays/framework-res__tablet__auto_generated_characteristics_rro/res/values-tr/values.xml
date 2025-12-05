@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Bu uygulamaya %1$s cihazınızdan erişilemiyor. Bunun yerine tabletinizi kullanmayı deneyin.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Tablet ayarları kullanılamıyor</string>
     <string name="battery_saver_charged_notification_summary">Tablet yeterince şarj oldu. Özellikler artık kısıtlanmış değil.</string>
+    <string name="biometric_dialog_secondary_display_toast">Devam etmek için tabletinizde kimliğinizi doğrulayın</string>
     <string name="default_audio_route_name">Tablet</string>
     <string name="enable_explore_by_touch_warning_message">%1$s Dokunarak Keşfet özelliğini etkinleştirmek istiyor. Dokunarak Keşfet açık olduğunda, parmağınızın altındaki öğelere ait açıklamaları duyabilir veya görebilir ya da tabletle etkileşimde bulunmak için birtakım hareketler yapabilirsiniz.</string>
     <string name="global_actions">Tablet seçenekleri</string>

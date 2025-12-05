@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">无法在您的%1$s上访问此设置，您可以尝试在平板电脑上访问。</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">无法使用平板电脑设置</string>
     <string name="battery_saver_charged_notification_summary">平板电脑电量充足。各项功能不再受限。</string>
+    <string name="biometric_dialog_secondary_display_toast">您需要在平板电脑上验证您的身份才能继续</string>
     <string name="default_audio_route_name">平板电脑</string>
     <string name="enable_explore_by_touch_warning_message">%1$s想要启用“触摸浏览”。“触摸浏览”启用后，您可以听到或看到所触摸内容的说明，还可以通过手势操作与手机互动。</string>
     <string name="global_actions">平板电脑选项</string>

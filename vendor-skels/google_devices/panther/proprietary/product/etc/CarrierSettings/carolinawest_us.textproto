@@ -1,5 +1,5 @@
 canonical_name: "carolinawest_us"
-version: 72000000008
+version: 73000000010
 apns {
   apn {
     name: "Carolina West Wireless"
@@ -32,7 +32,7 @@ apns {
     name: "IMS"
     value: "ims"
     type: IMS
-    bearer_bitmask: "14|20"
+    bearer_bitmask: "14|18|20"
     protocol: IPV4V6
     roaming_protocol: IPV4V6
     user_visible: false
@@ -43,6 +43,14 @@ apns {
     type: XCAP
     protocol: IPV4V6
     roaming_protocol: IPV4V6
+  }
+  apn {
+    name: "SOS"
+    value: "sos"
+    type: EMERGENCY
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
   }
 }
 configs {
@@ -59,6 +67,10 @@ configs {
     bool_value: true
   }
   config {
+    key: "carrier_default_wfc_ims_roaming_enabled_bool"
+    bool_value: true
+  }
+  config {
     key: "carrier_supports_ss_over_ut_bool"
     bool_value: true
   }
@@ -67,14 +79,20 @@ configs {
     bool_value: true
   }
   config {
+    key: "carrier_wfc_ims_available_bool"
+    bool_value: true
+  }
+  config {
     key: "httpParams"
     text_value: "X-MDN: ##LINE1##"
   }
   config {
-    key: "imsemergency.emergency_over_ims_supported_rats_int_array"
-    int_array {
-      item: 3
-    }
+    key: "imsserviceentitlement.entitlement_server_url_string"
+    text_value: "https://aes.mnc130.mcc310.pub.3gppnetwork.org"
+  }
+  config {
+    key: "imsserviceentitlement.show_vowifi_webview_bool"
+    bool_value: true
   }
   config {
     key: "imsss.ut_as_server_port_int"
@@ -116,6 +134,30 @@ configs {
     bool_value: true
   }
   config {
+    key: "imswfc.emergency_call_over_emergency_pdn_bool"
+    bool_value: true
+  }
+  config {
+    key: "iwlan.diffie_hellman_groups_int_array"
+    int_array {
+      item: 16
+      item: 15
+      item: 14
+      item: 5
+      item: 2
+    }
+  }
+  config {
+    key: "iwlan_handover_policy_string_array"
+    text_array {
+      item: "source=GERAN|UTRAN|EUTRAN|NGRAN|IWLAN|UNKNOWN, target=GERAN|UTRAN|EUTRAN|NGRAN|IWLAN, type=disallowed, capabilities=EIMS|MMS|XCAP|CBS"
+      item: "source=GERAN|UTRAN|EUTRAN|NGRAN|IWLAN|UNKNOWN, target=GERAN|UTRAN|EUTRAN|NGRAN|IWLAN, roaming=true, type=disallowed, capabilities=IMS"
+      item: "source=IWLAN|UNKNOWN, target=GERAN|UTRAN, type=disallowed, capabilities=IMS"
+      item: "source=GERAN|UTRAN, target=IWLAN, type=disallowed, capabilities=IMS"
+      item: "source=EUTRAN|NGRAN|IWLAN, target=EUTRAN|NGRAN|IWLAN, type=allowed, capabilities=IMS"
+    }
+  }
+  config {
     key: "maxImageHeight"
     int_value: 2432
   }
@@ -132,6 +174,10 @@ configs {
     int_value: 80
   }
   config {
+    key: "qns.sos_transport_type_int"
+    int_value: 2
+  }
+  config {
     key: "recipientLimit"
     int_value: 20
   }
@@ -139,7 +185,15 @@ configs {
     key: "smsToMmsTextThreshold"
     int_value: 1
   }
+  config {
+    key: "wfc_emergency_address_carrier_app_string"
+    text_value: "com.android.imsserviceentitlement/.WfcActivationActivity"
+  }
+  config {
+    key: "wfc_spn_format_idx_int"
+    int_value: 1
+  }
 }
 last_updated {
-  seconds: 1724912472
+  seconds: 1753205176
 }

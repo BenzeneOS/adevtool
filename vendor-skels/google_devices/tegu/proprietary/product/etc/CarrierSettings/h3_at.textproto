@@ -1,5 +1,5 @@
 canonical_name: "h3_at"
-version: 72000000009
+version: 73000000012
 apns {
   apn {
     name: "Planet3"
@@ -18,7 +18,7 @@ apns {
     value: "ims"
     type: IMS
     bearer_bitmask: "14|18|20"
-    protocol: IPV6
+    protocol: IPV4V6
     roaming_protocol: IPV4V6
     mtu: 1500
     user_visible: false
@@ -114,8 +114,23 @@ configs {
     }
   }
   config {
+    key: "imsemergency.emergency_over_ims_roaming_supported_3gpp_network_types_int_array"
+    int_array {
+      item: 6
+      item: 3
+    }
+  }
+  config {
+    key: "imsemergency.emergency_over_ims_supported_3gpp_network_types_int_array"
+    int_array {
+      item: 6
+      item: 3
+    }
+  }
+  config {
     key: "imsemergency.emergency_over_ims_supported_rats_int_array"
     int_array {
+      item: 6
       item: 3
     }
   }
@@ -224,8 +239,6 @@ configs {
     key: "iwlan.diffie_hellman_groups_int_array"
     int_array {
       item: 14
-      item: 15
-      item: 16
     }
   }
   config {
@@ -421,5 +434,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1742382168
+  seconds: 1756311913
 }

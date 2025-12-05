@@ -1,0 +1,59 @@
+canonical_name: "ptvtelecom_es"
+version: 73000000001
+apns {
+  apn {
+    name: "PTV Telecom"
+    value: "datos"
+    type: DEFAULT
+    type: SUPL
+    type: DUN
+    user_editable: false
+  }
+  apn {
+    name: "IMS"
+    value: "ims"
+    type: IMS
+    bearer_bitmask: "14|20"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
+}
+configs {
+  config {
+    key: "carrier_volte_available_bool"
+    bool_value: true
+  }
+  config {
+    key: "ignore_rtt_mode_setting_bool"
+    bool_value: true
+  }
+  config {
+    key: "rtt_downgrade_supported_bool"
+    bool_value: true
+  }
+  config {
+    key: "rtt_supported_bool"
+    bool_value: true
+  }
+  config {
+    key: "rtt_supported_while_roaming_bool"
+    bool_value: true
+  }
+  config {
+    key: "unloggable_numbers_string_array"
+    text_array {
+      item: "900018018"
+      item: "016"
+      item: "021"
+      item: "024"
+      item: "028"
+      item: "116000"
+      item: "116111"
+      item: "900202010"
+    }
+  }
+}
+last_updated {
+  seconds: 1755076350
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">A imagem de fundo do ecrã de bloqueio está visível no ecrã interior quando o telemóvel está aberto</string>
+    <string name="doze_always_on_wallpaper_title">Mostre imagem de fundo no ecrã interior</string>
+</resources>

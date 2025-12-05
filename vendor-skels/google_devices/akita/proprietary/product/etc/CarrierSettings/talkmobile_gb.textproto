@@ -1,8 +1,8 @@
 canonical_name: "talkmobile_gb"
-version: 72000000015
+version: 73000000020
 apns {
   apn {
-    name: "Talkmob WAP"
+    name: "Talkmobile Data"
     value: "talkmobile.co.uk"
     type: DEFAULT
     type: MMS
@@ -13,6 +13,9 @@ apns {
     mmsc: "http://mms.talkmobile.co.uk/servlets/mms"
     mmsc_proxy: "212.183.137.12"
     mmsc_proxy_port: "8799"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_editable: false
   }
   apn {
     name: "IMS"
@@ -34,10 +37,6 @@ apns {
 }
 configs {
   config {
-    key: "carrier_default_wfc_ims_enabled_bool"
-    bool_value: true
-  }
-  config {
     key: "carrier_default_wfc_ims_mode_int"
     int_value: 1
   }
@@ -58,6 +57,10 @@ configs {
     text_value: "121"
   }
   config {
+    key: "editable_enhanced_4g_lte_bool"
+    bool_value: false
+  }
+  config {
     key: "editable_wfc_mode_bool"
     bool_value: false
   }
@@ -68,6 +71,10 @@ configs {
       item: "132"
       item: "45"
     }
+  }
+  config {
+    key: "hide_enhanced_4g_lte_bool"
+    bool_value: true
   }
   config {
     key: "ims.ipv4_sip_mtu_size_cellular_int"
@@ -157,6 +164,13 @@ configs {
     int_value: 0
   }
   config {
+    key: "qns.idle_geran_rssi_int_array"
+    int_array {
+      item: -54
+      item: -60
+    }
+  }
+  config {
     key: "qns.sos_transport_type_int"
     int_value: 2
   }
@@ -174,9 +188,9 @@ configs {
   }
   config {
     key: "wfc_spn_format_idx_int"
-    int_value: 1
+    int_value: 12
   }
 }
 last_updated {
-  seconds: 1739962060
+  seconds: 1756276502
 }

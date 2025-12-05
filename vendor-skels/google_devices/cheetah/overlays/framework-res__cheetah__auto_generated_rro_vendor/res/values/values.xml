@@ -229,9 +229,10 @@
     <bool name="config_hotswapCapable">true</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
-    <bool name="config_screen_off_udfps_enabled">true</bool>
+    <bool name="config_screen_off_udfps_enabled">false</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
     <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_softwareLskfRateLimiterEnforcing">true</bool>
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
     <bool name="config_telephony5gNonStandalone">true</bool>
     <bool name="config_telephony5gStandalone">true</bool>

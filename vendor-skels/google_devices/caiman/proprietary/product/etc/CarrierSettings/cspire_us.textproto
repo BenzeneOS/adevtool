@@ -1,5 +1,5 @@
 canonical_name: "cspire_us"
-version: 72000000005
+version: 73000000006
 apns {
   apn {
     name: "C Spire OTA"
@@ -242,6 +242,13 @@ configs {
     }
   }
   config {
+    key: "imsvoice.audio_inactivity_call_end_reasons_int_array"
+    int_array {
+      item: 2
+      item: 4
+    }
+  }
+  config {
     key: "imsvoice.audio_rtcp_inactivity_timer_millis_int"
     int_value: 10000
   }
@@ -410,5 +417,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1727870773
+  seconds: 1750835937
 }

@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • 指紋認証</string>
     <string name="fingerprint_unlock_skip_fingerprint">指紋認証を設定せずに続行</string>
     <string name="fingerprint_unlock_title">指紋認証では、指紋でタブレットのロックを解除できます。セキュリティ上の理由により、指紋認証を使用する際は予備の画面ロックを選択する必要があります。</string>
+    <string name="frr_notification_reset_fingerprint_description">これにより、問題が解決する場合があります</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">指紋認証の許可</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"指紋認証センサーは電源ボタンに内蔵されています。
 
@@ -29,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">指紋認証センサーは電源ボタンに内蔵されています。スマートフォンの側面にあるボタンのうち、上側の短いボタンです。</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">指を当てる場所を、少しずつ変えます</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">ずらし続けて他の部分も登録します</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">これにより、意図しないロック解除が起こりにくくなります。この設定を OFF にすると、センサーに短時間触れただけでロックが解除されるようになります。</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">センサーに指を置いてロック解除</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">別の角度からセンサーにタッチ</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">指をずらして他の部分を登録</string>
     <string name="security_settings_work_fingerprint_preference_title">仕事用の指紋認証</string>

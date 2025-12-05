@@ -1,3 +1,6 @@
+user=_app isPrivApp=true name=com.google.android.rilextension domain=rilextensionservice_app levelFrom=all
 user=_app seinfo=platform name=com.android.systemui domain=systemui_app type=app_data_file levelFrom=all
 user=_app seinfo=platform name=com.android.systemui:* domain=systemui_app type=app_data_file levelFrom=all
 user=_app seinfo=platform name=com.android.pixeldisplayservice domain=pixeldisplayservice_app type=app_data_file levelFrom=all
+user=_app isPrivApp=true name=com.shannon.rcsservice domain=vendor_rcs_app levelFrom=all
+user=_app isPrivApp=true name=com.shannon.rcsservice:shannonrcsservice domain=vendor_rcs_service_app levelFrom=all

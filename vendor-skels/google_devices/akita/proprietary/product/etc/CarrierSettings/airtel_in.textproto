@@ -1,5 +1,5 @@
 canonical_name: "airtel_in"
-version: 72000000013
+version: 73000000015
 apns {
   apn {
     name: "Internet"
@@ -251,6 +251,10 @@ configs {
     int_value: 11
   }
   config {
+    key: "iwlan.ike_sa_transforms_reorder_bool"
+    bool_value: false
+  }
+  config {
     key: "iwlan.mcc_mncs_string_array"
     text_array {
       item: "404-02"
@@ -313,12 +317,6 @@ configs {
     int_value: 2
   }
   config {
-    key: "qns.enable_minimum_guarding_timer_after_connected_apn_string_array"
-    text_array {
-      item: "ims"
-    }
-  }
-  config {
     key: "qns.sos_transport_type_int"
     int_value: 2
   }
@@ -355,5 +353,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1740119832
+  seconds: 1755076358
 }

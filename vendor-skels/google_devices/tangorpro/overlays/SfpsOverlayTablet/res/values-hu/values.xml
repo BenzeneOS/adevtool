@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN-kód • Ujjlenyomat</string>
     <string name="fingerprint_unlock_skip_fingerprint">Folytatás a Feloldás ujjlenyomattal funkció nélkül</string>
     <string name="fingerprint_unlock_title">A Feloldás ujjlenyomattal funkció használatával táblagépét az ujjlenyomatával oldhatja fel. Biztonsági okokból ennek a beállításnak az esetében szükség van másodlagos képernyőzárra is.</string>
+    <string name="frr_notification_reset_fingerprint_description">Ez néha megoldhatja a problémákat.</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">A Feloldás ujjlenyomattal engedélyezése</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Az ujjlenyomat-érzékelő a bekapcsológombon található.
 
@@ -29,8 +30,6 @@ Finoman érintse meg a gombot anélkül, hogy megnyomná."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Az ujjlenyomat-érzékelő a bekapcsológombon található. Ez a rövidebb gomb a telefon oldalán.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Minden alkalommal enyhén mozgassa az ujját</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Mozgassa tovább a többi rész rögzítéséhez</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Így kisebb az esélye a véletlen feloldásoknak. Ha ki van kapcsolva ez a beállítás, az érzékelő rövid ideig tartó megérintésével is feloldható az eszköz.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Érzékelő nyomva tartása a feloldáshoz</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Érintse meg az érzékelőt más szögből</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Mozgassa az ujját a többi rész rögzítéséhez</string>
     <string name="security_settings_work_fingerprint_preference_title">Feloldás ujjlenyomattal munkaprofilnál</string>

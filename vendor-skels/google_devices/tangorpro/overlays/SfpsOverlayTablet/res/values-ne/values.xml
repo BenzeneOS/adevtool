@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • फिंगरप्रिन्ट</string>
     <string name="fingerprint_unlock_skip_fingerprint">फिंगरप्रिन्ट अनलक सेटअप नगरिकनै जारी राख्नुहोस्</string>
     <string name="fingerprint_unlock_title">तपाईंले फिंगरप्रिन्ट अनलक सेटअप गरेपछि तपाईं आफ्नो फिंगरप्रिन्ट प्रयोग गरी ट्याब्लेट अनलक गर्न सक्नुहुन्छ। सुरक्षासम्बन्धी कारणहरूले गर्दा यो विकल्प प्रयोग गर्न ब्याकअप स्क्रिन लक सेटअप गर्नु पर्ने हुन्छ।</string>
+    <string name="frr_notification_reset_fingerprint_description">यसो गर्दा कहिलेकाहीँ समस्याहरू समाधान हुन सक्छन्</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">फिंगरप्रिन्ट अनलक प्रयोग गर्न दिनुहोस्</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"फिंगरप्रिन्ट सेन्सर पावर बटनमा हुन्छ।
 
@@ -29,11 +30,9 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">फिंगरप्रिन्ट सेन्सर पावर बटनमा हुन्छ। यो फोनको छेउमा रहेको छोटो बटन हो।</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">हरेक पटक औँला थोरै सार्नुहोस्</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">फिंगरप्रिन्टका अन्य क्षेत्र क्याप्चर गर्न औँला सारिरहनुहोस्</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">यसमा नचाहेका बेलामा पनि डिभाइस अनलक हुने सम्भावना कम हुन्छ। यो सेटिङ अफ भएका बेलामा सेन्सर विस्तारै छुँदा पनि डिभाइस अनलक हुन्छ।</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">अनलक गर्न आफ्नो औँला सेन्सरमा राख्नुहोस्</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">अर्को कोणबाट सेन्सरमा छुनुहोस्</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">फिंगरप्रिन्टका अन्य क्षेत्र क्याप्चर गर्न औँला सार्नुहोस्</string>
-    <string name="security_settings_work_fingerprint_preference_title">कार्य प्रोफाइलका लागि फिंगरप्रिन्ट अनलक</string>
+    <string name="security_settings_work_fingerprint_preference_title">वर्क प्रोफाइलका लागि फिंगरप्रिन्ट अनलक</string>
     <string name="setup_fingerprint_enroll_immobile_help_continue">जारी राख्नुहोस्</string>
     <string name="setup_fingerprint_enroll_immobile_help_subtitle">यसले अझ राम्रोसँग अनलक गर्नका निम्ति तपाईंको फिंगरप्रिन्टको अझ धेरै भाग क्याप्चर गर्न सघाउँछ</string>
     <string name="setup_fingerprint_enroll_immobile_help_title">आफ्नो औँला सार्नुहोस्</string>

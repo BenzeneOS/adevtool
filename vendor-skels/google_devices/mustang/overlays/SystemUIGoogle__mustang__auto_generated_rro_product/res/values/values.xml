@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <bool name="config_adaptive_touch_sensitivity_enabled">true</bool>
+    <bool name="config_hspa_data_distinguishable">true</bool>
     <bool name="config_minmode_enabled">true</bool>
     <bool name="config_screen_protector_notification_enabled">true</bool>
     <bool name="config_screen_protector_notification_v2">true</bool>

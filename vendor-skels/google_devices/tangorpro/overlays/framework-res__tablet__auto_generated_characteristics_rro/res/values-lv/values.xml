@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Šajā ierīcē (%1$s) nevar piekļūt tālvadībai. Mēģiniet tai piekļūt savā planšetdatorā.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Planšetdatora iestatījumi nav pieejami</string>
     <string name="battery_saver_charged_notification_summary">Planšetdatora uzlādes līmenis ir pietiekams. Funkcijas vairs netiek ierobežotas.</string>
+    <string name="biometric_dialog_secondary_display_toast">Lai turpinātu, planšetdatorā apstipriniet savu identitāti</string>
     <string name="default_audio_route_name">Planšetdators</string>
     <string name="enable_explore_by_touch_warning_message">%1$s vēlas iespējot funkciju “Atklāt pieskaroties”. Kad ir ieslēgta funkcija “Atklāt pieskaroties”, var dzirdēt vai redzēt tā vienuma aprakstu, virs kura atrodas pirksts, vai veikt žestus, lai mijiedarbotos ar planšetdatoru.</string>
     <string name="global_actions">Planšetdatora opcijas</string>

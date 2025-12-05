@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">‏قرِّب هذا الجهاز أكثر من جهاز Pixel Tablet وحاوِل مجددًا.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">‏افتح حافظة سمّاعات الأذن وقرِّبها من جهاز Pixel Tablet وحاوِل مجددًا.</string>
     <string name="sound_dashboard_summary">مستوى الصوت</string>
-    <string name="sound_dashboard_summary_with_dnd">"مستوى الصوت وميزة \"عدم الإزعاج\""</string>
     <string name="sound_settings">الصوت</string>
 </resources>

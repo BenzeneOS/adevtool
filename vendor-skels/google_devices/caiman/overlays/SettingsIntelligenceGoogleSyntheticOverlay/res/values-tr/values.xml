@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">şarj etme, sınır, şarj optimizasyonu, şarj sınırı</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">"Telefonunuz, pil kullanım ömrünü uzatmak için yalnızca %{batteryLimitLevel} seviyesine kadar şarj edilir. Bununla birlikte, pil seviyesi raporlama doğruluğunu sürdürmek için her bir ila iki haftada bir %100'e kadar şarj edilir."</string>
-    <string name="charging_optimization_summary_charge_limit">%{batteryLimitLevel} olarak sınırla</string>
+    <string name="charging_optimization_entry_summary_charge_limit">%1$s ile sınırla</string>
+    <string name="charging_optimization_footer_message_charge_limit">Telefonunuz, pil kullanım ömrünü uzatmak için yalnızca %1$s seviyesine kadar şarj edilir. Bununla birlikte, pil seviyesi raporlama doğruluğunu sürdürmek için telefonunuz her bir ila iki haftada bir %2$s seviyesine kadar şarj edilir.</string>
     <string name="charging_optimization_summary_off">Kapalı</string>
     <string name="charging_optimization_title">Şarj optimizasyonu</string>
 </resources>

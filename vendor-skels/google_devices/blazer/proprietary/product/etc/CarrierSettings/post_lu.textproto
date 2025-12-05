@@ -1,5 +1,5 @@
 canonical_name: "post_lu"
-version: 71000000002
+version: 73000000002
 apns {
   apn {
     name: "POST Internet"

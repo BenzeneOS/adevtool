@@ -1,5 +1,5 @@
 canonical_name: "fet_tw"
-version: 72000000012
+version: 73000000013
 apns {
   apn {
     name: "\351\201\240\345\202\263\351\233\273\344\277\241(Far EasTone) (Internet)"
@@ -285,6 +285,10 @@ configs {
     int_value: 2
   }
   config {
+    key: "rilext.ims_prefer_apm_normal_ecc_enable"
+    bool_value: true
+  }
+  config {
     key: "vendor.ims.carrier_config_use_aosp_ims_config_bool"
     bool_value: true
   }
@@ -297,12 +301,6 @@ configs {
     int_value: 1
   }
 }
-vendor_configs {
-  client {
-    name: "ril"
-    value: "\n/\n\'rilext.ims_prefer_apm_normal_ecc_enable\022\004true"
-  }
-}
 last_updated {
-  seconds: 1740560763
+  seconds: 1755679343
 }

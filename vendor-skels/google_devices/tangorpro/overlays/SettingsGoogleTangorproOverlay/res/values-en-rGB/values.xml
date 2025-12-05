@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Move this device closer to your Pixel Tablet and try again.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Open the earbuds case and move it closer to your Pixel Tablet, then try again.</string>
     <string name="sound_dashboard_summary">Volume</string>
-    <string name="sound_dashboard_summary_with_dnd">Volume, Do Not Disturb</string>
     <string name="sound_settings">Sound</string>
 </resources>

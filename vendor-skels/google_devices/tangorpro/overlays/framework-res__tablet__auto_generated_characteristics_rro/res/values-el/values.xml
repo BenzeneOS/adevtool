@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Δεν είναι δυνατή η πρόσβαση σε αυτό το στοιχείο από τη συσκευή %1$s. Δοκιμάστε στο tablet σας.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Οι ρυθμίσεις του tablet δεν είναι διαθέσιμες</string>
     <string name="battery_saver_charged_notification_summary">Το tablet είναι αρκετά φορτισμένο. Οι λειτουργίες δεν περιορίζονται πλέον.</string>
+    <string name="biometric_dialog_secondary_display_toast">Επαληθεύστε την ταυτότητά σας στο tablet για να συνεχίσετε</string>
     <string name="default_audio_route_name">Tablet</string>
     <string name="enable_explore_by_touch_warning_message">Η υπηρεσία %1$s απαιτεί ενεργοποίηση της Εξερεύνησης μέσω αφής. Όταν είναι ενεργοποιημένη η Εξερεύνηση μέσω αφής, μπορείτε να δείτε ή να ακούσετε περιγραφές για τις επιλογές που βρίσκονται κάτω από το δάχτυλό σας ή να κάνετε κινήσεις αλληλεπίδρασης με το tablet σας.</string>
     <string name="global_actions">Επιλογές tablet</string>

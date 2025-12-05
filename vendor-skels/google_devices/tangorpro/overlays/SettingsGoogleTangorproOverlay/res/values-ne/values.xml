@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">यो डिभाइस आफ्नो Pixel Tablet नजिकै लैजानुहोस् अनि फेरि प्रयास गर्नुहोस्।</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">इयरबडको केस खोल्नुहोस् र उक्त केस आफ्नो Pixel Tablet नजिकै लैजानुहोस् अनि फेरि प्रयास गर्नुहोस्।</string>
     <string name="sound_dashboard_summary">भोल्युम</string>
-    <string name="sound_dashboard_summary_with_dnd">भोल्युम, Do Not Disturb</string>
     <string name="sound_settings">साउन्ड</string>
 </resources>

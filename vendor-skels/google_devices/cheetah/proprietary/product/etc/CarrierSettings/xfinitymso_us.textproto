@@ -1,5 +1,5 @@
 canonical_name: "xfinitymso_us"
-version: 72000000005
+version: 73000000006
 apns {
   apn {
     name: "Xfinity Mobile"
@@ -26,6 +26,10 @@ configs {
   }
   config {
     key: "always_show_primary_signal_bar_in_opportunistic_network_boolean"
+    bool_value: true
+  }
+  config {
+    key: "avoid_bad_wifi_bool"
     bool_value: true
   }
   config {
@@ -175,7 +179,11 @@ configs {
     key: "ping_test_before_data_switch_bool"
     bool_value: true
   }
+  config {
+    key: "show_avoid_bad_wifi_bool"
+    bool_value: true
+  }
 }
 last_updated {
-  seconds: 1741781016
+  seconds: 1750835907
 }

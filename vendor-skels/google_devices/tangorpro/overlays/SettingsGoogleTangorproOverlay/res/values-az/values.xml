@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Bu cihazı Pixel Tabletə yaxınlaşdırıb, yenidən cəhd edin.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Qulaqlıq qutusunu açıb, Pixel Tabletə yaxınlaşdırmaqla yenidən cəhd edin.</string>
     <string name="sound_dashboard_summary">Səs</string>
-    <string name="sound_dashboard_summary_with_dnd">Səs, Narahat etməyin</string>
     <string name="sound_settings">Səs</string>
 </resources>

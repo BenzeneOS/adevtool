@@ -1,5 +1,5 @@
 canonical_name: "fi_at"
-version: 72000000013
+version: 73000000015
 apns {
 }
 configs {
@@ -226,8 +226,23 @@ configs {
     }
   }
   config {
+    key: "imsemergency.emergency_over_ims_roaming_supported_3gpp_network_types_int_array"
+    int_array {
+      item: 6
+      item: 3
+    }
+  }
+  config {
+    key: "imsemergency.emergency_over_ims_supported_3gpp_network_types_int_array"
+    int_array {
+      item: 6
+      item: 3
+    }
+  }
+  config {
     key: "imsemergency.emergency_over_ims_supported_rats_int_array"
     int_array {
+      item: 6
       item: 3
     }
   }
@@ -362,8 +377,6 @@ configs {
     key: "iwlan.diffie_hellman_groups_int_array"
     int_array {
       item: 14
-      item: 15
-      item: 16
     }
   }
   config {
@@ -611,5 +624,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1740119838
+  seconds: 1756276514
 }

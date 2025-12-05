@@ -258,6 +258,7 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
     <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_softwareLskfRateLimiterEnforcing">true</bool>
     <bool name="config_supportsConcurrentInternalDisplays">false</bool>
     <bool name="config_telephony5gNonStandalone">true</bool>
     <bool name="config_telephony5gStandalone">true</bool>

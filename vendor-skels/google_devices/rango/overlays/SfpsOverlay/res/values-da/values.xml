@@ -30,8 +30,6 @@ Sæt fingeren på knappen uden at trykke."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Fingeraftrykssensoren sidder på afbryderknappen. Det er den mindste knap på siden af telefonen.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Flyt fingeren en smule hver gang</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Fortsæt med at flytte fingeren for at registrere andre områder af dit fingeraftryk</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Det gør det sværere at komme til at låse op ved et uheld. Når denne indstilling er deaktiveret, kan du låse op ved at trykke på sensoren.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Tryk på sensoren for at låse op</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Tryk på sensoren fra en anden vinkel</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Flyt din finger for at registrere andre områder af dit fingeraftryk</string>
     <string name="security_settings_work_fingerprint_preference_title">Fingeroplåsning til arbejdsprofil</string>

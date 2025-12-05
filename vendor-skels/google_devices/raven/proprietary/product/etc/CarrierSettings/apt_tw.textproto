@@ -1,5 +1,5 @@
 canonical_name: "apt_tw"
-version: 72000000511
+version: 73000000512
 apns {
   apn {
     name: "GT Internet"
@@ -137,13 +137,11 @@ configs {
       item: "46603"
     }
   }
-}
-vendor_configs {
-  client {
-    name: "ril"
-    value: "\n/\n\'rilext.ims_prefer_apm_normal_ecc_enable\022\004true"
+  config {
+    key: "rilext.ims_prefer_apm_normal_ecc_enable"
+    bool_value: true
   }
 }
 last_updated {
-  seconds: 1740560691
+  seconds: 1755679306
 }

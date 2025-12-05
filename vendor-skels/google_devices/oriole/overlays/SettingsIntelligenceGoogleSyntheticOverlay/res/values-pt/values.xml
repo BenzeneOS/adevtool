@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">carregamento, limite, otimização de carregamento, limite de carregamento</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">To help extend battery lifespan, your phone will only charge to {batteryLimitLevel}% battery. Your phone will charge to 100% once every one to two weeks to maintain battery level reporting accuracy.</string>
-    <string name="charging_optimization_summary_charge_limit">Limitar a {batteryLimitLevel}%</string>
+    <string name="charging_optimization_entry_summary_charge_limit">Limitar a %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">Para ajudar a prolongar a vida útil da bateria do smartphone, ela será carregada até %1$s. O dispositivo será carregado até %2$s uma vez a cada uma ou duas semanas. Isso irá garantir que o nível da bateria seja sempre informado corretamente.</string>
     <string name="charging_optimization_summary_off">Desativada</string>
     <string name="charging_optimization_title">Otimização de carregamento</string>
 </resources>

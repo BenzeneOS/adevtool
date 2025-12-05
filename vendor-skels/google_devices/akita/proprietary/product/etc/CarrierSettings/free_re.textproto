@@ -1,5 +1,5 @@
 canonical_name: "free_re"
-version: 72000000004
+version: 73000000005
 apns {
   apn {
     name: "Free Re"
@@ -10,6 +10,7 @@ apns {
     type: MMS
     mmsc: "http://mms.free.re"
     protocol: IPV4V6
+    roaming_protocol: IPV4V6
   }
 }
 configs {
@@ -70,5 +71,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1724912516
+  seconds: 1753205208
 }

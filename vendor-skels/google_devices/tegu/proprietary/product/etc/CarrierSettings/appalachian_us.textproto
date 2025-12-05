@@ -1,5 +1,5 @@
 canonical_name: "appalachian_us"
-version: 72000000002
+version: 73000000004
 apns {
   apn {
     name: "Appalachian"
@@ -18,7 +18,6 @@ apns {
   apn {
     name: "Appalachian IMS"
     value: "ims"
-    type: IA
     type: IMS
     bearer_bitmask: "14|18"
     protocol: IPV4V6
@@ -53,12 +52,46 @@ apns {
 }
 configs {
   config {
+    key: "carrier_default_wfc_ims_roaming_enabled_bool"
+    bool_value: true
+  }
+  config {
     key: "carrier_volte_available_bool"
+    bool_value: true
+  }
+  config {
+    key: "carrier_wfc_ims_available_bool"
     bool_value: true
   }
   config {
     key: "httpParams"
     text_value: "X-MDN: ##LINE1##"
+  }
+  config {
+    key: "imsserviceentitlement.entitlement_server_url_string"
+    text_value: "https://aes.ekn.com"
+  }
+  config {
+    key: "imsserviceentitlement.show_vowifi_webview_bool"
+    bool_value: true
+  }
+  config {
+    key: "iwlan.diffie_hellman_groups_int_array"
+    int_array {
+      item: 14
+      item: 5
+      item: 2
+    }
+  }
+  config {
+    key: "iwlan.epdg_address_priority_int_array"
+    int_array {
+      item: 0
+    }
+  }
+  config {
+    key: "iwlan.epdg_static_address_string"
+    text_value: "epdg.myawi.com"
   }
   config {
     key: "maxImageHeight"
@@ -84,7 +117,15 @@ configs {
     key: "smsToMmsTextThreshold"
     int_value: 1
   }
+  config {
+    key: "wfc_emergency_address_carrier_app_string"
+    text_value: "com.android.imsserviceentitlement/.WfcActivationActivity"
+  }
+  config {
+    key: "wfc_spn_format_idx_int"
+    int_value: 1
+  }
 }
 last_updated {
-  seconds: 1720003606
+  seconds: 1758065203
 }

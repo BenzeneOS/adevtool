@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">hleðsla, takmörk, fínstillt hleðsla, hleðslumörk</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">Til að lengja endingartíma rafhlöðunnar verður hleðslu símans hætt þegar {batteryLimitLevel}% hleðslu er náð. Síminn verður hlaðinn í 100% hleðslu á tveggja vikna fresti til að viðhalda nákvæmni í greiningu hleðslustöðu.</string>
-    <string name="charging_optimization_summary_charge_limit">Takmarka við {batteryLimitLevel}%</string>
+    <string name="charging_optimization_entry_summary_charge_limit">Takmarka við %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">Til að hjálpa til við að lengja endingartíma rafhlöðunnar verður hleðslu símans hætt þegar %1$s hleðslu er náð. Síminn verður hlaðinn í %2$s hleðslu á tveggja vikna fresti til að viðhalda nákvæmni í greiningu hleðslustöðu.</string>
     <string name="charging_optimization_summary_off">Slökkt</string>
     <string name="charging_optimization_title">Fínstillt hleðsla</string>
 </resources>

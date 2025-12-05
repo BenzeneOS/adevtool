@@ -1,0 +1,35 @@
+canonical_name: "orange_sn"
+version: 73000000001
+apns {
+  apn {
+    name: "Orange MMS SN"
+    value: "mms"
+    type: MMS
+    user: "mms"
+    password: "mms"
+    mmsc: "http://mmsalize/servlets/mms"
+    mmsc_proxy: "172.16.30.9"
+    mmsc_proxy_port: "8080"
+  }
+  apn {
+    name: "Orange Wap SN"
+    value: "wap"
+    type: DEFAULT
+    proxy: "172.16.30.9"
+    port: "8080"
+    user: "wap"
+    password: "wap"
+  }
+  apn {
+    name: "Orange Web SN"
+    value: "internet"
+    type: DEFAULT
+    user: "internet"
+    password: "internet"
+  }
+}
+configs {
+}
+last_updated {
+  seconds: 1756887143
+}

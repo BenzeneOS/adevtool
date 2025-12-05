@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • Impresión dixital</string>
     <string name="fingerprint_unlock_skip_fingerprint">Continuar sen desbloqueo dactilar</string>
     <string name="fingerprint_unlock_title">Co desbloqueo dactilar podes desbloquear o teléfono utilizando a túa impresión dixital. Por motivos de seguranza, esta opción require un bloqueo de pantalla alternativo.</string>
+    <string name="frr_notification_reset_fingerprint_description">Ás veces esta acción pode solucionar os problemas</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Permitir desbloqueo dactilar</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"O sensor de impresión dixital está no botón de acendido.
 
@@ -29,8 +30,6 @@ Tócao con suavidade sen premelo."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">O sensor de impresión dixital está no botón de acendido. É o botón máis pequeno no lateral do teléfono.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Move o dedo un pouco cada vez</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Sigue movendo o dedo para capturar outras zonas da impresión dixital</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Así será menos probable que haxa desbloqueos accidentais. Con esta opción desactivada, o dispositivo desbloquearase se se toca lixeiramente o sensor.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Manter premido o sensor para desbloquear</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Toca o sensor desde outro ángulo</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Move o dedo para capturar outras zonas da impresión dixital</string>
     <string name="security_settings_work_fingerprint_preference_title">Desbloqueo dactilar para o traballo</string>

@@ -7,6 +7,7 @@ persist.vendor.camera.pbcs.debug. u:object_r:vendor_camera_pbcs_debug_prop:s0
 vendor.camera.pbcs.debug. u:object_r:vendor_camera_pbcs_debug_prop:s0
 vendor.gxp. u:object_r:vendor_gxp_prop:s0
 persist.vendor.verbose_logging_enabled u:object_r:vendor_logger_prop:s0
+persist.vendor.fingerprint. u:object_r:vendor_fingerprint_prop:s0
 vendor.common.modules.ready u:object_r:vendor_device_prop:s0
 vendor.device.modules.ready u:object_r:vendor_device_prop:s0
 vendor.all.modules.ready u:object_r:vendor_device_prop:s0

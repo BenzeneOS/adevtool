@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Aproxime o dispositivo do Pixel Tablet e tente de novo.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Abra o estojo para fones de ouvido, aproxime-o do Pixel Tablet e tente de novo.</string>
     <string name="sound_dashboard_summary">Volume</string>
-    <string name="sound_dashboard_summary_with_dnd">Volume, não perturbe</string>
     <string name="sound_settings">Som</string>
 </resources>

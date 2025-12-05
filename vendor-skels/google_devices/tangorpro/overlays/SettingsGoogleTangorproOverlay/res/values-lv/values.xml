@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Pietuviniet šo ierīci planšetdatoram Pixel Tablet un mēģiniet vēlreiz.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Atveriet austiņu futrāli un pietuviniet to planšetdatoram Pixel Tablet, pēc tam mēģiniet vēlreiz.</string>
     <string name="sound_dashboard_summary">Skaļums</string>
-    <string name="sound_dashboard_summary_with_dnd">Skaļums, režīms “Netraucēt”</string>
     <string name="sound_settings">Skaņa</string>
 </resources>

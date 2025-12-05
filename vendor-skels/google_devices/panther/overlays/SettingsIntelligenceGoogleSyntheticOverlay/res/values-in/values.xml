@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">pengisian daya, batas, pengoptimalan pengisian daya, batas pengisian daya</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">Untuk membantu memperpanjang masa pakai baterai, ponsel Anda hanya akan diisi dayanya sampai daya baterai mencapai {batteryLimitLevel}%. Ponsel akan diisi dayanya sampai daya baterai mencapai 100% setiap satu hingga dua minggu untuk mempertahankan akurasi pelaporan level baterai.</string>
-    <string name="charging_optimization_summary_charge_limit">Batasi sampai {batteryLimitLevel}%</string>
+    <string name="charging_optimization_entry_summary_charge_limit">Batasi hingga %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">Untuk membantu memperpanjang masa pakai baterai, ponsel Anda hanya akan diisi dayanya sampai daya baterai mencapai %1$s. Ponsel akan diisi dayanya sampai daya baterai mencapai %2$s setiap satu hingga dua minggu untuk mempertahankan akurasi pelaporan level baterai.</string>
     <string name="charging_optimization_summary_off">Nonaktif</string>
     <string name="charging_optimization_title">Pengoptimalan pengisian daya</string>
 </resources>

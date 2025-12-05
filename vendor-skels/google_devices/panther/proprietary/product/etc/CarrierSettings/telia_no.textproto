@@ -1,5 +1,5 @@
 canonical_name: "telia_no"
-version: 72000000014
+version: 73000000015
 apns {
   apn {
     name: "Telia Internet"
@@ -250,6 +250,10 @@ configs {
     int_value: 2097152
   }
   config {
+    key: "prefer_3g_visibility_bool"
+    bool_value: false
+  }
+  config {
     key: "rtt_downgrade_supported_bool"
     bool_value: true
   }
@@ -271,5 +275,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1736946258
+  seconds: 1756887158
 }

@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">ផ្លាស់ទីឧបករណ៍នេះទៅជិត Pixel Tablet របស់អ្នក រួចព្យាយាមម្ដងទៀត។</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">បើកប្រអប់កាស ហើយផ្លាស់ទីវាទៅជិត Pixel Tablet របស់អ្នក រួចព្យាយាមម្ដងទៀត។</string>
     <string name="sound_dashboard_summary">កម្រិតសំឡេង</string>
-    <string name="sound_dashboard_summary_with_dnd">កម្រិតសំឡេង កុំរំខាន</string>
     <string name="sound_settings">សំឡេង</string>
 </resources>

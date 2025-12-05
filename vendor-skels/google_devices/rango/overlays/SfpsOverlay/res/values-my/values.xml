@@ -30,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">လက်ဗွေ အာရုံခံကိရိယာသည် ဖွင့်ပိတ်ခလုတ်ပေါ်တွင် ရှိသည်။ ၎င်းသည် ဖုန်းဘေးရှိ ပိုတိုသောခလုတ် ဖြစ်သည်။</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">အကြိမ်တိုင်း နည်းနည်းစီ လက်ချောင်းရွှေ့ပါ</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">လက်ဗွေအခြားနေရာများမှတ်ရန် ဆက်ရွှေ့ပါ</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">၎င်းက မတော်တဆ လော့ခ်ပွင့်ခြင်းကို လျော့နည်းစေမည်။ ဤဆက်တင်ပိတ်ထားပါက အာရုံခံကိရိယာကို ထိရုံမျှဖြင့် လော့ခ်ပွင့်မည်။</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">လော့ခ်ဖွင့်ရန် အာရုံခံကိရိယာကို နှိပ်ထားပါ</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">အခြားထောင့်မှ အာရုံခံကိရိယာကိုထိပါ</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">လက်ဗွေအခြားနေရာများမှတ်ရန် လက်ချောင်းကိုရွှေ့ပါ</string>
     <string name="security_settings_work_fingerprint_preference_title">အလုပ်အတွက် ‘လက်ဗွေသုံး လော့ခ်ဖွင့်ခြင်း’</string>

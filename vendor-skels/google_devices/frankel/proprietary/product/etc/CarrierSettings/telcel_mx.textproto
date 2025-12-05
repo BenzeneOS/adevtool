@@ -1,5 +1,5 @@
 canonical_name: "telcel_mx"
-version: 71000000010
+version: 73000000010
 apns {
   apn {
     name: "Internet"
@@ -250,5 +250,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1747214544
+  seconds: 1747202480
 }

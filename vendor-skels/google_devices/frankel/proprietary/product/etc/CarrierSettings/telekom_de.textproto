@@ -1,5 +1,5 @@
 canonical_name: "telekom_de"
-version: 71000000003
+version: 73000000005
 apns {
   apn {
     name: "Telekom IMS"
@@ -162,7 +162,7 @@ configs {
   }
   config {
     key: "imsemergency.emergency_registration_timer_millis_int"
-    int_value: 3000
+    int_value: 5000
   }
   config {
     key: "imsi_key_availability_int"
@@ -241,6 +241,10 @@ configs {
         }
       }
     }
+  }
+  config {
+    key: "imsvoice.mo_call_request_timeout_millis_int"
+    int_value: 0
   }
   config {
     key: "imsvoice.ringback_timer_millis_int"
@@ -407,5 +411,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1736946312
+  seconds: 1756276532
 }

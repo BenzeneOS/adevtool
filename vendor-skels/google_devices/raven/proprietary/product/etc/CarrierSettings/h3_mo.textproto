@@ -1,0 +1,40 @@
+canonical_name: "h3_mo"
+version: 73000000001
+apns {
+  apn {
+    name: "3 Macau LTE"
+    value: "3mobile.three.com.mo"
+    type: DEFAULT
+    type: MMS
+    type: SUPL
+    authtype: 1
+    mmsc: "http://mms.three.com.mo:10021/mmsc"
+    mmsc_proxy: "mms.three.com.mo"
+    mmsc_proxy_port: "8080"
+  }
+  apn {
+    name: "3 Macau"
+    value: "mobile.three.com.mo"
+    type: DEFAULT
+    type: MMS
+    type: SUPL
+    authtype: 1
+    mmsc: "http://mms.three.com.mo:10021/mmsc"
+    mmsc_proxy: "mms.three.com.mo"
+    mmsc_proxy_port: "8080"
+  }
+  apn {
+    name: "IMS"
+    value: "ims"
+    type: IMS
+    bearer_bitmask: "14|20"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
+}
+configs {
+}
+last_updated {
+  seconds: 1756887143
+}

@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Setelan ini tidak dapat diakses di %1$s. Coba di tablet.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Setelan tablet tidak tersedia</string>
     <string name="battery_saver_charged_notification_summary">Baterai tablet cukup terisi. Fitur tidak lagi dibatasi.</string>
+    <string name="biometric_dialog_secondary_display_toast">Verifikasi diri Anda di tablet untuk melanjutkan</string>
     <string name="default_audio_route_name">Tablet</string>
     <string name="enable_explore_by_touch_warning_message">%1$s ingin mengaktifkan Menjelajah dengan Sentuhan. Saat Menjelajah dengan Sentuhan diaktifkan, Anda dapat melihat atau mendengar deskripsi dari apa yang ada di bawah jari Anda atau melakukan gerakan untuk berinteraksi dengan tablet.</string>
     <string name="global_actions">Opsi tablet</string>

@@ -29,6 +29,7 @@
     <dimen name="udfps_burn_in_offset_x">6.0px</dimen>
     <dimen name="udfps_burn_in_offset_y">17.0px</dimen>
     <dimen name="weather_clock_smartspace_translateY">10.0dp</dimen>
+    <integer name="config_keyguardRefreshRate">120</integer>
     <integer name="config_lockIconLongPress">100</integer>
     <string name="config_frontBuiltInDisplayCutoutProtection">m 589,65.75 a 49.25,49.25 0 0 0 -98.5,0 49.25,49.25 0 0 0 98.5,0 z</string>
     <string name="config_protectedCameraId">1</string>

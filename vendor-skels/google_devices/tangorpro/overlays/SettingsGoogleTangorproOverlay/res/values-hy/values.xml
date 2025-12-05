@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Մոտեցրեք այս սարքը ձեր Pixel Tablet-ին և նորից փորձեք։</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Բացեք ականջակալի պատյանը, մոտեցրեք այն Pixel Tablet-ին և նորից փորձեք։</string>
     <string name="sound_dashboard_summary">Ձայնի ուժգնություն</string>
-    <string name="sound_dashboard_summary_with_dnd">Ձայնի ուժգնություն, Չանհանգստացնել</string>
     <string name="sound_settings">Ձայն</string>
 </resources>

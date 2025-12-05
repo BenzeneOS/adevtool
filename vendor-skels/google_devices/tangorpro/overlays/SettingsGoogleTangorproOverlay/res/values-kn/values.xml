@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">ಈ ಸಾಧನವನ್ನು Pixel Tablet ಹತ್ತಿರ ಮೂವ್ ಮಾಡಿ ಹಾಗೂ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">ಇಯರ್‌ಬಡ್ಸ್ ಕೇಸ್ ತೆರೆದು Pixel Tablet ಬಳಿ ಮೂವ್ ಮಾಡಿದ ಬಳಿಕ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
     <string name="sound_dashboard_summary">ವಾಲ್ಯೂಮ್</string>
-    <string name="sound_dashboard_summary_with_dnd">ವಾಲ್ಯೂಮ್, ಅಡಚಣೆ ಮಾಡಬೇಡಿ</string>
     <string name="sound_settings">ಧ್ವನಿ</string>
 </resources>

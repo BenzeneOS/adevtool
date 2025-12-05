@@ -1,5 +1,5 @@
 canonical_name: "swisscommvno_ch"
-version: 71000000004
+version: 73000000005
 apns {
   apn {
     name: "Swisscom Services"
@@ -101,7 +101,7 @@ configs {
   }
   config {
     key: "ignore_rtt_mode_setting_bool"
-    bool_value: false
+    bool_value: true
   }
   config {
     key: "ims.gruu_enabled_bool"
@@ -444,15 +444,15 @@ configs {
   }
   config {
     key: "rtt_downgrade_supported_bool"
-    bool_value: false
+    bool_value: true
   }
   config {
     key: "rtt_supported_bool"
-    bool_value: false
+    bool_value: true
   }
   config {
     key: "rtt_supported_while_roaming_bool"
-    bool_value: false
+    bool_value: true
   }
   config {
     key: "show_4g_for_lte_data_icon_bool"
@@ -468,5 +468,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1739493502
+  seconds: 1752062637
 }

@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">無法在 %1$s 上存取這個項目，請改用平板電腦。</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">無法使用平板電腦設定</string>
     <string name="battery_saver_charged_notification_summary">平板電腦電力充足，各項功能不再受到限制。</string>
+    <string name="biometric_dialog_secondary_display_toast">在平板電腦上驗證身分即可繼續操作</string>
     <string name="default_audio_route_name">平板電腦</string>
     <string name="enable_explore_by_touch_warning_message">%1$s 需要啟用「輕觸探索」。開啟這項功能時，系統會在你的手指輕觸螢幕上的物件時顯示或朗讀說明，你也可以執行手勢來與平板電腦互動。</string>
     <string name="global_actions">平板電腦選項</string>

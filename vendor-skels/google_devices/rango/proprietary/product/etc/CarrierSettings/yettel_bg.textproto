@@ -1,5 +1,5 @@
 canonical_name: "yettel_bg"
-version: 71000000002
+version: 73000000002
 apns {
   apn {
     name: "Yettel Internet"

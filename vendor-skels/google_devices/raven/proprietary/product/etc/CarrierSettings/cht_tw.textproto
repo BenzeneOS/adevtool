@@ -1,5 +1,5 @@
 canonical_name: "cht_tw"
-version: 72000000396
+version: 73000000397
 apns {
   apn {
     name: "\344\270\255\350\217\257\351\233\273\344\277\241(Chunghwa) (Internet)"
@@ -245,16 +245,14 @@ configs {
     int_value: 2
   }
   config {
+    key: "rilext.ims_prefer_apm_normal_ecc_enable"
+    bool_value: true
+  }
+  config {
     key: "wfc_spn_format_idx_int"
     int_value: 1
   }
 }
-vendor_configs {
-  client {
-    name: "ril"
-    value: "\n/\n\'rilext.ims_prefer_apm_normal_ecc_enable\022\004true"
-  }
-}
 last_updated {
-  seconds: 1740560691
+  seconds: 1755679306
 }

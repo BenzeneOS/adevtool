@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">तपाईंको %1$s मा यो एप चलाउन मिल्दैन। बरु तपाईंको ट्याब्लेटमा स्ट्रिम गरी हेर्नुहोस्।</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">ट्याब्लेटका सेटिङ उपलब्ध छैनन्</string>
     <string name="battery_saver_charged_notification_summary">ट्याब्लेटमा पर्याप्त चार्ज छ। सुविधाहरूलाई अब उप्रान्त प्रतिबन्ध लगाइँदैन।</string>
+    <string name="biometric_dialog_secondary_display_toast">जारी राख्न आफ्नो ट्याब्लेटमा आफ्नो पहिचान पुष्टि गर्नुहोस्</string>
     <string name="default_audio_route_name">ट्याब्लेट</string>
     <string name="enable_explore_by_touch_warning_message">%1$sले स्पर्षद्वारा अन्वेषण सक्षम गर्न चाहन्छ। स्पर्षद्वारा अन्वेषण सक्षम भएको बेला, तपाईं आफ्नो औँलाको मुनि भएका विषयवस्तुहरू बारे सुन्न वा विवरण हेर्न सक्नुहुन्छ वा ट्याब्लेटसँग अन्तर्क्रिया गर्न इशारा गर्नुहोस्।</string>
     <string name="global_actions">ट्याब्लेट विकल्पहरू</string>

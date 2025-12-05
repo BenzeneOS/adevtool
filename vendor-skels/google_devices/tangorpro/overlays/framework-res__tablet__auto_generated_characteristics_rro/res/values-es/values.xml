@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">No se puede acceder a este contenido en tu %1$s. Prueba en tu tablet.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Ajustes del tablet no disponibles</string>
     <string name="battery_saver_charged_notification_summary">El tablet tiene suficiente batería. Las funciones ya no están restringidas.</string>
+    <string name="biometric_dialog_secondary_display_toast">Verifica que eres tú en tu tablet para continuar</string>
     <string name="default_audio_route_name">Tablet</string>
     <string name="enable_explore_by_touch_warning_message">%1$s quiere habilitar la exploración táctil. Cuando esta función esté activada, podrás escuchar o ver descripciones del contenido seleccionado o usar gestos para interactuar con el tablet.</string>
     <string name="global_actions">Opciones de la tablet</string>

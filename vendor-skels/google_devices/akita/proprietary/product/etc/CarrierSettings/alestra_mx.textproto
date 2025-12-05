@@ -1,10 +1,11 @@
 canonical_name: "alestra_mx"
-version: 72000000005
+version: 73000000007
 apns {
   apn {
-    name: "Internet"
+    name: "INTERNET"
     value: "asm"
     type: DEFAULT
+    type: DUN
     protocol: IPV4V6
     roaming_protocol: IPV4V6
     user_editable: false
@@ -203,8 +204,8 @@ configs {
   config {
     key: "qns.idle_eutran_rsrp_int_array"
     int_array {
-      item: -110
-      item: -115
+      item: -90
+      item: -120
     }
   }
   config {
@@ -226,8 +227,8 @@ configs {
   config {
     key: "qns.voice_eutran_rsrp_int_array"
     int_array {
-      item: -110
-      item: -115
+      item: -90
+      item: -120
     }
   }
   config {
@@ -244,5 +245,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1749144169
+  seconds: 1753863643
 }

@@ -1,21 +1,21 @@
 canonical_name: "ubixatt_mx"
-version: 72000000015
+version: 73000000016
 apns {
   apn {
-    name: "Ubix 5G Internet"
-    value: "movil.5g.ubix.mx"
+    name: "INTERNET_5G"
+    value: "5g.ubix.mx"
     type: DEFAULT
     protocol: IPV4V6
     roaming_protocol: IPV4V6
     user_editable: false
   }
   apn {
-    name: "Modem"
+    name: "modem"
     value: "modem.ubix.mx"
     type: DUN
     protocol: IPV4V6
     roaming_protocol: IPV4V6
-    user_visible: false
+    user_editable: false
   }
   apn {
     name: "IMS"
@@ -205,8 +205,8 @@ configs {
   config {
     key: "qns.idle_eutran_rsrp_int_array"
     int_array {
-      item: -110
-      item: -115
+      item: -90
+      item: -120
     }
   }
   config {
@@ -228,8 +228,8 @@ configs {
   config {
     key: "qns.voice_eutran_rsrp_int_array"
     int_array {
-      item: -110
-      item: -115
+      item: -90
+      item: -120
     }
   }
   config {
@@ -246,5 +246,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1750236680
+  seconds: 1753863617
 }

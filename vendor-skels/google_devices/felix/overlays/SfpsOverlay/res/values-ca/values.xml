@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • Empremta digital</string>
     <string name="fingerprint_unlock_skip_fingerprint">Continua sense Desbloqueig amb empremta digital</string>
     <string name="fingerprint_unlock_title">"Amb Desbloqueig amb empremta digital, pots desbloquejar el telèfon amb l'empremta digital. Per motius de seguretat, aquesta opció requereix un bloqueig de pantalla alternatiu."</string>
+    <string name="frr_notification_reset_fingerprint_description">A vegades això pot corregir els problemes</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Permet Desbloqueig amb empremta digital</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"El sensor d'empremtes digitals es troba al botó d'engegada.
 
@@ -29,8 +30,6 @@ Toca el botó lleugerament sense prémer-lo."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">"El sensor d'empremtes digitals es troba al botó d'engegada. És el botó més curt del lateral del telèfon."</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Mou el dit una mica cada vegada</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">"Mou el dit per capturar altres parts de l'empremta"</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Així és menys probable que hi hagi desbloquejos accidentals. Quan aquesta opció de configuració està desactivada, el dispositiu es desbloqueja tocant el sensor breument.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Mantén premut el sensor per desbloquejar</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">"Toca el sensor des d'un altre angle"</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">"Mou el dit per capturar altres parts de l'empremta digital"</string>
     <string name="security_settings_work_fingerprint_preference_title">Desbloqueig amb empremta digital per a la feina</string>

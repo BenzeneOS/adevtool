@@ -1,5 +1,5 @@
 canonical_name: "jazztel_es"
-version: 72000000008
+version: 73000000009
 apns {
   apn {
     name: "jazzinternet"
@@ -32,6 +32,14 @@ apns {
   }
 }
 configs {
+  config {
+    key: "carrier_certificate_string_array"
+    text_array {
+      item: "b67affcda89e3193b1595036d7c6cdbe22be5ca24c9f6cf93fc6b48f91d7310d:com.orange.bluu.jazztel"
+      item: "57f57c5433c6065644bb097111c7867d63896e394556ec452a7a0ae6fae4e816:com.orange.bluu.jazztel,com.orange.bluu.jazztel.staging"
+      item: "dfbd378c05733f6e85ed6f048c97c587282eb41bc8e0eb0a4734b7bb85827597:com.orange.bluu.jazztel.debug,com.orange.bluu.jazztel.staging.debug"
+    }
+  }
   config {
     key: "carrier_use_ims_first_for_emergency_bool"
     bool_value: false
@@ -263,5 +271,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1736946287
+  seconds: 1756276502
 }

@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Эта функция недоступна на устройстве %1$s. Используйте планшет.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Настройки планшета недоступны</string>
     <string name="battery_saver_charged_notification_summary">Планшет заряжен достаточно. Функции больше не ограничены.</string>
+    <string name="biometric_dialog_secondary_display_toast">Чтобы продолжить, подтвердите свою личность на планшете.</string>
     <string name="default_audio_route_name">Планшетный ПК</string>
     <string name="enable_explore_by_touch_warning_message">%1$s хочет включить Изучение касанием. Вы сможете прослушивать или просматривать описание элементов, которых касаетесь, и управлять планшетом с помощью жестов.</string>
     <string name="global_actions">Настройки планшетного ПК</string>

@@ -1,5 +1,5 @@
 canonical_name: "orange_fr"
-version: 72000000006
+version: 73000000010
 apns {
   apn {
     name: "Orange Fr IMS"
@@ -160,6 +160,28 @@ configs {
     }
   }
   config {
+    key: "imsemergency.emergency_over_ims_roaming_supported_3gpp_network_types_int_array"
+    int_array {
+      item: 6
+      item: 3
+    }
+  }
+  config {
+    key: "imsemergency.emergency_over_ims_supported_3gpp_network_types_int_array"
+    int_array {
+      item: 6
+      item: 3
+    }
+  }
+  config {
+    key: "imsemergency.emergency_over_ims_supported_rats_int_array"
+    int_array {
+      item: 6
+      item: 3
+      item: 5
+    }
+  }
+  config {
     key: "imsemergency.emergency_requires_ims_registration_bool"
     bool_value: true
   }
@@ -168,8 +190,16 @@ configs {
     int_value: 5
   }
   config {
+    key: "imsserviceentitlement.default_service_entitlement_status_bool"
+    bool_value: true
+  }
+  config {
     key: "imsserviceentitlement.entitlement_server_url_string"
     text_value: "https://aes.mnc001.mcc208.pub.3gppnetwork.org"
+  }
+  config {
+    key: "imsserviceentitlement.entitlement_version_int"
+    int_value: 8
   }
   config {
     key: "imsserviceentitlement.fcm_sender_id_string"
@@ -248,8 +278,9 @@ configs {
             key: "imsvoice.amr_codec_attribute_modeset_int_array"
             int_array {
               item: 0
-              item: 3
-              item: 6
+              item: 2
+              item: 4
+              item: 7
             }
           }
         }
@@ -261,8 +292,9 @@ configs {
             key: "imsvoice.amr_codec_attribute_modeset_int_array"
             int_array {
               item: 0
-              item: 3
-              item: 6
+              item: 2
+              item: 4
+              item: 7
             }
           }
           config {
@@ -426,10 +458,6 @@ configs {
     int_value: 120
   }
   config {
-    key: "prefer_2g_bool"
-    bool_value: true
-  }
-  config {
     key: "qns.idle_wifi_rssi_int_array"
     int_array {
       item: -65
@@ -495,5 +523,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1741940466
+  seconds: 1757476378
 }

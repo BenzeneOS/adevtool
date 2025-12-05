@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Nie można z tego skorzystać na urządzeniu %1$s. Użyj tabletu.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Ustawienia tabletu są niedostępne</string>
     <string name="battery_saver_charged_notification_summary">Tablet jest wystarczająco naładowany. Funkcje nie są już ograniczone.</string>
+    <string name="biometric_dialog_secondary_display_toast">Aby kontynuować, potwierdź na tablecie, że to Ty</string>
     <string name="default_audio_route_name">Tablet</string>
     <string name="enable_explore_by_touch_warning_message">%1$s chce włączyć Czytanie dotykiem. Gdy ta funkcja jest włączona, słyszysz i widzisz opisy elementów, które są pod Twoim palcem, oraz możesz obsługiwać tablet gestami.</string>
     <string name="global_actions">Opcje tabletu</string>

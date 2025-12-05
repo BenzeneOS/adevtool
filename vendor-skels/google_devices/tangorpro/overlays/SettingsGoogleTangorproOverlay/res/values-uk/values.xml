@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Наблизьте пристрій до Pixel Tablet і повторіть спробу.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Відкрийте футляр для навушників, наблизьте його до Pixel Tablet і повторіть спробу.</string>
     <string name="sound_dashboard_summary">Гучність</string>
-    <string name="sound_dashboard_summary_with_dnd">"Гучність і режим \"Не турбувати\""</string>
     <string name="sound_settings">Звук</string>
 </resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">ఫోన్ అన్‌ఫోల్డ్ చేసినప్పుడు లాక్ స్క్రీన్ వాల్‌పేపర్ లోపలి డిస్‌ప్లేలో కనిపిస్తుంది</string>
+    <string name="doze_always_on_wallpaper_title">లోపలి డిస్‌ప్లేలో వాల్‌పేపర్‌ను చూడండి</string>
+</resources>

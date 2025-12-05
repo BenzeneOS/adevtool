@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">အားသွင်းခြင်း၊ ကန့်သတ်ချက်၊ အားသွင်းမှု ပိုကောင်းအောင်လုပ်ခြင်း၊ အားသွင်းခြင်း ကန့်သတ်ချက်</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">ဘက်ထရီသက်တမ်း ပိုရှည်စေရန် သင့်ဖုန်းကို ဘက်ထရီ {batteryLimitLevel}% အထိသာ အားသွင်းပါမည်။ ဘက်ထရီအားအစီရင်ခံခြင်း တိကျမှန်ကန်စေရန် တစ်ပတ် (သို့) နှစ်ပတ်လျှင်တစ်ကြိမ် သင့်ဖုန်းကို ၁၀၀% အားသွင်းပါမည်။</string>
-    <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% သို့ ကန့်သတ်နိုင်သည်</string>
+    <string name="charging_optimization_entry_summary_charge_limit">%1$s သို့ ကန့်သတ်ခြင်း</string>
+    <string name="charging_optimization_footer_message_charge_limit">ဘက်ထရီသက်တမ်း ပိုရှည်စေရန် သင့်ဖုန်းကို ဘက်ထရီ %1$s အထိသာ အားသွင်းပါမည်။ ဘက်ထရီအား အစီရင်ခံခြင်း တိကျမှန်ကန်မှု ဆက်ရှိစေရန်အတွက် တစ်ပတ်မှနှစ်ပတ်အတွင်း သင့်ဖုန်းကို %2$s အထိ တစ်ကြိမ် အားသွင်းပါမည်။</string>
     <string name="charging_optimization_summary_off">ပိတ်</string>
     <string name="charging_optimization_title">အားသွင်းမှု ပိုကောင်းအောင်လုပ်ခြင်း</string>
 </resources>

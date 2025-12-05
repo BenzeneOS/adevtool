@@ -396,6 +396,7 @@
     <bool name="config_showMenuShortcutsWhenKeyboardPresent">true</bool>
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_sms_capable">false</bool>
+    <bool name="config_softwareLskfRateLimiterEnforcing">true</bool>
     <bool name="config_telephony5gNonStandalone">true</bool>
     <bool name="config_telephony5gStandalone">true</bool>
     <bool name="config_ui_enableFadingMarquee">false</bool>

@@ -1,5 +1,5 @@
 canonical_name: "etisalat_ae"
-version: 72000000005
+version: 73000000006
 apns {
   apn {
     name: "Data"
@@ -74,6 +74,10 @@ configs {
   config {
     key: "editable_wfc_mode_bool"
     bool_value: false
+  }
+  config {
+    key: "hide_enhanced_4g_lte_bool"
+    bool_value: true
   }
   config {
     key: "imsemergency.emergency_domain_preference_int_array"
@@ -155,6 +159,10 @@ configs {
     text_value: "epdg.epc.mnc002.mcc424.etisalat.ae"
   }
   config {
+    key: "prefer_3g_visibility_bool"
+    bool_value: false
+  }
+  config {
     key: "vendor.ims.carrier_config_use_aosp_ims_config_bool"
     bool_value: true
   }
@@ -164,5 +172,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1744788043
+  seconds: 1755076367
 }

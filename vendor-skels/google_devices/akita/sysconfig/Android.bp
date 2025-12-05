@@ -12,14 +12,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "adevtool_sysconfig_system_ext_sysconfig",
-    srcs: [ "system_ext/sysconfig/*.xml" ],
-    owner: "google_devices",
-    sub_dir: "sysconfig",
-    system_ext_specific: true,
-}
-
-prebuilt_etc {
     name: "adevtool_sysconfig_system_ext_permissions",
     srcs: [ "system_ext/permissions/*.xml" ],
     owner: "google_devices",

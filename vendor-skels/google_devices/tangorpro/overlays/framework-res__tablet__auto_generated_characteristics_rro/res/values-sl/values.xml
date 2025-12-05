@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">V napravi %1$s ni mogoče dostopati do te vsebine. Poskusite s tabličnim računalnikom.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Nastavitve tabličnega računalnika niso na voljo</string>
     <string name="battery_saver_charged_notification_summary">Baterija v tabličnem računalniku je dovolj napolnjena. Funkcije niso več omejene.</string>
+    <string name="biometric_dialog_secondary_display_toast">Če želite nadaljevati, v tabličnem računalniku potrdite, da ste to vi</string>
     <string name="default_audio_route_name">Tablični računalnik</string>
     <string name="enable_explore_by_touch_warning_message">Storitev %1$s želi omogočiti raziskovanje z dotikom. Ko je raziskovanje z dotikom vklopljeno, lahko slišite ali vidite opise tega, kar je pod vašim prstom, ali izvajate poteze za interakcijo s tabličnim računalnikom.</string>
     <string name="global_actions">Možnosti tabličnega računalnika</string>

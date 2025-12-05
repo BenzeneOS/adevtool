@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Доближете го уредов до Pixel Tablet и обидете се пак.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Отворете ја кутијата за слушалки и доближете ја до Pixel Tablet, па обидете се пак.</string>
     <string name="sound_dashboard_summary">Јачина на звук</string>
-    <string name="sound_dashboard_summary_with_dnd">Јачина на звук, „Не вознемирувај“</string>
     <string name="sound_settings">Звук</string>
 </resources>

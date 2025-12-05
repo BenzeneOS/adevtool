@@ -429,6 +429,7 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
     <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_softwareLskfRateLimiterEnforcing">true</bool>
     <bool name="config_support_disable_satellite_while_enable_in_progress">false</bool>
     <bool name="config_supportsConcurrentInternalDisplays">false</bool>
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>

@@ -1,5 +1,5 @@
 canonical_name: "telia_ee"
-version: 72000000021
+version: 73000000022
 apns {
   apn {
     name: "Telia Internet"
@@ -235,6 +235,10 @@ configs {
     int_value: 2097152
   }
   config {
+    key: "prefer_3g_visibility_bool"
+    bool_value: false
+  }
+  config {
     key: "qns.xcap_rat_preference_int"
     int_value: 2
   }
@@ -256,5 +260,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1734527059
+  seconds: 1756887179
 }

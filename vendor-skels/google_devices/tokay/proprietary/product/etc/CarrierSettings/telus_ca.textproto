@@ -1,5 +1,5 @@
 canonical_name: "telus_ca"
-version: 72000000013
+version: 73000000017
 apns {
   apn {
     name: "TELUS ISP"
@@ -318,6 +318,10 @@ configs {
     }
   }
   config {
+    key: "imsvoice.mo_call_request_timeout_millis_int"
+    int_value: 0
+  }
+  config {
     key: "imsvoice.session_privacy_type_int"
     int_value: 2
   }
@@ -512,6 +516,14 @@ configs {
     int_value: 3
   }
   config {
+    key: "vonr_enabled_bool"
+    bool_value: true
+  }
+  config {
+    key: "vonr_on_by_default_bool"
+    bool_value: false
+  }
+  config {
     key: "wfc_emergency_address_carrier_app_string"
     text_value: "com.google.android.wfcactivation/.WfcActivationActivity"
   }
@@ -521,5 +533,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1746467633
+  seconds: 1756276514
 }

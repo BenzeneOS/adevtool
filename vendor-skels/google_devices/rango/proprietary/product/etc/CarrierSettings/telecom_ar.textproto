@@ -1,0 +1,51 @@
+canonical_name: "telecom_ar"
+version: 73000000001
+apns {
+  apn {
+    name: "Personal Datos"
+    value: "datos.personal.com"
+    type: DEFAULT
+    type: SUPL
+    user: "datos"
+    password: "datos"
+    authtype: 1
+  }
+  apn {
+    name: "Personal MMS"
+    value: "mms"
+    type: MMS
+    user: "mms"
+    password: "mms"
+    authtype: 1
+    mmsc: "http://mms.personal.com"
+    mmsc_proxy: "172.25.7.31"
+    mmsc_proxy_port: "8080"
+  }
+  apn {
+    name: "Personal IMS"
+    value: "ims"
+    type: IMS
+    bearer_bitmask: "14|20"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
+  apn {
+    name: "Personal Internet Movil"
+    value: "internet.personal.com"
+    type: DUN
+    user: "internet"
+    password: "internet"
+    authtype: 1
+    user_visible: false
+  }
+}
+configs {
+  config {
+    key: "carrier_volte_available_bool"
+    bool_value: true
+  }
+}
+last_updated {
+  seconds: 1755679363
+}

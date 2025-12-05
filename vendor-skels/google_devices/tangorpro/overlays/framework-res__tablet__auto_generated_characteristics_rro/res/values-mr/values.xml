@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">हे तुमच्या %1$s वर अ‍ॅक्सेस केले जाऊ शकत नाही. त्याऐवजी तुमच्या टॅबलेटवर अ‍ॅक्सेस करून पहा.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">टॅबलेट सेटिंग्ज उपलब्ध नाहीत</string>
     <string name="battery_saver_charged_notification_summary">टॅबलेट पुरेसा चार्ज केलेला आहे. वैशिष्ट्ये मर्यादित नाहीत.</string>
+    <string name="biometric_dialog_secondary_display_toast">पुढे सुरू ठेवण्यासाठी तुमच्या टॅबलेटवर हे तुम्हीच असल्याची पडताळणी करा</string>
     <string name="default_audio_route_name">टॅबलेट</string>
     <string name="enable_explore_by_touch_warning_message">%1$s स्पर्श करून एक्सप्लोर करा सक्षम करू इच्छिते. स्पर्श करून एक्सप्लोर करा सुरू असते, तेव्हा तुम्ही तुमच्या बोटाखाली काय आहे त्याचे वर्णन ऐकू किंवा पाहू शकता किंवा टॅब्लेटसह संवाद साधण्यासाठी जेश्चर करू शकता.</string>
     <string name="global_actions">टॅबलेट पर्याय</string>

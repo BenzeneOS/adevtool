@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">nabíjení, limit, optimalizace nabíjení, limit nabíjení</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">Aby se prodloužila životnost baterie, telefon se nabije jen na {batteryLimitLevel} %. Telefon se jednou za dva týdny nabije na 100 %, aby byla zachována přesnost hlášení úrovně baterie.</string>
-    <string name="charging_optimization_summary_charge_limit">Omezení na {batteryLimitLevel} %</string>
+    <string name="charging_optimization_entry_summary_charge_limit">Omezit na %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">Aby se prodloužila životnost baterie, telefon se nabije jen na %1$s. Jednou za týden nebo dva se nabije na %2$s, aby byla zachována přesnost hlášení stavu baterie.</string>
     <string name="charging_optimization_summary_off">Vypnuto</string>
     <string name="charging_optimization_title">Optimalizace nabíjení</string>
 </resources>

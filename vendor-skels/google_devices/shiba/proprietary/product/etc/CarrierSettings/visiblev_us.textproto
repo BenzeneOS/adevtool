@@ -1,5 +1,5 @@
 canonical_name: "visiblev_us"
-version: 72000000018
+version: 73000000019
 apns {
   apn {
     name: "Visible"
@@ -950,6 +950,7 @@ configs {
   config {
     key: "qns.enable_minimum_guarding_timer_after_connected_apn_string_array"
     text_array {
+      item: "ims"
       item: "emergency"
     }
   }
@@ -1236,5 +1237,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1721964286
+  seconds: 1752617312
 }

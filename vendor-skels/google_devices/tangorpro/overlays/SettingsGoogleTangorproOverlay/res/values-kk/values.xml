@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Осы құрылғыны Pixel Tablet құрылғысына жақындатып, әрекетті қайталаңыз.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Құлақаспап қабын ашып, оны Pixel Tablet құрылғысына жақындатып, әрекетті қайталап көріңіз.</string>
     <string name="sound_dashboard_summary">Дыбыс деңгейі</string>
-    <string name="sound_dashboard_summary_with_dnd">"Дыбыс деңгейі, \"Мазаламау\" режимі"</string>
     <string name="sound_settings">Дыбыс</string>
 </resources>

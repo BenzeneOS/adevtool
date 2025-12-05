@@ -1,2 +1,2 @@
-export BUILD_ID_blazer="BD3A.251105.010.E1"
+export BUILD_ID_blazer="BP4A.251205.006"
 unset PLATFORM_SECURITY_PATCH_blazer

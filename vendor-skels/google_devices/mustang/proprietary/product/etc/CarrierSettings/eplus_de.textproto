@@ -1,5 +1,5 @@
 canonical_name: "eplus_de"
-version: 71000000004
+version: 73000000004
 apns {
   apn {
     name: "o2 Internet"
@@ -326,5 +326,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1743656476
+  seconds: 1743565869
 }

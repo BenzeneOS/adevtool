@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">ආරෝපණය, සීමාව, ආරෝපණ ප්‍රශස්තකරණය, ආරෝපණ සීමාව</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">බැටරි ආයු කාලය දීර්ඝ කිරීමට උදවු කිරීමට, ඔබේ දුරකථනය ආරෝපණය කරනු ලබන්නේ {batteryLimitLevel}% බැටරියකට පමණි. බැටරි මට්ටම වාර්තා කිරීමේ නිරවද්‍යතාවය පවත්වා ගැනීම සඳහා ඔබේ දුරකථනය සති එකකට හෝ දෙකකට වරක් 100% දක්වා ආරෝපණය වනු ඇත.</string>
-    <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% දක්වා සීමාව</string>
+    <string name="charging_optimization_entry_summary_charge_limit">%1$s වෙත සීමා කරන්න</string>
+    <string name="charging_optimization_footer_message_charge_limit">බැටරි ආයු කාලය දීර්ඝ කිරීමට උදවු කිරීමට, ඔබේ දුරකථනය ආරෝපණය කරනු ලබන්නේ %1$s බැටරියකට පමණි. බැටරි මට්ටම වාර්තා කිරීමේ නිරවද්‍යතාවය පවත්වා ගැනීම සඳහා ඔබේ දුරකථනය සති එකකට හෝ දෙකකට වරක් %2$s දක්වා ආරෝපණය වනු ඇත.</string>
     <string name="charging_optimization_summary_off">ක්‍රියාවිරහිතයි</string>
     <string name="charging_optimization_title">ආරෝපණ ප්‍රශස්තකරණය</string>
 </resources>

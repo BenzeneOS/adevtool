@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Jy kan nie op jou %1$s toegang hiertoe kry nie. Probeer eerder op jou tablet.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Tabletinstellings is nie beskikbaar nie</string>
     <string name="battery_saver_charged_notification_summary">Tablet se battery het genoeg krag. Kenmerke is nie meer beperk nie.</string>
+    <string name="biometric_dialog_secondary_display_toast">Verifieer dat dit jy op jou tablet is om voort te gaan</string>
     <string name="default_audio_route_name">Tablet</string>
     <string name="enable_explore_by_touch_warning_message">%1$s wil Verken-met-raak aktiveer. Wanneer Verken-met-raak aangeskakel is, kan jy beskrywings van wat onder jou vinger is hoor of sien, of jy kan gebare uitvoer om interaksie met die tablet te hê.</string>
     <string name="global_actions">Tablet-opsies</string>

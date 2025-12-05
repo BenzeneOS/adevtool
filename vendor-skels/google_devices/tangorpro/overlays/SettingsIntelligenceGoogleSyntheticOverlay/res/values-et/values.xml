@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">laadimine, piirang, laadimise optimeerimine, laadimise piirang</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">Aku eluea pikendamiseks laeb telefon aku ainult tasemeni {batteryLimitLevel}%. Teie telefon laeb aku tasemeni 100% korra iga 1–2 nädala tagant, et säilitada akutaseme teavitamise täpsus.</string>
-    <string name="charging_optimization_summary_charge_limit">Piiratud tasemeni {batteryLimitLevel}%</string>
+    <string name="charging_optimization_entry_summary_charge_limit">Piirang %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">Aku eluea pikendamiseks laeb telefon aku ainult tasemeni %1$s. Teie telefon laeb aku tasemeni %2$s korra iga 1–2 nädala tagant, et säilitada akutaseme teavitamise täpsus.</string>
     <string name="charging_optimization_summary_off">Väljas</string>
     <string name="charging_optimization_title">Laadimise optimeerimine</string>
 </resources>

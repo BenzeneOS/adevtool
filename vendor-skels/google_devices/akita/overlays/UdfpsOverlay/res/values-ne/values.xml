@@ -16,7 +16,7 @@
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">फिंगरप्रिन्ट अनलकले तपाईंका बच्चाको पहिचान पुष्टि गर्ने प्रयोजनका लागि उनको फिंगरप्रिन्टको अद्वितीय मोडेल बनाउँछ। सेटअप गर्ने क्रममा यो फिंगरप्रिन्ट मोडेल बनाउन तपाईंका बच्चाले विभिन्न कोणबाट आफ्नो फिंगरप्रिन्टका फोटोहरू खिच्नु पर्ने हुन्छ।</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">तपाईंका बच्चाले फिंगरप्रिन्ट अनलक प्रयोग गर्दा उनको फिंगरप्रिन्ट मोडेल अपडेट गर्न ती फोटोहरू प्रयोग गरिन्छन्। तपाईंका बच्चाको फिंगरप्रिन्टका फोटो र मोडेल यो फोनमा सुरक्षित तरिकाले भण्डारण गरिन्छ र कहिल्यै पनि यो फोनबाहेक अन्यत्र पठाइँदैन। यी सबै कारबाही यो फोनमा सुरक्षित तरिकाले गरिन्छ।</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">तपाईं र तपाईंका बच्चा सेटिङमा गई जुनसुकै बेला उनको फिंगरप्रिन्टका फोटो र मोडेल मेटाउन वा फिंगरप्रिन्ट अनलक अफ गर्न सक्नुहुन्छ। तपाईंले फिंगरप्रिन्टका फोटो र मोडेलहरू नमेटाउन्जेल ती मोडेल र फोटो फोनमा नै भण्डारण गरिन्छन्।</string>
-    <string name="security_settings_work_fingerprint_preference_title">कार्य प्रोफाइलका लागि फिंगरप्रिन्ट अनलक</string>
+    <string name="security_settings_work_fingerprint_preference_title">वर्क प्रोफाइलका लागि फिंगरप्रिन्ट अनलक</string>
     <string name="suggested_fingerprint_lock_settings_title">फिंगरप्रिन्ट अनलक प्रयोग गर्नुहोस्</string>
     <string name="unlock_disable_frp_warning_content_password_face_fingerprint">"तपाईंको फोन हराएको वा चोरी भएको खण्डमा पासवर्डले उक्त फोन सुरक्षित राख्छ।
 

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">手机处于展开状态时，内屏上会显示锁屏壁纸</string>
+    <string name="doze_always_on_wallpaper_title">在内屏上显示壁纸</string>
+</resources>

@@ -1,5 +1,5 @@
 canonical_name: "tmobile_at"
-version: 72000000646
+version: 73000000647
 apns {
   apn {
     name: "T-Mobile IMS"
@@ -103,7 +103,7 @@ configs {
   }
   config {
     key: "imsemergency.emergency_registration_timer_millis_int"
-    int_value: 3000
+    int_value: 5000
   }
   config {
     key: "imsss.ut_iptype_roaming_int"
@@ -244,5 +244,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1747816737
+  seconds: 1756276427
 }

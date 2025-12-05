@@ -1,5 +1,5 @@
 canonical_name: "free_fr"
-version: 72000000021
+version: 73000000024
 apns {
   apn {
     name: "Free"
@@ -13,6 +13,7 @@ apns {
     authtype: 0
     mmsc: "http://mms.free.fr"
     protocol: IPV4V6
+    roaming_protocol: IPV4V6
   }
   apn {
     name: "IMS"
@@ -40,6 +41,10 @@ configs {
   config {
     key: "carrier_cross_sim_ims_available_bool"
     bool_value: false
+  }
+  config {
+    key: "carrier_default_wfc_ims_enabled_bool"
+    bool_value: true
   }
   config {
     key: "carrier_default_wfc_ims_mode_int"
@@ -204,7 +209,11 @@ configs {
     key: "use_wfc_home_network_mode_in_roaming_network_bool"
     bool_value: true
   }
+  config {
+    key: "wfc_spn_format_idx_int"
+    int_value: 7
+  }
 }
 last_updated {
-  seconds: 1723067498
+  seconds: 1756311861
 }

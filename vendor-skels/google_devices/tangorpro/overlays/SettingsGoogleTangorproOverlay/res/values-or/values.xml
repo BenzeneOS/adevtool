@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">ଏହି ଡିଭାଇସକୁ ଆପଣଙ୍କ Pixel Tablet ପାଖକୁ ମୁଭ କରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">ଇଅରବଡ କେସ ଖୋଲି ଏହାକୁ ଆପଣଙ୍କ Pixel Tablet ପାଖକୁ ମୁଭ କରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।</string>
     <string name="sound_dashboard_summary">ଭଲ୍ୟୁମ</string>
-    <string name="sound_dashboard_summary_with_dnd">ଭଲ୍ୟୁମ, ବିରକ୍ତ କରନ୍ତୁ ନାହିଁ</string>
     <string name="sound_settings">ସାଉଣ୍ଡ</string>
 </resources>

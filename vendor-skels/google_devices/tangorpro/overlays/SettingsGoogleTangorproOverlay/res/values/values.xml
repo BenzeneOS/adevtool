@@ -11,6 +11,5 @@
     <string name="location_settings_footer_learn_more_link">https://support.google.com/googlepixeltablet/?p=location_settings</string>
     <string name="regional_pref_footer_learn_more_link">https://support.google.com/googlepixeltablet/?p=app_language</string>
     <string name="sound_dashboard_summary">Volume</string>
-    <string name="sound_dashboard_summary_with_dnd">Volume, Do Not Disturb</string>
     <string name="sound_settings">Sound</string>
 </resources>

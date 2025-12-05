@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">මෙම උපාංගය ඔබේ Pixel Tablet වෙත සමීප කර නැවත උත්සාහ කරන්න.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">ඉයර්බඩ් පෙට්ටිය විවෘත කර එය ඔබේ Pixel Tablet වෙත සමීප කර, පසුව නැවත උත්සාහ කරන්න.</string>
     <string name="sound_dashboard_summary">හඬ පරිමාව</string>
-    <string name="sound_dashboard_summary_with_dnd">හඬ, බාධා නොකිරීම</string>
     <string name="sound_settings">ශබ්දය</string>
 </resources>

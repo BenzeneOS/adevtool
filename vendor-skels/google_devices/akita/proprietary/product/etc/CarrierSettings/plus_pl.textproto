@@ -1,5 +1,5 @@
 canonical_name: "plus_pl"
-version: 72000000012
+version: 73000000013
 apns {
   apn {
     name: "Plus Internet"
@@ -127,10 +127,6 @@ configs {
         key: "127"
         bundle {
           config {
-            key: "imsvoice.codec_attribute_cmr_int"
-            int_value: 2
-          }
-          config {
             key: "imsvoice.evs_codec_attribute_bitrate_int_array"
             int_array {
               item: 0
@@ -237,5 +233,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1749144169
+  seconds: 1753205208
 }

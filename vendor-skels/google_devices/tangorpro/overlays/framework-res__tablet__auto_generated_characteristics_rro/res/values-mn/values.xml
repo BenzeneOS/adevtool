@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Үүнд таны %1$s-с хандах боломжгүй. Оронд нь таблет дээрээ туршиж үзнэ үү.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Таблетын тохиргоо боломжгүй байна</string>
     <string name="battery_saver_charged_notification_summary">Таблет хангалттай цэнэгтэй боллоо. Онцлогуудыг цаашид хязгаарлахгүй.</string>
+    <string name="biometric_dialog_secondary_display_toast">Үргэлжлүүлэхийн тулд таблет дээрээ өөрийгөө мөн болохыг баталгаажуулна уу</string>
     <string name="default_audio_route_name">Таблет</string>
     <string name="enable_explore_by_touch_warning_message">%1$s нь Хүрэлтээр сонсохыг идэвхжүүлэхийг шаардаж байна. Хүрэлтээр сонсох идэвхжсэн үед та хуруун доороо юу байгааг сонсох, тайлбарыг харах боломжтой ба таблеттайгаа дохиогоор харилцах боломжтой.</string>
     <string name="global_actions">Таблет сонголт</string>

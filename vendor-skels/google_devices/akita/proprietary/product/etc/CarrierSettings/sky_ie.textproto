@@ -1,5 +1,5 @@
 canonical_name: "sky_ie"
-version: 72000000005
+version: 73000000006
 apns {
   apn {
     name: "Sky IE Internet"
@@ -63,6 +63,10 @@ configs {
     bool_value: true
   }
   config {
+    key: "imsrtt.text_qos_precondition_supported_bool"
+    bool_value: false
+  }
+  config {
     key: "imsvoice.evs_payload_description_bundle"
     bundle {
       config {
@@ -108,5 +112,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1741179725
+  seconds: 1751443008
 }

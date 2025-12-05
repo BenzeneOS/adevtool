@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">ಚಾರ್ಜಿಂಗ್, ಮಿತಿ, ಚಾರ್ಜಿಂಗ್ ಆಪ್ಟಿಮೈಸೇಷನ್‌, ಚಾರ್ಜ್ ಮಿತಿ</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">ನಿಮ್ಮ ಫೋನ್‌ನ ಬ್ಯಾಟರಿ ಬಾಳಿಕೆಯನ್ನು ವಿಸ್ತರಿಸಲು ಬ್ಯಾಟರಿಯು {batteryLimitLevel}% ರವರೆಗೆ ಮಾತ್ರ ಚಾರ್ಜ್ ಆಗುತ್ತದೆ. ಬ್ಯಾಟರಿ ಮಟ್ಟ ವರದಿ ಮಾಡುವಿಕೆಯ ನಿಖರತೆಯನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಲು ಪ್ರತಿ ಒಂದರಿಂದ ಎರಡು ವಾರಗಳಿಗೊಮ್ಮೆ ನಿಮ್ಮ ಫೋನ್ 100% ಚಾರ್ಜ್ ಆಗುತ್ತದೆ.</string>
-    <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% ಕ್ಕೆ ಮಿತಿಗೊಳಿಸಿ</string>
+    <string name="charging_optimization_entry_summary_charge_limit">%1$s ಗೆ ಮಿತಿಗೊಳಿಸಿ</string>
+    <string name="charging_optimization_footer_message_charge_limit">ನಿಮ್ಮ ಬ್ಯಾಟರಿ ಬಾಳಿಕೆಯನ್ನು ವಿಸ್ತರಿಸಲು ನಿಮ್ಮ ಫೋನ್ ಬ್ಯಾಟರಿಯು %1$s ರಷ್ಟು ಮಾತ್ರ ಚಾರ್ಜ್ ಆಗುತ್ತದೆ. ಬ್ಯಾಟರಿ ಮಟ್ಟದ ವರದಿ ಮಾಡುವಿಕೆಯ ನಿಖರತೆಯನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಲು ಪ್ರತಿ ಒಂದರಿಂದ ಎರಡು ವಾರಗಳಿಗೊಮ್ಮೆ ನಿಮ್ಮ ಫೋನ್ %2$s ರಷ್ಟು ಚಾರ್ಜ್ ಆಗುತ್ತದೆ.</string>
     <string name="charging_optimization_summary_off">ಆಫ್ ಆಗಿದೆ</string>
     <string name="charging_optimization_title">ಚಾರ್ಜಿಂಗ್ ಆಪ್ಟಿಮೈಸೇಷನ್‌</string>
 </resources>

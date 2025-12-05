@@ -1,5 +1,5 @@
 canonical_name: "orange_ro"
-version: 71000000009
+version: 73000000007
 apns {
   apn {
     name: "Orange Internet"
@@ -200,5 +200,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1752057048
+  seconds: 1740560798
 }

@@ -1,21 +1,21 @@
 canonical_name: "newww_mx"
-version: 72000000015
+version: 73000000016
 apns {
   apn {
-    name: "Newww 5G Internet"
-    value: "movil.5g.newww.mx"
+    name: "newww_5G"
+    value: "5g.newww.mx"
     type: DEFAULT
     protocol: IPV4V6
     roaming_protocol: IPV4V6
     user_editable: false
   }
   apn {
-    name: "Modem"
+    name: "modem"
     value: "modem.newww.mx"
     type: DUN
     protocol: IPV4V6
     roaming_protocol: IPV4V6
-    user_visible: false
+    user_editable: false
   }
   apn {
     name: "IMS"
@@ -209,8 +209,8 @@ configs {
   config {
     key: "qns.idle_eutran_rsrp_int_array"
     int_array {
-      item: -110
-      item: -115
+      item: -90
+      item: -120
     }
   }
   config {
@@ -232,8 +232,8 @@ configs {
   config {
     key: "qns.voice_eutran_rsrp_int_array"
     int_array {
-      item: -110
-      item: -115
+      item: -90
+      item: -120
     }
   }
   config {
@@ -250,5 +250,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1750236714
+  seconds: 1753863659
 }

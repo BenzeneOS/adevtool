@@ -30,8 +30,6 @@ Thinta kancane inkinobho ngaphandle kokuyicindezela."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Inzwa yesigxivizo somunwe esenkinobhweni yamandla. Yinkinobho emfushane ohlangothini lwefoni.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Hambisa umunwe wakho kancane isikhathi ngasinye.</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Qhubeka nokunyakaza ukuze uthwebule ezinye izindawo zesigxivizo sakho somunwe</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Lokhu kwenza ukuvula ngephutha kungabi bikho kangako. Lapho lesethingi isivaliwe, ukuthinta kancane inzwa kuzovuleka.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Hlala enzweni ukuze uvule</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Thinta inzwa kwenye i-engeli</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Hambisa umunwe wakho ukuze uthwebule ezinye izindawo zesigxivizo sakho somunwe</string>
     <string name="security_settings_work_fingerprint_preference_title">Ukuvula kwesingxivizo somunwe komsebenzi</string>

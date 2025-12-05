@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">પિન • ફિંગરપ્રિન્ટ</string>
     <string name="fingerprint_unlock_skip_fingerprint">ફિંગરપ્રિન્ટ અનલૉકની સુવિધાનું સેટઅપ કર્યા વિના આગળ વધો</string>
     <string name="fingerprint_unlock_title">ફિંગરપ્રિન્ટ અનલૉકની સુવિધા વડે તમે તમારા ફોનને તમારી ફિંગરપ્રિન્ટનો ઉપયોગ કરીને અનલૉક કરી શકો છો. સુરક્ષાના કારણસર આ વિકલ્પ માટે જરૂરી છે કે બૅકઅપ સ્ક્રીન લૉક સેટ કરવામાં આવે.</string>
+    <string name="frr_notification_reset_fingerprint_description">અમુક વખતે આ સમસ્યાઓ ઉકેલી શકે છે</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">ફિંગરપ્રિન્ટ અનલૉક સુવિધાને મંજૂરી આપો</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"ફિંગરપ્રિન્ટ સેન્સર, પાવર બટન પર છે.
 
@@ -29,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">ફિંગરપ્રિન્ટ સેન્સર પાવર બટન પર છે. આ ફોનની બાજુમાં આવેલું નાનું બટન છે.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">દર વખતે તમારી આંગળી સહેજ ખસેડો</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">તમારી ફિંગરપ્રિન્ટના અન્ય વિસ્તારોને કૅપ્ચર કરવા ખસેડવાનું ચાલુ રાખો</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">આમ કરવાથી આકસ્મિક રીતે અનલૉક થવાની શક્યતા ઘટે છે. જ્યારે આ સેટિંગ બંધ હોય, ત્યારે તમારા સેન્સરને હળવેથી ટચ કરવાથી પણ અનલૉક થશે.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">અનલૉક કરવા માટે સેન્સર પર રાખો</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">બીજા ખૂણાથી સેન્સરને ટચ કરો</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">તમારી ફિંગરપ્રિન્ટના અન્ય વિસ્તારોને કૅપ્ચર કરવા તમારી આંગળી ખસેડો</string>
     <string name="security_settings_work_fingerprint_preference_title">ઑફિસ માટે ફિંગરપ્રિન્ટ અનલૉકની સુવિધા</string>

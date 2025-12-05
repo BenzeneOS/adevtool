@@ -4,7 +4,6 @@ com.google.pixel.camera.connectivity.hal.provider.ICameraProvider/default u:obje
 com.google.android.imageprocessing.hal.IImageProcessingHal/default u:object_r:vendor_image_processing_hal_service:s0
 com.google.edgetpu.IEdgeTpuVendorService/default u:object_r:edgetpu_vendor_service:s0
 android.hardware.neuralnetworks.IDevice/google-edgetpu u:object_r:edgetpu_nnapi_service:s0
-com.google.edgetpu.IEdgeTpuAppService/default u:object_r:edgetpu_app_service:s0
 com.google.edgetpu.dba.IDevice/default u:object_r:edgetpu_dba_service:s0
 com.google.edgetpu.tachyon.IComputeService/default u:object_r:edgetpu_tachyon_service:s0
 android.hardware.drm.IDrmFactory/widevine u:object_r:hal_drm_service:s0
@@ -30,6 +29,8 @@ android.hardware.gnss.IGnss/vendor u:object_r:hal_gnss_service:s0
 com.google.face.debug.IDebugHost/default u:object_r:hal_face_debug_service:s0
 com.google.face.debug.IDebugManager/default u:object_r:hal_face_debug_service:s0
 com.google.pixel.moseyservice.IMoseyService/default u:object_r:mosey_service:s0
+vendor.google.ambience_hub.IAmbienceHubConsumerManager/default u:object_r:hal_ambience_hub_service:s0
+vendor.google.ambience_hub.IAmbienceHubProducerManager/default u:object_r:hal_ambience_hub_service:s0
 vendor.qti.hardware.fingerprint.IQfpExtendedFingerprint/default u:object_r:hal_fingerprint_service:s0
 com.google.hardware.biometrics.fingerprint.debug.IFingerprintDebug/default u:object_r:hal_fingerprint_debug_service:s0
 vendor.samsung_slsi.telephony.hardware.radioExternal.IOemSlsiRadioExternal/default u:object_r:hal_vendor_radio_external_service:s0

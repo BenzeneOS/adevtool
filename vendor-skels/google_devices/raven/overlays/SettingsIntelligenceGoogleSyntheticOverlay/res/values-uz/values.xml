@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">quvvatlash, cheklov, quvvatlashni optimallash, quvvatlash cheklovi</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">Batareyaning ishlash muddatini uzaytirish uchun telefon faqat {batteryLimitLevel}% quvvatlanadi. Batareya darajasini xabar qilish aniqligini saqlash maqsadida telefoningiz har bir yoki ikki haftada 100% quvvatlanadi.</string>
-    <string name="charging_optimization_summary_charge_limit">Quvvat cheklovi: {batteryLimitLevel}%</string>
+    <string name="charging_optimization_entry_summary_charge_limit">Maksimal %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">Batareyaning ishlash muddatini kengaytirish maqsadida telefon faqat %1$s quvvatlanadi Batareya darajasini xabar qilish aniqligini saqlash maqsadida telefoningiz har bir yoki ikki haftada %2$s quvvatlanadi.</string>
     <string name="charging_optimization_summary_off">Oʻchiq</string>
     <string name="charging_optimization_title">Optimal quvvatlash</string>
 </resources>

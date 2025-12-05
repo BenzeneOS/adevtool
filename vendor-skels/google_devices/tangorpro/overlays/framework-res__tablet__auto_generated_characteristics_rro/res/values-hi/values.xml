@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">आपके %1$s पर इसे ऐक्सेस नहीं किया जा सकता. इसके बजाय, अपने टैबलेट पर ऐक्सेस करने की कोशिश करें.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">टैबलेट की सेटिंग उपलब्ध नहीं हैं</string>
     <string name="battery_saver_charged_notification_summary">टैबलेट में काफ़ी बैटरी बची है. सुविधाओं पर अब पाबंदी नहीं है.</string>
+    <string name="biometric_dialog_secondary_display_toast">जारी रखने के लिए, अपने टैबलेट पर पहचान की पुष्टि करें</string>
     <string name="default_audio_route_name">टैबलेट</string>
     <string name="enable_explore_by_touch_warning_message">%1$s छूकर, उससे जुड़ी जानकारी सुनना चालू करना चाहती है. छूकर, उससे जुड़ी जानकारी सुनना चालू होने पर, जो भी आपकी उंगली के नीचे है आप उसकी जानकारी सुन या देख सकते हैं या टैबलेट के ज़रिये बातचीत करने के लिए हाथ के जेश्चर (स्पर्श) का इस्तेमाल कर सकते हैं.</string>
     <string name="global_actions">टैबलेट विकल्‍प</string>

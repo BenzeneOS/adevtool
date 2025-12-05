@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Přibližte tohle zařízení k zařízení Pixel Tablet a zkuste to znovu.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Otevřete pouzdro se sluchátky a přibližte ho k zařízení Pixel Tablet.</string>
     <string name="sound_dashboard_summary">Hlasitost</string>
-    <string name="sound_dashboard_summary_with_dnd">Hlasitost, režim Nerušit</string>
     <string name="sound_settings">Zvuk</string>
 </resources>

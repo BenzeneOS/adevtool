@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">полнење, ограничување, оптимизација на полнење, ограничување за полнење</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">За да помогне да се продолжи работниот век на батеријата, телефонот ќе се наполни само до {batteryLimitLevel} %. Телефонот ќе се наполни до 100 % еднаш на секои една до две седмици за да се одржи точноста на известувањето за нивото на батеријата.</string>
-    <string name="charging_optimization_summary_charge_limit">Ограничување на {batteryLimitLevel} %</string>
+    <string name="charging_optimization_entry_summary_charge_limit">Ограничете на %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">За да помогне да се продолжи работниот век на батеријата, батеријата на телефонот ќе се наполни само до %1$s. Телефонот ќе се наполни до %2$s еднаш на една до две седмици за да се одржи точноста на известувањето за нивото на батеријата.</string>
     <string name="charging_optimization_summary_off">Исклучено</string>
     <string name="charging_optimization_title">Оптимизација на полнењето</string>
 </resources>

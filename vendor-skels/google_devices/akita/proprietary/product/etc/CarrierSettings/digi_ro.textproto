@@ -1,5 +1,5 @@
 canonical_name: "digi_ro"
-version: 72000000011
+version: 73000000012
 apns {
   apn {
     name: "Digi.Mobil"
@@ -21,6 +21,10 @@ configs {
   config {
     key: "carrier_default_wfc_ims_enabled_bool"
     bool_value: true
+  }
+  config {
+    key: "carrier_default_wfc_ims_mode_int"
+    int_value: 1
   }
   config {
     key: "carrier_metered_apn_types_strings"
@@ -115,5 +119,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1736946287
+  seconds: 1753863643
 }

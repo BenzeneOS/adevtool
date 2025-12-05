@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">Tapeta na uzamknutej obrazovke je viditeľná na vnútornej obrazovke, keď je telefón rozložený</string>
+    <string name="doze_always_on_wallpaper_title">Zobrazovať tapetu na vnútornej obrazovke</string>
+</resources>

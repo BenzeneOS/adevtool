@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Skuif dié toestel nader aan jou Pixel Tablet en probeer weer.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Maak die oorfoonknoppieshouer oop, skuif dit nader aan jou Pixel Tablet, en probeer dan weer.</string>
     <string name="sound_dashboard_summary">Volume</string>
-    <string name="sound_dashboard_summary_with_dnd">Volume, Moenie Steur Nie</string>
     <string name="sound_settings">Klank</string>
 </resources>

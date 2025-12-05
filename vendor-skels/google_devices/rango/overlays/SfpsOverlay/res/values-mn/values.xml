@@ -30,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">Хурууны хээ мэдрэгч асаах/унтраах товчин дээр байдаг. Энэ нь утасны хажуу талын жижиг товч юм.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Хүрэх бүрд хурууг бага зэрэг хөдөлгө</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Хурууныхаа хээний бусад хэсгийг оруулахын тулд хөдөлгөөд бай</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Энэ нь санамсаргүйгээр түгжээг тайлах магадлалыг багасгадаг. Энэ тохиргоог унтраалттай үед мэдрэгчид түр хүрэх нь түгжээг тайлна.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Түгжээг тайлахын тулд мэдрэгчийг удаан дарна уу</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Мэдрэгчид өөр өнцгөөс хүрнэ үү</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Хурууны хээнийхээ бусад хэсгийг авах бол хуруугаа хөдөлгө</string>
     <string name="security_settings_work_fingerprint_preference_title">Ажлын зориулалттай хурууны хээгээр түгжээ тайлах</string>

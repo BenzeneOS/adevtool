@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Auf deinem %1$s ist kein Zugriff möglich. Versuch es stattdessen auf deinem Tablet.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Tablet-Einstellungen nicht verfügbar</string>
     <string name="battery_saver_charged_notification_summary">Das Tablet ist ausreichend geladen. Es sind keine Funktionen mehr beschränkt.</string>
+    <string name="biometric_dialog_secondary_display_toast">Zum Fortfahren Identität auf dem Tablet bestätigen</string>
     <string name="default_audio_route_name">Tablet</string>
     <string name="enable_explore_by_touch_warning_message">"%1$s fordert die Aktivierung von \"Tippen &amp; Entdecken\" an. Wenn \"Tippen &amp; Entdecken\" aktiviert ist, kannst du Beschreibungen dessen hören oder sehen, was sich unter deinen Fingern befindet, oder über Touch-Gesten mit dem Tablet kommunizieren."</string>
     <string name="global_actions">Tablet-Optionen</string>

@@ -1,5 +1,5 @@
 canonical_name: "halebop_se"
-version: 72000000016
+version: 73000000017
 apns {
   apn {
     name: "Halebop Internet"
@@ -271,6 +271,10 @@ configs {
     int_value: 120
   }
   config {
+    key: "prefer_3g_visibility_bool"
+    bool_value: false
+  }
+  config {
     key: "qns.block_iwlan_in_international_roaming_without_wwan_bool"
     bool_value: true
   }
@@ -284,5 +288,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1721185440
+  seconds: 1756887151
 }

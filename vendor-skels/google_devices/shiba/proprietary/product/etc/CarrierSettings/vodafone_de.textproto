@@ -1,5 +1,5 @@
 canonical_name: "vodafone_de"
-version: 72000000017
+version: 73000000018
 apns {
   apn {
     name: "Vodafone DE"
@@ -274,10 +274,6 @@ configs {
     text_value: "[{\"ApnName\": \"*\",\"ErrorTypes\": [{\"ErrorType\": \"IKE_PROTOCOL_ERROR_TYPE\",\"ErrorDetails\": [\"9002\"],\"RetryArray\": [\"1800\", \"-1\"],\"UnthrottlingEvents\": [\"APM_ENABLE_EVENT\", \"WIFI_DISABLE_EVENT\", \"WIFI_AP_CHANGED_EVENT\", \"WIFI_CALLING_DISABLE_EVENT\"]}]}]"
   }
   config {
-    key: "prefer_2g_bool"
-    bool_value: true
-  }
-  config {
     key: "qns.block_iwlan_in_international_roaming_without_wwan_bool"
     bool_value: true
   }
@@ -339,5 +335,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1739349332
+  seconds: 1755076350
 }

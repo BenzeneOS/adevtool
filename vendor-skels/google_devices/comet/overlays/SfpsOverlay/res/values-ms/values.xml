@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • Cap Jari</string>
     <string name="fingerprint_unlock_skip_fingerprint">Teruskan tanpa Buka Kunci Cap Jari</string>
     <string name="fingerprint_unlock_title">Dengan Buka Kunci Cap Jari, anda boleh membuka kunci telefon dengan menggunakan cap jari anda. Untuk keselamatan, pilihan ini memerlukan kunci skrin sandaran.</string>
+    <string name="frr_notification_reset_fingerprint_description">Tindakan ini mungkin dapat menyelesaikan masalah</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Benarkan Buka Kunci Cap Jari</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Penderia cap jari terdapat pada butang Kuasa.
 
@@ -29,8 +30,6 @@ Sentuh butang Kuasa dengan perlahan tanpa menekan butang."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Penderia cap jari berada pada butang kuasa. Butang ini ialah butang yang lebih pendek di sisi telefon.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Gerakkan jari sedikit setiap kali</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Teruskan ubah kedudukan untuk menangkap bahagian lain cap jari</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Tindakan ini dapat mengurangkan kemungkinan kunci terbuka secara tidak sengaja. Apabila tetapan ini dimatikan, tindakan menyentuh penderia seketika akan membuka kunci.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Letakkan pada penderia untuk buka kunci</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Sentuh penderia dari sudut lain</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Gerakkan jari untuk menangkap bahagian lain cap jari</string>
     <string name="security_settings_work_fingerprint_preference_title">Buka Kunci Cap Jari untuk kerja</string>

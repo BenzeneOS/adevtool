@@ -1,5 +1,5 @@
 canonical_name: "base_be"
-version: 72000000009
+version: 73000000009
 apns {
   apn {
     name: "BASE WAP"

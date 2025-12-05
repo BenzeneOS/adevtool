@@ -1,5 +1,5 @@
 canonical_name: "koodo_ca"
-version: 72000000089
+version: 73000000090
 apns {
   apn {
     name: "Koodo SP"
@@ -281,6 +281,10 @@ configs {
     }
   }
   config {
+    key: "imsvoice.mo_call_request_timeout_millis_int"
+    int_value: 0
+  }
+  config {
     key: "imsvoice.session_privacy_type_int"
     int_value: 2
   }
@@ -466,5 +470,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1743565756
+  seconds: 1751442964
 }

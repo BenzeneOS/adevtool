@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Бұған %1$s құрылғысынан кіру мүмкін емес. Оның орнына планшетті пайдаланып көріңіз.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Планшет параметрлері қолжетімді емес</string>
     <string name="battery_saver_charged_notification_summary">Планшеттің заряды жеткілікті. Функцияларға енді шектеу қойылмайды.</string>
+    <string name="biometric_dialog_secondary_display_toast">Жалғастыру үшін планшетте жеке басыңызды растаңыз.</string>
     <string name="default_audio_route_name">Планшет</string>
     <string name="enable_explore_by_touch_warning_message">%1$s қызметі Түртілген элементтерді дыбыстау функциясын қосуға рұқсат сұрап тұр. Ол қосылған кезде, саусағыңыздың астындағы элементтің сипаттамасын естіп не көріп тұрасыз немесе планшетті қимылмен басқарасыз.</string>
     <string name="global_actions">Планшет опциялары</string>

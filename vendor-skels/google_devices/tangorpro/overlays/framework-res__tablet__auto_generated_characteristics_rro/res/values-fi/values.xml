@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">%1$s ei saa pääsyä sovellukseen. Kokeile striimausta tabletilla.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Tabletin asetukset eivät ole käytettävissä</string>
     <string name="battery_saver_charged_notification_summary">Tabletissa on tarpeeksi virtaa. Ominaisuuksia ei enää rajoiteta.</string>
+    <string name="biometric_dialog_secondary_display_toast">Jatka vahvistamalla henkilöllisyytesi tabletilla</string>
     <string name="default_audio_route_name">Tabletti</string>
     <string name="enable_explore_by_touch_warning_message">%1$s haluaa ottaa Tutki koskettamalla -ominaisuuden käyttöön. Kun Tutki koskettamalla on käytössä, näet tai kuulet kuvauksen sormen alla olevista kohteista ja voit käyttää tablet-laitetta sormieleiden avulla.</string>
     <string name="global_actions">Tablet-laitteen asetukset</string>

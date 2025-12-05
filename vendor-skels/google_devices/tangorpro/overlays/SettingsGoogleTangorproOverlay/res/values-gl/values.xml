@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Achega máis o dispositivo á Pixel Tablet e téntao de novo.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Abre o estoxo dos auriculares, achégao á Pixel Tablet e téntao de novo.</string>
     <string name="sound_dashboard_summary">Volume</string>
-    <string name="sound_dashboard_summary_with_dnd">Volume, modo Non molestar</string>
     <string name="sound_settings">Son</string>
 </resources>

@@ -30,8 +30,6 @@ Toque levemente no botão sem o premir."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">O sensor de impressões digitais encontra-se no botão ligar/desligar. É o botão mais pequeno na parte lateral do telemóvel.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Mova o dedo levemente em cada toque</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Continue a mover o dedo para captar outras áreas da impressão digital</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Isto torna o desbloqueio acidental menos provável. Quando esta definição está desativada, um breve toque no sensor desbloqueia o dispositivo.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Manter sensor pressionado para desbloquear</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Toque no sensor de outro ângulo</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Mova o dedo para capturar outras áreas da impressão digital</string>
     <string name="security_settings_work_fingerprint_preference_title">Desbloqueio por impressão digital para o trabalho</string>

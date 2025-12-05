@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Non se puido acceder a este contido desde o teu dispositivo (%1$s). Proba a facelo desde a tableta.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">A configuración da tableta non está dispoñible</string>
     <string name="battery_saver_charged_notification_summary">A tableta non ten suficiente batería. Xa non se restrinxirán as funcións.</string>
+    <string name="biometric_dialog_secondary_display_toast">Verifica a túa identidade na tableta para continuar</string>
     <string name="default_audio_route_name">Tableta</string>
     <string name="enable_explore_by_touch_warning_message">%1$s quere activar a exploración táctil. Cando a exploración táctil estea activada, poderás escoitar ou ver descricións do contido seleccionado ou realizar xestos para interactuar coa tableta.</string>
     <string name="global_actions">Opcións de tableta</string>

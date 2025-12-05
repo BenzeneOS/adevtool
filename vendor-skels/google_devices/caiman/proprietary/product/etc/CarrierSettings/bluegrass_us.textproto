@@ -1,5 +1,5 @@
 canonical_name: "bluegrass_us"
-version: 72000000009
+version: 73000000010
 apns {
   apn {
     name: "Bluegrass"
@@ -1296,6 +1296,7 @@ configs {
   config {
     key: "qns.enable_minimum_guarding_timer_after_connected_apn_string_array"
     text_array {
+      item: "ims"
       item: "emergency"
     }
   }
@@ -1606,5 +1607,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1749144181
+  seconds: 1752617326
 }

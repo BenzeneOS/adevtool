@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">چارجنگ، حد، چارجنگ کی بہتری، چارج کی حد</string>
-    <string name="charging_optimization_footer_charge_limit">بیٹری کی عمر بڑھانے میں مدد کے لیے، آپ کا فون صرف {batteryLimitLevel} فیصد تک چارج ہوگا۔ بیٹری کی سطح کی رپورٹنگ کی درستگی کو برقرار رکھنے کے لیے آپ کا فون ہر ایک سے دو ہفتوں میں ایک بار 100% چارج ہوگا۔</string>
-    <string name="charging_optimization_summary_charge_limit">بیٹری کو {batteryLimitLevel} فیصد تک چارج کریں</string>
+    <string name="charging_optimization_entry_summary_charge_limit">‫%1$s تک محدود کریں</string>
+    <string name="charging_optimization_footer_message_charge_limit">بیٹری کی عمر بڑھانے میں مدد کے لیے، آپ کا فون صرف %1$s بیٹری تک چارج ہوگا۔ بیٹری کی سطح کی رپورٹنگ کی درستگی کو برقرار رکھنے کے لیے آپ کا فون ہر ایک سے دو ہفتوں میں ایک بار %2$sتک چارج ہوگا۔</string>
     <string name="charging_optimization_summary_off">آف ہے</string>
     <string name="charging_optimization_title">چارجنگ کی بہتری</string>
 </resources>

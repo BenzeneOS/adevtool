@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">"No s'hi pot accedir des del teu %1$s. Prova-ho a la tauleta."</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">La configuració de la tauleta no està disponible</string>
     <string name="battery_saver_charged_notification_summary">La tauleta té prou bateria. Les funcions ja no estan restringides.</string>
+    <string name="biometric_dialog_secondary_display_toast">Verifica la teva identitat a la tauleta per continuar</string>
     <string name="default_audio_route_name">Tauleta</string>
     <string name="enable_explore_by_touch_warning_message">"%1$s vol activar l'exploració tàctil. Quan l'exploració tàctil està activada, pots escoltar o veure les descripcions del contingut seleccionat o utilitzar gestos per interaccionar amb la tauleta."</string>
     <string name="global_actions">Opcions de la tauleta</string>

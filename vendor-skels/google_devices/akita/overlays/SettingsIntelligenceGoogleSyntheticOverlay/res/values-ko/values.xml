@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">충전, 한도, 충전 최적화, 충전 한도</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">배터리 수명을 연장하기 위해 휴대전화 배터리가 {batteryLimitLevel}%까지만 충전됩니다. 배터리 잔량 보고의 정확성을 유지하기 위해 1~2주마다 한 번씩 휴대전화가 100%까지 충전됩니다.</string>
-    <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}%로 제한</string>
+    <string name="charging_optimization_entry_summary_charge_limit">%1$s로 제한</string>
+    <string name="charging_optimization_footer_message_charge_limit">배터리 수명을 연장하기 위해 휴대전화 배터리가 %1$s까지만 충전됩니다. 배터리 잔량 보고의 정확성을 유지하기 위해 1~2주마다 한 번씩 휴대전화가 %2$s까지 충전됩니다.</string>
     <string name="charging_optimization_summary_off">사용 안 함</string>
     <string name="charging_optimization_title">충전 최적화</string>
 </resources>

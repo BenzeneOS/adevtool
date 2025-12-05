@@ -1,0 +1,157 @@
+canonical_name: "kt_kr"
+version: 73000000001
+apns {
+  apn {
+    name: "KT IMS"
+    value: "ims.ktfwing.com"
+    type: IMS
+    protocol: IPV4V6
+  }
+  apn {
+    name: "KT"
+    value: "lte.ktfwing.com"
+    type: CBS
+    type: DEFAULT
+    type: MMS
+    type: SUPL
+    type: FOTA
+    server: "*"
+    mmsc: "http://mmsc.ktfwing.com:9082"
+  }
+  apn {
+    name: "KT IA"
+    value: ""
+    type: IA
+    protocol: IPV4V6
+  }
+}
+configs {
+  config {
+    key: "allow_emergency_numbers_in_call_log_bool"
+    bool_value: true
+  }
+  config {
+    key: "bandwidth_string_array"
+    text_array {
+      item: "GPRS:24,24"
+      item: "EDGE:70,18"
+      item: "UMTS:115,115"
+      item: "CDMA-IS95A:14,14"
+      item: "CDMA-IS95B:14,14"
+      item: "1xRTT:30,30"
+      item: "EvDo-rev.0:750,48"
+      item: "EvDo-rev.A:950,550"
+      item: "HSDPA:4300,620"
+      item: "HSUPA:4300,1800"
+      item: "HSPA:4300,1800"
+      item: "EvDo-rev.B:1500,550"
+      item: "eHRPD:750,48"
+      item: "HSPAP:13000,3400"
+      item: "TD-SCDMA:115,115"
+      item: "LTE:30000,15000"
+      item: "NR_NSA:563200,61440"
+      item: "NR_NSA_MMWAVE:563200,614400"
+      item: "NR_SA:563200,61440"
+    }
+  }
+  config {
+    key: "carrier_certificate_string_array"
+    text_array {
+      item: "98987CACCAAF8355A4DC1FEF2600441F8B0EC923BBFAA3327D099CE4CDE29B0E"
+      item: "7117EE13C842F1009553C8B70FFF7CF30EC8F04118AE87B6722E2F05193EA09A"
+      item: "30BCC971FC0B69D54E7795B73EA2B11BF526E783850AFD2E73E1EE66DF120630"
+      item: "5EB5628F73BDA9BA3E89EDE80779F105EB45392F19B58844C879E078394CC0B6"
+      item: "EAF56C49D86B958F040A14CE1A94D4C416E44AA19C6AF87C2CC7E02E5DD9B771"
+      item: "EE0E64652EC30DE70A3753F4B139B782092608739A9FD213A0A9075F13F97DC5"
+      item: "34DF0E7A9F1CF1892E45C056B4973CD81CCF148A4050D11AEA4AC5A65F900A42"
+      item: "0334C8DDD8877B41912D950754D82BE8713E0573AF6D56FBB0537E1FD322A125"
+      item: "F5A500ED4E83B7E9BDF80E1837B4A7A1D5D2D03C6B5AE66060644E8C9BF76C87"
+      item: "C14BC5BC392DA316E7477D3BB4FB1AC045CDB7FA07874967143633F69373493F"
+    }
+  }
+  config {
+    key: "carrier_instant_lettering_available_bool"
+    bool_value: false
+  }
+  config {
+    key: "carrier_instant_lettering_encoding_string"
+    text_value: "EUC-KR"
+  }
+  config {
+    key: "carrier_instant_lettering_invalid_chars_string"
+    text_value: "[\"<>\\\\\\n]"
+  }
+  config {
+    key: "carrier_instant_lettering_length_limit_int"
+    int_value: 64
+  }
+  config {
+    key: "enableSMSDeliveryReports"
+    bool_value: false
+  }
+  config {
+    key: "ims.sip_server_port_number_int"
+    int_value: 5080
+  }
+  config {
+    key: "imsemergency.emergency_qos_precondition_supported_bool"
+    bool_value: false
+  }
+  config {
+    key: "imsrtt.text_qos_precondition_supported_bool"
+    bool_value: false
+  }
+  config {
+    key: "imsss.xcap_over_ut_supported_rats_int_array"
+    int_array {
+    }
+  }
+  config {
+    key: "imsvoice.evs_payload_description_bundle"
+    bundle {
+      config {
+        key: "127"
+        bundle {
+          config {
+            key: "imsvoice.evs_codec_attribute_bitrate_int_array"
+            int_array {
+              item: 3
+              item: 6
+            }
+          }
+          config {
+            key: "imsvoice.evs_codec_attribute_ch_aw_recv_int"
+            int_value: 255
+          }
+        }
+      }
+    }
+  }
+  config {
+    key: "imsvoice.voice_qos_precondition_supported_bool"
+    bool_value: false
+  }
+  config {
+    key: "imsvt.video_qos_precondition_supported_bool"
+    bool_value: false
+  }
+  config {
+    key: "maxImageHeight"
+    int_value: 1944
+  }
+  config {
+    key: "maxImageWidth"
+    int_value: 2592
+  }
+  config {
+    key: "maxMessageSize"
+    int_value: 1048576
+  }
+  config {
+    key: "support_conference_call_bool"
+    bool_value: false
+  }
+}
+last_updated {
+  seconds: 1756887151
+}

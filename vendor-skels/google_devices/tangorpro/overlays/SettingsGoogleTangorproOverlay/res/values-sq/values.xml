@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Afroje këtë pajisje me Pixel Tablet dhe provo përsëri.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Hap kasën e kufjeve të vogla, afroje me Pixel Tablet dhe provo përsëri.</string>
     <string name="sound_dashboard_summary">Volumi</string>
-    <string name="sound_dashboard_summary_with_dnd">"Volumi, \"Mos shqetëso\""</string>
     <string name="sound_settings">Tingulli</string>
 </resources>

@@ -37,9 +37,9 @@ android_app_import {
 }
 
 android_app_import {
-    name: "PixelCameraServices",
+    name: "PixelCameraServicesConnectivityClient",
     owner: "google_devices",
-    apk: "product/priv-app/PixelCameraServices/PixelCameraServices.apk",
+    apk: "product/priv-app/PixelCameraServicesConnectivityClient/PixelCameraServicesConnectivityClient.apk",
     dex_preopt: { enabled: false },
     preprocessed: true,
     privileged: true,
@@ -730,9 +730,9 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.dumpstate-service",
+    name: "android.hardware.dumpstate.3-service",
     owner: "google_devices",
-    srcs: [ "vendor/bin/hw/android.hardware.dumpstate-service" ],
+    srcs: [ "vendor/bin/hw/android.hardware.dumpstate.3-service" ],
     relative_install_path: "hw",
     check_elf_files: false,
     prefer: true,
@@ -1871,10 +1871,10 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.google.hardware.pixel.display-V16-ndk",
+    name: "com.google.hardware.pixel.display-V17-ndk",
     owner: "google_devices",
     target: {
-        android_arm64: { srcs: [ "vendor/lib64/com.google.hardware.pixel.display-V16-ndk.so" ] }
+        android_arm64: { srcs: [ "vendor/lib64/com.google.hardware.pixel.display-V17-ndk.so" ] }
     },
     compile_multilib: "64",
     check_elf_files: false,
@@ -2174,6 +2174,17 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "lib_vendor_gsc_atoms",
+    owner: "google_devices",
+    target: { android_arm64: { srcs: [ "vendor/lib64/lib_vendor_gsc_atoms.so" ] } },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libacryl_hdr_plugin",
     owner: "google_devices",
     target: { android_arm64: { srcs: [ "vendor/lib64/libacryl_hdr_plugin.so" ] } },
@@ -2199,6 +2210,17 @@ cc_prebuilt_library_shared {
     name: "libadaptedinfo",
     owner: "google_devices",
     target: { android_arm64: { srcs: [ "vendor/lib64/libadaptedinfo.so" ] } },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libalertv3",
+    owner: "google_devices",
+    target: { android_arm64: { srcs: [ "vendor/lib64/libalertv3.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3550,9 +3572,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.google.bluetooth_ext-V3-ndk",
+    name: "vendor.google.bluetooth_ext-V4-ndk",
     owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/vendor.google.bluetooth_ext-V3-ndk.so" ] } },
+    target: { android_arm64: { srcs: [ "vendor/lib64/vendor.google.bluetooth_ext-V4-ndk.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3561,9 +3583,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.google.google_battery-V4-ndk",
+    name: "vendor.google.google_battery-V5-ndk",
     owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/vendor.google.google_battery-V4-ndk.so" ] } },
+    target: { android_arm64: { srcs: [ "vendor/lib64/vendor.google.google_battery-V5-ndk.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3598,10 +3620,10 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.google.whitechapel.audio.extension-V6-ndk",
+    name: "vendor.google.whitechapel.audio.extension-V7-ndk",
     owner: "google_devices",
     target: {
-        android_arm64: { srcs: [ "vendor/lib64/vendor.google.whitechapel.audio.extension-V6-ndk.so" ] }
+        android_arm64: { srcs: [ "vendor/lib64/vendor.google.whitechapel.audio.extension-V7-ndk.so" ] }
     },
     compile_multilib: "64",
     check_elf_files: false,
@@ -3611,9 +3633,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.google.wireless_charger-V4-ndk",
+    name: "vendor.google.wireless_charger-V5-ndk",
     owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/vendor.google.wireless_charger-V4-ndk.so" ] } },
+    target: { android_arm64: { srcs: [ "vendor/lib64/vendor.google.wireless_charger-V5-ndk.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,

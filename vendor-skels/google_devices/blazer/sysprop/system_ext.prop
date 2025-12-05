@@ -1,2 +1,4 @@
 remote_provisioning.use_cert_processor=false
 ro.audio.ihaladaptervendorextension_enabled=true
+ro.camerax.extensions.enabled=true
+ro.view.vrr.velocity_threshold=120@0

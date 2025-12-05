@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">càrrega, límit, optimització de la càrrega, límit de càrrega</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">Per ajudar-te a allargar la vida útil de la bateria, el telèfon només es carregarà fins al {batteryLimitLevel} % de bateria. El telèfon es carregarà fins al 100 % una vegada cada 1-2 setmanes per mantenir la precisió dels informes del nivell de bateria.</string>
-    <string name="charging_optimization_summary_charge_limit">Limita al {batteryLimitLevel} %</string>
+    <string name="charging_optimization_entry_summary_charge_limit">Limita al %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">Per ajudar-te a allargar la vida útil de la bateria, el telèfon només es carregarà fins al %1$s de bateria. El telèfon es carregarà fins al %2$s una vegada cada 1-2 setmanes per mantenir la precisió dels informes del nivell de bateria.</string>
     <string name="charging_optimization_summary_off">Desactivat</string>
     <string name="charging_optimization_title">Optimització de la càrrega</string>
 </resources>

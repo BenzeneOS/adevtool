@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Det går inte att streama detta till %1$s. Testa med surfplattan i stället.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Surfplattans inställningar är inte tillgängliga</string>
     <string name="battery_saver_charged_notification_summary">Surfplattan har laddats tillräckligt. Funktioner begränsas inte längre.</string>
+    <string name="biometric_dialog_secondary_display_toast">Verifiera din identitet på surfplattan för att fortsätta</string>
     <string name="default_audio_route_name">Surfplatta</string>
     <string name="enable_explore_by_touch_warning_message">%1$s vill aktivera Explore by touch. När funktionen är aktiv kan du höra eller se beskrivningar av vad du har under fingret eller utföra gester för att göra saker med surfplattan.</string>
     <string name="global_actions">Alternativ för surfplattan</string>

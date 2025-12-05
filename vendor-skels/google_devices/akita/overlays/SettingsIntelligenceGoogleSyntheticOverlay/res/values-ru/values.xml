@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">зарядка, ограничение, оптимизация зарядки, ограничение уровня заряда</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">Чтобы продлить срок службы батареи, телефон будет заряжаться только до {batteryLimitLevel} %. Для корректного отображения уровня заряда раз в 1–2 недели устройство будет заряжаться до 100 %.</string>
-    <string name="charging_optimization_summary_charge_limit">Зарядка до {batteryLimitLevel} %</string>
+    <string name="charging_optimization_entry_summary_charge_limit">Максимум %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">Чтобы продлить срок службы батареи, телефон заряжается только на %1$s. Для точного определения уровня заряда раз в одну-две недели устройство будет заряжаться до %2$s.</string>
     <string name="charging_optimization_summary_off">Отключена</string>
     <string name="charging_optimization_title">Оптимизация зарядки</string>
 </resources>

@@ -1,5 +1,5 @@
 canonical_name: "spectrummso_us"
-version: 71000000001
+version: 73000000003
 apns {
   apn {
     name: "Spectrum"
@@ -105,6 +105,10 @@ configs {
     }
   }
   config {
+    key: "opportunistic.5g_backoff_time_long"
+    long_value: 5000
+  }
+  config {
     key: "opportunistic.5g_data_switch_exit_hysteresis_time_long"
     long_value: 2000
   }
@@ -113,12 +117,16 @@ configs {
     long_value: 2000
   }
   config {
+    key: "opportunistic.5g_max_backoff_time_long"
+    long_value: 25000
+  }
+  config {
     key: "opportunistic.entry_threshold_ss_rsrp_int"
-    int_value: -111
+    int_value: -115
   }
   config {
     key: "opportunistic.entry_threshold_ss_rsrq_double"
-    double_value: -18.5
+    double_value: -35
   }
   config {
     key: "opportunistic.exit_threshold_ss_rsrp_int"
@@ -126,7 +134,7 @@ configs {
   }
   config {
     key: "opportunistic.exit_threshold_ss_rsrq_double"
-    double_value: -18.5
+    double_value: -35
   }
   config {
     key: "opportunistic_network_data_switch_exit_hysteresis_time_long"
@@ -158,5 +166,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1725936050
+  seconds: 1758110709
 }

@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Bu %1$s qurilmangizda ochilmaydi. Planshet orqali urinib koʻring.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Planshet sozlamalari ishlamayapti</string>
     <string name="battery_saver_charged_notification_summary">Planshet yetarli quvvatlandi. Funksiyalar endi cheklovlarsiz ishlaydi.</string>
+    <string name="biometric_dialog_secondary_display_toast">Davom etish uchun planshetda shaxsingizni tasdiqlang</string>
     <string name="default_audio_route_name">Planshet</string>
     <string name="enable_explore_by_touch_warning_message">%1$s teginib o‘rganish xususiyatini yoqishni xohlamoqda. Bu xususiyat yoqilganda, barmog‘ingiz ostidagi elementlar ta‘rifini ko‘rishingiz yoki eshitishingiz mumkin yoki telefon bilan o‘zaro bog‘lanish uchun barmog‘ingiz bilan imo-ishorali harakatlarni bajaring.</string>
     <string name="global_actions">Planshet sozlamalari</string>

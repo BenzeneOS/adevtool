@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • ลายนิ้วมือ</string>
     <string name="fingerprint_unlock_skip_fingerprint">ดำเนินการต่อโดยไม่มีการปลดล็อกด้วยลายนิ้วมือ</string>
     <string name="fingerprint_unlock_title">เมื่อใช้การปลดล็อกด้วยลายนิ้วมือ คุณจะปลดล็อกแท็บเล็ตโดยใช้ลายนิ้วมือได้ ตัวเลือกนี้ต้องใช้การล็อกหน้าจอสำรองเพื่อความปลอดภัย</string>
+    <string name="frr_notification_reset_fingerprint_description">บางครั้งการดำเนินการนี้อาจช่วยแก้ปัญหาได้</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">อนุญาตให้ปลดล็อกด้วยลายนิ้วมือ</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"เซ็นเซอร์ลายนิ้วมืออยู่ในปุ่มเปิด/ปิด
 
@@ -29,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">เซ็นเซอร์ลายนิ้วมืออยู่ที่ปุ่มเปิด/ปิด ซึ่งเป็นปุ่มสั้นๆ ที่ด้านข้างโทรศัพท์</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">ขยับนิ้วเล็กน้อยในแต่ละครั้ง</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">ขยับไปเรื่อยๆ เพื่อบันทึกส่วนอื่นของลายนิ้วมือ</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">ซึ่งจะช่วยลดการปลดล็อกโดยไม่ได้ตั้งใจ เมื่อปิดใช้การตั้งค่านี้ อุปกรณ์จะปลดล็อกด้วยการแตะเบาๆ ที่เซ็นเซอร์</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">แตะค้างที่เซ็นเซอร์เพื่อปลดล็อก</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">แตะเซ็นเซอร์จากอีกมุมหนึ่ง</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">เลื่อนนิ้วเพื่อจับภาพส่วนอื่นของลายนิ้วมือ</string>
     <string name="security_settings_work_fingerprint_preference_title">การปลดล็อกด้วยลายนิ้วมือสำหรับการทำงาน</string>

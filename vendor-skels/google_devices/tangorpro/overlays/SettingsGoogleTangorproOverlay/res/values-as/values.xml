@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">এই ডিভাইচটো আপোনাৰ Pixel টেবলেটটোৰ ওচৰলৈ নিয়ক আৰু পুনৰ চেষ্টা কৰক।</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">ইয়েৰবাডৰ কে’ছটো খোলক আৰু সেইটো আপোনাৰ Pixel টেবলেটটোৰ ওচৰলৈ নিয়ক, তাৰ পাছত পুনৰ চেষ্টা কৰক।</string>
     <string name="sound_dashboard_summary">ভলিউম</string>
-    <string name="sound_dashboard_summary_with_dnd">ভলিউম, অসুবিধা নিদিব</string>
     <string name="sound_settings">ধ্বনি</string>
 </resources>

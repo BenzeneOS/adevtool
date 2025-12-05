@@ -1,8 +1,8 @@
 canonical_name: "vodafone_in"
-version: 72000000005
+version: 73000000008
 apns {
   apn {
-    name: "Vodafone Mobile Connect"
+    name: "Vodafone Idea"
     value: "www"
     type: DEFAULT
     type: SUPL
@@ -118,37 +118,6 @@ configs {
     }
   }
   config {
-    key: "imsvoice.audio_codec_capability_payload_types_bundle"
-    bundle {
-      config {
-        key: "imsvoice.amrnb_payload_type_int_array"
-        int_array {
-          item: 98
-          item: 103
-        }
-      }
-      config {
-        key: "imsvoice.amrwb_payload_type_int_array"
-        int_array {
-          item: 100
-          item: 105
-        }
-      }
-      config {
-        key: "imsvoice.dtmfnb_payload_type_int_array"
-        int_array {
-          item: 97
-        }
-      }
-      config {
-        key: "imsvoice.dtmfwb_payload_type_int_array"
-        int_array {
-          item: 96
-        }
-      }
-    }
-  }
-  config {
     key: "imsvoice.prack_supported_for_18x_bool"
     bool_value: true
   }
@@ -175,6 +144,10 @@ configs {
   config {
     key: "is_ims_conference_size_enforced_bool"
     bool_value: true
+  }
+  config {
+    key: "iwlan.ike_sa_transforms_reorder_bool"
+    bool_value: false
   }
   config {
     key: "iwlan.key_error_policy_config_string"
@@ -256,5 +229,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1747816840
+  seconds: 1755076375
 }

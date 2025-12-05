@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • Alama ya kidole</string>
     <string name="fingerprint_unlock_skip_fingerprint">Endelea bila kutumia kipengele cha Kufungua kwa alama ya kidole</string>
     <string name="fingerprint_unlock_title">Ukitumia kipengele cha Kufungua kwa alama ya kidole, unaweza kufungua kompyuta kibao yako ukitumia alama ya kidole chako. Kwa ajili ya usalama, chaguo hili linahitaji mbinu mbadala ya kufunga skrini.</string>
+    <string name="frr_notification_reset_fingerprint_description">Wakati mwingine hatua hii inaweza kurekebisha hitilafu</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Ruhusu kipengele cha Kufungua kwa alama ya kidole</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Kitambua alama ya kidole kipo kwenye Kitufe cha kuwasha/kuzima.
 
@@ -29,8 +30,6 @@ Kiguse kitufe taratibu bila kukibonyeza."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Kitambuzi cha alama ya kidole kinapatikana kwenye kitufe cha kuwasha/kuzima. Ni kitufe kifupi zaidi kilicho kando ya simu.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Sogeza kidogo kidole chako kila wakati</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Endelea kusogeza ili unase maeneo mengine ya alama ya kidole chako</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Hali hii hupunguza uwezekano wa kufungua kwa bahati mbaya. Unapozima mipangilio hii, kitambuzi kitafunguka ukikigusa kwa muda mfupi.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Gusa kitambuzi kwa muda ili ufungue</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Gusa kitambuzi kutoka pembe nyingine</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Sogeza kidole chako ili unase maeneo mengine ya alama ya kidole chako</string>
     <string name="security_settings_work_fingerprint_preference_title">Kufungua kwa alama ya kidole kwenye wasifu wa kazini</string>

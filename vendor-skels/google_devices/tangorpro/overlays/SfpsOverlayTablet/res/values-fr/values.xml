@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">Code • Empreinte digitale</string>
     <string name="fingerprint_unlock_skip_fingerprint">Continuer sans le déverrouillage par empreinte digitale</string>
     <string name="fingerprint_unlock_title">"Avec le déverrouillage par empreinte digitale, vous pouvez déverrouiller votre tablette à l'aide de votre empreinte digitale. Pour plus de sécurité, cette option doit être associée à un verrouillage d'écran secondaire."</string>
+    <string name="frr_notification_reset_fingerprint_description">Cela peut parfois résoudre certains problèmes</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Autoriser déverrouillage par empreinte</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Le lecteur d'empreinte digitale est sur le bouton Marche/Arrêt.
 
@@ -29,8 +30,6 @@ Appuyez légèrement sur le bouton sans l'enfoncer."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">"Le lecteur d'empreinte digitale est sur le bouton Marche/Arrêt. C'est le bouton le plus court sur le côté du téléphone."</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Déplacez votre doigt légèrement à chaque fois</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">"Déplacez-le encore pour scanner d'autres parties de votre empreinte digitale"</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">"Cela réduit le risque de déverrouillage accidentel. Lorsque ce paramètre est désactivé, l'appareil se verrouille suite à un appui court sur le capteur."</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">"Appuyez de manière prolongée sur le capteur pour déverrouiller l'appareil"</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Appuyez sur le capteur depuis un autre angle</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">"Déplacez votre doigt pour scanner d'autres parties de votre empreinte digitale"</string>
     <string name="security_settings_work_fingerprint_preference_title">Déverrouillage par empreinte digitale pour le travail</string>

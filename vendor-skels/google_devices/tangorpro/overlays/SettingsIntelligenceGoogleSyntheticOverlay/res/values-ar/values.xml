@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">شحن، حدّ أقصى، تحسين الشحن، حدّ أقصى للشحن</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">للمساعدة في إطالة عمر البطارية، سيتوقف شحن هاتفك عندما يبلغ %{batteryLimitLevel}. وسيتم شحنه بنسبة %100 مرة واحدة كل أسبوع أو أسبوعين للحفاظ على دقة تقارير مستوى البطارية.</string>
-    <string name="charging_optimization_summary_charge_limit">الحدّ الأقصى للشحن: %{batteryLimitLevel}</string>
+    <string name="charging_optimization_entry_summary_charge_limit">الحدّ الأقصى للشحن %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">للمساعدة في إطالة عمر البطارية، سيتم شحن هاتفك حتى %1$s فقط. وسيتم شحن هاتفك بنسبة %2$s مرة واحدة كل أسبوع إلى أسبوعين للحفاظ على دقة تقارير مستوى البطارية.</string>
     <string name="charging_optimization_summary_off">غير مفعّل</string>
     <string name="charging_optimization_title">تحسين الشحن</string>
 </resources>

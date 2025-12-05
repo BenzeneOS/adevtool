@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Ehhez nem lehet hozzáférni a következő eszközön: %1$s. Próbálja újra a táblagépen.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">A táblagép beállításai nem állnak rendelkezésre</string>
     <string name="battery_saver_charged_notification_summary">A táblagép töltöttsége elegendő. A funkciók használata már nincs korlátozva.</string>
+    <string name="biometric_dialog_secondary_display_toast">A folytatáshoz igazolja személyazonosságát táblagépén</string>
     <string name="default_audio_route_name">Táblagép</string>
     <string name="enable_explore_by_touch_warning_message">%1$s aktiválni szeretné a Felfedezés érintéssel funkciót. Amikor be van kapcsolva a Felfedezés érintéssel, akkor hallhatja vagy láthatja annak leírását, ami az ujja alatt van, illetve végrehajthat kézmozdulatokat a táblagép kezeléséhez.</string>
     <string name="global_actions">Táblagép beállításait</string>

@@ -1,5 +1,5 @@
 canonical_name: "sasktel_ca"
-version: 71000000004
+version: 73000000004
 apns {
   apn {
     name: "SaskTel"

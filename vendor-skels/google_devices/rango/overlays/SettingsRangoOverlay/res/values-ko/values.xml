@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">휴대전화가 펼쳐져 있을 때 내부 디스플레이에 잠금 화면 배경화면이 표시됩니다.</string>
+    <string name="doze_always_on_wallpaper_title">내부 디스플레이에 배경화면 표시</string>
+</resources>

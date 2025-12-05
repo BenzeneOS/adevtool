@@ -23,8 +23,8 @@ vintf_fragment {
 }
 
 vintf_fragment {
-    name: "adevtool_vintf_fragment_vendor_android.hardware.dumpstate-service.xml",
-    src: "android.hardware.dumpstate-service.xml",
+    name: "adevtool_vintf_fragment_vendor_android.hardware.dumpstate.3-service.xml",
+    src: "android.hardware.dumpstate.3-service.xml",
     soc_specific: true,
 }
 
@@ -207,6 +207,12 @@ vintf_fragment {
 vintf_fragment {
     name: "adevtool_vintf_fragment_vendor_vendor.google.aam.xml",
     src: "vendor.google.aam.xml",
+    soc_specific: true,
+}
+
+vintf_fragment {
+    name: "adevtool_vintf_fragment_vendor_vendor.google.ambience_hub-default.xml",
+    src: "vendor.google.ambience_hub-default.xml",
     soc_specific: true,
 }
 

@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Mou el dispositiu més a prop de la Pixel Tablet i torna-ho a provar.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">"Obre l'estoig d'auriculars, mou-lo més a prop de la Pixel Tablet i torna-ho a provar."</string>
     <string name="sound_dashboard_summary">Volum</string>
-    <string name="sound_dashboard_summary_with_dnd">Volum, No molestis</string>
     <string name="sound_settings">So</string>
 </resources>

@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">آپ کے %1$s پر اس تک رسائی حاصل نہیں ہو سکتی۔ اس کے بجائے اپنے ٹیبلیٹ پر کوشش کریں۔</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">ٹیبلیٹ کی ترتیبات دستیاب نہیں ہے</string>
     <string name="battery_saver_charged_notification_summary">ٹیبلیٹ میں کافی چارج ہے۔ خصوصیات پر اب پابندی نہیں ہے۔</string>
+    <string name="biometric_dialog_secondary_display_toast">جاری رکھنے کے لیے اپنے ٹیبلیٹ پر تصدیق کریں کہ یہ آپ ہی ہیں</string>
     <string name="default_audio_route_name">ٹیبلیٹ</string>
     <string name="enable_explore_by_touch_warning_message">%1$s ٹچ کرکے دریافت کریں کو فعال کرنا چاہتی ہے۔ ٹچ کرکے دریافت کریں کے آن ہو جانے پر، آپ کو اپنی انگلی کے نیچے موجود چیزوں کی تفصیلات دکھائی یا سنائی دے سکتی ہیں یا آپ ٹیبلیٹ کے ساتھ تعامل کرنے کیلئے اشارے انجام دے سکتے ہیں۔</string>
     <string name="global_actions">ٹیبلیٹ کے اختیارات</string>

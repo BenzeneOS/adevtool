@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN-koodi • Sormenjälki</string>
     <string name="fingerprint_unlock_skip_fingerprint">Jatka ilman sormenjälkiavausta</string>
     <string name="fingerprint_unlock_title">Sormenjälkiavauksen avulla voit käyttää sormenjälkeäsi puhelimen lukituksen avaamiseen. Turvallisuussyistä tämä edellyttää, että valitset näytön varalukitustavan.</string>
+    <string name="frr_notification_reset_fingerprint_description">Voi joskus ratkaista ongelman</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Salli sormenjälkiavaus</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Sormenjälkitunnistin on virtapainikkeessa.
 
@@ -29,8 +30,6 @@ Kosketa painiketta kevyesti painamatta sitä alas."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Sormenjälkitunnistin on virtapainikkeessa. Se on puhelimen sivussa oleva lyhyempi painike.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Liikuta sormeasi hieman joka kerta</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Liikuta niin, että koko sormenjälki tallentuu</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Näin on epätodennäköisempää, että lukitus avautuu vahingossa. Kun tämä asetus on pois päältä, lukitus avautuu koskettamalla sensoria nopeasti.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Avaa lukitus pitämällä sormea sensorin päällä</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Kosketa sensoria eri kulmasta</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Liikuta sormea niin, että tallennat muut sormenjäljen alueet</string>
     <string name="security_settings_work_fingerprint_preference_title">Sormenjälkiavaus työkäyttöön</string>

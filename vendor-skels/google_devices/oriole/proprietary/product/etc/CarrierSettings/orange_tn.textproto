@@ -1,0 +1,23 @@
+canonical_name: "orange_tn"
+version: 73000000001
+apns {
+  apn {
+    name: "weborange"
+    value: "weborange"
+    type: DEFAULT
+    type: SUPL
+  }
+  apn {
+    name: "MMS Orange"
+    value: "mms.otun"
+    type: MMS
+    mmsc: "http://mms.orange.tn"
+    mmsc_proxy: "10.12.1.52"
+    mmsc_proxy_port: "8080"
+  }
+}
+configs {
+}
+last_updated {
+  seconds: 1756887143
+}

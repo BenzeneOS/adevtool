@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Не може да се осъществи достъп от устройството ви %1$s. Вместо това опитайте от таблета си.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Настройките за таблета не са достъпни</string>
     <string name="battery_saver_charged_notification_summary">Батерията на таблета има достатъчно заряд. Функциите вече не са ограничени.</string>
+    <string name="biometric_dialog_secondary_display_toast">За да продължите, потвърдете от таблета си, че това сте вие</string>
     <string name="default_audio_route_name">Таблет</string>
     <string name="enable_explore_by_touch_warning_message">%1$s иска да активира изследването чрез докосване. Когато услугата е включена, можете да чувате или да виждате описания на това, което е под пръста ви, или да изпълнявате жестове, за да взаимодействате с таблета.</string>
     <string name="global_actions">Опции за таблета</string>

@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">আপনার %1$s-এ এটি অ্যাক্সেস করা যাবে না। পরিবর্তে আপনার ট্যাবলেটে ব্যবহার করে দেখুন।</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">ট্যাবলেটের সেটিংস উপলভ্য নেই</string>
     <string name="battery_saver_charged_notification_summary">ট্যাবলেটের ব্যাটারিতে যথেষ্ট চার্জ আছে। ফিচারগুলির উপর আর বিধিনিষেধ নেই।</string>
+    <string name="biometric_dialog_secondary_display_toast">চালিয়ে যেতে আপনার ট্যাবলেটে নিজের পরিচয় যাচাই করিয়ে নিন</string>
     <string name="default_audio_route_name">ট্যাবলেট</string>
     <string name="enable_explore_by_touch_warning_message">"%1$s 'স্পর্শের মাধ্যমে অন্বেষণ করুন' সক্ষম করতে চাইছে৷ যখন 'স্পর্শের মাধ্যমে অন্বেষণ করুন' চালু করা হবে তখন আপনার আঙ্গুলের নিয়ন্ত্রণে থাকা জিনিসের বর্ণনাগুলি শুনতে অথবা দেখতে পাবেন অথবা ট্যাবলেটের সাথে ইন্টারঅ্যাক্ট করার জন্য অঙ্গভঙ্গির সাহায্য নিতে পারবেন৷"</string>
     <string name="global_actions">ট্যাবলেট বিকল্পগুলি</string>

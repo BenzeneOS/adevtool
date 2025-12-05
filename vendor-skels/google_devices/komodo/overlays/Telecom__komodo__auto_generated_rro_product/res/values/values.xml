@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="enable_logcat_collection_for_all_emergency_calls">true</bool>
+</resources>

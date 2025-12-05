@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Apl ini tidak boleh diakses pada %1$s anda. Cuba pada tablet anda.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Tetapan tablet tidak tersedia</string>
     <string name="battery_saver_charged_notification_summary">Cas tablet mencukupi. Ciri tidak lagi dihadkan.</string>
+    <string name="biometric_dialog_secondary_display_toast">Sahkan identiti anda pada tablet anda untuk meneruskan proses</string>
     <string name="default_audio_route_name">Tablet</string>
     <string name="enable_explore_by_touch_warning_message">%1$s ingin mendayakan Teroka melalui Sentuhan. Apabila Teroka melalui Sentuhan didayakan, anda boleh mendengar atau melihat penerangan tentang apa-apa di bawah jari anda atau melakukan gerak isyarat untuk berinteraksi dengan tablet.</string>
     <string name="global_actions">Pilihan tablet</string>

@@ -1,5 +1,5 @@
 canonical_name: "solomobile_ca"
-version: 72000000353
+version: 73000000353
 apns {
   apn {
     name: "Solo Mobile"

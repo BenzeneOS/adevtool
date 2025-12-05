@@ -30,8 +30,6 @@ Düyməyə yüngülcə toxunun, aşağı basmayın."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Barmaq izi sensoru enerji düyməsinin üzərindədir. Telefonun yan tərəfindəki qısa düymədir.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Barmağı az-az hərəkət etdirin</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Digər hissələr üçün davam edin</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Bu, təsadüfən kilidaçma ehtimalını azaldır. Bu ayar deaktiv edildikdə sensora qısa müddətlik toxunmaqla kilid açılacaq.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Kilidi açmaq üçün sensora toxunun</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Sensora başqa bucaqdan toxunun</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Digər hissələri çəkin</string>
     <string name="security_settings_work_fingerprint_preference_title">İş üçün Barmaq izi ilə kiliddən çıxarma</string>

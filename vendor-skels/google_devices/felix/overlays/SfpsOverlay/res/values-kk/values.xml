@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN коды • саусақ ізі</string>
     <string name="fingerprint_unlock_skip_fingerprint">Саусақ ізімен ашу функциясынсыз жалғастыру</string>
     <string name="fingerprint_unlock_title">Саусақ ізімен ашу функциясы арқылы телефон құлпын саусақпен ашуға болады. Қауіпсіздік мақсатында бұл опцияға қосымша экран құлпы керек болады.</string>
+    <string name="frr_notification_reset_fingerprint_description">Бұл әрекет кейде мәселелерді шешуге көмектеседі.</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Саусақ ізімен ашуға рұқсат беріңіз</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Саусақ ізін оқу сканері қуат түймесінде орналасқан.
 
@@ -29,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">Саусақ ізін оқу сканері қуат түймесінде орналасқан. Бұл – телефонның бүйіріндегі қысқа түйме.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Саусақты аздап жылжытып отырыңыз.</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Саусақ ізінің басқа бөлігін түсіру үшін саусақты жылжытып отырыңыз.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Мұндайда кездейсоқ ашып қою сирек болады. Бұл параметр өшіп тұрғанда датчикті жайлап түртсеңіз, оның құлпы ашылады.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Құлпын ашу үшін датчикті басып тұрыңыз</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Сенсорды басқа бұрыштан түртіңіз.</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Саусақ ізінің басқа бөлігін түсіру үшін саусақты жылжытыңыз.</string>
     <string name="security_settings_work_fingerprint_preference_title">Жұмысқа арналған саусақ ізімен ашу</string>

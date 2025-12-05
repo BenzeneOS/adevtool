@@ -1,5 +1,5 @@
 canonical_name: "telia_lt"
-version: 72000000019
+version: 73000000020
 apns {
   apn {
     name: "Telia MMS"
@@ -199,10 +199,14 @@ configs {
     int_value: 2097152
   }
   config {
+    key: "prefer_3g_visibility_bool"
+    bool_value: false
+  }
+  config {
     key: "wfc_spn_format_idx_int"
     int_value: 1
   }
 }
 last_updated {
-  seconds: 1739349292
+  seconds: 1756887143
 }

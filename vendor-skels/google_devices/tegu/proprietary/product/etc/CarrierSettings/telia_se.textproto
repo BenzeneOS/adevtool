@@ -1,5 +1,5 @@
 canonical_name: "telia_se"
-version: 72000000005
+version: 73000000006
 apns {
   apn {
     name: "Telia MMS"
@@ -282,6 +282,10 @@ configs {
     int_value: 120
   }
   config {
+    key: "prefer_3g_visibility_bool"
+    bool_value: false
+  }
+  config {
     key: "qns.block_iwlan_in_international_roaming_without_wwan_bool"
     bool_value: true
   }
@@ -307,5 +311,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1736946304
+  seconds: 1756887199
 }

@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Ovoj aplikaciji ne može da se pristupi sa uređaja %1$s. Probajte na tabletu.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Podešavanja tableta su nedostupna</string>
     <string name="battery_saver_charged_notification_summary">Baterija tableta je dovoljno napunjena. Funkcije više nisu ograničene.</string>
+    <string name="biometric_dialog_secondary_display_toast">Da biste nastavili, potvrdite identitet na tabletu</string>
     <string name="default_audio_route_name">Tablet</string>
     <string name="enable_explore_by_touch_warning_message">%1$s želi da omogući Istraživanje dodirom. Kada je Istraživanje dodirom uključeno, možete da čujete ili vidite opise stavke na koju ste stavili prst ili da komunicirate sa tabletom pomoću pokreta.</string>
     <string name="global_actions">Opcije za tablet</string>

@@ -30,8 +30,10 @@ BOARD_KERNEL_CMDLINE += \
     rcutree.enable_rcu_lazy \
     swiotlb=noforce \
     cgroup.memory=nokmem \
+    rodata=on \
     at24.write_timeout=100 \
     log_buf_len=1024K \
+    android_arch_task_struct_size=512 \
     bootconfig
 
 BOARD_BOOTCONFIG += \

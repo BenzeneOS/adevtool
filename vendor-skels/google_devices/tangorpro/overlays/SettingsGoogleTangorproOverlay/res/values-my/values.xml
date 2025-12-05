@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">ဤစက်ပစ္စည်းကို သင့် Pixel Tablet နှင့် ပိုနီးအောင်ရွှေ့ပြီး ထပ်စမ်းကြည့်ပါ။</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">နားကြပ်ဘူးဖွင့်ကာ ၎င်းကို သင့် Pixel Tablet နှင့် ပိုနီးအောင်ရွှေ့ပြီး ထပ်စမ်းကြည့်ပါ။</string>
     <string name="sound_dashboard_summary">အသံအတိုးအကျယ်</string>
-    <string name="sound_dashboard_summary_with_dnd">အသံအတိုးအကျယ်၊ မနှောင့်ယှက်ရ</string>
     <string name="sound_settings">အသံ</string>
 </resources>

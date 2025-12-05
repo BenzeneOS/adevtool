@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Huwezi kufikia mipangilio hii kwenye %1$s yako. Badala yake jaribu kwenye kompyuta yako kibao.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Mipangilio ya kompyuta kibao haipatikani</string>
     <string name="battery_saver_charged_notification_summary">Kompyuta kibao ina chaji ya kutosha. Vipengele havizuiliwi tena.</string>
+    <string name="biometric_dialog_secondary_display_toast">Thibitisha kuwa ni wewe kwenye kishikwambi chako ili uendelee</string>
     <string name="default_audio_route_name">Kompyuta kibao</string>
     <string name="enable_explore_by_touch_warning_message">%1$s inataka kuwezesha Kuchunguza kwa Kugusa. Wakati Kuchunguza kwa Kugusa kumewezeshwa, unaweza kusikia au kuona maelezo ya kilicho chini ya kidole chako au kutumia ishara ili kuingiliana na kompyuta kibao.</string>
     <string name="global_actions">Chaguo za kompyuta ndogo</string>

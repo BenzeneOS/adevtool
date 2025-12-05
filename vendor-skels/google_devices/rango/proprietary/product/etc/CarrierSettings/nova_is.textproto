@@ -1,5 +1,5 @@
 canonical_name: "nova_is"
-version: 71000000001
+version: 73000000001
 apns {
   apn {
     name: "MMS Nova"

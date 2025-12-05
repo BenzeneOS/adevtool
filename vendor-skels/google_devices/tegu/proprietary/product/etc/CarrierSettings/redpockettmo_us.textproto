@@ -1,5 +1,5 @@
 canonical_name: "redpockettmo_us"
-version: 72000000005
+version: 73000000004
 apns {
   apn {
     name: "Red Pocket Mobile"
@@ -316,12 +316,6 @@ configs {
     int_value: 1
   }
 }
-vendor_configs {
-  client {
-    name: "modem"
-    value: "\nv\n\027OEM_GCONFIG_PARIS_MODEL\022XZzUzMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==\"\001\000\nA\n6PSS.AIMS.HANDLE.UNREL.SDP|DS.PSS.AIMS.HANDLE.UNREL.SDP\022\004Ag==\"\001\000\nx\n\031OEM_GCONFIG_PARIS_VERSION\022XZzUzMDBfdG1vYmlsZV8yMDFfMjAyNTA5MTAxMzAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==\"\001\005"
-  }
-}
 last_updated {
-  seconds: 1757596185
+  seconds: 1742382168
 }

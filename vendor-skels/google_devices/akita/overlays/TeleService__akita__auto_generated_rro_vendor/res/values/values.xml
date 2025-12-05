@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <array name="ecc_log_sources_process_names">
+        <item>com.android.phone</item>
+        <item>com.android.telephony.imsmedia</item>
+        <item>com.shannon.imsservice</item>
+        <item>com.android.qns</item>
+        <item>com.google.android.iwlan</item>
+        <item>rild_exynos</item>
+        <item>com.samsung.slsi.telephony.oemril</item>
+        <item>com.google.android.rilextension</item>
+        <item>com.samsung.slsi.telephony.oem.oemrilhookservice</item>
+        <item>com.google.android.dialer</item>
+        <item>com.android.settings</item>
+    </array>
+    <array name="ecc_log_sources_tags">
+        <item>Telecom</item>
+    </array>
     <bool name="config_enabled_lte">true</bool>
     <bool name="config_support_rtt">true</bool>
+    <bool name="enable_logcat_collection_for_all_emergency_calls">false</bool>
     <string name="config_gba_package">com.shannon.rcsservice</string>
     <string name="config_ims_mmtel_package">com.shannon.imsservice</string>
     <string name="config_ims_rcs_package">com.shannon.rcsservice</string>

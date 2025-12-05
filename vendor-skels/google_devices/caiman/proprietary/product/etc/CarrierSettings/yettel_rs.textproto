@@ -1,0 +1,60 @@
+canonical_name: "yettel_rs"
+version: 73000000002
+apns {
+  apn {
+    name: "Yettel INTERNET"
+    value: "internet"
+    type: DEFAULT
+    type: SUPL
+    user: "yettel"
+    password: "gprs"
+  }
+  apn {
+    name: "Yettel MMS"
+    value: "mms"
+    type: MMS
+    mmsc: "http://mms.yettel.rs/servlets/mms"
+    mmsc_proxy: "217.65.192.33"
+    mmsc_proxy_port: "8080"
+  }
+  apn {
+    name: "IMS"
+    value: "ims"
+    type: IMS
+    bearer_bitmask: "14|20"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
+  apn {
+    name: "XCAP"
+    value: "xcap"
+    type: XCAP
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
+}
+configs {
+  config {
+    key: "carrier_supports_ss_over_ut_bool"
+    bool_value: true
+  }
+  config {
+    key: "carrier_volte_available_bool"
+    bool_value: true
+  }
+  config {
+    key: "mmi_two_digit_number_pattern_string_array"
+    text_array {
+      item: "92"
+      item: "93"
+      item: "94"
+      item: "95"
+      item: "96"
+    }
+  }
+}
+last_updated {
+  seconds: 1753863651
+}

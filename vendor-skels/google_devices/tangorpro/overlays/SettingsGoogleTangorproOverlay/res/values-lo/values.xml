@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">ຍ້າຍອຸປະກອນນີ້ເຂົ້າໃກ້ກັບ Pixel Tablet ຂອງທ່ານຫຼາຍຂຶ້ນແລ້ວລອງໃໝ່.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">ເປີດ ແລະ ຍ້າຍເຄສໃສ່ຫູຟັງເຂົ້າໃກ້ກັບ Pixel Tablet ຂອງທ່ານຫຼາຍຂຶ້ນ, ຈາກນັ້ນລອງໃໝ່.</string>
     <string name="sound_dashboard_summary">ລະດັບສຽງ</string>
-    <string name="sound_dashboard_summary_with_dnd">ລະດັບສຽງ, ຫ້າມລົບກວນ</string>
     <string name="sound_settings">ສຽງ</string>
 </resources>

@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Немає доступу на вашому пристрої (%1$s). Спробуйте натомість скористатися планшетом.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Налаштування планшета недоступні</string>
     <string name="battery_saver_charged_notification_summary">Планшет має достатньо заряду акумулятора. Функції вже не обмежено.</string>
+    <string name="biometric_dialog_secondary_display_toast">Щоб продовжити, підтвердьте свою особу на планшеті</string>
     <string name="default_audio_route_name">Планшетний ПК</string>
     <string name="enable_explore_by_touch_warning_message">%1$s хоче ввімкнути функцію дослідження дотиком. Увімкнувши функцію дослідження дотиком, можна чути або бачити опис елемента, розташованого під вашим пальцем, або виконувати жести для взаємодії з планшетним ПК.</string>
     <string name="global_actions">Парам. пристрою</string>

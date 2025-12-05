@@ -1,5 +1,5 @@
 canonical_name: "vivacom_bg"
-version: 71000000001
+version: 73000000001
 apns {
   apn {
     name: "VIVACOM Internet"

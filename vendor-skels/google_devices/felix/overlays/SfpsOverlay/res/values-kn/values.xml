@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">ಪಿನ್ • ಫಿಂಗರ್‌ಪ್ರಿಂಟ್</string>
     <string name="fingerprint_unlock_skip_fingerprint">ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಅನ್‌ಲಾಕ್ ಇಲ್ಲದೆಯೇ ಮುಂದುವರಿಯಿರಿ</string>
     <string name="fingerprint_unlock_title">ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಅನ್‌ಲಾಕ್ ಮೂಲಕ, ನಿಮ್ಮ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಬಳಸಿಕೊಂಡು ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ನೀವು ಅನ್‌ಲಾಕ್ ಮಾಡಬಹುದು. ಭದ್ರತೆಗಾಗಿ, ಈ ಆಯ್ಕೆಗೆ ಒಂದು ಬ್ಯಾಕಪ್ ಸ್ಕ್ರೀನ್ ಲಾಕ್‌ನ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="frr_notification_reset_fingerprint_description">ಇದು ಕೆಲವೊಮ್ಮೆ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸಬಹುದು</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್ ಅನ್‌ಲಾಕ್ ಅನ್ನು ಅನುಮತಿಸಿ</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಸೆನ್ಸರ್ ಪವರ್ ಬಟನ್‌ನಲ್ಲಿದೆ.
 
@@ -29,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಸೆನ್ಸರ್ ಪವರ್ ಬಟನ್‌ನಲ್ಲಿದೆ. ಇದು ಫೋನ್‌ನ ಬದಿಯಲ್ಲಿರುವ ಚಿಕ್ಕ ಬಟನ್ ಆಗಿದೆ.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">ಪ್ರತಿಬಾರಿ ಬೆರಳನ್ನು ಸ್ವಲ್ಪ ಸ್ವಲ್ಪ ಸರಿಸಿ.</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">ಫಿಂಗರ್‌ಪ್ರಿಂಟ್‌ನ ಬೇರೆ ಭಾಗ ಸೆರೆಹಿಡಿಯಲು ಸರಿಸುತ್ತಿರಿ.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">ಇದು ಆಕಸ್ಮಿಕ ಅನ್‌ಲಾಕ್ ಮಾಡುವ ಸಾಧ್ಯತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ. ಈ ಸೆಟ್ಟಿಂಗ್ ಆಫ್ ಆಗಿರುವಾಗ, ಸೆನ್ಸರ್ ಅನ್ನು ಸೌಮ್ಯವಾಗಿ ಸ್ಪರ್ಶಿಸುವುದರಿಂದ ಅನ್‌ಲಾಕ್ ಆಗುತ್ತದೆ.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಸೆನ್ಸರ್ ಅನ್ನು ಒತ್ತಿ ಹಿಡಿದುಕೊಳ್ಳಿ</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">ಬೇರೆ ಕೋನದಿಂದ ಸೆನ್ಸರ್ ಸ್ಪರ್ಶಿಸಿ</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">ಫಿಂಗರ್‌ಪ್ರಿಂಟ್‌ನ ಬೇರೆ ಭಾಗ ಸೆರೆಹಿಡಿಯಲು ನಿಮ್ಮ ಬೆರಳನ್ನು ಸರಿಸಿ</string>
     <string name="security_settings_work_fingerprint_preference_title">ಕೆಲಸಕ್ಕಾಗಿ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಅನ್‌ಲಾಕ್</string>

@@ -1,5 +1,5 @@
 canonical_name: "windtre_it"
-version: 72000000023
+version: 73000000023
 apns {
   apn {
     name: "IMS"

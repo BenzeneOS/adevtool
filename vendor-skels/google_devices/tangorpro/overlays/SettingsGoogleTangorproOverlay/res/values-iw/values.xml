@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">‏מקרבים את המכשיר אל Pixel Tablet ומנסים שוב.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">‏פותחים את הנרתיק של אוזניות הכפתור, מקרבים אותו ל-Pixel Tablet ומנסים שוב.</string>
     <string name="sound_dashboard_summary">עוצמת הקול</string>
-    <string name="sound_dashboard_summary_with_dnd">"עוצמת הקול, מצב 'נא לא להפריע'"</string>
     <string name="sound_settings">צליל</string>
 </resources>

@@ -1,5 +1,5 @@
 canonical_name: "u264a_ca"
-version: 72000000009
+version: 73000000010
 apns {
   apn {
     name: "U+264A CA"
@@ -165,6 +165,10 @@ configs {
     }
   }
   config {
+    key: "imsvoice.mo_call_request_timeout_millis_int"
+    int_value: 0
+  }
+  config {
     key: "iwlan.diffie_hellman_groups_int_array"
     int_array {
       item: 14
@@ -293,5 +297,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1727870749
+  seconds: 1751442986
 }

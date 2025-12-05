@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">កូដ PIN • ស្នាមម្រាមដៃ</string>
     <string name="fingerprint_unlock_skip_fingerprint">បន្តដោយ​មិនប្រើការដោះសោ​ដោយប្រើស្នាមម្រាមដៃ</string>
     <string name="fingerprint_unlock_title">តាមរយៈការប្រើ​ការដោះសោ​ដោយប្រើស្នាមម្រាមដៃ អ្នកអាច​ដោះសោ​ទូរសព្ទ​របស់អ្នក​ដោយ​ប្រើ​ស្នាមម្រាម​ដៃ​របស់អ្នក។ ដើម្បី​សុវត្ថិភាព ជម្រើសនេះ​តម្រូវឱ្យ​មានការ​ចាក់សោ​អេក្រង់​បម្រុង។</string>
+    <string name="frr_notification_reset_fingerprint_description">ការធ្វើបែបនេះជួនកាលអាចដោះស្រាយបញ្ហា</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">អនុញ្ញាតការដោះសោដោយប្រើស្នាមម្រាមដៃ</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"ឧបករណ៍​ចាប់ស្នាមម្រាមដៃ​មាននៅលើប៊ូតុង​ថាមពល។
 
@@ -29,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">សេនស័រចាប់ស្នាមម្រាមដៃ​ស្ថិតនៅលើប៊ូតុង​ថាមពល។ វាជាប៊ូតុងខ្លីនៅចំហៀងទូរសព្ទ។</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">រំកិលម្រាមដៃបន្តិចក្នុងមួយលើកៗ</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">បន្តរំកិលដើម្បីថតកន្លែងផ្សេងទៀតនៃស្នាមម្រាមដៃ</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">ការធ្វើបែបនេះធ្វើឱ្យការដោះសោដោយចៃដន្យមិនទំនងជាកើតឡើង។ នៅពេលការកំណត់នេះត្រូវបានបិទ ការប៉ះសេនស័រតិចៗនឹងដោះ​សោ។</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">ដាក់ម្រាមដៃលើសេនស័រ ដើម្បីដោះសោ</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">ប៉ះសេនស័រពីមុំផ្សេងទៀត</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">រំកិលម្រាមដៃដើម្បីថតកន្លែងផ្សេងទៀតនៃស្នាមម្រាមដៃ</string>
     <string name="security_settings_work_fingerprint_preference_title">ការដោះសោ​ដោយប្រើ​ស្នាមម្រាមដៃសម្រាប់ការងារ</string>

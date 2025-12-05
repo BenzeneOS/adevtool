@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay>
+    <item target="bool/config_robust_open_close_detection_setting_enabled" value="@bool/config_robust_open_close_detection_setting_enabled"/>
+</overlay>

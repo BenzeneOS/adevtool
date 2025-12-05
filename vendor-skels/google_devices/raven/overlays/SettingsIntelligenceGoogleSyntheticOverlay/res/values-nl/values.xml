@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">opladen, limiet, optimalisatie voor opladen, oplaadlimiet</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">Je telefoon laadt op tot een batterijniveau van maximaal {batteryLimitLevel}% om de levensduur van de batterij te verlengen. Je telefoon wordt elke 1 tot 2 weken tot 100% opgeladen om de nauwkeurigheid van de batterijniveaurapportage te behouden.</string>
-    <string name="charging_optimization_summary_charge_limit">Beperken tot {batteryLimitLevel}%</string>
+    <string name="charging_optimization_entry_summary_charge_limit">Beperken tot %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">Je telefoon laadt op tot een batterijniveau van maximaal %1$s om de levensduur van de batterij te verlengen. Je telefoon wordt elke 1 tot 2 weken tot %2$s opgeladen om de nauwkeurigheid van de batterijniveaurapportage te behouden.</string>
     <string name="charging_optimization_summary_off">Uit</string>
     <string name="charging_optimization_title">Optimalisatie voor opladen</string>
 </resources>

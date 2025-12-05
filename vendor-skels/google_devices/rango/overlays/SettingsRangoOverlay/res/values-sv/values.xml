@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">Bakgrunden på låsskärmen visas på den inre skärmen när telefonen är uppvikt</string>
+    <string name="doze_always_on_wallpaper_title">Visa bakgrund på den inre skärmen</string>
+</resources>

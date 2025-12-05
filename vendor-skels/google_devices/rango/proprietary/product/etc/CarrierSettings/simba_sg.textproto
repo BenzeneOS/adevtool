@@ -1,9 +1,9 @@
 canonical_name: "simba_sg"
-version: 71000000002
+version: 73000000003
 apns {
   apn {
-    name: "TPG"
-    value: "TPG"
+    name: "SIMBA"
+    value: "internet"
     type: DEFAULT
     type: SUPL
     type: HIPRI
@@ -126,5 +126,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1729679695
+  seconds: 1752062637
 }

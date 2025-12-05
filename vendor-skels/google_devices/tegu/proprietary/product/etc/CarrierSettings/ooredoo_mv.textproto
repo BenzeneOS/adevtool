@@ -1,0 +1,28 @@
+canonical_name: "ooredoo_mv"
+version: 73000000001
+apns {
+  apn {
+    name: "Wataniya"
+    value: "default"
+    type: DEFAULT
+    type: SUPL
+  }
+  apn {
+    name: "IMS"
+    value: "ims"
+    type: IMS
+    bearer_bitmask: "14|20"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
+}
+configs {
+  config {
+    key: "carrier_volte_available_bool"
+    bool_value: true
+  }
+}
+last_updated {
+  seconds: 1755679356
+}

@@ -1,5 +1,5 @@
 canonical_name: "tigo_co"
-version: 71000000001
+version: 73000000001
 apns {
   apn {
     name: "TIGO WEB"

@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN-kode • fingeravtrykk</string>
     <string name="fingerprint_unlock_skip_fingerprint">Fortsett uten opplåsing med fingeravtrykk</string>
     <string name="fingerprint_unlock_title">Med Opplåsing med fingeravtrykk kan du låse opp nettbrettet med fingeravtrykket. Av sikkerhetsgrunner krever dette alternativet en reserveskjermlås.</string>
+    <string name="frr_notification_reset_fingerprint_description">Dette kan noen ganger løse problemer</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Tillat bruk av fingeravtrykk</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Fingeravtrykkssensoren er på av/på-knappen.
 
@@ -29,8 +30,6 @@ Trykk lett på knappen uten å trykke den ned."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Fingeravtrykkssensoren er på av/på-knappen. Det er den kortere knappen på siden av telefonen.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Beveg fingeren litt hver gang</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Beveg for å registrere andre deler av fingeravtrykket</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Dermed reduseres sannsynligheten for at enheten låses opp ved et uhell. Når denne innstillingen er slått av, låses enheten opp når du trykker kort på sensoren.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Trykk lenge på sensoren for å låse opp</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Trykk på sensoren fra en annen vinkel</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Beveg fingeren og registrer andre deler av fingeravtrykket</string>
     <string name="security_settings_work_fingerprint_preference_title">Opplåsing med fingeravtrykk for jobb</string>

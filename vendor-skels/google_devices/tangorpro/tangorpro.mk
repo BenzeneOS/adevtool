@@ -3,8 +3,8 @@
 
 include vendor/google_devices/tangorpro/adevtool-version-check.mk
 
-ifneq ($(BUILD_ID),BP3A.251105.013.A1)
-  $(error BUILD_ID: expected BP3A.251105.013.A1, got $(BUILD_ID))
+ifneq ($(BUILD_ID),BP4A.251205.006)
+  $(error BUILD_ID: expected BP4A.251205.006, got $(BUILD_ID))
 endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/tangorpro/device.mk)
@@ -33,7 +33,8 @@ TARGET_RECOVERY_FSTAB := vendor/google_devices/tangorpro/proprietary/recovery/sy
 TARGET_RECOVERY_WIPE := vendor/google_devices/tangorpro/proprietary/recovery/system/etc/recovery.wipe
 
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
-    vendor/google_devices/tangorpro/vintf/system/compatibility_matrix.device.xml
+    vendor/google_devices/tangorpro/vintf/system_ext/aocx_framework_compatibility_matrix_system_ext \
+    vendor/google_devices/tangorpro/vintf/system_ext/imageprocessing_hal_framework_compatibility_matrix_system_ext
 
 # system_ext vintf_fragments
 PRODUCT_PACKAGES += \
@@ -53,7 +54,7 @@ PRODUCT_PACKAGES += \
     adevtool_vintf_fragment_vendor_android.hardware.authsecret-service.citadel.xml \
     adevtool_vintf_fragment_vendor_android.hardware.camera.provider@2.7-service-google-apex.xml \
     adevtool_vintf_fragment_vendor_android.hardware.contexthub-service.generic.xml \
-    adevtool_vintf_fragment_vendor_android.hardware.dumpstate-service.xml \
+    adevtool_vintf_fragment_vendor_android.hardware.dumpstate.3-service.xml \
     adevtool_vintf_fragment_vendor_android.hardware.health-service.gs201.xml \
     adevtool_vintf_fragment_vendor_android.hardware.lights-service.tangorpro.xml \
     adevtool_vintf_fragment_vendor_android.hardware.neuralnetworks@service-darwinn-aidl.xml \
@@ -86,7 +87,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += vendor/google_devices/tangorpro/proprietary/linker.config-vendor.json
 
-TARGET_SYSTEM_PROP += vendor/google_devices/tangorpro/sysprop/system.prop
 TARGET_SYSTEM_EXT_PROP += vendor/google_devices/tangorpro/sysprop/system_ext.prop
 TARGET_PRODUCT_PROP += vendor/google_devices/tangorpro/sysprop/product.prop
 TARGET_VENDOR_PROP += vendor/google_devices/tangorpro/sysprop/vendor.prop
@@ -110,6 +110,7 @@ PRODUCT_PACKAGES += \
     Lato-MediumItalic.ttf \
     Lato-Regular.ttf \
     Lustria-Regular.ttf \
+    Multiuser \
     Rubik-Bold.ttf \
     Rubik-BoldItalic.ttf \
     Rubik-Italic.ttf \
@@ -172,6 +173,7 @@ PRODUCT_PACKAGES += \
     android.hardware.contexthub-V4-ndk.vendor \
     android.hardware.device_unique_attestation.prebuilt.xml \
     android.hardware.drm-V1-ndk.vendor \
+    android.hardware.drm-V2-ndk.vendor \
     android.hardware.drm-service.clearkey \
     android.hardware.drm-service.clearkey.xml_vintf \
     android.hardware.drm.common-V1-ndk.vendor \
@@ -270,7 +272,7 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.passpoint.prebuilt.xml \
     android.hardware.wifi.prebuilt.xml \
     android.hardware.wifi.rtt.prebuilt.xml \
-    android.hardware.wifi.supplicant-V4-ndk.vendor \
+    android.hardware.wifi.supplicant-V5-ndk.vendor \
     android.hidl.allocator@1.0.vendor \
     android.hidl.safe_union@1.0.vendor \
     android.hidl.token@1.0-utils.vendor \
@@ -382,6 +384,8 @@ PRODUCT_PACKAGES += \
     libxml2.vendor \
     libz.vendor_ramdisk \
     linker.vendor_ramdisk \
+    logcatd \
+    logpersist.start \
     odm_file_contexts.recovery \
     odm_property_contexts.recovery \
     plat_file_contexts.recovery \
@@ -424,9 +428,11 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiverOverlay \
     CompanionDeviceManager__tablet__auto_generated_characteristics_rro \
     EuiccSupportPixelOverlay \
+    GlanceableHubSettingsConfigOverlay2022 \
     GoogleConfigOverlay \
     GoogleConfigSideFpsOverlay \
     GooglePermissionControllerOverlay \
+    GooglePermissionControllerSafetyCenterOverlay \
     LargeScreenConfigOverlay \
     ManagedProvisioningPixelOverlay \
     NetworkStackOverlay \
@@ -489,7 +495,7 @@ PRODUCT_PACKAGES += \
     android.hardware.composer.hwc3-service.pixel \
     android.hardware.contexthub-service.generic \
     android.hardware.drm-service.castkey \
-    android.hardware.dumpstate-service \
+    android.hardware.dumpstate.3-service \
     android.hardware.edgetpu.logging@service-edgetpu-logging \
     android.hardware.fastboot-service.pixel \
     android.hardware.fastboot-service.pixel_recovery \
@@ -561,7 +567,7 @@ PRODUCT_PACKAGES += \
     com.google.hardware.biometrics.parcelable.fingerprint.PressToAuthParcelable-V1-ndk \
     com.google.hardware.biometrics.sidefps.fingerprint-ext-V1-ndk \
     com.google.hardware.pixel.display-V15-ndk \
-    com.google.hardware.pixel.display-V16-ndk \
+    com.google.hardware.pixel.display-V17-ndk \
     com.google.input-V2-ndk \
     com.google.input-V6-ndk \
     com.google.pixel.camera.connectivity \
@@ -631,9 +637,11 @@ PRODUCT_PACKAGES += \
     libOpenCL-pixel \
     lib_aion_buffer \
     lib_reader \
+    lib_vendor_gsc_atoms \
     libacryl \
     libacryl_hdr_plugin \
     libadaptedinfo \
+    libalertv3 \
     libamcsextfile \
     libaoc \
     libaoctuningdecoder \
@@ -749,7 +757,7 @@ PRODUCT_PACKAGES += \
     vendor.google.bluetooth_ext-V1-ndk \
     vendor.google.edgetpu_app_service@1.0-service \
     vendor.google.edgetpu_vendor_service@1.0-service \
-    vendor.google.google_battery-V4-ndk \
+    vendor.google.google_battery-V5-ndk \
     vendor.google.google_battery-service \
     vendor.google.radioext@1.0-service \
     vendor.google.whitechapel.audio.audioext@4.0 \
@@ -860,7 +868,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/tangorpro/proprietary/vendor/etc/init/android.hardware.camera.provider@2.7-service-google-apex.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.7-service-google-apex.rc \
     vendor/google_devices/tangorpro/proprietary/vendor/etc/init/android.hardware.contexthub-service.generic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.contexthub-service.generic.rc \
     vendor/google_devices/tangorpro/proprietary/vendor/etc/init/android.hardware.drm-service.castkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.castkey.rc \
-    vendor/google_devices/tangorpro/proprietary/vendor/etc/init/android.hardware.dumpstate-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.dumpstate-service.rc \
+    vendor/google_devices/tangorpro/proprietary/vendor/etc/init/android.hardware.dumpstate.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.dumpstate.3-service.rc \
     vendor/google_devices/tangorpro/proprietary/vendor/etc/init/android.hardware.edgetpu.logging@service-edgetpu-logging.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.edgetpu.logging@service-edgetpu-logging.rc \
     vendor/google_devices/tangorpro/proprietary/vendor/etc/init/android.hardware.graphics.allocator2-aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator2-aidl-service.rc \
     vendor/google_devices/tangorpro/proprietary/vendor/etc/init/android.hardware.gxp.logging@service-gxp-logging.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gxp.logging@service-gxp-logging.rc \
@@ -1056,6 +1064,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/tangorpro/proprietary/vendor/firmware/mali_csffw-r52p0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mali_csffw-r52p0.bin \
     vendor/google_devices/tangorpro/proprietary/vendor/firmware/mali_csffw-r53p0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mali_csffw-r53p0.bin \
     vendor/google_devices/tangorpro/proprietary/vendor/firmware/mali_csffw-r54p0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mali_csffw-r54p0.bin \
+    vendor/google_devices/tangorpro/proprietary/vendor/firmware/mali_csffw-r54p1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mali_csffw-r54p1.bin \
     vendor/google_devices/tangorpro/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
     vendor/google_devices/tangorpro/proprietary/vendor/firmware/novatek_ts_fw_csot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_csot.bin \
     vendor/google_devices/tangorpro/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \

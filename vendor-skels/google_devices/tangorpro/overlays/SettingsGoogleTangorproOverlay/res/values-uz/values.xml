@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Bu qurilmani Pixel planshetiga yaqinroq tuting va qaytadan urining.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Quloqlik qutisini oching va uni Pixel planshetiga yaqinroq tuting, keyin qaytadan urining.</string>
     <string name="sound_dashboard_summary">Tovush balandligi</string>
-    <string name="sound_dashboard_summary_with_dnd">Tovush balandligi, Bezovta qilinmasin</string>
     <string name="sound_settings">Tovush</string>
 </resources>

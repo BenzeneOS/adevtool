@@ -1,5 +1,5 @@
 canonical_name: "strata_us"
-version: 72000000008
+version: 73000000010
 apns {
   apn {
     name: "Rinainternet"
@@ -21,12 +21,24 @@ apns {
     roaming_protocol: IPV4V6
     user_visible: false
   }
+  apn {
+    name: "Strata XCAP"
+    value: "hos"
+    type: XCAP
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
 }
 configs {
   config {
     key: "carrier_nr_availabilities_int_array"
     int_array {
     }
+  }
+  config {
+    key: "carrier_supports_ss_over_ut_bool"
+    bool_value: true
   }
   config {
     key: "carrier_volte_available_bool"
@@ -36,11 +48,6 @@ configs {
     key: "imsemergency.emergency_over_ims_supported_rats_int_array"
     int_array {
       item: 3
-    }
-  }
-  config {
-    key: "imsss.xcap_over_ut_supported_rats_int_array"
-    int_array {
     }
   }
   config {
@@ -78,7 +85,11 @@ configs {
     key: "imsvoice.include_caller_id_service_codes_in_sip_invite_bool"
     bool_value: true
   }
+  config {
+    key: "imsvoice.voice_qos_precondition_supported_bool"
+    bool_value: false
+  }
 }
 last_updated {
-  seconds: 1730276139
+  seconds: 1759289343
 }

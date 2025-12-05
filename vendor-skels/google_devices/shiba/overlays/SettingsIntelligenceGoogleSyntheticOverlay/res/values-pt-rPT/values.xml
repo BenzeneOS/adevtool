@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">carregamento, limite, otimização do carregamento, limite de carregamento</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">Para aumentar a vida útil da bateria, o telemóvel só é carregado até atingir {batteryLimitLevel}% de bateria. O telemóvel vai carregar até 100% uma vez a cada 1 a 2 semanas para manter a precisão dos relatórios do nível da bateria.</string>
-    <string name="charging_optimization_summary_charge_limit">Limite até {batteryLimitLevel}%</string>
+    <string name="charging_optimization_entry_summary_charge_limit">Limitar a %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">Para aumentar a vida útil da bateria, o telemóvel só é carregado até atingir %1$s de bateria. O telemóvel vai carregar até %2$s uma vez a cada uma a duas semanas para manter a precisão dos relatórios do nível da bateria.</string>
     <string name="charging_optimization_summary_off">Desativada</string>
     <string name="charging_optimization_title">Otimização do carregamento</string>
 </resources>

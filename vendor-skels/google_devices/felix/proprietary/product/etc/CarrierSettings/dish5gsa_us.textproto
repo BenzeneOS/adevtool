@@ -1,5 +1,5 @@
 canonical_name: "dish5gsa_us"
-version: 72000000004
+version: 73000000008
 apns {
   apn {
     name: "internet"
@@ -18,6 +18,7 @@ apns {
     bearer_bitmask: "3|9|10|11|14|15|18|20"
     protocol: IPV4V6
     roaming_protocol: IPV4V6
+    user_editable: false
   }
   apn {
     name: "xcap"
@@ -27,6 +28,7 @@ apns {
     mmsc: "http://mms.mnc340.mcc313.pub.3gppnetwork.org/mmsc"
     protocol: IPV4V6
     roaming_protocol: IPV4V6
+    user_editable: false
   }
   apn {
     name: "SOS"
@@ -34,6 +36,7 @@ apns {
     type: EMERGENCY
     protocol: IPV4V6
     roaming_protocol: IPV4V6
+    user_editable: false
   }
 }
 configs {
@@ -128,6 +131,14 @@ configs {
     int_value: 300000
   }
   config {
+    key: "ims.sip_timer_b_millis_int"
+    int_value: 32000
+  }
+  config {
+    key: "ims.sip_timer_f_millis_int"
+    int_value: 32000
+  }
+  config {
     key: "imsemergency.emergency_over_ims_supported_rats_int_array"
     int_array {
       item: 6
@@ -162,38 +173,6 @@ configs {
   config {
     key: "imsserviceentitlement.show_vowifi_webview_bool"
     bool_value: true
-  }
-  config {
-    key: "imsss.ut_server_based_services_int_array"
-    int_array {
-      item: 3
-      item: 20
-      item: 18
-      item: 5
-      item: 16
-      item: 17
-      item: 13
-      item: 1
-      item: 8
-      item: 15
-      item: 14
-      item: 19
-      item: 7
-      item: 12
-      item: 9
-      item: 11
-      item: 6
-      item: 2
-      item: 4
-      item: 0
-      item: 21
-    }
-  }
-  config {
-    key: "imsss.ut_terminal_based_services_int_array"
-    int_array {
-      item: 10
-    }
   }
   config {
     key: "imsss.xcap_over_ut_supported_rats_int_array"
@@ -371,7 +350,11 @@ configs {
     key: "wfc_emergency_address_carrier_app_string"
     text_value: "com.android.imsserviceentitlement/.WfcActivationActivity"
   }
+  config {
+    key: "wfc_spn_format_idx_int"
+    int_value: 4
+  }
 }
 last_updated {
-  seconds: 1749144129
+  seconds: 1756276462
 }

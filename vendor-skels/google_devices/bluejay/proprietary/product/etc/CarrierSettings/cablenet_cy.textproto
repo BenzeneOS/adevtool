@@ -1,0 +1,23 @@
+canonical_name: "cablenet_cy"
+version: 73000000001
+apns {
+  apn {
+    name: "Cablenet"
+    value: "cablenet"
+    type: DEFAULT
+    type: SUPL
+    type: HIPRI
+  }
+  apn {
+    name: "IMS"
+    value: "ims"
+    type: IMS
+    bearer_bitmask: "14|20"
+    user_visible: false
+  }
+}
+configs {
+}
+last_updated {
+  seconds: 1752617274
+}

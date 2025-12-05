@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • Sidik jari</string>
     <string name="fingerprint_unlock_skip_fingerprint">Lanjutkan tanpa Buka dengan Sidik Jari</string>
     <string name="fingerprint_unlock_title">Dengan fitur Buka dengan Sidik Jari, Anda dapat membuka kunci ponsel menggunakan sidik jari. Demi keamanan, opsi ini memerlukan kunci layar cadangan.</string>
+    <string name="frr_notification_reset_fingerprint_description">Tindakan ini terkadang dapat memperbaiki masalah</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Izinkan Buka dengan Sidik Jari</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Sensor sidik jari berada di tombol Daya.
 
@@ -29,8 +30,6 @@ Sentuh tombol dengan lembut tanpa menekannya."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Sensor sidik jari ada pada tombol daya, yaitu tombol yang lebih pendek di sisi ponsel.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Gerakkan jari sedikit setiap kali getaran terasa</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Terus ubah posisi untuk merekam area lain sidik jari Anda</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Setelan ini mengurangi peristiwa pembukaan kunci yang tidak disengaja. Sentuhan cepat pada sensor akan membuka kunci jika setelan ini dinonaktifkan.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Sentuh lama sensor untuk membuka kunci</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Sentuh sensor dari sudut lain</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Geser posisi jari untuk merekam area lain sidik jari Anda</string>
     <string name="security_settings_work_fingerprint_preference_title">Buka dengan Sidik Jari untuk profil kerja</string>

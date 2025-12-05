@@ -1,5 +1,5 @@
 canonical_name: "kddi_jp"
-version: 72000000014
+version: 73000000015
 apns {
   apn {
     name: "5G NET"
@@ -506,6 +506,15 @@ configs {
     int_value: 120
   }
   config {
+    key: "non_roaming_operator_string_array"
+    text_array {
+      item: "44091"
+      item: "44092"
+      item: "44093"
+      item: "44094"
+    }
+  }
+  config {
     key: "nr_timers_reset_if_non_endc_and_rrc_idle_bool"
     bool_value: true
   }
@@ -530,6 +539,10 @@ configs {
   config {
     key: "satellite_attach_supported_bool"
     bool_value: true
+  }
+  config {
+    key: "satellite_data_support_mode_int"
+    int_value: 1
   }
   config {
     key: "satellite_ignore_data_roaming_setting_bool"
@@ -571,5 +584,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1743565845
+  seconds: 1753863651
 }

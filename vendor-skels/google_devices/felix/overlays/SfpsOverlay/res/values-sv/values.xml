@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">Pinkod • Fingeravtryck</string>
     <string name="fingerprint_unlock_skip_fingerprint">Fortsätt utan fingeravtryckslås</string>
     <string name="fingerprint_unlock_title">Med fingeravtryckslås kan du låsa upp telefonen med hjälp av ditt fingeravtryck. Av säkerhetsskäl krävs ett alternativt skärmlås.</string>
+    <string name="frr_notification_reset_fingerprint_description">Det kan ibland lösa problem</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Tillåt fingeravtryckslås</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Fingeravtryckssensorn finns på av/på-knappen.
 
@@ -29,8 +30,6 @@ Nudda knappen utan att trycka ned den."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Fingeravtryckssensorn sitter på av/på-knappen. Det är den kortare knappen på sidan av telefonen.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Flytta fingret lite varje gång</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Fortsätt flytta för att registrera andra delar av fingeravtrycket</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Detta minskar risken för att du råkar låsa upp enheten oavsiktligt. När den här inställningen är inaktiverad behöver du bara nudda sensorn för att låsa upp enheten.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Håll länge på sensorn för att låsa upp</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Nudda sensorn från en ny vinkel</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Flytta fingret för att registrera andra delar av det</string>
     <string name="security_settings_work_fingerprint_preference_title">Fingeravtryckslås för jobbet</string>

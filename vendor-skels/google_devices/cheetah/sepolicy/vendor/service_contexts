@@ -10,7 +10,6 @@ vendor.google.battery_mitigation.IBatteryMitigation/default u:object_r:hal_batte
 media.ecoservice u:object_r:eco_service:s0
 com.google.edgetpu.IEdgeTpuVendorService/default u:object_r:edgetpu_vendor_service:s0
 android.hardware.neuralnetworks.IDevice/google-edgetpu u:object_r:edgetpu_nnapi_service:s0
-com.google.edgetpu.IEdgeTpuAppService/default u:object_r:edgetpu_app_service:s0
 com.google.edgetpu.dba.IDevice/default u:object_r:edgetpu_dba_service:s0
 com.google.edgetpu.tachyon.IComputeService/default u:object_r:edgetpu_tachyon_service:s0
 vendor.google.wifi_ext.IWifiExt/default u:object_r:hal_wifi_ext_service:s0

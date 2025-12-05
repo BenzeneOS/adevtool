@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">මෙයට ඔබේ %1$s මත ප්‍රවේශ විය නොහැක. ඒ වෙනුවට ඔබේ ටැබ්ලටයෙහි උත්සාහ කරන්න.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">ටැබ්ලට් සැකසීම් ලබා ගත නොහැකිය</string>
     <string name="battery_saver_charged_notification_summary">ටැබ්ලට් පරිගණකයට ප්‍රමාණවත් ආරෝපණයක් තිබේ. විශේෂාංග තවදුරටත් සීමා කර නැත.</string>
+    <string name="biometric_dialog_secondary_display_toast">ඉදිරියට යාමට ඔබේ ටැබ්ලටයේ සිටින්නේ ඔබ බව සත්‍යාපනය කරන්න</string>
     <string name="default_audio_route_name">ටැබ්ලට්ය</string>
     <string name="enable_explore_by_touch_warning_message">ස්පර්ශය වෙතින් ගවේෂණය සක්‍රිය කිරීමට %1$s ට අවශ්‍යය. ස්පර්ශය වෙතින් ගවේෂණය සක්‍රිය විට, ඔබගේ ඇඟිලිවලට පහළ විස්තර ඇසිය හෝ බැලිය හැක හෝ ටැබ්ලටය සමග අන්තර් ක්‍රියාකාරී වීමට ඉංගිති සිදු කළ හැක.</string>
     <string name="global_actions">ටැබ්ලට් විකල්ප</string>

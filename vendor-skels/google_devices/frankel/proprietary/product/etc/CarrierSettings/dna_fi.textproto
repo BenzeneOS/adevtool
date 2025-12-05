@@ -1,5 +1,5 @@
 canonical_name: "dna_fi"
-version: 71000000003
+version: 73000000003
 apns {
   apn {
     name: "Internet"
@@ -121,5 +121,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1742540198
+  seconds: 1742382176
 }

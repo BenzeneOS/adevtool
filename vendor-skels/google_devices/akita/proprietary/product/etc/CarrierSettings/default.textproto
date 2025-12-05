@@ -1,5 +1,5 @@
 canonical_name: "default"
-version: 72000000013
+version: 73000000016
 configs {
   config {
     key: "carrier_cross_sim_ims_available_bool"
@@ -306,6 +306,12 @@ configs {
     bool_value: false
   }
   config {
+    key: "qns.enable_minimum_guarding_timer_after_connected_apn_string_array"
+    text_array {
+      item: "ims"
+    }
+  }
+  config {
     key: "qns.fallback_network_quality_evaluation_bool"
     bool_value: false
   }
@@ -390,6 +396,10 @@ configs {
     }
   }
   config {
+    key: "qns.support_wfc_recovery_bool"
+    bool_value: false
+  }
+  config {
     key: "qns.video_eutran_rsrp_int_array"
     int_array {
       item: -115
@@ -460,6 +470,10 @@ configs {
     }
   }
   config {
+    key: "qns.wfc_recovery_pcscf_retry_maximum_time_int"
+    int_value: 350000
+  }
+  config {
     key: "qns.xcap_transport_type_int"
     int_value: 2
   }
@@ -517,5 +531,5 @@ vendor_configs {
   }
 }
 last_updated {
-  seconds: 1749144169
+  seconds: 1761794075
 }

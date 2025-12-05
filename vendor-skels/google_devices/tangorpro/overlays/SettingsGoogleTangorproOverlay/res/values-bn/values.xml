@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">ডিভাইসটি Pixel Tablet-এর কাছাকাছি নিয়ে যান এবং আবার চেষ্টা করুন।</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">ইয়ারবাডের কেস খুলে সেটি Pixel Tablet-এর কাছাকাছি নিয়ে যান, তারপরে আবার চেষ্টা করুন।</string>
     <string name="sound_dashboard_summary">ভলিউম</string>
-    <string name="sound_dashboard_summary_with_dnd">ভলিউম, বিরক্ত করবে না</string>
     <string name="sound_settings">সাউন্ড</string>
 </resources>

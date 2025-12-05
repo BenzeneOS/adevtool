@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">이 기기를 Pixel Tablet에 가까운 위치로 옮긴 후 다시 시도하세요.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">이어폰 케이스를 열고 Pixel Tablet에 가까운 위치로 옮긴 후 다시 시도하세요.</string>
     <string name="sound_dashboard_summary">볼륨</string>
-    <string name="sound_dashboard_summary_with_dnd">볼륨, 방해 금지 모드</string>
     <string name="sound_settings">소리</string>
 </resources>

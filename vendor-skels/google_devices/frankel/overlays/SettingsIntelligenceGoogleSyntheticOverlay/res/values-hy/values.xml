@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">լիցքավորում, սահմանաչափ, լիցքավորման օպտիմալացում, լիցքավորման սահմանաչափ</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">Մարտկոցի աշխատաժամանակը երկարացնելու համար ձեր հեռախոսը կլիցքավորվի միայն մինչև {batteryLimitLevel}%։ Ձեր հեռախոսը 100%-ով կլիցքավորվի 1–2 շաբաթը մեկ անգամ՝ մարտկոցի մակարդակի մասին հաղորդումների ճշգրտությունը պահպանելու համար։</string>
-    <string name="charging_optimization_summary_charge_limit">Սահմանաչափը՝ {batteryLimitLevel}%</string>
+    <string name="charging_optimization_entry_summary_charge_limit">Առավելագույնը՝ %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">Մարտկոցի աշխատաժամանակը երկարացնելու համար ձեր հեռախոսը կլիցքավորվի միայն մինչև %1$s։ Ձեր հեռախոսը %2$s-ով կլիցքավորվի 1-ից 2 շաբաթը մեկ անգամ՝ մարտկոցի մակարդակի մասին հաշվետվությունների ճշգրտությունը պահպանելու համար։</string>
     <string name="charging_optimization_summary_off">Անջատված է</string>
     <string name="charging_optimization_title">Լիցքավորման օպտիմալացում</string>
 </resources>

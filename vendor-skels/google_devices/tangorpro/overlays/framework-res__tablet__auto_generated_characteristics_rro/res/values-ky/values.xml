@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Буга %1$s түзмөгүңүздөн кире албайсыз. Планшетиңизден кирип көрүңүз.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Планшеттин параметрлери жеткиликсиз</string>
     <string name="battery_saver_charged_notification_summary">Планшет жеткиликтүү кубатталды. Функцияны колдоно берсеңиз болот.</string>
+    <string name="biometric_dialog_secondary_display_toast">Улантуу үчүн планшетте өзүңүздү ырастаңыз</string>
     <string name="default_audio_route_name">Планшет</string>
     <string name="enable_explore_by_touch_warning_message">%1$s Сыйпалап изилдөөнү иштеткиси келет. Сыйпалап изилдөө жандырылганда, сиз манжаңыздын астында эмне бар экенин жана угуп же көрө аласыз, же планшетиңиз менен жаңсап иштей аласыз.</string>
     <string name="global_actions">Планшет мүмкүнчүлүктөрү</string>

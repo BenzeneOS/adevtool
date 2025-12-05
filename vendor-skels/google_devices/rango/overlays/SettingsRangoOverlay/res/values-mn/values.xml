@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">Утсыг дэлгэсэн үед түгжээтэй дэлгэц дээрх дэлгэцийн зургийг дотоод дэлгэц дээр харуулдаг</string>
+    <string name="doze_always_on_wallpaper_title">Дэлгэцийн зургийг дотоод дэлгэц дээр харуулах</string>
+</resources>

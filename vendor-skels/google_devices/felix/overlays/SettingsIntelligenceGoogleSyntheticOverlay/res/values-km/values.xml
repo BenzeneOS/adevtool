@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">ការសាកថ្ម, ដែនកំណត់, ការបង្កើនប្រសិទ្ធភាពការសាកថ្ម, ដែនកំណត់ការសាកថ្ម</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">ដើម្បីជួយបង្កើនអាយុកាលថ្ម ទូរសព្ទរបស់អ្នកនឹងសាកថ្មដល់ {batteryLimitLevel}% តែប៉ុណ្ណោះ។ ទូរសព្ទរបស់អ្នកនឹងសាកថ្មដល់ 100% រាល់មួយទៅពីរសប្ដាហ៍ម្ដង ដើម្បីរក្សាភាពត្រឹមត្រូវនៃការរាយការណ៍អំពីកម្រិតថ្ម។</string>
-    <string name="charging_optimization_summary_charge_limit">កំណត់ត្រឹម {batteryLimitLevel}%</string>
+    <string name="charging_optimization_entry_summary_charge_limit">កំណត់​ត្រឹម %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">ដើម្បីជួយបង្កើនអាយុកាលថ្ម ទូរសព្ទរបស់អ្នកនឹងសាកថ្មត្រឹម %1$s តែប៉ុណ្ណោះ។ ទូរសព្ទរបស់អ្នកនឹងសាកថ្មត្រឹម %2$s រាល់មួយទៅពីរសប្ដាហ៍ម្ដង ដើម្បីរក្សាភាពត្រឹមត្រូវនៃការរាយការណ៍អំពីកម្រិតថ្ម។</string>
     <string name="charging_optimization_summary_off">បិទ</string>
     <string name="charging_optimization_title">ការបង្កើនប្រសិទ្ធភាពការសាកថ្ម</string>
 </resources>

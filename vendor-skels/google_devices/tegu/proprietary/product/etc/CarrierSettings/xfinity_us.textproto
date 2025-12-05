@@ -1,5 +1,5 @@
 canonical_name: "xfinity_us"
-version: 72000000007
+version: 73000000010
 apns {
   apn {
     name: "Verizon"
@@ -153,6 +153,10 @@ configs {
     bool_value: false
   }
   config {
+    key: "avoid_bad_wifi_bool"
+    bool_value: true
+  }
+  config {
     key: "boosted_lte_earfcns_string_array"
     text_array {
       item: "600-1199"
@@ -253,6 +257,7 @@ configs {
   config {
     key: "carrier_nr_availabilities_int_array"
     int_array {
+      item: 2
       item: 1
     }
   }
@@ -987,6 +992,7 @@ configs {
   config {
     key: "qns.enable_minimum_guarding_timer_after_connected_apn_string_array"
     text_array {
+      item: "ims"
       item: "emergency"
     }
   }
@@ -1169,6 +1175,10 @@ configs {
     bool_value: false
   }
   config {
+    key: "show_avoid_bad_wifi_bool"
+    bool_value: true
+  }
+  config {
     key: "smdp_server_address_string"
     text_value: "SM-V4-059-PPA-GTM.PR.GO-ESIM.COM"
   }
@@ -1272,5 +1282,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1741940466
+  seconds: 1752617332
 }

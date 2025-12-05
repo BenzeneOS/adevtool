@@ -1,5 +1,5 @@
 canonical_name: "telus_ca"
-version: 72000000021
+version: 73000000022
 apns {
   apn {
     name: "TELUS ISP"
@@ -319,6 +319,10 @@ configs {
     }
   }
   config {
+    key: "imsvoice.mo_call_request_timeout_millis_int"
+    int_value: 0
+  }
+  config {
     key: "imsvoice.session_privacy_type_int"
     int_value: 2
   }
@@ -518,5 +522,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1746467616
+  seconds: 1751443000
 }

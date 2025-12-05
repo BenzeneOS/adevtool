@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • Barmoq izi</string>
     <string name="fingerprint_unlock_skip_fingerprint">Barmoq izi bilan ochmasdan davom etish</string>
     <string name="fingerprint_unlock_title">Barmoq izi bilan ochish funksiyasi yordamida planshetni barmoq izi orqali qulfdan chiqarish mumkin. Xavfsizlik maqsadida bu parametr qoʻshimcha ekran qulfi bilan ishlaydi.</string>
+    <string name="frr_notification_reset_fingerprint_description">Bunda ayrim muammolar hal qilinishi mumkin</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Qulfni barmoq izi bilan ochish</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Barmoq izi skaneri Quvvat tugmasida joylashgan.
 
@@ -29,8 +30,6 @@ Bosmasdan yengilgina tegining."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Barmoq izi sensori quvvat tugmasida joylashgan. Bu telefon yonidagi qisqa tugma.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Har safar barmoqni asta suring</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Barmoq chetlarini tekkizing</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Bu tasodifiy qulfni ochish ehtimolini kamaytiradi. Bu sozlama oʻchiq boʻlsa, sensorga barmoq tegib ketsa ham ochiladi.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Sensorga uzoq vaqt bosib qulfni ochish</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Sensorning boshqa chetiga tekkizing</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Boshqa joylari ham qayd qilinishi uchun barmoqni suring</string>
     <string name="security_settings_work_fingerprint_preference_title">Ish uchun barmoq izi bilan ochish</string>

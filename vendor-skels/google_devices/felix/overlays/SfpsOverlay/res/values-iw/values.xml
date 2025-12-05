@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">קוד אימות • טביעת אצבע</string>
     <string name="fingerprint_unlock_skip_fingerprint">המשך בלי פתיחת הנעילה בטביעת אצבע</string>
     <string name="fingerprint_unlock_title">"התכונה 'ביטול הנעילה בטביעת אצבע' מאפשרת לך לבטל את הנעילה של הטלפון באמצעות טביעת האצבע. מטעמי אבטחה, האפשרות הזו מחייבת נעילת מסך לגיבוי."</string>
+    <string name="frr_notification_reset_fingerprint_description">לפעמים זה פותר את הבעיות</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">הרשאה לבטל נעילה בטביעת אצבע</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"חיישן טביעות האצבע נמצא בכפתור ההפעלה.
 
@@ -29,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">חיישן טביעות האצבע נמצא על כפתור ההפעלה. כפתור ההפעלה הוא הכפתור הקצר יותר בצד של הטלפון.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">יש להזיז קצת את האצבע בכל פעם</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">יש להמשיך להזיז את האצבע כדי לתעד חלקים אחרים של טביעת האצבע</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">כך אפשר להקטין את הסיכוי לביטול נעילה בטעות. כשההגדרה הזו מושבתת, נגיעה קצרה בחיישן תבטל את הנעילה.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">נגיעה ארוכה בחיישן כדי לפתוח</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">צריך לגעת בחיישן מזווית אחרת</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">יש להזיז את האצבע כדי לתעד חלק אחר של האצבע</string>
     <string name="security_settings_work_fingerprint_preference_title">ביטול הנעילה בטביעת אצבע לעבודה</string>

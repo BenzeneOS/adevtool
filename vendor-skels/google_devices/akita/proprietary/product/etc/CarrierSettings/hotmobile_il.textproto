@@ -1,5 +1,5 @@
 canonical_name: "hotmobile_il"
-version: 72000000005
+version: 73000000006
 apns {
   apn {
     name: "HOT mobile PC"
@@ -22,6 +22,14 @@ apns {
     mmsc_proxy_port: "80"
   }
   apn {
+    name: "XCAP"
+    value: "xcap"
+    type: XCAP
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
+  apn {
     name: "IMS"
     value: "ims"
     type: IMS
@@ -32,6 +40,10 @@ apns {
   }
 }
 configs {
+  config {
+    key: "carrier_supports_ss_over_ut_bool"
+    bool_value: true
+  }
   config {
     key: "carrier_volte_available_bool"
     bool_value: true
@@ -51,8 +63,19 @@ configs {
     }
   }
   config {
+    key: "imsss.ut_as_server_port_int"
+    int_value: 8090
+  }
+  config {
+    key: "imsss.ut_requires_ims_registration_bool"
+    bool_value: true
+  }
+  config {
     key: "imsss.xcap_over_ut_supported_rats_int_array"
     int_array {
+      item: 3
+      item: 6
+      item: 5
     }
   }
   config {
@@ -112,5 +135,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1707299279
+  seconds: 1756276502
 }

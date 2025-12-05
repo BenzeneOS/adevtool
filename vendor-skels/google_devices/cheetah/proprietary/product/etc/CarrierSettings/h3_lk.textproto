@@ -1,5 +1,5 @@
 canonical_name: "h3_lk"
-version: 72000000001
+version: 73000000002
 apns {
   apn {
     name: "HUTCH"
@@ -20,6 +20,10 @@ apns {
 }
 configs {
   config {
+    key: "carrier_volte_available_bool"
+    bool_value: true
+  }
+  config {
     key: "min_udp_port_4500_nat_timeout_sec_int"
     int_value: 120
   }
@@ -29,5 +33,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1741940421
+  seconds: 1755679319
 }

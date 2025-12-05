@@ -1,5 +1,5 @@
 canonical_name: "mettel_us"
-version: 72000000001
+version: 73000000002
 apns {
   apn {
     name: "MetTel"
@@ -14,10 +14,14 @@ apns {
 }
 configs {
   config {
+    key: "cellular_usage_setting_int"
+    int_value: 2
+  }
+  config {
     key: "enabledMMS"
     bool_value: false
   }
 }
 last_updated {
-  seconds: 1736319530
+  seconds: 1752062599
 }

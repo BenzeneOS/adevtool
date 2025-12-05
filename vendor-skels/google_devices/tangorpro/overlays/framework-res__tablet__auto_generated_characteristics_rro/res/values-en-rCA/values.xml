@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">This can’t be accessed on your %1$s. Try on your tablet instead.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Tablet settings unavailable</string>
     <string name="battery_saver_charged_notification_summary">Tablet has enough charge. Features no longer restricted.</string>
+    <string name="biometric_dialog_secondary_display_toast">"Verify it's you on your tablet to continue"</string>
     <string name="default_audio_route_name">Tablet</string>
     <string name="enable_explore_by_touch_warning_message">"%1$s wants to enable Explore by Touch. When Explore by Touch is turned on, you can hear or see descriptions of what's under your finger or perform gestures to interact with the tablet."</string>
     <string name="global_actions">Tablet options</string>

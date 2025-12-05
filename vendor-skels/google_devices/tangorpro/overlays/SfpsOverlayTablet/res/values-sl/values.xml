@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">Koda PIN • Prstni odtis</string>
     <string name="fingerprint_unlock_skip_fingerprint">Nadaljevanje brez odklepanja s prstnim odtisom</string>
     <string name="fingerprint_unlock_title">Funkcija odklepanja s prstnim odtisom omogoča odklepanje tabličnega računalnika s prstnim odtisom. Zaradi varnosti ta možnost zahteva uporabo nadomestnega načina zaklepanja zaslona.</string>
+    <string name="frr_notification_reset_fingerprint_description">S tem lahko včasih odpravite težave.</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Omogočanje odklepanja s prstnim odtisom</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Tipalo prstnih odtisov je na gumbu za vklop.
 
@@ -29,8 +30,6 @@ Nežno se dotaknite gumba, ne da bi ga pritisnili."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Tipalo prstnih odtisov je na gumbu za vklop. To je krajši gumb ob strani telefona.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Prst vsakič nekoliko premaknite</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Nadaljujte premikanje za zajem drugih delov prstnega odtisa</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">S tem se zmanjša verjetnost nenamernega odklepanja. Ko je ta nastavitev izklopljena, napravo odklenete s kratkim dotikom tipala.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Odklepanje s pridržanjem prsta na tipalu</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Tipala se dotaknite pod drugim kotom</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Premaknite prst za zajem drugih delov prstnega odtisa</string>
     <string name="security_settings_work_fingerprint_preference_title">Odklepanje s prstnim odtisom za delo</string>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">மொபைல் விரித்த நிலையில் இருக்கும்போது உட்புற டிஸ்ப்ளேவில் பூட்டுத் திரை வால்பேப்பர் காட்டப்படும்</string>
+    <string name="doze_always_on_wallpaper_title">உட்புற டிஸ்ப்ளேவில் வால்பேப்பரைக் காட்டுதல்</string>
+</resources>

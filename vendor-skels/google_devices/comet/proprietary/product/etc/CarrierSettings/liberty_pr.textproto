@@ -1,5 +1,5 @@
 canonical_name: "liberty_pr"
-version: 72000000007
+version: 73000000008
 apns {
   apn {
     name: "Liberty Internet"
@@ -385,6 +385,18 @@ configs {
     bool_value: false
   }
   config {
+    key: "imswfc.pidf_short_code_string_array"
+    text_array {
+      item: "211"
+      item: "311"
+      item: "411"
+      item: "511"
+      item: "611"
+      item: "711"
+      item: "811"
+    }
+  }
+  config {
     key: "include_lte_for_nr_advanced_threshold_bandwidth_bool"
     bool_value: true
   }
@@ -743,5 +755,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1713343964
+  seconds: 1753863651
 }

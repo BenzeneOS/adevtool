@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">ਇਸ ਡੀਵਾਈਸ ਨੂੰ ਆਪਣੇ Pixel Tablet ਦੇ ਨੇੜੇ ਲਿਜਾ ਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">ਈਅਰਬੱਡ ਵਾਲੀ ਡੱਬੀ ਖੋਲ੍ਹ ਕੇ ਉਸਨੂੰ ਆਪਣੇ Pixel Tablet ਦੇ ਨੇੜੇ ਲਿਜਾਓ, ਫਿਰ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
     <string name="sound_dashboard_summary">ਅਵਾਜ਼</string>
-    <string name="sound_dashboard_summary_with_dnd">ਅਵਾਜ਼, ਪਰੇਸ਼ਾਨ ਨਾ ਕਰੋ</string>
     <string name="sound_settings">ਧੁਨੀ</string>
 </resources>

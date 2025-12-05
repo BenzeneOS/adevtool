@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">зарядтау, шек, зарядтауды оңтайландыру, зарядтау шегі</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">Батареяның қызмет мерзімін ұзарту үшін телефоныңыз тек {batteryLimitLevel}%-ға дейін зарядталады. Телефоныңыз бір-екі аптада бір рет 100%-ға дейін зарядталып тұрады. Бұл шара батарея деңгейі туралы есептің дәлдігін қамтамасыз ету үшін жасалады.</string>
-    <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% деңгейінде шектеу</string>
+    <string name="charging_optimization_entry_summary_charge_limit">%1$s-бен шектеу</string>
+    <string name="charging_optimization_footer_message_charge_limit">Батареяның қызмет мерзімін ұзарту үшін телефоныңыз тек %1$s-ға дейін зарядталады. Телефоныңыз бір-екі аптада бір рет %2$s-ға дейін зарядталып тұрады. Бұл шара батарея деңгейі туралы есептің дәлдігін қамтамасыз ету үшін жасалады.</string>
     <string name="charging_optimization_summary_off">Өшірулі</string>
     <string name="charging_optimization_title">Зарядтауды оңтайландыру</string>
 </resources>

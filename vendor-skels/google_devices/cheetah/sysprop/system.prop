@@ -1,4 +1,0 @@
-persist.settings.large_screen_opt.enabled=false
-persist.uwb.enable_uci_stack=1
-ro.camerax.extensions.enabled=true
-ro.launcher.blur.appLaunch=0

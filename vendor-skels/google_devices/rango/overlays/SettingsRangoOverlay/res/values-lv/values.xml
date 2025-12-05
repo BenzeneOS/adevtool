@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">Bloķēšanas ekrāna fona tapete ir redzama iekšējā displejā, kad tālrunis ir atvērts</string>
+    <string name="doze_always_on_wallpaper_title">Fona tapetes rādīšana iekšējā displejā</string>
+</resources>

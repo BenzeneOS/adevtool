@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">فون کھولے جانے پر مقفل اسکرین وال پیپر اندرونی ڈسپلے پر دکھائی دیتا ہے</string>
+    <string name="doze_always_on_wallpaper_title">اندرونی ڈسپلے پر وال پیپر دکھائیں</string>
+</resources>

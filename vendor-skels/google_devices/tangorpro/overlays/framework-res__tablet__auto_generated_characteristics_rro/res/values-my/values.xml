@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">၎င်းကို သင်၏ %1$s တွင် သုံး၍မရပါ။ တက်ဘလက်တွင် စမ်းကြည့်ပါ။</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Tablet ဆက်တင်များ မရနိုင်ပါ</string>
     <string name="battery_saver_charged_notification_summary">တက်ဘလက်တွင် ဘက်ထရီအား အလုံအလောက် ရှိသည်။ လုပ်ဆောင်ချက်များကို ကန့်သတ်မထားတော့ပါ။</string>
+    <string name="biometric_dialog_secondary_display_toast">ရှေ့ဆက်ရန် သင့်တက်ဘလက်တွင် သင်ဖြစ်ကြောင်း အတည်ပြုပါ</string>
     <string name="default_audio_route_name">တက်ဘလက်</string>
     <string name="enable_explore_by_touch_warning_message">%1$s က ထိတွေ့ပြီး ရှာဖွေခြင်းကို လုပ်ချင်ပါသည်။ ထိတွေ့ရှာဖွေခြင်း ဖွင့်ထားလျှင် သင့်လက်ဖျားအောက်မှ အရာကို ကြားနိုင် သို့ ရှင်းလင်းချက်ကို မြင်နိုင်တဲ့ အပြင် လက် အနေအထားဖြင့် တက်ဘလက်ကို ဆက်သွယ်ပြုလုပ်စေခိုင်းနိုင်ပါသည်</string>
     <string name="global_actions">Tabletဆိုင်ရာရွေးချယ်မှုများ</string>

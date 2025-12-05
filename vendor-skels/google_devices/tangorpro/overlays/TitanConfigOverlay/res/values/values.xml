@@ -4,7 +4,7 @@
         <item>com.google.android.deskclock/com.android.deskclock.Screensaver</item>
         <item>com.android.dreams.basic/.Colors</item>
         <item>com.google.android.apps.photos/.daydream.PhotosDreamService</item>
-        <item>com.android.systemui/com.google.android.systemui.lowlightclock.LowLightClockDreamService</item>
+        <item>com.android.systemui/com.android.systemui.lowlightclock.LowLightClockDreamService</item>
     </array>
     <array name="config_dockExtconStateMapping">
         <item>4,USB=1</item>
@@ -29,6 +29,7 @@
     <bool name="config_dreamsEnabledByDefault">false</bool>
     <bool name="config_dreamsOnlyEnabledForDockUser">true</bool>
     <bool name="config_enableTimeoutToDockUserWhenDocked">true</bool>
+    <bool name="config_glanceableHubEnabledByDefault">true</bool>
     <bool name="config_keepDreamingWhenUnplugging">true</bool>
     <bool name="config_lowLightDisplayBehaviorEnabledDefault">true</bool>
     <bool name="config_orderUnlockAndWake">true</bool>

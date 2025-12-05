@@ -3,7 +3,7 @@ type camera_cameraidremapper_service, protected_service, service_manager_type, h
 type camera_lyricconfigprovider_service, protected_service, service_manager_type, hal_service_type;
 type vendor_pbcs_app, domain, appdomain, coredomain;
 type vendor_pcs_app, domain, appdomain, netdomain, bluetoothdomain, coredomain;
-type google_recorder_app, domain, appdomain, netdomain;
+type google_recorder_app, domain, appdomain, netdomain, coredomain;
 type better_bug_app, domain, appdomain, netdomain, coredomain;
 type debug_camera_app, domain, coredomain;
 typeattribute google_camera_app appdomain;

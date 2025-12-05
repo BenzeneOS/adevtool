@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">To napravo približajte napravi Pixel Tablet in poskusite znova.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Odprite škatlico za ušesne slušalke, približajte jo napravi Pixel Tablet in poskusite znova.</string>
     <string name="sound_dashboard_summary">Glasnost</string>
-    <string name="sound_dashboard_summary_with_dnd">Glasnost, ne moti</string>
     <string name="sound_settings">Zvok</string>
 </resources>

@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">ይህን መሣሪያ ወደ Pixel ጡብዎ ያስጠጉ እና እንደገና ይሞክሩ።</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">የጆሮ ማዳመጫዎች መያዣውን ይክፈቱ እና ወደ Pixel ስልክዎ ያስጠጉት፣ ከዚያም እንደገና ይሞክሩ።</string>
     <string name="sound_dashboard_summary">የድምፅ መጠን</string>
-    <string name="sound_dashboard_summary_with_dnd">የድምፅ መጠን፣ አትረብሽ</string>
     <string name="sound_settings">ድምፅ</string>
 </resources>

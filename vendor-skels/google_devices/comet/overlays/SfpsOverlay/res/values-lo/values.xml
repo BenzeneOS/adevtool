@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • ລາຍນິ້ວມື</string>
     <string name="fingerprint_unlock_skip_fingerprint">ສືບຕໍ່ໂດຍບໍ່ໃຊ້ການປົດລັອກດ້ວຍລາຍນິ້ວມື</string>
     <string name="fingerprint_unlock_title">ດ້ວຍການປົດລັອກດ້ວຍລາຍນິ້ວມື, ທ່ານຈະສາມາດປົດລັອກໂທລະສັບຂອງທ່ານໂດຍໃຊ້ລາຍນິ້ວມືຂອງທ່ານໄດ້. ເພື່ອຄວາມປອດໄພ, ຕົວເລືອກນີ້ຈຳເປັນຕ້ອງມີການລັອກໜ້າຈໍສຳຮອງໄວ້ກ່ອນ.</string>
+    <string name="frr_notification_reset_fingerprint_description">ບາງເທື່ອການດຳເນີນການນີ້ອາດຊ່ວຍແກ້ໄຂບັນຫາໄດ້</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">ອະນຸຍາດໃຫ້ປົດລັອກດ້ວຍລາຍນິ້ວມື</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"ເຊັນເຊີລາຍນິ້ວມືແມ່ນຢູ່ເທິງປຸ່ມເປີດປິດ.
 
@@ -29,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">ເຊັນເຊີລາຍນິ້ວມືແມ່ນຢູ່ປຸ່ມເປີດປິດ. ມັນແມ່ນປຸ່ມທີ່ສັ້ນກວ່າທີ່ຢູ່ທາງຂ້າງຂອງໂທລະສັບ.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">ແຕ່ລະເທື່ອໃຫ້ຍ້າຍນິ້ວເລັກໜ້ອຍ</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">ຍ້າຍຕໍ່ໄປເພື່ອຖ່າຍຮູບສ່ວນອື່ນຂອງລາຍນິ້ວມືຂອງທ່ານ</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">ການດຳເນີນການນີ້ຊ່ວຍຫຼຸດການປົດລັອກໂດຍບໍ່ຕັ້ງໃຈ. ເມື່ອປິດການຕັ້ງຄ່ານີ້, ອຸປະກອນຈະປົດລັອກດ້ວຍການສຳຜັດເບົາໆຢູ່ເຊັນເຊີ.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">ກົດເຊັນເຊີຄ້າງໄວ້ເພື່ອປົດລັອກ</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">ສຳຜັດເຊັນເຊີຈາກມຸມອື່ນ</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">ຍ້າຍມືຂອງທ່ານເພື່ອຖ່າຍສ່ວນອື່ນຂອງລາຍນິ້ວມືຂອງທ່ານ</string>
     <string name="security_settings_work_fingerprint_preference_title">ປົດລັອກດ້ວຍລາຍນິ້ວມືສຳລັບວຽກ</string>

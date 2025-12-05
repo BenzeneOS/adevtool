@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Ова не може да се отвори на %1$s. Пробајте на вашиот таблет како алтернатива.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Поставките за таблетот не се достапни</string>
     <string name="battery_saver_charged_notification_summary">Таблетот е доволно полн. Функциите веќе не се ограничени.</string>
+    <string name="biometric_dialog_secondary_display_toast">Потврдете дека сте вие на таблетот за да продолжите</string>
     <string name="default_audio_route_name">Таблет</string>
     <string name="enable_explore_by_touch_warning_message">%1$s сака да овозможи „Истражувај со допир“. Кога е вклучено „Истражувај со допир“, може да се слушнат или да се видат описи на она што е под вашиот прст или да се прават движења за комуницирање со таблетот.</string>
     <string name="global_actions">Опции на таблет</string>

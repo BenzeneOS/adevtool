@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <bool name="config_adaptive_alert_vibration_enabled">true</bool>
+    <bool name="config_robust_open_close_detection_setting_enabled">true</bool>
     <dimen name="config_activity_embed_split_ratio">0.5</dimen>
     <string name="config_limited_warranty_overlay_package_name">com.android.settings.overlay.rango</string>
 </resources>

@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <array name="config_carrier_for_mobile_network_toggle_disable">
+        <item>19</item>
+        <item>25</item>
+        <item>28</item>
+    </array>
+    <array name="config_carrier_for_wifi_scorer_toggle_off">
+        <item>1839</item>
+    </array>
     <array name="config_userAspectRatioOverrideEntries">
         <item>@null</item>
         <item>@null</item>
@@ -24,6 +32,7 @@
     <dimen name="lottie_animation_view_margin_top">0.0dp</dimen>
     <dimen name="sfps_enroll_find_sensor_lottie_margin">-60.0dp</dimen>
     <fraction name="display_density_max_scale">116.79993%</fraction>
+    <integer name="config_activity_embed_split_min_cur_dp">600</integer>
     <string name="display_white_balance_summary">Dynamically adapts the display to warmer or cooler tones based on ambient lighting</string>
     <string name="display_white_balance_title">Adaptive tone</string>
     <string name="fingerprint_unlock_set_unlock_password">Pixel Imprint + Password</string>

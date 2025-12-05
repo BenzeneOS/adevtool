@@ -30,8 +30,6 @@ Raak liggies aan die knoppie sonder om dit in te druk."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Die vingerafdruksensor is op die aan/af-skakelaar. Dis die korter knoppie aan die sykant van die foon.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Skuif jou vinger elke keer effens</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Hou aan beweeg om ander dele van jou vingerafdruk vas te vang</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Dit maak onbeplande ontsluiting minder waarskynlik. Wanneer hierdie instelling afgeskakel is, sal dit ontsluit word deur kortliks aan die sensor te raak.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Rus op sensor om te ontsluit</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Raak die sensor vanuit ’n ander hoek</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Beweeg jou vinger om ander dele van jou vingerafdruk vas te vang</string>
     <string name="security_settings_work_fingerprint_preference_title">Vingerafdrukslot vir werk</string>

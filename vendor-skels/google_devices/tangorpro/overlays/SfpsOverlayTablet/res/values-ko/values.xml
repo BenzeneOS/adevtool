@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • 지문</string>
     <string name="fingerprint_unlock_skip_fingerprint">지문 잠금 해제 없이 계속</string>
     <string name="fingerprint_unlock_title">지문 잠금 해제를 사용하면 지문을 사용하여 태블릿을 잠금 해제할 수 있습니다. 이 옵션을 사용하려면 보안을 위해 백업 화면 잠금이 필요합니다.</string>
+    <string name="frr_notification_reset_fingerprint_description">이렇게 하면 문제가 해결될 수 있습니다.</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">지문 잠금 해제 허용</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"지문 센서는 전원 버튼에 있습니다.
 
@@ -29,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">지문 센서는 전원 버튼에 있습니다. 휴대전화 측면에 있는 더 짧은 버튼입니다.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">한 번 터치할 때마다 조금씩 손가락을 움직이세요</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">지문의 다른 부분을 캡처하려면 계속 움직이세요.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">이를 설정하면 실수로 잠금 해제될 가능성이 줄어듭니다. 이 설정이 사용 중지되어 있는 경우 센서를 짧게 터치해도 잠금이 해제됩니다.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">센서를 길게 터치해 잠금 해제</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">다른 각도에서 센서를 터치하세요.</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">손가락을 움직여 지문의 다른 부분을 캡처하세요.</string>
     <string name="security_settings_work_fingerprint_preference_title">직장용 지문 잠금 해제</string>

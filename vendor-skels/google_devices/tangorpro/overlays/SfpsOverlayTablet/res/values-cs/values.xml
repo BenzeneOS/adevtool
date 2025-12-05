@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • Otisk prstu</string>
     <string name="fingerprint_unlock_skip_fingerprint">Pokračovat bez odemknutí otiskem prstu</string>
     <string name="fingerprint_unlock_title">Odemknutí otiskem prstu umožňuje odemknout tablet otiskem prstu. Z bezpečnostních důvodů tato možnost vyžaduje záložní zámek obrazovky.</string>
+    <string name="frr_notification_reset_fingerprint_description">Tato akce někdy případné problémy odstraní</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Povolit odemknutí otiskem prstu</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Snímač otisků prstů je na vypínači.
 
@@ -29,8 +30,6 @@ Lehce se vypínače dotkněte, aniž byste ho stiskli."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Snímač otisků prstů je na vypínači. Vypínač je kratší tlačítko na boku telefonu.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Pokaždé prst lehce posuňte</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Pohybujte prstem, abyste zachytili jeho další části</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Zapnutím se sníží pravděpodobnost nezamýšleného odemknutí. Když bude nastavení vypnuté, může se zařízení odemknout i krátkým dotykem na senzoru.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Odemknutí delším dotykem na senzoru</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Dotkněte se snímače z jiného úhlu</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Pohybujte prstem, abyste zachytili jeho další části</string>
     <string name="security_settings_work_fingerprint_preference_title">Odemknutí otiskem prstu pro práci</string>

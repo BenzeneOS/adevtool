@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">recharge, limite, optimisation de la recharge, limite de recharge</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">"Pour prolonger sa durée de vie, la batterie de votre téléphone ne se rechargera que jusqu'à {batteryLimitLevel} %. Votre téléphone se rechargera à 100 % une fois toutes les une à deux semaines pour maintenir la précision de l'indication du niveau de batterie."</string>
-    <string name="charging_optimization_summary_charge_limit">Limiter à {batteryLimitLevel} %</string>
+    <string name="charging_optimization_entry_summary_charge_limit">Limiter à %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">"Pour prolonger sa durée de vie, la batterie de votre téléphone ne se rechargera que jusqu'à %1$s. Votre téléphone se rechargera à %2$s une fois toutes les une à deux semaines pour maintenir la précision de l'indication du niveau de batterie."</string>
     <string name="charging_optimization_summary_off">Désactivée</string>
     <string name="charging_optimization_title">Optimisation de la recharge</string>
 </resources>

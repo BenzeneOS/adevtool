@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Ryk denne enhed tættere på din Pixel Tablet, og prøv igen.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Åbn etuiet til øretelefonerne, ryk det tættere på din Pixel Tablet, og prøv igen.</string>
     <string name="sound_dashboard_summary">Lydstyrke</string>
-    <string name="sound_dashboard_summary_with_dnd">Lydstyrke, Forstyr ikke</string>
     <string name="sound_settings">Lyd</string>
 </resources>

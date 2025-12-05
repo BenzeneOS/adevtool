@@ -13,6 +13,7 @@ persist.vendor.verbose_logging_enabled u:object_r:vendor_logger_prop:s0
 persist.vendor.se. u:object_r:vendor_secure_element_prop:s0
 persist.vendor.nfc. u:object_r:vendor_nfc_prop:s0
 persist.vendor.nfc.antenna. u:object_r:vendor_nfc_antenna_prop:s0
+ro.vendor.persist.status u:object_r:vendor_persist_prop:s0 exact string
 vendor.aoc.firmware.version u:object_r:vendor_aoc_prop:s0
 persist.vendor.aoc.status_request_timed_out u:object_r:vendor_timeout_aoc_prop:s0
 persist.vendor.radio.volte_mif_off u:object_r:vendor_volte_mif_off:s0
@@ -83,6 +84,7 @@ vendor.radio. u:object_r:vendor_rild_prop:s0
 vendor.sys.rild_reset u:object_r:vendor_rild_prop:s0
 persist.vendor.config. u:object_r:vendor_persist_config_default_prop:s0
 vendor.gril. u:object_r:vendor_gril_prop:s0
+vendor.display. u:object_r:vendor_display_prop:s0
 ro.vendor.display. u:object_r:vendor_display_prop:s0
 ro.vendor.primarydisplay. u:object_r:vendor_display_prop:s0
 ro.vendor.secondarydisplay. u:object_r:vendor_display_prop:s0

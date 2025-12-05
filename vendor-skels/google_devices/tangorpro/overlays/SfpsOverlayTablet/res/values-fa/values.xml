@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">پین • اثر انگشت</string>
     <string name="fingerprint_unlock_skip_fingerprint">ادامه بدون «قفل‌گشایی با اثر انگشت»</string>
     <string name="fingerprint_unlock_title">با «قفل‌گشایی با اثر انگشت»، می‌توانید قفل رایانه لوحی را بااستفاده از اثر انگشتتان باز کنید. بنا به دلایل امنیتی، این گزینه به قفل صفحه پشتیبان نیاز دارد.</string>
+    <string name="frr_notification_reset_fingerprint_description">این کار گاهی‌اوقات می‌تواند مشکلات را حل کند</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">مجاز کردن «قفل‌گشایی با اثر انگشت»</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"حسگر اثر انگشت روی «دکمه روشن/خاموش» قرار دارد.
 
@@ -24,13 +25,11 @@
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">هرزمان خواستید می‌توانید در «تنظیمات»، مدل اثر انگشتتان را حذف کنید یا «قفل‌گشایی با اثر انگشت» را خاموش کنید. تا زمانی‌که مدل‌های اثر انگشت را حذف نکنید، در رایانه لوحی‌تان باقی می‌مانند.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">«قفل‌گشایی با اثر انگشت» مدلی بی‌همتا از اثرانگشت فرزندتان ایجاد می‌کند که برای تأیید هویت او استفاده می‌شود. برای ایجاد این مدل اثر انگشت درحین راه‌اندازی، فرزندتان چند تصویر از اثر انگشتش در موقعیت‌های مختلف می‌گیرد.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">وقتی فرزندتان از «قفل‌گشایی با اثر انگشت» استفاده می‌کند، مدل اثر انگشت او به‌کمک تصاویر به‌روز می‌شود. تصاویر استفاده‌شده برای ایجاد مدل اثر انگشت فرزندتان هرگز ذخیره نمی‌شوند، اما مدل اثر انگشت به‌طور ایمن در رایانه لوحی ذخیره می‌شود و هرگز از آن خارج نمی‌شود. همه پردازش‌ها به‌طور ایمن در رایانه لوحی انجام می‌شود.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">شما و فرزندتان هرزمان بخواهید می‌توانید با رفتن به «تنظیمات»، مدل اثر انگشت فرزندتان را حذف کنید یا «قفل‌گشایی با اثر انگشت» را خاموش کنید. تا وقتی مدل‌های اثر انگشت را حذف نکنید، در رایانه لوحی ذخیره خواهند بود.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">شما و فرزندتان هر زمان‌که بخواهید می‌توانید با رفتن به «تنظیمات»، مدل اثر انگشت فرزندتان را حذف کنید یا «قفل‌گشایی با اثر انگشت» را خاموش کنید. تا وقتی مدل‌های اثر انگشت را حذف نکنید، در رایانه لوحی ذخیره خواهند بود.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"‏در &lt;a href='http://g.co/pixeltablet/fingerprintunlock'&gt;g.co/pixeltablet/fingerprintunlock&lt;/a&gt; اطلاعات بیشتری کسب کنید."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">حسگر اثر انگشت روی دکمه روشن/خاموش قرار دارد. این دکمه همان دکمه کوچک‌تر در کنار تلفن است.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">هربار انگشت را آرام حرکت دهید</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">ادامه دهید تا سایر نواحی انگشت را ثبت کنید</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">این کار احتمال باز شدن قفل به‌صورت تصادفی را کاهش می‌دهد. وقتی این تنظیم خاموش باشد، لمس مختصر حسگر باعث باز شدن قفل می‌شود.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">قفل‌گشایی با گذاشتن انگشت روی حسگر</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">حسگر را از زاویه دیگر لمس کنید</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">سایر نواحی انگشت را ثبت کنید</string>
     <string name="security_settings_work_fingerprint_preference_title">«قفل‌گشایی با اثر انگشت» برای نمایه کاری</string>

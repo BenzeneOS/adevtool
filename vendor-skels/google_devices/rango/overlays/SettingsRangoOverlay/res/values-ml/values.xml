@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">ഫോൺ തുറക്കുമ്പോൾ ഇന്നർ ഡിസ്പ്ലേയിൽ ലോക്ക് സ്‌ക്രീൻ വാൾപേപ്പർ ദൃശ്യമാകും</string>
+    <string name="doze_always_on_wallpaper_title">ഇന്നർ ഡിസ്പ്ലേയിൽ വാൾപേപ്പർ കാണിക്കുക</string>
+</resources>

@@ -1,5 +1,5 @@
 canonical_name: "o2postpaid_gb"
-version: 72000000008
+version: 73000000010
 apns {
   apn {
     name: "O2 Pay Monthly"
@@ -267,6 +267,10 @@ configs {
     bool_value: false
   }
   config {
+    key: "qns.support_wfc_in_international_roaming"
+    bool_value: false
+  }
+  config {
     key: "qns.xcap_transport_type_int"
     int_value: 0
   }
@@ -294,10 +298,14 @@ configs {
     bool_value: true
   }
   config {
+    key: "vonr_enabled_bool"
+    bool_value: true
+  }
+  config {
     key: "wfc_spn_format_idx_int"
     int_value: 1
   }
 }
 last_updated {
-  seconds: 1729679681
+  seconds: 1751443019
 }

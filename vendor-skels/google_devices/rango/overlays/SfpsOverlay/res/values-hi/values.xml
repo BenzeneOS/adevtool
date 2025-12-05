@@ -30,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">फ़िंगरप्रिंट सेंसर, पावर बटन पर होता है. यह फ़ोन की साइड में मौजूद एक छोटा बटन होता है.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">हर बार उंगली का ऐंगल थोड़ा बदलें</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">हर ऐंगल से छुएं, ताकि फ़िंगरप्रिंट पूरा लिया जा सके</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">इससे गलती से डिवाइस अनलॉक होने की संभावना कम होती है. जब यह सेटिंग बंद होती है, तब सेंसर को धीरे से छूने पर भी डिवाइस अनलॉक हो जाता है.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">अनलॉक करने के लिए, सेंसर पर उंगली लगाए रखें</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">दूसरे ऐंगल से सेंसर को छुएं</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">उंगली को इधर-उधर करके फ़िंगरप्रिंट की अन्य जगहें कैप्चर करें</string>
     <string name="security_settings_work_fingerprint_preference_title">वर्क प्रोफ़ाइल के लिए फ़िंगरप्रिंट अनलॉक</string>

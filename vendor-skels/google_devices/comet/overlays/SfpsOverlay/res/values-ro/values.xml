@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">Codul PIN • Amprenta</string>
     <string name="fingerprint_unlock_skip_fingerprint">Continuă fără Deblocare cu amprenta</string>
     <string name="fingerprint_unlock_title">Cu Deblocarea cu amprenta, poți debloca telefonul folosind amprenta. Din motive de securitate, această opțiune necesită o blocare a ecranului de rezervă.</string>
+    <string name="frr_notification_reset_fingerprint_description">Uneori, această acțiune poate remedia problemele</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Permite Deblocarea cu amprenta</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Senzorul de amprentă se află pe butonul de pornire.
 
@@ -29,8 +30,6 @@ Atinge ușor butonul, fără a-l apăsa."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Senzorul de amprentă se află pe butonul de pornire. Acesta este butonul mai scurt de pe partea laterală a telefonului.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Mută ușor degetul de fiecare dată</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Continuă să-l muți pentru a captura alte părți ale amprentei</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Aceasta reduce riscul de deblocare accidentală. Când setarea este dezactivată, o scurtă atingere a senzorului va debloca telefonul.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Ține degetul pe senzor pentru a debloca</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Atinge senzorul din alt unghi</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Mișcă degetul pentru a captura alte părți ale amprentei</string>
     <string name="security_settings_work_fingerprint_preference_title">Deblocare cu amprenta pentru serviciu</string>

@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • వేలిముద్ర</string>
     <string name="fingerprint_unlock_skip_fingerprint">వేలిముద్ర అన్‌లాక్ లేకుండా కొనసాగించండి</string>
     <string name="fingerprint_unlock_title">వేలిముద్ర అన్‌లాక్‌తో, మీ వేలిముద్రను ఉపయోగించి ఫోన్‌ను అన్‌లాక్ చేయవచ్చు. భద్రతా అవసరాల దృష్ట్యా, ఈ ఆప్షన్‌కు బ్యాకప్ స్క్రీన్ లాక్ అవసరం.</string>
+    <string name="frr_notification_reset_fingerprint_description">ఇలా చేయడం వల్ల కొన్నిసార్లు సమస్యలు పరిష్కారం అవ్వవచ్చు</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">వేలిముద్ర అన్‌లాక్‌ను అనుమతించండి</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"వేలిముద్ర సెన్సార్ అనేది పవర్ బటన్‌పై ఉంటుంది.
 
@@ -29,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">వేలిముద్ర సెన్సార్ పవర్ బటన్‌పై ఉంది. ఇది ఫోన్‌కు పక్కన ఉండే బటన్‌లలో చిన్నది.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">ప్రతిసారి వేలు కొద్దిగా కదపండి</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">ఇతర ఏరియాల కోసం కదుపుతూ ఉండండి</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">దీనివల్ల అనుకోకుండా అన్‌లాక్ అయ్యే చాన్స్ తగ్గుతుంది. ఈ సెట్టింగ్ ఆఫ్‌లో ఉంటే, సెన్సార్‌ను లైట్‌గా తాకినా అన్‌లాక్ అవుతుంది.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">అన్‌లాక్ కోసం సెన్సార్‌ను కొంచం గట్టిగా తాకి ఉంచండి</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">యాంగిల్ మార్చి సెన్సార్ తాకండి</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">ఇతర ఏరియాల కోసం వేలిని కదపండి</string>
     <string name="security_settings_work_fingerprint_preference_title">వర్క్ ప్రొఫైల్ కోసం వేలిముద్ర అన్‌లాక్</string>

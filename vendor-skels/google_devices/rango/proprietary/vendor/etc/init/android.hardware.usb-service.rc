@@ -16,6 +16,7 @@ on post-fs
     chown root system /sys/devices/platform/53f1000.spmi/spmi-0/0-04/usb_limit_sink_enable
     chown root system /sys/devices/platform/53f1000.spmi/spmi-0/0-04/usb_limit_source_enable
     chown root system /sys/devices/platform/53f1000.spmi/spmi-0/0-04/update_sdp_enum_timeout
+    chown root system /sys/devices/platform/53f1000.spmi/spmi-0/0-04/disable_sdp_enum_timeout
     chown root system /sys/devices/platform/goog_usb_role_sw/disable_usb_data
     chown root system /sys/devices/platform/google,pogo/enable_usb
     chown root system /sys/devices/platform/c600000.dwc_dptx/drm-displayport/hpd
@@ -38,6 +39,7 @@ on post-fs
     chmod 664 /sys/devices/platform/53f1000.spmi/spmi-0/0-04/usb_limit_sink_enable
     chmod 664 /sys/devices/platform/53f1000.spmi/spmi-0/0-04/usb_limit_source_enable
     chmod 664 /sys/devices/platform/53f1000.spmi/spmi-0/0-04/update_sdp_enum_timeout
+    chmod 664 /sys/devices/platform/53f1000.spmi/spmi-0/0-04/disable_sdp_enum_timeout
     chmod 664 /sys/devices/platform/google,pogo/enable_usb
     chmod 664 /sys/devices/platform/c600000.dwc_dptx/drm-displayport/hpd
     chmod 664 /sys/devices/platform/c600000.dwc_dptx/drm-displayport/irq_hpd

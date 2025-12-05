@@ -1,5 +1,5 @@
 canonical_name: "h3_hk"
-version: 72000000002
+version: 73000000002
 apns {
   apn {
     name: "3 LTE"
@@ -44,5 +44,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1750953776
+  seconds: 1751443008
 }

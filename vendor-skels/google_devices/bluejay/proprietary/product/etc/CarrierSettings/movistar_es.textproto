@@ -1,5 +1,5 @@
 canonical_name: "movistar_es"
-version: 72000000015
+version: 73000000015
 apns {
   apn {
     name: "Movistar"

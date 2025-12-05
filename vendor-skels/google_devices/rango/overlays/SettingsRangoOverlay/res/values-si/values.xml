@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">දුරකථනය දිග හරින විට අභ්‍යන්තර සංදර්ශකයේ අගුළු තිර වෝල්පේපරය දෘශ්‍යමාන වේ</string>
+    <string name="doze_always_on_wallpaper_title">අභ්‍යන්තර සංදර්ශකයේ වෝල්පේපරය පෙන්වන්න</string>
+</resources>

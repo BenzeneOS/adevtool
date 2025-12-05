@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">請將這部裝置移到較靠近 Pixel Tablet 的地方，然後再試一次。</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">請開啟耳機充電盒並移到較靠近 Pixel Tablet 的地方，然後再試一次。</string>
     <string name="sound_dashboard_summary">音量</string>
-    <string name="sound_dashboard_summary_with_dnd">音量、零打擾</string>
     <string name="sound_settings">音效</string>
 </resources>

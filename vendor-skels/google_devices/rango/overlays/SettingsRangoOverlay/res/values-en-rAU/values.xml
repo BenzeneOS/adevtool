@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">Lock screen wallpaper is visible on inner display when phone is unfolded</string>
+    <string name="doze_always_on_wallpaper_title">Show wallpaper on inner display</string>
+</resources>

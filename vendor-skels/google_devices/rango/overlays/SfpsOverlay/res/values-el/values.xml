@@ -30,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">Ο αισθητήρας δακτυλικών αποτυπωμάτων βρίσκεται στο κουμπί λειτουργίας. Είναι το πιο κοντό κουμπί στην πλευρά του τηλεφώνου.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Μετακ. λίγο το δάχτ. κάθε φορά</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Συνεχίστε τη μετακ. για καταγρ. άλλων περιοχ. δακτ. αποτ.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Έτσι είναι λιγότερο πιθανό το ακούσιο ξεκλείδωμα. Όταν είναι απενεργοποιημένη αυτή η ρύθμιση, η συσκευή θα ξεκλειδώνει με σύντομο άγγιγμα του αισθητήρα.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Άγγιγμα αισθητήρα για ξεκλείδωμα</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Αγγίξτε τον αισθητήρα από άλλη γωνία</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Μετακινήστε το δάχτυλο για λήψη ολόκλ. αποτυπώματος</string>
     <string name="security_settings_work_fingerprint_preference_title">Ξεκλείδωμα με δακτυλικό αποτύπωμα για επαγγελματική χρήση</string>

@@ -1,8 +1,8 @@
 canonical_name: "att_mx"
-version: 71000000020
+version: 73000000022
 apns {
   apn {
-    name: "AT&T 5G Internet"
+    name: "Internet 5G"
     value: "web.5g.attmex.mx"
     type: DEFAULT
     protocol: IPV4V6
@@ -108,6 +108,10 @@ configs {
     bool_value: true
   }
   config {
+    key: "editable_voicemail_number_setting_bool"
+    bool_value: false
+  }
+  config {
     key: "editable_wfc_mode_bool"
     bool_value: false
   }
@@ -165,7 +169,7 @@ configs {
   }
   config {
     key: "imsi_key_availability_int"
-    int_value: 2
+    int_value: 0
   }
   config {
     key: "imsi_key_download_url_string"
@@ -336,6 +340,10 @@ configs {
     }
   }
   config {
+    key: "iwlan.key_error_policy_config_string"
+    text_value: "[{\"ApnName\": \"*\",\"ErrorTypes\": [{\"ErrorType\": \"IKE_PROTOCOL_ERROR_TYPE\",\"ErrorDetails\": [\"*\"],\"RetryArray\": [\"86400\", \"-1\"],\"UnthrottlingEvents\": []}]}]"
+  }
+  config {
     key: "iwlan.supported_integrity_algorithms_int_array"
     int_array {
       item: 2
@@ -370,8 +378,15 @@ configs {
   config {
     key: "qns.idle_eutran_rsrp_int_array"
     int_array {
-      item: -110
-      item: -115
+      item: -90
+      item: -120
+    }
+  }
+  config {
+    key: "qns.idle_wifi_rssi_int_array"
+    int_array {
+      item: -70
+      item: -80
     }
   }
   config {
@@ -393,8 +408,15 @@ configs {
   config {
     key: "qns.voice_eutran_rsrp_int_array"
     int_array {
-      item: -110
-      item: -115
+      item: -90
+      item: -120
+    }
+  }
+  config {
+    key: "qns.voice_wifi_rssi_int_array"
+    int_array {
+      item: -70
+      item: -80
     }
   }
   config {
@@ -426,5 +448,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1746618838
+  seconds: 1754475104
 }

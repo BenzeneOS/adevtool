@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">%1$s에서는 액세스할 수 없습니다. 대신 태블릿에서 시도해 보세요.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">태블릿 설정을 사용할 수 없음</string>
     <string name="battery_saver_charged_notification_summary">태블릿의 배터리가 충분하므로 기능이 더 이상 제한되지 않습니다</string>
+    <string name="biometric_dialog_secondary_display_toast">계속하려면 태블릿에서 본인 인증을 진행하세요.</string>
     <string name="default_audio_route_name">태블릿</string>
     <string name="enable_explore_by_touch_warning_message">"%1$s을(를) 사용하려면 '터치하여 탐색' 기능을 사용하도록 설정해야 합니다. '터치하여 탐색'을 사용하도록 설정하면, 화면을 터치하여 손가락 아래에 표시된 항목에 대한 설명을 듣고 보거나 태블릿으로 상호작용하기 위한 동작을 수행할 수 있습니다."</string>
     <string name="global_actions">태블릿 옵션</string>

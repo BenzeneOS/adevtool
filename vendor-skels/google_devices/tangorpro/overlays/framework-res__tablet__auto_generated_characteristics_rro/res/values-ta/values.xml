@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">உங்கள் %1$s சாதனத்தில் இதை அணுக முடியாது. அதற்குப் பதிலாக உங்கள் டேப்லெட்டில் முயன்று பாருங்கள்.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">டேப்லெட் அமைப்புகளைப் பயன்படுத்த முடியாது</string>
     <string name="battery_saver_charged_notification_summary">டேப்லெட்டில் போதுமான சார்ஜ் உள்ளது. அம்சங்கள் இனி தடையின்றி இயங்கும்.</string>
+    <string name="biometric_dialog_secondary_display_toast">தொடர, இது நீங்கள்தான் என்பதை உங்கள் டேப்லெட்டில் உறுதிசெய்யவும்</string>
     <string name="default_audio_route_name">டேப்லெட்</string>
     <string name="enable_explore_by_touch_warning_message">தொடுவதன் மூலம் அறிக என்பதை இயக்க %1$s விரும்புகிறது. தொடுவதன் மூலம் அறிக என்பது இயக்கப்பட்டிருக்கும்போது, உங்கள் விரலுக்கு அடியில் இருப்பவையின் விளக்கங்களை நீங்கள் கேட்கவோ, பார்க்கவோ செய்யலாம் அல்லது டேப்லெட்டுடன் ஊடாட சைகைகளை மேற்கொள்ளலாம்.</string>
     <string name="global_actions">டேப்லெட் விருப்பங்கள்</string>

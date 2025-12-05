@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">फोन अनफोल्ड केल्यावर, अंतर्गत डिस्प्लेवर लॉक स्‍क्रीन वॉलपेपर दिसतो</string>
+    <string name="doze_always_on_wallpaper_title">अंतर्गत डिस्प्लेवर वॉलपेपर दाखवा</string>
+</resources>

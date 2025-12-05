@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">ડિવાઇસને તમારા Pixel Tabletની વધુ નજીક ખસેડો અને ફરી પ્રયાસ કરો.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">ઇયરબડના કેસને Pixel Tabletની નજીક ખસેડો, પછી ફરી પ્રયાસ કરો.</string>
     <string name="sound_dashboard_summary">વૉલ્યૂમ</string>
-    <string name="sound_dashboard_summary_with_dnd">વૉલ્યૂમ, ખલેલ પાડશો નહીં</string>
     <string name="sound_settings">સાઉન્ડ</string>
 </resources>

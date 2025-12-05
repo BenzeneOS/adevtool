@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • Pirksta nospiedums</string>
     <string name="fingerprint_unlock_skip_fingerprint">Turpināt, neiestatot autorizāciju ar pirksta nospiedumu</string>
     <string name="fingerprint_unlock_title">Izmantojot autorizāciju ar pirksta nospiedumu, varat atbloķēt savu planšetdatoru ar pirksta nospiedumu. Drošības nolūkos šai opcijai nepieciešama rezerves ekrāna bloķēšanas funkcija.</string>
+    <string name="frr_notification_reset_fingerprint_description">Dažkārt tādējādi var novērst problēmas.</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Autorizācija ar pirksta nospiedumu</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Pirksta nospieduma sensors atrodas uz barošanas pogas.
 
@@ -29,8 +30,6 @@ Viegli pieskarieties pogai, to nenospiežot."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Pirksta nospieduma sensors atrodas uz barošanas pogas. Tā ir īsākā poga tālruņa malā.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Ikreiz pakustiniet pirkstu</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Turpiniet virzīt pirkstu, lai notvertu citas pirksta daļas</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Tādējādi tiek samazināta nejaušas atbloķēšanas iespējamība. Ja šis iestatījums ir izslēgts, ierīci varat atbloķēt, īslaicīgi pieskaroties sensoram.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Lai atbloķētu, pieskarieties sensoram un turiet</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Pieskarieties citā leņķī</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Groziet pirkstu, lai notvertu arī citas pirksta daļas</string>
     <string name="security_settings_work_fingerprint_preference_title">Autorizācija ar pirksta nospiedumu darba profilam</string>

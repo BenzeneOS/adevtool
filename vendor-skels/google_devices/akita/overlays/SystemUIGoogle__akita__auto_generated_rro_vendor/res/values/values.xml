@@ -28,6 +28,7 @@
     <dimen name="system_icons_super_container_avatarless_margin_end">56.0px</dimen>
     <dimen name="udfps_burn_in_offset_x">6.0px</dimen>
     <dimen name="udfps_burn_in_offset_y">17.0px</dimen>
+    <integer name="config_keyguardRefreshRate">120</integer>
     <integer name="config_lockIconLongPress">100</integer>
     <string name="config_frontBuiltInDisplayCutoutProtection">m 586.22,68.71 a 46.72,46.22 0 0 0 -93.43,0 46.22,46.22 0 0 0 93.43,0 z</string>
     <string name="config_protectedCameraId">1</string>

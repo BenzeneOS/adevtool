@@ -30,8 +30,6 @@ Lekko kliknij przycisk, ale go nie naciskaj."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Czytnik linii papilarnych znajduje się na przycisku zasilania. To ten krótszy przycisk z boku telefonu.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Za każdym razem lekko przesuwaj palec</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Przesuwaj, aby zeskanować inną część odcisku palca</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Dzięki temu trudniej przypadkowo odblokować urządzenie. Gdy to ustawienie jest wyłączone, krótkie dotknięcie czujnika spowoduje odblokowanie.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Dotknij czujnika, aby odblokować</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Dotknij czujnika pod innym kątem</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Przesuń palec, aby zeskanować inną część odcisku palca</string>
     <string name="security_settings_work_fingerprint_preference_title">Odblokowywanie odciskiem palca w profilu służbowym</string>

@@ -1,0 +1,180 @@
+canonical_name: "lguplus_kr"
+version: 73000000001
+apns {
+  apn {
+    name: "LG uplus IMS"
+    value: "IMS"
+    type: IMS
+    mmsc: "http://omammsc.uplus.co.kr:9084"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+  }
+  apn {
+    name: "LG uplus"
+    value: "internet.lguplus.co.kr"
+    type: CBS
+    type: DEFAULT
+    type: MMS
+    type: SUPL
+    type: FOTA
+    mmsc: "http://omammsc.uplus.co.kr:9084"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+  }
+  apn {
+    name: "LG uplus IA"
+    value: ""
+    type: IA
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+  }
+}
+configs {
+  config {
+    key: "additional_call_setting_bool"
+    bool_value: false
+  }
+  config {
+    key: "allow_emergency_numbers_in_call_log_bool"
+    bool_value: true
+  }
+  config {
+    key: "bandwidth_string_array"
+    text_array {
+      item: "GPRS:24,24"
+      item: "EDGE:70,18"
+      item: "UMTS:115,115"
+      item: "CDMA-IS95A:14,14"
+      item: "CDMA-IS95B:14,14"
+      item: "1xRTT:30,30"
+      item: "EvDo-rev.0:750,48"
+      item: "EvDo-rev.A:950,550"
+      item: "HSDPA:4300,620"
+      item: "HSUPA:4300,1800"
+      item: "HSPA:4300,1800"
+      item: "EvDo-rev.B:1500,550"
+      item: "eHRPD:750,48"
+      item: "HSPAP:13000,3400"
+      item: "TD-SCDMA:115,115"
+      item: "LTE:30000,15000"
+      item: "NR_NSA:563200,61440"
+      item: "NR_NSA_MMWAVE:563200,614400"
+      item: "NR_SA:563200,61440"
+    }
+  }
+  config {
+    key: "carrier_certificate_string_array"
+    text_array {
+      item: "2e8478b7b90411ad9075a182725b9a37857440a170fefa8853ee945d0a88170c"
+      item: "6a26b25d1fa974aed6f81ed30a55a72d51e20f6905decbf01e84ecce5fb96454"
+      item: "0f18fddfc990b285798f3bee5710cc5cde9ffd913fd6942f296c4656c7065d8c"
+      item: "0c3eff3693ba9a469fc836c046ebc726ac50c54b36370af8d26cb774b8e88b9f"
+      item: "4986b8386ce4dc1cfd01f5b0541d88caca2695fe24c4d909c8fec2d6a26a2beb"
+      item: "1a8791e1f56e2195b31df30217a2ffe0ef5be2cc6d0058796d2d7f5ce9738cf4"
+      item: "ac3a4e7afeddde9550922ed6e3af343a3fe99a0e5f5a80902354052341ceaef4"
+      item: "606c79a42e1fcb54b1f0abed3602d4aa7b6823ba9909e0df17edce0bcba7b35f"
+      item: "4b0170b8c2924f85c9cebc6230e7eca39d4d8f86cfc443f2f25b93558aabf4df"
+      item: "370259a6a2d8f6cbc838d7375dd2dc6bf05b7a8a5c8d27def9539431b34f43af"
+      item: "4f444ba61644f72a47c99187eab4ebb9f7127ea38eeaacfa0a305511bf55233f"
+      item: "cefc3c7e03e7156bb9fc9e4d31edec96fd461782e7f37cb6e79850bfc1f9c7fb"
+      item: "8f452024920b1e8e0380e293e40426dffe0adfb5e675f4cc6f9266e1c08afa21"
+      item: "212beda6fbf1a07b3557a02c3cf0646263eed855a632f0d45f0bceb311c064c6"
+      item: "34bfb7ae9228d1117d6f594c6812f969ca7aaeb3dbd44be713d1ec2f122d8d01"
+    }
+  }
+  config {
+    key: "carrier_instant_lettering_available_bool"
+    bool_value: false
+  }
+  config {
+    key: "carrier_instant_lettering_encoding_string"
+    text_value: "EUC-KR"
+  }
+  config {
+    key: "carrier_instant_lettering_invalid_chars_string"
+    text_value: "[\"<>\\\\\\n]"
+  }
+  config {
+    key: "carrier_instant_lettering_length_limit_int"
+    int_value: 64
+  }
+  config {
+    key: "enableSMSDeliveryReports"
+    bool_value: false
+  }
+  config {
+    key: "ims.ipsec_encryption_algorithms_int_array"
+    int_array {
+      item: 2
+    }
+  }
+  config {
+    key: "imsemergency.emergency_qos_precondition_supported_bool"
+    bool_value: false
+  }
+  config {
+    key: "imsrtt.text_qos_precondition_supported_bool"
+    bool_value: false
+  }
+  config {
+    key: "imsss.xcap_over_ut_supported_rats_int_array"
+    int_array {
+    }
+  }
+  config {
+    key: "imsvoice.conference_factory_uri_string"
+    text_value: "conference-factory"
+  }
+  config {
+    key: "imsvoice.evs_payload_description_bundle"
+    bundle {
+      config {
+        key: "127"
+        bundle {
+          config {
+            key: "imsvoice.evs_codec_attribute_bitrate_int_array"
+            int_array {
+              item: 3
+              item: 6
+            }
+          }
+          config {
+            key: "imsvoice.evs_codec_attribute_ch_aw_recv_int"
+            int_value: 255
+          }
+        }
+      }
+    }
+  }
+  config {
+    key: "imsvoice.voice_qos_precondition_supported_bool"
+    bool_value: false
+  }
+  config {
+    key: "imsvt.video_qos_precondition_supported_bool"
+    bool_value: false
+  }
+  config {
+    key: "maxImageHeight"
+    int_value: 1944
+  }
+  config {
+    key: "maxImageWidth"
+    int_value: 2592
+  }
+  config {
+    key: "maxMessageSize"
+    int_value: 1048576
+  }
+  config {
+    key: "smsToMmsTextLengthThreshold"
+    int_value: 80
+  }
+  config {
+    key: "support_conference_call_bool"
+    bool_value: false
+  }
+}
+last_updated {
+  seconds: 1756887143
+}

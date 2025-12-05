@@ -1,5 +1,5 @@
 canonical_name: "cellcommno_us"
-version: 72000000014
+version: 73000000015
 apns {
   apn {
     name: "Cellcom"
@@ -1070,6 +1070,16 @@ configs {
     text_value: "epdg.epc.mnc840.mcc311.pub.3gppnetwork.org"
   }
   config {
+    key: "iwlan_handover_policy_string_array"
+    text_array {
+      item: "source=GERAN|UTRAN|EUTRAN|NGRAN|IWLAN|UNKNOWN, target=GERAN|UTRAN|EUTRAN|NGRAN|IWLAN, type=disallowed, capabilities=EIMS|MMS|XCAP|CBS"
+      item: "source=GERAN|UTRAN|EUTRAN|NGRAN|IWLAN|UNKNOWN, target=GERAN|UTRAN|EUTRAN|NGRAN|IWLAN, roaming=true, type=disallowed, capabilities=IMS"
+      item: "source=IWLAN|UNKNOWN, target=GERAN|UTRAN, type=disallowed, capabilities=IMS"
+      item: "source=GERAN|UTRAN, target=IWLAN, type=disallowed, capabilities=IMS"
+      item: "source=EUTRAN|NGRAN|IWLAN, target=EUTRAN|NGRAN|IWLAN, type=allowed, capabilities=IMS"
+    }
+  }
+  config {
     key: "lte_earfcns_rsrp_boost_int"
     int_value: 6
   }
@@ -1342,5 +1352,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1749144156
+  seconds: 1756887179
 }

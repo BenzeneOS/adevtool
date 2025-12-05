@@ -1,5 +1,5 @@
 canonical_name: "kddimvno_jp"
-version: 71000000002
+version: 73000000004
 apns {
   apn {
     name: "IMS"
@@ -18,6 +18,7 @@ apns {
     user: "rakuten@vdm"
     password: "0000"
     authtype: 3
+    protocol: IPV4V6
   }
   apn {
     name: "KDDI JP Emergency"
@@ -30,12 +31,28 @@ apns {
 }
 configs {
   config {
+    key: "5g_icon_configuration_string"
+    text_value: "connected_mmwave:5G_Plus,connected:5G,connected_rrc_idle:5G,not_restricted_rrc_idle:5G"
+  }
+  config {
+    key: "5g_icon_display_grace_period_string"
+    text_value: "connected_mmwave,connected,31;connected_mmwave,legacy,31;connected,legacy,31;connected_mmwave,not_restricted_rrc_con,31;connected,not_restricted_rrc_con,31;not_restricted_rrc_idle,not_restricted_rrc_con,15"
+  }
+  config {
     key: "5g_nr_ssrsrp_thresholds_int_array"
     int_array {
       item: -128
       item: -118
       item: -108
       item: -98
+    }
+  }
+  config {
+    key: "additional_nr_advanced_bands_int_array"
+    int_array {
+      item: 77
+      item: 78
+      item: 79
     }
   }
   config {
@@ -317,6 +334,23 @@ configs {
     bool_value: true
   }
   config {
+    key: "non_roaming_operator_string_array"
+    text_array {
+      item: "44091"
+      item: "44092"
+      item: "44093"
+      item: "44094"
+    }
+  }
+  config {
+    key: "nr_advanced_requires_single_cc_above_bandwidth_threshold_bool"
+    bool_value: true
+  }
+  config {
+    key: "nr_advanced_threshold_bandwidth_khz_int"
+    int_value: 100000
+  }
+  config {
     key: "read_only_apn_types_string_array"
     text_array {
     }
@@ -335,5 +369,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1743656476
+  seconds: 1753863668
 }

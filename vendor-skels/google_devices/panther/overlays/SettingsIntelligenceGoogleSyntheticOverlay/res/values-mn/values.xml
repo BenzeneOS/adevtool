@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">цэнэглэх, хязгаар, цэнэглэх оновчлол, цэнэглэх хязгаар</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">Батарейн эдэлгээг уртасгахад туслахын тулд таны утас зөвхөн {batteryLimitLevel}%-ийн цэнэгтэй болтол цэнэглэгдэнэ. Таны утас батарейн цэнэгийн түвшний мэдээллийн үнэн зөв байдлыг хадгалахын тулд нэгээс хоёр долоо хоногт нэг удаа 100% хүртэл цэнэглэгдэнэ.</string>
-    <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}%-иар хязгаарласан</string>
+    <string name="charging_optimization_entry_summary_charge_limit">%1$s-р хязгаарлах</string>
+    <string name="charging_optimization_footer_message_charge_limit">Батарейн эдэлгээг уртасгахад туслахын тулд таны утас зөвхөн %1$s-н цэнэгтэй болтол цэнэглэгдэнэ. Таны утас батарейн цэнэгийн түвшний мэдээллийн үнэн зөв байдлыг хадгалахын тулд нэгээс хоёр долоо хоногт нэг удаа %2$s хүртэл цэнэглэгдэнэ.</string>
     <string name="charging_optimization_summary_off">Унтраалттай</string>
     <string name="charging_optimization_title">Цэнэглэх оновчлол</string>
 </resources>

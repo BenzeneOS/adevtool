@@ -30,8 +30,6 @@ Nežno se dotaknite gumba, ne da bi ga pritisnili."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Tipalo prstnih odtisov je na gumbu za vklop. To je krajši gumb ob strani telefona.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Prst vsakič nekoliko premaknite</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Nadaljujte premikanje za zajem drugih delov prstnega odtisa</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">S tem se zmanjša verjetnost nenamernega odklepanja. Ko je ta nastavitev izklopljena, napravo odklenete s kratkim dotikom tipala.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Odklepanje s pridržanjem prsta na tipalu</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Tipala se dotaknite pod drugim kotom</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Premaknite prst za zajem drugih delov prstnega odtisa</string>
     <string name="security_settings_work_fingerprint_preference_title">Odklepanje s prstnim odtisom za delo</string>

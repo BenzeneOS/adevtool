@@ -30,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">ඇඟිලි සලකුණු සංවේදකය බල බොත්තම මත ඇත. එය දුරකථනයේ පැත්තේ ඇති කෙටි බොත්තමයි.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">එක් එක් වතාවේ ඔබේ ඇඟිල්ල තරමක් ගෙන යන්න</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">ඔබේ ඇඟිලි සලකුණෙහි අනෙකුත් ප්‍රදේශ ග්‍රහණය කර ගැනීමට දිගටම ගමන් කරන්න</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">මෙය වැරදීමකින් අගුළු හැරීමේ හැකියාව අඩු කරයි. මෙම සැකසීම ක්‍රියාවිරහිත කළ විට, සංවේදකය කෙටියෙන් ස්පර්ශ කිරීමෙන් අගුළු හරිනු ඇත.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">අගුළු ඇරීමට සංවේදකය මත සිටින්න</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">වෙනත් කෝණයකින් සංවේදකය ස්පර්ශ කරන්න</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">ඔබේ ඇඟිලි සලකුණෙහි වෙනත් ප්‍රදේශ ග්‍රහණය කර ගැනීමට ඔබේ ඇඟිල්ල ගෙන යන්න</string>
     <string name="security_settings_work_fingerprint_preference_title">කාර්යාලය සඳහා ඇඟිලි සලකුණු අගුළු හැරීම</string>

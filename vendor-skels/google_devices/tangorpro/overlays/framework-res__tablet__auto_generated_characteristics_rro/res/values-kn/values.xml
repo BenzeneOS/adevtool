@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">ನಿಮ್ಮ %1$s ನಲ್ಲಿ ಇದನ್ನು ಆ್ಯಕ್ಸೆಸ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ಅದರ ಬದಲು ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್‌ನಲ್ಲಿ ಪ್ರಯತ್ನಿಸಿ.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">ಟ್ಯಾಬ್ಲೆಟ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಲಭ್ಯವಿಲ್ಲ</string>
     <string name="battery_saver_charged_notification_summary">ಟ್ಯಾಬ್ಲೆಟ್‌ನಲ್ಲಿ ಸಾಕಷ್ಟು ಚಾರ್ಜ್ ಇದೆ. ಇನ್ನು ಮುಂದೆ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗುವುದಿಲ್ಲ.</string>
+    <string name="biometric_dialog_secondary_display_toast">ಮುಂದುವರಿಯಲು ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್‌ನಲ್ಲಿ ಇದು ನೀವೇ ಎಂಬುದನ್ನು ದೃಢೀಕರಿಸಿ</string>
     <string name="default_audio_route_name">ಟ್ಯಾಬ್ಲೆಟ್‌‌</string>
     <string name="enable_explore_by_touch_warning_message">ಸ್ಪರ್ಶದ ಮೂಲಕ ಎಕ್ಸ್‌ಪ್ಲೋರ್ ಸಕ್ರಿಯಗೊಳಿಸಲು %1$s ಬಯಸುತ್ತದೆ. ಸ್ಪರ್ಶದ ಮೂಲಕ ಎಕ್ಸ್‌ಪ್ಲೋರ್ ಆನ್ ಮಾಡಿದಾಗ, ಟ್ಯಾಬ್ಲೆಟ್‌ ಜೊತೆ ಸಂವಹನ ನಡೆಸಲು ನಿಮ್ಮ ಬೆರಳಿನ ಅಡಿಯಲ್ಲಿರುವ ವಿವರಣೆಗಳನ್ನು ನೀವು ಆಲಿಸಬಹುದು ಅಥವಾ ವೀಕ್ಷಿಸಬಹುದು ಇಲ್ಲವೇ ಗೆಶ್ಚರ್‌‌ ಮಾಡಬಹುದು.</string>
     <string name="global_actions">ಟ್ಯಾಬ್ಲೆಟ್ ಆಯ್ಕೆಗಳು</string>

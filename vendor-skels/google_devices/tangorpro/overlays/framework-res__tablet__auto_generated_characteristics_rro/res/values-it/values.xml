@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Non è possibile accedere a questa impostazione su %1$s. Prova a usare il tablet.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Impostazioni del tablet non disponibili</string>
     <string name="battery_saver_charged_notification_summary">Il tablet ha carica sufficiente. Funzionalità non più limitate.</string>
+    <string name="biometric_dialog_secondary_display_toast">Verifica la tua identità sul tablet per continuare</string>
     <string name="default_audio_route_name">Tablet</string>
     <string name="enable_explore_by_touch_warning_message">%1$s vuole attivare la funzione Esplora al tocco. Quando la funzione Esplora al tocco è attiva, puoi ascoltare o visualizzare le descrizioni di ciò che stai toccando oppure interagire con il tablet tramite gesti.</string>
     <string name="global_actions">Opzioni tablet</string>

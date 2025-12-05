@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">"Түзмөктү Pixel Tablet'тин жанына коюп, кайталап көрүңүз."</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">"Гарнитуранын кутучасын ачып, Pixel Tablet'тин жанына коюп, кайталаңыз."</string>
     <string name="sound_dashboard_summary">Үн деңгээли</string>
-    <string name="sound_dashboard_summary_with_dnd">"Үн деңгээли, \"Тынчымды алба\" режими"</string>
     <string name="sound_settings">Үн</string>
 </resources>

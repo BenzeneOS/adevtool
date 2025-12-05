@@ -1,0 +1,47 @@
+canonical_name: "mtn_ng"
+version: 73000000001
+apns {
+  apn {
+    name: "MTN-WEB"
+    value: "internet"
+    type: DEFAULT
+    type: SUPL
+    user: "web"
+    password: "web"
+    authtype: 1
+  }
+  apn {
+    name: "MTN ACCESS"
+    value: "web.gprs.mtnnigeria.net"
+    type: DEFAULT
+    type: SUPL
+    user: "web"
+    password: "web"
+    authtype: 1
+  }
+  apn {
+    name: "MTN MMS"
+    value: "web.gprs.mtnnigeria.net"
+    type: MMS
+    mmsc: "http://10.199.212.8/servlets/mms"
+    mmsc_proxy: "10.199.212.2"
+  }
+  apn {
+    name: "IMS"
+    value: "IMS"
+    type: IMS
+    bearer_bitmask: "14|20"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
+}
+configs {
+  config {
+    key: "carrier_volte_available_bool"
+    bool_value: true
+  }
+}
+last_updated {
+  seconds: 1753863617
+}

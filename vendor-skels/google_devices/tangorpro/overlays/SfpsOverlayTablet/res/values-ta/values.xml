@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">பின் (PIN) • கைரேகை</string>
     <string name="fingerprint_unlock_skip_fingerprint">கைரேகை அன்லாக் அம்சம் இல்லாமல் தொடர்க</string>
     <string name="fingerprint_unlock_title">கைரேகை அன்லாக் அம்சத்தின் மூலம் உங்கள் கைரேகையைப் பயன்படுத்தி டேப்லெட்டை அன்லாக் செய்யலாம். பாதுகாப்பிற்காக, இதனுடன் மற்றுமொரு திரைப் பூட்டையும் பயன்படுத்தவும்.</string>
+    <string name="frr_notification_reset_fingerprint_description">இது சில நேரங்களில் சிக்கல்களைச் சரிசெய்யலாம்</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">கைரேகை அன்லாக் அம்சத்தை அனுமதித்தல்</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"கைரேகை சென்சார் உங்கள் பவர் பட்டனில் உள்ளது.
 
@@ -29,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">பவர் பட்டனில் கைரேகை சென்சார் உள்ளது. இது மொபைலின் பக்கவாட்டில் உள்ள சிறிய பட்டன் ஆகும்.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">ஒவ்வொரு முறையும் விரலைச் சிறிது நகர்த்துங்கள்</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">கைரேகையின் பிற பகுதிகளைப் பதிவுசெய்ய தொடர்ந்து நகர்த்துங்கள்</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">இது தற்செயலாக அன்லாக் செய்யப்படுவதைக் குறைக்கும். இந்த அமைப்பு முடக்கத்தில் இருக்கும்போது சென்சாரை லேசாகத் தொட்டாலே அன்லாக் ஆகிவிடும்.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">அன்லாக் செய்ய சென்சாரைப் பயன்படுத்தவும்</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">மற்றொரு கோணத்திலிருந்து சென்சாரைத் தொடுங்கள்</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">கைரேகையின் பிற பகுதிகளைப் பதிவுசெய்ய விரலை நகர்த்துங்கள்</string>
     <string name="security_settings_work_fingerprint_preference_title">பணிக் கணக்குக்கான கைரேகை அன்லாக்</string>

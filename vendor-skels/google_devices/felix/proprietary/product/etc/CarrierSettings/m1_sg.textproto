@@ -1,5 +1,5 @@
 canonical_name: "m1_sg"
-version: 72000000019
+version: 73000000021
 apns {
   apn {
     name: "Sunsurf Mobile"
@@ -70,11 +70,6 @@ configs {
     }
   }
   config {
-    key: "imssms.sms_over_ims_supported_rats_int_array"
-    int_array {
-    }
-  }
-  config {
     key: "imsss.terminal_based_call_waiting_sync_type_int"
     int_value: 0
   }
@@ -142,6 +137,16 @@ configs {
     bool_value: true
   }
   config {
+    key: "iwlan_handover_policy_string_array"
+    text_array {
+      item: "source=GERAN|UTRAN|EUTRAN|NGRAN|IWLAN|UNKNOWN, target=GERAN|UTRAN|EUTRAN|NGRAN|IWLAN, type=disallowed, capabilities=EIMS|MMS|XCAP|CBS"
+      item: "source=IWLAN|UNKNOWN, target=GERAN|UTRAN, type=disallowed, capabilities=IMS"
+      item: "source=GERAN|UTRAN, target=IWLAN, type=disallowed, capabilities=IMS"
+      item: "source=NGRAN|IWLAN, target=NGRAN|IWLAN, incall=true, type=disallowed, capabilities=IMS"
+      item: "source=EUTRAN|NGRAN|IWLAN, target=EUTRAN|NGRAN|IWLAN, type=allowed, capabilities=IMS"
+    }
+  }
+  config {
     key: "show_4g_for_lte_data_icon_bool"
     bool_value: true
   }
@@ -155,5 +160,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1749144129
+  seconds: 1757476339
 }

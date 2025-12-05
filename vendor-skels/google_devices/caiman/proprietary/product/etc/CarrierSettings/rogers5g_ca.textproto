@@ -1,5 +1,5 @@
 canonical_name: "rogers5g_ca"
-version: 72000000015
+version: 73000000018
 apns {
   apn {
     name: "Rogers Tethering"
@@ -401,7 +401,11 @@ configs {
   }
   config {
     key: "prefer_2g_bool"
-    bool_value: true
+    bool_value: false
+  }
+  config {
+    key: "prefer_3g_visibility_bool"
+    bool_value: false
   }
   config {
     key: "qns.choose_wfc_preferred_transport_in_both_bad_condition_int_array"
@@ -470,6 +474,10 @@ configs {
     bool_value: true
   }
   config {
+    key: "satellite_data_support_mode_int"
+    int_value: 1
+  }
+  config {
     key: "satellite_entitlement_supported_bool"
     bool_value: false
   }
@@ -494,6 +502,10 @@ configs {
     bool_value: true
   }
   config {
+    key: "vonr_enabled_bool"
+    bool_value: true
+  }
+  config {
     key: "wfc_emergency_address_carrier_app_string"
     text_value: "com.google.android.wfcactivation/.WfcActivationCanadaActivity"
   }
@@ -513,5 +525,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1754020408
+  seconds: 1756276514
 }

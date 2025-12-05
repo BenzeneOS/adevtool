@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">%1$s cihazınızda buna giriş mümkün deyil. Planşetinizdə sınayın.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Planşet ayarları əlçatan deyil</string>
     <string name="battery_saver_charged_notification_summary">Planşetin kifayət qədər enerjisi var. Funksiyalar artıq məhdud deyil.</string>
+    <string name="biometric_dialog_secondary_display_toast">Davam etmək üçün planşetdə kimliyinizi doğrulayın</string>
     <string name="default_audio_route_name">Planşet</string>
     <string name="enable_explore_by_touch_warning_message">%1$s Toxunaraq Kəşf Et rejimini aktivləşdirmək istəyir. Toxunaraq Kəşf Et açıldığı zaman, barmağınızın altında nə olduğu haqda olan təsvirləri eşidə və ya görə bilərsiniz və yaplanşetdə insanlarla əlaqəyə keçmək üçün jestlər həyata keçirə bilərsiniz.</string>
     <string name="global_actions">Planşet seçimləri</string>

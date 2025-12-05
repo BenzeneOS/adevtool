@@ -1,5 +1,5 @@
 canonical_name: "twm_tw"
-version: 72000000354
+version: 73000000355
 apns {
   apn {
     name: "\345\217\260\347\201\243\345\244\247\345\223\245\345\244\247(TW Mobile) (Internet)"
@@ -258,6 +258,10 @@ configs {
     bool_value: true
   }
   config {
+    key: "rilext.ims_prefer_apm_normal_ecc_enable"
+    bool_value: true
+  }
+  config {
     key: "support_ims_conference_event_package_bool"
     bool_value: false
   }
@@ -270,12 +274,6 @@ configs {
     int_value: 1
   }
 }
-vendor_configs {
-  client {
-    name: "ril"
-    value: "\n/\n\'rilext.ims_prefer_apm_normal_ecc_enable\022\004true"
-  }
-}
 last_updated {
-  seconds: 1749144090
+  seconds: 1755679306
 }

@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PINa • Hatz-marka</string>
     <string name="fingerprint_unlock_skip_fingerprint">Egin aurrera hatz-marka bidez desblokeatzeko eginbidea erabili gabe</string>
     <string name="fingerprint_unlock_title">Hatz-marka bidez desblokeatzeko eginbidearekin, hatz-marka erabilita desblokea dezakezu tableta. Segurtasuna bermatzeko, pantaila blokeatzeko ordezko metodo bat konfiguratu behar da.</string>
+    <string name="frr_notification_reset_fingerprint_description">Arazoa konpontzen du batzuetan</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Eman hatz-marka bidez desblokeatzeko baimena</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Etengailuan dago hatz-marken sentsorea.
 
@@ -29,8 +30,6 @@ Sakatu botoia leunki, guztiz sakatu gabe."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Hatz-marken sentsorea etengailuan dago. Pantailaren albo batean dagoen botoi laburra da.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Hatzak sentsorea ukitzen duen bakoitzean, mugitu hatza apur bat</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Jarraitu hatza mugitzen hatz-markaren beste eremu batzuk detektatzeko</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Horrela, nahi gabe desblokeatzea ekiditen da. Ezarpena desaktibatuta dagoenean, nahikoa da sentsorea laburki ukitzea gailua desblokeatzeko.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Eduki sentsorea sakatuta gailua desblokeatzeko</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Ukitu sentsorea beste angelu batetik</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Mugitu hatza hatz-markaren beste eremu batzuk detektatzeko</string>
     <string name="security_settings_work_fingerprint_preference_title">Laneko profila hatz-marka bidez desblokeatzea</string>

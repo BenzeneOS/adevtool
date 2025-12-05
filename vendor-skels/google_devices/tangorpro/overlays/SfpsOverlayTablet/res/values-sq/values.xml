@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • Gjurmë gishti</string>
     <string name="fingerprint_unlock_skip_fingerprint">"Vazhdo pa \"Shkyçjen me gjurmën e gishtit\""</string>
     <string name="fingerprint_unlock_title">"Me \"Shkyçjen me gjurmën e gishtit\", mund ta shkyçësh tabletin duke përdorur gjurmën e gishtit. Për siguri, ky opsion kërkon një kyçje rezervë të ekranit."</string>
+    <string name="frr_notification_reset_fingerprint_description">"Ndonjëherë, kjo mund t'i rregullojë problemet"</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">"Lejo \"Shkyçjen me gjurmën e gishtit\""</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Sensori i gjurmës së gishtit është në butonin e \"Energjisë\".
 
@@ -29,8 +30,6 @@ Preke butonin lehtë pa e shtypur."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Sensori i gjurmës së gishtit është në butonin e energjisë. Është butoni më i shkurtër në pjesën anësore të telefonit.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Lëvize pak gishtin çdo herë</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Vazhdo ta lëvizësh dhe kap zonat e tjera të gjurmës</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Kjo bën që shkyçja aksidentale të ketë më pak gjasë të ndodhë. Kur ky cilësim është i çaktivizuar, prekja shkurtimisht e sensorit do ta shkyçë pajisjen.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Mbaj shtypur te sensori për ta shkyçur</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Preke sensorin nga kënd tjetër</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Lëvize gishtin për të kapur zonat e tjera të gjurmës së gishtit</string>
     <string name="security_settings_work_fingerprint_preference_title">"\"Shkyçja me gjurmën e gishtit\" për punën"</string>

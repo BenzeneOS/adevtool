@@ -1,5 +1,5 @@
 canonical_name: "xfinity2_us"
-version: 72000000011
+version: 73000000012
 apns {
   apn {
     name: "Verizon"
@@ -147,6 +147,10 @@ configs {
   config {
     key: "allow_merge_wifi_calls_when_vowifi_off_bool"
     bool_value: false
+  }
+  config {
+    key: "avoid_bad_wifi_bool"
+    bool_value: true
   }
   config {
     key: "boosted_lte_earfcns_string_array"
@@ -1131,6 +1135,10 @@ configs {
     bool_value: false
   }
   config {
+    key: "show_avoid_bad_wifi_bool"
+    bool_value: true
+  }
+  config {
     key: "smdp_server_address_string"
     text_value: "SM-V4-059-PPA-GTM.PR.GO-ESIM.COM"
   }
@@ -1234,5 +1242,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1741940407
+  seconds: 1750835894
 }

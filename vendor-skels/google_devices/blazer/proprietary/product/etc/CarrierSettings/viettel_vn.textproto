@@ -1,5 +1,5 @@
 canonical_name: "viettel_vn"
-version: 71000000001
+version: 73000000001
 apns {
   apn {
     name: "Viettel-wap-gprs 1"

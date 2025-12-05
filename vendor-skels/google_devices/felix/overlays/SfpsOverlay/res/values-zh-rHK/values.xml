@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • 指紋</string>
     <string name="fingerprint_unlock_skip_fingerprint">繼續，不設定「指紋解鎖」</string>
     <string name="fingerprint_unlock_title">設定「指紋解鎖」後，你可以使用指紋解鎖手機。為安全起見，此選項需要設定後備螢幕鎖定方式。</string>
+    <string name="frr_notification_reset_fingerprint_description">這樣做有時可以解決問題</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">允許使用「指紋解鎖」</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"指紋感應器位於開關按鈕上。
 
@@ -29,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">指紋感應器位於開關按鈕上，即手機側邊那個較短的按鈕。</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">每次輕輕移動手指</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">繼續移動，讓系統擷取其他部分的指紋</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">這會避免意外解鎖。如關閉此設定，只要短暫輕觸感應器就會解鎖裝置。</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">輕放在感應器上即可解鎖</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">以其他角度輕觸感應器</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">移動手指，讓系統擷取其他部分的指紋</string>
     <string name="security_settings_work_fingerprint_preference_title">工作設定檔的「指紋解鎖」</string>

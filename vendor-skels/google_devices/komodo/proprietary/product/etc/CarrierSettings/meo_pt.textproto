@@ -1,5 +1,5 @@
 canonical_name: "meo_pt"
-version: 72000000013
+version: 73000000015
 apns {
   apn {
     name: "tmn internet"
@@ -111,8 +111,10 @@ configs {
     }
   }
   config {
-    key: "imssms.sms_over_ims_supported_rats_int_array"
-    int_array {
+    key: "ims_reasoninfo_mapping_string_array"
+    text_array {
+      item: "510|Call completed elsewhere|1014"
+      item: "338|busy everywhere|1017"
     }
   }
   config {
@@ -249,5 +251,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1744165658
+  seconds: 1752617326
 }

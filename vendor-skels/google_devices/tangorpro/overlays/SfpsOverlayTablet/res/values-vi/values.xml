@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">Mã PIN • Vân tay</string>
     <string name="fingerprint_unlock_skip_fingerprint">Tiếp tục mà không thiết lập tính năng Mở khóa bằng vân tay</string>
     <string name="fingerprint_unlock_title">Với tính năng Mở khoá bằng vân tay, bạn có thể mở khoá điện thoại bằng vân tay. Để bảo mật, lựa chọn này yêu cầu bạn phải có một phương thức khoá màn hình dự phòng.</string>
+    <string name="frr_notification_reset_fingerprint_description">Đôi khi, thao tác này có thể khắc phục vấn đề</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Cho phép mở khóa bằng vân tay</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Cảm biến vân tay ở trên nút Nguồn.
 
@@ -29,8 +30,6 @@ Hãy chạm nhẹ vào nút mà không nhấn nút xuống."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Cảm biến vân tay nằm trên nút nguồn. Đó là nút ngắn hơn ở cạnh bên của điện thoại.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Di ngón tay từng chút một</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Di chuyển để ghi các phần khác</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Việc này giúp giảm tình trạng mở khoá ngoài ý muốn. Khi chế độ này đang tắt, bạn chỉ cần chạm nhẹ vào cảm biến để mở khoá.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Đặt ngón tay lên cảm biến để mở khoá</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Chạm vào cảm biến từ một góc khác</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Di chuyển ngón tay để ghi phần vân tay khác</string>
     <string name="security_settings_work_fingerprint_preference_title">Mở khóa bằng vân tay cho công việc</string>

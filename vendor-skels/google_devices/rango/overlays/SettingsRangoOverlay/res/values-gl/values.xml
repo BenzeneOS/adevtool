@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">O fondo da pantalla de bloqueo verase na pantalla interior cando o teléfono estea despregado</string>
+    <string name="doze_always_on_wallpaper_title">Mostrar fondo de pantalla na pantalla interior</string>
+</resources>

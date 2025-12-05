@@ -1,5 +1,5 @@
 canonical_name: "rogers_ca"
-version: 72000000013
+version: 73000000014
 apns {
   apn {
     name: "Rogers Tethering"
@@ -344,7 +344,11 @@ configs {
   }
   config {
     key: "prefer_2g_bool"
-    bool_value: true
+    bool_value: false
+  }
+  config {
+    key: "prefer_3g_visibility_bool"
+    bool_value: false
   }
   config {
     key: "qns.choose_wfc_preferred_transport_in_both_bad_condition_int_array"
@@ -436,5 +440,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1733311807
+  seconds: 1756276462
 }

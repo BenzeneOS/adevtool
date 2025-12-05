@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">ફોન જ્યારે અનફોલ્ડ કરવામાં આવે, ત્યારે ઇનર ડિસ્પ્લે પર લૉક સ્ક્રીનનું વૉલપેપર દેખાય છે</string>
+    <string name="doze_always_on_wallpaper_title">ઇનર ડિસ્પ્લે પર વૉલપેપર બતાવો</string>
+</resources>

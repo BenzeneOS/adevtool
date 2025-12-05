@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • Otisak prsta</string>
     <string name="fingerprint_unlock_skip_fingerprint">Nastavite bez otključavanja otiskom prsta</string>
     <string name="fingerprint_unlock_title">Funkcijom otključavanja otiskom prsta možete otključati tablet pomoću otiska prsta. Iz sigurnosnih razloga ova opcija zahtijeva alternativni način zaključavanja ekrana.</string>
+    <string name="frr_notification_reset_fingerprint_description">Ovo ponekad može riješiti probleme</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Dozvolite otključavanje otiskom prsta</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Senzor za otisak prsta se nalazi na dugmetu za uključivanje.
 
@@ -29,8 +30,6 @@ Lagano dodirnite dugme, a da ga ne pritisnete."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">Senzor za otisak prsta je na dugmetu za uključivanje. To je kraće dugme na bočnoj strani telefona.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Svaki put malo pomaknite prst</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Pomjerajte da snimite ostale dijelove otiska prsta</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Ovo čini slučajno otključavanje manje vjerovatnim. Kada je ova postavka isključena, kratko dodirivanje senzora će otključati uređaj.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Otključavanje zadržavanjem prsta na senzoru</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Dodirnite senzor iz drugog ugla</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Pomjerajte prst da snimite ostale dijelove otiska prsta</string>
     <string name="security_settings_work_fingerprint_preference_title">Otključavanje otiskom prsta za radni profil</string>

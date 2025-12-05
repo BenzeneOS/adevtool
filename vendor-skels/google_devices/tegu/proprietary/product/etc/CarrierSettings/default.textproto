@@ -1,5 +1,5 @@
 canonical_name: "default"
-version: 72000000011
+version: 73000000014
 configs {
   config {
     key: "5g_nr_ssrsrp_thresholds_int_array"
@@ -327,6 +327,12 @@ configs {
     bool_value: false
   }
   config {
+    key: "qns.enable_minimum_guarding_timer_after_connected_apn_string_array"
+    text_array {
+      item: "ims"
+    }
+  }
+  config {
     key: "qns.ho_restrict_time_with_low_rtp_quality_int_array"
     int_array {
       item: 60000
@@ -407,6 +413,10 @@ configs {
     }
   }
   config {
+    key: "qns.support_wfc_recovery_bool"
+    bool_value: false
+  }
+  config {
     key: "qns.video_eutran_rsrp_int_array"
     int_array {
       item: -115
@@ -477,6 +487,10 @@ configs {
     }
   }
   config {
+    key: "qns.wfc_recovery_pcscf_retry_maximum_time_int"
+    int_value: 350000
+  }
+  config {
     key: "qns.xcap_transport_type_int"
     int_value: 2
   }
@@ -538,5 +552,5 @@ vendor_configs {
   }
 }
 last_updated {
-  seconds: 1749144194
+  seconds: 1761794096
 }

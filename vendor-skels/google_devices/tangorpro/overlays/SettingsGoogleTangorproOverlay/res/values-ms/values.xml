@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Dekatkan peranti ini dengan Pixel Tablet anda dan cuba lagi.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Buka bekas fon telinga dan dekatkan bekas itu dengan Pixel Tablet anda, kemudian cuba lagi.</string>
     <string name="sound_dashboard_summary">Kelantangan</string>
-    <string name="sound_dashboard_summary_with_dnd">Kelantangan, Jangan Ganggu</string>
     <string name="sound_settings">Bunyi</string>
 </resources>

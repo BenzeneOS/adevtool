@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • Fingerprint</string>
     <string name="fingerprint_unlock_skip_fingerprint">Continue without Fingerprint Unlock</string>
     <string name="fingerprint_unlock_title">With Fingerprint Unlock, you can unlock your phone using your fingerprint. For security, this option requires a backup screen lock.</string>
+    <string name="frr_notification_reset_fingerprint_description">This can sometimes fix issues</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Allow Fingerprint Unlock</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"The fingerprint sensor is on the power button.
 
@@ -29,8 +30,6 @@ Lightly touch the button without pressing it down."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">The fingerprint sensor is on the power button. It’s the shorter button on the side of the phone.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Move your finger slightly each time</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Keep moving to capture other areas of your fingerprint</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">This makes accidental unlocking less likely. When this setting is turned off, briefly touching the sensor will unlock.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Rest on sensor to unlock</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Touch the sensor from another angle</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Move your finger to capture other areas of your fingerprint</string>
     <string name="security_settings_work_fingerprint_preference_title">Fingerprint Unlock for work</string>

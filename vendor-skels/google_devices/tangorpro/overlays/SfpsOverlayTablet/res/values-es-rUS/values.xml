@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN • Huella dactilar</string>
     <string name="fingerprint_unlock_skip_fingerprint">Continuar sin Desbloqueo con huellas dactilares</string>
     <string name="fingerprint_unlock_title">Con el Desbloqueo con huellas dactilares, puedes desbloquear la tablet con las huellas dactilares. Por razones de seguridad, esta opción requiere un método secundario de bloqueo de pantalla.</string>
+    <string name="frr_notification_reset_fingerprint_description">A veces, esto puede solucionar problemas.</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Permitir Desbloq. con huellas dactilares</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"El sensor de huellas dactilares se encuentra en el botón de encendido.
 
@@ -29,8 +30,6 @@ Toca ligeramente el botón sin presionarlo."</string>
     <string name="security_settings_sfps_enroll_find_sensor_message">El sensor de huellas dactilares está en el botón de encendido. Es el botón más corto del lateral del teléfono.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Mueve un poco el dedo cada vez</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Mueve el dedo para capturar otras áreas</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">De este modo, el desbloqueo accidental es menos probable. Si este parámetro de configuración está desactivado, toca el sensor rápidamente para desbloquear.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Apoya el dedo en el sensor para desbloquear</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Toca otro ángulo del sensor</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Mueve el dedo para capturar otras áreas</string>
     <string name="security_settings_work_fingerprint_preference_title">Desbloqueo con huellas dactilares para el trabajo</string>

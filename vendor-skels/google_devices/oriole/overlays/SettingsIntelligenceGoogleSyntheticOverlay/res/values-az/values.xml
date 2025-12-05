@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">şarj, limit, şarjın optimallaşdırılması, şarj limiti</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">Batareya ömrünü uzatmaq üçün telefon yalnız {batteryLimitLevel}%-ə qədər şarj olacaq. Batareya səviyyəsinin hesabat dəqiqliyini qorumaq üçün telefon hər iki həftədə bir dəfə 100%-ə qədər şarj ediləcək.</string>
-    <string name="charging_optimization_summary_charge_limit">Limit: {batteryLimitLevel}%</string>
+    <string name="charging_optimization_entry_summary_charge_limit">%1$s üçün limit</string>
+    <string name="charging_optimization_footer_message_charge_limit">Batareya ömrünü uzatmaq üçün telefon yalnız %1$s səviyyəsinə qədər şarj ediləcək. Batareya səviyyəsinin hesabat dəqiqliyini qorumaq üçün telefon hər iki həftədə bir dəfə %2$s səviyyəsinə qədər şarj ediləcək.</string>
     <string name="charging_optimization_summary_off">Deaktiv</string>
     <string name="charging_optimization_title">Şarj optimizasiyası</string>
 </resources>

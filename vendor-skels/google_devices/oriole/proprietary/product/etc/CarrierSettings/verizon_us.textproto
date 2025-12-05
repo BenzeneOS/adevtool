@@ -1,5 +1,5 @@
 canonical_name: "verizon_us"
-version: 72000000179
+version: 73000000180
 apns {
   apn {
     name: "Verizon"
@@ -158,6 +158,10 @@ configs {
   config {
     key: "allow_metered_network_for_cert_download_bool"
     bool_value: true
+  }
+  config {
+    key: "avoid_bad_wifi_bool"
+    bool_value: false
   }
   config {
     key: "boosted_lte_earfcns_string_array"
@@ -1366,5 +1370,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1749144090
+  seconds: 1750835894
 }

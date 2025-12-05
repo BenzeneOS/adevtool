@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Nepavyksta pasiekti nuotolinio įrenginio iš jūsų „%1$s“. Pabandykite naudoti planšetinį kompiuterį.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Planšetinio kompiuterio nustatymai nepasiekiami</string>
     <string name="battery_saver_charged_notification_summary">Planšetinis kompiuteris pakankamai įkrautas. Funkcijos neberibojamos.</string>
+    <string name="biometric_dialog_secondary_display_toast">Patvirtinkite savo tapatybę planšetiniame kompiuteryje, kad galėtumėte tęsti</string>
     <string name="default_audio_route_name">Planšetinis kompiuteris</string>
     <string name="enable_explore_by_touch_warning_message">„%1$s“ nori įgalinti naršymą liečiant. Kai naršymas liečiant bus įjungtas, galėsite išgirsti ar peržiūrėti pirštu liečiamų elementų aprašus arba atlikdami gestus naudoti planšetinį kompiuterį.</string>
     <string name="global_actions">Planšetinio kompiuterio parinktys</string>

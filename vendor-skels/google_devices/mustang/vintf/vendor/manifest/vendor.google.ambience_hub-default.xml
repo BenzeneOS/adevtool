@@ -1,0 +1,14 @@
+<!--
+    Input:
+        vendor/google/ambience/hal/init/vendor.google.ambience_hub-default.xml
+-->
+<manifest version="9.0" type="device">
+    <hal format="aidl">
+        <name>vendor.google.ambience_hub</name>
+        <fqname>IAmbienceHubConsumerManager/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.google.ambience_hub</name>
+        <fqname>IAmbienceHubProducerManager/default</fqname>
+    </hal>
+</manifest>

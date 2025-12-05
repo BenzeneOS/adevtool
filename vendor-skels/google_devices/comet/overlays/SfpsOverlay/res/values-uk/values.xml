@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN-код • Відбиток пальця</string>
     <string name="fingerprint_unlock_skip_fingerprint">Продовжити без розблокування відбитком пальця</string>
     <string name="fingerprint_unlock_title">Ви можете розблоковувати телефон відбитком пальця. З міркувань безпеки для цього потрібно налаштувати резервний спосіб блокування екрана.</string>
+    <string name="frr_notification_reset_fingerprint_description">Іноді це допомагає вирішити проблеми</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Дозвольте розблокування відбитком пальця</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Сканер відбитків пальців вбудовано в кнопку живлення.
 
@@ -29,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">Сканер відбитків пальців розташовано на кнопці живлення. Це менша кнопка на бічній панелі телефона.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Щоразу трохи переміщуйте палець</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Продовжуйте пересувати палець, щоб відсканувати інші частини відбитка</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Це зменшить імовірність випадкового розблокування. Якщо це налаштування вимкнено, пристрій розблоковується швидким дотиком до датчика.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Тримати палець на датчику, щоб розблокувати пристрій</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Торкніться сканера під іншим кутом</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Переміщуйте палець, щоб відсканувати інші частини відбитка</string>
     <string name="security_settings_work_fingerprint_preference_title">Розблокування відбитком пальця для роботи</string>

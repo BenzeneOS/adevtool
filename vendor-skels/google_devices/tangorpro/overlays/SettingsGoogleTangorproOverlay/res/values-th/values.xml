@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">ขยับอุปกรณ์นี้เข้าใกล้กับ Pixel Tablet มากขึ้นแล้วลองอีกครั้ง</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">เปิดและขยับกล่องหูฟังเข้าใกล้กับ Pixel Tablet มากขึ้น จากนั้นลองอีกครั้ง</string>
     <string name="sound_dashboard_summary">ระดับเสียง</string>
-    <string name="sound_dashboard_summary_with_dnd">ระดับเสียง ห้ามรบกวน</string>
     <string name="sound_settings">เสียง</string>
 </resources>

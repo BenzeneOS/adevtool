@@ -1,5 +1,5 @@
 canonical_name: "skinny_nz"
-version: 72000000010
+version: 73000000010
 apns {
   apn {
     name: "Data"

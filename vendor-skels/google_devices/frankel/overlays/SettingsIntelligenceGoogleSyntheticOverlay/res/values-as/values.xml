@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">চাৰ্জিং, সীমা, চাৰ্জিং অপ্টিমাইজেশ্বন, চাৰ্জৰ সীমা</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">বেটাৰীৰ জীৱনকাল বৃদ্ধি কৰাত সহায় কৰিবলৈ, আপোনাৰ ফ’নটো কেৱল {batteryLimitLevel}% বেটাৰীলৈ চাৰ্জ হ’ব। বেটাৰী স্তৰৰ ৰিপ’ৰ্টিং সঠিকতা বজাই ৰাখিবলৈ আপোনাৰ ফ’নটোৱে প্ৰতি এসপ্তাহৰ পৰা দুসপ্তাহৰ মূৰে মূৰে এবাৰ ১০০% চাৰ্জ কৰিব।</string>
-    <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}%লৈ সীমিত কৰক</string>
+    <string name="charging_optimization_entry_summary_charge_limit">%1$sত সীমিত কৰক</string>
+    <string name="charging_optimization_footer_message_charge_limit">বেটাৰীৰ জীৱনকাল বৃদ্ধি কৰাত সহায় কৰিবলৈ আপোনাৰ ফ’নটো কেৱল %1$s বেটাৰীলৈ চাৰ্জ হ’ব। বেটাৰী স্তৰৰ ৰিপ’ৰ্টিঙৰ সঠিকতা বজাই ৰাখিবলৈ আপোনাৰ ফ’নটোৱে প্ৰতি এসপ্তাহৰ পৰা দুসপ্তাহৰ মূৰে মূৰে এবাৰ %2$s চাৰ্জ কৰিব।</string>
     <string name="charging_optimization_summary_off">অফ আছে</string>
     <string name="charging_optimization_title">চাৰ্জিং অপ্টিমাইজেশ্বন</string>
 </resources>

@@ -1,5 +1,5 @@
 canonical_name: "free_gp"
-version: 71000000001
+version: 73000000002
 apns {
   apn {
     name: "Free Gp"
@@ -8,6 +8,7 @@ apns {
     type: MMS
     mmsc: "http://mms.free.gp"
     protocol: IPV4V6
+    roaming_protocol: IPV4V6
   }
 }
 configs {
@@ -17,5 +18,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1724979979
+  seconds: 1753205231
 }

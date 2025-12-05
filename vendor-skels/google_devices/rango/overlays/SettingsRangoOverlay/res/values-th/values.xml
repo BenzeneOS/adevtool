@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">วอลเปเปอร์หน้าจอล็อกจะแสดงบนหน้าจอด้านในเมื่อโทรศัพท์กางออก</string>
+    <string name="doze_always_on_wallpaper_title">แสดงวอลเปเปอร์บนหน้าจอด้านใน</string>
+</resources>

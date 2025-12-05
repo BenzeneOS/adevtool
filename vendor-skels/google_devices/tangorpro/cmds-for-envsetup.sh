@@ -1,2 +1,2 @@
-export BUILD_ID_tangorpro="BP3A.251105.013.A1"
+export BUILD_ID_tangorpro="BP4A.251205.006"
 unset PLATFORM_SECURITY_PATCH_tangorpro

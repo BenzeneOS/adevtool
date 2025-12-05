@@ -1,5 +1,5 @@
 canonical_name: "tracfoneverizon_us"
-version: 72000000506
+version: 73000000506
 apns {
   apn {
     name: "Verizon"

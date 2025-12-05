@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Hiện tại, bạn không thể truy cập vào ứng dụng này trên %1$s. Hãy thử trên máy tính bảng.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Không dùng được các chế độ cài đặt của máy tính bảng</string>
     <string name="battery_saver_charged_notification_summary">Máy tính bảng còn đủ pin. Các tính năng không bị hạn chế nữa.</string>
+    <string name="biometric_dialog_secondary_display_toast">Xác minh danh tính của bạn trên máy tính bảng để tiếp tục</string>
     <string name="default_audio_route_name">Máy tính bảng</string>
     <string name="enable_explore_by_touch_warning_message">%1$s muốn bật Khám phá bằng cách chạm. Khi Khám phá bằng cách chạm được bật, bạn có thể nghe hoặc xem mô tả dưới ngón tay bạn hoặc thực hiện cử chỉ để tương tác với máy tính bảng.</string>
     <string name="global_actions">Tùy chọn máy tính bảng</string>

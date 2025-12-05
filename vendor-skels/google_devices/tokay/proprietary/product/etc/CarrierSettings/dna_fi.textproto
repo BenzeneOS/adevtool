@@ -1,5 +1,5 @@
 canonical_name: "dna_fi"
-version: 72000000011
+version: 73000000011
 apns {
   apn {
     name: "Internet"

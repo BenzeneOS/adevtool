@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Dekatkan perangkat ini ke Pixel Tablet dan coba lagi.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Buka casing earbud dan dekatkan ke Pixel Tablet, lalu coba lagi.</string>
     <string name="sound_dashboard_summary">Volume</string>
-    <string name="sound_dashboard_summary_with_dnd">Volume, Jangan Ganggu</string>
     <string name="sound_settings">Suara</string>
 </resources>

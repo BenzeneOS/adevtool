@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">El fons de la pantalla de bloqueig és visible a la pantalla interior quan el telèfon està desplegat</string>
+    <string name="doze_always_on_wallpaper_title">Mostra el fons de pantalla a la pantalla interior</string>
+</resources>

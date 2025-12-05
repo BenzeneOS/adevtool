@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Platziere das Gerät näher an deinem Pixel Tablet und versuch es noch einmal.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Öffne das Kopfhörer-Case und platziere es näher an deinem Pixel Tablet. Versuch es dann noch einmal.</string>
     <string name="sound_dashboard_summary">Lautstärke</string>
-    <string name="sound_dashboard_summary_with_dnd">Lautstärke, Bitte nicht stören</string>
     <string name="sound_settings">Ton</string>
 </resources>

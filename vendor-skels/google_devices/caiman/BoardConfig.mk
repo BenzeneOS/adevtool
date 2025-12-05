@@ -27,8 +27,10 @@ BOARD_KERNEL_CMDLINE += \
     swiotlb=noforce \
     disable_dma32=on \
     sysctl.kernel.sched_pelt_multiplier=4 \
+    rodata=on \
     at24.write_timeout=100 \
     log_buf_len=1024K \
+    android_arch_task_struct_size=512 \
     bootconfig
 
 BOARD_INIT_BOOT_HEADER_VERSION := 4

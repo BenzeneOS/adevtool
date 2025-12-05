@@ -1,0 +1,46 @@
+canonical_name: "ctm_mo"
+version: 73000000001
+apns {
+  apn {
+    name: "CTM Data"
+    value: "ctm-mobile"
+    type: DEFAULT
+    type: SUPL
+  }
+  apn {
+    name: "CTM MMS"
+    value: "ctmmms"
+    type: MMS
+    mmsc: "http://mms.wap.ctm.net:8002"
+    mmsc_proxy: "192.168.99.3"
+    mmsc_proxy_port: "8080"
+  }
+  apn {
+    name: "CTM (Prepaid)"
+    value: "ctmprepaid"
+    type: DEFAULT
+    type: MMS
+    type: SUPL
+    mmsc: "http://mms.wap.ctm.net:8002"
+    mmsc_proxy: "192.168.99.3"
+    mmsc_proxy_port: "8080"
+  }
+  apn {
+    name: "IMS"
+    value: "ims"
+    type: IMS
+    bearer_bitmask: "14|20"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
+}
+configs {
+  config {
+    key: "carrier_volte_available_bool"
+    bool_value: true
+  }
+}
+last_updated {
+  seconds: 1757476363
+}

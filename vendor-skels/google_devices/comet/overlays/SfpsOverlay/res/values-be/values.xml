@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">PIN-код • Адбітак пальца</string>
     <string name="fingerprint_unlock_skip_fingerprint">Працягнуць без разблакіроўкі адбіткам пальца</string>
     <string name="fingerprint_unlock_title">Дзякуючы функцыі разблакіроўкі адбіткам пальца вы можаце разблакіраваць тэлефон з дапамогай адбітка пальца. У мэтах бяспекі неабходна наладзіць дадатковы спосаб блакіроўкі экрана.</string>
+    <string name="frr_notification_reset_fingerprint_description">У некаторых выпадках гэта дапамагае вырашыць праблему</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Дазволіць разблакіроўку адбіткам</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Сканер адбіткаў пальцаў знаходзіцца на кнопке сілкавання.
 
@@ -29,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">Сканер адбіткаў пальцаў знаходзіцца на кнопцы сілкавання. Гэта кароткая кнопка на баку вашага тэлефона.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">Кожны раз злёгку паварочвайце палец</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">Працягвайце рухаць пальцам, каб зафіксаваць іншыя ўчасткі яго адбітка</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">Гэта налада зніжае імавернасць выпадковай разблакіроўкі. Калі яна выключана, прыладу можна разблакіраваць нават хуткім націсканнем на датчык.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">Разблакіроўка доўгім націсканнем на датчык</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">Дакраніцеся да датчыка пад іншым вуглом</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">Рухайце пальцам, каб зафіксаваць іншыя ўчасткі яго адбітка</string>
     <string name="security_settings_work_fingerprint_preference_title">Разблакіроўка адбіткам пальца для працы</string>

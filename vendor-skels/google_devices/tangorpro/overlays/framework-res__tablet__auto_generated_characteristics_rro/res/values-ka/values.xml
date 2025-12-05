@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">ამჟამად ამ აპზე თქვენი %1$s-დან წვდომა შეუძლებელია. ცადეთ ტაბლეტიდან.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">ტაბლეტის პარამეტრები მიუწვდომელია</string>
     <string name="battery_saver_charged_notification_summary">ტაბლეტი საკმარისად არის დატენილი. ფუნქციები შეზღუდული აღარ არის.</string>
+    <string name="biometric_dialog_secondary_display_toast">დაადასტურეთ, რომ თქვენ იყენებთ თქვენს ტაბლეტს</string>
     <string name="default_audio_route_name">ტაბლეტი</string>
     <string name="enable_explore_by_touch_warning_message">%1$s-ს სურს „შეხებით შესწავლის“ რეჟიმის ჩრთვა. ეს ტელეფონის ჟესტებით მართვისა და იმ ელემენტების აღწერის მოსმენის შესაძლებლობას მოგცემთ, რომელსაც შეეხებით.</string>
     <string name="global_actions">ტაბლეტის პარამეტრები</string>

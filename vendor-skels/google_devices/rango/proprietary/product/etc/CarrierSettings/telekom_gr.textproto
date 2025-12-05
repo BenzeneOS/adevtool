@@ -1,5 +1,5 @@
 canonical_name: "telekom_gr"
-version: 71000000004
+version: 73000000007
 apns {
   apn {
     name: "Cosmote Internet"
@@ -74,6 +74,10 @@ configs {
     bool_value: true
   }
   config {
+    key: "ignore_rtt_mode_setting_bool"
+    bool_value: true
+  }
+  config {
     key: "ims.ims_user_agent_string"
     text_value: "#MANUFACTURE# - #MODEL# - #BUILD#"
   }
@@ -83,7 +87,7 @@ configs {
   }
   config {
     key: "imsemergency.emergency_registration_timer_millis_int"
-    int_value: 3000
+    int_value: 5000
   }
   config {
     key: "imsss.xcap_over_ut_supported_rats_int_array"
@@ -113,7 +117,23 @@ configs {
     }
   }
   config {
+    key: "imsvoice.mo_call_request_timeout_millis_int"
+    int_value: 0
+  }
+  config {
     key: "prefer_2g_bool"
+    bool_value: true
+  }
+  config {
+    key: "rtt_downgrade_supported_bool"
+    bool_value: true
+  }
+  config {
+    key: "rtt_supported_bool"
+    bool_value: true
+  }
+  config {
+    key: "rtt_supported_while_roaming_bool"
     bool_value: true
   }
   config {
@@ -130,5 +150,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1740560798
+  seconds: 1756276532
 }

@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Færðu þetta tæki nær Pixel-spjaldtölvunni og reyndu aftur.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Opnaðu heyrnartólahulstrið, færðu það nær Pixel-spjaldtölvunni og reyndu aftur.</string>
     <string name="sound_dashboard_summary">Hljóðstyrkur</string>
-    <string name="sound_dashboard_summary_with_dnd">Hljóðstyrkur, „Ónáðið ekki“</string>
     <string name="sound_settings">Hljóð</string>
 </resources>

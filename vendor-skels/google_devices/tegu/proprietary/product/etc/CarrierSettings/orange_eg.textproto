@@ -1,0 +1,31 @@
+canonical_name: "orange_eg"
+version: 73000000001
+apns {
+  apn {
+    name: "Mobinil Web"
+    value: "mobinilweb"
+    type: DEFAULT
+    type: SUPL
+  }
+  apn {
+    name: "Mobinil WAP"
+    value: "mobinilwap"
+    type: DEFAULT
+    type: SUPL
+    proxy: "62.241.155.45"
+    port: "8080"
+  }
+  apn {
+    name: "Mobinil MMS"
+    value: "mobinilmms"
+    type: MMS
+    mmsc: "http://10.7.13.24:8002"
+    mmsc_proxy: "62.241.155.45"
+    mmsc_proxy_port: "8080"
+  }
+}
+configs {
+}
+last_updated {
+  seconds: 1756887199
+}

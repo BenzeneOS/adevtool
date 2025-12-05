@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Đưa thiết bị này lại gần Pixel Tablet hơn rồi thử lại.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Mở hộp đựng tai nghe, đưa lại gần Pixel Tablet rồi thử lại.</string>
     <string name="sound_dashboard_summary">Âm lượng</string>
-    <string name="sound_dashboard_summary_with_dnd">Âm lượng, Không làm phiền</string>
     <string name="sound_settings">Âm thanh</string>
 </resources>

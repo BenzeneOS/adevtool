@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">പിൻ • ഫിംഗർപ്രിന്റ്</string>
     <string name="fingerprint_unlock_skip_fingerprint">ഫിംഗർപ്രിന്റ് അൺലോക്ക് ഇല്ലാതെ തുടരുക</string>
     <string name="fingerprint_unlock_title">ഫിംഗർപ്രിന്റ് അൺലോക്ക് ഉണ്ടെങ്കിൽ, നിങ്ങളുടെ ഫിംഗർപ്രിന്റ് ഉപയോഗിച്ച് ഫോൺ അൺലോക്ക് ചെയ്യാം. സുരക്ഷയ്‌ക്കായി, ഈ ഓപ്ഷനൊരു ബാക്കപ്പ് സ്ക്രീൻ ലോക്ക് ആവശ്യമാണ്.</string>
+    <string name="frr_notification_reset_fingerprint_description">ഇത് ചിലപ്പോൾ പ്രശ്‌നങ്ങൾ പരിഹരിച്ചേക്കാം</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">ഫിംഗർപ്രിന്റ് അൺലോക്ക് അനുവദിക്കൂ</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"ഫിംഗർപ്രിന്റ് സെൻസർ പവർ ബട്ടണിലാണ്.
 
@@ -29,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">പവർ ബട്ടണിലാണ് ഫിംഗർപ്രിന്റ് സെൻസർ ഉള്ളത്. ഇതാണ് ഫോണിന്റെ വശത്തുള്ള ചെറിയ ബട്ടൺ.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">ഓരോ തവണയും വിരൽ അൽപം നീക്കുക</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">ഫിംഗർപ്രിന്റിന്റെ മറ്റ് ഭാഗങ്ങൾ എടുക്കാൻ തുടരുക</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">ഇത്, അബദ്ധവശാൽ അൺലോക്ക് ആകുന്നതിനുള്ള സാധ്യത കുറയ്ക്കുന്നു. ഈ ക്രമീകരണം ഓഫായിരിക്കുമ്പോൾ, സെൻസറിൽ ഹ്രസ്വമായി സ്പർശിക്കുന്നത് ഉപകരണം അൺലോക്ക് ആക്കും.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">അൺലോക്ക് ചെയ്യാൻ സെൻസറിൽ അമർത്തിപ്പിടിക്കുക</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">മറ്റൊരു ആംഗിളിൽ നിന്ന് സെൻസർ സ്‌പർശിക്കുക</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">ഫിംഗർപ്രിന്റിന്റെ മറ്റ് ഭാഗങ്ങൾ എടുക്കാൻ വിരൽ നീക്കുക</string>
     <string name="security_settings_work_fingerprint_preference_title">ഔദ്യോഗിക പ്രൊഫൈലിനുള്ള ഫിംഗർപ്രിന്റ് അൺലോക്ക്</string>

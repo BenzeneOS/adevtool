@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">დატენვა, ლიმიტი, დატენვის ოპტიმიზაცია, დატენვის ლიმიტი</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">ბატარეის ხანგრძლივობის გაზრდის ხელშეწყობის მიზნით თქვენი ტელეფონი მხოლოდ {batteryLimitLevel}%-მდე დაიტენება. ბატარეის დონის შესახებ ანგარიშის სიზუსტის შენარჩუნების მიზნით თქვენი ტელეფონი ყოველ ორ კვირაში ერთხელ 100%-მდე დაიტენება.</string>
-    <string name="charging_optimization_summary_charge_limit">ლიმიტი დაყენებულია {batteryLimitLevel}%-ზე</string>
+    <string name="charging_optimization_entry_summary_charge_limit">შეზღუდვის დონე: %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">ბატარეის ხანგრძლივობის გაზრდის ხელშეწყობისთვის თქვენი ტელეფონი მხოლოდ %1$s-მდე დაიტენება. ბატარეის დონის შესახებ ინფორმაციის სიზუსტის შენარჩუნების მიზნით, თქვენი ტელეფონი ყოველ ერთ-ორ კვირაში ერთხელ %2$s-მდე დაიტენება.</string>
     <string name="charging_optimization_summary_off">გამორთულია</string>
     <string name="charging_optimization_title">დატენის ოპტიმიზაცია</string>
 </resources>

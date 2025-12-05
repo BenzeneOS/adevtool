@@ -208,11 +208,11 @@ dex_import {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.google.edgetpu_app_service-V4-ndk.system_ext",
+    name: "com.google.edgetpu_app_service-V6-ndk.system_ext",
     owner: "google_devices",
-    stem: "com.google.edgetpu_app_service-V4-ndk",
+    stem: "com.google.edgetpu_app_service-V6-ndk",
     target: {
-        android_arm64: { srcs: [ "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so" ] }
+        android_arm64: { srcs: [ "system_ext/lib64/com.google.edgetpu_app_service-V6-ndk.so" ] }
     },
     compile_multilib: "64",
     check_elf_files: false,
@@ -316,11 +316,11 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.google.whitechapel.audio.extension-V6-ndk.system_ext",
+    name: "vendor.google.whitechapel.audio.extension-V7-ndk.system_ext",
     owner: "google_devices",
-    stem: "vendor.google.whitechapel.audio.extension-V6-ndk",
+    stem: "vendor.google.whitechapel.audio.extension-V7-ndk",
     target: {
-        android_arm64: { srcs: [ "system_ext/lib64/vendor.google.whitechapel.audio.extension-V6-ndk.so" ] }
+        android_arm64: { srcs: [ "system_ext/lib64/vendor.google.whitechapel.audio.extension-V7-ndk.so" ] }
     },
     compile_multilib: "64",
     check_elf_files: false,
@@ -406,6 +406,7 @@ android_app_import {
     name: "PixelDisplayService",
     owner: "google_devices",
     apk: "system_ext/priv-app/PixelDisplayService/PixelDisplayService.apk",
+    optional_uses_libs: [ "androidx.window.extensions", "androidx.window.sidecar" ],
     dex_preopt: { enabled: true },
     certificate: "platform",
     privileged: true,
@@ -416,16 +417,6 @@ android_app_import {
     name: "PixelImsMediaService",
     owner: "google_devices",
     apk: "system_ext/priv-app/PixelImsMediaService/PixelImsMediaService.apk",
-    dex_preopt: { enabled: true },
-    certificate: "platform",
-    privileged: true,
-    system_ext_specific: true,
-}
-
-android_app_import {
-    name: "PixelIwlan",
-    owner: "google_devices",
-    apk: "system_ext/priv-app/PixelIwlan/PixelIwlan.apk",
     dex_preopt: { enabled: true },
     certificate: "platform",
     privileged: true,
@@ -883,9 +874,9 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.dumpstate-service",
+    name: "android.hardware.dumpstate.3-service",
     owner: "google_devices",
-    srcs: [ "vendor/bin/hw/android.hardware.dumpstate-service" ],
+    srcs: [ "vendor/bin/hw/android.hardware.dumpstate.3-service" ],
     relative_install_path: "hw",
     check_elf_files: false,
     prefer: true,
@@ -1749,6 +1740,15 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "structural_health",
+    owner: "google_devices",
+    src: "vendor/etc/chre/structural_health.so",
+    filename_from_src: true,
+    sub_dir: "chre",
+    soc_specific: true,
+}
+
+prebuilt_etc {
     name: "system_signal_hub",
     owner: "google_devices",
     src: "vendor/etc/chre/system_signal_hub.so",
@@ -1941,9 +1941,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.google.edgetpu_app_service-V4-ndk",
+    name: "com.google.edgetpu_app_service-V6-ndk",
     owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so" ] } },
+    target: { android_arm64: { srcs: [ "vendor/lib64/com.google.edgetpu_app_service-V6-ndk.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -2006,10 +2006,10 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.google.hardware.pixel.display-V16-ndk",
+    name: "com.google.hardware.pixel.display-V17-ndk",
     owner: "google_devices",
     target: {
-        android_arm64: { srcs: [ "vendor/lib64/com.google.hardware.pixel.display-V16-ndk.so" ] }
+        android_arm64: { srcs: [ "vendor/lib64/com.google.hardware.pixel.display-V17-ndk.so" ] }
     },
     compile_multilib: "64",
     check_elf_files: false,
@@ -2230,6 +2230,17 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "lib_vendor_gsc_atoms",
+    owner: "google_devices",
+    target: { android_arm64: { srcs: [ "vendor/lib64/lib_vendor_gsc_atoms.so" ] } },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libacryl_hdr_plugin",
     owner: "google_devices",
     target: { android_arm64: { srcs: [ "vendor/lib64/libacryl_hdr_plugin.so" ] } },
@@ -2244,6 +2255,17 @@ cc_prebuilt_library_shared {
     name: "libacryl",
     owner: "google_devices",
     target: { android_arm64: { srcs: [ "vendor/lib64/libacryl.so" ] } },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libalertv3",
+    owner: "google_devices",
+    target: { android_arm64: { srcs: [ "vendor/lib64/libalertv3.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3702,9 +3724,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.google.bluetooth_ext-V3-ndk",
+    name: "vendor.google.bluetooth_ext-V4-ndk",
     owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/vendor.google.bluetooth_ext-V3-ndk.so" ] } },
+    target: { android_arm64: { srcs: [ "vendor/lib64/vendor.google.bluetooth_ext-V4-ndk.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3724,9 +3746,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.google.google_battery-V4-ndk",
+    name: "vendor.google.google_battery-V5-ndk",
     owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/vendor.google.google_battery-V4-ndk.so" ] } },
+    target: { android_arm64: { srcs: [ "vendor/lib64/vendor.google.google_battery-V5-ndk.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3738,6 +3760,17 @@ cc_prebuilt_library_shared {
     name: "vendor.google.radio_ext-V1-ndk",
     owner: "google_devices",
     target: { android_arm64: { srcs: [ "vendor/lib64/vendor.google.radio_ext-V1-ndk.so" ] } },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.google.whitechapel.audio_flags",
+    owner: "google_devices",
+    target: { android_arm64: { srcs: [ "vendor/lib64/vendor.google.whitechapel.audio_flags.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3772,10 +3805,10 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.google.whitechapel.audio.extension-V6-ndk",
+    name: "vendor.google.whitechapel.audio.extension-V7-ndk",
     owner: "google_devices",
     target: {
-        android_arm64: { srcs: [ "vendor/lib64/vendor.google.whitechapel.audio.extension-V6-ndk.so" ] }
+        android_arm64: { srcs: [ "vendor/lib64/vendor.google.whitechapel.audio.extension-V7-ndk.so" ] }
     },
     compile_multilib: "64",
     check_elf_files: false,
@@ -3867,24 +3900,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.google.whitechapel.audio.hal.utils.soundcardstate",
+    name: "vendor.google.wireless_charger-V5-ndk",
     owner: "google_devices",
-    target: {
-        android_arm64: {
-            srcs: [ "vendor/lib64/vendor.google.whitechapel.audio.hal.utils.soundcardstate.so" ]
-        }
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.google.wireless_charger-V4-ndk",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/vendor.google.wireless_charger-V4-ndk.so" ] } },
+    target: { android_arm64: { srcs: [ "vendor/lib64/vendor.google.wireless_charger-V5-ndk.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,

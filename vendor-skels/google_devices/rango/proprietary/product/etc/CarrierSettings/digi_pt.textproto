@@ -1,5 +1,5 @@
 canonical_name: "digi_pt"
-version: 71000000003
+version: 73000000003
 apns {
   apn {
     name: "Digi PT"
@@ -50,5 +50,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1746618838
+  seconds: 1746619468
 }

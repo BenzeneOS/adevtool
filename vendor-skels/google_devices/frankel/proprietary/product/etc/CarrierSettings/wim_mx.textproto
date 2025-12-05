@@ -1,21 +1,21 @@
 canonical_name: "wim_mx"
-version: 71000000007
+version: 73000000012
 apns {
   apn {
-    name: "WIM Internet"
-    value: "web.wim.mx"
+    name: "INTERNET_5G"
+    value: "web.5g.wim.mx"
     type: DEFAULT
     protocol: IPV4V6
     roaming_protocol: IPV4V6
     user_editable: false
   }
   apn {
-    name: "Modem"
+    name: "modem"
     value: "modem.wim.mx"
     type: DUN
     protocol: IPV4V6
     roaming_protocol: IPV4V6
-    user_visible: false
+    user_editable: false
   }
   apn {
     name: "IMS"
@@ -45,12 +45,20 @@ configs {
     bool_value: true
   }
   config {
+    key: "carrier_supports_ss_over_ut_bool"
+    bool_value: false
+  }
+  config {
     key: "carrier_volte_available_bool"
     bool_value: true
   }
   config {
     key: "carrier_wfc_ims_available_bool"
     bool_value: true
+  }
+  config {
+    key: "editable_voicemail_number_setting_bool"
+    bool_value: false
   }
   config {
     key: "editable_wfc_mode_bool"
@@ -201,8 +209,8 @@ configs {
   config {
     key: "qns.idle_eutran_rsrp_int_array"
     int_array {
-      item: -110
-      item: -115
+      item: -90
+      item: -120
     }
   }
   config {
@@ -224,8 +232,8 @@ configs {
   config {
     key: "qns.voice_eutran_rsrp_int_array"
     int_array {
-      item: -110
-      item: -115
+      item: -90
+      item: -120
     }
   }
   config {
@@ -242,5 +250,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1744682525
+  seconds: 1753863668
 }

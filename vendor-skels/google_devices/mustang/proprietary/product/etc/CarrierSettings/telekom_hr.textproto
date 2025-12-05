@@ -1,5 +1,5 @@
 canonical_name: "telekom_hr"
-version: 71000000004
+version: 73000000007
 apns {
   apn {
     name: "Internet"
@@ -57,6 +57,10 @@ configs {
     bool_value: true
   }
   config {
+    key: "ignore_rtt_mode_setting_bool"
+    bool_value: true
+  }
+  config {
     key: "ims.ims_user_agent_string"
     text_value: "#MANUFACTURE# - #MODEL# - #BUILD#"
   }
@@ -86,7 +90,7 @@ configs {
   }
   config {
     key: "imsemergency.emergency_registration_timer_millis_int"
-    int_value: 3000
+    int_value: 5000
   }
   config {
     key: "imsss.ut_iptype_roaming_int"
@@ -157,6 +161,10 @@ configs {
     }
   }
   config {
+    key: "imsvoice.mo_call_request_timeout_millis_int"
+    int_value: 0
+  }
+  config {
     key: "mmi_two_digit_number_pattern_string_array"
     text_array {
       item: "92"
@@ -165,6 +173,18 @@ configs {
       item: "95"
       item: "96"
     }
+  }
+  config {
+    key: "rtt_downgrade_supported_bool"
+    bool_value: true
+  }
+  config {
+    key: "rtt_supported_bool"
+    bool_value: true
+  }
+  config {
+    key: "rtt_supported_while_roaming_bool"
+    bool_value: true
   }
   config {
     key: "show_4g_for_lte_data_icon_bool"
@@ -176,5 +196,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1739493502
+  seconds: 1756276532
 }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">заряджання, ліміт, оптимізація заряджання, ліміт заряду</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">Щоб продовжити строк служби акумулятора, телефон заряджатиметься лише до {batteryLimitLevel}%. Щоб точно відображати дані про рівень заряду акумулятора, телефон заряджатиметься до 100% раз на один-два тижні.</string>
-    <string name="charging_optimization_summary_charge_limit">Обмежено до {batteryLimitLevel}%</string>
+    <string name="charging_optimization_entry_summary_charge_limit">Обмежити до %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">Щоб продовжити строк служби акумулятора, телефон заряджатиметься лише до %1$s. Щоб точно відображати дані про рівень заряду акумулятора, телефон заряджатиметься до %2$s раз на один-два тижні.</string>
     <string name="charging_optimization_summary_off">Вимкнено</string>
     <string name="charging_optimization_title">Оптимізація заряджання</string>
 </resources>

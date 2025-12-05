@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">Sogeza kifaa hiki karibu na Pixel Tablet yako kisha ujaribu tena.</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">Fungua kipochi cha vifaa vya sauti vya masikioni na ukisogeze karibu na Pixel Tablet yako, kisha ujaribu tena.</string>
     <string name="sound_dashboard_summary">Kiwango cha sauti</string>
-    <string name="sound_dashboard_summary_with_dnd">Kiwango cha sauti, Usinisumbue</string>
     <string name="sound_settings">Mlio</string>
 </resources>

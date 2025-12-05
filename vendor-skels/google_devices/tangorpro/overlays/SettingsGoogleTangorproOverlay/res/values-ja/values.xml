@@ -5,6 +5,5 @@
     <string name="fast_pair_device_not_found_other_device_description">このデバイスを Google Pixel Tablet に近づけて、もう一度お試しください。</string>
     <string name="fast_pair_device_not_found_tws_headphone_description">イヤホンケースを開けて Google Pixel Tablet に近づけてから、もう一度お試しください。</string>
     <string name="sound_dashboard_summary">音量</string>
-    <string name="sound_dashboard_summary_with_dnd">音量、サイレント モード</string>
     <string name="sound_settings">音</string>
 </resources>

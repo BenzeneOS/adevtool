@@ -8,6 +8,7 @@
     <string name="fingerprint_unlock_set_unlock_pin">رقم التعريف الشخصي • بصمة الإصبع</string>
     <string name="fingerprint_unlock_skip_fingerprint">"المتابعة بدون إعداد ميزة \"فتح الجهاز ببصمة الإصبع\""</string>
     <string name="fingerprint_unlock_title">"باستخدام ميزة \"فتح الجهاز ببصمة الإصبع\"، يمكنك فتح قفل جهازك اللوحي باستخدام بصمة إصبعك. ولأغراض تتعلق بالأمان، يتطلب هذا الخيار استخدام قفل شاشة احتياطي."</string>
+    <string name="frr_notification_reset_fingerprint_description">يمكن أن يحلّ هذا الإجراء بعض المشاكل</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">"السماح بميزة \"فتح الجهاز ببصمة الإصبع\""</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"تتوفّر أداة استشعار بصمة الإصبع على زر التشغيل.
 
@@ -19,7 +20,7 @@
     <string name="security_settings_fingerprint_enroll_touch_dialog_message">توجد أداة استشعار بصمة الإصبع على زر التشغيل.</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_title">المس أداة الاستشعار بدلاً من ذلك</string>
     <string name="security_settings_fingerprint_preference_title">فتح الجهاز ببصمة الإصبع</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">"تنشئ ميزة \"فتح الجهاز ببصمة الإصبع\" نموذجًا فريدًا من بصمة إصبعك لإثبات هويتك. لإنشاء نموذج بصمة الإصبع هذا أثناء عملية الإعداد، عليك تسجيل صور لبصمة إصبعك من جهات مختلفة."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">"تنشئ ميزة \"فتح الجهاز ببصمة الإصبع\" نموذجًا فريدًا من بصمة إصبعك لإثبات هويتك. ولإنشاء هذا النموذج أثناء عملية الإعداد، عليك تسجيل صور لبصمة إصبعك من جهات مختلفة."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">"عندما تستخدم ميزة \"فتح الجهاز ببصمة الإصبع\"، يتم استخدام الصور لتعديل نموذج بصمة إصبعك. إنّ الصور المستخدمة لإنشاء نموذج بصمة الإصبع لا يتم مطلقًا تخزينها، بل يتم تخزين النموذج بأمان على جهازك اللوحي ولا يتم نقله خارج الجهاز مطلقًا. تتم كل عمليات المعالجة بأمان على الجهاز اللوحي."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">"يمكنك حذف نموذج بصمة الإصبع أو إيقاف ميزة \"فتح الجهاز ببصمة الإصبع\" في أي وقت من الإعدادات. يتم تخزين نماذج بصمات الأصابع على جهازك اللوحي حتى تحذفها."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">"تنشئ ميزة \"فتح الجهاز ببصمة الإصبع\" نموذجًا فريدًا من بصمة إصبع طفلك لإثبات هويته. لإنشاء نموذج بصمة الإصبع هذا أثناء الإعداد، على طفلك تسجيل صور لبصمة إصبعه من جهات مختلفة."</string>
@@ -29,8 +30,6 @@
     <string name="security_settings_sfps_enroll_find_sensor_message">إنّ أداة استشعار بصمة الإصبع مدمَجة في زر التشغيل، وهو الزر الأقصر في جانب الهاتف.</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">حرِّك إصبعك قليلاً في كل مرة</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">واصل تحريكه لتسجيل بصمته بالكامل</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_desc">يؤدي هذا الإعداد إلى تقليل احتمال فتح قفل الشاشة بدون قصد. وفي حال عدم تفعيله، يُمكن فتح قفل هاتفك عبر لمس أداة الاستشعار سريعًا.</string>
-    <string name="security_settings_sfps_enroll_finish_rest_to_unlock_title">واصل الضغط على أداة الاستشعار لفتح القفل.</string>
     <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay">المس الأداة من زاوية أخرى</string>
     <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay">حرِّك إصبعك لتسجيل بصمته كاملة</string>
     <string name="security_settings_work_fingerprint_preference_title">فتح قفل ملف العمل ببصمة الإصبع</string>

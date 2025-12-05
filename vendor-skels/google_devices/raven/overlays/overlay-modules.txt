@@ -3,6 +3,7 @@ DeviceAsWebcamRaven
 EuiccSupportPixelOverlay
 GoogleConfigOverlay
 GooglePermissionControllerOverlay
+GooglePermissionControllerSafetyCenterOverlay
 ManagedProvisioningPixelOverlay
 NetworkStackOverlay
 ONS__raven__auto_generated_rro_vendor

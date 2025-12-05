@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doze_always_on_wallpaper_description">Pozadina zaključanog ekrana je vidljiva na unutrašnjem ekranu kada je telefon otvoren</string>
+    <string name="doze_always_on_wallpaper_title">Prikažite pozadinu na unutrašnjem ekranu</string>
+</resources>

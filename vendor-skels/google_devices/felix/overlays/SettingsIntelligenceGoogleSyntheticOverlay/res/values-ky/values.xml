@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">кубаттоо, чек, кубаттоону оптималдаштыруу, кубаттоо чеги</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">Батареяны пайдалануу мөөнөтүн узартуу үчүн телефонуңуздун батареясы {batteryLimitLevel}% чейин гана кубатталат. Батареянын деңгээли так көрсөтүлүшү үчүн, түзмөк 1–2 аптада бир жолу 100% чейин кубатталып турат.</string>
-    <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% менен чектөө</string>
+    <string name="charging_optimization_entry_summary_charge_limit">%1$s чейин</string>
+    <string name="charging_optimization_footer_message_charge_limit">Батареяны пайдалануу мөөнөтүн узартуу үчүн телефонуңуздун батареясы %1$s чейин гана кубатталат. Батареянын деңгээли так көрсөтүлүшү үчүн, түзмөк 1–2 аптада бир жолу %2$s чейин кубатталып турат.</string>
     <string name="charging_optimization_summary_off">Өчүк</string>
     <string name="charging_optimization_title">Кубаттоону оптималдаштыруу</string>
 </resources>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">opladning, grænse, optimering af opladning, opladningsgrænse</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">For at hjælpe med at forlænge batteritiden oplades din telefon kun til {batteryLimitLevel} %. Én gang hver eller hver anden uge oplades din telefon til 100 % for at sikre, at batteriniveauet fortsat rapporteres korrekt.</string>
-    <string name="charging_optimization_summary_charge_limit">Begræns til {batteryLimitLevel} %</string>
+    <string name="charging_optimization_entry_summary_charge_limit">Begræns til %1$s</string>
+    <string name="charging_optimization_footer_message_charge_limit">For at hjælpe med at forlænge batteritiden oplades din telefon kun til %1$s. Én gang hver eller hver anden uge oplades din telefon til %2$s for at sikre, at batteriniveauet fortsat rapporteres korrekt.</string>
     <string name="charging_optimization_summary_off">Deaktiveret</string>
     <string name="charging_optimization_title">Optimering af opladning</string>
 </resources>

@@ -1,5 +1,5 @@
 canonical_name: "no_sim"
-version: 72000000002
+version: 73000000003
 configs {
   config {
     key: "carrier_cross_sim_ims_available_bool"
@@ -139,13 +139,6 @@ configs {
   config {
     key: "imsss.ut_server_based_services_int_array"
     int_array {
-      item: 1
-      item: 2
-      item: 3
-      item: 4
-      item: 5
-      item: 6
-      item: 7
       item: 12
       item: 17
       item: 18
@@ -490,5 +483,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1739962029
+  seconds: 1752062604
 }

@@ -1,5 +1,5 @@
 canonical_name: "4ka_sk"
-version: 72000000003
+version: 73000000004
 apns {
   apn {
     name: "4ka Internet"
@@ -17,10 +17,22 @@ apns {
     roaming_protocol: IPV4V6
     user_visible: false
   }
+  apn {
+    name: "XCAP"
+    value: "xcap"
+    type: XCAP
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
 }
 configs {
   config {
     key: "carrier_default_wfc_ims_enabled_bool"
+    bool_value: true
+  }
+  config {
+    key: "carrier_supports_ss_over_ut_bool"
     bool_value: true
   }
   config {
@@ -59,5 +71,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1745372870
+  seconds: 1755679356
 }

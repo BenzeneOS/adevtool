@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Այս գործառույթը հասանելի չէ %1$s սարքում։ Օգտագործեք ձեր պլանշետը։</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Պլանշետի կարգավորումներն անհասանելի են</string>
     <string name="battery_saver_charged_notification_summary">Պլանշետի լիցքը բավարար է։ Գործառույթներն այլևս չեն սահմանափակվում։</string>
+    <string name="biometric_dialog_secondary_display_toast">Շարունակելու համար պլանշետում հաստատեք ձեր ինքնությունը</string>
     <string name="default_audio_route_name">Պլանշետ</string>
     <string name="enable_explore_by_touch_warning_message">%1$s-ը ցանկանում է միացնել «Հետազոտում հպման միջոցով» ռեժիմը: Երբ միացված է «Հետազոտում հպման միջոցով» ռեժիմը, դուք կարող եք լսել կամ տեսնել նկարագրությունը, թե ինչ է ձեր մատի տակ, կամ կատարել ժեստեր`  պլանշետի հետ փոխգործակցելու համար:</string>
     <string name="global_actions">Պլանշետի ընտրանքները</string>

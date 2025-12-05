@@ -11,6 +11,7 @@
         <item>"2.0"</item>
     </array>
     <bool name="config_adaptive_touch_sensitivity_enabled">true</bool>
+    <bool name="config_hspa_data_distinguishable">true</bool>
     <bool name="config_letterboxIsReachabilityEducationEnabled">true</bool>
     <bool name="config_letterboxIsRestartDialogEnabled">true</bool>
     <bool name="config_minmode_enabled">true</bool>

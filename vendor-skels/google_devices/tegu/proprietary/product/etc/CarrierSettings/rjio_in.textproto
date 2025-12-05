@@ -1,5 +1,5 @@
 canonical_name: "rjio_in"
-version: 72000000003
+version: 73000000006
 apns {
   apn {
     name: "Jio 4G"
@@ -75,7 +75,7 @@ configs {
   }
   config {
     key: "carrier_ussd_method_int"
-    int_value: 2
+    int_value: 3
   }
   config {
     key: "carrier_volte_available_bool"
@@ -267,6 +267,10 @@ configs {
     int_value: 11
   }
   config {
+    key: "iwlan.ike_sa_transforms_reorder_bool"
+    bool_value: false
+  }
+  config {
     key: "iwlan.mcc_mncs_string_array"
     text_array {
       item: "405-840"
@@ -325,14 +329,10 @@ configs {
     bool_value: true
   }
   config {
-    key: "vonr_on_by_default_bool"
-    bool_value: false
-  }
-  config {
     key: "wfc_spn_format_idx_int"
     int_value: 1
   }
 }
 last_updated {
-  seconds: 1720605697
+  seconds: 1755679356
 }

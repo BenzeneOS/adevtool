@@ -8,6 +8,7 @@
     <string name="app_streaming_blocked_message_for_settings_dialog">Je hebt hier geen toegang toe op je %1$s. Probeer het in plaats daarvan op je tablet.</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Tabletinstellingen niet beschikbaar</string>
     <string name="battery_saver_charged_notification_summary">Tablet is voldoende opgeladen. Functies worden niet meer beperkt.</string>
+    <string name="biometric_dialog_secondary_display_toast">Laat op je tablet verifiëren dat jij het bent om door te gaan</string>
     <string name="default_audio_route_name">Tablet</string>
     <string name="enable_explore_by_touch_warning_message">%1$s wil Verkennen via aanraking aanzetten. Als Verkennen via aanraking aanstaat, kun je beschrijvingen beluisteren of bekijken van wat er onder je vinger staat of aanraakbewerkingen uitvoeren op de tablet.</string>
     <string name="global_actions">Tabletopties</string>
