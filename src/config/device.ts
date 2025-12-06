@@ -31,6 +31,7 @@ export interface DeviceConfig {
     // file system type of OS partitions
     system_fs_type: FsType
     build_id: string
+    is_beta_build_id: boolean
     backport_build_id: string | undefined
     backport_base_firmware?: boolean
     prev_build_id: string
@@ -189,6 +190,9 @@ export const EMPTY_INCLUDE_FILTERS = {
 
 const DEFAULT_CONFIG_BASE = {
   type: ConfigType.Device,
+  device: {
+    is_beta_build_id: false,
+  },
   platform: {
     namespaces: [],
     extra_product_makefiles: [],
