@@ -6849,7 +6849,7 @@ sysconfig/vendor/permissions/com.google.android.camera.experimental2024.xml: 333
 sysconfig/vendor/permissions/com.google.pixel.camera.concurrent_foldable_dual_front.xml: b081a1d2986b511459937c6fa64891aafed7e302a31524501f8dbef31a368882
 sysconfig/vendor/permissions/vendor.android.hardware.camera.preview-dis.xml: 2d3bbe40336a58b6ce38a2093695c5ca95db40e6a8203223951408647abc54ba
 sysprop: dir
-sysprop/product.prop: 4b5a719affd282eeda26cb7dc517347850a326cecbeb3a2b19cb2cb4871a770b
+sysprop/product.prop: 90cb08496e25c8bb767fa5cba03e73fce0fba1617979fb467f156605b958c228
 sysprop/system_ext.prop: 24b7e6e3078f9563354b69ee741b824a6b81fed4747c32ba7ce77b696b67584c
 sysprop/vendor.prop: 79c631eb2644800e043b779faad324ab14d3a77ef80a27df83958416a3e9fd4d
 vintf: dir

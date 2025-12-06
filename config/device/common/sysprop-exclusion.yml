@@ -157,6 +157,7 @@ sysprop_exclusions:
   - setupwizard.feature.skip_button_use_mobile_data.carrier1839 = true
   - setupwizard.personal_safety_suw_enabled = true
   - setupwizard.personal_safety_suw_satellite_sos_visible = false
+  - setupwizard.theme = glif_expressive # TODO switch to glif_expressive in base OS
   - sota.charge.stop.level
   - vendor.audiodump.cca.config
   - vendor.audiodump.enable

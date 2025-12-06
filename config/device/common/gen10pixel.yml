@@ -265,7 +265,6 @@ sysprop_exclusions:
   - setupwizard.feature.joined_up_loading = true
   - setupwizard.feature.locale_agnostic_enabled = true
   - setupwizard.feature.quick_start_betocq_tests_passed = true
-  - setupwizard.theme = glif_expressive
 
 vintf_inclusions:
   - com.google.input.ITwoshayFileDumpService/touchflow_default

@@ -4898,7 +4898,7 @@ sysconfig/vendor/permissions/android.software.vulkan.deqp.level.xml: 1b62764c61d
 sysconfig/vendor/permissions/com.google.android.camera.experimental2021.xml: 78ecf5eb4a0d39ef430fb5534ca21f5e04bb6ee35f4804e0c1f4b86acb47164d
 sysconfig/vendor/permissions/vendor.android.hardware.camera.preview-dis.xml: 2d3bbe40336a58b6ce38a2093695c5ca95db40e6a8203223951408647abc54ba
 sysprop: dir
-sysprop/product.prop: 73f7ae0f7c8b2a9e36197ca92876a42699b5862037ee5c6de093f2d315bea02a
+sysprop/product.prop: 4088add7f9c3dde9dc0602800fe692aaec57ec3031e3ece33e8c5f2243e41be3
 sysprop/system_ext.prop: 0edea4b06dc375aa3b8a3c05de71899ebcecfe02539e831e53d431d190aa718a
 sysprop/vendor.prop: 6bf56841475bdcf0aea929a1933e957a46532471e52a9f20db95af0e996a7371
 vintf: dir

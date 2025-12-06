@@ -61,4 +61,3 @@ ro.vendor.vibrator.hal.device.mass=0.21
 ro.vendor.vibrator.hal.loc.coeff=2.5
 ro.vendor.vibrator.hal.long.frequency.shift=15
 ro.zram_backing_device_min_free_mb=1536
-setupwizard.theme=glif_expressive

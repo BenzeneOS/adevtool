@@ -460,7 +460,6 @@ sysprop_inclusions:
   - ro.zram.mark_idle_delay_mins = 60
   - ro.zram.periodic_wb_delay_hours = 24
   - ro.zram_backing_device_min_free_mb = 1536
-  - setupwizard.theme = glif_expressive # TODO consider moving it to base OS
   - suspend.max_sleep_time_millis = 40000
   - suspend.short_suspend_backoff_enabled = true
   - suspend.short_suspend_threshold_millis = 2000
