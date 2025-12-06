@@ -1,6 +1,6 @@
 device:
   name: lynx
-  build_id: BP41.250916.015.A1 # 16 QPR2 Beta 3.3
 
 includes:
   - common/gen7pixel.yml
+  - lynx_beta.yml

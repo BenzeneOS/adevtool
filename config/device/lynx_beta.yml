@@ -1,0 +1,19 @@
+device:
+  build_id: BP41.250916.015.A1 # 16 QPR2 Beta 3.3
+  is_beta_build_id: true
+
+sysprop_exclusions:
+  - ro.build.flavor = lynx_beta-user
+  - ro.product.odm.name = lynx_beta
+  - ro.product.odm_dlkm.name = lynx_beta
+  - ro.product.product.name = lynx_beta
+  - ro.product.system_dlkm.name = lynx_beta
+  - ro.product.system_ext.name = lynx_beta
+  - ro.product.vendor.name = lynx_beta
+  - ro.product.vendor_dlkm.name = lynx_beta
+
+filters:
+  file_inclusions:
+    match:
+      - vendor/lib64/hardware.google.bluetooth.ext@1.0.so
+      - vendor/lib64/hw/hardware.google.bluetooth.ext@1.0-impl.so

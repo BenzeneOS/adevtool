@@ -634,6 +634,7 @@ package_exclusions:
   - com.google.android.federatedcompute
   - com.google.android.feedback
   - com.google.android.flipendo # Extreme Battery Saver
+  - com.google.android.glasses.core
   - com.google.android.gnsspixelmonitor
   - com.google.android.GoogleCameraEng
   - com.google.android.grilservice
