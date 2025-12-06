@@ -1,5 +1,5 @@
 canonical_name: "orange_be"
-version: 72000000015
+version: 73000000016
 apns {
   apn {
     name: "Orange MMS"
@@ -88,29 +88,8 @@ configs {
     key: "imsvoice.amrnb_payload_description_bundle"
     bundle {
       config {
-        key: "100"
-        bundle {
-          config {
-            key: "imsvoice.amr_codec_attribute_modeset_int_array"
-            int_array {
-              item: 0
-              item: 3
-              item: 6
-            }
-          }
-        }
-      }
-      config {
         key: "101"
         bundle {
-          config {
-            key: "imsvoice.amr_codec_attribute_modeset_int_array"
-            int_array {
-              item: 0
-              item: 3
-              item: 6
-            }
-          }
           config {
             key: "imsvoice.amr_codec_attribute_payload_format_int"
             int_value: 1
@@ -319,5 +298,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1736946272
+  seconds: 1757476348
 }

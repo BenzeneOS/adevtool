@@ -119,6 +119,11 @@
         <fqname>@1.0::IBTChannelAvoidance/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>hardware.google.bluetooth.ext</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IBluetoothExt/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>hardware.google.bluetooth.sar</name>
         <transport>hwbinder</transport>
         <fqname>@1.1::IBluetoothSar/default</fqname>

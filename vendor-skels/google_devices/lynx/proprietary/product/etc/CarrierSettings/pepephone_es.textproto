@@ -1,5 +1,5 @@
 canonical_name: "pepephone_es"
-version: 72000000014
+version: 73000000015
 apns {
   apn {
     name: "Internet"
@@ -23,6 +23,24 @@ apns {
   }
 }
 configs {
+  config {
+    key: "carrier_certificate_string_array"
+    text_array {
+      item: "4eed01853eb98d0e48a6d6e88862f60bcf1f228a30425197ad5db0844b596003:com.yoigo.miyoigo,com.yoigo.miyoigo.staging"
+      item: "3835ed964ace7b9eae2c811f76a4c03bd93262f1b344f0c899d5214e7151071a:com.masmovil.masmovil,com.masmovil.masmovil.staging"
+      item: "7ba63f627d11774be2630257cd05ad49fa11e4e7ca541b714e38e41971b90aa1:com.llamaya.millamaya,com.llamaya.millamaya.staging"
+      item: "28a0475406d499e5e553167b0959632d9611117c9a70e1047229a51de2a6acda:eus.guuk.miguuk,eus.guuk.miguuk.staging"
+      item: "2b42d2766b78a10d6c46e2c5db82da2bed7a0422a922c6e16004d48d1ff17a47:es.sweno.misweno,es.sweno.misweno.staging"
+      item: "4f5801dec3ef6091a68cb3189b4c87d33dfa51f358843a9664b3efe331c0b915:com.lycamobile.milycamobile,com.lycamobile.milycamobile.staging"
+      item: "c83e521c6ea926a445fc14c63d7d28af88475f5cd673b213c046970820b0917f:com.lebara.milebara,com.lebara.milebara.staging"
+      item: "6bda757bf173446a88ff7207e573417b3013e305d1d762feb308c72c1824c6c5:ekt.moveus.applikate,ekt.moveus.applikate.staging"
+      item: "612ad665126e2392c90f2a9893d7b6d0588aa28cd66510dca76231e239cc8202:com.mundor.apps.cliente.autenticacion,com.mundor.apps.cliente.autenticacion.staging"
+      item: "89f4dcb6171434668ff3f9318fe350e658ad9cf524a1829ac875199dabfb009c:es.telecable.app.corporativa,es.telecable.app.corporativa.staging"
+      item: "d323a4b7806b1ba157732d4bc43970ba4c9f6163fa065b7512504fbe4ab37f77:es.virgintelco.myapp,es.virgintelco.myapp.staging"
+      item: "1faa0158c092e9fa95a68eaffc518b83acd5af316c244661404aefebf590d435:com.racctelplus.app,com.racctelplus.app.staging"
+      item: "dfbd378c05733f6e85ed6f048c97c587282eb41bc8e0eb0a4734b7bb85827597:com.yoigo.miyoigo.debug,com.yoigo.miyoigo.staging.debug,com.masmovil.masmovil.debug,com.masmovil.masmovil.staging.debug,com.llamaya.millamaya.debug,com.llamaya.millamaya.staging.debug,eus.guuk.miguuk.debug,eus.guuk.miguuk.staging.debug,es.sweno.misweno.debug,es.sweno.misweno.staging.debug,com.lycamobile.milycamobile.debug,com.lycamobile.milycamobile.staging.debug,com.lebara.milebara.debug,com.lebara.milebara.staging.debug,ek.moveus.applikate.debug,ek.moveus.applikate.staging.debug,com.mundor.apps.cliente.autenticacion.debug,com.mundor.apps.cliente.autenticacion.staging.debug,es.telecable.app.corporativa.debug,es.telecable.app.corporativa.staging.debug,es.virgintelco.myapp.debug,es.virgintelco.myapp.staging.debug,com.racctelplus.app.debug,com.racctelplus.app.staging.debug"
+    }
+  }
   config {
     key: "carrier_supports_ss_over_ut_bool"
     bool_value: true
@@ -146,5 +164,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1736946272
+  seconds: 1756276475
 }

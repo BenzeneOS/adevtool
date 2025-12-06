@@ -1,5 +1,5 @@
 canonical_name: "telia_dk"
-version: 72000000013
+version: 73000000013
 apns {
   apn {
     name: "Internet"

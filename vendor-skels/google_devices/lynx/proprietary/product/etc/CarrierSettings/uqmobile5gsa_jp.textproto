@@ -1,5 +1,5 @@
 canonical_name: "uqmobile5gsa_jp"
-version: 72000000012
+version: 73000000013
 apns {
   apn {
     name: "UQ mobile"
@@ -427,6 +427,15 @@ configs {
     int_value: 120
   }
   config {
+    key: "non_roaming_operator_string_array"
+    text_array {
+      item: "44091"
+      item: "44092"
+      item: "44093"
+      item: "44094"
+    }
+  }
+  config {
     key: "nr_timers_reset_if_non_endc_and_rrc_idle_bool"
     bool_value: true
   }
@@ -479,5 +488,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1742382138
+  seconds: 1753863625
 }

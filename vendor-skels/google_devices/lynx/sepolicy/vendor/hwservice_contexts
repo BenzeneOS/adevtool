@@ -9,3 +9,4 @@ vendor.samsung_slsi.telephony.hardware.radioExternal::IOemSlsiRadioExternal u:ob
 vendor.google.radioext::IRadioExt u:object_r:hal_radioext_hwservice:s0
 hardware.google.bluetooth.bt_channel_avoidance::IBTChannelAvoidance u:object_r:hal_bluetooth_coexistence_hwservice:s0
 hardware.google.bluetooth.sar::IBluetoothSar u:object_r:hal_bluetooth_coexistence_hwservice:s0
+hardware.google.bluetooth.ext::IBluetoothExt u:object_r:hal_bluetooth_coexistence_hwservice:s0

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="charge_limit_indexing_keywords">ചാർജിംഗ്, പരിധി, ചാർജിംഗ് ഒപ്റ്റിമൈസേഷൻ, ചാർജിംഗ് പരിധി</string>
-    <string formatted="false" name="charging_optimization_footer_charge_limit">ബാറ്ററിയുടെ ആയുസ് വർദ്ധിപ്പിക്കാൻ സഹായിക്കുന്നതിനായി, നിങ്ങളുടെ ഫോൺ ബാറ്ററി {batteryLimitLevel}% വരെ മാത്രമേ ചാർജ് ചെയ്യൂ. നിങ്ങളുടെ ഫോൺ അതിന്റെ ബാറ്ററി നിലയുടെ റിപ്പോർട്ടിംഗ് കൃത്യത നിലനിർത്താൻ ഒന്നോ രണ്ടോ ആഴ്‌ചയിലൊരിക്കൽ 100% ചാർജ് ചെയ്യും.</string>
-    <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% ആയി പരിമിതപ്പെടുത്തുക</string>
+    <string name="charging_optimization_entry_summary_charge_limit">%1$s എന്നതിലേക്ക് പരിമിതപ്പെടുത്തുക</string>
+    <string name="charging_optimization_footer_message_charge_limit">ബാറ്ററിയുടെ ആയുസ് വർദ്ധിപ്പിക്കാൻ സഹായിക്കുന്നതിനായി, നിങ്ങളുടെ ഫോൺ ബാറ്ററി %1$s വരെ മാത്രമേ ചാർജ് ചെയ്യൂ. നിങ്ങളുടെ ഫോൺ അതിന്റെ ബാറ്ററി നിലയുടെ റിപ്പോർട്ടിംഗ് കൃത്യത നിലനിർത്താൻ ഒന്നോ രണ്ടോ ആഴ്‌ചയിലൊരിക്കൽ %2$s ചാർജ് ചെയ്യും.</string>
     <string name="charging_optimization_summary_off">ഓഫാണ്</string>
     <string name="charging_optimization_title">ചാർജിംഗ് ഒപ്റ്റിമൈസേഷൻ</string>
 </resources>

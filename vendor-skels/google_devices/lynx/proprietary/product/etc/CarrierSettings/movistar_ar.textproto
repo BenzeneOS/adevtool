@@ -1,0 +1,46 @@
+canonical_name: "movistar_ar"
+version: 73000000001
+apns {
+  apn {
+    name: "Movistar INTERNET"
+    value: "wap.gprs.unifon.com.ar"
+    type: DEFAULT
+    type: SUPL
+    user: "wap"
+    password: "wap"
+    authtype: 1
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+  }
+  apn {
+    name: "Movistar MMS"
+    value: "mms.gprs.unifon.com.ar"
+    type: MMS
+    user: "mms"
+    password: "mms"
+    authtype: 1
+    mmsc: "http://mms.movistar.com.ar"
+    mmsc_proxy: "200.68.32.239"
+    mmsc_proxy_port: "8080"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+  }
+  apn {
+    name: "Movistar IMS"
+    value: "ims"
+    type: IMS
+    bearer_bitmask: "14|20"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
+}
+configs {
+  config {
+    key: "carrier_volte_available_bool"
+    bool_value: true
+  }
+}
+last_updated {
+  seconds: 1755679331
+}

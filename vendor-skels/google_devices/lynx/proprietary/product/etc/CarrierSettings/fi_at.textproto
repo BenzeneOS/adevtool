@@ -1,5 +1,5 @@
 canonical_name: "fi_at"
-version: 72000000015
+version: 73000000017
 apns {
 }
 configs {
@@ -210,6 +210,7 @@ configs {
   config {
     key: "imsemergency.emergency_over_ims_supported_rats_int_array"
     int_array {
+      item: 6
       item: 3
     }
   }
@@ -344,8 +345,6 @@ configs {
     key: "iwlan.diffie_hellman_groups_int_array"
     int_array {
       item: 14
-      item: 15
-      item: 16
     }
   }
   config {
@@ -589,5 +588,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1740119820
+  seconds: 1756276475
 }

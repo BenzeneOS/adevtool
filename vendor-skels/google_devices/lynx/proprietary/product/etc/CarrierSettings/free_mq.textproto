@@ -1,5 +1,5 @@
 canonical_name: "free_mq"
-version: 72000000002
+version: 73000000003
 apns {
   apn {
     name: "Free Mq"
@@ -8,6 +8,7 @@ apns {
     type: MMS
     mmsc: "http://mms.free.mq"
     protocol: IPV4V6
+    roaming_protocol: IPV4V6
   }
 }
 configs {
@@ -21,5 +22,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1717172020
+  seconds: 1753205192
 }

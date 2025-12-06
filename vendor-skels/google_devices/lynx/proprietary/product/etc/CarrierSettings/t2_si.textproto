@@ -1,0 +1,48 @@
+canonical_name: "t2_si"
+version: 73000000002
+apns {
+  apn {
+    name: "T2"
+    value: "internet.t-2.net"
+    type: DEFAULT
+    type: MMS
+    type: SUPL
+    mmsc: "http://www.mms.t-2.net:8002"
+    mmsc_proxy: "172.20.18.137"
+    mmsc_proxy_port: "8080"
+  }
+  apn {
+    name: "IMS"
+    value: "ims"
+    type: IMS
+    bearer_bitmask: "14|20"
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+    user_visible: false
+  }
+}
+configs {
+  config {
+    key: "carrier_volte_available_bool"
+    bool_value: true
+  }
+  config {
+    key: "ignore_rtt_mode_setting_bool"
+    bool_value: true
+  }
+  config {
+    key: "rtt_downgrade_supported_bool"
+    bool_value: true
+  }
+  config {
+    key: "rtt_supported_bool"
+    bool_value: true
+  }
+  config {
+    key: "rtt_supported_while_roaming_bool"
+    bool_value: true
+  }
+}
+last_updated {
+  seconds: 1757476348
+}
