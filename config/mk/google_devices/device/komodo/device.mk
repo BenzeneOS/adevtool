@@ -4,5 +4,3 @@ TARGET_KERNEL_DIR ?= $(RELEASE_KERNEL_KOMODO_DIR)
 TARGET_BOARD_KERNEL_HEADERS ?= $(RELEASE_KERNEL_KOMODO_DIR)/kernel-headers
 
 include vendor/adevtool/config/mk/google_devices/platform/zumapro/device.mk
-
-PRODUCT_PACKAGES += restrict-pixel-health-association

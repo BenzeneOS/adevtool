@@ -63,4 +63,6 @@ ifneq ($(BOARD_WITHOUT_RADIO),true)
     PRODUCT_PACKAGES += CarrierConfig2 GosTelephonyProviderOverlay GosTelephonyOverlay
 endif
 
+PRODUCT_PACKAGES += restrict-pixel-health-association
+
 $(call soong_config_set_bool, recovery, target_has_prebuilt_librecovery_ui_ext, true)
