@@ -108,7 +108,7 @@ export default class CollectState extends Command {
     let outDirs: string[] = []
 
     let phase1Worker = async (index: number) => {
-      let outRoot = outRootPrefix + 'phase1_' + index
+      let outRoot = outRootPrefix + index
       outDirs.push(outRoot)
       for (;;) {
         let config = configs.shift()
@@ -206,7 +206,7 @@ export default class CollectState extends Command {
     }
 
     let phase2Worker = async (index: number) => {
-      let outRoot = outRootPrefix + 'phase2_' + index
+      let outRoot = outRootPrefix + index
       outDirs.push(outRoot)
       for (;;) {
         let task = phase2Tasks.shift()
@@ -234,7 +234,7 @@ export default class CollectState extends Command {
     try {
       await Promise.all(phase1Workers)
 
-      if (!flags.keepOutDirs) {
+      if (disallowOutReuse) {
         log('clearing phase 1 build output dirs')
         await Promise.all(outDirs.map(outDir => fs.rm(outDir, { recursive: true, force: true })))
       }
