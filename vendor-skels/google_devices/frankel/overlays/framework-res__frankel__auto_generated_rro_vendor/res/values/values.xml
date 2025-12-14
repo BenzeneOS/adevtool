@@ -404,6 +404,7 @@
     <bool name="config_faceAuthDismissesKeyguard">false</bool>
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
     <bool name="config_hotswapCapable">true</bool>
+    <bool name="config_isDesktopModeSupported">true</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
     <bool name="config_screen_off_udfps_enabled">true</bool>

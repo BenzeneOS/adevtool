@@ -11,6 +11,11 @@ filters:
       # DockSetup itself is not shipped
       - DockSetup__auto_generated_rro_
 
+  overlay_inclusions:
+    match:
+      - android:bool/config_isDesktopModeDevOptionSupported = true
+      - android:bool/config_isDesktopModeSupported = false
+
 sysprop_exclusions:
   - ro.build.characteristics = tablet # TODO consider changing PRODUCT_CHARACTERISTICS := tablet,nosdcard to tablet instead
 
