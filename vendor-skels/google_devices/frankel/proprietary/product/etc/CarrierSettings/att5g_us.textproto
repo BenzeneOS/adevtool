@@ -1,5 +1,5 @@
 canonical_name: "att5g_us"
-version: 73000000005
+version: 73000000006
 apns {
   apn {
     name: "ATT Enhancedphone"
@@ -66,7 +66,7 @@ configs {
   config {
     key: "5g_nr_ssrsrp_thresholds_int_array"
     int_array {
-      item: -156
+      item: -140
       item: -122
       item: -110
       item: -100
@@ -855,5 +855,5 @@ configs {
   }
 }
 last_updated {
-  seconds: 1759289403
+  seconds: 1762545125
 }
