@@ -169,6 +169,8 @@ function parseBetaFactoryOrOtaPage(
 
   let rows = table.rows
 
+  let missingDevices = new Set(devices)
+
   // first row contains row names
   for (let i = 1; i < rows.length; ++i) {
     let row = rows[i]
@@ -196,6 +198,10 @@ function parseBetaFactoryOrOtaPage(
     let buildId = fileName.substring(buildIdStart, buildIdEnd).toUpperCase()
 
     let dlButton = doc.getElementById(`agree-button__${device}_${pageType}_zip`) as HTMLAnchorElement
+    if (!dlButton) {
+      console.error('no download button for ' + device + ' ' + pageType)
+      continue
+    }
     let dlLink = dlButton.href
     assert(path.basename(dlLink) === fileName, dlLink)
 
@@ -204,6 +210,11 @@ function parseBetaFactoryOrOtaPage(
 
     let buildProps = getBuildProps(buildIndex, device, buildId)
     addImageToBuildProps(pageType, dlLink, sha256, buildProps)
+
+    missingDevices.delete(device)
+  }
+  if (missingDevices.size > 0) {
+    console.error(`no ${pageType} image for ${Array.from(missingDevices).join(', ')}`)
   }
 }
 
