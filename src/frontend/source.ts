@@ -222,10 +222,8 @@ async function unpackFactoryImage(factoryImagePath: string, image: DeviceImage, 
         entry.uncompressedSize,
       )
 
-      let fsType = image.deviceConfig.device.system_fs_type
-
       for await (let innerEntry of innerZip) {
-        jobs.push(unpackFsImageZipEntry(innerEntry, fsType, out))
+        jobs.push(unpackFsImageZipEntry(innerEntry, out))
       }
     }
     await Promise.all(jobs)
@@ -269,14 +267,12 @@ async function unpackOtaImage(image: DeviceImage, out: string) {
     },
   )
 
-  let fsType = image.deviceConfig.device.system_fs_type
-
   let jobs = []
 
   for (let fileName of await fs.readdir(out)) {
     let job = async () => {
       let file = path.resolve(out, fileName)
-      if (await unpackFsImage(file, fsType, out)) {
+      if (await unpackFsImage(file, out)) {
         await fs.rm(file)
       }
     }
@@ -329,7 +325,7 @@ async function unpackApex(apexPath: string, dstPath: string) {
       if (isOriginalApex) {
         await unpackApex(unpackedEntry, dstPath)
       } else {
-        await unpackExt4(unpackedEntry, dstPath)
+        await dumpFsImage(unpackedEntry, dstPath)
       }
       await fs.rm(unpackedEntry)
       unpacked = true
@@ -398,7 +394,7 @@ async function unpackBootImage(fsImagePath: string, destinationDir: string) {
   await Promise.all(jobs)
 }
 
-async function unpackFsImageZipEntry(entry: yauzl.Entry, fsType: FsType, unpackedTmpRoot: string) {
+async function unpackFsImageZipEntry(entry: yauzl.Entry, unpackedTmpRoot: string) {
   let fsImageName = entry.filename
 
   let expectedExt = '.img'
@@ -419,11 +415,11 @@ async function unpackFsImageZipEntry(entry: yauzl.Entry, fsType: FsType, unpacke
   let writeStream = (await fs.open(fsImagePath, 'w')).createWriteStream()
   await pipeline(readStream, writeStream)
 
-  await unpackFsImage(fsImagePath, fsType, unpackedTmpRoot)
+  await unpackFsImage(fsImagePath, unpackedTmpRoot)
   await fs.rm(fsImagePath)
 }
 
-async function unpackFsImage(fsImagePath: string, fsType: FsType, baseDestinationDir: string) {
+async function unpackFsImage(fsImagePath: string, baseDestinationDir: string) {
   let fsImageName = path.basename(fsImagePath)
 
   let expectedExt = '.img'
@@ -446,12 +442,7 @@ async function unpackFsImage(fsImagePath: string, fsType: FsType, baseDestinatio
     return true
   }
 
-  if (fsType === FsType.EXT4) {
-    await unpackExt4(fsImagePath, destinationDir)
-  } else {
-    assert(fsType === FsType.EROFS)
-    await unpackErofs(fsImagePath, destinationDir)
-  }
+  await dumpFsImage(fsImagePath, destinationDir)
 
   // unpack compressed APKs
   await Promise.all(
@@ -511,7 +502,33 @@ export function getUnpackedApexesDir(images: DeviceImages) {
   return path.join(images.unpackedFactoryImageDir, UNPACKED_APEXES_DIR_NAME)
 }
 
-async function unpackExt4(fsImagePath: string, destinationDir: string) {
+async function dumpFsImage(fsImagePath: string, destinationDir: string) {
+  let fsType: FsType
+  {
+    let fh = await fs.open(fsImagePath, 'r')
+    let buf = Buffer.alloc(0x40)
+    try {
+      await fh.read(buf, 0, buf.length, 0x400)
+    } finally {
+      await fh.close()
+    }
+    if (buf.readUint32LE(0) === 0xe0f5e1e2) {
+      fsType = FsType.EROFS
+    } else if (buf.readUint16LE(0x38) === 0xef53) {
+      fsType = FsType.EXT4
+    } else {
+      throw new Error('unknown file system image ' + fsImagePath)
+    }
+  }
+  if (fsType === FsType.EXT4) {
+    await dumpExt4(fsImagePath, destinationDir)
+  } else {
+    assert(fsType === FsType.EROFS)
+    await dumpErofs(fsImagePath, destinationDir)
+  }
+}
+
+async function dumpExt4(fsImagePath: string, destinationDir: string) {
   // rdump uses " for quoting
   assert(!destinationDir.includes('"'), destinationDir)
 
@@ -535,7 +552,7 @@ async function unpackExt4(fsImagePath: string, destinationDir: string) {
   )
 }
 
-async function unpackErofs(fsImagePath: string, destinationDir: string) {
+async function dumpErofs(fsImagePath: string, destinationDir: string) {
   await spawnAsyncNoOut(await getHostBinPath('fsck.erofs'), ['--extract=' + destinationDir, fsImagePath])
 }
 
