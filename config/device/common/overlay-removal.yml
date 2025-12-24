@@ -10,9 +10,6 @@ filters:
       - DisplayCutoutEmulationWaterfallOverlay
       - DisplayCutoutEmulationTallOverlay
       - FontNotoSerifSourceOverlay
-      - GlanceableHubConfigOverlay
-      - GlanceableHubSettingsConfigOverlay
-      - GlanceableHubSysuiConfigOverlay
       - GoogleWebViewOverlay
       # already included in fw/base
       - NavigationBarMode3ButtonOverlay
@@ -119,6 +116,8 @@ filters:
       - android:array/config_setContactsDefaultAccountKnownSigners
       - android:array/config_setContactsDefaultAccountKnownSigners = F0FD6C5B410F25CB25C3B53346C8972FAE30F8EE7411DF910480AD6B2D60DB83;1975B2F17177BC89A5DFF31F9E64A6CAE281A53DC1D1D59B1D147FE1C82AFA00
       - android:array/config_setRawContactsDefaultAccountKnownSigners
+      - android:array/config_supportedDreamComplications = 1;2;3;4;5;6;7;8
+      - android:array/config_supportedDreamComplications = 1;3
       - android:array/config_trustedAccessibilityServices = com.google.android.apps.accessibility.voiceaccess/com.google.android.apps.accessibility.voiceaccess.JustSpeakService;com.google.android.accessibility.switchaccess/com.android.switchaccess.SwitchAccessService;com.android.systemui.accessibility.accessibilitymenu/com.android.systemui.accessibility.accessibilitymenu.AccessibilityMenuService;com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService
       - android:array/config_verizon_satellite_enabled_tagids|*
       - android:array/default_wallpaper_component_per_device_color|*

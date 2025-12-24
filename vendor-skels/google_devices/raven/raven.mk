@@ -472,6 +472,9 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiverOverlay \
     DeviceAsWebcamRaven \
     EuiccSupportPixelOverlay \
+    GlanceableHubConfigOverlay \
+    GlanceableHubSettingsConfigOverlay \
+    GlanceableHubSysuiConfigOverlay \
     GoogleConfigOverlay \
     GooglePermissionControllerOverlay \
     GooglePermissionControllerSafetyCenterOverlay \

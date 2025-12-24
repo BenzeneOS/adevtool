@@ -483,7 +483,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CellBroadcastReceiverOverlay \
     EuiccSupportPixelOverlay \
+    GlanceableHubConfigOverlay \
+    GlanceableHubSettingsConfigOverlay \
     GlanceableHubSettingsConfigOverlay2022 \
+    GlanceableHubSysuiConfigOverlay \
     GoogleConfigOverlay \
     GooglePermissionControllerOverlay \
     GooglePermissionControllerSafetyCenterOverlay \

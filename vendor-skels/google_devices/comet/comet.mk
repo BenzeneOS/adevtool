@@ -503,7 +503,10 @@ PRODUCT_PACKAGES += \
     ConnectivityResourcesOverlayCometOverride \
     EuiccSupportPixelOverlay \
     GRilServiceOverlay_CT3 \
+    GlanceableHubConfigOverlay \
+    GlanceableHubSettingsConfigOverlay \
     GlanceableHubSettingsConfigOverlay2022 \
+    GlanceableHubSysuiConfigOverlay \
     GoogleConfigOverlay \
     GooglePermissionControllerOverlay \
     GooglePermissionControllerSafetyCenterOverlay \

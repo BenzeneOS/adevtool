@@ -428,7 +428,10 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiverOverlay \
     CompanionDeviceManager__tablet__auto_generated_characteristics_rro \
     EuiccSupportPixelOverlay \
+    GlanceableHubConfigOverlay \
+    GlanceableHubSettingsConfigOverlay \
     GlanceableHubSettingsConfigOverlay2022 \
+    GlanceableHubSysuiConfigOverlay \
     GoogleConfigOverlay \
     GoogleConfigSideFpsOverlay \
     GooglePermissionControllerOverlay \

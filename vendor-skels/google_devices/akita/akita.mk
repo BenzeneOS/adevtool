@@ -497,7 +497,10 @@ PRODUCT_PACKAGES += \
     AdaptiveHapticsAkitaOverlay \
     CellBroadcastReceiverOverlay \
     EuiccSupportPixelOverlay \
+    GlanceableHubConfigOverlay \
+    GlanceableHubSettingsConfigOverlay \
     GlanceableHubSettingsConfigOverlay2022 \
+    GlanceableHubSysuiConfigOverlay \
     GoogleConfigOverlay \
     GooglePermissionControllerOverlay \
     GooglePermissionControllerSafetyCenterOverlay \

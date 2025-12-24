@@ -471,6 +471,9 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiverOverlay \
     DeviceAsWebcamOriole \
     EuiccSupportPixelOverlay \
+    GlanceableHubConfigOverlay \
+    GlanceableHubSettingsConfigOverlay \
+    GlanceableHubSysuiConfigOverlay \
     GoogleConfigOverlay \
     GooglePermissionControllerOverlay \
     GooglePermissionControllerSafetyCenterOverlay \

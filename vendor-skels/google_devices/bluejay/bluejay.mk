@@ -459,6 +459,9 @@ PRODUCT_PACKAGES += \
     AdaptiveHapticsBluejayOverlay \
     CellBroadcastReceiverOverlay \
     EuiccSupportPixelOverlay \
+    GlanceableHubConfigOverlay \
+    GlanceableHubSettingsConfigOverlay \
+    GlanceableHubSysuiConfigOverlay \
     GoogleConfigOverlay \
     GooglePermissionControllerOverlay \
     GooglePermissionControllerSafetyCenterOverlay \

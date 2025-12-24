@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_swipeToOpenGlanceableHub">true</bool>
+    <dimen name="config_ambientDarkModeThreshold">5.0</dimen>
+    <dimen name="config_ambientLightModeThreshold">12.0</dimen>
+</resources>

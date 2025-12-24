@@ -499,7 +499,10 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiverOverlay \
     ConnectivityResourcesOverlayCaimitoOverride \
     EuiccSupportPixelOverlay \
+    GlanceableHubConfigOverlay \
+    GlanceableHubSettingsConfigOverlay \
     GlanceableHubSettingsConfigOverlay2022 \
+    GlanceableHubSysuiConfigOverlay \
     GoogleConfigOverlay \
     GooglePermissionControllerOverlay \
     GooglePermissionControllerSafetyCenterOverlay \

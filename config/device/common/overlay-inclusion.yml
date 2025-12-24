@@ -98,7 +98,6 @@ filters:
       - android:array/config_screenThresholdLevels|*
       - android:array/config_serviceStateLocationAllowedPackages = com.shannon.imsservice;com.android.phone
       - android:array/config_smallAreaDetectionAllowlist|*
-      - android:array/config_supportedDreamComplications = 1;2;3;4;5;6;7;8
       - android:array/config_telephonyEuiccDeviceCapabilities = gsm,9;utran,9;eutran,16;nrepc,16;nr5gc,16;eutran5gc,16
       - android:array/config_telephonyEuiccDeviceCapabilities|*
       - android:array/config_tether_usb_regexs|*
@@ -117,6 +116,7 @@ filters:
       - android:bool/config_allowAutoBrightnessWhileDozing = true
       - android:bool/config_allowNormalBrightnessControllerFeature = true
       - android:bool/config_allowRotationResolver = false
+      - android:bool/config_alwaysAllowDreamRotation = true
       - android:bool/config_animateScreenLights = false
       - android:bool/config_appCompatUserAppAspectRatioFullscreenIsEnabled = true
       - android:bool/config_appCompatUserAppAspectRatioSettingsIsEnabled = true
@@ -154,9 +154,11 @@ filters:
       - android:bool/config_dozeAlwaysOnEnabled = false
       - android:bool/config_dozePickupGestureEnabled = false
       - android:bool/config_dozePulsePickup = true
+      - android:bool/config_dreamsActivatedOnDockByDefault = false
       - android:bool/config_dreamsActivatedOnDockByDefault = true
       - android:bool/config_dreamsActivatedOnPosturedByDefault = false
       - android:bool/config_dreamsActivatedOnSleepByDefault = false
+      - android:bool/config_dreamsActivatedOnSleepByDefault = true
       - android:bool/config_dreamsDisabledByAmbientModeSuppressionConfig = true
       - android:bool/config_dreamsEnabledByDefault = false
       - android:bool/config_dreamsOnlyEnabledForDockUser = true
@@ -181,6 +183,7 @@ filters:
       - android:bool/config_fingerprintSupportsGestures|*
       - android:bool/config_flexibleSplitRatios = true
       - android:bool/config_fold_lock_behavior = true
+      - android:bool/config_glanceableHubEnabled = true
       - android:bool/config_glanceableHubEnabledByDefault = true
       - android:bool/config_hideDisplayCutoutWithDisplayArea = true
       - android:bool/config_hotspotNetworksEnabledForService = false
@@ -730,13 +733,17 @@ filters:
       - com.android.settings:bool/config_psim_conversion_menu_enabled = true
       - com.android.settings:bool/config_robust_open_close_detection_setting_enabled|*
       - com.android.settings:bool/config_screen_protector_notification_v2 = true
+      - com.android.settings:bool/config_show_communal_settings_mobile = true
       - com.android.settings:bool/config_show_connectivity_helper_call_quality = true
       - com.android.settings:bool/config_show_connectivity_helper_d2d = true
       - com.android.settings:bool/config_show_emergency_settings = false
       - com.android.settings:bool/config_show_glanceable_hub_toggle_setting = true
+      - com.android.settings:bool/config_show_glanceable_hub_toggle_setting_mobile = false
+      - com.android.settings:bool/config_show_glanceable_hub_toggle_setting_mobile = true
       - com.android.settings:bool/config_show_mobile_plan = false
       - com.android.settings:bool/config_show_premium_sms = false
       - com.android.settings:bool/config_show_restrict_to_wireless_charging = false
+      - com.android.settings:bool/config_show_restrict_to_wireless_charging = true
       - com.android.settings:bool/config_show_sim_info = false
       - com.android.settings:bool/config_show_sim_info = true
       - com.android.settings:bool/config_show_smooth_display = true
@@ -861,6 +868,7 @@ filters:
       - com.android.settings:string/dream_no_screen_saver_preview_caption|*
       - com.android.settings:string/dream_secondary_button_title|*
       - com.android.settings:string/edge_to_edge_navigation_summary|*
+      - com.android.settings:string/enable_glanceable_hub_toggle_summary|*
       - com.android.settings:string/fast_pair_device_not_found_other_device_description|*
       - com.android.settings:string/fast_pair_device_not_found_tws_headphone_description|*
       - com.android.settings:string/fingerprint_acquired_imager_dirty_udfps|*
@@ -1044,6 +1052,7 @@ filters:
       - com.android.settings:string/unlock_disable_frp_warning_content_unknown_face_fingerprint|*
       - com.android.settings:string/unlock_disable_frp_warning_content_unknown_fingerprint|*
       - com.android.settings:string/wfc_disclaimer_emergency_limitation_desc_text|*
+      - com.android.settings:string/when_to_show_hubmode_charging_and_upright|*
       - com.android.settings:string/when_to_show_hubmode_charging|*
       - com.android.settings:string/when_to_show_hubmode_docked|*
       - com.android.settings:string/when_to_show_hubmode_never|*
@@ -1123,6 +1132,8 @@ filters:
       - com.android.systemui:dimen/burn_in_prevention_offset_x|*
       - com.android.systemui:dimen/burn_in_prevention_offset_y_clock|*
       - com.android.systemui:dimen/burn_in_prevention_offset_y|*
+      - com.android.systemui:dimen/config_ambientDarkModeThreshold = 5.0
+      - com.android.systemui:dimen/config_ambientLightModeThreshold = 12.0
       - com.android.systemui:dimen/config_rounded_mask_size_bottom|*
       - com.android.systemui:dimen/config_rounded_mask_size_top|*
       - com.android.systemui:dimen/config_rounded_mask_size|*

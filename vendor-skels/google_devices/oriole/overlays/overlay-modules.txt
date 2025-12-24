@@ -1,6 +1,9 @@
 CellBroadcastReceiverOverlay
 DeviceAsWebcamOriole
 EuiccSupportPixelOverlay
+GlanceableHubConfigOverlay
+GlanceableHubSettingsConfigOverlay
+GlanceableHubSysuiConfigOverlay
 GoogleConfigOverlay
 GooglePermissionControllerOverlay
 GooglePermissionControllerSafetyCenterOverlay
