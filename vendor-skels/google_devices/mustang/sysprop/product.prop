@@ -82,6 +82,7 @@ ro.arm64.memtag.bootctl_device_policy_manager=true
 ro.bluetooth.leaudio_broadcast_switcher.supported=true
 ro.bluetooth.leaudio_offload.supported=true
 ro.bluetooth.leaudio_switcher.supported=true
+ro.build.device_family=FL5BZ5MT5RG5
 ro.gwfcactivation.disabled_carriers=1492
 ro.launcher.blur.appLaunch=0
 ro.odm.build.media_performance_class=35

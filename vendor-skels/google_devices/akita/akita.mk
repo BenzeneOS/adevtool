@@ -3,8 +3,8 @@
 
 include vendor/google_devices/akita/adevtool-version-check.mk
 
-ifneq ($(BUILD_ID),BP4A.251205.006)
-  $(error BUILD_ID: expected BP4A.251205.006, got $(BUILD_ID))
+ifneq ($(BUILD_ID),BP4A.251205.006.E1)
+  $(error BUILD_ID: expected BP4A.251205.006.E1, got $(BUILD_ID))
 endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/akita/device.mk)

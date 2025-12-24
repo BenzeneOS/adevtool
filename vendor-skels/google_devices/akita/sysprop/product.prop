@@ -72,6 +72,7 @@ ro.bluetooth.finder.supported=true
 ro.bluetooth.leaudio.le_audio_connection_by_default=true
 ro.bluetooth.leaudio_offload.supported=true
 ro.bluetooth.leaudio_switcher.supported=true
+ro.build.device_family=HK3SB3AK3
 ro.gms.pixelmigrate.has_usb_a_to_c_adapter=true
 ro.gwfcactivation.disabled_carriers=1492
 ro.launcher.blur.appLaunch=0

@@ -3,6 +3,7 @@ includes:
 
 device:
   platform: gs201
+  build_id: BP4A.251205.006
 
 filters:
   file_exclusions:

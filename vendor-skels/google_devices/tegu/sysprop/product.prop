@@ -75,6 +75,7 @@ ro.bluetooth.finder.supported=true
 ro.bluetooth.leaudio.le_audio_connection_by_default=true
 ro.bluetooth.leaudio_offload.supported=true
 ro.bluetooth.leaudio_switcher.supported=true
+ro.build.device_family=CM4KM4TK4TG4
 ro.gwfcactivation.disabled_carriers=1492
 ro.launcher.blur.appLaunch=0
 ro.opa.eligible_device=true
