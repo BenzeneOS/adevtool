@@ -5,6 +5,7 @@ import path from 'path'
 
 import assert from 'assert'
 import { createWriteStream, promises as fs } from 'fs'
+import hasha from 'hasha'
 import { parseInt } from 'lodash'
 import { promises as stream } from 'stream'
 import { DeviceConfig } from '../config/device'
@@ -17,8 +18,8 @@ import {
 import { Request } from '../proto-ts/vendor/adevtool/assets/request'
 import { Response } from '../proto-ts/vendor/adevtool/assets/response'
 import { exists, listFilesRecursive, TMP_PREFIX } from '../util/fs'
-import { spawnAsyncStdin } from '../util/process'
 import { log } from '../util/log'
+import { spawnAsync2, SpawnCmd } from '../util/process'
 
 const PROTO_PATH = `${OS_CHECKOUT_DIR}/packages/apps/CarrierConfig2/src/com/google/carrier`
 
@@ -132,7 +133,7 @@ export async function downloadAllConfigs(config: Map<string, string>, outDir: st
   }
 }
 
-export async function decodeConfigs(cfgPath: string, outDir: string) {
+export async function decodeCarrierConfigs(cfgPath: string, outDir: string) {
   let promises: Promise<void>[] = []
   if (await exists(cfgPath)) {
     await fs.mkdir(outDir, { recursive: true })
@@ -163,8 +164,13 @@ export async function decodeConfigs(cfgPath: string, outDir: string) {
 }
 
 async function decodeConfig(args: ReadonlyArray<string>, inputFile: string, outputFile: string) {
-  const decoded = await spawnAsyncStdin(await getHostBinPath('aprotoc'), args, await fs.readFile(inputFile))
-  await fs.writeFile(outputFile, decoded)
+  let cmd = {
+    command: await getHostBinPath('aprotoc'),
+    args,
+    stdinFileSource: inputFile,
+    stdoutFileSink: outputFile,
+  } as SpawnCmd
+  await spawnAsync2(cmd)
 }
 
 export async function getVersionsMap(dir: string): Promise<Map<string, number>> {

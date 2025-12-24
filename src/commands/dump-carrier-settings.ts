@@ -2,7 +2,7 @@ import { Command, Flags } from '@oclif/core'
 import path from 'path'
 
 import assert from 'assert'
-import { decodeConfigs } from '../blobs/carrier'
+import { decodeCarrierConfigs } from '../blobs/carrier'
 import { DEVICE_CONFIGS_FLAG_WITH_BUILD_ID, getDeviceBuildId, loadDeviceConfigs2 } from '../config/device'
 import { CARRIER_SETTINGS_FACTORY_PATH, VENDOR_MODULE_SKELS_DIR } from '../config/paths'
 import { forEachDevice } from '../frontend/devices'
@@ -43,7 +43,7 @@ export default class DumpCarrierSettings extends Command {
           )
           const outDir = flags.out !== undefined ? path.join(flags.out, config.device.name) : defaultOutDir
           assert(await exists(stockCsPath))
-          await decodeConfigs(stockCsPath, outDir)
+          await decodeCarrierConfigs(stockCsPath, outDir)
         } else {
           log(`${config.device.name} is not supported due to lack of cellular connectivity`)
         }

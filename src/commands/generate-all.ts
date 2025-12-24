@@ -11,7 +11,7 @@ import {
   writeVersionCheckFile,
 } from '../blobs/build'
 import {
-  decodeConfigs,
+  decodeCarrierConfigs,
   downloadAllConfigs,
   fetchUpdateConfig,
   getCarrierSettingsUpdatesDir,
@@ -52,6 +52,7 @@ import { writeReadme } from '../frontend/readme'
 import { DeviceImages, prepareDeviceImages } from '../frontend/source'
 import { BuildIndex, ImageType, loadBuildIndex } from '../images/build-index'
 import { processApks } from '../processor/apk-processor'
+import { processSystemServerClassPaths } from '../processor/classpath'
 import { processSepolicy } from '../processor/sepolicy'
 import { processSysconfig } from '../processor/sysconfig'
 import { processVintf } from '../processor/vintf'
@@ -68,7 +69,6 @@ import {
 import { exists, listFilesRecursive } from '../util/fs'
 import { log } from '../util/log'
 import { PathResolver } from '../util/partitions'
-import { processSystemServerClassPaths } from '../processor/classpath'
 
 interface DeviceInfo {
   sdkVersion: string
@@ -263,13 +263,15 @@ export default class GenerateFull extends Command {
         }
 
         if (flags.updateSpec) {
-          let cpSkelPromise = copyVendorSkel(vendorDirs, config)
-          await writeVendorFileTreeSpec(vendorDirs, config, flags.verbose)
-          await cpSkelPromise
-          await decodeConfigs(
-            getCarrierSettingsVendorDir(vendorDirs),
-            path.join(getVendorModuleSkelDir(config), 'proprietary', CARRIER_SETTINGS_FACTORY_PATH),
-          )
+          let skelDir = getVendorModuleSkelDir(config)
+          await fs.rm(skelDir, { force: true, recursive: true })
+          let decodedCarrierSettingsDir = path.join(skelDir, 'proprietary', CARRIER_SETTINGS_FACTORY_PATH)
+          await fs.mkdir(decodedCarrierSettingsDir, { recursive: true })
+          await Promise.all([
+            copyVendorSkel(skelDir, vendorDirs),
+            writeVendorFileTreeSpec(vendorDirs, config, flags.verbose),
+            decodeCarrierConfigs(getCarrierSettingsVendorDir(vendorDirs), decodedCarrierSettingsDir),
+          ])
         } else {
           if (!flags.noVerify) {
             try {
@@ -365,9 +367,7 @@ async function writeVendorFileTreeSpec(dirs: VendorDirectories, config: DeviceCo
 }
 
 // see readme in vendor-skels/ dir
-async function copyVendorSkel(dirs: VendorDirectories, config: DeviceConfig) {
-  let skelDir = getVendorModuleSkelDir(config)
-
+async function copyVendorSkel(skelDir: string, dirs: VendorDirectories) {
   let copyOptions = {
     errorOnExist: true,
     force: false,
@@ -410,7 +410,6 @@ async function copyVendorSkel(dirs: VendorDirectories, config: DeviceConfig) {
     },
   } as CopyOptions
 
-  await fs.rm(skelDir, { force: true, recursive: true })
   await fs.cp(dirs.out, skelDir, copyOptions)
 }
 
