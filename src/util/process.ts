@@ -1,5 +1,8 @@
 import assert from 'assert'
-import child_process from 'child_process'
+import child_process, { SpawnOptions } from 'child_process'
+import { promises as fs } from 'fs'
+import { FileHandle } from 'fs/promises'
+import { assertNonNull } from './data'
 
 export async function spawnAsyncNoOut(
   command: string,
@@ -35,17 +38,34 @@ export interface SpawnCmd {
   args: ReadonlyArray<string>
   isStderrLineAllowed?: (s: string) => boolean
   stdinData?: Buffer
+  stdinFileSource?: string
+  stdoutFileSink?: string
   handleStdoutBuffer?: (buf: Buffer) => void
   allowedExitCodes?: number[]
 }
 
 // Returns stdout. If there's stderr output, all lines of it should pass the isStderrLineAllowed check
 export async function spawnAsync2(cmd: SpawnCmd) {
-  let proc = child_process.spawn(cmd.command, cmd.args)
+  let spawnOpts = {} as SpawnOptions
+  let fileHandles: FileHandle[] = []
+  if (cmd.stdinFileSource !== undefined) {
+    let fh = await fs.open(cmd.stdinFileSource, 'r')
+    fileHandles.push(fh)
+    spawnOpts.stdio = [fh.fd, 'pipe', 'pipe']
+  }
+  if (cmd.stdoutFileSink !== undefined) {
+    let stdio = spawnOpts.stdio ?? ['pipe', 'pipe', 'pipe']
+    let fh = await fs.open(cmd.stdoutFileSink, 'w')
+    fileHandles.push(fh)
+    stdio[1] = fh.fd
+    spawnOpts.stdio = stdio
+  }
+  let proc = child_process.spawn(cmd.command, cmd.args, spawnOpts)
 
   if (cmd.stdinData !== undefined) {
-    proc.stdin.write(cmd.stdinData)
-    proc.stdin.end()
+    let stdin = assertNonNull(proc.stdin)
+    stdin.write(cmd.stdinData)
+    stdin.end()
   }
 
   let promise = new Promise((resolve, reject) => {
@@ -58,14 +78,17 @@ export async function spawnAsync2(cmd: SpawnCmd) {
         stdoutBufs.push(buf)
       })
 
-    proc.stdout.on('data', data => {
+    proc.stdout?.on('data', data => {
       handleStdoutBuffer(data)
     })
-    proc.stderr.on('data', data => {
+    proc.stderr?.on('data', data => {
       stderrBufs.push(data)
     })
 
     proc.on('close', code => {
+      for (let fd of fileHandles) {
+        fd.close()
+      }
       let stderr = ''
 
       if (stderrBufs.length > 0) {
