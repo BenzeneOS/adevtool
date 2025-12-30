@@ -9,6 +9,9 @@ endif
 
 $(call inherit-product, vendor/adevtool/config/mk/google_devices/device/lynx/device.mk)
 
+# BenzeneOS battery HAL
+$(call inherit-product, hardware/benzeneos/battery/battery.mk)
+
 PRODUCT_SOONG_NAMESPACES += \
     vendor/google_devices/lynx/apk-parser-config \
     vendor/google_devices/lynx/overlays \
