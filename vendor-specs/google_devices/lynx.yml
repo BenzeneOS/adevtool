@@ -4881,7 +4881,7 @@ proprietary/vendor/firmware/uecapconfig/VZW.binarypb: 9885c549174bc9c0b27b5a0a27
 proprietary/vendor/firmware/uecapconfig/WILDCARD.binarypb: 7e556ae2b771c19a297a58ad941f29a7fcfdcc5e08061c178eb6038b3f8ad9f3
 proprietary/vendor/firmware/uecapconfig/WINDTRE.binarypb: b65dfccf20654b2b3e965560577c4e9de347de88457359568271cbb07fabbbb0
 proprietary/vendor/firmware/wlan: dir
-proprietary/vendor/firmware/wlan/qcom_cfg.ini: 749649fd5f93d46049c7c08666ffdff844b9dc437dbab6945d90c00c458705b4
+proprietary/vendor/firmware/wlan/qcom_cfg.ini: 63cfdd1f31853a0c6bce1061c9b418a4a21fc8a05ee6f62a721153ad57cb9b6c
 proprietary/vendor/framework: dir
 proprietary/vendor/framework/com.google.android.camera.experimental2022.jar: 53d75d4be44d2cfd7b06d72a8440bff0fdc00fdaa3a41eed84c018b521afaf6f
 proprietary/vendor/lib64: dir
