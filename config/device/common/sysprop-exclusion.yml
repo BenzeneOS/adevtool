@@ -123,7 +123,7 @@ sysprop_exclusions:
   - ro.system_ext.build.id
   - ro.system_ext.build.tags
   - ro.system_ext.build.version.incremental
-  - ro.usb.data_protection.disable_when_locked.supported = true  # TODO look further into interaction with USB-C port security setting
+  - ro.usb.data_protection.disable_when_locked.supported = true
   - ro.vendor.build.ab_ota_partitions = abl,bl1,bl2,bl31,boot,dtbo,gcf,gsa,gsa_bl1,init_boot,ldfw,modem,pbl,product,pvmfw,system,system_dlkm,system_ext,tzsw,vbmeta,vbmeta_system,vbmeta_vendor,vendor,vendor_boot,vendor_dlkm,vendor_kernel_boot # handled elsewhere
   - ro.vendor.build.ab_ota_partitions = abl,bl1,bl2,bl31,boot,dtbo,gsa,init_boot,ldfw,modem,pbl,product,pvmfw,system,system_dlkm,system_ext,tzsw,vbmeta,vbmeta_system,vbmeta_vendor,vendor,vendor_boot,vendor_dlkm,vendor_kernel_boot
   - ro.vendor.build.ab_ota_partitions = abl,bl1,bl2,bl31,boot,dtbo,gsa,init_boot,ldfw,pbl,product,pvmfw,system,system_dlkm,system_ext,tzsw,vbmeta,vbmeta_system,vbmeta_vendor,vendor,vendor_boot,vendor_dlkm,vendor_kernel_boot
