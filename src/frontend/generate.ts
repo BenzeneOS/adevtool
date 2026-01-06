@@ -155,6 +155,11 @@ export async function enumerateFiles(
   for (let [partition, allPartFiles] of allPartFilesMap.entries()) {
     let excludedPartFiles = new Set<string>(excludedFiles !== null ? excludedFiles[partition] ?? [] : [])
 
+    if (partition === Partition.Recovery) {
+      // prebuilt librecovery_ui_ext includes additional proprietary code
+      excludedPartFiles.delete('system/lib64/librecovery_ui_ext.so')
+    }
+
     let filteredPartPaths = await filterAsync(allPartFiles, async partPath => {
       // filter out files that have special handling
       let relPath = partPath.relPath
