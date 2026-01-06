@@ -5,10 +5,12 @@ on post-fs
     chmod 664 /sys/devices/platform/53f1000.spmi/spmi-0/0-04/data_path_enable
 
 on property:sys.port_security_mode=ports_disabled
+    write /sys/devices/platform/goog_usb_role_sw/disable_usb_data 1
     write /sys/devices/platform/53f1000.spmi/spmi-0/0-04/cc_toggle_enable 0
     write /sys/devices/platform/53f1000.spmi/spmi-0/0-04/data_path_enable 0
 
 on property:sys.port_security_mode=charging-only_immediate
+    write /sys/devices/platform/goog_usb_role_sw/disable_usb_data 1
     write /sys/devices/platform/53f1000.spmi/spmi-0/0-04/data_path_enable 0
     write /sys/devices/platform/53f1000.spmi/spmi-0/0-04/cc_toggle_enable 1
 
@@ -17,5 +19,6 @@ on property:sys.port_security_mode=charging-only
     write /sys/devices/platform/53f1000.spmi/spmi-0/0-04/cc_toggle_enable 1
 
 on property:sys.port_security_mode=ports_enabled
+    write /sys/devices/platform/goog_usb_role_sw/disable_usb_data 0
     write /sys/devices/platform/53f1000.spmi/spmi-0/0-04/data_path_enable 1
     write /sys/devices/platform/53f1000.spmi/spmi-0/0-04/cc_toggle_enable 1
