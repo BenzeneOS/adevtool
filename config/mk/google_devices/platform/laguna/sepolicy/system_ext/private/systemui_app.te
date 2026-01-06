@@ -1,0 +1,1 @@
+allow systemui_app nfc_service:service_manager find;

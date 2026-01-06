@@ -20,7 +20,6 @@ type telephony_modemtype_prop, property_type, system_property_type, system_publi
 type telephony_ntn_demo_mode_prop, property_type, system_property_type, system_restricted_property_type;
 type telephony_modem_prop, property_type, system_property_type, system_restricted_property_type;
 type fingerprint_sp_prop, property_type, system_property_type, system_public_property_type;
-type systemui_app, domain, appdomain, coredomain;
 type vendor_rcs_app, domain, appdomain, netdomain, coredomain;
 type vendor_satellite_service, domain, appdomain, coredomain;
 type edgetpu_app_server_exec, file_type, exec_type, system_file_type;
