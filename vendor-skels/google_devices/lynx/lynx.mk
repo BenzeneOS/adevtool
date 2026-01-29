@@ -92,6 +92,10 @@ PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += vendor/google_devices/lynx/proprietary
 TARGET_SYSTEM_EXT_PROP += vendor/google_devices/lynx/sysprop/system_ext.prop
 TARGET_PRODUCT_PROP += vendor/google_devices/lynx/sysprop/product.prop
 TARGET_VENDOR_PROP += vendor/google_devices/lynx/sysprop/vendor.prop
+TARGET_ODM_PROP += vendor/google_devices/lynx/sysprop/odm.prop
+TARGET_SYSTEM_DLKM_PROP += vendor/google_devices/lynx/sysprop/system_dlkm.prop
+TARGET_VENDOR_DLKM_PROP += vendor/google_devices/lynx/sysprop/vendor_dlkm.prop
+TARGET_ODM_DLKM_PROP += vendor/google_devices/lynx/sysprop/odm_dlkm.prop
 
 # AOSP overrides for missing proprietary files
 PRODUCT_PACKAGES += \
@@ -1440,7 +1444,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/lynx/proprietary/system_ext/priv-app/EuiccSupportPixel/esim-full-v0-security.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/esim-full-v0-security.img \
     vendor/google_devices/lynx/proprietary/system_ext/priv-app/EuiccSupportPixel/esim-full-v0.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/esim-full-v0.img \
     vendor/google_devices/lynx/proprietary/system_ext/priv-app/EuiccSupportPixel/esim-full-v1.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/esim-full-v1.img \
-    vendor/google_devices/lynx/proprietary/vendor_dlkm/etc/init.insmod.lynx.cfg:$(TARGET_COPY_OUT_VENDOR_DLKM)/etc/init.insmod.lynx.cfg \
     vendor/google_devices/lynx/proprietary/vendor_ramdisk/system/etc/fstab.gs201:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/system/etc/fstab.gs201 \
     vendor/google_devices/lynx/proprietary/vendor_ramdisk/system/etc/fstab.gs201-fips:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/system/etc/fstab.gs201-fips \
     vendor/google_devices/lynx/proprietary/vendor/etc/aoc/BLUETOOTH.dat:$(TARGET_COPY_OUT_VENDOR)/etc/aoc/BLUETOOTH.dat \

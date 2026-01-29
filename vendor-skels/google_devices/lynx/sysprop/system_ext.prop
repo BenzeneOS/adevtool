@@ -1,2 +1,3 @@
 remote_provisioning.use_cert_processor=false
 ro.camerax.extensions.enabled=true
+ro.product.name_for_attestation=lynx

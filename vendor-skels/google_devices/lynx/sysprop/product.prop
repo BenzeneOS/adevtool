@@ -60,6 +60,7 @@ ro.launcher.blur.appLaunch=0
 ro.opa.eligible_device=true
 ro.postinstall.fstab.prefix=/product
 ro.preventative_fsck=1
+ro.product.name_for_attestation=lynx
 ro.quick_start.device_id=lynx
 ro.quick_start.oem_id=00e0
 ro.support_hide_display_cutout=true
