@@ -112,7 +112,14 @@ export async function getHostBinPath(programName: string) {
         statusLine.set(statusPrefix + lastLine(buf))
       },
       isStderrLineAllowed(line: string) {
-        return line.endsWith('setpriority(5): Permission denied')
+        // build/soong/ui/build/rbe.go PrintOutDirWarning, colorized and unavoidable since outDir is never "out"
+        const plain = line.replace(/\x1b\[[0-9;]*m/g, '').trim()
+        return (
+          line.endsWith('setpriority(5): Permission denied') ||
+          plain === 'WARNING:' ||
+          plain.includes('may result in slow RBE builds') ||
+          plain.includes('go/android_rbe_out_dir')
+        )
       },
     })
 
