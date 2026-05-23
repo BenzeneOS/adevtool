@@ -112,6 +112,9 @@ async function maybePatch(entry: BlobEntry, srcPath: string, device: string) {
           if (device === 'rango') {
             return patchThermalCfg(await readFile(srcPath))
           }
+          break
+        case 'firmware/wlan/qcom_cfg.ini':
+          return patchWlanConfig(await readFile(srcPath))
       }
       if (relPath.startsWith('etc/fstab')) {
         return patchFstab(await readFile(srcPath))
@@ -249,6 +252,15 @@ function patchThermalCfg(orig: string) {
     }
     return line
   })
+}
+
+function patchWlanConfig(orig: string) {
+  return replaceLines(orig, line => {
+    if (line.startsWith('gActiveUcBpfMode=')) {
+      return '';
+    }
+    return line;
+  }).replace(/\n\n+/g, '\n')
 }
 
 function replaceLines(multiLine: string, callbackFn: (value: string) => string) {
