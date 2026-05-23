@@ -109,7 +109,15 @@ export async function getHostBinPath(programName: string) {
         statusLine.set(statusPrefix + lastLine(buf))
       },
       isStderrLineAllowed(line: string) {
-        return line.endsWith('setpriority(5): Permission denied')
+        // Strip ANSI color codes (AOSP emits e.g. ESC[33m...ESC[0m around 'WARNING:')
+        const plain = line.replace(/\x1b\[[0-9;]*m/g, '').trim()
+        return (
+          line.endsWith('setpriority(5): Permission denied') ||
+          // OUT_DIR != "out" perf warning from AOSP build (cosmetic, fires when OUT_DIR=out-<device>)
+          plain === 'WARNING:' ||
+          plain.startsWith('Setting OUT_DIR to a path other than out may result in slow RBE builds') ||
+          plain.startsWith('See http://go/android_rbe_out_dir for a workaround')
+        )
       },
     })
 
