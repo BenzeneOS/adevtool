@@ -24,11 +24,6 @@ filters:
 
     match:
       - product/apex/com.google.android.gmssystem.prodvic.apex
-      - product/etc/ambient/matcher_tah.leveldb # used by ambient music recognizer
-      - product/etc/firmware/music_detector.descriptor
-      - product/etc/firmware/music_detector.sound_model
-      - product/etc/firmware/music_detector.sound_model_2
-      - product/etc/firmware/music_detector.sound_model_tflite
       - product/etc/fonts_customization.xml
       - product/etc/fstab.postinstall # setups the system_other partition which is not used on GrapheneOS
       - product/etc/init/init.repair_mode.rc
