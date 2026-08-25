@@ -22,10 +22,15 @@ filters:
       - vendor/firmware/uecapconfig/
       - vendor_dlkm/etc/init.insmod.
     match:
+      - product/etc/ambient/matcher_tah.leveldb
       - product/etc/appcompat/compat_framework_overrides.xml
       - product/etc/felica/common.cfg
       - product/etc/felica/mfm.cfg
       - product/etc/felica/mfs.cfg
+      - product/etc/firmware/music_detector.descriptor
+      - product/etc/firmware/music_detector.sound_model
+      - product/etc/firmware/music_detector.sound_model_2
+      - product/etc/firmware/music_detector.sound_model_tflite
       - product/etc/libnfc-nci.conf
       - product/lib/libdmengine.so
       - product/lib/libdmjavaplugin.so

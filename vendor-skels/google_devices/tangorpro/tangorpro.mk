@@ -819,6 +819,11 @@ PRODUCT_PACKAGES += \
     device_symlinks
 
 PRODUCT_COPY_FILES += \
+    vendor/google_devices/tangorpro/proprietary/product/etc/ambient/matcher_tah.leveldb:$(TARGET_COPY_OUT_PRODUCT)/etc/ambient/matcher_tah.leveldb \
+    vendor/google_devices/tangorpro/proprietary/product/etc/firmware/music_detector.descriptor:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.descriptor \
+    vendor/google_devices/tangorpro/proprietary/product/etc/firmware/music_detector.sound_model:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model \
+    vendor/google_devices/tangorpro/proprietary/product/etc/firmware/music_detector.sound_model_2:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model_2 \
+    vendor/google_devices/tangorpro/proprietary/product/etc/firmware/music_detector.sound_model_tflite:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model_tflite \
     vendor/google_devices/tangorpro/proprietary/recovery/init.recovery.gs201.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.gs201.rc \
     vendor/google_devices/tangorpro/proprietary/recovery/init.recovery.tangorpro.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.tangorpro.rc \
     vendor/google_devices/tangorpro/proprietary/recovery/linkerconfig/ld.config.txt:$(TARGET_COPY_OUT_RECOVERY)/root/linkerconfig/ld.config.txt \
