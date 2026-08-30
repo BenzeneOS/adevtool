@@ -7420,7 +7420,7 @@ sysconfig/vendor/permissions/com.google.android.camera.experimental2024.xml: 333
 sysconfig/vendor/permissions/vendor.android.hardware.camera.preview-dis.xml: 2d3bbe40336a58b6ce38a2093695c5ca95db40e6a8203223951408647abc54ba
 sysprop: dir
 sysprop/product.prop: a5d25c29f6625c5f578f01dcc6e1652b39cdb605d13047caba0b4bde844ec984
-sysprop/system_ext.prop: 24b7e6e3078f9563354b69ee741b824a6b81fed4747c32ba7ce77b696b67584c
+sysprop/system_ext.prop: 6c61d0bc32e6a1a2beb11d42bb1285a5b89070341c20e4973abb71c86ab564c2
 sysprop/vendor.prop: 190bcaf1b6e2053c6b3b4e23a10bf45ff39ed45b1008487e520e45472e154bdb
 vintf: dir
 vintf/Android.bp: c9ffd08891ecb53ae8e9094354e795dd69f8739b43792c4ad4b3bc7c768affcf

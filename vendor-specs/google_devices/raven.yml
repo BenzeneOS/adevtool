@@ -5565,7 +5565,7 @@ sysconfig/vendor/permissions/com.google.android.camera.experimental2021.xml: 78e
 sysconfig/vendor/permissions/vendor.android.hardware.camera.preview-dis.xml: 2d3bbe40336a58b6ce38a2093695c5ca95db40e6a8203223951408647abc54ba
 sysprop: dir
 sysprop/product.prop: 0e886e0355ef0c3b96b360a2bd474a55e4d36cfc21883d9f3c486e3539e1a5a6
-sysprop/system_ext.prop: 0edea4b06dc375aa3b8a3c05de71899ebcecfe02539e831e53d431d190aa718a
+sysprop/system_ext.prop: 833f2fc2549112432ac7cdbe26a9122849fe6befd07da488fac1d397ccf08a14
 sysprop/vendor.prop: 4a3bedabb1bc2575dc9e2da5c8c92750990da5e3bd3fd24f22a5085733c1078f
 vintf: dir
 vintf/Android.bp: c9ffd08891ecb53ae8e9094354e795dd69f8739b43792c4ad4b3bc7c768affcf

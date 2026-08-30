@@ -335,7 +335,6 @@ sysprop_inclusions:
   - remote_provisioning.hostname = remoteprovisioning.googleapis.com
   - remote_provisioning.strongbox.rkp_only = 1
   - remote_provisioning.tee.rkp_only = 1
-  - remote_provisioning.use_cert_processor = false
   - ro.appsearch.feature.enable_isolated_storage = true
   - ro.arm64.memtag.bootctl_device_policy_manager = true
   - ro.audio.ihaladaptervendorextension_enabled = true

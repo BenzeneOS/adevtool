@@ -36,6 +36,7 @@ sysprop_exclusions:
   - pm.dexopt.install-bulk-secondary-downgraded = verify
   - pm.dexopt.install-fast = skip
   - pm.dexopt.post-boot = verify
+  - remote_provisioning.use_cert_processor = false
   - repair_mode.init_completed.
   - ro.appsearch.feature.enable_isolated_storage = true # TODO
   - ro.arm64.memtag.bootctl_supported = 1

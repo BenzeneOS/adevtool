@@ -5894,7 +5894,7 @@ sysconfig/vendor/permissions/com.google.android.camera.experimental2024.xml: 333
 sysconfig/vendor/permissions/vendor.android.hardware.camera.preview-dis.xml: 2d3bbe40336a58b6ce38a2093695c5ca95db40e6a8203223951408647abc54ba
 sysprop: dir
 sysprop/product.prop: 9d6bb41a792d46ab8986468338bc1f93bf8eb448fc915b6b134195f421e8b02f
-sysprop/system_ext.prop: 24b7e6e3078f9563354b69ee741b824a6b81fed4747c32ba7ce77b696b67584c
+sysprop/system_ext.prop: 6c61d0bc32e6a1a2beb11d42bb1285a5b89070341c20e4973abb71c86ab564c2
 sysprop/vendor.prop: 7047e67b6505c8077af98de0ea34cf72dc1add76a7451a16d7b6f798aa121c71
 tegu.mk: 731b5e2711a839f5f796385d46532844bcc12f1708e2c92869386a25e3822f1b
 vintf: dir
