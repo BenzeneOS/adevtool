@@ -428,7 +428,6 @@ sysprop_inclusions:
   - remote_provisioning.hostname = remoteprovisioning.googleapis.com
   - remote_provisioning.strongbox.rkp_only = 1
   - remote_provisioning.tee.rkp_only = 1
-  - remote_provisioning.use_cert_processor = false
   - ro.appsearch.feature.enable_aiseal = 1
   - ro.appsearch.feature.enable_isolated_storage = true
   - ro.appsearch.feature.override_isolated_storage_migration_freeze = true
